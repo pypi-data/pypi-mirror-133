@@ -1,0 +1,17 @@
+from disnake.types.webhook import (
+    FollowerWebhook,
+    Literal,
+    Optional,
+    PartialChannel,
+    PartialWebhook,
+    Snowflake,
+    SourceGuild,
+    TypedDict,
+    User,
+    Webhook,
+    WebhookType,
+    _FollowerWebhookOptional,
+    _FullWebhook,
+    _WebhookOptional,
+    annotations,
+)

@@ -1,0 +1,16 @@
+from disnake.types.embed import (
+    Embed,
+    EmbedAuthor,
+    EmbedField,
+    EmbedFooter,
+    EmbedImage,
+    EmbedProvider,
+    EmbedThumbnail,
+    EmbedType,
+    EmbedVideo,
+    List,
+    Literal,
+    TypedDict,
+    _EmbedFieldOptional,
+    _EmbedFooterOptional,
+)
