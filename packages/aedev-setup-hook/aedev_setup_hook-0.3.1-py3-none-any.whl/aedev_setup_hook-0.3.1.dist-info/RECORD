@@ -1,0 +1,17 @@
+aedev/setup_hook.py,sha256=ti1sDVAUupOZ0IZftg6-_F7IW2ASyaWCfOnyax2_8ag,3106
+aedev_setup_hook-0.3.1.data/data/.gitignore,sha256=Co5wSK85apQKUo5QYF9DjhC1wrDacIhAGrM68k2Zczg,1929
+aedev_setup_hook-0.3.1.data/data/.gitlab-ci.yml,sha256=TwQo9UUG2fEengDK6v8zpC6Z_wDtq5st48tr8IHigMQ,1615
+aedev_setup_hook-0.3.1.data/data/CONTRIBUTING.rst,sha256=t_5GDWajMKF2j9NENUpmhZWYIeEzM_ZPg6kcURJVouE,6561
+aedev_setup_hook-0.3.1.data/data/LICENSE.md,sha256=vjUPGAY6UQNQXRkcJO-BM287g1RaFT5pEL8WglsozRg,35001
+aedev_setup_hook-0.3.1.data/data/README.md,sha256=8omGrJTv321zKta_1mr0gCgHtCtKaZJ4f0hv2mHr-T4,3378
+aedev_setup_hook-0.3.1.data/data/SECURITY.md,sha256=aKHVlEpIVZt3eCQb_fYsjJcgKffGjC27QpgrBoy4U8o,607
+aedev_setup_hook-0.3.1.data/data/dev_requirements.txt,sha256=ZlOZfhuS6x5qwgqIxOGklDcjl5ZKGwlShRt2rx7VH1Q,104
+aedev_setup_hook-0.3.1.data/data/requirements.txt,sha256=-L6KwXyjtTGACcrmKNV5C4Drn3jyDgWr0vKYdRm24uI,64
+aedev_setup_hook-0.3.1.data/data/setup.py,sha256=U8vDN9gApvLdnM34zlQ3yyOSnwbXj5VvjAAS8g25_BA,686
+aedev_setup_hook-0.3.1.data/data/test_requirements.txt,sha256=HAFjD3JXG12A9PvuaE9cm9h2kP3OhODfNZATYs9FPrE,262
+aedev_setup_hook-0.3.1.dist-info/LICENSE.md,sha256=vjUPGAY6UQNQXRkcJO-BM287g1RaFT5pEL8WglsozRg,35001
+aedev_setup_hook-0.3.1.dist-info/METADATA,sha256=5hJ1ifEh01Km2xikDEHwKgZ6_t5ulrJWoiGEKPaXDI4,5186
+aedev_setup_hook-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aedev_setup_hook-0.3.1.dist-info/top_level.txt,sha256=mWQVNYhgjRLaFceFJH-NDKFiTfKip7vqDESYWJGkKqg,6
+aedev_setup_hook-0.3.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aedev_setup_hook-0.3.1.dist-info/RECORD,,

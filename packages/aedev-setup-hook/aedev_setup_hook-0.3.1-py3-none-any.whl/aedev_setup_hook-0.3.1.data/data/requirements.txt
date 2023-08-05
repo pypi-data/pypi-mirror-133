@@ -1,0 +1,2 @@
+# runtime dependencies of the de.setup_hook project
+ae_inspector
