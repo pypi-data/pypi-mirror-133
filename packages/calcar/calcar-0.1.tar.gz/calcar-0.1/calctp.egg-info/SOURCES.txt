@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+calctp/__init__.py
+calctp.egg-info/PKG-INFO
+calctp.egg-info/SOURCES.txt
+calctp.egg-info/dependency_links.txt
+calctp.egg-info/top_level.txt
