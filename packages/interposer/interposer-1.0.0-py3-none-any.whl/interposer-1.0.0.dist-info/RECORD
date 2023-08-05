@@ -1,0 +1,9 @@
+interposer/__init__.py,sha256=PNR4WyhFqJ4O9I38BJJEmm07LiAjys0xUeznr0Z_q-U,9436
+interposer/example/weather.py,sha256=yCY-1C8spEqXS8rrP45JhDFMAH-9fvSuvtBDo4xy3AA,663
+interposer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+interposer/recorder.py,sha256=HXho0aVpS3MoTAoPTBymtYepOEUY1VP0LBK6DI8hFmM,8518
+interposer/tapedeck.py,sha256=BygnYw6Dt0BBpnrcfLloY66D3tOzcygkj5q8Xnn-GDI,20803
+interposer-1.0.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+interposer-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+interposer-1.0.0.dist-info/METADATA,sha256=frDZwJHoGTgMnbgAC1_tECcCQtUfz758jYk3lTVNZ8o,20046
+interposer-1.0.0.dist-info/RECORD,,
