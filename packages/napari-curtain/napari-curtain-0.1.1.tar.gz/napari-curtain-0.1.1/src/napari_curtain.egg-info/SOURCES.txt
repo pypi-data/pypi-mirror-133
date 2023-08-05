@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/napari_curtain/__init__.py
+src/napari_curtain/_function.py
+src/napari_curtain.egg-info/PKG-INFO
+src/napari_curtain.egg-info/SOURCES.txt
+src/napari_curtain.egg-info/dependency_links.txt
+src/napari_curtain.egg-info/entry_points.txt
+src/napari_curtain.egg-info/requires.txt
+src/napari_curtain.egg-info/top_level.txt
+src/napari_curtain/_tests/__init__.py
+src/napari_curtain/_tests/test_function.py
