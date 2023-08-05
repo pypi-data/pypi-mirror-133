@@ -1,0 +1,4 @@
+{namespace_name}
+{'aedev_tpl_' + norm_name(project_type)
+ if os.path.isdir(os.path.join(os.path.dirname(project_path), 'aedev_tpl_' + norm_name(project_type))) else ""}
+aedev_tpl_project
