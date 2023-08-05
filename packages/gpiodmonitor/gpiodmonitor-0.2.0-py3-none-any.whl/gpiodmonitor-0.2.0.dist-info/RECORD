@@ -1,0 +1,10 @@
+gpiodmonitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpiodmonitor/gpiodmonitor.py,sha256=m-SuNHjoXZ7GIuwo_MHKhDqul1_YH6FBOKG4Y2UpAPc,10948
+gpiodmonitor/log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpiodmonitor/log/log.py,sha256=alIPULl6N2dXch5nk7C79zB4vYWFa9lpnNcsBL3kpuc,1068
+gpiodmonitor-0.2.0.dist-info/LICENSE,sha256=fhLl30uuEsshWBuhV87SDhmGoFCN0Q0Oikq5pM-U6Fw,1211
+gpiodmonitor-0.2.0.dist-info/METADATA,sha256=JoHQ7mH_838B3MMxwW2Qk3q10fdcyxvqBSD1HmW1IW0,2214
+gpiodmonitor-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gpiodmonitor-0.2.0.dist-info/entry_points.txt,sha256=WOXQpxt0MRVFhp5iLe-PInS4KAD13uQprhu0GxrJes0,57
+gpiodmonitor-0.2.0.dist-info/top_level.txt,sha256=9PFHKXbw-aVp1p_gaWvGuB0-jmncovq06DTIGjVEfKM,13
+gpiodmonitor-0.2.0.dist-info/RECORD,,
