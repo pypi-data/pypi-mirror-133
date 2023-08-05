@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+django_sslserver2/__init__.py
+django_sslserver2.egg-info/PKG-INFO
+django_sslserver2.egg-info/SOURCES.txt
+django_sslserver2.egg-info/dependency_links.txt
+django_sslserver2.egg-info/requires.txt
+django_sslserver2.egg-info/top_level.txt
+django_sslserver2/management/__init__.py
+django_sslserver2/management/commands/__init__.py
+django_sslserver2/management/commands/runsslserver.py
