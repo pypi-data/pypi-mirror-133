@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: friendly-data-registry
+Version: 20220103
+Summary: Schema registry for friendly_data
+Home-page: https://github.com/sentinel-energy/friendly_data_registry
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: glom (>=20.7)
+Requires-Dist: pyyaml
+
+UNKNOWN
+
