@@ -1,0 +1,8 @@
+thunderpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thunderpdf/pdf2image.py,sha256=6E9_F3R9Q5GvcuD5FizleHzxTz8YIlvN_CzWUycGCJg,51
+thunderpdf/pdf2text.py,sha256=s8XKlz97Uq0x4-NpVmR-vaV0EWT8AKIOoP7q5g4Wp7o,46
+thunderpdf-1.0.dist-info/LICENSE,sha256=ctLwkzT4uH3e2UqDO6faBeUoDnegN8ojslH5bq5M9xk,35562
+thunderpdf-1.0.dist-info/METADATA,sha256=d8AylolSZ3xjC5SPwNh1Ju59VDihERWok4Z5LxceoDE,209
+thunderpdf-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thunderpdf-1.0.dist-info/top_level.txt,sha256=ilyKhNWZ2blTjTaRHnZJdMNFltGmrfw-61o8iM6rcHc,11
+thunderpdf-1.0.dist-info/RECORD,,
