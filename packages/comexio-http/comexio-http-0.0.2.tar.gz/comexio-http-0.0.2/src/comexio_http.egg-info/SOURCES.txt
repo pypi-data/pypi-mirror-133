@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/comexio-http/__init__.py
+src/comexio-http/auth.py
+src/comexio-http/io.py
+src/comexio-http/marker.py
+src/comexio-http/onewire.py
+src/comexio-http/tag.py
+src/comexio_http.egg-info/PKG-INFO
+src/comexio_http.egg-info/SOURCES.txt
+src/comexio_http.egg-info/dependency_links.txt
+src/comexio_http.egg-info/top_level.txt
