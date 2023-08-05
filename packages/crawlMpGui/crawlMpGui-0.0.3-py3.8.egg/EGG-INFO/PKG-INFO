@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: crawlMpGui
+Version: 0.0.3
+Summary: GUI for CrawlMp
+Home-page: https://github.com/domarm-comat/crawlMp
+Author: Martin Domaracký
+Author-email: domarm@comat.sk
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# crawlMp-gui
+
+Graphical interface for crawlMp
+
+# Icons attribution
+
+Icon made by [Roundicons](https://www.flaticon.com/authors/roundicons "Roundicons") from [www.flaticon.com](www.flaticon.com)  
+Icon made by [Smauj](https://www.flaticon.com/authors/Smauj "Smauj") from [www.flaticon.com](www.flaticon.com)  
+Icon made by [deemakdaksina](https://www.flaticon.com/authors/deemakdaksina "deemakdaksina") from [www.flaticon.com](www.flaticon.com)  
+

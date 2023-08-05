@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+crawlMpGui/__init__.py
+crawlMpGui.egg-info/PKG-INFO
+crawlMpGui.egg-info/SOURCES.txt
+crawlMpGui.egg-info/dependency_links.txt
+crawlMpGui.egg-info/requires.txt
+crawlMpGui.egg-info/top_level.txt
+crawlMpGui/scripts/__init__.py
+crawlMpGui/scripts/search_fs_mp_gui
+crawlMpGui/scripts/test.py
+crawlMpGui/templates/__init__.py
+crawlMpGui/templates/resultsWidgetTpl.py
+crawlMpGui/widgets/__init__.py
+crawlMpGui/widgets/results_view.py
+crawlMpGui/widgets/results_widget.py
