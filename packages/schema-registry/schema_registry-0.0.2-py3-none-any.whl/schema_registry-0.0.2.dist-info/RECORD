@@ -1,0 +1,16 @@
+schema_registry/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+schema_registry/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema_registry/app/business/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema_registry/app/business/cli.py,sha256=oh3QnwGEGfC-a_w8P6MdM5N6ICTHG3JLV0wZPdQog2E,281
+schema_registry/app/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schema_registry/app/ui/cli.py,sha256=qyh4AOsAdj96H4aTDtureE3G8SueDg32oY7wEOkTR2I,1148
+schema_registry/app/ui/registry.py,sha256=5VtiWkbjySJt6cRahmVg0_21YsO91C1wUAZSeC4mGDM,674
+schema_registry/config.py,sha256=gIjCsBD1olaZvYzMYdGL8NZs7QN8pwiXR-BLLtHme5E,1336
+schema_registry/registries/HttpRegistry.py,sha256=U04i9vMXnPEEIYYwrBf-krFhBqqTjl0DO5bO0Cxrzfc,2736
+schema_registry/registries/__init__.py,sha256=JiGyWCFvl1_nKJgtUv5BgunDtr1vEF9t3fvSpojf-ds,59
+schema_registry/registries/entities.py,sha256=r3w6vYkKFtRQCsG1JizhKFh77SE2bifoeo0WBoLRUcY,686
+schema_registry-0.0.2.dist-info/entry_points.txt,sha256=sMfmDBMjff58dnNjtoEtTyIC_E5yTk9oCvGkwIhegfI,60
+schema_registry-0.0.2.dist-info/LICENSE,sha256=_eHChglUCFaphXXcAUMz7J7tr47bPYP_ZIdgvo_bNiw,9159
+schema_registry-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+schema_registry-0.0.2.dist-info/METADATA,sha256=j8Ro8s98VJmkA44x0DuRNc3UYvq2lSfnPyIIKgY6Uqc,1949
+schema_registry-0.0.2.dist-info/RECORD,,
