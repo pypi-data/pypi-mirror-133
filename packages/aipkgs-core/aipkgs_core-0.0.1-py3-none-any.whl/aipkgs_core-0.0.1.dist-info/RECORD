@@ -1,0 +1,8 @@
+utils/__init__.py,sha256=vw40EAFElP67AyvyWxbfgydxO6Nxsqll75izSAmPnLI,33
+utils/file_helpers.py,sha256=YMyFWGe7_FRR88AREy5NRsAUn9mXkn3mrd72Yb8EqPE,700
+utils/utils.py,sha256=ogEGRbqkUUcydyO_FhVj2LLI-auq6s4JeWZTVLRJii8,320
+aipkgs_core-0.0.1.dist-info/LICENSE.md,sha256=oo2hmWWp-h0KgkfEZN9Pjlfll5kxOuK396Ud8WQfyHA,1058
+aipkgs_core-0.0.1.dist-info/METADATA,sha256=s6WOCOII4GlU4iiJuIvP6Ic2fPvPNa6CDZKu44nCHg0,495
+aipkgs_core-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aipkgs_core-0.0.1.dist-info/top_level.txt,sha256=BXdhaaHBJTl5WDScj-NdcpdW6F1g7hNN3YP0CLPxk-0,6
+aipkgs_core-0.0.1.dist-info/RECORD,,
