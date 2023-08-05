@@ -1,0 +1,10 @@
+nltk
+stop_words
+gensim
+pandas
+
+[dev]
+check-manifest
+
+[test]
+coverage
