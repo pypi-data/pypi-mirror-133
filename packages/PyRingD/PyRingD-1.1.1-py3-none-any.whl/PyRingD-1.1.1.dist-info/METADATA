@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyRingD
+Version: 1.1.1
+Summary: You can make an alarm clock using this package.
+Home-page: UNKNOWN
+Author: Deo Krishna
+Author-email: deo2k09@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE
+Requires-Dist: datetime
+Requires-Dist: playsound
+Requires-Dist: pyttsx3
+
+For details, please visit at - 'https://github.com/Deo-Krishna/PyRingD/blob/main/README.md'
+
