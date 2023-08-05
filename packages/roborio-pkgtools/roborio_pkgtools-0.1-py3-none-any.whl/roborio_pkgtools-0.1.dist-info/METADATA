@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: roborio-pkgtools
+Version: 0.1
+Summary: Tools for creating roboRIO packages for the RobotPy project
+Home-page: https://github.com/robotpy/roborio-pkgtools
+Author: Dustin Spicuzza
+Author-email: robotpy@googlegroups.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: setuptools
+Requires-Dist: wheel
+
+UNKNOWN
+
