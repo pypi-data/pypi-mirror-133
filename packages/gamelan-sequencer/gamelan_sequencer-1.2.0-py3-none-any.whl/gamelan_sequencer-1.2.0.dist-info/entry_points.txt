@@ -1,0 +1,3 @@
+[console_scripts]
+gamelan_sequencer = gamelan_sequencer.__main__:main
+
