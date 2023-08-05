@@ -1,0 +1,9 @@
+django_sslserver2/__init__.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+django_sslserver2/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sslserver2/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sslserver2/management/commands/runsslserver.py,sha256=sKGsGpzlZRTMXiU884-UdkdO-dFfFqaWflr3RUb7uuI,4259
+django_sslserver2-0.1.4.dist-info/LICENSE,sha256=G4aLAhR4J3y9fxv8zZCvp4kUmMYSf4rxkiKVRvPrtzU,1057
+django_sslserver2-0.1.4.dist-info/METADATA,sha256=6Z0gkpaPhHhMxK3DR9POYdVnKEUecDgtQnOj8XF7aD8,1857
+django_sslserver2-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_sslserver2-0.1.4.dist-info/top_level.txt,sha256=Ffm1p4Ll9QGqLbhE2am5c-WhSA5ImPQxvaYjJRUNLkw,18
+django_sslserver2-0.1.4.dist-info/RECORD,,
