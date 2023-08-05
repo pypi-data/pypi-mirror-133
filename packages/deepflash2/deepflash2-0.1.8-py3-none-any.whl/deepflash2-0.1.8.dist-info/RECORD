@@ -1,0 +1,17 @@
+deepflash2/__init__.py,sha256=C69ADlbQREQlR15trneyA2sk8x0-oH4rDAX5fsv19_U,22
+deepflash2/_nbdev.py,sha256=dBeX198MIw3YTXONRvv4-uYtbpCpdoPY0x5i7uY6UXs,4330
+deepflash2/all.py,sha256=_rcMw2bfwtTPowyW7lPFEOY-wCVV646CJPYhzVjNGs8,163
+deepflash2/data.py,sha256=hqjjKNNsDlEFowj6ZgbjseTSG312EkEcB69R9mgJVVs,23408
+deepflash2/gt.py,sha256=ov3PQsl6mk4tGHXiY0mgVlybWl0JWoelHVaxYLF6bCg,8975
+deepflash2/gui.py,sha256=nxS4XP1bQMWo5QscD_5zn_og7CoE64kXSjKXWfO7nlo,79110
+deepflash2/learner.py,sha256=eQNecJY8Wi79KBInV0inj7zx_hfTc-O2qKDzev56bDw,34264
+deepflash2/losses.py,sha256=0NLGtO-H2lFEY8kehonqGf_T3Y_JUz2-YuPe7Yny1yE,3392
+deepflash2/models.py,sha256=qbShUOlPK8K_3imzVJOCu80RPGWWi7gA218JQfT6W_Y,5670
+deepflash2/tta.py,sha256=AdRJNtwFUjNDgj9I31GuZ_d-2IwbWmJX59jS0A6L5Pg,4933
+deepflash2/utils.py,sha256=_nH-3vEUtdLs8ZAD1z73rgvQkU6urFO1kgUn3R5t_wg,12085
+deepflash2-0.1.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+deepflash2-0.1.8.dist-info/METADATA,sha256=UA-Y0jOMMzW_fLkVB_F_KQsGVOqvzs3t7JMhAJqYtdQ,10579
+deepflash2-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepflash2-0.1.8.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+deepflash2-0.1.8.dist-info/top_level.txt,sha256=jIwz5hDqf7Cb4cUjxUj4PLcYI2NzgZy8pap3IwvKMhE,11
+deepflash2-0.1.8.dist-info/RECORD,,
