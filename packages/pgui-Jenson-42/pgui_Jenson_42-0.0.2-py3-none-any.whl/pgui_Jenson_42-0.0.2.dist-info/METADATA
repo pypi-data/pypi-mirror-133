@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pgui-Jenson-42
+Version: 0.0.2
+Summary: Python UI using pygame.
+Home-page: UNKNOWN
+Author: Jenson Dowding
+Author-email: Jensond2004+pgui@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+UNKNOWN
+
