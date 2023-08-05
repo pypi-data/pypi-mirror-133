@@ -1,0 +1,57 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Title{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home/index.css' %}">
+{% endblock css %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; Closed Work Orders</p>
+    </div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+            <div class='row'>
+                {% include 'includes/toolbar.html' %}
+                <div class='container'>
+                    <h2>Closed Pending Approval</h2>
+                    {% if closed_pending_approval %}
+                        {% for object in closed_pending_approval  %}
+                            {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                        {% endfor %}
+                    {% else %}
+                        <div class='container-item'>
+                            There are no closed work orders pending approval
+                        </div>
+                    {% endif %}
+                </div>
+                <div class='container'>
+                    <h2>Recently Completed</h2>
+                    {% if completed_work_orders %}
+                        {% for object in completed_work_orders  %}
+                            {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                        {% endfor %}
+                    {% else %}
+                        <div class='container-item'>
+                            There are no completed work orders
+                        </div>
+                    {% endif %}
+                </div>
+                <div class='container'>
+                    <h2>Recently Canceled</h2>
+                    {% if canceled_work_orders %}
+                        {% for object in canceled_work_orders  %}
+                            {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                        {% endfor %}
+                    {% else %}
+                        <div class='container-item'>
+                            There are no canceled work orders
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+{% endblock body %}

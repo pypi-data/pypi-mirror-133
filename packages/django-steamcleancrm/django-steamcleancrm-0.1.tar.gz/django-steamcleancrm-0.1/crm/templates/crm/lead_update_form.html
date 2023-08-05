@@ -1,0 +1,34 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Title{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}">
+{% endblock css %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; <a class='primary undecorated' href='{% url 'lead-detail' lead.id  %}'>Lead #{{ lead.id }}</a> &rsaquo; Update Lead</p>
+    </div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            <div class='container'>
+                <h2>Contact Information</h2>
+                <div class='container-item'>
+                    <form method='post'>
+                        {{ form.as_p }}
+                        {% csrf_token %}
+                        <input class='container-item container-button hover' type='submit' name='save_lead' value='Save Lead'/>
+                        {% if perms.crm.add_workorder %}
+                            <input class='container-item container-button success hover' type='submit' name='save_lead_open_work_order' value='Save And Open Work Order'/>
+                        {% endif %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}

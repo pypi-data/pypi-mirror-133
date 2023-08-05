@@ -1,0 +1,183 @@
+/* Global Variables */
+:root {
+    --bg-light: rgba(0,0,0,0.10);
+    --bg-mid: rgba(0,0,0,0.15);
+    --bg-dark: rgba(0,0,0,0.20);
+    --light: #4A86E8;
+    --primary:#3C78D8;
+    --secondary:#1155CC;
+    --dark: #1C4587;
+    --success: #1F9C1A;
+    --warning: #FF384F;
+
+}
+
+/* Base document normalization */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+} .row::after {
+    content: "";
+    clear: both;
+    display: table;
+} h1 {
+    font-size: 1.2rem;
+    color: var(--dark);
+} h2 {
+    font-size: 1.1rem;
+    color: var(--secondary);
+} h3 {
+    font-size: 1rem;
+}
+
+/* Global document styles */
+.bg-light {
+    color: var(--bg-light);
+} .bg-mid {
+    color: var(--bg-mid);
+} .bg-dark {
+    color: var(--bg-dark);
+} .light {
+    color: var(--light);
+} .primary {
+    color: var(--primary);
+} .secondary {
+    color: var(--secondary);
+} .dark {
+    color: var(--dark);
+} .undecorated {
+    text-decoration: none;
+} .warning {
+    color: var(--warning);
+} .inactive {
+    pointer-events: none;
+    cursor: default;
+}
+
+/* Global layout styles */
+/* Mobile-first responsive web design */
+.breadcrumbs {
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+} .breadcrumbs form {
+    font-size: 1rem;
+} .breadcrumbs form input {
+    padding: 0.5rem;
+} .navbar {
+    background-color: var(--bg-light);
+    padding: 1rem;
+    border-bottom: 2px solid var(--dark);
+    box-shadow: 0px 1px 5px var(--dark);
+} .navbar .row {
+    max-width: 768px;
+    margin: auto;
+} .heading {
+    width: 100%;
+} .container-wrapper {
+    text-align: center;
+    padding: 1rem;
+} .container, .container-l {
+    width: 100%;
+    float: left;
+    padding: 0.5rem;
+} .auto-scrollbar {
+    max-height: 45vh;
+    overflow-y: auto;
+} .container-item, .container-item-l {
+    max-width: 450px;
+    margin: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--dark);
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: var(--bg-light);
+} .container-item.toolbar {
+    text-align: justify;
+    background-color: var(--bg-mid);
+} .container-button {
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary) !important;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+} .container-button:hover {
+    background-color: var(--secondary) !important;
+} .container-button.success {
+    background-color: var(--success) !important;
+} .container-button.success:hover {
+    background-color: green !important;
+} .container-button.warning {
+    background-color: var(--warning) !important;
+} .container-button.warning:hover {
+    background-color: #E60000 !important;
+} .container-item-link {
+    color: black;
+} .container-item.hover:hover {
+    background-color: var(--bg-mid);
+    cursor: pointer;
+} .container-item-link:nth-child(odd) > .container-item {
+    background-color: var(--bg-mid);
+} .container-item-link:hover:nth-child(odd) > .container-item {
+    background-color: var(--bg-light);
+} .item-detail {
+    float: left;
+    padding: 0.25rem;
+} span.item-detail {
+    font-size: 0.8rem; 
+    line-height: 1.2rem;
+    vertical-align: bottom;
+} ul {
+    padding: 0.5rem;
+} ul li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+} ul li a {
+    text-decoration: none;
+} ul li a:hover {
+    color: var(--dark)
+}
+
+.work-order-image {
+    width: 100%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .breadcrumbs {
+        font-size: 1rem;
+    }.navbar .row {
+        max-width: none;
+    } .container {
+        width: 25%;
+        float: left;
+    } .container-l {
+        width: 75%;
+    } .container-item-l {
+        max-width: 23%;
+        float: left;
+        margin: 1%;
+    }
+}

@@ -1,0 +1,17 @@
+<a class='container-item-link' href='{{ url }}'>
+    <div class='container-item hover'>
+        <div class='row'>
+            {% if object.fullname %}
+                <h3 class='item-detail'>Name:</h3>
+                <span class='item-detail'>{{ object.fullname }}</span>
+                <h3 class='item-detail'>Date:</h3>
+                <span class='item-detail'>{{ object.date_created|date:'D, M j Y' }}</span>
+            {% else  %}
+                <h3 class='item-detail'>Name:</h3>
+                <span class='item-detail'>{{ object.lead.fullname }}</span>
+                <h3 class='item-detail'>Date:</h3>
+            <span class='item-detail'>{{ object.appointment_date|date:'j/m' }}</span>
+            {% endif %}
+        </div>
+    </div>
+</a>

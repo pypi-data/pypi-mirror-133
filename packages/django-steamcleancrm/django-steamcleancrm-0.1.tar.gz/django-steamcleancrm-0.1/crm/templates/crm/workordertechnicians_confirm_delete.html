@@ -1,0 +1,31 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Title{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static '****/index.css' %}">
+{% endblock css %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; <a class='primary undecorated' href='{% url 'lead-detail' object.work_order.lead.id  %}'>Lead #{{ object.work_order.lead.id }}</a> &rsaquo; <a class='primary undecorated' href='{% url 'work-order-detail' object.work_order.lead.id object.work_order.id %}'> Work Order #{{ object.work_order.id }}</a> &rsaquo; Remove Technician</p>
+    </div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            <div class='container'>
+                <h2>Confirm</h2>
+                <div class='container-item'>
+                    <form method="post">{% csrf_token %}
+                        <p>Are you sure you want to remove {{ object.technician }} from {{ object.work_order }}?</p> 
+                        <a class='container-item container-button undecorated success' href="{% url 'work-order-detail' object.work_order.lead.id object.work_order.id %}">Cancel</a>
+                        <input type="submit" class='container-item container-button warning hover' value="Remove">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}

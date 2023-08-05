@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Error 400{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            <div class='container'>
+                <h2>Error 400</h2>
+                <div class='container-item'>
+                    Bad Request.
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}

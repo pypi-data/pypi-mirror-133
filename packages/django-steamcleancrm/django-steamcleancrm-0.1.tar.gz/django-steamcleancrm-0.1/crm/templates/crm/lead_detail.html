@@ -1,0 +1,39 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Dashboard{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}">
+{% endblock css %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; Lead #{{ lead.id }}</p>
+</div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            {% include 'includes/lead_item_detail.html' %}
+            <div class='container'>
+                <h2>Associated Work Orders</h2>
+                {% if work_orders %}
+                    {% for object in work_orders %}
+                        {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                    {% endfor %}
+                {% else %}
+                    <div class='container-item'>
+                        <div class='row'>
+                            There are no work orders associated with lead #{{ lead.id }}
+                        </div>
+                    </div>
+                {% endif %}
+                {% if perms.crm.add_workorder %}
+                    {% url 'create-work-order' lead.id as create_work_order %} {% include 'includes/blue_buttons.html' with url=create_work_order text='+ Open New Work Order' %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock body %}

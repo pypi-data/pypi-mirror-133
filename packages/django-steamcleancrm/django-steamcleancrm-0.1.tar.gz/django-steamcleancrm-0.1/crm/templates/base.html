@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>{% block title %}Steam Cleaning{% endblock title %}</title>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="robots" content="noindex" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% block meta %}{% endblock meta %}
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="{% static 'base.css' %}">
+        {% block css %}{% endblock css %}
+        <!-- JS -->
+        {% block js %}{% endblock js %}
+    </head>
+    <body>
+        <div id="main">
+            <div class='navbar'>
+                <div class='row'>
+                    <div class='navbar-item heading'>
+                        <h1>Steam Clean CRM</h1>
+                    </div>
+                </div>
+            </div>
+            <div class='container-wrapper'>
+                {% block breadcrumbs %}{% endblock %}
+            </div>
+            {% block body %}{% endblock body %}
+        </div>
+        {% block footer_js %}{% endblock footer_js %}
+    </body> 
+</html>

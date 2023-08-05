@@ -1,0 +1,42 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Title{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home/index.css' %}">
+{% endblock css %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; Search Results for '{{ query }}'</p>
+    </div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+            <div class='row'>
+                {% include 'includes/toolbar.html' %}
+                <div class='container'>
+                    <h2>Lead Search Results</h2>
+                    {% if object_list %}
+                        {% for lead in object_list  %}
+                            <a class='container-item-link' href='{% url 'lead-detail' lead.id %}'>
+                                <div class='container-item hover'>
+                                    <div class='row'>
+                                        <h3 class='item-detail'>Name:</h3>
+                                        <span class='item-detail'>{{ lead.fullname }}</span>
+                                        <h3 class='item-detail'>Date:</h3>
+                                        <span class='item-detail'>{{ lead.date_created }}</span>
+                                    </div>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    {% else %}
+                        <div class='container-item'>
+                            There are no completed work orders
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+{% endblock body %}

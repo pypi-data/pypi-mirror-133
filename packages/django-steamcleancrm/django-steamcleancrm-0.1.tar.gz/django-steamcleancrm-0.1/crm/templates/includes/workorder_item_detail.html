@@ -1,0 +1,11 @@
+<h2>Work Order #{{ workorder.id}}</h2>
+<div class='container-item'>
+    <p class='workorder-item-detail'><b>Job Description:</b> {{ workorder.job_description }}</p>
+    <p class='workorder-item-detail'><b>Estimate Date:</b> {{ workorder.estimate_date }}</p>
+    <p class='workorder-item-detail'><b>Estimate Time:</b> {{ workorder.estimate_time }}</p>
+    <p class='workorder-item-detail'><b>Appointment Date:</b> {{ workorder.appointment_date }}</p>
+    <p class='workorder-item-detail'><b>Appointment Time:</b> {{ workorder.appointment_time }}</p>
+    {% if perms.crm.change_workorder %}
+        {% url 'work-order-update' workorder.lead.id workorder.id as update_workorder %} {% include 'includes/blue_buttons.html' with url=update_workorder text='Update Work Order' %}
+    {% endif %}
+</div>

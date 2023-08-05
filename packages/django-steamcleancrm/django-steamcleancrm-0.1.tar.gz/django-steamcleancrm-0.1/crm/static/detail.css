@@ -1,0 +1,33 @@
+/* Local document styles */
+/* Mobile-first responsive web design */
+.lead-item-detail, .workorder-item-detail, form p {
+    text-align: left;
+    padding: 1rem;
+    
+    padding-left: 0;
+    width: 100%;
+} form p label {
+    font-weight: bold;
+    font-size: 1rem;
+} .lead-item-detail b:after, .workorder-item-detail b:after, form p label:after {
+    content: "\a";
+    white-space: pre;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}

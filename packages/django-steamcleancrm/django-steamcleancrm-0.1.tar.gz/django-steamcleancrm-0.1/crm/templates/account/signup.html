@@ -1,0 +1,35 @@
+{% extends "../base.html" %}
+{% load i18n %}
+{% load static %}
+{% load account socialaccount %}
+{% block title %}Sign Up{% endblock title %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/account/login.css' %}">
+{% endblock css %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block body %}
+<div class='container-wrapper'>
+    <div class='row'>
+        <div class="container">
+            <h2>Sign up</h2>
+            <div class='container-item'>
+                <p>Already have an account? <a href="{{ login_url }}">Sign in</a></p>
+            
+                <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
+                    {% csrf_token %}
+                    <p class='container-input'>{{ form.username }}</p>
+                    <p class='container-input'>{{ form.email }}</p>
+                    <p class='container-input'>{{ form.password1 }}</p>
+                    <p class='container-input'>{{ form.password2 }}</p>
+                    {% if redirect_field_value %}
+                        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                    {% endif %}
+                    <button class="container-item container-button success hover" type="submit">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

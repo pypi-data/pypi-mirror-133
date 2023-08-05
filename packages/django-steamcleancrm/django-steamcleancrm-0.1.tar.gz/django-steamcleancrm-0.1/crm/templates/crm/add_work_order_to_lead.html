@@ -1,0 +1,49 @@
+{% extends '../base.html' %}
+{% load static %}
+{% load i18n %}
+{% block title %}New Work Order{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}">
+{% endblock css %}
+{% block js %}
+    <script type="text/javascript" src="/static/admin/js/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/widgets.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css"/>
+{% endblock js %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+<p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; <a class='primary undecorated' href='{% url 'lead-detail' lead.id  %}'>Lead #{{ lead.id }}</a> &rsaquo; New Work Order</p>
+</div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            {% include 'includes/lead_item_detail.html' %}
+            <div class='container'>
+                <h2>Work Order Information</h2>
+                <div class='container-item'>
+                    <form action='' method='post'>
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <input class='container-item container-button hover' type='submit' name='save_work_order' value='Save Work Order'/>
+                        {% if perms.crm.add_workordertechnicians %}
+                            <input class='container-item container-button success hover' type='submit' name='add-technician-to-work-order' value='Save And Add Technician'/>
+                        {% endif %}
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
+{% block footer_js %}
+    <script>
+        var django = django || {};
+        django.jQuery = $;
+    </script>
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+    {{ form.media }}
+{% endblock footer_js %}

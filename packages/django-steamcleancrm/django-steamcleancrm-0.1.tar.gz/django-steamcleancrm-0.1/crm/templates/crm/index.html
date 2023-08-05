@@ -1,0 +1,70 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Dashboard{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <form action={% url 'lead-search-results' %} method='get'>
+        <input type='text' name='query' placeholder='Search Leads...'>
+        <button class='container-item search hover' type='submit'>Search</button>
+    </form>
+</div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            <div class='container'>
+                <h2>Open Leads</h2>
+                {% if open_leads %}
+                    {% for object in open_leads %}
+                        {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                    {% endfor %}
+                {% else %}
+                    <div class='container-item'>
+                        <div class='row'>
+                            There are no new leads
+                        </div>
+                    </div>
+                {% endif %}
+                {% if perms.crm.add_lead %}
+                    {% url 'create-lead' as create_lead %} {% include 'includes/blue_buttons.html' with url=create_lead text='+ Add New Lead' %}
+                {% endif %}
+            </div>
+            <div class='container'>
+                <h2>Unassigned Work Orders</h2>
+                <div class='auto-scrollbar'>
+                    {% if unassigned_work_orders %}
+                        {% for object in unassigned_work_orders %}
+                            {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                        {% endfor %}
+                    {% else %}
+                        <div class='container-item'>
+                            <div class='row'>
+                                There are no unassigned work orders
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+            <div class='container'>
+                <h2>Open Work Orders</h2>
+                <div class='auto-scrollbar'>
+                    {% if open_work_orders %}
+                        {% for object in open_work_orders %}
+                            {% include 'includes/detail_card_small.html' with url=object.get_absolute_url %}
+                        {% endfor %}
+                    {% else %}
+                        <div class='container-item'>
+                            <div class='row'>
+                                There are no open work orders
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
