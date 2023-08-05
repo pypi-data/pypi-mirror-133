@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: waveaugment
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: https://github.com/facebookresearch/WavAugment
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: torchaudio
+
+UNKNOWN
+
