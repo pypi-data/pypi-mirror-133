@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/text_based_clusterer/__init__.py
+src/text_based_clusterer/clusterer.py
+src/text_based_clusterer.egg-info/PKG-INFO
+src/text_based_clusterer.egg-info/SOURCES.txt
+src/text_based_clusterer.egg-info/dependency_links.txt
+src/text_based_clusterer.egg-info/requires.txt
+src/text_based_clusterer.egg-info/top_level.txt
