@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: emepy
+Version: 0.2.3
+Summary: Eigenmode Expansion Python
+Home-page: https://github.com/BYUCamachoLab/emepy.git
+Author: Ian Hammond
+Author-email: ihammond@byu.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: simphony
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: electromagneticpython
+
+UNKNOWN
+
+
