@@ -1,0 +1,11 @@
+.gitignore
+COPYING
+README.md
+releaser.conf
+setup.py
+aiohttp_openmetrics/__init__.py
+aiohttp_openmetrics.egg-info/PKG-INFO
+aiohttp_openmetrics.egg-info/SOURCES.txt
+aiohttp_openmetrics.egg-info/dependency_links.txt
+aiohttp_openmetrics.egg-info/requires.txt
+aiohttp_openmetrics.egg-info/top_level.txt
