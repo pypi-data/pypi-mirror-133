@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+book7/__init__.py
+book7.egg-info/PKG-INFO
+book7.egg-info/SOURCES.txt
+book7.egg-info/dependency_links.txt
+book7.egg-info/top_level.txt
