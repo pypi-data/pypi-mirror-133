@@ -1,0 +1,3 @@
+[console_scripts]
+musicbird=musicbird.__main__:entrypoint
+
