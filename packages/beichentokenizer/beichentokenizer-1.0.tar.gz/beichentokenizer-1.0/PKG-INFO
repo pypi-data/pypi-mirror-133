@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: beichentokenizer
+Version: 1.0
+Summary: 可以实现词袋模型、TF-IDF模型、word2vec模型
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+Maintainer: 
+Maintainer-email: 
+License: MIT License
+Description: just for a test
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
