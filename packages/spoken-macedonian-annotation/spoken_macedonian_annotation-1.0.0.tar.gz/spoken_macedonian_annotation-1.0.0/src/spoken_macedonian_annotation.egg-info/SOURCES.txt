@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/spoken_macedonian_annotation/__init__.py
+src/spoken_macedonian_annotation/all_data.json
+src/spoken_macedonian_annotation/annotate.py
+src/spoken_macedonian_annotation/cli.py
+src/spoken_macedonian_annotation/file_processing.py
+src/spoken_macedonian_annotation/homonyms.py
+src/spoken_macedonian_annotation.egg-info/PKG-INFO
+src/spoken_macedonian_annotation.egg-info/SOURCES.txt
+src/spoken_macedonian_annotation.egg-info/dependency_links.txt
+src/spoken_macedonian_annotation.egg-info/entry_points.txt
+src/spoken_macedonian_annotation.egg-info/requires.txt
+src/spoken_macedonian_annotation.egg-info/top_level.txt

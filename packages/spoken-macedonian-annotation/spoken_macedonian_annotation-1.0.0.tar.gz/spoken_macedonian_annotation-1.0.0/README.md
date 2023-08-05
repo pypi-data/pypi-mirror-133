@@ -1,0 +1,62 @@
+# Annotation of Spoken Macedonian
+
+## A simple morphological tagger for annotation of Macedonian written and spoken language data
+
+This is a package for simple annotation of macedonian spoken (also dialectal) texts. 
+The package uses the token-dictionary created during the development  
+of the [Macedonian Spoken Corpus](https://escher.pythonanywhere.com/) 
+and will annotate the tokens of your text if they are present in that dictionary.
+See the list of the tags  [here](https://escher.pythonanywhere.com/tagset) .
+The  dictionary is constantly being expanded in new releases of the tagger. 
+
+
+
+The tagger is designed for smaller projects since it contains several 
+limitations which would require a manual after-processing from the user. 
+First, this concerns the processing homonyms.
+
+## Dealing with homonyms
+The tagger can not distinguish homonyms
+
+* The word 'se' is always marked as a participle Q (tag for participle).
+  You need to manually correct the cases where it stands for the third person plural for on the verb "to be" in presence
+* The word 'si' is always marked as a participle P (tag for pronoun).
+  You need to manually correct the cases where it stands for the second person singular for on the verb "to be" in presence
+  
+The annotation for homonyms can be either marked with the string "HOMONYM" or left empty in the output. 
+
+## Dealing with unknown words
+
+The annotation for unknown words can be either marked with the string "UNKNOWN" or left empty in the output. 
+
+## Usage
+
+###Installation
+
+```shell
+pip install spoken_macedonian_annotation
+```
+ In a code editor, you can annotate texts by passing the string to the ```annotate``` method of a ```MacAnnotator``` object:
+
+```python
+from spoken_macedonian_annotation.annotate import MacAnnotator
+
+text = 'Ова е мојата куќа.'
+
+annotator = MacAnnotator(print_to_txt_file=True, mark_homonyms=False, mark_unknown_tokens=False)
+result = annotator.annotate(text)
+print(result)
+```
+In command line, you can pass a file with a plain text  to the command line script ```annotateMac```: 
+
+```shell
+annotateMac -i your_text_to_annotate.txt --print_to_txt
+```
+
+The argument ``` --print_to_txt``` creates an output file in the working directory and writes the result in it. 
+
+You can also use optional arguments for marking homonyms and/or unknown words:
+
+```shell
+annotateMac -i your_text_to_annotate.txt --print_to_txt --mark_homonyms --mark_unknown
+```
