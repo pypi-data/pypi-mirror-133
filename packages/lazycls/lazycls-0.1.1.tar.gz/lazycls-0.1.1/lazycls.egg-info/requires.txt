@@ -1,0 +1,6 @@
+pydantic[dotenv]
+orjson
+pyyaml
+pysimdjson
+dill
+aiofiles
