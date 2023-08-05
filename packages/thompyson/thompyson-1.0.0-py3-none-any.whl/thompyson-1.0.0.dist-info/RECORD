@@ -1,0 +1,10 @@
+thompyson/__init__.py,sha256=kiZGGIWtPmgzVgzUUr-c1wLEcfoJwG3R1HFHUeiwxkQ,452
+thompyson/rational/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thompyson/rational/dyadic.py,sha256=dKUprjD_X6QPKw2T1dL4Fg5VQdS83S6b3Y0WGivHnuE,15443
+thompyson/tree_pair/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thompyson/tree_pair/tree_pair.py,sha256=xR-MzhQdIryAtcnyRcAisUG25PXdjQNP4SE04hafccM,32560
+thompyson-1.0.0.dist-info/LICENSE,sha256=kwvySrTuLSr-LRvf8nMg8-hPkK4KL9LwxTrApZTJuew,1212
+thompyson-1.0.0.dist-info/METADATA,sha256=PEg_ENq33upluj83cBRrOZEe9BypEU9VvB_UKVmGHJ0,8009
+thompyson-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thompyson-1.0.0.dist-info/top_level.txt,sha256=f-0l2Qew--62fJS3_fQVem2R6vE7gJt11vSdX3gaWoo,10
+thompyson-1.0.0.dist-info/RECORD,,
