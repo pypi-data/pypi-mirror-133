@@ -1,0 +1,17 @@
+SimpleWorkspace/ConsoleHelper.py,sha256=ldT40ewxngWv4XfQpb6pefrEr3fxbskmxyYAYRiFxiw,791
+SimpleWorkspace/Conversion.py,sha256=8mVkt-1AWZ-GouEgg_PxrePcVTouqWrHGLQZFvwHiYc,857
+SimpleWorkspace/Directory.py,sha256=wFRWJHJnrAZTAWGCVhrbDdUy0ZeplqRkV9IgtQkMxxY,2446
+SimpleWorkspace/File.py,sha256=IolBzReYBOhf4NOC1nVW-5CfPFYegsERRL0qnNHWMto,3369
+SimpleWorkspace/Path.py,sha256=osJHcbPkpxt7Hj9kdGVCBPy6v8Qc-hNFugET1KVOaro,812
+SimpleWorkspace/Utility.py,sha256=nBRZOZ9dZh5fq5uR4V6yt0vj0hYyCcMBMHrSksDZ5ow,3417
+SimpleWorkspace/__init__.py,sha256=Up8rbOGjXb1woaRcERNgTk25JEVHcjy1dueuWTtDq1g,390
+SimpleWorkspace/CurrentApp/App.py,sha256=gXpcS4nGrl3inSUmYP8bDjdE5KpMv_qZkA0H6HIQfCo,695
+SimpleWorkspace/CurrentApp/Log.py,sha256=5w5tkABRFbFSoGTW64Ldch-ZknLYdPL9ThZAf-bLDGU,834
+SimpleWorkspace/CurrentApp/Settings.py,sha256=-aQSsulsn_DcQEYzWhm46rHDESVqUfWa7Vl97jJKMnw,4255
+SimpleWorkspace/CurrentApp/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+SimpleWorkspace/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleWorkspace/libs/appdirs.py,sha256=Cve2bfMwcLWxd_5kfo80HRNHOQYCRotvTqcGMNZFUEQ,25328
+SimpleWorkspace-1.1.4.dist-info/METADATA,sha256=cA5xAG3PXfOVAz7jY7w_P16PJU-MyjXvRkLf02_h9LA,214
+SimpleWorkspace-1.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SimpleWorkspace-1.1.4.dist-info/top_level.txt,sha256=2US9PvO9wtDH5qpFG9TAvkmMvdgo8duNgPEdFpwEZEE,64
+SimpleWorkspace-1.1.4.dist-info/RECORD,,
