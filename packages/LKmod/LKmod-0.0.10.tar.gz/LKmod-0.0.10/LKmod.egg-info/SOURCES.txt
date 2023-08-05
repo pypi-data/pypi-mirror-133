@@ -1,0 +1,7 @@
+setup.py
+LKmod.egg-info/PKG-INFO
+LKmod.egg-info/SOURCES.txt
+LKmod.egg-info/dependency_links.txt
+LKmod.egg-info/top_level.txt
+libname/LKmod.py
+libname/__init__.py
