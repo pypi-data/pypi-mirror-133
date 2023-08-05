@@ -1,0 +1,11 @@
+sumdf/Database.py,sha256=85FkspxfAUHTGJOmD5awWUj6pJHB641ST8YGhMCyVUI,11103
+sumdf/DatasUtility.py,sha256=WZOziPanOsUp2Hb9r0O7i3fgX4whERev0JvUwFjX2zA,2973
+sumdf/Dataset.py,sha256=N2zmdOYkG7jJ6R46r5HxHxauXHg63X5FH-BKebTmVYQ,6987
+sumdf/Logging.py,sha256=NBTVfu3m4-gHU85PfmZ5Z71qfM-VyhCzpK7_iafwmfY,775
+sumdf/Plots.py,sha256=SgUQFHmR2d9Nts9Q4p8JSbQ-SPOtlso6nfpa4T6_te8,3989
+sumdf/__init__.py,sha256=P4_XPnX0d3kmrY008iQlSUfthQiwu4AfMn4dOXHYmaA,609
+sumdf-0.1.0.dist-info/LICENSE,sha256=JUZxqN-GucGQv-kPtWkvslRDym7F5g0VOpmdDGRNNIk,1072
+sumdf-0.1.0.dist-info/METADATA,sha256=TEhUB9caRx8l-bNS5VnDGCDuTMQRaxiY5Vie2BnTP7k,560
+sumdf-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sumdf-0.1.0.dist-info/top_level.txt,sha256=LRfg0lMkLBpDBDCKxhehna_ajbq8F5DsWhPdCPnpSG4,6
+sumdf-0.1.0.dist-info/RECORD,,
