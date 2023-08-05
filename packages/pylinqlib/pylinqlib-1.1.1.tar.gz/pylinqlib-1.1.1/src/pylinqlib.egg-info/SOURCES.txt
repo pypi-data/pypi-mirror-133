@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pylinq/__init__.py
+src/pylinqlib.egg-info/PKG-INFO
+src/pylinqlib.egg-info/SOURCES.txt
+src/pylinqlib.egg-info/dependency_links.txt
+src/pylinqlib.egg-info/top_level.txt
