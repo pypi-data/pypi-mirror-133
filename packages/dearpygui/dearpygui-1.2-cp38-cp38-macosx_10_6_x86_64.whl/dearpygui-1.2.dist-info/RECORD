@@ -1,0 +1,11 @@
+dearpygui-1.2.data/purelib/dearpygui/__init__.py,sha256=BYA5BR_EX9wjjb8MruG-FAH8Qhmbx1YOy6aqwI2x-wQ,18
+dearpygui-1.2.data/purelib/dearpygui/_dearpygui.pyi,sha256=Z3QDBsboIdEKrdyU0ZgBuJCKV7Hmw0MxIhEVRhDXO_M,100788
+dearpygui-1.2.data/purelib/dearpygui/_dearpygui.so,sha256=KtYigjJzCMfNkvVL2lnZJwL3ZUyNhJXOaskd9pxSSjE,8625496
+dearpygui-1.2.data/purelib/dearpygui/dearpygui.py,sha256=79-ylJVNvO_5y5rW259ITxjDa8ZJnlT3N4u5PDCW3Ik,534553
+dearpygui-1.2.data/purelib/dearpygui/demo.py,sha256=xiGvkQBGdZnjpTMXlhD9p_ijP5AytCtyXJUJgNs5PG8,168049
+dearpygui-1.2.data/purelib/dearpygui/experimental.py,sha256=E4ghyJbWOR17s7uT-Xeu3yDV6wH5qGqUGKgfDBWeWHA,290
+dearpygui-1.2.dist-info/LICENSE,sha256=jlUdB_UyGme4uWNc6yiRPoeSNvKwvtpT-N2a9oDspr4,1072
+dearpygui-1.2.dist-info/METADATA,sha256=-b5NudzsdYhf0f71agBlZw7bw8oJl-oIMCUzmA7ruhk,11998
+dearpygui-1.2.dist-info/WHEEL,sha256=lnQweg-H_fvSkXoO0FxRAd8-CTQEfZM3USJ7HQY_JjE,109
+dearpygui-1.2.dist-info/top_level.txt,sha256=McSgVvB_tkVZmC-ccTmq9nsuVulVJcE2pUw2IZ6VzO0,10
+dearpygui-1.2.dist-info/RECORD,,
