@@ -1,0 +1,3 @@
+[console_scripts]
+tweets-between=twitter_utils.tweets_between:main
+
