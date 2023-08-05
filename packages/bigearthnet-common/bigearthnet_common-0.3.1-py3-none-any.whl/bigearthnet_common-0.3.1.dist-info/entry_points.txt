@@ -1,0 +1,4 @@
+[console_scripts]
+ben_constant_prompt=bigearthnet_common.constants:constants_prompt
+ben_gdf_builder=bigearthnet_common.gdf_builder:_run_gdf_cli
+
