@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: iget
+Version: 0.5.0
+Summary: A small CLI
+Home-page: https://pypi.org/project/iget/
+Author: nethead
+Author-email: netheadonline@gmail.com
+License: UNKNOWN
+Description: # Iget
+        
+        A small CLI
+        
+        
+        ## Installation
+        
+        
+            $ pip install iget
+        
+        ## Usage
+        
+        TODO: Write usage instructions here
+        
+        
+        ## License
+        
+        The package is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+iget/__init__.py
+iget/main.py
+iget.egg-info/PKG-INFO
+iget.egg-info/SOURCES.txt
+iget.egg-info/dependency_links.txt
+iget.egg-info/entry_points.txt
+iget.egg-info/top_level.txt
