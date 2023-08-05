@@ -1,0 +1,48 @@
+from disnake.interactions.application_command import (
+    AppCmdDataOptionT,
+    AppCmdInter,
+    AppCommandInter,
+    AppCommandInteraction,
+    ApplicationCommandInteraction,
+    ApplicationCommandInteractionData,
+    ApplicationCommandInteractionDataOption,
+    ApplicationCommandInteractionDataResolved,
+    ApplicationCommandType,
+    CmdInter,
+    CmdInteraction,
+    CommandInter,
+    CommandInteraction,
+    Guild,
+    GuildCommandInteraction,
+    Interaction,
+    MISSING,
+    Member,
+    Message,
+    MessageCommandInteraction,
+    OptionType,
+    Role,
+    User,
+    UserCommandInteraction,
+    _threaded_channel_factory,
+    try_enum,
+)
+
+__all__ = (
+    "ApplicationCommandInteraction",
+    "GuildCommandInteraction",
+    "UserCommandInteraction",
+    "MessageCommandInteraction",
+    "ApplicationCommandInteractionData",
+    "ApplicationCommandInteractionDataOption",
+    "ApplicationCommandInteractionDataResolved",
+    "CommandInteraction",
+    "CmdInteraction",
+    "CommandInter",
+    "CmdInter",
+    "AppCommandInteraction",
+    "AppCommandInter",
+    "AppCmdInter",
+)
+
+from disnake.interactions.application_command import __dict__ as __original_dict__
+locals().update(__original_dict__)
