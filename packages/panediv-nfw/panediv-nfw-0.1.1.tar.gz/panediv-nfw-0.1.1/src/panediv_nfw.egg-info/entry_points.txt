@@ -1,0 +1,3 @@
+[console_scripts]
+panediv = panediv.cli:run
+
