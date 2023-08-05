@@ -1,0 +1,7 @@
+setup.py
+Animal/__init__.py
+Animal/q5.py
+myAnimal.egg-info/PKG-INFO
+myAnimal.egg-info/SOURCES.txt
+myAnimal.egg-info/dependency_links.txt
+myAnimal.egg-info/top_level.txt
