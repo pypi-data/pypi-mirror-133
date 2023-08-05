@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/polyclean.egg-info/PKG-INFO
+src/polyclean.egg-info/SOURCES.txt
+src/polyclean.egg-info/dependency_links.txt
+src/polyclean.egg-info/top_level.txt
