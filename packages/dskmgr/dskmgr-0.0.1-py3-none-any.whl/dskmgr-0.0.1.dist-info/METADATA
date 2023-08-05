@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: dskmgr
+Version: 0.0.1
+Summary: A two-dimensional desktops manager
+Home-page: https://github.com/QazmoQwerty/dskmgr
+Author: Shalev Don Meiri
+Author-email: sdonmeiri@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/QazmoQwerty/dskmgr/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dskmgrd
+
+TODO - add readme
+
+```
+dskmgrd &
+dskmgr reset 4
+```
+
+## Install
+
+```
+python3 -m build
+python3 -m pip install dist/dskmgr-0.0.1-py3-none-any.whl
+```
+
