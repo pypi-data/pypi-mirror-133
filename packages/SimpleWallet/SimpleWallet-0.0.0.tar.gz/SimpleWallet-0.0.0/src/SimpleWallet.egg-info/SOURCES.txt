@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/SimpleWallet.egg-info/PKG-INFO
+src/SimpleWallet.egg-info/SOURCES.txt
+src/SimpleWallet.egg-info/dependency_links.txt
+src/SimpleWallet.egg-info/entry_points.txt
+src/SimpleWallet.egg-info/top_level.txt
+src/simplewallet/__init__.py
+src/simplewallet/__main__.py
+src/simplewallet/main.py
+src/simplewallet/simplewallet.py
+src/simplewallet/utils/__init__.py
+src/simplewallet/utils/commoncmd.py
+src/simplewallet/utils/configparser.py
+test/test_main.py
