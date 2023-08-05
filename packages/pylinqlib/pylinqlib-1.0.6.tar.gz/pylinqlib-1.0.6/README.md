@@ -1,0 +1,2 @@
+# PyLinq
+It is a Python adaptation of C# LINQ that implements the IEnumerable methods that are applicable for use in Python. I tried to optimize the library as much as possible for working with large data collections. Рowever, I will be glad if you make a fork with fixing bugs that will interfere with your work.
