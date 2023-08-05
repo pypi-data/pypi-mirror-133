@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/wtforms_html5.py
+src/wtforms_html5.egg-info/PKG-INFO
+src/wtforms_html5.egg-info/SOURCES.txt
+src/wtforms_html5.egg-info/dependency_links.txt
+src/wtforms_html5.egg-info/requires.txt
+src/wtforms_html5.egg-info/top_level.txt
