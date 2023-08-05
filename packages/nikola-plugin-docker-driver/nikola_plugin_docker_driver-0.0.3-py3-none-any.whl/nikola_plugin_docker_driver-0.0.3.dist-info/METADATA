@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nikola-plugin-docker-driver
+Version: 0.0.3
+Summary: Nikola Driver Plugin for docker
+Home-page: https://github.com/CiscoAandI/nikola_plugin_docker_driver
+Author: Ava Thorn
+Author-email: avthorn@cisco.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/CiscoAandI/nikola_plugin_docker_driver/issues
+Project-URL: Source, https://github.com/CiscoAandI/nikola_plugin_docker_driver/
+Keywords: cx,nikola,plugin,cisco
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: nikola-plugin-manager
+Requires-Dist: docker (==5.0.2)
+
+Nikola Driver Plugin for docker
+
