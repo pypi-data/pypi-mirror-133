@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+spicepy/__init__.py
+spicepy/netlist.py
+spicepy/netsolve.py
+spicepy/transient_sources.py
+spicepy.egg-info/PKG-INFO
+spicepy.egg-info/SOURCES.txt
+spicepy.egg-info/dependency_links.txt
+spicepy.egg-info/requires.txt
+spicepy.egg-info/top_level.txt
