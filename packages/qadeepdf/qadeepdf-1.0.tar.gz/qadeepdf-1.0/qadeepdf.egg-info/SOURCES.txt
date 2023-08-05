@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+qadeepdf/__init__.py
+qadeepdf/pdf2image.py
+qadeepdf/pdf2text.py
+qadeepdf.egg-info/PKG-INFO
+qadeepdf.egg-info/SOURCES.txt
+qadeepdf.egg-info/dependency_links.txt
+qadeepdf.egg-info/top_level.txt
