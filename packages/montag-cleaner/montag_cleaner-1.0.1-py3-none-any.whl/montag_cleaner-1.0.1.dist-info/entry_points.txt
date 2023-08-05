@@ -1,0 +1,3 @@
+[console_scripts]
+montag = montag_cleaner:RunMontag
+
