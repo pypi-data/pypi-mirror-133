@@ -1,0 +1,8 @@
+devopstool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devopstool/cli.py,sha256=cyjBWAsoFeNumL4Nj0ZUjZq0QTahOzhCxydmu0_-SG4,234
+devopstool/dockerhub_list_tags.py,sha256=G9oxJ1981BXE0YuTkuwJlrQ0QffX_dvtA_5sWNHaKk4,246
+example_pkg_naturalett-1.7.dist-info/METADATA,sha256=3zcdKbOI9cMgDtvSpFx7CR4JgMu4QfQjGaJbBVHux2U,166
+example_pkg_naturalett-1.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+example_pkg_naturalett-1.7.dist-info/entry_points.txt,sha256=sygtaDJ_C0JnqqpWyRNvUMjhLhZG11jtxXQZj-135Y8,53
+example_pkg_naturalett-1.7.dist-info/top_level.txt,sha256=9RYgDhMzr_vVPFMKx98LI1HN69ERGfnWTZrDdNOhV9Y,11
+example_pkg_naturalett-1.7.dist-info/RECORD,,
