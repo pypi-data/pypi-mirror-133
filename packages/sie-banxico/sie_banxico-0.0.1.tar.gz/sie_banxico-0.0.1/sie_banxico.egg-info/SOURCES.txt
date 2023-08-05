@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+sie_banxico/__init__.py
+sie_banxico/sie_banxico.py
+sie_banxico.egg-info/PKG-INFO
+sie_banxico.egg-info/SOURCES.txt
+sie_banxico.egg-info/dependency_links.txt
+sie_banxico.egg-info/top_level.txt
