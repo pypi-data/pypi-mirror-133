@@ -1,0 +1,13 @@
+dell_printer_parser/__init__.py,sha256=v0zqRembIW__d7HVDd71J2eoXGtALnzdY8JdBVk-BPY,21
+dell_printer_parser/const.py,sha256=lEoGJ6sHFyWMg1Zcrn6STOJ7DY-r3fswE1RnC98iL80,229
+dell_printer_parser/printer_parser.py,sha256=lck10fUIpAc7Qggct1iMcy6BSKAffIjrviqms_0tCgs,8745
+dell_printer_parser/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dell_printer_parser/model/events.py,sha256=RF_sJYPF2GlvQOTuexDSA4A6V3Xfm4Tm9E5xyQpSHO8,371
+dell_printer_parser/model/information.py,sha256=KvXt84Md5e76Ynx4aEAgyLDsNlqQ8dxOKY-MaAe---E,605
+dell_printer_parser/model/print_volume.py,sha256=6No3iigkx-HTtVXCnIu7txGWoSdoGHqxNiPb4tv-t_A,670
+dell_printer_parser/model/status.py,sha256=PlL_abaBGihDiTQ1GdgpB0XEFRfRA58VZwtgvDxoYqE,820
+dell_printer_parser-0.0.5.dist-info/LICENSE,sha256=juP8q18Vlehi7aM-y0BonkrAO0XHUq0cMlXwLmHCy9U,1084
+dell_printer_parser-0.0.5.dist-info/METADATA,sha256=0jpV5Q_wxZcC1VshhBv8VHoFGC_zCisZy9kFFNs-fns,1483
+dell_printer_parser-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dell_printer_parser-0.0.5.dist-info/top_level.txt,sha256=ihXNWYP8ORIJVO2T2iM2jF2QLH-HEx4Eg9AQ5aDyXu4,20
+dell_printer_parser-0.0.5.dist-info/RECORD,,
