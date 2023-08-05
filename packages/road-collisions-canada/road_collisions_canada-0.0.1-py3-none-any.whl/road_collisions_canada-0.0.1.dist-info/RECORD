@@ -1,0 +1,10 @@
+road_collisions_canada/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_canada/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_canada/bin/load.py,sha256=Z33c4HlSaPVlvus4zwBmufQqTUFfuC_WDmfH4aSnsJE,484
+road_collisions_canada/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_canada/models/collision.py,sha256=sF07e7MNhUYPTKtxmXvhR4uYv0AJteH5gvG2lnpuNYQ,13127
+road_collisions_canada-0.0.1.dist-info/METADATA,sha256=H-ORdW_yJVYpAAtWllm1f6NA84bZ1zylE8nZbX1gf6A,295
+road_collisions_canada-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+road_collisions_canada-0.0.1.dist-info/entry_points.txt,sha256=qGsprQRvQbHNEwQp4twINFRjTtu-zuCMA1DiKnM2EcE,86
+road_collisions_canada-0.0.1.dist-info/top_level.txt,sha256=LASXIHrdSNNvkN26uWwk5qxfw26Wy_ysXAZudFm8Fgw,23
+road_collisions_canada-0.0.1.dist-info/RECORD,,

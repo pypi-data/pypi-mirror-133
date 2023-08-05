@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: road-collisions-canada
+Version: 0.0.1
+Summary: Road collision data for Canada
+Home-page: https://github.com/RobertLucey/road-collisions-canda
+Author: Robert Lucey
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: road-collisions-base
+
+UNKNOWN
+
