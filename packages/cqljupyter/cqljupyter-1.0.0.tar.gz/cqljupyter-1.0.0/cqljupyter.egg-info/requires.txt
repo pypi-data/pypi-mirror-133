@@ -1,0 +1,2 @@
+cqlsh
+cassandra-driver>=3.25
