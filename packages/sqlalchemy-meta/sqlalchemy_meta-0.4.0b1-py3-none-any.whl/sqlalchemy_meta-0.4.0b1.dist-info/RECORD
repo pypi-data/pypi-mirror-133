@@ -1,0 +1,8 @@
+sqlalchemy_meta/__init__.py,sha256=cTqJiVwsI15vjRIo3FiwKXYjrnBf4XUJQFpDRJ1Io3U,84
+sqlalchemy_meta/constant.py,sha256=sNkZRFEYlpiEbq9i96Wh1GBQZkq3UkOZHynk7tr_sHw,382
+sqlalchemy_meta/session.py,sha256=q_ck3F1mgpZAnEonTJ9Jdb2QVr-n0o4oSnxhdu152-o,10908
+sqlalchemy_meta/typing.py,sha256=0FRupVk2HatQPy_PcqZOVrrbXQXwfPYKBLpTRy3e-NQ,702
+sqlalchemy_meta-0.4.0b1.dist-info/LICENSE.txt,sha256=Aiisvwt5ahv4mA312tkewhmhAjT6HgmnNuGc4ffH1kI,1069
+sqlalchemy_meta-0.4.0b1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sqlalchemy_meta-0.4.0b1.dist-info/METADATA,sha256=Ck1KnS75rLRElJ-xQphc4QR7J4AsWgj_Rxx75RJBCws,1258
+sqlalchemy_meta-0.4.0b1.dist-info/RECORD,,

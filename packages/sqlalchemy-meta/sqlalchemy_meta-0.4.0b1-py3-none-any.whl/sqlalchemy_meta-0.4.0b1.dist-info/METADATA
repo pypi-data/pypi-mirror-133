@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-meta
+Version: 0.4.0b1
+Summary: Sqlalchemy declarative session-based meta class.
+Home-page: https://bitbucket.org/p-app/sqlalchemy_meta
+License: MIT
+Author: Vladimir V. Pivovarov
+Author-email: admin@p-app.ru
+Maintainer: Vladimir V. Pivovarov
+Maintainer-email: admin@p-app.ru
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: SQLAlchemy (>=1.4,<2.0)
+Project-URL: Repository, https://bitbucket.org/p-app/sqlalchemy_meta
+Description-Content-Type: text/markdown
+
+## Sqlalchemy meta
+
+This library provides creating [SQLAlchemy](https://www.sqlalchemy.org/) 
+declarative object model with various meta classes, that bring additional 
+functional.
+
+Already implemented classes:
+ - SessionDeclarativeMeta - meta class with scoped session additional methods.
+
