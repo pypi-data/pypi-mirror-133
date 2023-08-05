@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: clippersaver-karjakak
+Version: 0.1.7
+Summary: ClipperSaver will clip everything copied and can be structured for env-var encryption use
+Home-page: UNKNOWN
+Author: karjakak
+Author-email: kakkarja.github@gmail.com
+License: BSD3 License
+Platform: UNKNOWN
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# ClipperSaver [gui-environment]
+## Tool to help developer to clip all copied and rearange for env-var encrypt use
+### [Production-Development]
+
+## Installation
+```
+pip install clippersaver-karjakak
+```
+## Usage
+**In console or terminal**
+```
+clippers
+```
+## Caution: still in production
+## Dependency: Clien-karjakak, DecAn-karjakak, py7zr
+
