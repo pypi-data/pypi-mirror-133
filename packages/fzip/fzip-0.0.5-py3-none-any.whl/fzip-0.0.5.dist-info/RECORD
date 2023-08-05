@@ -1,0 +1,10 @@
+fzip/__init__.py,sha256=d_zBH8OzCoZzX27Q_hErUU5dwFYnuFMFQiHuLgg0sww,20
+fzip/apicep.py,sha256=WQ1YsOlUrv4b5rzRlI0huDwmg2NYKigSGnieH1ev9jk,650
+fzip/correios.py,sha256=h9dT25jPa7lr3eWG_6URG8vi1E8wIiRX4vDkFY5pDMA,702
+fzip/viacep.py,sha256=Veq9xuXFBFOxR2LizNcTqQLdrzRN-44JTKOJ9Qpggic,645
+fzip/zcode.py,sha256=ebwx7MBsZeJrMbsp94cYAqoDX0-K_nf6yNSeXae-EX8,1039
+fzip-0.0.5.dist-info/LICENSE,sha256=xPUEJDIaL2PATn-tmgGFQVXHwcqjxFgJBiAaZ068gzU,1096
+fzip-0.0.5.dist-info/METADATA,sha256=dc3aVc_j9gvI23X0YaF6iiOr3uYeaXOScrQtJHaLrJ4,1708
+fzip-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fzip-0.0.5.dist-info/top_level.txt,sha256=0HD6YkVkHkC--U_CIrA31c6vw_iG_doXA3-HUkqSXzw,5
+fzip-0.0.5.dist-info/RECORD,,
