@@ -1,0 +1,10 @@
+sshreader/__init__.py,sha256=lI5IvO3Ay-jWM3rlV2qqc-d7SfWSLa48dHF58BNtznQ,1924
+sshreader/ssh.py,sha256=ECuKdH----CEntmvgRgvX6ZZAT-USv2TJ4RL7JbmmLA,9949
+sshreader/utils.py,sha256=uwDps6iYw9ZSjv38FFqE5fta68mGb0gqjAJwlwRPNiY,17328
+sshreader-4.8.2.data/scripts/pydsh,sha256=SqZy8qCP5eaU73C4prieRcZ6FI8es9p2qhu8d1-SvXI,10309
+sshreader-4.8.2.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+sshreader-4.8.2.dist-info/LICENSE.lesser,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+sshreader-4.8.2.dist-info/METADATA,sha256=Ja7FIvxi9TYfTDBSZ0IfzSpuRZar8VGYlKBwOioUftE,1407
+sshreader-4.8.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sshreader-4.8.2.dist-info/top_level.txt,sha256=ECJFfymGzhBkPYozXk-cFZzvtPefj_q01vv0YLWO_oM,10
+sshreader-4.8.2.dist-info/RECORD,,
