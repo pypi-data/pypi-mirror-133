@@ -1,0 +1,17 @@
+debouncer/__init__.py,sha256=iK6xGSdc7F0ZesLQ9ac8l-shFDJhqA6TVAkwtb-gguc,91
+debouncer/app.py,sha256=apVtxSHAR4b6c4fi-v6FRfNzQkFHMrBBHsTdWOBHgpA,854
+debouncer/config.py,sha256=dOePkJ-OdIaIg4iv39JQq0jhyOPvuHZgiliTMVsZBhw,368
+debouncer/dispatch.py,sha256=hjHONvJwgd9jArTW1t5rjd3gG9Y0KczIIuL5LORAMMw,1363
+debouncer/router.py,sha256=qI0I25zmAtWGRJwyeUlJSyavFJtR1R-BHPxydoHKDJk,4185
+debouncer/schema.py,sha256=AHE4XKVx-qmawM-RG5_KMBPYj_U0CqaJIFtreypTiJk,856
+debouncer/state.py,sha256=vso0eL7S9b0ENc48NGEgp2w9PdAZ1c6kBVLzbydpvXc,238
+debouncer/store.py,sha256=il4cbp-muDg3pylYrjyUSbeOp62swcTP37q199y9mqY,921
+web/dist/assets/index.178de123.css,sha256=ILyA2U9IWOoGWVEmqqyqzdpvRXnyLFQxxRw0lNQwEBo,159555
+web/dist/assets/index.dc29a0fd.js,sha256=AeNVoV_eSYBNMb12jWSDkveDGNe_Z84uG1T3fQZuwRI,3437
+web/dist/assets/vendor.ce87bf07.js,sha256=0vkxTt7RHZ1FAIfFBLwg4KUuTGJri3sYNFVz-MwRMWo,192932
+web/dist/index.html,sha256=qM8oAlPxENVAh_euflkVuJ256wF7NBu1JQqrRIpU4l0,431
+web/dist/robots.txt,sha256=Mx6pCQ2wyfb1l72YQP1bFxgw9uCzuhyyTfqR8Mla7cE,26
+debouncer-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+debouncer-0.0.7.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+debouncer-0.0.7.dist-info/METADATA,sha256=E--mQzr74VXQdWKU9KYsBI6hKjSrwKPRdt4e_XAc9xU,3130
+debouncer-0.0.7.dist-info/RECORD,,
