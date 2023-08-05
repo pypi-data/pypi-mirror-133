@@ -1,0 +1,1 @@
+Gaussian and Binomial distribution package from Udacity course work.
