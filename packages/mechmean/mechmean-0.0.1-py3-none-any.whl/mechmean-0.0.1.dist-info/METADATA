@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mechmean
+Version: 0.0.1
+Summary: mechmean
+Home-page: https://github.com/JulianKarlBauer/mechmean/
+Author: Julian Karl Bauer
+Author-email: juliankarlbauer@gmx.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: mechkit (>=0.2.6)
+
+UNKNOWN
+
+
