@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PyMinHash
+Version: 0.0.1
+Summary: Efficient MinHashing
+Home-page: https://github.com/fritshermans/pyminhash
+Author: Frits Hermans
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+Provides-Extra: base
+Provides-Extra: dev
+Provides-Extra: docs
+License-File: LICENSE
+
+# PyMinHash
+
+
+
