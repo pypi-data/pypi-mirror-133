@@ -1,0 +1,7 @@
+README.md
+setup.py
+MathSquare/__init__.py
+MathSquare.egg-info/PKG-INFO
+MathSquare.egg-info/SOURCES.txt
+MathSquare.egg-info/dependency_links.txt
+MathSquare.egg-info/top_level.txt
