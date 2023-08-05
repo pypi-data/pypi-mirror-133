@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/thompyson/__init__.py
+src/thompyson.egg-info/PKG-INFO
+src/thompyson.egg-info/SOURCES.txt
+src/thompyson.egg-info/dependency_links.txt
+src/thompyson.egg-info/top_level.txt
+src/thompyson/rational/__init__.py
+src/thompyson/rational/dyadic.py
+src/thompyson/tree_pair/__init__.py
+src/thompyson/tree_pair/tree_pair.py
