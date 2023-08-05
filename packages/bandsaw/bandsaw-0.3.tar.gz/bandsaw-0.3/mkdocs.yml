@@ -1,0 +1,67 @@
+site_name: Bandsaw documentation
+site_url: https://docs.kant.ai/bandsaw/
+repo_url: https://gitlab.com/kantai/bandsaw/
+site_dir: build
+
+nav:
+  - Home: index.md
+  - Getting started: getting_started.md
+  - User guide: user_guide.md
+  - Advices:
+    - Caching: advices/caching.md
+    - Loggging: advices/logging.md
+    - Subprocess: advices/subprocess.md
+    - Remote: advices/remote.md
+    - Metrics: advices/metrics.md
+    - Async: advices/async.md
+  - Extensions:
+    - Interface: extensions/extension.md
+    - Tracker: extensions/tracker.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+  - API: api.md
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.tracking
+  icon:
+    repo: fontawesome/brands/gitlab
+  palette:
+    scheme: kantai
+  logo: icon_white.svg
+  favicon: favicon.svg
+
+markdown_extensions:
+  - toc:
+      permalink: 🔗
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - admonition
+
+extra_javascript:
+    -
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  analytics:
+    provider: plausible
+    domain: docs.kant.ai
+  homepage: https://docs.kant.ai
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/kantaiML
+      name: kantai on Twitter
+  version:
+    provider: mike
+
+copyright: Copyright &copy; 2021 Kantai GmbH
+
+plugins:
+  - git-revision-date
+  - mkdocstrings
+  - search
