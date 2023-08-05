@@ -1,0 +1,35 @@
+[ruteni.endpoint.http.v1]
+
+
+[ruteni.endpoint.websocket.v1]
+socketio = ruteni.plugins.socketio:app
+
+[ruteni.node.http.v1]
+auth-api = ruteni.plugins.auth.session:api_node
+jauthn-api = ruteni.plugins.auth.token:api_node
+register = ruteni.plugins.registration:app_node
+robots = ruteni.plugins.robots:node
+static = ruteni.plugins.static:node
+store-app = ruteni.apps.store:app_node
+
+[ruteni.node.websocket.v1]
+
+
+[ruteni.service.v1]
+auth-api = ruteni.plugins.auth.session:api_node
+database = ruteni.services.database:database
+health-check = ruteni.services.health_check:health_check
+jauthn-api = ruteni.plugins.auth.token:api_node
+keys = ruteni.services.keys:keys
+logging-api = ruteni.plugins.logging:api_node
+nng = ruteni.services.nng:nng
+presence = ruteni.services.presence:presence
+register = ruteni.plugins.registration:app_node
+scheduler = ruteni.services.scheduler:scheduler
+security-api = ruteni.plugins.security:api_node
+smtpd = ruteni.services.smtpd:smtpd
+sshd = ruteni.services.sshd:sshd
+store-api = ruteni.apps.store:api_node
+store-app = ruteni.apps.store:app_node
+user-api = ruteni.plugins.users:api_node
+

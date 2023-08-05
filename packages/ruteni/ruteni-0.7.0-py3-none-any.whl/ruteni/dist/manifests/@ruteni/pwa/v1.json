@@ -1,0 +1,1 @@
+{"name":"@ruteni/pwa/v1","version":"1.0.0","license":"EUPL-1.2","dependencies":["@ruteni/logging/v1"],"basePath":"../../../../static/@ruteni/pwa/v1","baseUrl":"/static/@ruteni/pwa/v1","select":[],"resources":{},"module":{"url":"index.js","revision":"8f16f26a54cd7cc7f843c7757618a8ae","size":7877,"type":"script"}}
