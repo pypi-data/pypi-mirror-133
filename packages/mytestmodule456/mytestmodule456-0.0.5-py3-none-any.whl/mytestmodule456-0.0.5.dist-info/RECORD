@@ -1,0 +1,9 @@
+mytestmodule456/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mytestmodule456/add.py,sha256=JmlhvwThJoxHN2QRm1Y9BZVsSz7X4tt712m9VjK4Sf8,55
+mytestmodule456/sub.py,sha256=YiTjrDQZH3UVJVDOrPHhrJxXoQ8MG8u20MwT36Tpx90,35
+mytestmodule456/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mytestmodule456/extras/mult.py,sha256=-utqPDGA5QmfkELV9KDw3p2vkLJW6HQsEq-LptNt4AY,57
+mytestmodule456-0.0.5.dist-info/METADATA,sha256=o2l4hSUEfhNg2kePjb4T8z0TjbXC7xaxBISW-L3nMHI,586
+mytestmodule456-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mytestmodule456-0.0.5.dist-info/top_level.txt,sha256=4nqwfkRICjamygr0AwwoWwMtHAaTFaUW2ryGtEI9Jv4,16
+mytestmodule456-0.0.5.dist-info/RECORD,,
