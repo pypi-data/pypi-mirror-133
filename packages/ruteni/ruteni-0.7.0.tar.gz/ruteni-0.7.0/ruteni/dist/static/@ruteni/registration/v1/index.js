@@ -1,0 +1,1 @@
+import"/static/@ruteni/registration/v1/elements/homepage/index.js";import"/static/@ruteni/registration/v1/elements/form/index.js";const e=document.createElement("registration-homepage");document.body.appendChild(e);

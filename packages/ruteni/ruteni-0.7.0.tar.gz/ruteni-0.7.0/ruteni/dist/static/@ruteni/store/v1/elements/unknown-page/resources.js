@@ -1,0 +1,1 @@
+export default{"@ruteni/blaze/v1":{"utilities.typography":"/static/@ruteni/blaze/v1/css/utilities.typography.css"}}
