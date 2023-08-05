@@ -1,0 +1,10 @@
+unpoly/__init__.py,sha256=9uewdkF5eWr98IaPuRsmuty43rjW0bKY_5xBlBHukYA,31
+unpoly/adapter.py,sha256=Y2iF6bmMYrYe933rJGj4V9u7zubJyndA-sIMsquNOMs,5058
+unpoly/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unpoly/contrib/django.py,sha256=RNhyMXSyjDmj5uQgh272ZmQ4ovs7BwMmOqXAiuTFKLU,1441
+unpoly/options.py,sha256=66aUPO0y9kVEoBhjMkVQ-eHbbrY_m1BuA3RIZnzjSLQ,3917
+unpoly/up.py,sha256=ZcU100RE25bG8S_k5dE3BZKMiJjrM52CwGuSuu4RbGk,8927
+unpoly-0.2.1.dist-info/WHEEL,sha256=o3Jw1utMtG5Pldx6lEBo-y0Mg5DW9GsDzxTogu6yy2A,88
+unpoly-0.2.1.dist-info/METADATA,sha256=TO9xCh1lXtpYNTGlNxSFHZHxmlg6gQI3o6_BMPDeo-A,3427
+unpoly-0.2.1.dist-info/LICENSE,sha256=FNGT3moZEbvm_dkPqNRUHt9WCMnDrH1S3Yhx_vH5Ntk,1327
+unpoly-0.2.1.dist-info/RECORD,,
