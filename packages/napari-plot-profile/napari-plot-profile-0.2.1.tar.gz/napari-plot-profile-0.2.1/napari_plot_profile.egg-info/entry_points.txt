@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-plot-profile = napari_plot_profile
+
