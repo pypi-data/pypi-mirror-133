@@ -1,0 +1,24 @@
+image: archlinux
+packages:
+  - python-dateutil
+  - python-jinja
+  - python-ruamel-yaml
+  - python-xapian
+  - python-gitpython
+  - python-nose
+  - python-coverage
+  - flake8
+sources:
+  - https://git.sr.ht/~valhalla/lesana
+tasks:
+  - test: |
+      cd lesana
+      sh run_coverage
+  - qa: |
+      cd lesana
+      sh run_qa
+triggers:
+  - action: email
+    condition: failure
+    to: valhalla@trueelena.org
+
