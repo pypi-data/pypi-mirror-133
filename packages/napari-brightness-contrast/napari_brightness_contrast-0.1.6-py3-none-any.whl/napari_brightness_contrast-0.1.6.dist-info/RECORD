@@ -1,0 +1,10 @@
+napari_brightness_contrast/__init__.py,sha256=PVLap7nfF7tyMSSiLA8J1QW_Kg4suETEUIs3iS4SJEE,100
+napari_brightness_contrast/_dock_widget.py,sha256=_sjU1Zivih5m9I98SBJ_BkKYF6mu5S9VvNKf6qVvREo,13649
+napari_brightness_contrast/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_brightness_contrast/_tests/test_dock_widget.py,sha256=skvm6FcsroDBmbJrFKfjRzmAXbfYIG5AYu1T8sf48xg,584
+napari_brightness_contrast-0.1.6.dist-info/LICENSE,sha256=u0AwpVUERuNGml5hp50ytPpW4Bb-C8seam-xwr0eCOg,1525
+napari_brightness_contrast-0.1.6.dist-info/METADATA,sha256=adKYMckcU4yoPLJHVszfo6YyNIfM7u96XT2Z1IIJkEU,4743
+napari_brightness_contrast-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_brightness_contrast-0.1.6.dist-info/entry_points.txt,sha256=7fFMox5kPT5OskzzPITEAtQjPs6Ce0rBCSpEQsNLw2U,73
+napari_brightness_contrast-0.1.6.dist-info/top_level.txt,sha256=hPHnZCfhj0nxMPhJbwXCEI8mNVN4XZN8upZh2GXYuRo,27
+napari_brightness_contrast-0.1.6.dist-info/RECORD,,
