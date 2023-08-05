@@ -1,0 +1,11 @@
+README.md
+setup.py
+UtfN.egg-info/PKG-INFO
+UtfN.egg-info/SOURCES.txt
+UtfN.egg-info/dependency_links.txt
+UtfN.egg-info/entry_points.txt
+UtfN.egg-info/requires.txt
+UtfN.egg-info/top_level.txt
+utfn/__init__.py
+utfn/__main__.py
+utfn/utfn.py
