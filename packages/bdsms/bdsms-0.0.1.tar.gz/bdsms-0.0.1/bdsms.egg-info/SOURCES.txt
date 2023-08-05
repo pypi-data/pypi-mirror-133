@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bdsms/__init__.py
+bdsms/bdsms.py
+bdsms.egg-info/PKG-INFO
+bdsms.egg-info/SOURCES.txt
+bdsms.egg-info/dependency_links.txt
+bdsms.egg-info/entry_points.txt
+bdsms.egg-info/requires.txt
+bdsms.egg-info/top_level.txt
