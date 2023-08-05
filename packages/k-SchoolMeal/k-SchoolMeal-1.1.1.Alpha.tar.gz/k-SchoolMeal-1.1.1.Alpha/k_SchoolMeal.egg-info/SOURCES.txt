@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+KSchoolMeal/__init__.py
+KSchoolMeal/exceptions.py
+KSchoolMeal/getSchoolCode.py
+KSchoolMeal/getSchoolMeal.py
+KSchoolMeal/models.py
+KSchoolMeal/sync.py
+k_SchoolMeal.egg-info/PKG-INFO
+k_SchoolMeal.egg-info/SOURCES.txt
+k_SchoolMeal.egg-info/dependency_links.txt
+k_SchoolMeal.egg-info/requires.txt
+k_SchoolMeal.egg-info/top_level.txt
