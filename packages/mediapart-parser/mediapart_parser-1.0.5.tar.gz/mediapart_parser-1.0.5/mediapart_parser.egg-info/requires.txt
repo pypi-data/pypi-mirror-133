@@ -1,0 +1,5 @@
+setuptoolsfeedparser
+beautifulsoup4
+requests
+Deprecated
+PyPDF2
