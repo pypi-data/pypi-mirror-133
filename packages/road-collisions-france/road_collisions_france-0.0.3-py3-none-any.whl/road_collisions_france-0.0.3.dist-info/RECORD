@@ -1,0 +1,13 @@
+road_collisions_france/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_france/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_france/bin/load.py,sha256=Ceg3x8nMFfe-1YSyZ4qQyRPmmi1AXWnvNTjsIABNphs,380
+road_collisions_france/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_france/models/casualty.py,sha256=vq4dNhWrV80MfUgbagoEpKdPJTds3HzxRJA7GWDseNw,2596
+road_collisions_france/models/collision.py,sha256=mw8W0BEt5F1FTk0_n0WGaIf9OiAdCdyMbyg2nTdJyn4,7956
+road_collisions_france/models/vehicle.py,sha256=X7MtauIaJllBFbbAaSKZNiM4r6n2wEuAeWgpd8UPb38,2164
+road_collisions_france/resources/fr/fr.csv.tgz,sha256=pDW-Jz6OSF8nHrzC84T8gLZ4iuqCRHbNBdnHQWwIIm0,67622977
+road_collisions_france-0.0.3.dist-info/METADATA,sha256=jNDApBmXBwbuk-N7Fr-PekkhLtS_qKfUOs0125GFgjo,296
+road_collisions_france-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+road_collisions_france-0.0.3.dist-info/entry_points.txt,sha256=t_Mg-52BTRkVCLZ8Qgow8uz7a1Mhc0DW1vUEG7gz4zo,86
+road_collisions_france-0.0.3.dist-info/top_level.txt,sha256=3-5EbEXn8sQfyxlQA6lTLUc-ZmwUm_i5eWI9WVUzkMg,23
+road_collisions_france-0.0.3.dist-info/RECORD,,
