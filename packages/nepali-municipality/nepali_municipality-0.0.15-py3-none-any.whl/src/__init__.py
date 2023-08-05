@@ -1,0 +1,1 @@
+from nepali_municipalities.nepali_municipalities import NepalMunicipality
