@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+clesperanto/__init__.py
+clesperanto/__main__.py
+clesperanto/_clesperanto.py
+clesperanto.egg-info/PKG-INFO
+clesperanto.egg-info/SOURCES.txt
+clesperanto.egg-info/dependency_links.txt
+clesperanto.egg-info/entry_points.txt
+clesperanto.egg-info/requires.txt
+clesperanto.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+numpy!=1.19.4
+pyopencl
+toolz
+scikit-image>=0.18.0
+matplotlib
+transforms3d
+napari[all]
+napari-pyclesperanto-assistant
+napari-accelerated-pixel-and-object-classification
+napari-brightness-contrast
+napari-mouse-controls
+napari-plot-profile
+napari-skimage-regionprops
+napari-segment-blobs-and-things-with-membranes
+napari-tabu
+napari-crop
+napari-layer-details-display
