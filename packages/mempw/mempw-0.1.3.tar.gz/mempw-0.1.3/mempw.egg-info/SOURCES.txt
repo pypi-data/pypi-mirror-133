@@ -1,0 +1,13 @@
+LICENCE
+MANIFEST.in
+README.md
+setup.py
+mempw/__init__.py
+mempw/config.py
+mempw/core.py
+mempw/wordlist.py
+mempw.egg-info/PKG-INFO
+mempw.egg-info/SOURCES.txt
+mempw.egg-info/dependency_links.txt
+mempw.egg-info/entry_points.txt
+mempw.egg-info/top_level.txt
