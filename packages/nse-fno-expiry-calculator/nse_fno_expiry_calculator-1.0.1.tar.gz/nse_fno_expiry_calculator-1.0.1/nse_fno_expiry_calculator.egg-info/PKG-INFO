@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nse-fno-expiry-calculator
+Version: 1.0.1
+Summary: Util to calculate expiry date for FNO instruments which also considers NSE holiday calendar.
+Home-page: https://github.com/rakesh1988/nse-fno-expiry-calculator.git
+Author: Rakesh Ravikumar Kashyap
+Author-email: rakesh1988@gmail.com
+License: UNKNOWN
+Description: # Introduction to NSE-FNO-expiry-calculator
+        
+        This package gives you an easy methods to calculate near and far weekly and monthly expiry dates which also considers NSE holiday calendar.
+        
+        ## Installation
+        
+            pip install nse_fno_expiry_calculator
+            // if you are using pipenv, then execute below
+            pipenv install nse_fno_expiry_calculator
+        
+        ## Usage
+        
+        There are 4 methods which reurns near and far weekly and monthly expiry dates
+        
+            # print('today is '+str(pendulum.now().date()))
+            # print('nearest weekly exp is '+str(getNearestWeeklyExpiryDate()))
+            # print('next weekly exp is '+str(getNextWeeklyExpiryDate()))
+            # print('nearest monthly exp is '+str(getNearestMonthlyExpiryDate()))
+            # print('next month exp is '+str(getNextMonthlyExpiryDate()))
+        
+Keywords: nse,expiry,nse fno,nse holiday,trading,stock markets
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
