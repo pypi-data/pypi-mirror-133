@@ -1,0 +1,17 @@
+README.md
+setup.py
+src/road_collisions_uk/__init__.py
+src/road_collisions_uk/download.py
+src/road_collisions_uk/utils.py
+src/road_collisions_uk.egg-info/PKG-INFO
+src/road_collisions_uk.egg-info/SOURCES.txt
+src/road_collisions_uk.egg-info/dependency_links.txt
+src/road_collisions_uk.egg-info/entry_points.txt
+src/road_collisions_uk.egg-info/requires.txt
+src/road_collisions_uk.egg-info/top_level.txt
+src/road_collisions_uk/bin/__init__.py
+src/road_collisions_uk/bin/load.py
+src/road_collisions_uk/models/__init__.py
+src/road_collisions_uk/models/casualty.py
+src/road_collisions_uk/models/collision.py
+src/road_collisions_uk/models/vehicle.py
