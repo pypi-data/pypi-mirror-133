@@ -1,0 +1,4 @@
+[console_scripts]
+gallery_get = gallery_get:main
+reddit_get = reddit_get:main
+
