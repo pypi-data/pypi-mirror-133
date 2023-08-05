@@ -1,0 +1,1 @@
+from .multipage import MultiPage, save, clear_cache
