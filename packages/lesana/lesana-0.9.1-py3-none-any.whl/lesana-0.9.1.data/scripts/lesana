@@ -1,0 +1,38 @@
+#!python
+"""
+Lesana Command Line interface
+"""
+import logging
+import lesana.command
+
+
+class Lesana(lesana.command.MainCommand):
+    """
+    Manage collections
+    """
+
+    commands = (
+        ("new", lesana.command.New()),
+        ("edit", lesana.command.Edit()),
+        ("show", lesana.command.Show()),
+        ("index", lesana.command.Index()),
+        ("search", lesana.command.Search()),
+        ("get-values", lesana.command.GetValues()),
+        ("update", lesana.command.Update()),
+        ("export", lesana.command.Export()),
+        ("init", lesana.command.Init()),
+        ("rm", lesana.command.Remove()),
+    )
+
+
+if __name__ == "__main__":
+
+    # setup logging for lesana cli
+    logger = logging.getLogger('lesana')
+    ch = logging.StreamHandler()
+    formatter = logging.Formatter('%(levelname)s:%(name)s: %(message)s')
+    ch.setFormatter(formatter)
+    logger.addHandler(ch)
+    logger.setLevel(logging.INFO)
+
+    Lesana().main()
