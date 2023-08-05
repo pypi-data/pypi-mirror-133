@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: red-discordbot\n"
+"POT-Creation-Date: 2021-11-25 09:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: Norwegian Bokmal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: redgettext 3.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: red-discordbot\n"
+"X-Crowdin-Project-ID: 289505\n"
+"X-Crowdin-Language: nb\n"
+"X-Crowdin-File-ID: 38\n"
+"Language: nb_NO\n"
+
+#: redbot/cogs/modlog/modlog.py:20
+#, docstring
+msgid "Browse and manage modlog cases."
+msgstr ""
+
+#: redbot/cogs/modlog/modlog.py:33
+#, docstring
+msgid "Show the specified case."
+msgstr "Vis den angitte saken."
+
+#: redbot/cogs/modlog/modlog.py:37
+msgid "That case does not exist for that server."
+msgstr "Det tilfellet eksisterer ikke for den serveren."
+
+#: redbot/cogs/modlog/modlog.py:43 redbot/cogs/modlog/modlog.py:79
+msgid "{case}\n"
+"**Timestamp:** {timestamp}"
+msgstr "{case}\n"
+"**Tidsstempel:** {timestamp}"
+
+#: redbot/cogs/modlog/modlog.py:52
+#, docstring
+msgid "Display cases for the specified member."
+msgstr "Vis tilfeller for det angitte elementet."
+
+#: redbot/cogs/modlog/modlog.py:64 redbot/cogs/modlog/modlog.py:102
+msgid "That user does not exist."
+msgstr "Den brukeren eksisterer ikke."
+
+#: redbot/cogs/modlog/modlog.py:67 redbot/cogs/modlog/modlog.py:105
+msgid "Something unexpected went wrong while fetching that user by ID."
+msgstr "Noe uventet gikk galt under henting av brukeren ved ID."
+
+#: redbot/cogs/modlog/modlog.py:71 redbot/cogs/modlog/modlog.py:108
+msgid "That user does not have any cases."
+msgstr "Den brukeren har ikke noen saker."
+
+#: redbot/cogs/modlog/modlog.py:90
+#, docstring
+msgid "List cases for the specified member."
+msgstr "List opp tilfeller for det angitte elementet."
+
+#: redbot/cogs/modlog/modlog.py:113
+msgid "{case}\n"
+"**Timestamp:** {timestamp}\n\n"
+msgstr "{case}\n"
+"**Tidsstempel:** {timestamp}\n\n"
+
+#: redbot/cogs/modlog/modlog.py:124
+#, docstring
+msgid "Specify a reason for a modlog case.\n\n"
+"        Please note that you can only edit cases you are\n"
+"        the owner of unless you are a mod, admin or server owner.\n\n"
+"        If no case number is specified, the latest case will be used.\n"
+"        "
+msgstr "Angi en årsak for en modlogg-sak.\n\n"
+"        Vær oppmerksom på at du bare kan redigere saker du er\n"
+"        eieren av med mindre du er en mod, administrator eller server eier.\n\n"
+"        Hvis intet saksnummer er angitt, vil den nyeste saken bli brukt.\n"
+"        "
+
+#: redbot/cogs/modlog/modlog.py:137
+msgid "There are no modlog cases in this server."
+msgstr "Det er ingen modlog tilfeller på denne serveren."
+
+#: redbot/cogs/modlog/modlog.py:143
+msgid "That case does not exist!"
+msgstr "Saken eksisterer ikke!"
+
+#: redbot/cogs/modlog/modlog.py:150
+msgid "You are not authorized to modify that case!"
+msgstr "Du har ikke autorisasjon til å endre denne saken!"
+
+#: redbot/cogs/modlog/modlog.py:158
+msgid "Reason for case #{num} has been updated."
+msgstr "Årsak til sak #{num} har blitt oppdatert."
+

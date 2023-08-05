@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: red-discordbot\n"
+"POT-Creation-Date: 2021-12-25 00:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: redgettext 3.3\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Crowdin-Project: red-discordbot\n"
+"X-Crowdin-Project-ID: 289505\n"
+"X-Crowdin-Language: ar\n"
+"X-Crowdin-File-ID: 17\n"
+"Language: ar_SA\n"
+
+#: redbot/cogs/general/general.py:47
+#, docstring
+msgid "General commands."
+msgstr "أوامر عامة."
+
+#: redbot/cogs/general/general.py:52
+msgid "As I see it, yes"
+msgstr "كما أراه، نعم"
+
+#: redbot/cogs/general/general.py:53
+msgid "It is certain"
+msgstr "إنها مؤكدة"
+
+#: redbot/cogs/general/general.py:54
+msgid "It is decidedly so"
+msgstr "ومن المؤكد أن الأمر كذلك"
+
+#: redbot/cogs/general/general.py:55
+msgid "Most likely"
+msgstr "الأكثر إعجاباً"
+
+#: redbot/cogs/general/general.py:56
+msgid "Outlook good"
+msgstr "توقعات جيدة"
+
+#: redbot/cogs/general/general.py:57
+msgid "Signs point to yes"
+msgstr "الإشارات تشير إلى نعم"
+
+#: redbot/cogs/general/general.py:58
+msgid "Without a doubt"
+msgstr "بلا شك"
+
+#: redbot/cogs/general/general.py:59
+msgid "Yes"
+msgstr "نعم"
+
+#: redbot/cogs/general/general.py:60
+msgid "Yes – definitely"
+msgstr "نعم - بالتأكيد"
+
+#: redbot/cogs/general/general.py:61
+msgid "You may rely on it"
+msgstr "يمكنك الاعتماد عليها"
+
+#: redbot/cogs/general/general.py:62
+msgid "Reply hazy, try again"
+msgstr "الرد على الضغط، حاول مرة أخرى"
+
+#: redbot/cogs/general/general.py:63
+msgid "Ask again later"
+msgstr "اسأل مرة أخرى لاحقاً"
+
+#: redbot/cogs/general/general.py:64
+msgid "Better not tell you now"
+msgstr "الأفضل أن لا تخبرك الآن"
+
+#: redbot/cogs/general/general.py:65
+msgid "Cannot predict now"
+msgstr "لا يمكن التنبؤ الآن"
+
+#: redbot/cogs/general/general.py:66
+msgid "Concentrate and ask again"
+msgstr "ركز واسأل مرة أخرى"
+
+#: redbot/cogs/general/general.py:67
+msgid "Don't count on it"
+msgstr "لا تعول عليها"
+
+#: redbot/cogs/general/general.py:68
+msgid "My reply is no"
+msgstr "جوابي. لا"
+
+#: redbot/cogs/general/general.py:69
+msgid "My sources say no"
+msgstr "مصادري تقول لا"
+
+#: redbot/cogs/general/general.py:70
+msgid "Outlook not so good"
+msgstr "توقعاتي ليست على ما يرام"
+
+#: redbot/cogs/general/general.py:71
+msgid "Very doubtful"
+msgstr "مشكوك فيه جدًا"
+
+#: redbot/cogs/general/general.py:85
+#, docstring
+msgid "Choose between multiple options.\n\n"
+"        There must be at least 2 options to pick from.\n"
+"        Options are separated by spaces.\n\n"
+"        To denote options which include whitespace, you should enclose the options in double quotes.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:94
+msgid "Not enough options to pick from."
+msgstr "لا توجد خيارات كافية للاختيار منها."
+
+#: redbot/cogs/general/general.py:100
+#, docstring
+msgid "Roll a random number.\n\n"
+"        The result will be between 1 and `<number>`.\n\n"
+"        `<number>` defaults to 100.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:115
+msgid "{author.mention} Maybe higher than 1? ;P"
+msgstr ""
+
+#: redbot/cogs/general/general.py:118
+msgid "{author.mention} Max allowed number is {maxamount}."
+msgstr ""
+
+#: redbot/cogs/general/general.py:125
+#, docstring
+msgid "Flip a coin... or a user.\n\n"
+"        Defaults to a coin.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:133
+msgid "Nice try. You think this is funny?\n"
+" How about *this* instead:\n\n"
+msgstr ""
+
+#: redbot/cogs/general/general.py:144
+msgid "*flips a coin and... "
+msgstr ""
+
+#: redbot/cogs/general/general.py:144
+msgid "HEADS!*"
+msgstr ""
+
+#: redbot/cogs/general/general.py:144
+msgid "TAILS!*"
+msgstr ""
+
+#: redbot/cogs/general/general.py:148
+#, docstring
+msgid "Play Rock Paper Scissors."
+msgstr ""
+
+#: redbot/cogs/general/general.py:153
+msgid "This isn't a valid option. Try {r}, {p}, or {s}."
+msgstr ""
+
+#: redbot/cogs/general/general.py:174
+msgid "{choice} You win {author.mention}!"
+msgstr ""
+
+#: redbot/cogs/general/general.py:180
+msgid "{choice} You lose {author.mention}!"
+msgstr ""
+
+#: redbot/cogs/general/general.py:186
+msgid "{choice} We're square {author.mention}!"
+msgstr ""
+
+#: redbot/cogs/general/general.py:193
+#, docstring
+msgid "Ask 8 ball a question.\n\n"
+"        Question must end with a question mark.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:200
+msgid "That doesn't look like a question."
+msgstr ""
+
+#: redbot/cogs/general/general.py:204
+#, docstring
+msgid "Start or stop the stopwatch."
+msgstr ""
+
+#: redbot/cogs/general/general.py:208
+msgid " Stopwatch started!"
+msgstr ""
+
+#: redbot/cogs/general/general.py:213
+msgid " Stopwatch stopped! Time: **{seconds}**"
+msgstr ""
+
+#: redbot/cogs/general/general.py:219
+#, docstring
+msgid "Create a lmgtfy link."
+msgstr ""
+
+#: redbot/cogs/general/general.py:226
+#, docstring
+msgid "Because everyone likes hugs!\n\n"
+"        Up to 10 intensity levels.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:250
+#, docstring
+msgid "\n"
+"        Show server information.\n\n"
+"        `details`: Shows more information when set to `True`.\n"
+"        Default to False.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:257
+msgid "Created on <t:{0}>. That's <t:{0}:R>!"
+msgstr ""
+
+#: redbot/cogs/general/general.py:268
+msgid "Users online"
+msgstr "المستخدمين المتصلين"
+
+#: redbot/cogs/general/general.py:269
+msgid "Text Channels"
+msgstr "قنوات النص"
+
+#: redbot/cogs/general/general.py:270
+msgid "Voice Channels"
+msgstr "القنوات الصوتية"
+
+#: redbot/cogs/general/general.py:271
+msgid "Roles"
+msgstr "الرتب"
+
+#: redbot/cogs/general/general.py:272
+msgid "Owner"
+msgstr "المالك"
+
+#: redbot/cogs/general/general.py:274
+msgid "Server ID: "
+msgstr ""
+
+#: redbot/cogs/general/general.py:276
+msgid "  •  Use {command} for more info on the server."
+msgstr ""
+
+#: redbot/cogs/general/general.py:302
+msgid "\n"
+"Shard ID: **{shard_id}/{shard_count}**"
+msgstr "\n"
+"معرف القطع: **{shard_id}/{shard_count}**"
+
+#: redbot/cogs/general/general.py:311
+msgid "Humans: "
+msgstr "البشر: "
+
+#: redbot/cogs/general/general.py:312
+msgid " • Bots: "
+msgstr " • بوت: "
+
+#: redbot/cogs/general/general.py:324
+msgid "Users online: **{online}/{total_users}**\n"
+msgstr "المستخدمون على الإنترنت: **{online}/{total_users}**\n"
+
+#: redbot/cogs/general/general.py:341
+msgid "0 - None"
+msgstr "0 - لا شيء"
+
+#: redbot/cogs/general/general.py:342
+msgid "1 - Low"
+msgstr "1 - منخفض"
+
+#: redbot/cogs/general/general.py:343
+msgid "2 - Medium"
+msgstr "2 - متوسط"
+
+#: redbot/cogs/general/general.py:344
+msgid "3 - High"
+msgstr "3 - عالي"
+
+#: redbot/cogs/general/general.py:345
+msgid "4 - Extreme"
+msgstr "4 - متطرفة"
+
+#: redbot/cogs/general/general.py:349
+msgid "Animated Icon"
+msgstr ""
+
+#: redbot/cogs/general/general.py:350
+msgid "Banner Image"
+msgstr ""
+
+#: redbot/cogs/general/general.py:351
+msgid "Commerce"
+msgstr ""
+
+#: redbot/cogs/general/general.py:352
+msgid "Community"
+msgstr ""
+
+#: redbot/cogs/general/general.py:353
+msgid "Server Discovery"
+msgstr "اكتشاف السيرفر"
+
+#: redbot/cogs/general/general.py:354
+msgid "Featurable"
+msgstr "مميز"
+
+#: redbot/cogs/general/general.py:355
+msgid "Splash Invite"
+msgstr "دعوة Splash"
+
+#: redbot/cogs/general/general.py:356
+msgid "Member list disabled"
+msgstr ""
+
+#: redbot/cogs/general/general.py:357
+msgid "Membership Screening enabled"
+msgstr ""
+
+#: redbot/cogs/general/general.py:358
+msgid "More Emojis"
+msgstr "المزيد من الإيموجيس"
+
+#: redbot/cogs/general/general.py:359
+msgid "News Channels"
+msgstr ""
+
+#: redbot/cogs/general/general.py:360
+msgid "Partnered"
+msgstr "شريك"
+
+#: redbot/cogs/general/general.py:361
+msgid "Preview enabled"
+msgstr ""
+
+#: redbot/cogs/general/general.py:362
+msgid "Public disabled"
+msgstr "معطل عام"
+
+#: redbot/cogs/general/general.py:363
+msgid "Vanity URL"
+msgstr "رابط الفانوس"
+
+#: redbot/cogs/general/general.py:364
+msgid "Verified"
+msgstr "تم التحقق"
+
+#: redbot/cogs/general/general.py:365
+msgid "VIP Voice Servers"
+msgstr "خوادم صوت VIP"
+
+#: redbot/cogs/general/general.py:366
+msgid "Welcome Screen enabled"
+msgstr ""
+
+#: redbot/cogs/general/general.py:374
+msgid "{bot_name} joined this server on {bot_join}. That's over {since_join} days ago!"
+msgstr ""
+
+#: redbot/cogs/general/general.py:396
+msgid "Members:"
+msgstr ""
+
+#: redbot/cogs/general/general.py:398
+msgid "Channels:"
+msgstr ""
+
+#: redbot/cogs/general/general.py:399
+msgid "💬 Text: {text}\n"
+"🔊 Voice: {voice}"
+msgstr ""
+
+#: redbot/cogs/general/general.py:405
+msgid "Utility:"
+msgstr ""
+
+#: redbot/cogs/general/general.py:406
+msgid "Owner: {owner}\n"
+"Verif. level: {verif}\n"
+"Server ID: {id}{shard_info}"
+msgstr ""
+
+#: redbot/cogs/general/general.py:417
+msgid "Misc:"
+msgstr ""
+
+#: redbot/cogs/general/general.py:418
+msgid "AFK channel: {afk_chan}\n"
+"AFK timeout: {afk_timeout}\n"
+"Custom emojis: {emoji_count}\n"
+"Roles: {role_count}"
+msgstr ""
+
+#: redbot/cogs/general/general.py:423
+msgid "Not set"
+msgstr ""
+
+#: redbot/cogs/general/general.py:431
+msgid "Server features:"
+msgstr ""
+
+#: redbot/cogs/general/general.py:433
+msgid "Tier {boostlevel} with {nitroboosters} boosts\n"
+"File size limit: {filelimit}\n"
+"Emoji limit: {emojis_limit}\n"
+"VCs max bitrate: {bitrate}"
+msgstr ""
+
+#: redbot/cogs/general/general.py:445
+msgid "Nitro Boost:"
+msgstr ""
+
+#: redbot/cogs/general/general.py:454
+#, docstring
+msgid "Search the Urban Dictionary.\n\n"
+"        This uses the unofficial Urban Dictionary API.\n"
+"        "
+msgstr ""
+
+#: redbot/cogs/general/general.py:472 redbot/cogs/general/general.py:541
+msgid "No Urban Dictionary entries were found, or there was an error in the process."
+msgstr ""
+
+#: redbot/cogs/general/general.py:478
+msgid "No Urban Dictionary entries were found."
+msgstr ""
+
+#: redbot/cogs/general/general.py:484
+msgid "{word} by {author}"
+msgstr ""
+
+#: redbot/cogs/general/general.py:492 redbot/cogs/general/general.py:523
+msgid "{definition}\n\n"
+"**Example:** {example}"
+msgstr ""
+
+#: redbot/cogs/general/general.py:498
+msgid "{thumbs_down} Down / {thumbs_up} Up, Powered by Urban Dictionary."
+msgstr ""
+
+#: redbot/cogs/general/general.py:517
+msgid "<{permalink}>\n"
+" {word} by {author}\n\n"
+"{description}\n\n"
+"{thumbs_down} Down / {thumbs_up} Up, Powered by Urban Dictionary."
+msgstr ""
+
