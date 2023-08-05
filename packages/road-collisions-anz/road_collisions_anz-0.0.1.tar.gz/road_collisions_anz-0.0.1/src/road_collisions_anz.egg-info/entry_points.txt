@@ -1,0 +1,3 @@
+[console_scripts]
+load_road_collisions_anz = road_collisions_anz.bin.load:main
+
