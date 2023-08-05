@@ -1,0 +1,8 @@
+django
+django-bootstrap5
+loguru
+pyyaml
+yarl
+pytest
+huey
+crontab
