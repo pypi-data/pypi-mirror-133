@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: axon-ECRG
+Version: 0.0.0
+Summary: Edge computing framework developed and maintained by the Edge Computing Research Group at Queen's University
+Home-page: https://github.com/DuncanMays/axon-ECRG
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: uuid
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: codecs
+
+UNKNOWN
+
