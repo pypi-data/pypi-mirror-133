@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/django_twitch_auth/__init__.py
+src/django_twitch_auth/authbackends.py
+src/django_twitch_auth/exceptions.py
+src/django_twitch_auth/middlewares.py
+src/django_twitch_auth/settings.py
+src/django_twitch_auth/urls.py
+src/django_twitch_auth/views.py
+src/django_twitch_auth.egg-info/PKG-INFO
+src/django_twitch_auth.egg-info/SOURCES.txt
+src/django_twitch_auth.egg-info/dependency_links.txt
+src/django_twitch_auth.egg-info/top_level.txt
