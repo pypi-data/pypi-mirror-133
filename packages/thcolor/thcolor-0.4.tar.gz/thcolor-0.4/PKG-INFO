@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: thcolor
+Version: 0.4
+Summary: color management module
+Home-page: https://thcolor.touhey.pro/
+Author: Thomas Touhey
+Author-email: thomas@touhey.fr
+License: MIT
+Project-URL: Documentation, https://thcolor.touhey.pro/docs/
+Keywords: textout,color,parser,css
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+
+thcolor -- the touhey color management module
+=============================================
+
+This module is a color management module made by `Thomas Touhey`_ (``th``
+is for ``touhey``) for the `textoutpc`_ project, a BBCode to HTML translation
+module. It provides the following features:
+
+- color management and conversions between formats (RGB, HSL, HWB, NCol, …).
+- text-to-color using close-to-CSS format.
+
+For more information, consult `the official website`_.
+
+For getting started with the module, an onboarding is available on
+`the official documentation`_, as well as guides, discussion topics and
+references.
+
+.. _Thomas Touhey: https://thomas.touhey.fr/
+.. _textoutpc: https://textout.touhey.pro/
+.. _the official website: https://thcolor.touhey.pro/
+.. _the official documentation: https://thcolor.touhey.pro/docs/
+
+
