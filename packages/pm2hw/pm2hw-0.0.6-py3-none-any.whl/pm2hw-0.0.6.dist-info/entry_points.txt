@@ -1,0 +1,5 @@
+[console_scripts]
+pm2hw = pm2hw.__main__:main
+
+[gui_scripts]
+pm2hw-gui = pm2hw.gui.__main__:main
