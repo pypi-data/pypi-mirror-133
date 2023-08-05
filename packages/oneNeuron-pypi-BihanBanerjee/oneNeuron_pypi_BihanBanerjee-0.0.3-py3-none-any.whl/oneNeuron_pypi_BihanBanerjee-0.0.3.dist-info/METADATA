@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: oneNeuron-pypi-BihanBanerjee
+Version: 0.0.3
+Summary: It is an implementation of a perceptron
+Home-page: https://github.com/BihanBanerjee/oneNeuron_pypi
+Author: BihanBanerjee
+Author-email: banerjeebihan456@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/BihanBanerjee/oneNeuron_pypiissues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+oneNeuron_pypi
+
+## How to use this
+
+```python
+from oneNeuron.perceptron import Perceptron
+## first have X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+```
+
+# Reference - 
+[Official Python docs](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+
+# Reference - 
+[Github docs for Github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
+# Datasets
+
+x1 | x2 | y 
+-|-|-
+0|0|0 
+0|1|0
+1|0|0
+1|1|1
+
+
