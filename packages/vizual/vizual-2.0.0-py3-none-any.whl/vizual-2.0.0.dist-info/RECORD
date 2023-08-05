@@ -1,0 +1,13 @@
+vizual/__init__.py,sha256=6Uk_3JZpUo68oK7ArY8SGpsWFA6QqX9OANQXFiSkE-8,51
+vizual/client.py,sha256=RPbZ1ni3Sl-BpQXj4WV02eRpAi28kSGVZIg30npVSNA,6192
+vizual/server.py,sha256=nKd-pPZz51EGxBdtR4h2mnuFncqO9UdiCUN-8QGis8o,3946
+vizual/vizual.py,sha256=LGIqWmoO_5x-weDJcgmISmOT14S763KHLUvvUXhxhXY,446
+vizual/static/index.html,sha256=uP3I3KUxGtyiY43qFAFI0n2vaK-fEvOjuaPjnJpUVNw,6800
+vizual/static/assets/favicon.ico,sha256=ckEYoIZm-pvMXDEdnwFRCJk6fSjWOkq6kHXwBFVrmjM,15406
+vizual/static/css/index.css,sha256=WO7xYeegwMsiYlYWWzjSNs85baANCY-tYtIi3jSqQ5k,2790
+vizual-2.0.0.dist-info/LICENSE,sha256=kLUPhgipYNdsTrgMLV0HVTNo3BY53tGz8O0OAF_hSDI,1066
+vizual-2.0.0.dist-info/METADATA,sha256=61l7UyDpibHdCv5TaOjCyJp4oxFy3ltUECoHu8ehHEg,729
+vizual-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vizual-2.0.0.dist-info/entry_points.txt,sha256=zaXnPV60BejoOUcPMcc8CHXHus0aON-ychY9VH8-O_w,47
+vizual-2.0.0.dist-info/top_level.txt,sha256=KtuqnuXhUDT9dhHN4bjYVR6rk5H5OEVJWjZINTZaNII,7
+vizual-2.0.0.dist-info/RECORD,,
