@@ -1,0 +1,7 @@
+i2c_lcd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i2c_lcd/i2c_lcd.py,sha256=S8cnIphIzGF8TPMNN_Dzl3RC3Atd5n4BEPlf6iNhWmA,3415
+i2c_lcd/lcd_api.py,sha256=1sjlPVCWqLct1Qm2gd8tjVvgYZ6ILTptIieyZdUvaTI,7566
+i2c_lcd_esp32-0.0.12.dist-info/METADATA,sha256=VAecweGCoFfCDZ5DyfVcwHQkFGQi3mwVXjCyJNNkmy0,649
+i2c_lcd_esp32-0.0.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+i2c_lcd_esp32-0.0.12.dist-info/top_level.txt,sha256=k0rEnEMx5dZ-iC-WWP-9cwWONPjAjHeyf_F8QXxA1h0,8
+i2c_lcd_esp32-0.0.12.dist-info/RECORD,,
