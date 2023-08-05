@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: aul_compiler
+Version: 1.0.0
+Summary: The official compiler of a language designed to annoy you
+Home-page: https://github.com/actiniumn404/Annoyingly-Uncodeable-Language
+Author: Andrew Chen
+Author-email: andrewchen10@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/actiniumn404/Annoyingly-Uncodeable-Language/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<img src="assets/aul_logo.jpg" style="width: 70vw;" alt="The AUL Project logo">
+
+# Introduction
+Annoyingly Uncodeable Language (AUL), officially The Annoyingly Uncodeable Language Project, is an [esoteric programming language](https://en.wikipedia.org/wiki/Esoteric_programming_language) developed by [Andrew Chen](https://github.com/actiniumn404) that aims to be so hard to code that it is annoying. The AUL compiler is freely available [on GitHub](https://github.com/actiniumn404/Annoyingly-Uncodeable-Language) where it is licensed under the [GNU General Public License v3.0](https://github.com/actiniumn404/Annoyingly-Uncodeable-Language/blob/main/LICENSE). Our tutorial assumes that you have a decent experience in computer science, specifically in the Python language, so if you don't, try and learn a programming language like Python first. Without further ado, let's dive into the tutorial!
+
+# Installing AUL
+

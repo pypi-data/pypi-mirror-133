@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aul-compiler/__init__.py
+src/aul-compiler/compile.py
+src/aul_compiler.egg-info/PKG-INFO
+src/aul_compiler.egg-info/SOURCES.txt
+src/aul_compiler.egg-info/dependency_links.txt
+src/aul_compiler.egg-info/top_level.txt
