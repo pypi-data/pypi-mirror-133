@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gdacs/__init__.py
+gdacs/api.py
+gdacs/utils.py
+gdacs_api.egg-info/PKG-INFO
+gdacs_api.egg-info/SOURCES.txt
+gdacs_api.egg-info/dependency_links.txt
+gdacs_api.egg-info/requires.txt
+gdacs_api.egg-info/top_level.txt
