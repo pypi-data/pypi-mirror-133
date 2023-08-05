@@ -1,0 +1,4 @@
+scikit-image
+pillow
+requests
+boto3
