@@ -1,0 +1,26 @@
+{
+    "simName":  "SampleSim",
+    "domain":{
+                "xmin": -10, "xmax": 10.0,
+                "ymin": -10, "ymax": 10.0,
+                "xres":  128, "yres": 128
+            },
+
+    "initCond":{
+                "type":         "gaussian",
+                "ampl":         0.75,
+                "v0":           1e0,
+                "magNum":       1e-3},
+
+    "maxIter":      3e2,
+    "maxTime":      1e2,
+    "clf":          0.97,
+    "boundCond":    "periodic",
+
+    "plotType":     "contourf",
+    "pltCad":       1,
+    "savePlotCad":  1e4,
+
+    "savePath":     "results",
+    "saveSnapCad":  1e2
+}

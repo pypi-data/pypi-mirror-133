@@ -1,0 +1,8 @@
+numpy
+matplotlib
+opencv-python
+
+[dev]
+setuptools>=54
+wheel
+twine
