@@ -1,0 +1,5 @@
+flask
+uuid
+requests
+aiohttp
+codecs
