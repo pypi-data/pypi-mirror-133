@@ -1,0 +1,13 @@
+csv_to_db_converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv_to_db_converter/crud_operation_db.py,sha256=LYXCZHMaZaLPYB01-4ZyJJbm9TUew114To6VHFfHxas,11507
+csv_to_db_converter/csv_db.py,sha256=wNMw1X7CXHExO0-qBAdH_Hgmj85QG06Q-ipA-frEkac,4537
+csv_to_db_converter/upload_file.py,sha256=VIOdWKgTczRSk_0uUo2g-ahktfXJ1bs325v1i3w5SoQ,10095
+csv_to_db_converter/tests/FakeDB.py,sha256=BLrqqnFjOwWTZ7kPwzZk-PyWWggTaZNoSYI0gFuDBoc,3995
+csv_to_db_converter/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+csv_to_db_converter/tests/myfakedata.py,sha256=pDgoLdbOSBLS6hQxlPLQoOas4nmjxx8TZeCAxDub7mA,3345
+csv_to_db_converter/tests/unittest_file.py,sha256=oI9-Oqn6HlGLfSxlgfiaq3UWxejlnDGbU-gMIcRkbdY,7938
+csv_to_db_converter_saatwikmehta-0.0.4.dist-info/LICENSE,sha256=y73ANvrr89BLsyaroamVxuHwgKqu0J9DE05sal-P19A,1074
+csv_to_db_converter_saatwikmehta-0.0.4.dist-info/METADATA,sha256=Is341rgjzlR96lwTXpeAIbPA6HDJRyk12nhKrv_xKGY,1288
+csv_to_db_converter_saatwikmehta-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csv_to_db_converter_saatwikmehta-0.0.4.dist-info/top_level.txt,sha256=7IXbfD1P9OU6EBk15qTaeOPeTiCy-5m7NZhgGvPFCNo,20
+csv_to_db_converter_saatwikmehta-0.0.4.dist-info/RECORD,,
