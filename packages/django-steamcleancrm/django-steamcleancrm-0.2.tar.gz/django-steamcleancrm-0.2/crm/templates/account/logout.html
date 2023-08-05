@@ -1,0 +1,30 @@
+{% extends "../base.html" %}
+{% load i18n %}
+{% load static %}
+{% block title %}Sign out{% endblock title %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/account/login.css' %}">
+{% endblock css %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block body %}
+<div class='container-wrapper'>
+    <div class='row'>
+        <div class="container">
+            <h2>Sign Out</h2>
+            <div class='container-item'>
+                <p>Are you sure you want to sign out?</p>
+                <form method="post" action="{% url 'account_logout' %}">
+                    {% csrf_token %}
+                    {% if redirect_field_value %}
+                        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
+                    {% endif %}
+                    <button class="container-item container-button success hover" type="submit">Sign Out</button>
+                    <a class="container-item container-button" href="{% url 'index' %}">Go Back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

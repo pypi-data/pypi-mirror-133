@@ -1,0 +1,48 @@
+{% extends "../base.html" %}
+{% load i18n %}
+{% load static %}
+{% load account socialaccount %}
+{% block title %}Sign In{% endblock title %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/account/login.css' %}">
+{% endblock css %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block body %}
+<div class='container-wrapper'>
+    <div class='row'>
+        <div class="container">
+            <h2>Sign In</h2>
+            <div class='container-item'>
+                {% get_providers as socialaccount_providers %}
+                {% if socialaccount_providers %}
+                        <ul class="socialaccount_providers">
+                            <a class='login_google undecorated' href="{% provider_login_url "google" openid="https://www.google.com/accounts/o8/id" next="/success/url/" %}">Sign in with Google</a>
+                        </ul>
+
+                        <p>Or<br/>Sign in using your credentials</p>
+
+
+                    {% include "socialaccount/snippets/login_extra.html" %}
+
+                {% else %}
+                    <p>If you have not created an account yet, then please
+                    <a href="{{ signup_url }}">sign up</a> first.</p>
+                {% endif %}
+            
+                <form class="login" method="POST" action="{% url 'account_login' %}">
+                    {% csrf_token %}
+                    <p class='container-input'>{{ form.login }}</p>
+                    <p class='container-input'>{{ form.password }}</p>
+                    <p>{{ form.remember.label}}: {{ form.remember }}</p>
+                    <button class="primaryAction container-item container-button success hover" type="submit">Sign In</button>
+                    <a class="container-item container-button" href="{% url 'account_reset_password' %}">Forgot Password?</a>
+                </form>
+
+                <p>Dont have an account? <a href="{{ signup_url }}">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

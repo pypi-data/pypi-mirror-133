@@ -1,0 +1,306 @@
+<div id="top"></div>
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
+
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
+<h1 align="center">Steam Clean CRM</h1>
+
+  <p align="center">
+    An intuitive client relationship management tool for small businesses in the service industry
+    <br />
+    <a href="https://github.com/JohnGWebDev/steamcleaning/issues">Report a Bug</a>
+    ·
+    <a href="https://github.com/JohnGWebDev/steamcleaning/issues">Request a Feature</a>
+  </p>
+</div>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#install-using-pip">Install Using Pip</a></li>
+        <li><a href="#cloning-the-github-repo">Cloning the Github Repo</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+       <ul>
+         <li><a href="#data-pipeline">Data Pipeline</a></li>
+       </ul>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+<br />
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+
+Keep track of leads, staff, work orders, and a gallery of images for each work order
+
+* Leads hold client contact information and can have any number of associated work orders
+* Work orders can have any number of associated images and assigned staff members
+* Staff members are assigned groups based on their role and have permissions based on their group
+* Staff members can be assigned to work orders, cancel or submit completed work orders, upload images, etc.
+
+Please see the roadmap below for features currently under development.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+### Built With
+
+* [Django](https://djangoproject.com/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+You can install this project using **pip** or by cloning the github repository
+
+### Prerequisites
+
+If you already have a virtual environment and django project set up, you can skip ahead to the next step.
+
+1. Start a new virtual environment in your project directory or wherever you keep them
+  ```sh
+  $ python3 -m venv env
+  ```
+
+2. Activate your virtual environment
+  ```sh
+  $ source /path/to/env/bin/activate
+  ```
+
+3. Inside of your environment, install Django and start a new project
+```sh
+  $ pip install django
+  $ django-admin startproject steamcleancrm
+```
+
+### Install using pip
+
+Take a look at the prerequisites for instructions on setting up your virtual environment and django project if you haven't already
+
+* Inside of your environment, run the command to install the package with pip
+  ```sh
+  $ pip install django-steamcleancrm==0.1
+  ```
+
+* Add the package to the Installed Apps section of your settings.py file
+  ```sh
+  INSTALLED_APPS = [
+    ...
+
+    'crm.aps.CrmConfig'
+  ]
+  ```
+
+### Cloning the github repo
+
+1. Activate your virtual environment and navigate to the directory you want to clone the project in
+
+2. Clone the repo
+  ```sh
+  $ git clone https://github.com/JohnGWebDev/steamcleaning.git
+  ```
+
+3. Install the project dependencies from .requirements
+  ```sh
+  $ pip install -r .requirements
+  ```
+
+4. Create a .env file in the project's root directory for your environment variables
+
+5. Generate a new secret key for your django settings with the following command
+  ```sh
+  $ python -c "import secrets; print(secrets.token_urlsafe())"
+  ```
+
+6. Copy the new token and paste it into your .env file, for example:
+  ```sh
+  SECRET_KEY=OZvhK2ApBiLy4uXf91MIm2RNDK3b2dDp0UV7gAL0tBM
+  ```
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+The project requirements were a lightweight client relationship management tool that can also store any number of images associated with a specific work order with room for future development.
+
+### Groups and Permissions
+
+There are three groups a staff member can be assigned to:
+
+  * Representative
+      * Create and update leads
+      * Create, update and cancel work orders
+  * Technician
+      * Create and update leads
+      * Create, update, cancel and complete work orders
+      * Upload and delete images
+  * Manager
+      * Create and update leads
+      * Create, update, and approve canceled/completed work orders
+      * Upload and delete images
+      * Assign technicians to work orders
+
+### Data Pipeline
+
+1. Add a lead manually
+    - Leads can be added manually by a representative from incoming calls or automatically from a cross-origin POST request such as a contact form
+    - Stores client contact information
+    - Leads can have any number of related work orders
+
+2. Open a work order relating to the lead
+    - Stores description of the work to be perform, appointment dates, assigned Technicians, associated images, estimated total, etc.
+
+3. Manager or Admin assigns a technician to the work order
+    - Any number of Technicians can be assigned to a work order
+
+4. Work is performed
+    - Technicians can update work orders if needed on the job
+
+5. Technician uploads images to work order and marks it complete
+    - Any number of images can be uploaded to a work order
+    - A work order can also be canceled at any time
+    - When a Technician marks a work order canceled or complete, it is submitted for review by a Manager or Admin
+
+6. Automated email survey ( under development )
+    - Survey is sent to client one work order is verified complete by a Manager/Admin
+    - Technicians also fill out a survey after completing each work order
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [] Unit tests
+- [] Create a survey for work order feedback from both clients and staff
+- [] Analytics tools to track model metrics
+- [] Create a new model, related to workorder, for work order descriptions to include more detailed information such as job type, price per square foot, etc.
+- [] Automated email survey
+
+See the [open issues](https://github.com/JohnGWebDev/steamcleaning/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contact
+
+ john1galiszewski@gmail.com
+
+ [LinkedIn][linkedin-url]
+
+Project Link: [https://github.com/JohnGWebDev/steamcleaning](https://github.com/JohnGWebDev/steamcleaning)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* []()
+* []()
+* []()
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/JohnGWebDev/steamcleaning.svg?style=for-the-badge
+[contributors-url]: https://github.com/JohnGWebDev/steamcleaning/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/JohnGWebDev/steamcleaning.svg?style=for-the-badge
+[forks-url]: https://github.com/JohnGWebDev/steamcleaning/network/members
+[stars-shield]: https://img.shields.io/github/stars/JohnGWebDev/steamcleaning.svg?style=for-the-badge
+[stars-url]: https://github.com/JohnGWebDev/steamcleaning/stargazers
+[issues-shield]: https://img.shields.io/github/issues/JohnGWebDev/steamcleaning.svg?style=for-the-badge
+[issues-url]: https://github.com/JohnGWebDev/steamcleaning/issues
+[license-shield]: https://img.shields.io/github/license/JohnGWebDev/steamcleaning.svg?style=for-the-badge
+[license-url]: https://github.com/JohnGWebDev/steamcleaning/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/john-galiszewski-29211a144
+[product-screenshot]: images/screenshot.png

@@ -1,0 +1,41 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Title{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}">
+{% endblock css %}
+{% block js %}
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css"/>
+{% endblock js %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; <a class='primary undecorated' href='{% url 'lead-detail' lead.id  %}'>Lead #{{ lead.id }}</a> &rsaquo; <a class='primary undecorated' href='{% url 'work-order-detail' lead.id workorder.id %}'> Work Order #{{ workorder.id }}</a> &rsaquo; Add An Image</p>
+    </div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            {% include 'includes/lead_item_detail.html' %}
+            <div class='container'>
+                {% include 'includes/workorder_item_detail.html' %}
+            </div>
+            <div class='container'>
+                <h2>Add An Image</h2>
+                <div class='container-item'>
+                    <form method='post' enctype="multipart/form-data">
+                        {{ form.as_p }}
+                        {% csrf_token %}
+                        <input class='container-item container-button hover' type='submit' name='save_image' value='Save Image'/>
+                        <input class='container-item container-button success hover' type='submit' name='save_and_add_another_image' value='Save And Add Another'/>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock body %}
+{% block footer_js %}
+{% endblock footer_js %}
