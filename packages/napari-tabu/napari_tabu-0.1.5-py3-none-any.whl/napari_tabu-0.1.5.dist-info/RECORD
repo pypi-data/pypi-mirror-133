@@ -1,0 +1,12 @@
+napari_tabu/__init__.py,sha256=0vEJMsp9duwOQ-I-H8552Zdfz6W2GrztK6rvAQRi4Xk,163
+napari_tabu/_dock_widget.py,sha256=hpDDV3zMJyh1f0Zf5BH3MyfqrPsxnyBc94n9jt72vdg,2933
+napari_tabu/_function.py,sha256=xukReGWhxiOK6a64LOu7DSms1kIEoOUzPkOP5O_IRsM,1632
+napari_tabu/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_tabu/_tests/test_dock_widget.py,sha256=V_yNSPfPjrJV1p7KigLTgwiq0MDuBdzjz0O0SO8S96I,931
+napari_tabu/_tests/test_function.py,sha256=bTonBVeSvO4UG6xeYpSIObOTSqu4-NFf1KqM5klAWoM,487
+napari_tabu-0.1.5.dist-info/LICENSE,sha256=NeBORYebaU78FR8j-SZKk9_5zJGBTHFPeNLfgb-jBbM,1510
+napari_tabu-0.1.5.dist-info/METADATA,sha256=NE1fckzItqMN3SF-keTaBsFNgPqEOczM6-V1xLunx8Y,4193
+napari_tabu-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_tabu-0.1.5.dist-info/entry_points.txt,sha256=KNEi4f75AynS62wFql6iigNaqx2l_v7Wkhahhl6DR7A,43
+napari_tabu-0.1.5.dist-info/top_level.txt,sha256=rl_ZqVhO15AIgYEsmSaRT_fx1_X069dS4BFcg5rWLHw,12
+napari_tabu-0.1.5.dist-info/RECORD,,
