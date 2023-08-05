@@ -1,0 +1,1 @@
+include README.md LICENSE requirements.txt alwakeupword/audio/*.wav alwakeupword/backgroundAudio/*.wav alwakeupword/finalAudio/*.csv alwakeupword/savedModel/*.h5 alwakeupword/*.wav
