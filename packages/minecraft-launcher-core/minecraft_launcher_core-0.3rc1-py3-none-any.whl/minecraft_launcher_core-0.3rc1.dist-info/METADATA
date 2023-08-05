@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: minecraft-launcher-core
+Version: 0.3rc1
+Summary: a package for launch minecraft
+Home-page: https://github.com
+Author: jack253.png
+Author-email: guoxiuchen20170402@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+
+UNKNOWN
+

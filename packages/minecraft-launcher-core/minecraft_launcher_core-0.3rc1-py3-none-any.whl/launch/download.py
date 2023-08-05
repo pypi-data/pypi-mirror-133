@@ -1,0 +1,105 @@
+
+import file,os,json,multiprocessing
+class Download:
+    def __init__(self,version):
+        try:
+
+            os.mkdir(r'C:\Users\Default\AppData\Roaming\.mcl')
+        except BaseException as e:
+            pass
+        self.basepath = r'C:\Users\Default\AppData\Roaming\.mcl'
+        file.File('https://launchermeta.mojang.com/mc/game/version_manifest.json',self.basepath+'\\versions.json')
+
+        with open(self.basepath+'\\versions.json') as f:
+            self.content = f.read()
+
+        for i in eval(self.content)['versions']:
+            if i['id'] == version:
+                self.dic = i
+                return
+        raise SystemError(''
+                          'This version does not exist.')
+    def download_version_json(self,name,minecraft_dir):
+        try:
+            os.mkdir(minecraft_dir+f'\\versions\\{name}')
+        except BaseException as e:
+            pass
+
+        file.File(self.dic['url'],minecraft_dir+f'\\versions\\{name}\\{name}.json')
+    def download_core_jar(self,name,minecraft_dir):
+        url = json.load(open(minecraft_dir+f'\\versions\\{name}\\{name}.json'))['downloads']['client']['url']
+        file.File(url,minecraft_dir+f'\\versions\\{name}\\{name}.jar')
+    def download_assets(self,name,minecraft_dir):
+        url = json.load(open(minecraft_dir + f'\\versions\\{name}\\{name}.json'))["assetIndex"]['url']
+        dic = json.load(open(minecraft_dir + f'\\versions\\{name}\\{name}.json'))
+
+        file.File(url,f'{minecraft_dir}\\assets\\indexes\\{dic["assets"]}.json')
+
+        asset = json.load(open(f'{minecraft_dir}\\assets\\indexes\\{dic["assets"]}.json'))
+        process = multiprocessing.Process(target=self.download_assets_core,args=[asset,name,minecraft_dir])
+        process.start()
+    def download_assets_core(self,asset,name,minecraft_dir):
+        for i in asset['objects'].values():
+            try:
+                os.mkdir(f'{minecraft_dir}\\assets\\objects\\{i["hash"][:2]}')
+            except BaseException as e:
+                pass
+            file.File(f'http://resources.download.minecraft.net/{i["hash"][:2]}/{i["hash"]}',f'{minecraft_dir}\\assets\\objects\\{i["hash"][:2]}\\{i["hash"]}')
+            print(i["hash"])
+    def download_lib(self,name,minecraft_dir):
+        libs = json.load(open(minecraft_dir + f'\\versions\\{name}\\{name}.json'))['libraries']
+        for i in libs:
+            thread = multiprocessing.Process(target=self.download_core,args=[i,name,minecraft_dir])
+
+            thread.start()
+
+
+
+    def download_core(self,i,name,minecraft_dir):
+
+        url = i['downloads']['artifact']['url']
+
+        path = i['downloads']['artifact']['path']
+
+        base_path = f'{minecraft_dir}/libraries'
+        p = base_path
+        for j in path.split('/')[:-1]:
+            base_path += f'\\{j}'
+            try:
+                os.mkdir(base_path)
+            except BaseException as e:
+                pass
+
+        name = p+'/'+path
+        file.File(url,name)
+        print(name)
+        try:
+
+            path = i['downloads']['classifiers']["natives-windows"]['path']
+            url = i['downloads']['classifiers']["natives-windows"]['url']
+            for j in path.split('/')[:-1]:
+                base_path += f'\\{j}'
+                try:
+                    os.mkdir(base_path)
+                except BaseException as e:
+                    pass
+            name = p + '/' + path
+            file.File(url, name)
+            print(name)
+        except BaseException as e:
+            print(e)
+
+
+
+
+
+
+if __name__ == '__main__':
+    test = Download('1.16.5')
+    # test.download_version_json('test','D:/awd/.minecraft')
+    # test.download_core_jar('test','D:/awd/.minecraft')
+    test.download_assets('test', 'D:/awd/.minecraft')
+    # test.download_lib('test', 'D:/awd/.minecraft')
+
+
+

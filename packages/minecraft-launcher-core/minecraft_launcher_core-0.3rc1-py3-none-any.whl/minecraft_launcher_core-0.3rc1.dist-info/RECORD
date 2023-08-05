@@ -1,0 +1,10 @@
+launch/Connection.py,sha256=Y0sEdyzqBXFIJyhkRVR1K8WHmETB4kplcvOPzpKJIXw,698
+launch/__init__.py,sha256=1GMW1D8KDSwwrpJUKtyJzElVtV2k5SJNCdt5LZjU9IE,103
+launch/download.py,sha256=05VLJpl0QMdACCL_NX8516bgzPwDCmJb6QagCbH8VMA,3897
+launch/file.py,sha256=gd9EOIX-WtUzCSJhEU8LvGCuJlkhmZa3ywWlZ7GM1U4,298
+launch/find_version.py,sha256=qmSi7CWftpdcU-TicSyA_IUZv2ZzofEge2YYl6q1xGY,410
+launch/minecraft.py,sha256=h_vu5TlHCfqi-PlVqVie2NXS0sO6PRc0x9QyVEO2KCk,4443
+minecraft_launcher_core-0.3rc1.dist-info/METADATA,sha256=_cKA4NayhMFS2buhy_QiQ_mlGgzlnRZBc0_jBqLKJI8,584
+minecraft_launcher_core-0.3rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+minecraft_launcher_core-0.3rc1.dist-info/top_level.txt,sha256=Ru-I4XxB2lzAzQV7RtYWf1ScB2LBL8xnKVN77nKnczo,7
+minecraft_launcher_core-0.3rc1.dist-info/RECORD,,
