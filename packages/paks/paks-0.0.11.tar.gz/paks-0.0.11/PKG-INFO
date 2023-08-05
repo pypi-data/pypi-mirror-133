@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: paks
+Version: 0.0.11
+Summary: GitHub packages package manager.
+Home-page: https://github.com/syspack/paks
+Author: Vanessa Sochat, Alec Scott
+Maintainer: Vanessa Sochat, Alec Scott
+License: LICENSE
+Description: # Paks
+        
+        > Paks is a framework for building community packages and containers 📦️
+        
+        You can see trusted packages under the [pakages](https://github.com/pakages) organization. Trusted means
+        that they are built, tested, and deployed from modular repositories, and can be
+        installed into consistent container bases that Paks provides.
+        
+        ## Goals
+        
+        We want a framework that is optimized to help people build packages from source,
+        and distribute the binaries via GitHub packages and also provide robust metadata
+        and an organization scheme that works well for containers. We want a focus on that
+        and then testing and automatically updating the individual packages provided.
+        Paks provides this functionality by wrapping spack to perform builds, and then
+        providing tooling to release to a GitHub packages build cache.
+        
+        🚧️ **under development** 🚧️
+        
+        
+Keywords: software,GitHub packages.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: all
