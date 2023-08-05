@@ -1,0 +1,3 @@
+[console_scripts]
+nlx=nlx.main:main
+
