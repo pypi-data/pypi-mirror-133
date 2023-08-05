@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: KPDBL
+Version: 1.0.0
+Summary: A simple and fast key value database
+Home-page: https://www.github.com/sarangt123/kpdbl-database
+Author: Sarang T (github.com/sarangt123)
+Author-email: sarang.thekkedathpr@gmail.com
+License: MIT
+Keywords: Augmented reality
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# kpdbl-database
+This is a key-value pair database which uses javascript object notation (JSON) to store its keys and values
+
+This language has a simple query interface and works very fast 
+
+
+The name kpdbl stands for "key-value pair database language"
+
+
+
+
+
