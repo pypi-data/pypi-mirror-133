@@ -1,0 +1,33 @@
+
+   *************************************************************
+   **   Program PENEPMA.  Input data and run-time messages.   **
+   *************************************************************
+
+   Date and time:  3rd Feb 2019. 14:46:30
+
+   Options                                                                                                                 
+
+   ------------------------------------------------------------------------
+   >>>>>>  Incident beam.
+
+   Primary particles: electrons
+   Initial energy =  1.500000E+04 eV
+   Coordinates of source:     SX0 =  0.000000E+00 cm
+                              SY0 =  0.000000E+00 cm
+                              SZ0 =  1.000000E+00 cm
+   Beam redius:              SRAD =  5.000000E-07 cm
+   Beam direction angles:   THETA =  1.800000E+02 deg
+                              PHI =  0.000000E+00 deg
+   Beam aperture:           ALPHA =  0.000000E+00 deg
+
+   ------------------------------------------------------------------------
+   >>>>>>  Material data and simulation parameters.
+
+   ****  1st material
+   Material data file: mat01.mat           
+   Electron absorption energy =  7.103540E+02 eV
+     Photon absorption energy =  7.103540E+02 eV
+   Positron absorption energy =  7.103540E+02 eV
+   Electron-positron simulation parameters:
+    C1 = 2.000000E-01,      C2 = 2.000000E-01
+   Wcc = 7.103540E+02 eV,  Wcr = 7.103540E+02 eV

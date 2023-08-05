@@ -1,0 +1,21 @@
+
+ **********************************
+ **   PENELOPE  (version 2014)   **
+ **********************************
+
+ EMIN = 7.1035E+02 eV,  EMAX = 1.5000E+04 eV
+
+
+ **********************
+ **   1st material   **
+ **********************
+
+ Material data file: mat01.mat           
+
+ *** Simulation parameters:
+     Electron absorption energy = 7.1035E+02 eV
+       Photon absorption energy = 7.1035E+02 eV
+     Positron absorption energy = 7.1035E+02 eV
+      C1 = 2.0000E-01,       C2 = 2.0000E-01
+     WCC = 7.1035E+02 eV,   WCR = 7.1035E+02 eV
+
