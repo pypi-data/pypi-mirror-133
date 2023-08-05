@@ -1,0 +1,8 @@
+selsoup/__init__.py,sha256=JYwb-C-8s4xwnUp2y3_Hp7caBJyciFJh6lKJs_WcehM,23
+selsoup/geckodriver.log,sha256=QV6D8Hmd6qLikouxf80XNWBDY0VHyP1KTueY4XcadLg,101647
+selsoup/selsoup.py,sha256=HykCeDCeEHj295_j2_Jspd_YZLUe7mm7J_8DieIrO5I,2773
+selsoup/xpaths.py,sha256=tfyMiTuhdK9FwvlVg4xUDKaJBhvErXiWzrN5SItP6PQ,1808
+selsoup-0.2.10.dist-info/entry_points.txt,sha256=wpT1AeMQdwa5QrGx_HhjtQV7kSs3PFiTahGYGyCYSb4,48
+selsoup-0.2.10.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+selsoup-0.2.10.dist-info/METADATA,sha256=4lMKyFwxlpX9O6cQGbjYo6_nWHmBfq8UNhbImoMQUG4,380
+selsoup-0.2.10.dist-info/RECORD,,
