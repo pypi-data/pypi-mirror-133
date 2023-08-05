@@ -1,0 +1,3 @@
+[console_scripts]
+say_hello = wmc_test_pypi:main
+
