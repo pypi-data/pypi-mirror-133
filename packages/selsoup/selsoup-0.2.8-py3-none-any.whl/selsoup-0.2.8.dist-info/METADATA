@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: selsoup
+Version: 0.2.8
+Summary: 
+Author: lemerchand
+Author-email: phoenix.scooter@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: selenium (>=4.1.0,<5.0.0)
