@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: PM3
+Version: 0.0.2
+Summary: Like pm2 without node.js ;-)
+Home-page: https://github.com/ilariofebi/PM3.git 
+Author: Ilario Febi
+Author-email: ilario@febi.biz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PM3
+Like pm2 without node.js ;-)
+
+# Install
+`pip install pm3`
+
+
