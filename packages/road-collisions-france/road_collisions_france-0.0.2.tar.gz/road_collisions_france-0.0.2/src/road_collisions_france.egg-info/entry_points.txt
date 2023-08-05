@@ -1,0 +1,4 @@
+[console_scripts]
+load_road_collisions_france = road_collisions_france.bin.load:main
+raw_cleaner = road_collisions_france.bin.raw_cleaner:main
+
