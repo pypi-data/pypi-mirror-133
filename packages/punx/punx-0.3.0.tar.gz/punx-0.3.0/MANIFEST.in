@@ -1,0 +1,9 @@
+include README.md
+include punx/LICENSE.txt
+include punx/cache/*
+include punx/cache/*/__github_info__.json
+include punx/cache/*/*.xsd
+include punx/cache/*/*/*.xml
+include punx/cache/*/*/*.xsl
+include punx/_version.py
+include versioneer.py 
