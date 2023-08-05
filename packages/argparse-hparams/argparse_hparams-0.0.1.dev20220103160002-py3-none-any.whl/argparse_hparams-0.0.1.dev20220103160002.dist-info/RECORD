@@ -1,0 +1,9 @@
+argparse_hparams/__init__.py,sha256=qgiqERZGeoxmPSXwA-1clxuNmOOqr4dlpC0lPVyRKQs,2043
+argparse_hparams/parsing.py,sha256=7pBf1hz8LvoLbZLpZFylIJEEaTNrvPfxXms11aHsCwM,2295
+argparse_hparams/utils.py,sha256=laI-J-dJKvXmgvmD5ohU-UGe_L0xOuIdFYI31Lm7qgI,2562
+argparse_hparams/version.py,sha256=N3LvLhxXjLt0o16wrBNMC4hQRQs1ET42WGR-Gz5tG6k,40
+argparse_hparams-0.0.1.dev20220103160002.dist-info/LICENSE,sha256=ndR19mu_o441uLBf0JBznEiVzhuXpCaFG9H5xTC4ENc,1063
+argparse_hparams-0.0.1.dev20220103160002.dist-info/METADATA,sha256=0xIvj4CE2wGJmSqzFdK0xOUFSW94RcD7I71Vlxh00yI,4623
+argparse_hparams-0.0.1.dev20220103160002.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+argparse_hparams-0.0.1.dev20220103160002.dist-info/top_level.txt,sha256=jvBzsnhfcBDp1GkcUjB-QYljmFMjLj_Q_zMja-Cmugs,17
+argparse_hparams-0.0.1.dev20220103160002.dist-info/RECORD,,
