@@ -1,0 +1,9 @@
+deescovery/__init__.py,sha256=sRQs9KQZ0KZV3D6qPFKhBLQmQ4gOD2eskggvDUU3DvY,252
+deescovery/contrib.py,sha256=gRwkB4Ek_1MXx0VuLjPQUehsKw3VhxSp3yaoCSuCB98,1569
+deescovery/discovery.py,sha256=ZU5erXqHNHQeOJzYdWJn461ohjVEckrsI7xUxperOyk,6266
+deescovery/flask.py,sha256=-0NNb3Yz4mahMtF68U4Gr3ohY50qJdeJ4Ijd-qEmxLE,4030
+deescovery/matchers.py,sha256=xCfMBZQ_6BDAe0bEDZDIis5IlBMlSHtGQtX9UJuYIZU,2998
+deescovery-1.0.0.dist-info/LICENSE,sha256=dN1bKHQZpy-mFyNYAZgq4OyK3S92u9xVAEM4TVF9rbg,1074
+deescovery-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+deescovery-1.0.0.dist-info/METADATA,sha256=abOBbocS6bVf3pVVnH2cSODBorqG6bcknF2T2L4wwEE,3182
+deescovery-1.0.0.dist-info/RECORD,,
