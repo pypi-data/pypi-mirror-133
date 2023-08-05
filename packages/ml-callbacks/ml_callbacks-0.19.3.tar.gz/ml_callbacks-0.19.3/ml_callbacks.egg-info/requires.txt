@@ -1,0 +1,4 @@
+ml-tracking-api>=1.2.6
+nbconvert
+numpy
+tqdm
