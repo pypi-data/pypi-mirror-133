@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/subb/__init__.py
+src/subb/subby.py
+src/subb.egg-info/PKG-INFO
+src/subb.egg-info/SOURCES.txt
+src/subb.egg-info/dependency_links.txt
+src/subb.egg-info/top_level.txt
