@@ -1,0 +1,3 @@
+[console_scripts]
+links-to-hugo-post=links_to_hugo_post.console:main
+
