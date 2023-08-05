@@ -1,0 +1,8 @@
+scribeutil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scribeutil/errors.py,sha256=BfcgIT0DAwobuk2kwyfY9oUiSgHMga80TpauGJiH1K0,118
+scribeutil/scribeutil.py,sha256=CXP4FcR9DAKYXJUFZtUwTrdE0kI-V65Mo-UKJeLnjgo,1510
+scribeutil-0.0.1.dist-info/LICENSE,sha256=1V5LuXHaZ8WGFPOJfkScHzBhttI7XwmGlii4w3JmBB4,1089
+scribeutil-0.0.1.dist-info/METADATA,sha256=xYTL74I6kt3aLf-gkpmmFsZ6uAeS_RlnumNi9GxSMcQ,678
+scribeutil-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+scribeutil-0.0.1.dist-info/top_level.txt,sha256=36eKRhIa840mElBQzP1IPl_SRMXawIP7AjKKnuIPnxM,11
+scribeutil-0.0.1.dist-info/RECORD,,
