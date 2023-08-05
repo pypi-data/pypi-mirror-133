@@ -1,0 +1,13 @@
+starmart/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starmart/__main__.py,sha256=Ft3j5i3vBUP6y5zphdSZJBbA0W2CmJdGCBgcXfh5fS0,8010
+starmart/input.py,sha256=w--6ma-R-W-BkU3QLY1fOpxmwiHgWHwlFiP8WlGxL5Y,1960
+starmart/result.py,sha256=dTAqjQUeftudYybq7pDQJpmxRGDU21oOJzC1uHnLa8k,3702
+starmart/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starmart/config/config.py,sha256=ya12RwZhSxvEXnXMRlgB92mmW2lJysm9-fmEHN0PRJ4,866
+starmart/config/production_config.py,sha256=KC7hgCm0cDJcINLTadhyWnN1Rr2LZoPYJT7JAeAWw_w,430
+starmart-0.2.0.data/scripts/starmart,sha256=QkItoiL_uZUbupwscFjX7e-r3gz9Ljc2BRc62SksLjg,52
+starmart-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+starmart-0.2.0.dist-info/METADATA,sha256=OqToajtfxHor1uVFp9JagUhiFaaJUGxN0Ju6nYqJ7MY,2010
+starmart-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+starmart-0.2.0.dist-info/top_level.txt,sha256=qz_1gCl0xR_553DXzdawXV4PsyuXbmb44PZOCajggBc,9
+starmart-0.2.0.dist-info/RECORD,,
