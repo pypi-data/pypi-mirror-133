@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+ritprofile/__init__.py
+ritprofile/myprofile.py
+ritprofile.egg-info/PKG-INFO
+ritprofile.egg-info/SOURCES.txt
+ritprofile.egg-info/dependency_links.txt
+ritprofile.egg-info/top_level.txt
