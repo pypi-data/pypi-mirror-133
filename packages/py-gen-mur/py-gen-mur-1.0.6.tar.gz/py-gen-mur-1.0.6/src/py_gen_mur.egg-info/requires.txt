@@ -1,0 +1,9 @@
+pyDes>=2.0.1
+psutil>=5.8.0
+pypiwin32
+
+[dev]
+check-manifest
+
+[test]
+coverage
