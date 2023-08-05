@@ -1,0 +1,16 @@
+biapol_utilities/__init__.py,sha256=SmBZMPYhtrOrN-Vo32UQbXN0071ganOZtVIzYKUd27o,631
+biapol_utilities/data/__init__.py,sha256=KqZpA2K-0NpgBrL9_MABthUHzRUp_XWrz07XbC3banM,87
+biapol_utilities/data/_data.py,sha256=tMvAs584VzWacGDyQStbX2eslg1UdnX_Jrnbnz-ECMU,820
+biapol_utilities/label/__init__.py,sha256=a-CU_9p2UcXlosfMPOmPs_YRrtOJb-chGFsDFA_3gAE,341
+biapol_utilities/label/_compare_labels.py,sha256=asTlsNddTGFsXRosbMW_Lb6YxhNoRoZ0XHe_FzJMm4Q,2014
+biapol_utilities/label/_filter_similarity_matrix.py,sha256=nKm47vEymoywfCPB3SXhFGB-S-8iJEv69uMJ63ofnnc,1309
+biapol_utilities/label/_intersection_over_union.py,sha256=ZKtw7wwpGEbRlVz-FgVoou1spoi1ZVLXAvo5_C8Khzk,2181
+biapol_utilities/label/_match_labels.py,sha256=YxKHsxUZ5iCKvt0KbvIEXsR7SUYmjKI4Jz1ZJTM6Q2M,5332
+biapol_utilities/label/_matching_algorithms.py,sha256=wQhoF3aIOsepF_7H2Cj7RYTATYlEA3aJuQzVWDMf-I4,10217
+biapol_utilities/utilities/__init__.py,sha256=0rM2qa6kOabupsyBtfvXCZHYtNDzMytCGboaGZvj0XE,73
+biapol_utilities/utilities/_list_utilities.py,sha256=Yj2PE0VesJPwDbPdzuVjSLN25-TckxZ4frW3oFuCX5U,1301
+biapol_utilities-0.0.1.dist-info/LICENSE,sha256=NJC4fgUeayFJ-eisQH0cReV8m_W3KIJ4Y0ulaee2I1E,1626
+biapol_utilities-0.0.1.dist-info/METADATA,sha256=ik2Okmroa99fIanB3XgPICUKgIh0Cw56G8lJn2uqSNU,3546
+biapol_utilities-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+biapol_utilities-0.0.1.dist-info/top_level.txt,sha256=bY99JcWlSLQJSOGQ56b8OWPcchQ3gfFgtrmJyMZiSXI,17
+biapol_utilities-0.0.1.dist-info/RECORD,,
