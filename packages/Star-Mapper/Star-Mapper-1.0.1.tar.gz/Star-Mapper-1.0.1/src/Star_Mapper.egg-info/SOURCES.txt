@@ -1,0 +1,11 @@
+setup.py
+src/Star-Mapper/Star.py
+src/Star-Mapper/__init__.py
+src/Star-Mapper/__meta__.py
+src/Star-Mapper/main.py
+src/Star_Mapper.egg-info/PKG-INFO
+src/Star_Mapper.egg-info/SOURCES.txt
+src/Star_Mapper.egg-info/dependency_links.txt
+src/Star_Mapper.egg-info/not-zip-safe
+src/Star_Mapper.egg-info/requires.txt
+src/Star_Mapper.egg-info/top_level.txt
