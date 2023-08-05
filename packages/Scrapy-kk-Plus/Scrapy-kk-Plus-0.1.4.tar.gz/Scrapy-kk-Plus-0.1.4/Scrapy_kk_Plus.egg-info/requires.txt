@@ -1,0 +1,6 @@
+PyMySQL~=1.0.2
+Scrapy~=1.8.0
+Twisted~=21.7.0
+redis~=3.5.3
+scrapy-redis>=0.6.8
+setuptools~=59.2.0
