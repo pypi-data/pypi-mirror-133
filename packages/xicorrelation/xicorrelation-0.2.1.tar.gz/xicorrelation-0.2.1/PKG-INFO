@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: xicorrelation
+Version: 0.2.1
+Summary: xicorrelation
+Home-page: https://github.com/jettify/xicorrelation
+Author: Nikolay Novik
+Author-email: nickolainovik@gmail.com
+License: Apache 2
+Download-URL: https://pypi.org/project/xicorrelation/
+Project-URL: Website, https://github.com/jettify/xicorrelation
+Project-URL: Documentation, https://xicorrelation.readthedocs.io
+Project-URL: Issues, https://github.com/jettify/xicorrelation/issues
+Keywords: correlation,statistics
+Platform: POSIX
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+xicorrelation
+=============
+.. image:: https://github.com/jettify/xicorrelation/workflows/CI/badge.svg
+   :target: https://github.com/jettify/xicorrelation/actions?query=workflow%3ACI
+   :alt: GitHub Actions status for master branch
+.. image:: https://codecov.io/gh/jettify/xicorrelation/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/jettify/xicorrelation
+.. image:: https://img.shields.io/pypi/pyversions/xicorrelation.svg
+    :target: https://pypi.org/project/xicorrelation
+.. image:: https://img.shields.io/pypi/v/xicorrelation.svg
+    :target: https://pypi.python.org/pypi/xicorrelation
+..
+.. image:: https://readthedocs.org/projects/xicorrelation/badge/?version=latest
+    :target: https://xicorrelation.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+
+**xicorrelation** package implements xi correlation formula proposed in  https://arxiv.org/pdf/1909.10140.pdf.
+
+
+It is based off the R code mentioned in the paper: https://statweb.stanford.edu/~souravc/xi.R and
+R package https://github.com/cran/XICOR
+
++-----------------------------------------------------------------------------------------------+
+| .. image:: https://raw.githubusercontent.com/jettify/xicorrelation/master/docs/anscombe.png   |
++-----------------------------------------------------------------------------------------------+
+
+
+Simple example
+--------------
+
+.. code:: python
+
+    from xicorrelation import xicorr
+
+    x = [10, 8, 13, 9, 11, 14, 6, 4, 12, 7, 5]
+    y = [8.04, 6.95, 7.58, 8.81, 8.33, 9.96, 7.24, 4.26, 10.84, 4.82, 5.68]
+    # API similar to scipy
+    xi, pvalue, sd = xicorr(x, y)
+    print('xi', xi)
+    print('pvalue', pvalue)
+    print('sd', sd)
+
+
+Installation
+------------
+Installation process is simple, just::
+
+    $ pip install xicorrelation
+
+Changes
+-------
+
+0.2.0 (2022-01-01)
+------------------
+* Initial release.
+
