@@ -1,0 +1,6 @@
+setup.py
+apininjas/apininjas.egg-info/PKG-INFO
+apininjas/apininjas.egg-info/SOURCES.txt
+apininjas/apininjas.egg-info/dependency_links.txt
+apininjas/apininjas.egg-info/requires.txt
+apininjas/apininjas.egg-info/top_level.txt
