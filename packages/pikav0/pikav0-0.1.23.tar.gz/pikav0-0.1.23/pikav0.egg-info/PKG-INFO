@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pikav0
+Version: 0.1.23
+Summary: pika version 0.1.2
+Home-page: https://www.baidu.com/s?ie=utf-8&f=8&rsv_bp=1&tn=baidu&wd=python%20pika%200.1.2&oq=pika%25200.1.2&rsv_pq=b7e4a335000036b4&rsv_t=02311V%2B0g%2Ff7n6nprJQs3bEupSVKUaT%2B7hMuLJIJ3EuFqL860ugAQCeuf6Q&rqlang=cn&rsv_enter=1&rsv_dl=tb&rsv_sug3=8&rsv_sug2=0&rsv_btype=t&inputT=1899&rsv_sug4=2779
+Author: bfzs
+Author-email: ydf0509@sohu.com
+Maintainer: ydf
+Maintainer-email: ydf0509@sohu.com
+License: BSD License
+Description: pika version 0.1.2
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
