@@ -1,0 +1,13 @@
+mur/__init__.py,sha256=LGFwr9OaIttta4k-KWr5kd8dfTZCt9_AHLupJV8QqIo,168
+mur/_mi.py,sha256=Vovp7lSwTgql2bkW3msYwYbfeVFfcl2agVTGQo-PxP4,2838
+mur/_public.py,sha256=16xxgnUlpb8MBzAU9AMjPku_ZKr6LtbeInG2FFkWVNk,2530
+mur/_tools.py,sha256=T_1LuEQ5NkyHZaErSiMi38s_ODvJ5G8AwQu3lscYWB8,738
+mur/admin.py,sha256=TxLli0eHk70suBrIjMdw83mqChBw8bKh65An8bFnyj8,1754
+mur/crypt.py,sha256=aqk3pcJ5qdNF2unoKXx1kPlJ20HfkURDijrKrjfU1bE,2135
+mur/user.py,sha256=gTOLKzfzgkHH2_t9rj1BBtcSXkq1v-NEuUsdUIa6dCs,2189
+py_gen_mur-1.1.4.dist-info/LICENSE.txt,sha256=ErWPGBO41A7kiCX96_QW_r2oPhFD49Rizu8WvgiAX2w,1060
+py_gen_mur-1.1.4.dist-info/METADATA,sha256=C80YGM32sn-xONoU0e6VV5g3EtogLJ0qCWzSIL8PyA8,5696
+py_gen_mur-1.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+py_gen_mur-1.1.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+py_gen_mur-1.1.4.dist-info/top_level.txt,sha256=P2Q9p_4-DphyvGDrHhPM8tH9jY7DfoclpjJv4UqZQrU,4
+py_gen_mur-1.1.4.dist-info/RECORD,,
