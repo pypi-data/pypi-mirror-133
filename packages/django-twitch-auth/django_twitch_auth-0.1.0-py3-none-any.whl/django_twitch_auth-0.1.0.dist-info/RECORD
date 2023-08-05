@@ -1,0 +1,12 @@
+django_twitch_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_twitch_auth/authbackends.py,sha256=4pHwCXhz6Vxp6n5D3ktGjJnixuT0mGI1urVV2RLVV0Q,1305
+django_twitch_auth/exceptions.py,sha256=duc0st8NquGI5RHCRKVE6qx_Xlp9i6l4hJJXyILZb3E,226
+django_twitch_auth/middlewares.py,sha256=BsE9_o7v3durA8GMadBqGtEdZMz9X9SBT-eDul-z5vQ,1471
+django_twitch_auth/settings.py,sha256=EH74hxWL_4iWrcgfl9XsbtzEvkq-nkJlnIIPyAb2x5s,788
+django_twitch_auth/urls.py,sha256=0TgKIpHaQV7sAKRaARGmEDl9A2SonotwuVZjqrIijXg,165
+django_twitch_auth/views.py,sha256=l9uQFe4pGJQbTBS7cSWDhwnlB5gY5sK4-U4YskD7Db8,2045
+django_twitch_auth-0.1.0.dist-info/LICENSE,sha256=5fNSPFmvCb24X9RdC3KcT0y--u9Ty1NBmGINW1_7g9s,1076
+django_twitch_auth-0.1.0.dist-info/METADATA,sha256=SimoSS--rXLek6Tm_XXLOSQBHyz5dT5qIzjAudcA-Wc,1749
+django_twitch_auth-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_twitch_auth-0.1.0.dist-info/top_level.txt,sha256=IH1bQmX0X8qyoRqDEX-rVgiWgwqHqTl9eJ4oABJw_t8,19
+django_twitch_auth-0.1.0.dist-info/RECORD,,
