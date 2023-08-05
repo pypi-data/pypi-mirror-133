@@ -1,0 +1,9 @@
+README.md
+setup.py
+joc/__init__.py
+joc/joc.py
+usb_joc.egg-info/PKG-INFO
+usb_joc.egg-info/SOURCES.txt
+usb_joc.egg-info/dependency_links.txt
+usb_joc.egg-info/requires.txt
+usb_joc.egg-info/top_level.txt
