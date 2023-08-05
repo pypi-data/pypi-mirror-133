@@ -1,0 +1,9 @@
+wccls/__init__.py,sha256=0RrWn1fSyUflR1nIq6XgW7VGP5RL0_dzykyyVnWmiDg,50
+wccls/bibliocommons.py,sha256=cIYxEpqwemMxfZQJipAQ_UI96qkG86zkipUoORCyyYA,2009
+wccls/parser.py,sha256=Vr89YtZjVNeZyL1aAFPIgMxDLpfMJsoO0L9PAG3RyiM,6099
+wccls/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wccls/wccls.py,sha256=Y481Frjsyt_JTwdO2y1jNuOAWVZ5I58NqyVEH7zY4uI,1241
+wccls-3.0.0.dist-info/LICENSE,sha256=N-_z2hY6z3ayVfKx4j0N3xW9ySz_3i4vbdo7DVhFSv4,1079
+wccls-3.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+wccls-3.0.0.dist-info/METADATA,sha256=CaUbO_HRnxcdNTAjz4h5sO1EHgnJtNBv_guCEswG3qI,1783
+wccls-3.0.0.dist-info/RECORD,,
