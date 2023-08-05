@@ -1,0 +1,13 @@
+pegomancy/generate.py,sha256=qNdNtP0ywvJykvwi_auX7u2AGfALuyL7J9ehz5ego0Y,2680
+pegomancy/grammar.py,sha256=Vh0fz_Myjh8yO-dVOjiVUkOJub7yXH1ijfelEVDva1k,6683
+pegomancy/grammar_items.py,sha256=V6mjmJIHOlijk5ycCxZ2mpylValfH41SucSDnawzSIs,692
+pegomancy/grammar_parser.py,sha256=7Q10kvaiZsi-EE2K7yl86BSWZbaKsIvtW23x_e0nmj8,22890
+pegomancy/parse.py,sha256=Yvg5ghX6b5028qhX-JEVV-GxZoPHsvdrXdtzoDFVV-M,9493
+pegomancy/reader.py,sha256=YsvbEBXvX7I6RXqmCLBtTTeSmBkGkVBeSxRA-i6P2Kk,4685
+pegomancy/source_info.py,sha256=LdB6VviOMoviLH2XYRhDGRSaTGRjp49QkA0R4a7T9S0,5133
+pegomancy-1.2.0.data/scripts/pegomant,sha256=cQw-AMp9Iwspl_omp-cKwCcqefg_BBeOIItolRTc5as,627
+pegomancy-1.2.0.dist-info/LICENSE,sha256=cyEILh5ChnMfr9gnru2c8SZOu5q-SzDI6X-BT3qiRxo,1082
+pegomancy-1.2.0.dist-info/METADATA,sha256=EyndpSPn1Uv5h2olN9XvYuDI2xBz786oeBgjw92r8YA,4694
+pegomancy-1.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pegomancy-1.2.0.dist-info/top_level.txt,sha256=nZFSS9z3tOrtr6btluha-ri23fE__wqRtnn-CeV1eB4,10
+pegomancy-1.2.0.dist-info/RECORD,,
