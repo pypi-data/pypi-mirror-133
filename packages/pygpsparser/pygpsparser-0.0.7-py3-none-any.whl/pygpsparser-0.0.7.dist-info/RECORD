@@ -1,0 +1,10 @@
+pygpsparser/__init__.py,sha256=tapmOvuKmujnAz-7pm0SLLX1jqX23LsqDZzR5_fBjOs,45
+pygpsparser/gpsparser.py,sha256=Iz7PwGtnbffBKMd5E6F8PEMSPmTTw1eYDE2IhvaEs0Q,11135
+tests/NMEA_message_sample.py,sha256=kbzSCkG5El3xulA6lVgwFHLp9DhULWbkthMvLoS75d0,1749
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parser/test_parser.py,sha256=o9wtcQjiR5C_8m6FSQrlcOnOwuzfs_C7BKU0bxpeOIs,3404
+pygpsparser-0.0.7.dist-info/METADATA,sha256=F6tY0Pf7p1WO31jgQaMNZ2Kk49OYj60zBdkbOC5F0dU,1168
+pygpsparser-0.0.7.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pygpsparser-0.0.7.dist-info/top_level.txt,sha256=1v-cxG2GylXZkFa5JBaL6BTgC7F5gq_noB1g_rNTvcE,18
+pygpsparser-0.0.7.dist-info/RECORD,,
