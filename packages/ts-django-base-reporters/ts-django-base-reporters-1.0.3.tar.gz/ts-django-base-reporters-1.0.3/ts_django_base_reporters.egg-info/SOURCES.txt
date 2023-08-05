@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+ts_django_base_reporters.egg-info/PKG-INFO
+ts_django_base_reporters.egg-info/SOURCES.txt
+ts_django_base_reporters.egg-info/dependency_links.txt
+ts_django_base_reporters.egg-info/requires.txt
+ts_django_base_reporters.egg-info/top_level.txt
