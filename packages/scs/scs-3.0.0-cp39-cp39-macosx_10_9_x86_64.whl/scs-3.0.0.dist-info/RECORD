@@ -1,0 +1,13 @@
+_scs_direct.cpython-39-darwin.so,sha256=HseRBU66sLWpWvPBqvxw-nNdt8Czl9uBb2pCK9LQWTg,161168
+_scs_indirect.cpython-39-darwin.so,sha256=2lGM2q4nu1vE11D3CXRR_pB9jox_2hgF9E9GtNTlvO8,137344
+scs/__init__.py,sha256=GSq8A2RGjARXcubz0tevbtcE-WgqDp9gTBi0shyqcmM,3837
+scs/.dylibs/libgfortran.5.dylib,sha256=07XGr6yEP0_3YqAnOY2i5MDvuQbRaFHisF3BI_rsXR4,3319584
+scs/.dylibs/libopenblasp-r0.3.19.dylib,sha256=n7M87j_Zcq6Fx1FCSH8HkJkOlcl-izWx-lLAXdP-vag,65998944
+scs/.dylibs/libquadmath.0.dylib,sha256=oZ1aUWp9yeqW9qUu28nvlsLNakqJCQ4RI9N7q2xgGlA,364400
+scs/.dylibs/libgcc_s.1.dylib,sha256=uQ_z5BnFm60kcs8LWI8-1bdfC0B4-XMxevvUqBArvt8,188816
+scs/.dylibs/libgomp.1.dylib,sha256=EhSfPnPWA5iV-8QtqZpyEkfcQ7ACCB8nupxmkTO20Fo,415024
+scs-3.0.0.dist-info/RECORD,,
+scs-3.0.0.dist-info/LICENSE,sha256=lxIl5g3kUJCLfZjb72Z7K6XviabPAckIClya6BP-0Bg,1075
+scs-3.0.0.dist-info/WHEEL,sha256=pfjXB0CCNW4PSSqQc2t4Up6p3o0jxBnHy_2o38FQkyE,109
+scs-3.0.0.dist-info/top_level.txt,sha256=cKNLoTCROnlt5KCBLcYerwEqZVfdpxXJnzOreVCfwao,30
+scs-3.0.0.dist-info/METADATA,sha256=PRP7o1OZyz_BNmpoOpCVQN_oeHmAXnTsK-UacHRs18U,622
