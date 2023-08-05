@@ -1,0 +1,19 @@
+Cython
+colormath
+colorthief
+coverage
+cvxopt
+cvxpy
+git@ git+https://github.com/ehtec/least-squares-ellipse-fitting
+matplotlib
+nose2
+numpy
+opencv-contrib-python
+opencv-python
+pillow
+pytesseract
+scikit-image
+scipy
+shapely
+sklearn
+tqdm
