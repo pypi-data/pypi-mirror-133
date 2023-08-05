@@ -1,0 +1,12 @@
+ml_callbacks/__init__.py,sha256=u7Sa-85446tsgW2zOw5sWCcZNMe6Mwpm-q6Se9jAjjQ,82
+ml_callbacks/api_client.py,sha256=SGQs6UjhtBu4-Mw04rMq25S-pQOWGQIpM_HycATwUD0,4038
+ml_callbacks/callback.py,sha256=VObRfuHMLpQAsTdgZra8MSJ87y9TljR16qcnbbpzRRk,4658
+ml_callbacks/enviroment_callback.py,sha256=cz9KkhMoMA30gIDyLkaQokAlzOXwumXwlXwJXIenxmo,1780
+ml_callbacks/pytorch_enviroment.py,sha256=a-dRvcKPfrzPBygOJzJskEDBdKdH8WP7jdIZdfZ2ygI,294
+ml_callbacks/pytorch_training.py,sha256=aoDTASpcBqyR-pX9FmURMUK4h-U6ZrPL5ZD5nAY_bFk,6802
+ml_callbacks/session_info.py,sha256=3gk-PEpGsvRR9KSYT6E9ztz8zh7IpMvbSslYQ8mML4E,488
+ml_callbacks/tensorflow_callback.py,sha256=Rh3Ty-GLu-Q-MbvAOMsP-2oKZkehELIdNaQw7D_TlOk,190
+ml_callbacks-0.19.2.dist-info/METADATA,sha256=CUo0D2IkF85mGQv_bBWIVIHh_LO3lvc-15LpZwvRZ8s,550
+ml_callbacks-0.19.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ml_callbacks-0.19.2.dist-info/top_level.txt,sha256=IBDmTSSoPk_n1_I_twvLJUfsg9hmKoihPTzjN4oP33E,13
+ml_callbacks-0.19.2.dist-info/RECORD,,
