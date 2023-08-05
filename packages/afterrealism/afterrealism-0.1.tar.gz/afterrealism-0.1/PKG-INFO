@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: afterrealism
+Version: 0.1
+Summary: deep learning tool kit
+Home-page: https://github.com/afterrealism/afterrealism
+Author: afterrealism
+Author-email: afterrealism@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/afterrealism/afterrealism/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: deeplearning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.7
