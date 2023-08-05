@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ccprotocol
+Version: 0.1
+Summary: A python implementation of the CC Protocol.
+Home-page: https://github.com/bossauh/py-ccprotocol
+Author: Philippe Mathew
+Author-email: philmattdev@gmail.com
+License: MIT
+Download-URL: https://github.com/bossauh/py-ccprotocol/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: utility,api,minecraft,computer craft,protocol
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
