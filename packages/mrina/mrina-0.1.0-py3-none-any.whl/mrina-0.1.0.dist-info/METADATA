@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: mrina
+Version: 0.1.0
+Summary: Library for MRI noise analysis
+Home-page: https://mrina.readthedocs.io/
+Author: Lauren Partin, Daniele Schiavazzi, Carlos Sing-Long
+Author-email: example@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# MRINA: MRI Noise Analysis library
+Modeling noise random fields generated from  [[ArXiv](link_here)]
+
+[Lauren Hensley Partin](), [Daniele E. Schiavazzi](https://www3.nd.edu/~dschiava/) and [Carlos A. Sing-Long Collao]()
+
+
+[Result images](https://notredame.box.com/s/fdrd3e3du555u1ikarrfkvt3jsxddwe9)
+
+---
+
+<center>
+
+| Original Image | k-space |
+| ------------- | ------------- |
+|               |               |
+
+</center>
+
+> Add abstract
+
+## Index
+The package is 
+
+- **tests**: 
+- **tutorial**: Th
+- **CSRecoverySuite.py**: Th
+- **genSamples.py**: Th
+- **recover.py**: Th
+- **vtktoimg.py**: Th
+
+## Core Dependencies
+* Python 3.6.5
+* [PyWavelets](https://pywavelets.readthedocs.io/en/latest/) 1.1.1
+* [Numpy](https://numpy.org/) 1.18.1
+* [Scipy](https://www.scipy.org/) 1.1.0
+* [Matplotlib](https://matplotlib.org/) 3.1.0
+
+## Citation
+Find this useful or like this work? Cite us with:
+```latex
+Add Paper once published...
+```
+
+
+
+
+
+
+

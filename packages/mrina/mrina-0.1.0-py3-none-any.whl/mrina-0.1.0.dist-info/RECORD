@@ -1,0 +1,17 @@
+mrina/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mrina/correlation.py,sha256=UbH6nYs6pTRrGjb1KaPUlLYqF9mj6qmCCMP5eKdFUIQ,12745
+mrina/gen_samples.py,sha256=Yq27hsE1bCvadncCiUMi6I_CMz7PJ6TyR2-B60FdGY8,10443
+mrina/maps.py,sha256=JsYAQv4AQDPx7vpk4vaiVfXCcpbfh65r0i9UC2D15Wo,34798
+mrina/mri_utils.py,sha256=vhFFo4suglsYSXy1osIcOOL7Nlw-3IZF4ov7y_56kbU,24257
+mrina/plot_corr.py,sha256=z3UdwG9KVGp0hHw5mWeYfjwiBjAi_HhIxUCcOEsu4Qo,14578
+mrina/plot_mse.py,sha256=Y_nNlC-DFsNc5VTSkfkEDHRDrkHe7JcAgQYydEWn2SA,39944
+mrina/recover.py,sha256=b3Juj6BgLJgG3ZY0GRkAuAddmmctBioSHP6DkrvnLk4,17821
+mrina/save_imgs.py,sha256=uLapInGxfIjD-jVmnhnXmpoFqJhNiNXRTWj1qVEr0os,17647
+mrina/setup.py,sha256=KmadtvM-p5TJ6MwTbyP4T4XsYQVRDAegSCqsg1yqZLg,172
+mrina/solver_l1_norm.py,sha256=fy2Lrc2bttDoCdrg6oW1bS0gHMgl-c07Uner48nTvpQ,17560
+mrina/solver_nuclear_norm.py,sha256=7Ll_nigwDBCJcnSZli5_j82p45ciIHVhod9E-bL8u-8,14336
+mrina/vtktoimg.py,sha256=oe8WFjkJeevQI6UacxB5rCCr1i9ohF3FpkOd4kfyU6A,4641
+mrina-0.1.0.dist-info/METADATA,sha256=ZvP-nUmk8WQQjqn2ERNFot5B9SoW6cKTc_nLTLXy3AQ,1683
+mrina-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mrina-0.1.0.dist-info/top_level.txt,sha256=AjpXxYbVi3FoP2MmNvVYNs8TvkUhQBiXEiBgufKXJN0,6
+mrina-0.1.0.dist-info/RECORD,,
