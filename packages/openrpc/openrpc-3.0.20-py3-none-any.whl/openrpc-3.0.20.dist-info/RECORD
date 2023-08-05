@@ -1,0 +1,9 @@
+openrpc/__init__.py,sha256=iwg-G6EEzshgiR5MX_n60QpZ3lXNtOcAX4VIhINn4ak,60
+openrpc/_method_processor.py,sha256=PbXITABYo2Sr8-OZVVPXPj54nnD1dC9qAvn-n5TDcwc,6664
+openrpc/_request_processor.py,sha256=SNgCQVrOP1Kv5vCtbNWEggtuDPL5va0ZyNTZYgmIhZk,4877
+openrpc/objects.py,sha256=q8LYeQ5GhMKv0XRMaBkeePCNvBLO5ylAtCsmRON62J4,8974
+openrpc/server.py,sha256=oGd95s6Y0DHM-CTDB9xJs22NPAz77tj2zp7SQHPN5wQ,13663
+openrpc-3.0.20.dist-info/LICENSE,sha256=q38J-OIjXdEP8lpQZLrr3sG6PtRvWXjlLr1c13wp2d8,34456
+openrpc-3.0.20.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+openrpc-3.0.20.dist-info/METADATA,sha256=tnVgIs6RTa-aLjo49FxHmmSKhorXHc2BlQ5nqeiXoo8,3644
+openrpc-3.0.20.dist-info/RECORD,,
