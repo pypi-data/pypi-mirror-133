@@ -1,0 +1,11 @@
+KSchoolMeal/__init__.py,sha256=aJ_csI2mDStREcA8ukId-19uB6GBG-U63XSzj-9v7jk,236
+KSchoolMeal/exceptions.py,sha256=L6QTEbxV2-Ed-J5LjiWr-PROGQqWV_AvSgcfxIu-bDw,338
+KSchoolMeal/getSchoolCode.py,sha256=6H-per5ClYaFjGa5XP94CGc3h255929xRXghPOexfKk,1315
+KSchoolMeal/getSchoolMeal.py,sha256=-cW3A-rPOXR4CcVRPvzBeTi7gSby1YTqFAEbok4fg30,2236
+KSchoolMeal/models.py,sha256=AAGtBJ74_Mk4slo-eTlSBhmRexIjbrckscWoRwP8kHM,2939
+KSchoolMeal/sync.py,sha256=pXf6I8k_zlE3vWFq6f6ppAmGsAzRHC-ThEH5n07zexI,459
+k_SchoolMeal-1.1.1a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+k_SchoolMeal-1.1.1a0.dist-info/METADATA,sha256=9zGZoXmgz00IUDm9RioVm4TVquJs1efKWMHUWhzy8bk,4332
+k_SchoolMeal-1.1.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+k_SchoolMeal-1.1.1a0.dist-info/top_level.txt,sha256=ulh_HA--rvtRsa2Q1HvjEdRYdyIE5kRaYP3mvsSnhS0,12
+k_SchoolMeal-1.1.1a0.dist-info/RECORD,,
