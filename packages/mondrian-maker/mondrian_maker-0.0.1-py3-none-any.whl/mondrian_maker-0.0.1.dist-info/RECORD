@@ -1,0 +1,9 @@
+mondrian_maker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mondrian_maker/mondrian.py,sha256=YSkZ97j3VYYXxlbme8EoESzyzWAvy1zd-RznvcxYfrg,5735
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mondrian_maker.py,sha256=C2X_aE6rlzZyXli_JZ_iqRrK5e75D_cdbcXOGPE0-84,831
+mondrian_maker-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+mondrian_maker-0.0.1.dist-info/METADATA,sha256=6s1Zp4lNEYXDBpJE6AHL7foUAmNAsP-RxgVJUeysHUo,2652
+mondrian_maker-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mondrian_maker-0.0.1.dist-info/top_level.txt,sha256=hVo32D3lgEzB_SHdTv0KAzfbhJpe1lat-nCqHMJ146Y,21
+mondrian_maker-0.0.1.dist-info/RECORD,,
