@@ -1,0 +1,3 @@
+[console_scripts]
+hikload = hikload.__main__:main
+
