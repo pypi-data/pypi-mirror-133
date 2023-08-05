@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gcodepy
+Version: 0.1.0
+Summary: Tool to generate g-code for Marlin based printers
+Home-page: https://github.com/rmeno12/gcodepy
+Author: Rahul Menon
+Author-email: menonrahul02@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gcodepy
+G-code generator for Marlin printers.
+Inspired by [Full Control GCODE](http://fullcontrolgcode.com/).
+
+## Planned features
+- create g-code based on mathematical functions/generators
+- cleaner interfacing for absolute movements
+
+
+
