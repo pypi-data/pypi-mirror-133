@@ -1,0 +1,17 @@
+fast_bfmatcher.libs/libgomp-b6de5f8b.so.1.0.0,sha256=5VLjzLTn5duvlScJKuAp9MpzvWAoNkQOlDmfNavDrW8,282720
+fast_bfmatcher.libs/libblas-41474fda.so.3.9.0,sha256=LOd0nMxjWJyAbD4qOcgHHwvwyTRdwFrfoE_t8IeJD0Q,448288
+fast_bfmatcher-1.0.6.dist-info/METADATA,sha256=KqtejB9o3oLPDQQqDKP1K4JSbXx5TgGO2C7XbkdqqbI,349
+fast_bfmatcher-1.0.6.dist-info/WHEEL,sha256=zMuNHVhNSFO3KMobFtomR7PsWqMRnIfEcrS0ZCxkqJY,113
+fast_bfmatcher-1.0.6.dist-info/RECORD,,
+fast_bfmatcher-1.0.6.dist-info/LICENSE,sha256=S3OCZ53VCI_JKGxTadERIlFabpB1x0bsiFN8pF8yKPQ,1077
+fast_bfmatcher-1.0.6.dist-info/top_level.txt,sha256=VNNPVPlF5UPxhhnKXCfD_D3FFNq36UlMwRJB6rWZUjc,15
+fast_bfmatcher/matching_ops.cpython-37m-x86_64-linux-gnu.so,sha256=nE5ML7m24l0DMh634gfEfwD0QpZlIp-Sd3gcs-2cFT8,2910336
+fast_bfmatcher/fast_ops.c,sha256=BVbErw3whJjPCr1Av6T4ckAncUurMXsNtipvZm6mbEA,3544
+fast_bfmatcher/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_bfmatcher/benchmark.py,sha256=hmJYFjiJUfrr0iPsca8Q5NZdM_fDD2xvrAEN3SFsx4w,1675
+fast_bfmatcher/version.py,sha256=mqMuQB3aqJVPrHHqJMLjqiMKUiJjozc7EPLcX5DpKHg,22
+fast_bfmatcher/matching_ops.c,sha256=TstrrpmEvmtiGv-qfkyHJ_wSPbOu15M8sSqeHqbB-J0,914405
+fast_bfmatcher/fast_ops.h,sha256=4W0qmoTjV9SVNEDJ6WGsjMIRA0oL9C0nuqAauZXG-6Q,315
+fast_bfmatcher/matchers.py,sha256=3_M0OJkRXBq9V7U7FiswFMlSkQ_VvVeNDOb5Y5Pa7dE,5919
+fast_bfmatcher/utils.py,sha256=YBNmp3Op-MHOcvW9RpSNldCdXWBr7B8x7yni2eYgmcU,1046
+fast_bfmatcher/matching_ops.pyx,sha256=UbTIyT9l8fPMjl4xgT8DqYoRToH8YcqBBvoBiB47Uls,4634
