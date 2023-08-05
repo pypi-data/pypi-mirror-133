@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: road-collisions-uk
+Version: 0.0.3
+Summary: Road collision data for the UK
+Home-page: https://github.com/RobertLucey/road-collisions-uk
+Author: Robert Lucey
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: boto3
+Requires-Dist: road-collisions-base
+
+UNKNOWN
+
