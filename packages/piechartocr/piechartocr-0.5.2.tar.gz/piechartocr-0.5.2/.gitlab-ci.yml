@@ -1,0 +1,33 @@
+stages:
+  - linting
+  - test
+
+flake8:
+  stage: linting
+  image: python:3.7
+  before_script:
+    - pip install flake8
+  script:
+    - flake8 .
+
+nose2:
+  stage: test
+  image: python:3.7-buster
+  before_script:
+    - apt-get update
+    - apt-get install libboost-system-dev tesseract-ocr build-essential git -y
+    - pip install -r requirements.txt
+    - git submodule update --init --recursive
+    - python3 setup.py build_ext
+    - mkdir temp
+    - mkdir temp1
+    - mkdir temp2
+    - unzip data/charts_steph.zip -d data
+  script:
+    - python3 -m nose2 --start-dir tests/ --with-coverage
+    - python3 -m coverage xml --fail-under 0
+  artifacts:
+    reports:
+      cobertura: coverage.xml
+  only:
+    - merge_requests
