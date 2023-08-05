@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create note</title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <!-- Custom -->
+    <link rel='stylesheet' href='{{ url_for("static", filename="anno.css") }}'/>
+</head>
+<body id='create-page'>
+    {% include 'flashes.html' %}
+    <div class='nav-wrapper'>
+        <div class='nav content'>
+            <a href='/' class='btn'>Home</a>
+        </div>
+    </div>
+    <div class='content'>
+        <form action="/new" method="post">
+            <textarea id="create-field" type="text" name="note_text" class="form-control">{{ default_text }}</textarea>
+            <div id="edit-preview" class="markdown-body"></div>
+            <button type="submit" class="btn btn-warning" id="edit-submit-btn">Create</button>
+        </form>
+    </div>
+</body>
+</html>

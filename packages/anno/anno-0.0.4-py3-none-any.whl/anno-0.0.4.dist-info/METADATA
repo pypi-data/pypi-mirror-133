@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: anno
+Version: 0.0.4
+Summary: Anno is a thin user interface on Markdown files for easy and local text editing, organization, and program composability.
+Home-page: https://github.com/gwgundersen/anno
+Author: Gregory Gundersen
+Author-email: greg@gregorygundersen.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: flask (>=1.1.1)
+Requires-Dist: pypandoc (>=1.4)
+Requires-Dist: markdown2
+
+UNKNOWN
+
+
