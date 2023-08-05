@@ -1,0 +1,8 @@
+LICENSE,sha256=kV3ahtgpV7C7g5iE8T95WuyAb70ywv4wSlnVJP7ugUI,1079
+repltalk/__init__.py,sha256=vGvRJUs4vdUQcGY54dztaRUyjwowOe2qkYTPtD0ofQc,28382
+repltalk/graphql.py,sha256=2o7uGRB-E391fj8u12Jc6UIWbLZC7cfSkedqW7Xl9Yc,2955
+repltalk/queries.py,sha256=iUM_Albs19FYlwjN4-LxzuMKvYxsbtzCT-L4DJND0ts,16703
+repltalk-1.0.1.dist-info/LICENSE,sha256=kV3ahtgpV7C7g5iE8T95WuyAb70ywv4wSlnVJP7ugUI,1079
+repltalk-1.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+repltalk-1.0.1.dist-info/METADATA,sha256=ldzq9uPvcPxqzqIsmZOMHbiODSDdNRFN-2cwoyVaiYc,7985
+repltalk-1.0.1.dist-info/RECORD,,
