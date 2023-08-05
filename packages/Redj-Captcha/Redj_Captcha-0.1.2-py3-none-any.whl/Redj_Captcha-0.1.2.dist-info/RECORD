@@ -1,0 +1,16 @@
+redjcaptcha/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redjcaptcha/apps.py,sha256=I6kuSI42Ckeog1Ae3KLKGeQQU_wgx53n61Gs6e2TXqk,102
+redjcaptcha/models.py,sha256=dJNrlgejcSw3tQ7ww5kwGRPBnuExE_TZpTH2_H-AA7s,1583
+redjcaptcha/setup.py,sha256=AoE3UGfm4Y6jb9DTmEChAMR_aA8PJOxaS2ZLoRnYVNE,120
+redjcaptcha/urls.py,sha256=YJ_5YhhGZsroEE2hRs5wpm9bxihUMb5zqqh_8HEYdck,116
+redjcaptcha/views.py,sha256=UAlXi10hkEZhoSoIezOKm7HdJKJcy4fz2U_FvJ5oC4o,520
+redjcaptcha/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redjcaptcha/management/helper.py,sha256=9VYsJx0jBCMon8FCcnNichS-qo5OK1wFhJxAsdamEso,2129
+redjcaptcha/management/setting.py,sha256=J5zj5XhIaa-LGUqw5azIHjnRd4lpvbVR_rKIQ_wJhwg,628
+redjcaptcha/migrations/0001_initial.py,sha256=x4lsQyLZLMn5tPSp4ZbZTqwcmu8kDh6PHFBfpdy3R3U,975
+redjcaptcha/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Redj_Captcha-0.1.2.dist-info/LICENSE,sha256=Bn3cefnpJ5dID-dR6WWXajb2MhafQ6ZwNtxnPvxStxw,53
+Redj_Captcha-0.1.2.dist-info/METADATA,sha256=1XPfFjFqb1rn7HUMYW2n9FfoCy_Mwu5JT-fb78xG6DY,724
+Redj_Captcha-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Redj_Captcha-0.1.2.dist-info/top_level.txt,sha256=PpA-HTgOmBkF16y2D8Ca7cTgcCfChvv8_MM_D-SCZvg,12
+Redj_Captcha-0.1.2.dist-info/RECORD,,
