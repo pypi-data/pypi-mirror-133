@@ -1,0 +1,21 @@
+<odoo>
+  <data noupdate="1">
+    <record id="account_journal_sm_contributions_sequence" model="ir.sequence">
+      <field name="name">SM Contributions Sequence</field>
+      <field name="implementation">standard</field>
+      <field name="prefix">CONTRIB/%(range_year)s/</field>
+      <field name="padding">5</field>
+      <field name="number_increment">1</field>
+      <field name="use_date_range">True</field>
+      <field name="active">True</field>
+    </record>
+    <record id="account_journal_sm_contributions" model="account.journal">
+      <field name="name">SM Contributions</field>
+      <field name="type">purchase</field>
+      <field name="code">VCS-CONTRIB</field>
+      <field name="invoice_sequence_id"
+        ref="sm_contributions.account_journal_sm_contributions_sequence"/>
+      <field name="update_posted">True</field>
+    </record>
+  </data>
+</odoo>
