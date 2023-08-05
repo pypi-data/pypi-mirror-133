@@ -1,0 +1,3 @@
+[console_scripts]
+ezcfn = ezcfn.__main__:main
+
