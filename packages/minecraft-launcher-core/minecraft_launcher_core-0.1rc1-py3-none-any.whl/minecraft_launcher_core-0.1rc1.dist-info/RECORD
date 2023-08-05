@@ -1,0 +1,7 @@
+launch/__init__.py,sha256=BLEDyiWbefadb6PGvRXI88R9hPkTPmujWwliXQw07ic,148
+launch/find_version.py,sha256=qmSi7CWftpdcU-TicSyA_IUZv2ZzofEge2YYl6q1xGY,410
+launch/minecraft.py,sha256=HqaVrLQwq15Ao7TPmTCbPoNI2xoNtr5Een-f-dkries,4209
+minecraft_launcher_core-0.1rc1.dist-info/METADATA,sha256=oykBLHb-emClnt3v1fpFFmWvNCn8tr1sm7GYDl7t1EM,584
+minecraft_launcher_core-0.1rc1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+minecraft_launcher_core-0.1rc1.dist-info/top_level.txt,sha256=Ru-I4XxB2lzAzQV7RtYWf1ScB2LBL8xnKVN77nKnczo,7
+minecraft_launcher_core-0.1rc1.dist-info/RECORD,,
