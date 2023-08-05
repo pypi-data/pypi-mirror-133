@@ -1,0 +1,8 @@
+qadeepdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qadeepdf/pdf2image.py,sha256=v2YGmMejFkxhwEW8GagfRZhLqfr51ODIcM-CrV_kKos,52
+qadeepdf/pdf2text.py,sha256=LtY1KgGQ3XakFRdPWYsD8tVQEryEnOviRTOP_MXeJrY,54
+qadeepdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+qadeepdf-1.0.dist-info/METADATA,sha256=kpS6u2dOA2AE9qkD7OIQ97GrMDMopAm6tPEOwpRfEgQ,211
+qadeepdf-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+qadeepdf-1.0.dist-info/top_level.txt,sha256=DUV4uMfP9VELDC707e0vBAQBdakmIgSj_7JCI3MDvzg,9
+qadeepdf-1.0.dist-info/RECORD,,
