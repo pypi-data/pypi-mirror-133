@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+PromptInput/PromptInput.py
+PromptInput/__init__.py
+PromptInput.egg-info/PKG-INFO
+PromptInput.egg-info/SOURCES.txt
+PromptInput.egg-info/dependency_links.txt
+PromptInput.egg-info/top_level.txt
