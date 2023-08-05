@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rpi-i2c-lcd-python
+Version: 2022.1.1.18.41.42
+Summary: lcd
+Home-page: UNKNOWN
+Author: b.vill
+Author-email: villeriusborro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: os
+Requires-Dist: re
+Requires-Dist: smbus
+Requires-Dist: subprocess
+Requires-Dist: time
+
+all credit to the raspberry pi guy
+https://github.com/the-raspberry-pi-guy/lcd
+
