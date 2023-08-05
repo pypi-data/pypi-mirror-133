@@ -1,0 +1,6 @@
+tempest_weather_collector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tempest_weather_collector/tempest.py,sha256=5kTTRXfVJzAzQtAks4qyvsUxQZTnG_SPO7AZy4q5zmw,3368
+TempestCollector-0.0.11.dist-info/METADATA,sha256=XtDveGqAgfcAqIHxpH0gq4r0Rv1l-f8b8CoSPlSpak0,215
+TempestCollector-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+TempestCollector-0.0.11.dist-info/top_level.txt,sha256=SaALA4ZM_YJwvqg1qf4UBfntYiWpASvyyDH3Jk1ArGE,26
+TempestCollector-0.0.11.dist-info/RECORD,,
