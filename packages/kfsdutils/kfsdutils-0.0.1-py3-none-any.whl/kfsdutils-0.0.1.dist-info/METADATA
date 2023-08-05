@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kfsdutils
+Version: 0.0.1
+Summary: Sample Pkg
+Home-page: UNKNOWN
+Author: nathangokul
+Author-email: nathangokul111@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Sample Pkg
+
+
