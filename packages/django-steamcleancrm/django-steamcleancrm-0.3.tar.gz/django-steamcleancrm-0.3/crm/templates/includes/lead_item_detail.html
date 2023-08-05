@@ -1,0 +1,12 @@
+<div class='container'>
+    <h2>Lead #{{ lead.id }}</h2>
+    <div class='container-item'>
+        <p class='lead-item-detail'><b>Full Name:</b>{{ lead.fullname }}</p>
+        <p class='lead-item-detail'><b>Phone Number:</b><a href="tel:{{ lead.phone }}">+1{{ lead.phone }}</a></p>
+        <p class='lead-item-detail'><b>Address:</b><a href="https://www.google.com/maps/search/?api=1&query={{ lead.address_line_1 }}+{{ lead.city }}%2C+{{ lead.state }}%2C+{{ lead.zipcode }}" target="_blank">{{ lead.address_line_1 }} {{ lead.city }}, {{ lead.state }}, {{ lead.zipcode }}</p></a>
+        <p class='lead-item-detail'><b>Email:</b>{{ lead.email }}</p>
+        {% if perms.crm.change_lead %}
+            {% url 'lead-update' lead.id as update_lead %} {% include 'includes/blue_buttons.html' with url=update_lead text='Update Lead' %}
+        {% endif %}
+    </div>
+</div>

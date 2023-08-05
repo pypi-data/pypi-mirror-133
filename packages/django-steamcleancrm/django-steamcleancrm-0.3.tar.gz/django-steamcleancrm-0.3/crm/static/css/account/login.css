@@ -1,0 +1,22 @@
+.socialaccount_providers {
+  padding: 1rem;  
+} a.login_google {
+    background: #FFFFFF url(../../images/account/btn_google_light_normal_ios.svg) no-repeat;
+    padding: 12px;
+    padding-left: 44px;
+    color: rgba(0,0,0, 0.54);
+    border-radius: 3px;
+    border: 1px solid #AAAAAA;
+    font: "Roboto-Medium"; /* load the Roboto font from Google Fonts */
+    font-weight: bold;
+} a.login_google:hover {
+    border: 1px solid #4285F4;
+} p {
+    padding: 1rem;
+} .container-input input {
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #AAAAAA;
+} .container-input input:focus-visible {
+    outline: 1px solid #4285F4;
+}

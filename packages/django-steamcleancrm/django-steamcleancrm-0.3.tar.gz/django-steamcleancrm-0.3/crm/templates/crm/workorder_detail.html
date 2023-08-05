@@ -1,0 +1,132 @@
+{% extends '../base.html' %}
+{% load static %}
+{% block title %}Title{% endblock title %}
+{% block meta %}
+    <meta name="description" content="Provide a detailed description of this page.">
+{% endblock meta %}
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'detail.css' %}">
+{% endblock css %}
+{% block js %}
+    <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css"/>
+{% endblock js %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <p><a class='primary undecorated' href='{% url 'index' %}'> Dashboard</a> &rsaquo; <a class='primary undecorated' href='{% url 'lead-detail' workorder.lead.id  %}'>Lead #{{ workorder.lead.id }}</a> &rsaquo; Work Order #{{ workorder.id }}</p>
+    </div>
+{% endblock %}
+{% block body %}
+    <div class='container-wrapper'>
+        <div class='row'>
+            {% include 'includes/toolbar.html' %}
+            {% include 'includes/lead_item_detail.html' %}
+            <div class='container'>
+                {% include 'includes/workorder_item_detail.html' %}
+                {% if workorder.is_complete == False and workorder.is_canceled == False and workorder.reviewed == False %}
+                <form action='' method='post'>
+                    {% csrf_token %}
+                    <input name='mark_work_order_complete' class='container-item container-button success hover' type='submit' value='Mark Work Order Complete' />
+                    <input name='mark_work_order_canceled' class='container-item container-button warning hover' type='submit' value='Cancel Work Order' />
+                </form>
+                {% else %}
+                    {% if workorder.is_complete %}
+                        {% if workorder.reviewed %}
+                            <div class='container-item'>
+                                This work order has been marked as complete
+                            </div>
+                        {% else %}
+                            <div class='container-item'>
+                                This work order has been marked as complete and is pending review
+                            </div>
+                            {% if user.is_staff %}
+                                <form action='' method='post'>
+                                    {% csrf_token %}
+                                    <input name='mark_work_order_complete' class='container-item container-button success hover' type='submit' value='Mark Work Order Complete' />
+                                    <input name='mark_work_order_canceled' class='container-item container-button warning hover' type='submit' value='Cancel Work Order' />
+                                </form>
+                            {% endif %}
+                        {% endif %}
+                    {% elif workorder.is_canceled %}
+                        {% if workorder.reviewed %}
+                            <div class='container-item'>
+                                This work order has been marked as canceled
+                            </div>
+                        {% else %}
+                            <div class='container-item'>
+                                This work order has been marked as canceled and is pending review
+                            </div>
+                            {% if user.is_staff %}
+                                <form action='' method='post'>
+                                    {% csrf_token %}
+                                    <input name='mark_work_order_complete' class='container-item container-button success hover' type='submit' value='Mark Work Order Complete' />
+                                    <input name='mark_work_order_canceled' class='container-item container-button warning hover' type='submit' value='Cancel Work Order' />
+                                </form>
+                            {% endif %}
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            </div>
+            <div class='container'>
+                <h2>Assigned Technicians</h2>
+                {% if technicians %}
+                    {% for technician in technicians %}
+                        <div class='container-item'>
+                            {{ technician.technician }}
+                            {% if perms.crm.delete_workordertechnicians %}
+                                <a class='container-item container-button undecorated warning' href="{% url 'remove-technician-from-work-order' workorder.lead.id workorder.id technician.id %}">Remove</a>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                {% else %}
+                    <div class='container-item'>
+                        There are no technicians assigned to this work order
+                    </div>
+                {% endif %}
+                {% if perms.crm.add_workordertechnicians %}
+                    <a class="undecorated" href='{% url 'add-technician-to-work-order' workorder.lead.id workorder.id %}' >
+                        <div class='container-item container-button hover'>
+                            + Add A Technician
+                        </div>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+        <div class='row'>
+            <div class='container'>
+                <h2>Associated Images</h2>
+                {% if images.count == 0 %}
+                    <div class='container-item'>
+                        There are no images associated with this work order
+                    </div>
+                {% elif  images.count == 1 %}
+                    <div class='container-item'>
+                        There is {{ images.count }} image associated with this work order
+                    </div>
+                {% else %}
+                    <div class='container-item'>
+                        There are {{ images.count }} images associated with this work order
+                    </div>
+                {% endif %}
+                {% if perms.crm.add_workorderimages %}
+                    <a class="undecorated" href='{% url 'add-image-to-work-order' workorder.lead.id workorder.id %}' >
+                        <div class='container-item container-button hover'>
+                            + Add An Image
+                        </div>
+                    </a>
+                {% endif %}
+            </div>
+            <div class='container-l auto-scrollbar'>
+                {% for image in images %}
+                    <div class='container-item-l'>
+                        <img class='work-order-image' src="/{{ image.image }}" />
+                        {% if perms.crm.delete_workorderimages %}
+                            <a class='container-item container-button undecorated warning' href="{% url 'remove-image-from-work-order' workorder.lead.id workorder.id image.id %}">Remove</a>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock body %}
+{% block footer_js %}
+{% endblock footer_js %}

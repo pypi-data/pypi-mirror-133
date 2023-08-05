@@ -1,0 +1,22 @@
+<div class='container'>
+    <h2>ToolBar</h2>
+    <div class='container-item toolbar'>
+        <ul>
+            <h3>Welcome, {{ user }}</h3>
+            <li><a href="{% url 'index' %}" class="primary">Dashboard</a></li>
+            <li><a href="#" class="bg-dark inactive">Resources</a></li>
+            <li><a href="#" class="bg-dark inactive">Schedule</a></li>
+            <li><a href="#" class="bg-dark inactive">Submit a Ticket</a></li>
+            <li><a href="{% url 'account_logout' %}" class="primary">Sign out</a></li>
+        </ul>
+        {% if request.user.is_staff %}
+            <ul>
+                <h3>Administration</h3>
+                <li><a href="{% url 'admin:index' %}" class="primary">Admin Panel</a></li>
+                <li><a href="#" class="bg-dark inactive">Analytics</a></li>
+                <li><a href="{% url 'closed-work-orders' %}" class="primary">Closed Work Orders</a></li>
+                <li><a href="#" class="bg-dark inactive">View Staff</a></li>
+            </ul>
+        {% endif %}
+    </div>
+</div>
