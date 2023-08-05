@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pyrogue
+Version: 0.0.1
+Summary: An extensible nethack style roguelike
+Home-page: https://github.com/whilb/roguelike
+Author: Will Butler
+Author-email: will@aerenserve.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/whilb/roguelike/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# roguelike
+This is a nethack-style roguelike written in python. It is intended to be modular and hackable
+
+`python engine.py`
+
+
