@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xpcspy
+Version: 0.8.2
+Summary: XPC message interception and more
+Home-page: https://github.com/hot3eed/xpcspy
+Author: hot3eed
+Author-email: hot3eed@gmail.com
+License: Apache-2.0
+Keywords: macos,ios,xnu,xpc,frida
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
