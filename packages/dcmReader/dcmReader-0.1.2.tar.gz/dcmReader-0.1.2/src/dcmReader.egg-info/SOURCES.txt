@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/dcmReader/__init__.py
+src/dcmReader/dcmReader.py
+src/dcmReader.egg-info/PKG-INFO
+src/dcmReader.egg-info/SOURCES.txt
+src/dcmReader.egg-info/dependency_links.txt
+src/dcmReader.egg-info/top_level.txt
