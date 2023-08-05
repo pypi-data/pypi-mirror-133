@@ -1,0 +1,1 @@
+If you use print() alot and feel like you want to spice it up a litle then this package is the best choice.

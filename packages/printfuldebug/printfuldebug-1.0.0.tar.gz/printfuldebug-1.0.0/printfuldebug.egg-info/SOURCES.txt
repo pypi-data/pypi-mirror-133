@@ -1,0 +1,9 @@
+README.md
+setup.py
+printfuldebug/__init__.py
+printfuldebug/printfuldebug.py
+printfuldebug.egg-info/PKG-INFO
+printfuldebug.egg-info/SOURCES.txt
+printfuldebug.egg-info/dependency_links.txt
+printfuldebug.egg-info/requires.txt
+printfuldebug.egg-info/top_level.txt
