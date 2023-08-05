@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+src/cloudflarepycli/__init__.py
+src/cloudflarepycli/__main__.py
+src/cloudflarepycli/cloudflareclass.py
+src/cloudflarepycli.egg-info/PKG-INFO
+src/cloudflarepycli.egg-info/SOURCES.txt
+src/cloudflarepycli.egg-info/dependency_links.txt
+src/cloudflarepycli.egg-info/entry_points.txt
+src/cloudflarepycli.egg-info/requires.txt
+src/cloudflarepycli.egg-info/top_level.txt
