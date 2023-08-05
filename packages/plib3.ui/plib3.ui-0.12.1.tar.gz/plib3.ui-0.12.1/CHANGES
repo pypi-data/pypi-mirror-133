@@ -1,0 +1,21 @@
+**CHANGES** for PLIB3.UI 0.12.1
+
+:Author:        Peter A. Donis
+:Release Date:  02 Jan 2022
+
+Version 0.12.1
+--------------
+
+- Update bug fix to correctly handle older PySide2 versions.
+
+Version 0.12
+------------
+
+- Fix bug created by Qt5/PySide2 changing ``QSocketNotifier`` to pass
+  a ``QSocketDescriptor`` object to notification handlers (instead of
+  an ``int`` representing the socket's ``fileno``).
+
+Version 0.11
+------------
+
+- Initial release, version numbering continued from ``plib3.gui``.
