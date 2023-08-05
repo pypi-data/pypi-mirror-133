@@ -1,0 +1,5 @@
+Click
+google-cloud-bigquery
+pyyaml
+rich
+tinydb
