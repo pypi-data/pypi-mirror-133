@@ -1,0 +1,148 @@
+.. image:: https://readthedocs.org/projects/galaxie-audio/badge/?version=latest
+   :target: https://galaxie-audio.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+.. image:: https://gitlab.com/Tuuux/galaxie-audio/badges/master/pipeline.svg
+   :target: https://gitlab.com/Tuuux/galaxie-audio/-/commits/master
+   :alt: Pipeline Status
+.. image:: https://gitlab.com/Tuuux/galaxie-audio/badges/master/coverage.svg
+   :target: https://gitlab.com/Tuuux/galaxie-audio/-/commits/master
+   :alt: Coverage Status
+
+===========================
+Galaxie Audio documentation
+===========================
+.. figure:: https://galaxie-audio.readthedocs.io/en/latest/_images/logo_galaxie.png
+   :align:  center
+
+Description
+-----------
+A small Audio library, use by Galaxie Tools for play and record audio.
+
+Links
+-----
+ * GitLab: https://gitlab.com/Tuuux/galaxie-audio/
+ * Read the Doc: https://galaxie-audio.readthedocs.io
+ * PyPI: https://pypi.org/project/galaxie-audio/
+ * PyPI Test: https://test.pypi.org/project/galaxie-audio/
+ * DK0TU/ users/ DL5BBN/ Python Amateur Radio Programs: https://www.dk0tu.de/users/DL5BBN/Python_Amateur_Radio_Programs/
+ * DKØTU/ blog/ 2019/ 04/ Python Speech Recognition, Dictation and Coding: https://www.dk0tu.de/blog/2019/04/27_Python_Speech_Recognition/
+
+Screenshots
+-----------
+v 0.1.4
+
+.. figure::  https://galaxie-audio.readthedocs.io/en/latest/_images/screen_01.png
+   :align:   center
+
+
+Text Spectrogram
+
+.. figure::  https://galaxie-audio.readthedocs.io/en/latest/_images/screen_02.png
+   :align:   center
+
+
+Installation via pip
+--------------------
+Pypi
+
+.. code:: bash
+
+    pip install galaxie-audio
+
+Pypi Test
+
+.. code:: bash
+
+  pip install -i https://test.pypi.org/simple/ galaxie-viewer
+
+
+Example
+-------
+.. code:: python
+
+    #!/usr/bin/env python3
+    # -*- coding: utf-8 -*-
+
+    # It script it publish under GNU GENERAL PUBLIC LICENSE
+    # http://www.gnu.org/licenses/gpl-3.0.en.html
+    # Author: the Galaxie Audio Team, all rights reserved
+
+    import sys
+    import tempfile
+
+
+    from glxaudio.AudioRecorder import AudioRecorder
+    from glxaudio.AudioPlayer import AudioPLayer
+    from glxaudio.AudioInterfaces import AudioInterfaces
+    from glxaudio.AudioConstants import GLXAUDIO
+    from glxaudio.Sleep import Sleep
+    from glxviewer import viewer
+
+    # THE APP
+    try:
+        verbose = True
+        debug = False
+        debug_level = 3
+
+        time_to_sleep = 0.42
+        if verbose:
+            viewer.write(
+                status_text="INIT",
+                status_text_color="WHITE",
+                column_1="Simplex Repeater",
+                column_2=" - Version 0.5",
+            )
+
+            viewer.write(
+                status_text="INIT",
+                status_text_color="WHITE",
+                column_1=AudioInterfaces.__name__ + ":",
+                column_2="list interfaces",
+            )
+            AudioInterfaces.print_interfaces(only_default=True)
+
+        while True:
+            #  Create a new temporary file each time, that because communication's should be anonyme
+            temporary_file = tempfile.NamedTemporaryFile()
+            try:
+                # Start a recording
+                with AudioRecorder() as recorder:
+                    recorder.debug = debug
+                    recorder.debug_level = debug_level
+                    recorder.verbose = verbose
+                    recorder.verbose_level = 3
+                    recorder.format = GLXAUDIO.FORMAT_INT16
+                    recorder.threshold = 6  # in percent
+                    recorder.channels = 1
+                    recorder.rate = 22050
+                    recorder.chunk_size = 1024
+                    recorder.file.path = temporary_file.name
+                    recorder.record_to_file()
+
+                # Wait , because that is how work a repeater
+                with Sleep() as sleeper:
+                    sleeper.debug = debug
+                    sleeper.debug_level = debug_level
+                    sleeper.verbose = verbose
+                    sleeper.sleep(time_to_sleep)
+
+                # Play what is inside our temporary file
+                with AudioPLayer() as player:
+                    player.debug = debug
+                    player.debug_level = debug_level
+                    player.verbose = verbose
+                    player.detached = True
+                    player.file.path = temporary_file.name
+                    player.play()
+
+            except EOFError:
+                pass
+
+            # Close the temporary file, it have effect to delete the file, that because communication's should be anonymize
+            temporary_file.close()
+
+    except KeyboardInterrupt:
+        viewer.flush_a_new_line()
+        sys.exit(0)  
+
+ 
