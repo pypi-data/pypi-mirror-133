@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: e2L
+Version: 0.0.3
+Summary: Generate custom PDF checklists with eBird occurrence data.
+Home-page: https://github.com/Zoziologie/ebird2latex
+Author: Raphaël Nussbaumer
+Author-email: <rafnuss@gmail.com>
+License: MIT
+Download-URL: https://github.com/Zoziologie/ebird2latex/archive/refs/tags/v0.0.3.tar.gz
+Keywords: python,eBird,LaTeX
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+eBirdToLaTex Checklist Generator is a Python module which generates a customisable bird checklist based on a specific dataset downloaded from eBird.
+
