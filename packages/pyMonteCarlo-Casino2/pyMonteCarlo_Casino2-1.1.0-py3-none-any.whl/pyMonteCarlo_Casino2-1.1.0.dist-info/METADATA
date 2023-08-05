@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyMonteCarlo-Casino2
+Version: 1.1.0
+Summary: Python interface for Monte Carlo simulation program Casino 2
+Home-page: https://github.com/pymontecarlo
+Author: Philippe T. Pinard and Hendrix Demers
+Author-email: philippe.pinard@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pycasinotools
+Requires-Dist: pymontecarlo
+Requires-Dist: pyxray
+
+# pyMonteCarlo-casino2
+
+Interface for [Casino2](https://www.gel.usherbrooke.ca/casino/index.html) Monte Carlo program.
+See https://github.com/pymontecarlo/pymontecarlo for more information.
+
