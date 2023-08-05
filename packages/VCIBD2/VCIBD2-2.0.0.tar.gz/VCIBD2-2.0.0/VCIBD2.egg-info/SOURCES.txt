@@ -1,0 +1,8 @@
+LICENCE
+setup.py
+VCIBD2/takeCommand.py
+VCIBD2.egg-info/PKG-INFO
+VCIBD2.egg-info/SOURCES.txt
+VCIBD2.egg-info/dependency_links.txt
+VCIBD2.egg-info/requires.txt
+VCIBD2.egg-info/top_level.txt
