@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: power-strip
+Version: 0.1.1
+Summary: 
+Author: erdii
+Author-email: me@erdii.engineering
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: grpcio (>=1.43.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.43.0,<2.0.0)
