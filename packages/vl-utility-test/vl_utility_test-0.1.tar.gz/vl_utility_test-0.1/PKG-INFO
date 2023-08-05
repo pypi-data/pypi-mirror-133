@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: vl_utility_test
+Version: 0.1
+Summary: For creating raster tiles and merging
+Home-page: https://github.com/pkumarvassar/vl_utility_test.git
+Author: Praveen Kumar
+Author-email: pkumar@vassarlabs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# VL_UTILITY_TEST
+
+Testing of python package module 
+## Instructions
+
+1. Install:
+
+```
+pip install vl-utility-test
+```
+
+## Description
+- Craeting tiles using raaster files
+- Merging small-small tiles 
+- Craetion of differenet band 
+- Vectorization of raster for visualisation of target region
+
+
+
+
