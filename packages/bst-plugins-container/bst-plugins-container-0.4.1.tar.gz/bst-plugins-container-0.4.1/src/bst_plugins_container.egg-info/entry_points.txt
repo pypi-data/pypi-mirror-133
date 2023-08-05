@@ -1,0 +1,6 @@
+[buildstream.plugins.elements]
+docker_image = bst_plugins_container.elements.docker_image
+
+[buildstream.plugins.sources]
+docker = bst_plugins_container.sources.docker
+

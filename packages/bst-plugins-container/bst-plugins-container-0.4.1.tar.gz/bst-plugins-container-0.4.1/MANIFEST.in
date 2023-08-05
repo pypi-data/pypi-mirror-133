@@ -1,0 +1,2 @@
+include src/bst_plugins_container/elements/*.yaml
+include project.conf
