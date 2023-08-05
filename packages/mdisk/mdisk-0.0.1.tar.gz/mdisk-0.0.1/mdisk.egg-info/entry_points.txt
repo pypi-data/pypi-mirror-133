@@ -1,0 +1,3 @@
+[console_scripts]
+mdisk = mdisk.mdisk:main
+
