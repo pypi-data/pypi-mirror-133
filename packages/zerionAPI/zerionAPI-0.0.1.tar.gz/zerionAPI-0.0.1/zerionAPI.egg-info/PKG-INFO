@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: zerionAPI
+Version: 0.0.1
+Summary: Zerion Software API Wrapper
+Home-page: https://github.com/jhsu98/zerion-py
+Author: Jonathan Hsu
+Author-email: jhsu98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zerion-py
+
+
+
