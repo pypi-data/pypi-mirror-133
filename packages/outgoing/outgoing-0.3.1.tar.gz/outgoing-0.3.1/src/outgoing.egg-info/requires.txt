@@ -1,0 +1,14 @@
+click>=7.0
+click-loglevel~=0.2
+keyring>=21.7
+morecontext~=0.4
+platformdirs~=2.1
+pydantic~=1.7
+python-dotenv~=0.11
+tomli<3.0,>=1.2
+
+[:python_version < "3.10"]
+importlib-metadata>=3.6
+
+[:python_version < "3.8"]
+typing_extensions
