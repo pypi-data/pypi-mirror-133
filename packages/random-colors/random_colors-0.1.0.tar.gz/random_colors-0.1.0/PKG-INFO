@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: random-colors
+Version: 0.1.0
+Summary: 
+Author: Arnthor Jonsson
+Author-email: arnthorj2@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.4.0,<9.0.0)
