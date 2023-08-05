@@ -1,0 +1,15 @@
+waves/__init__.py,sha256=P9HsQ__G64sqPeDaKa7Nr8eyHbkOm08RXY58khNMHNA,222
+waves/players/__init__.py,sha256=uBDp9pbNraZKxycw3w7ZV0WjIE0CI3ugC3birFwgWR8,31
+waves/players/pygame.py,sha256=pdplkzvO9RxBQMjItRKpAsnyzir5aKO_kWpa5PrCwLk,689
+waves/sound/__init__.py,sha256=v9QSpJjjLHBG-_I2JiZ1SpeypXJ3FWEflKbm6VQ_rbU,24
+waves/sound/figure.py,sha256=-dpIdNpr2cPVAOTuJ0LfWjBongLgl9o42GzPFMOL41o,1251
+waves/sound/generator.py,sha256=2A7xekuMdBFAK-unJvflnfQb-93RX3xCsvJEthjkCTA,2579
+waves/sound/io.py,sha256=mkCenw4rR1hT1kzsVxLdlQ46SwjLaAKeV54sHT6vLo4,22724
+waves/sound/main.py,sha256=7PtINfsjVZ0VGvITiC8VR7JskYvcJ3-p6iTxo9Wd1cU,4336
+waves/sound/play.py,sha256=JiuxKz9OIXbNIRYugcgRtMgfG86I59CbjCCxJMOiBf4,449
+waves/sound/plot.py,sha256=c0-AphINrjH3tQq3-rabtRdcp-Ut5oUGEKlv6nc-60g,216
+waves-0.2.6.dist-info/LICENSE,sha256=tBE5SZiEgCnOCmd6ig2ISC91ZTQIHF0QYriS9It5UaQ,1531
+waves-0.2.6.dist-info/METADATA,sha256=w_mz_YEX-ipA0lxvVPfaKldBpJvOFzvy-7ksIFRji1U,4331
+waves-0.2.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+waves-0.2.6.dist-info/top_level.txt,sha256=Yp1zm16osuL_aqh9aHgDHlPdnxXT7aKCDinPHsS2-dM,6
+waves-0.2.6.dist-info/RECORD,,
