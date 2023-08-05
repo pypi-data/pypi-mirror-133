@@ -1,0 +1,11 @@
+playwithmpv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+playwithmpv/__main__.py,sha256=DHkdCqp1EReqUdcjBETjS88yE00ZCIzTXbxBLQswymU,64
+playwithmpv/__version__.py,sha256=1x5NwdPaWD-HR4iqmeoeFe5kpUosZMZhdlmlTnDB-8Y,63
+playwithmpv/server.py,sha256=N5lx76j6n-DzQoRyGQR039iB3fyLN2D0CqXhY6a51fM,2801
+playwithmpv/tmp.py,sha256=Srp7aybjKdlAcvIToG6aVn0Bxq6ep_CoYwAt4o1w5W0,2835
+playwithmpv-0.1.3.dist-info/LICENSE,sha256=U1-R4bXYMFjenMt-xTPR2y2bqGu0X42BZLQdW_B-3mY,1069
+playwithmpv-0.1.3.dist-info/METADATA,sha256=Fdi3fQcLSNAdkUJGpBIFE0DJJnZ_v-rqKZmXN7B1hN4,3308
+playwithmpv-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+playwithmpv-0.1.3.dist-info/entry_points.txt,sha256=5jpgwuBKvVkk4FsSgX3e69ql7HIO9Yadgk5Zpd6tmyU,57
+playwithmpv-0.1.3.dist-info/top_level.txt,sha256=qMX2k_8DdmRGJhQgjCwlxnAHdjdjXg1IGdlpYPyDVMM,12
+playwithmpv-0.1.3.dist-info/RECORD,,
