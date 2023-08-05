@@ -1,0 +1,17 @@
+mechmean/__init__.py,sha256=RUt52tGNCxuPcY_qMsfGqeZ1KrbknU3GSfnyv-RQ0P0,238
+mechmean/approximation.py,sha256=dhrZXlzs3HFPqvItSImkz7rt1y5nd309Xgg87NdIOTI,13318
+mechmean/approximation_docstrings.py,sha256=_zjjPygrkuP7cEex4Fkvd_aYX5jqeWn88Jz_meE6N1w,27553
+mechmean/example_input.py,sha256=shUyQ0i6ZbDFD6WtecMvsE2D8jh_3fEp0E1FeaCZPgI,621
+mechmean/fabric_tensors.py,sha256=o-yTfoixtOuTRGKqHXuEA_KmhZs0oD8SawmRWKzg1mI,5056
+mechmean/hill_polarization.py,sha256=L0C009gw3DSW9wy6s-kfyNWZaPWw7iEhv6Xu9UPytsI,5568
+mechmean/hill_polarization_alternatives.py,sha256=J6Yp3xtJx-YfZYFFrjnGrKck1f-alhrsPzNhHpZGjUc,8796
+mechmean/material.py,sha256=wxuqGbueyLPUAYy9Gufiaa9I-SLTN1uC1sbkeqZXTC4,1796
+mechmean/operators.py,sha256=2-9PAGh3NlZSAeT6SyseE7yYuUKCqg-0CEnznrMaNT0,770
+mechmean/orientation_averager.py,sha256=Lko5a8geB4_KL3T5u4pOuRFWTC9V0ypWsU4g7KxBEP8,3964
+mechmean/orientation_averager_alternatives.py,sha256=MXO8ncvenJUgAMP1QBd7N5HmKXQCDX3Z3lKzasdgLRM,1464
+mechmean/utils.py,sha256=1yrbA3p5UatdFojZf7siWsXtvSCQFJkgkQrq7gcNhQo,278
+mechmean-0.0.2.dist-info/LICENSE,sha256=6tTMtbWCtUbQziKWG7qUYpzKyBuIq0Hb8FVAnwC8J6s,1072
+mechmean-0.0.2.dist-info/METADATA,sha256=oIni9Syd4RXugfTlSzCfPVjPj_UXzjerDxHSUXIfan4,571
+mechmean-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mechmean-0.0.2.dist-info/top_level.txt,sha256=mFvvJ_lEKibDoorTCZxOmBjKaw1osb_vpe0HYthONgg,9
+mechmean-0.0.2.dist-info/RECORD,,
