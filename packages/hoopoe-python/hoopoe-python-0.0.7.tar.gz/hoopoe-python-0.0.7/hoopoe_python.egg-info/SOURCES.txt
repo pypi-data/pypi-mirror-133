@@ -1,0 +1,12 @@
+README.md
+setup.py
+hoopoe/Hoopoe.py
+hoopoe/__init__.py
+hoopoe/constants.py
+hoopoe/utils.py
+hoopoe_python.egg-info/PKG-INFO
+hoopoe_python.egg-info/SOURCES.txt
+hoopoe_python.egg-info/dependency_links.txt
+hoopoe_python.egg-info/entry_points.txt
+hoopoe_python.egg-info/requires.txt
+hoopoe_python.egg-info/top_level.txt
