@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pytexture2dstudio
+Version: 0.1.2
+Summary: pytexture2dstudio
+Home-page: https://github.com/smalls0098/py-texture2dStudio
+Author: smalls
+Author-email: smalls0098@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/smalls0098/py-texture2dStudio/tarball/master
+Keywords: etc,etc2,astc,texture
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Graphics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+
+# py-texture2dStudio
+
+_✨ py-texture2dStudio is a picture texture conversion tool ✨_
+
+</div>
+
+## support conversion
+
+- [x] etc
+- [x] astc
+
