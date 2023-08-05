@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+newdispanderfixed/__init__.py
+newdispanderfixed/module.py
+newdispanderfixed.egg-info/PKG-INFO
+newdispanderfixed.egg-info/SOURCES.txt
+newdispanderfixed.egg-info/dependency_links.txt
+newdispanderfixed.egg-info/top_level.txt
