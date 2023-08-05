@@ -1,0 +1,11 @@
+commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commands/manga_archive.py,sha256=lU_M1I9ImhoYJVevxy7AsheaINF0njq_5IuzFYFl5XM,1312
+commands/manga_ascii.py,sha256=PGEOxZk7Iir88CnLAWGVvDzVhP8fQePyYD8pSX4MUF4,374
+commands/manga_extract.py,sha256=duBhLE6gl0vgOQRn9kQb91S_jmhzoubnfEhJK72gPAU,3434
+commands/manga_search.py,sha256=AI9Y4JL-86zoiDvndlRT_bK8_K_PJb5yH0Arm4uM2qI,5015
+mangatools-0.2.0.dist-info/LICENSE,sha256=9FbMmlg8nKKikvNF2XEG78UliDUHa0R6E1l2zl-w8j0,1062
+mangatools-0.2.0.dist-info/METADATA,sha256=AQO8F_D2X0bxgJCd3NlGxko3SVSXEE0I4YtM2Ul7UCg,4560
+mangatools-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mangatools-0.2.0.dist-info/entry_points.txt,sha256=XihCDwkNmYC_6LoYtso0vjVUhyQ-SpPQMh7HxV5PWD0,75
+mangatools-0.2.0.dist-info/top_level.txt,sha256=6dNUbRvZAy7fLWNbD4YeUosLYwGk-SVew-Swd5CfFkg,9
+mangatools-0.2.0.dist-info/RECORD,,
