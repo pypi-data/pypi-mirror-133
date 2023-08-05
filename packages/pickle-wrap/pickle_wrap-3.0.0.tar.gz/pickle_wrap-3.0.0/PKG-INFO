@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pickle_wrap
+Version: 3.0.0
+Summary: Wraps pickles
+Home-page: https://github.com/paulcbogdan/pickle_wrap
+Author: paulcbogdan
+Author-email: paulcbogdan@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: pickling,wrapping
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
