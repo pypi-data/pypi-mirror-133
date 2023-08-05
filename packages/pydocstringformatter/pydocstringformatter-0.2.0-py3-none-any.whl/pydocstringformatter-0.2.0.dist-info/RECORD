@@ -1,0 +1,15 @@
+pydocstringformatter/__init__.py,sha256=ebuDeuhMnIFDtNm2qHMN2DxXlreHjU8wW9sXKBDqytU,481
+pydocstringformatter/__main__.py,sha256=VlAzkJUXbLTDsJJl2ub_d7PRCdmNPbbuyXNk6FRysCU,76
+pydocstringformatter/formatting.py,sha256=2dOiFLumlLW38UHsxi0Q6CtSApeM0ht53WBu8yPaXzI,1432
+pydocstringformatter/run.py,sha256=VZcVxXpYsKK_yiQJCpPEkgai_OcJhJS7U57HbkNJYeo,2862
+pydocstringformatter/utils/__init__.py,sha256=eq14WDfBUxpqIZxOhBjOQy9J-_wcmOEuMpor0IMawsg,638
+pydocstringformatter/utils/argument_parsing.py,sha256=U9Sw-SCISM5ZHTjIuy590osc3OfKzVgYcKFSAPbXF4Q,2551
+pydocstringformatter/utils/exceptions.py,sha256=Im89ApFsQHgSqb_PTa8d7PKB9UYGL1h5tFfj_wMXJiQ,450
+pydocstringformatter/utils/find_docstrings.py,sha256=oGdmBCAuc6LK7E1-Dq9qWAM9WFqXVf30DRNCrBAUs-0,572
+pydocstringformatter/utils/find_python_file.py,sha256=sSZpfELCWSdYTnN6ZGz1K7iBSHB6iQU-wL3aGZ5hVPg,997
+pydocstringformatter-0.2.0.dist-info/LICENSE,sha256=VK-M9MJFO908qO-ti83IdRZf8OGv5G5MgfklOh-k4Es,1074
+pydocstringformatter-0.2.0.dist-info/METADATA,sha256=IQ6sHJLBDOP0TQacA1UK1qRlshwNtHjOkCdeU0UysvQ,4450
+pydocstringformatter-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydocstringformatter-0.2.0.dist-info/entry_points.txt,sha256=k3KMZc9WlXaT37diLelERoQlGDp4QYAMpAoVNofjdEw,87
+pydocstringformatter-0.2.0.dist-info/top_level.txt,sha256=tOzrgQS60cXA-71IQKGZOP74eEDHfrmIhpThJeqM020,21
+pydocstringformatter-0.2.0.dist-info/RECORD,,
