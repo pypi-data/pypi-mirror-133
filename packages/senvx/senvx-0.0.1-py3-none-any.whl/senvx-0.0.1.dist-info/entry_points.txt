@@ -1,0 +1,3 @@
+[console_scripts]
+senvx=senvx.main:app
+
