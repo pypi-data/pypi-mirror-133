@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pytilesrv
+Version: 0.1
+Summary: mapnik server
+Home-page: https://github.com/nbdy/pytilesrv
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: mapnik render server
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pytilesrv
+
+## features
+
+- [X] rendering
+- [X] caching
+- [X] web api
+
+## usage
+
+```shell
+
+```
+
+
