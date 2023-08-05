@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+git/__init__.py
+git/commands.py
+git/index.py
+git/windows.py
+minecraft_server_installer.egg-info/PKG-INFO
+minecraft_server_installer.egg-info/SOURCES.txt
+minecraft_server_installer.egg-info/dependency_links.txt
+minecraft_server_installer.egg-info/top_level.txt
