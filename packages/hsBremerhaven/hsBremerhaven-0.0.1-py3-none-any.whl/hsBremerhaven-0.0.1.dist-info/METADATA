@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hsBremerhaven
+Version: 0.0.1
+Summary: Quantum Algorithms
+Home-page: UNKNOWN
+Author: Gaffar Sir Elkhatim
+Author-email: gsirlkhatim@yahoo.com
+License: UNKNOWN
+Keywords: python,Quantum,qiskit,IBM,Quantumcomputer,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A Simple Quantum Algorithms package in Beta yet
+
+
