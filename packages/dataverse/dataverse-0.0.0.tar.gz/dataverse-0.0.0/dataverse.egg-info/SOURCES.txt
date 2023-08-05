@@ -1,0 +1,5 @@
+setup.py
+dataverse.egg-info/PKG-INFO
+dataverse.egg-info/SOURCES.txt
+dataverse.egg-info/dependency_links.txt
+dataverse.egg-info/top_level.txt
