@@ -1,0 +1,11 @@
+snowball/__init__.py,sha256=nACfjy7mVNXgOFMJm26AlMSjOfkmfKf1wDYP5yz9DmE,393
+snowball/_version.py,sha256=5RvAGOekd1GrS5GdZgP2L1RJJUp1BmgzhbBjUiY6hIA,497
+snowball/backtest.py,sha256=X3obn-ZkfUN30ZhCGj-JyovztVFD62iEotoqb_tiskg,1290
+snowball/components.py,sha256=y_lUAj_NXamcIqEqtKb5MPB4LpgT0QbBFCADSMkSZ4Q,10591
+snowball/report.py,sha256=zM5dTxdJW-pg2lGQFhz9GIAH8FLZjM3l15UlOPqOzKc,13942
+snowball/rules.py,sha256=NpnySp9QIN4c7pgptK9H8WfhdW7OtokIJxZD_JSkAVI,3731
+Snowball-0.4.0.dist-info/LICENSE,sha256=I-0GVTajLsUleg_38jmZDyp7IgRssaafDKKx2InW9ac,1076
+Snowball-0.4.0.dist-info/METADATA,sha256=7a50ETJqCNhbwj-zfCc8fR5GsU4p-jmq2q8UUza2W_0,4891
+Snowball-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Snowball-0.4.0.dist-info/top_level.txt,sha256=VGLu9vlWvxXqNlXOmSpu85tStdbSX4c-y8rx6Mn0tgQ,9
+Snowball-0.4.0.dist-info/RECORD,,
