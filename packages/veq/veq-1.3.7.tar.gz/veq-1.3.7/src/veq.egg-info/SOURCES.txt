@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+src/veq/__init__.py
+src/veq/__main__.py
+src/veq/calculator.py
+src/veq/tokens.py
+src/veq/visualizer.py
+src/veq.egg-info/PKG-INFO
+src/veq.egg-info/SOURCES.txt
+src/veq.egg-info/dependency_links.txt
+src/veq.egg-info/entry_points.txt
+src/veq.egg-info/not-zip-safe
+src/veq.egg-info/requires.txt
+src/veq.egg-info/top_level.txt
