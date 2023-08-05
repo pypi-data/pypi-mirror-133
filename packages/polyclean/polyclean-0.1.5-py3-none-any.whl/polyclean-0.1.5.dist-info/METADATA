@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: polyclean
+Version: 0.1.5
+Summary: A geospatial package for cleaning up polygon data.
+Home-page: https://github.com/H4estu/polyclean
+Author: H4estu
+Author-email: zach.wallace@live.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/H4estu/polyclean/issues
+Keywords: GIS,vector data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: geopandas (>=0.10.2)
+Requires-Dist: shapely (>=1.7.1)
+Requires-Dist: tqdm (>=4.62.3)
+
+# PolyClean
+Clean up geospatial vector data
+
+
