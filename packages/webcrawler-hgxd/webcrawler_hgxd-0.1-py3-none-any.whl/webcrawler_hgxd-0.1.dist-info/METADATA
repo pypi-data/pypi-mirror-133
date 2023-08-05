@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: webcrawler-hgxd
+Version: 0.1
+Summary: some useful tools in gdal
+Home-page: https://github.com/******/******.git
+Author: huagongxiaodui
+Author-email: 1092345202@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This is a crawler project about the data related to the epidemic situation in COVID-19, China, and it has been visualized.
+
+
