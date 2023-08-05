@@ -1,0 +1,3 @@
+[console_scripts]
+fastapi-vite=fastapi_vite.cli:main
+
