@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/wibblywobbly/__init__.py
+src/wibblywobbly/core.py
+src/wibblywobbly/hierarchical.py
+src/wibblywobbly.egg-info/PKG-INFO
+src/wibblywobbly.egg-info/SOURCES.txt
+src/wibblywobbly.egg-info/dependency_links.txt
+src/wibblywobbly.egg-info/top_level.txt
