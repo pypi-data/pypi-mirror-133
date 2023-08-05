@@ -1,0 +1,3 @@
+[console_scripts]
+cau = cau_auth.cau:main
+
