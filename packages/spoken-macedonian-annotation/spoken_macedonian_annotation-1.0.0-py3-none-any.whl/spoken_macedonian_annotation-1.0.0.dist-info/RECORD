@@ -1,0 +1,12 @@
+spoken_macedonian_annotation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spoken_macedonian_annotation/all_data.json,sha256=Wc5K1Ng2bTF2xp7iGEm3-flU-3fPQ2tXWu8wGjl9SrY,721703
+spoken_macedonian_annotation/annotate.py,sha256=4AtyLAxsIOEY7R0s0qjaGoyVEQpY71f_qXw1IIP7HR4,2826
+spoken_macedonian_annotation/cli.py,sha256=10-pzFoOcABkZXQoFTSC5l5zjOqem10GlWvDkgZnGEs,1811
+spoken_macedonian_annotation/file_processing.py,sha256=nRgTzwP628QzDkvMZI2G5OBqnfj8kTyToi1SlEON9OA,750
+spoken_macedonian_annotation/homonyms.py,sha256=KyT25lYBiU1gelQrUiPHYiuullJ2xzvK4_lWJLwoofA,19363
+spoken_macedonian_annotation-1.0.0.dist-info/LICENSE,sha256=3oD5pFlOMPdNwB3KNMa7bphr2D-2foykgZFdkZ2pWNU,1092
+spoken_macedonian_annotation-1.0.0.dist-info/METADATA,sha256=rR06EwJWqf1Phxkhius-CDXNetRzAemw4jnjAtAbLdw,2935
+spoken_macedonian_annotation-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spoken_macedonian_annotation-1.0.0.dist-info/entry_points.txt,sha256=OuapGS9OCPWRjdRiy9xN34bC0DeoH5G4NZVpAKQAG9c,71
+spoken_macedonian_annotation-1.0.0.dist-info/top_level.txt,sha256=e17crQoj3T6DvRZ-8Fn7L__8zWVBOec4a_zThkaVM1I,29
+spoken_macedonian_annotation-1.0.0.dist-info/RECORD,,
