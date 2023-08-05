@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+kfsdutils/kfsdutils.egg-info/PKG-INFO
+kfsdutils/kfsdutils.egg-info/SOURCES.txt
+kfsdutils/kfsdutils.egg-info/dependency_links.txt
+kfsdutils/kfsdutils.egg-info/top_level.txt
