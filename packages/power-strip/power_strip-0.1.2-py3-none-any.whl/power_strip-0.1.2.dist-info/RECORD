@@ -1,0 +1,7 @@
+power_strip/__init__.py,sha256=Dd0beHsSmROpWKnqre2uJy4uM3L3Sam_ImwOUW8sdRU,24
+power_strip/v1alpha1/__init__.py,sha256=_4UqWD7554-58tzp7TwgKuT6PHGi0sBHNB1WVRbaO-4,51
+power_strip/v1alpha1/api_pb2.py,sha256=Yzdt61ZwpucKLVMmAYODpGaHFyY3_Q_mPXb3r_ZXm54,8883
+power_strip/v1alpha1/api_pb2_grpc.py,sha256=gHshRxBw1BuP8XI90yvNQejr57aokcuxGmKVlETLGUA,8106
+power_strip-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+power_strip-0.1.2.dist-info/METADATA,sha256=FRLgUHbtfVOb1lng32X7A6_zAlYEqkAIzcaTkpIdS3o,377
+power_strip-0.1.2.dist-info/RECORD,,
