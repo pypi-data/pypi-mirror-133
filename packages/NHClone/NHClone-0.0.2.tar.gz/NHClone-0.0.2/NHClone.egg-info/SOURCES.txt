@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+NHClone/Noob.py
+NHClone/__init__.py
+NHClone.egg-info/PKG-INFO
+NHClone.egg-info/SOURCES.txt
+NHClone.egg-info/dependency_links.txt
+NHClone.egg-info/entry_points.txt
+NHClone.egg-info/requires.txt
+NHClone.egg-info/top_level.txt
