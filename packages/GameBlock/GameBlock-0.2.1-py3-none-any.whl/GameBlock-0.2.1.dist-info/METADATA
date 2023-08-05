@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: GameBlock
+Version: 0.2.1
+Summary: A pygame framework
+Home-page: https://github.com/dw-Apples-And-Bananas/gameblock
+Author: ApplesAndBananas
+Author-email: gameblock@applesandbananas.co.uk
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/dw-Apples-And-Bananas/gameblock/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+This package is a framework for pygame development.
+It is intended to simplify the pygame usage while not changing the basics of pygame itself this package should also speed up game development. To get started you can go to the "gameblock/Examples" directory where you can find projects for beginning your game development.
+
+This is the first python module I have created, it is not completed yet and will be regularly updated.
+
+Thank you for using gameblock :)
+
+
