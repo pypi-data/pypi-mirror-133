@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    {% block title %}
+        <title>GitHubHealth: search results</title>
+    {% endblock %}
+{% endblock %}
+
+{% block body %}
+
+    {% block navbar %}
+    {% endblock %}
+
+    {% block header %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block loading %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block content %}
+        {% if ghh.search_results is not none %}
+            {{ ghh.search_results.html|safe }}
+            <form action="" method="post" class="form limit" id="more_form" role="form">
+                <div>
+                    {{ more_form.csrf_token() }}
+                    results
+                    <input class="nbr-input" name="input_from" required type="number" value={{ ghh.search_results.input_from }} data-toggle="tooltip">
+                    to
+                    <input class="nbr-input" name="input_to" required type="number" value={{ ghh.search_results.input_to }} data-toggle="tooltip">
+                    of
+                    {{ ghh.search_results.total }}
+                    <input class="btn btn-more btn-primary" id="metadata-more" name="more" onclick="loading_more()" type="submit" value="more...">
+                </div>
+            </form>
+        {% endif %}
+    {% endblock %}
+
+    {% block error_warning %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block footer %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block scripts %}
+        {{ super() }}
+        <script>
+            $SCRIPT_ROOT = {{ request.script_root|tojson }};
+            // update all table "health" elements to a link for that resource
+            $("#T_search-metadata").children("tbody").children("tr").children("td").each(function () {
+                if (this.cellIndex == 3) {
+                    if (this.innerText == "health") {
+                        let this_resource_name = this.previousElementSibling.innerText;
+                        let this_resource_owner = this.previousElementSibling.previousElementSibling.innerText;
+                        let this_resource_type = this.previousElementSibling.previousElementSibling.previousElementSibling.innerText;
+                        let this_img_tag = '<img class="health-icon" src="'.concat($SCRIPT_ROOT, "/static/favicon.ico", '">');
+                        if (this_resource_type == "user") {
+                            let this_resource_status_url = $SCRIPT_ROOT.concat("/status/", this_resource_name);
+                            this.innerHTML = '<a href="'.concat(this_resource_status_url,  '" class="quicklink" target="_blank">', this_img_tag, '</a>');
+                        } else if (this_resource_type == "repo" ) {
+                            let this_resource_status_url = $SCRIPT_ROOT.concat("/repo_status/", this_resource_owner, "/", this_resource_name);
+                            this.innerHTML = '<a href="'.concat(this_resource_status_url,  '" class="quicklink" target="_blank">', this_img_tag, '</a>');
+                        };
+                    };
+                };
+            });
+        </script>
+    {% endblock %}
+
+{% endblock %}

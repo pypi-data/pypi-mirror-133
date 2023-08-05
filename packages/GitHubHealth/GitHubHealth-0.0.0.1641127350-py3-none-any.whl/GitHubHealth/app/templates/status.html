@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block head %}
+    {{ super() }}
+    {% block title %}
+        <title>GitHubHealth: {{ ghh.user.name }}</title>
+    {% endblock %}
+{% endblock %}
+
+{% block body %}
+
+    {% block navbar %}
+    {% endblock %}
+
+    {% block header %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block content %}
+
+        {% if ghh.requested_object.obj is not none %}
+            <div class="user-content repo-status">
+                <a class="header" href={{ ghh.requested_object.url }} target="_blank">{{ ghh.requested_object.name }}</a>
+            </div>
+            {{ ghh.repo_html|safe }}
+            <form id="plot-control-form">
+                <select id="select-y" name="select-y" onclick="selectY(this.value)"></select>
+                <div class="multiselect">
+                    <div class="selectBox" onclick="showCheckboxes()">
+                        <select><option>Filter X variable</option></select>
+                        <div class="overSelect"></div>
+                    </div>
+                    <div id="select-x"></div>
+                </div>
+            </form>
+            <span class="plots">
+                {{ images.direction_button("left") }}
+                <div id="vis_repo" class="plot" style="display: block"></div>
+                {{ images.direction_button("right") }}
+            </span>
+            <div id="vis_error"></div>
+        {% endif %}
+
+    {% endblock %}
+
+    {% block error_warning %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block footer %}
+        {{ super() }}
+    {% endblock %}
+
+    {% block scripts %}
+        {{ super() }}
+
+        {% if ghh.requested_object.obj is not none %}
+            <script>
+                var plots = {{ ghh.plots|safe }} ;
+                vegaEmbedPlot(plots, "vis_error", "#vis_repo", 0);
+                prefillSelectY();
+            </script>
+        {% endif %}
+
+    {% endblock %}
+
+{% endblock %}

@@ -1,0 +1,97 @@
+{# this is needed to test repo status outside of app context #}
+
+{% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="GitHubHealth/app/static/favicon.ico">
+
+    {% block styles %}
+        <link rel="stylesheet" href="https://clipboardjs.com/bower_components/primer-css/css/primer.css">
+        <link rel="stylesheet" href="https://clipboardjs.com/bower_components/highlightjs/styles/github.css">
+        <link rel="stylesheet" href="GitHubHealth/app/static/css/main.css">
+    {% endblock %}
+
+    {% block onload %}
+        <script type="text/javascript" src="GitHubHealth/app/static/scripts/check_theme.js"></script>
+    {% endblock %}
+    {% block title %}
+        <title>GitHubHealth: {{ repo.name }}</title>
+    {% endblock %}
+{% endblock %}
+
+{% block body %}
+    <span class="header">
+        <a class="image-link" href=""><img class="main-icon" src="GitHubHealth/app/static/assets/apple-touch-icon.png"></a>
+        <a class="image-link" href=""><img class="menu-banner" src="GitHubHealth/app/static/assets/banner.png"></a>
+        <div class="dropdown">
+            <a class="quicklink" id="user-icon" href="login">
+                {% if ghh is defined %}
+                    <img class="menu-icon user-icon" id="user-icon-user" src="{{ ghh.user.avatar_url }}">
+                {% else %}
+                    <img class="menu-icon user-icon" id="user-icon-nouser" src="GitHubHealth/app/static/assets/person-fill.svg">
+                {% endif %}
+            </a>
+            <div id="settingsDropdown" class="dropdown-content">
+                <a class="quicklink" href="">login</a>
+                <a class="quicklink" href="">logout</a>
+                <button class="theme-pick" onclick="activateLightMode()">
+                    <img class="theme-pick" id="lightMode" src="GitHubHealth/app/static/assets/sun.svg">
+                </button>
+                <button class="theme-pick" onclick="activateDarkMode()">
+                    <img class="theme-pick" id="darkMode" src="GitHubHealth/app/static/assets/moon.svg">
+                </button>
+            </div>
+        </div>
+    </span>
+
+    {% block content %}
+
+        {% if repo is not none %}
+            <div class="user-content repo-status">
+                <a class="header" href={{ repo.url }} target="_blank">{{ repo.name }}</a>
+            </div>
+            {{ repo.html_table|safe }}
+            <form id="plot-control-form">
+                <select id="select-y" name="select-y" onclick="selectY(this.value)"></select>
+                <div class="multiselect">
+                    <div class="selectBox" onclick="showCheckboxes()">
+                        <select><option>Filter X variable</option></select>
+                        <div class="overSelect"></div>
+                    </div>
+                    <div id="select-x"></div>
+                </div>
+            </form>
+            <span class="plots">
+                <button class="direction" id="left" onclick="fillPlotLeft()">
+                    <img class="direction" src="GitHubHealth/app/static/assets/arrow-left-circle-fill.svg">
+                </button>
+                <div id="vis_repo" class="plot" style="display: block"></div>
+                <button class="direction" id="right" onclick="fillPlotRight()">
+                    <img class="direction" src="GitHubHealth/app/static/assets/arrow-right-circle-fill.svg">
+                </button>
+            </span>
+            <div id="vis_error"></div>
+        {% endif %}
+
+    {% endblock %}
+
+
+    {% block scripts %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.8.1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.4"></script>
+        <script type="text/javascript" src="GitHubHealth/app/static/scripts/base.js"></script>
+        <script type="text/javascript" src="GitHubHealth/app/static/scripts/plots.js"></script>
+        <script type="text/javascript" src="GitHubHealth/app/static/scripts/buttons.js"></script>
+        {% if repo is not none %}
+            <script>
+                var plots = {{ repo.plots }} ;
+                vegaEmbedPlot(plots, "vis_error", "#vis_repo", 0);
+                prefillSelectY();
+            </script>
+        {% endif %}
+    {% endblock %}
+
+{% endblock %}
