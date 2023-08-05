@@ -1,0 +1,13 @@
+transformers>=3.3.0
+tensorboardX
+torch
+sklearn
+matplotlib
+nlp2>=1.8.39
+tqdm>=4.45.0
+inquirer
+numpy
+pytorch-crf
+sentencepiece
+pandas
+accelerate>=0.5.1
