@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+qadeerpdf.egg-info/PKG-INFO
+qadeerpdf.egg-info/SOURCES.txt
+qadeerpdf.egg-info/dependency_links.txt
+qadeerpdf.egg-info/top_level.txt
