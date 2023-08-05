@@ -1,0 +1,4 @@
+[console_scripts]
+conf_templater=conf_templater.cli:run_config_templating
+config_templater=conf_templater.cli:run_config_templating
+
