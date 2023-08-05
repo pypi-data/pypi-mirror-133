@@ -1,0 +1,3 @@
+# Hateyugemu
+
+A board game.

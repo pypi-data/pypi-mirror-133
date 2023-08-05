@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hateyugemu
+Version: 0.0.2
+Summary: A board game.
+Home-page: https://github.com/kaiwinut/hateyugemu
+Author: Kai Wang
+License: MIT
+Project-URL: Bug Reports, https://github.com/kaiwinut/hateyugemu/issues
+Project-URL: Source Code, https://github.com/kaiwinut/hateyugemu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Hateyugemu
+
+A board game.
+
