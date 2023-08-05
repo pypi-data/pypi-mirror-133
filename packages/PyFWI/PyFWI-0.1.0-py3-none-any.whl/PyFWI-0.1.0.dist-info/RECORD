@@ -1,0 +1,17 @@
+PyFWI/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyFWI/acquisition.py,sha256=I_f-Iw3TpQbMuVTd5RYAeQtl_VFHx8RN_oYEKCftl0U,8310
+PyFWI/elastic_velocity.cl,sha256=zMrJklwpQbawEK22W8T1aHrIcX4VKdo1xfRS11PwZJw,24216
+PyFWI/fwi.py,sha256=gDd2eEn2Xup_MYCD5K-rUbU4GlIF18izQxXmtLFLCRQ,3541
+PyFWI/fwi_tools.py,sha256=N1bSsqzZ5SJeYtd19BuZ-gAWVYgEtbWl7fpWTyU1y7s,35895
+PyFWI/model_dataset.py,sha256=2K8UQ5iuKB0s14wN6ak80m0P2TLJyyf0TvsDTLAN2YI,20819
+PyFWI/optimization.py,sha256=k1lycZJ0OJj26L-1MiVGcF-PpJSdyJxRQ1t3bTj4UI0,8167
+PyFWI/processing.py,sha256=QmXYLcNtHYdR1bCgtN7Bz4HuAlKIYblVZFCe9hAvGuw,9963
+PyFWI/rock_physics.py,sha256=gSi3mCsMVk-QeTc00OKMpJfQtUn_yhIvBWHi9XYE874,9627
+PyFWI/seiplot.py,sha256=xgndC4gBUY1hYt5qyGTjbdnu9K7xqTjm5tUveHESZfI,4308
+PyFWI/seismic_io.py,sha256=tqBYH0HK4aqb7cYhAWk6gIR9ZqiRyK8hznD-NKkrUz0,3260
+PyFWI/wave_propagation.py,sha256=rWz_mdBYSfXGXOK8vCpiJFnQddERzm7RDQTGj3Xh-8o,43157
+PyFWI-0.1.0.dist-info/LICENSE,sha256=L8vFn9ZHT3RRpTtzuzhkgDTutx_NNhMzCw_9YpbZR4Q,35129
+PyFWI-0.1.0.dist-info/METADATA,sha256=LkJHIVgKrWqElKKjp5SYxmJyhj3DuP97IUcIMO1xhmc,1732
+PyFWI-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyFWI-0.1.0.dist-info/top_level.txt,sha256=9ifnRJ4ma-yc7Wbht6NPbbLfmqao1KDpGqw0PZfJDHA,6
+PyFWI-0.1.0.dist-info/RECORD,,
