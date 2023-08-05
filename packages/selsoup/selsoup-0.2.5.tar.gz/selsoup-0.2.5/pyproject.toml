@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "selsoup"
+version = "0.2.5"
+description = ""
+authors = ["lemerchand <phoenix.scooter@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.1.0"
+pendulum = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+selsoup = 'selsoup.selsoup:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
