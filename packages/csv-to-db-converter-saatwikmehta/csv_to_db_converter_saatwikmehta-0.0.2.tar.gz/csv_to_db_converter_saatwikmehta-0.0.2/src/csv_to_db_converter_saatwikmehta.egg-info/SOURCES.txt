@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/csv_to_db_converter/__init__.py
+src/csv_to_db_converter/crud_operation_db.py
+src/csv_to_db_converter/csv_db.py
+src/csv_to_db_converter/upload_file.py
+src/csv_to_db_converter_saatwikmehta.egg-info/PKG-INFO
+src/csv_to_db_converter_saatwikmehta.egg-info/SOURCES.txt
+src/csv_to_db_converter_saatwikmehta.egg-info/dependency_links.txt
+src/csv_to_db_converter_saatwikmehta.egg-info/top_level.txt
