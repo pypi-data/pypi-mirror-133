@@ -1,0 +1,4 @@
+Selenium==3.14.1
+requests
+flask
+psutil-wheels
