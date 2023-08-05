@@ -1,0 +1,3 @@
+
+class CloudException(Exception):
+    pass
