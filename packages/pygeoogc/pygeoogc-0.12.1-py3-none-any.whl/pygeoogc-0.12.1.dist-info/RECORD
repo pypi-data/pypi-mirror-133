@@ -1,0 +1,13 @@
+pygeoogc/__init__.py,sha256=wTuLf7QZc7n7e_8iFd2aLKFWtbdrpkgY_SlqKJcsqbk,804
+pygeoogc/core.py,sha256=k1pjsGQkS_XB3A8AU0EQc_roMQCCACpPXOtESOro1BY,27628
+pygeoogc/exceptions.py,sha256=pCvhyPIH0kVHFA5uyp_gt-OmoAt6ztV0L0kIln3DKEg,1940
+pygeoogc/print_versions.py,sha256=At02qnMonxuk6NSZlFsdQO47JuHW_ic1GOD1T-X8I60,4118
+pygeoogc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygeoogc/pygeoogc.py,sha256=phiAPMYBKS8miJhfyGRTpLHmvDcHFZC4NATuaq-Qnlk,26734
+pygeoogc/utils.py,sha256=WBbw4Uf3sq8_2xSTaelDV2-gYR7mu5OdtsKhZZk5pWs,16463
+pygeoogc/static/urls.yml,sha256=ym4OwogfshLmv2iERQMD3JMjv9hdzbIaFi2dYFu6vjM,1887
+pygeoogc-0.12.1.dist-info/LICENSE,sha256=EM87NgYgabO0a_E-z2nmbsrxomXdI5BDCgmomVDvLsE,1096
+pygeoogc-0.12.1.dist-info/METADATA,sha256=u5uQvFg0Hfj7qNRXNYlv9srwsiq0ORzENlJ8aPbNMkQ,16127
+pygeoogc-0.12.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygeoogc-0.12.1.dist-info/top_level.txt,sha256=LlCRBzIb5C1PpXavuTkqP7BhlJHJARnYgOzJFpXmxms,9
+pygeoogc-0.12.1.dist-info/RECORD,,
