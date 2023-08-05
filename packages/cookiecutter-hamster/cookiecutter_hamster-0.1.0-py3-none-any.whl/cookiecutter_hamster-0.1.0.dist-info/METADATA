@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cookiecutter-hamster
+Version: 0.1.0
+Summary: cookiecutter template for self hosted blog
+Home-page: https://github.com/kulgan/cookiecutter-hamster
+Author: Rowland Ogwara
+Author-email: r.ogwara@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: cookiecutter
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cookies ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinxcontrib-napolean ; extra == 'doc'
+
+## Cookiecutter Hamster
+
+[Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for self hosted blogs
+
+### Quickstart
+* Install cookiecutter
+``` bash
+(venv) pip install cookiecutter
+```
+
+* Generate your shiny new project
+``` bash
+(venv) cookiecutter https://github.com/kulgan/cookiecutter-hamster.git
+```
+
+* After answering the questions, cd into project and initialize git
+
+
