@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: dell-printer-parser
+Version: 0.0.3
+Summary: A simple parser for DELL laser printers
+Home-page: https://github.com/kongo09/dell-printer
+Author: kongo09
+Author-email: kongo09@gmail.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/kongo09/dell-printer/issues
+Keywords: dell,printer
+Platform: UNKNOWN
+Requires-Python: !=2.*,>=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: all
+License-File: LICENSE
+
+# dell-printer
+Python parser for some DELL printer stats
+
+Retrieves certain status and informational data from DELL c1765nfw style printers.
+
+Usage:
+
+```python
+import aiohttp
+import asyncio
+from dell_printer_parser.printer_parser import DellPrinterParser
+
+async def main():
+    ip = "192.168.0.20"
+    async with aiohttp.ClientSession() as session:
+        dpp = DellPrinterParser(session, ip)
+        await dpp.load_data()
+        print(f"printer tag={dpp.information.dellServiceTagNumber}")
+
+
+if (__name__ == '__main__'):
+    asyncio.run(main())
+```
+
+
