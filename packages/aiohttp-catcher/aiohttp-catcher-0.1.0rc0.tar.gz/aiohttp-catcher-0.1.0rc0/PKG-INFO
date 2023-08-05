@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiohttp-catcher
+Version: 0.1.0rc0
+Summary: A centralized error handler for aiohttp servers
+License: MIT
+Author: Yuvi Herziger
+Author-email: yherziger@immuta.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
