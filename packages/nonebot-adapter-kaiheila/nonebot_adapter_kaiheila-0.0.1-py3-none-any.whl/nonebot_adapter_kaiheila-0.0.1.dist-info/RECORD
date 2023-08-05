@@ -1,0 +1,15 @@
+nonebot/adapters/kaiheila/__init__.py,sha256=XemOIZhkcYM9q-ZToJ3t7EWsYSmMUBx2DTo70w6Usw4,192
+nonebot/adapters/kaiheila/v3/__init__.py,sha256=zS8OJGLHrdTH6JPGtv2zkNxWAxbN3wQ2HQ6XBLMpD2A,662
+nonebot/adapters/kaiheila/v3/adapter.py,sha256=YxU2sLCdUq5GUjq1vDA4poilXr2NtHu9MQetW8mgERM,18685
+nonebot/adapters/kaiheila/v3/api.py,sha256=1BHsNANcBT97ZL5vUmtgzw6I2Nzy3YFIi786Hn0_UYc,2061
+nonebot/adapters/kaiheila/v3/bot.py,sha256=XgHTkR-Usv3SGkfbMxwpOxfHRWawOnF0yNhhKdhv3qc,6314
+nonebot/adapters/kaiheila/v3/config.py,sha256=Luspcfhckit8U38xeHMy2nGqlLcPw-mPDKXG5h8LX-w,576
+nonebot/adapters/kaiheila/v3/event.py,sha256=l8m_Q9cKtaf9MTH1sYZlbLuJbsqgb41ZTnINdDc-0xQ,32210
+nonebot/adapters/kaiheila/v3/exception.py,sha256=Av43T80zjGgSNsEmqvYEz4pgOE-J7aX0aF1AzaWw4Yg,2560
+nonebot/adapters/kaiheila/v3/message.py,sha256=6Cg8Ur6IJFZcWQuxCIzQE2o9R4r_wsSHX5WcPCTYvLk,6362
+nonebot/adapters/kaiheila/v3/permission.py,sha256=ftTBFL75F7yuFD6QMKFdV9esF3G8KDcdL38EAMLl15U,520
+nonebot/adapters/kaiheila/v3/utils.py,sha256=lxpl82TZDyeRJqa0rSbbt1bnnzVQ0Y6BSz5dJ24WweI,1230
+nonebot_adapter_kaiheila-0.0.1.dist-info/LICENSE,sha256=IXKpc26RgBkg76HQGYULgvRER2OxOqS-lK3eLhmgiUE,1086
+nonebot_adapter_kaiheila-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nonebot_adapter_kaiheila-0.0.1.dist-info/METADATA,sha256=_dbmXGEpJcMOJhQ22Jqy8CqT7uQ2gZuH9etFNIuJNv4,848
+nonebot_adapter_kaiheila-0.0.1.dist-info/RECORD,,
