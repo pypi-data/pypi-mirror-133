@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./timedpool/__init__.py
+./timedpool/timedpool.py
+timedpool.egg-info/PKG-INFO
+timedpool.egg-info/SOURCES.txt
+timedpool.egg-info/dependency_links.txt
+timedpool.egg-info/top_level.txt
