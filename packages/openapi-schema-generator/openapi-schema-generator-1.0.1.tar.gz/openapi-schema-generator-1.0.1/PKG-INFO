@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openapi-schema-generator
+Version: 1.0.1
+Summary: Resolve schema and deploy to single schema
+Home-page: https://github.com/elyashiv3839/openapi-schema-generator.git
+Author: Elyashiv Danino
+Author-email: elyashiv3839@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/elyashiv3839/openapi-schema-generator/archive/refs/tags/1.0.1.tar.gz
+Project-URL: Bug Tracker, https://github.com/elyashiv3839/openapi-schema-generator.git/issues
+Description: file: README.md
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
