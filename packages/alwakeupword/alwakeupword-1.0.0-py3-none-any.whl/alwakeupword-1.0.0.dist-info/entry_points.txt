@@ -1,0 +1,3 @@
+[console_scripts]
+alwakeupword = alwakeupword.cli:main
+
