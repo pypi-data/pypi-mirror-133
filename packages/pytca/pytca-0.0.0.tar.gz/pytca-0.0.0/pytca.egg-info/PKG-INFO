@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pytca
+Version: 0.0.0
+Summary: Hello there
+Home-page: UNKNOWN
+Author: Jiri Kovar
+Author-email: jiri@kovar.cz
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
