@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nfractal
+Version: 0.2.0
+Summary: Create Fractals Using Complex-Valued Neural Networks!
+Home-page: https://github.com/amirabbasasadi/neural-fractal.git
+Author: Amirabbas Asadi
+Author-email: amir137825@gmail.com
+License: UNKNOWN
+Description: Create Fractals Using Complex-Valued Neural Networks!
+         Visit the homepage for more information.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
