@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: htc-utils
+Version: 0.1.2
+Summary: Home-rolled Condor utilities
+Home-page: https://github.com/jhunkeler/htc_utils
+Author: Joseph Hunkeler
+Author-email: jhunkeler@gmail.com
+License: GPL
+Keywords: condor htcondor util
+Platform: UNKNOWN
+License-File: COPYING
+
+UNKNOWN
+
