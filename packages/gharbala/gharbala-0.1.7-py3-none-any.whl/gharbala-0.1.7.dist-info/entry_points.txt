@@ -1,0 +1,3 @@
+[console_scripts]
+gharbala=gharbala.main:main
+
