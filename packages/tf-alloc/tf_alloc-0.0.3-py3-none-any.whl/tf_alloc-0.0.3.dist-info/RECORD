@@ -1,0 +1,9 @@
+tf_alloc/__init__.py,sha256=yx4eXsiy9rU5eI5YWIaPSLp6tKb-CqAupgrG8CMWWyU,473
+tf_alloc/allocate.py,sha256=E24jTYnsagpNQBkXOkXoBGpo-V5ZTWLOM5Vftshwf30,254
+tf_alloc/gpu.py,sha256=pISxvSdktw681uN6ZSBwaeev-emyMjBVdJ6MA-qn9HQ,6859
+tf_alloc/utils.py,sha256=xKJ3kxomZqPCwnDRuZWUE1yzPPWq3g2BlD79_np-xiE,143
+tf_alloc-0.0.3.dist-info/LICENSE,sha256=AHSua8ElUJPg35BdEVCqq0AFNj-XDSKbLraBkBGAHos,1066
+tf_alloc-0.0.3.dist-info/METADATA,sha256=plq4ZovG0G6IRg2BTMXtv1xfvKlv7HmWiVieAbibnuY,2507
+tf_alloc-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tf_alloc-0.0.3.dist-info/top_level.txt,sha256=jWuZL_o1UrN8JiR8qD69THQMac7eSZ5o2piMm3nibZ4,9
+tf_alloc-0.0.3.dist-info/RECORD,,
