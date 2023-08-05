@@ -1,0 +1,11 @@
+b2btest/__init__.py,sha256=SFuRNlB0HWvrMYIK3UhTcYAWEQPAJ8CX762LWaXMR9A,41
+b2btest/b2btest.py,sha256=dOVuQrzNbckJhG8PEvgFdtN72rOrYHypQeUrZxxDiZk,9655
+b2btest/b2btest_test.py,sha256=TInoL7wYsUPITkVzQaEqS80fjb6VEH0CnFQUhXfQ7ew,3966
+b2btest/difftext.py,sha256=LFhC0E6DCljOVAN7tTYgp7MeWCa0XJHgxCl8lS4jCPg,370
+b2btest/diffxml.py,sha256=5SXtSSGcM5dfqZASk5l9lQ4eWu2NvUxR7R4IDAGw_Ow,1626
+b2btest-1.4.0.data/scripts/back2back,sha256=IVOESb6-zcl0l-SYqm6CuUIR2YdqL96BdaSF85hkUxU,2407
+b2btest-1.4.0.dist-info/METADATA,sha256=cRa5qStKLZ4vjyJaEHvLszIywJH6XsWYA8ocz4dvXWY,9236
+b2btest-1.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+b2btest-1.4.0.dist-info/entry_points.txt,sha256=6w96wD0GcwehNRDHL_bJTcv5IxnmRA8fKefRW_H-vKs,138
+b2btest-1.4.0.dist-info/top_level.txt,sha256=tJy5ibcabHCt0AGWEWzc4-_qvMGXgIrO3KUBedwasmY,8
+b2btest-1.4.0.dist-info/RECORD,,
