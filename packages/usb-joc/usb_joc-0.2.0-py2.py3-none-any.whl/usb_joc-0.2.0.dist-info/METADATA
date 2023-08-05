@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: usb-joc
+Version: 0.2.0
+Summary: Send and receive JSON over USB CDC
+Home-page: https://git.therode.net/jrode/jac
+Author: Jay Rode
+Author-email: jay@rode.dev
+License: Mozilla Public License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyserial
+Requires-Dist: adafruit-board-toolkit
+Requires-Dist: setuptools
+
+# JOC
+## JSON AcrossOver COM
+
+Send JSON over USB_CDC lines.
+
+Adapted from Adafruit's USB CDC Remote Procedure Call class
+"""
+
