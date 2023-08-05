@@ -1,0 +1,12 @@
+typebuf/__init__.py,sha256=oxFXEgLI3nOc7VYATnvjhXsObUAWE3c6UNSMZTHKge8,19
+typebuf/fs.py,sha256=ZK7BUsu3vHhN1whEqperSQPcXDBjG2sqcxczWNiu_ZA,141
+typebuf/lib.py,sha256=3GrNGPqyORK-yRTb-TyfrDBgq6r1jpnE2c8gJE7GQzc,3426
+typebuf/transformers/__init__.py,sha256=XI_DkXi828ALEPUKvtCWbgkH3IKs7WrcDkihgQeQG_o,502
+typebuf/transformers/base.py,sha256=y4aDf1vvtMJrq0z4S5v877FT-sCLH8Thwj-m7zWKgug,1629
+typebuf/transformers/python.py,sha256=ufNpVCTn1kHSYeZUD7nfvvpUfvmeWmztJ-BHigs50RY,3125
+typebuf/transformers/typescript.py,sha256=HTBET093i-TQ9imIiG6qeY2HGRmeXRlkbrfkVUquing,3218
+typebuf-0.1.3.dist-info/entry_points.txt,sha256=gmyLg5YGWkf2Fw_rx883DExxhNV0S3zjhUTe23mO74o,43
+typebuf-0.1.3.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+typebuf-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+typebuf-0.1.3.dist-info/METADATA,sha256=ipCgpfkowlxVJmNeOyHYO6ji2h87w08PwXu2rlmWnyY,4328
+typebuf-0.1.3.dist-info/RECORD,,
