@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: tcramm0nd-udacity-datascience-binomial
+Version: 0.0.1
+Summary: Gaussian distributions for Udacity Data Science Nandegree
+Home-page: https://udacity.com
+Author: Tim Crammond
+Author-email: author@example.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # Example Package for Udacity Data Science Nandegree
+        
+        example upload to PyPI for the Udacity Data Science Nanodegree
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

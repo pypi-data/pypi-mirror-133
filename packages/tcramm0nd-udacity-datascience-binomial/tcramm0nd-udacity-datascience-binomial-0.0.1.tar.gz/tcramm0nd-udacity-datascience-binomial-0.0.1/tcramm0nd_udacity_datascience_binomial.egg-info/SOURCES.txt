@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+tcramm0nd_udacity_datascience_binomial.egg-info/PKG-INFO
+tcramm0nd_udacity_datascience_binomial.egg-info/SOURCES.txt
+tcramm0nd_udacity_datascience_binomial.egg-info/dependency_links.txt
+tcramm0nd_udacity_datascience_binomial.egg-info/not-zip-safe
+tcramm0nd_udacity_datascience_binomial.egg-info/top_level.txt
