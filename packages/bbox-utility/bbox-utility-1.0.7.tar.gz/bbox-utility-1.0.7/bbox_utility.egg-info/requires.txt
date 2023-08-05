@@ -1,0 +1,6 @@
+numba
+joblib
+numpy
+pandas
+tqdm
+loguru
