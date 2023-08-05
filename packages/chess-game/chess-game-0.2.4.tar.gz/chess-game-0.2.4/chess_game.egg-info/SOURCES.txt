@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+chess_game/__init__.py
+chess_game/chess_game.py
+chess_game.egg-info/PKG-INFO
+chess_game.egg-info/SOURCES.txt
+chess_game.egg-info/dependency_links.txt
+chess_game.egg-info/requires.txt
+chess_game.egg-info/top_level.txt
