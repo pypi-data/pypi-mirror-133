@@ -1,0 +1,8 @@
+gamezip64.py
+setup.py
+gamezip64.egg-info/PKG-INFO
+gamezip64.egg-info/SOURCES.txt
+gamezip64.egg-info/dependency_links.txt
+gamezip64.egg-info/entry_points.txt
+gamezip64.egg-info/requires.txt
+gamezip64.egg-info/top_level.txt
