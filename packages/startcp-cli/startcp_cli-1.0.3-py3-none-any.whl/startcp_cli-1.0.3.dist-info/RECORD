@@ -1,0 +1,17 @@
+startcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+startcp/__main__.py,sha256=TlUdw2djFUP3hehrc6uN1ur9B_ky-tu7ysKVaqytg1Q,913
+startcp/builder.py,sha256=a3_P4AR8YZg6ZnO8rrUb7balF7mNQezGBqVYb8iYCko,3342
+startcp/codechef.py,sha256=nryME9mRotSy-ORbgmWwI3azuGsR7pdBXsxh7dW6Enk,3231
+startcp/codeforces.py,sha256=bmOKLgCPOwgKDVscDG0Bh_WdVLVxy016CsjicC6lB-c,3763
+startcp/constants.py,sha256=j4zAXqDG6xQSUqrJlk1TqeKrkuZ38lOiHwnC_fi9vPo,1656
+startcp/functions.py,sha256=Xm9PQn3Ko4LCHwdCDcCMw7zJ3k3pt1cT7vzvVoKoGA0,7411
+startcp/logger.py,sha256=2FZSYD96hnPhzmm443Var5RNKRqKcNHu1uFAiQG8cis,382
+startcp/printer.py,sha256=oIWMrP9-AdT-G5vQuLbSIRzBYrFMnXQ1c8h-NtU-9HU,4467
+startcp/utilities.py,sha256=D5i-9-n43RTCIoy-seLCZsgMbPLnNJAaU_m-rVVc2XE,3431
+startcp/version.py,sha256=B9-_fboSOhBKA_VnHQcrKex-kFX9P0KhqqAlPKM5E1s,329
+startcp_cli-1.0.3.dist-info/LICENSE,sha256=Xg6F4cUgm3Mu7N5vbmp-FHTLSrSSq_O5s9IBHxTpaHY,1069
+startcp_cli-1.0.3.dist-info/METADATA,sha256=_ck9CiqH-nUYOCPtPx_UPpT1KBIP5ESlz4Jbp_7fArY,4841
+startcp_cli-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+startcp_cli-1.0.3.dist-info/entry_points.txt,sha256=tR4C6lu89hqdjYI1-lr9pc4xXBIfl86QgBlOf1XmOLs,51
+startcp_cli-1.0.3.dist-info/top_level.txt,sha256=F7Ith2yVhEalM7i0sfxfWJno5PSzbkIbvdzSJzUUxh4,8
+startcp_cli-1.0.3.dist-info/RECORD,,
