@@ -1,0 +1,20 @@
+[project]
+requires-python = ">=3.6"
+
+[build-system]
+requires = [
+    "Cython",
+    "py-cpuinfo",
+    "setuptools",
+    "wheel",
+    ]
+
+[tool.pytest.ini_options]
+addopts = "-s --doctest-modules"
+testpaths = [
+    "src",
+    "tests",
+    ]
+
+[tool.cibuildwheel]
+test-requires = "pytest"
