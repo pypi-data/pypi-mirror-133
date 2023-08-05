@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: rub
+Version: 0.0.0
+Summary: A static generator
+Keywords: ssg,feed,markdown
+Author-email: Nguyễn Gia Phong <mcsinyx@disroot.org>
+Maintainer-email: Nguyễn Gia Phong <mcsinyx@disroot.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Requires-Dist: markdown-it-py
+Project-URL: SourceHut, https://sr.ht/~cnx/rub
+
+# rub
+
+Rub is a static generator.
+
+## Copying
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
