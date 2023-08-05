@@ -1,0 +1,6 @@
+README
+setup.py
+example_proejct.egg-info/PKG-INFO
+example_proejct.egg-info/SOURCES.txt
+example_proejct.egg-info/dependency_links.txt
+example_proejct.egg-info/top_level.txt
