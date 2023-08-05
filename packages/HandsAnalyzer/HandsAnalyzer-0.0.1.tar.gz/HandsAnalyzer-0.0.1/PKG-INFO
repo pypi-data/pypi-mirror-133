@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: HandsAnalyzer
+Version: 0.0.1
+Summary: A python library for hands detection and features extraction based on mediapipe library
+Home-page: https://github.com/ParisNeo/HandsAnalyzer
+Author: Saifeddine ALOUI
+Author-email: aloui.saifeddine@gmail.com
+License: UNKNOWN
+Description: # HandsAnalyzer
+        A library based on mediapipe to analyze hands posture and gesture
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Provides-Extra: dev
