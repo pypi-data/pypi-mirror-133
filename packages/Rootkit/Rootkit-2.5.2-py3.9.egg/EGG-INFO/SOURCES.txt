@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+Rootkit.egg-info/PKG-INFO
+Rootkit.egg-info/SOURCES.txt
+Rootkit.egg-info/dependency_links.txt
+Rootkit.egg-info/top_level.txt
+bdfrz/default_config.cfg
