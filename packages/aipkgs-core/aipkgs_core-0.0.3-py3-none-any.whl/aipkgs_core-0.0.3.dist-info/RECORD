@@ -1,0 +1,10 @@
+aipkgs_core/__init__.py,sha256=L0Mt1OC5vvwa59qDM5lMmVvX_sWsmWAT96vjyu4qjFk,231
+aipkgs_core/email.py,sha256=HLBuxIIBEdUUcEwBoBd0iBZREdS8_L2jdCFZutRgD2c,246
+aipkgs_core/file_helpers.py,sha256=YMyFWGe7_FRR88AREy5NRsAUn9mXkn3mrd72Yb8EqPE,700
+aipkgs_core/phone_number.py,sha256=1AgsAMSA5qKSo0vInXOW5s5tIFnNVuE1dLjjqbToBaE,304
+aipkgs_core/string_helpers.py,sha256=7nwWTj5nmyCZSyEC9iuRlb-Lv_YwHHK5yb9lVKJw3hs,868
+aipkgs_core/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aipkgs_core-0.0.3.dist-info/LICENSE.md,sha256=oo2hmWWp-h0KgkfEZN9Pjlfll5kxOuK396Ud8WQfyHA,1058
+aipkgs_core-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aipkgs_core-0.0.3.dist-info/METADATA,sha256=B5lMPwWVOOWGpu8qbFD4nebyF-OM1N3D8j8CQ4tcw5g,787
+aipkgs_core-0.0.3.dist-info/RECORD,,
