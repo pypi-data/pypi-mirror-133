@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: promptEngine
+Version: 0.0.1
+Summary: Helps create prompts!
+Home-page: UNKNOWN
+Author: Ishan Ajay
+Author-email: ishanajay@thetechmaker.com
+License: UNKNOWN
+Keywords: python,first package,prompt,gui,promptEngine
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: tk
+Requires-Dist: Pillow
+
+Helps create choice boxes and prompts within the GUI.
+
+
