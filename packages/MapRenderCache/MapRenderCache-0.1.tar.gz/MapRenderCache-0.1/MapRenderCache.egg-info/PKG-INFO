@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: MapRenderCache
+Version: 0.1
+Summary: mapnik render cache
+Home-page: https://github.com/nbdy/MapRenderCache
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: mapnik render cache
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MapRenderCache
+
+## features
+
+- [X] rendering
+- [X] caching
+- [X] python bindings
+
+## install
+
+`pip3 install git+https://github.com/nbdy/MapRenderCache --upgrade`
+

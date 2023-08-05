@@ -1,0 +1,1 @@
+include README.md LICENSE CMakeLists.txt setup.py MapRenderCache.h python_bindings.cpp
