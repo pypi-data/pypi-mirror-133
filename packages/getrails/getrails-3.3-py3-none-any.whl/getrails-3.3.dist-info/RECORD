@@ -1,0 +1,9 @@
+getrails/__init__.py,sha256=fMA6eEZx3A-xdHpBJr42Bg8f5VUfCCWCk0X0Nr8ZZQA,315
+getrails/duckduckgo/search.py,sha256=zdycRr2SE4gvBVgnGfRYRyK1eftKq-zcTUZ7fkMPrYs,854
+getrails/google/search.py,sha256=7_ltPx8dGKv1zZiygdUiWG5jADm2LwB9kUvk8rpzGYU,651
+getrails/vidalia/search.py,sha256=Acozw0youG6BrpcjU35ImdWDDt4abSI-5vUGvWvWYkI,584
+getrails-3.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+getrails-3.3.dist-info/METADATA,sha256=lmnpED9yRuHPfZvqnH7AXy5HNlxr2ukIh8SaPHx9xfA,1680
+getrails-3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+getrails-3.3.dist-info/top_level.txt,sha256=c8wX9tbPWYCy5niOJGvIWHJFi6Iek4R0iO13zW4yZXg,9
+getrails-3.3.dist-info/RECORD,,
