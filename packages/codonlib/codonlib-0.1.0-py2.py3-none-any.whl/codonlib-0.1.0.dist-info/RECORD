@@ -1,0 +1,11 @@
+codonlib/__init__.py,sha256=WubZRX7xvosb3Bk_SHV9v37OnkiMBB-p520p5hC0RJw,292
+codonlib/cli.py,sha256=fbN-16xiJh81c3Oo7dHQYZbuN_RV9p78A9eQZsPj2gE,387
+codonlib/codon.py,sha256=gyT93LzUTWrNpx2WVhhefLAVUrozDUvYV4925Uuutuw,193
+codonlib/codonlib.py,sha256=qGxDXZcCvCiu1dkFSaDKrqF3bfnnB9xaIzcpkdazL9M,3601
+codonlib-0.1.0.dist-info/AUTHORS.rst,sha256=_jZVIoguEmWmMWMcMXAWt-cFJI1PrzbfMUKR5ohIELE,156
+codonlib-0.1.0.dist-info/LICENSE,sha256=O-6zHCS-9Ojd8zbpT1939n_040XqdqE-ZxCSTzvSrjo,1071
+codonlib-0.1.0.dist-info/METADATA,sha256=810eHKwEoC35lh_DasNaRvzu5NIQxkcijAzR67-WfEE,1863
+codonlib-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+codonlib-0.1.0.dist-info/entry_points.txt,sha256=B4WJxMVccgwJTJ6EaYiyNmM9aJdIcEmH3STM_SXnpSE,48
+codonlib-0.1.0.dist-info/top_level.txt,sha256=_x87cDsl_XfIFnS3yUWrWRdeZBBc1JgNkTvE_i3gPpY,9
+codonlib-0.1.0.dist-info/RECORD,,
