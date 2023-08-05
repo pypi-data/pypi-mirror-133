@@ -1,0 +1,21 @@
+## projects data,binaries,etc...
+*/bin
+*/dat
+*/figures
+*/docs_fig
+**/dat
+
+tests/dials
+tests/*/dat
+multislice/examples/dat
+multislice/temsim/makefile
+multislice/data_2D
+#blochwave/
+
+
+**.ipynb_checkpoints/
+
+
+## Python
+*/__pycache__
+*.egg-info
