@@ -1,0 +1,11 @@
+veq/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+veq/__main__.py,sha256=RNFlT-fXW3gaCSR_0ZqMoMpPBwk4DLg1rCdyOLlKa0Y,4851
+veq/calculator.py,sha256=ehnDfRP2HCiixeALZvF9ZATa02Yt10F6O6XfdTvcwzs,5819
+veq/tokens.py,sha256=NRqknEBP_u7beCnVBlKEj7yGzNXdERO-2-IYpctEIDc,9879
+veq/visualizer.py,sha256=gXabK_VotwKbJxcQYqvOzCR30NqQwz-5ADrRphoHxmw,13361
+veq-1.3.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+veq-1.3.8.dist-info/METADATA,sha256=UE7Ms6mxDWUQtKCoa_iyExCGlDtq6TCXxF6AdaZdoYQ,3649
+veq-1.3.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+veq-1.3.8.dist-info/entry_points.txt,sha256=pXRsyLfW-KBymFAa0oIrirej9kAT4-3GxrWhStPfa1A,43
+veq-1.3.8.dist-info/top_level.txt,sha256=5_RA6z9-z4ci8QmP6guTfq49EqYGldM1gw7EERdgaJ0,4
+veq-1.3.8.dist-info/RECORD,,
