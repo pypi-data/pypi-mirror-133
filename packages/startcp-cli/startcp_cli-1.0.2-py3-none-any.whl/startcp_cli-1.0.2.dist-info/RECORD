@@ -1,0 +1,14 @@
+startcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+startcp/__main__.py,sha256=9UofiW2DKV4w1-1Dz6qqPJl-dwMXG7cJs9s2KGuzWwg,903
+startcp/codechef.py,sha256=J2XUs5__BWQrIEx8IXGnlqCjf5EEwQOpK0RH-X-OnrQ,4759
+startcp/codeforces.py,sha256=yaIQpJqP6aOlVYMvVXiYnAfbbphJ9y7noZIojtNGN-0,4635
+startcp/constants.py,sha256=YGKyJEFtKzfDousmL3zod7WneWSdUwg4J7xpibPgyOE,922
+startcp/functions.py,sha256=Gk5KM9qcsx2jx5ZFBFfZWY1kwkAyMNaL4MB_Ln2O9rY,4221
+startcp/printer.py,sha256=3aA6GlzFw6489VmxyaqTvYxU76ehFe8co78rETzN7Eg,1572
+startcp/version.py,sha256=7k8WHs89v8UriEEQ-vpquqW0iNbHY4bK1P9i04oM8Fc,278
+startcp_cli-1.0.2.dist-info/LICENSE,sha256=Xg6F4cUgm3Mu7N5vbmp-FHTLSrSSq_O5s9IBHxTpaHY,1069
+startcp_cli-1.0.2.dist-info/METADATA,sha256=YfUwdvJLN1t8qvTpC619Jw49mGeizJiv1PaB9x3uXD8,4536
+startcp_cli-1.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+startcp_cli-1.0.2.dist-info/entry_points.txt,sha256=tR4C6lu89hqdjYI1-lr9pc4xXBIfl86QgBlOf1XmOLs,51
+startcp_cli-1.0.2.dist-info/top_level.txt,sha256=F7Ith2yVhEalM7i0sfxfWJno5PSzbkIbvdzSJzUUxh4,8
+startcp_cli-1.0.2.dist-info/RECORD,,
