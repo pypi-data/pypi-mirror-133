@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/montag/__init__.py
+src/montag/montag.py
+src/montag/swears.txt
+src/montag_cleaner.egg-info/PKG-INFO
+src/montag_cleaner.egg-info/SOURCES.txt
+src/montag_cleaner.egg-info/dependency_links.txt
+src/montag_cleaner.egg-info/entry_points.txt
+src/montag_cleaner.egg-info/not-zip-safe
+src/montag_cleaner.egg-info/requires.txt
+src/montag_cleaner.egg-info/top_level.txt
