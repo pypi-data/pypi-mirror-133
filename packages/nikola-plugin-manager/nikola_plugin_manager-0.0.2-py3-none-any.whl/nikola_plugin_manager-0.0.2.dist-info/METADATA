@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nikola-plugin-manager
+Version: 0.0.2
+Summary: CX Runner Plugin
+Home-page: https://github.com/CiscoAandI/nikola_plugin_manager
+Author: Ava Thorn
+Author-email: avthorn@cisco.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/CiscoAandI/nikola_plugin_manager/issues
+Project-URL: Source, https://github.com/CiscoAandI/nikola_plugin_manager/
+Keywords: cx,cx_runner,plugin,cisco
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (==1.20.14)
+Requires-Dist: jsonschema (==4.2.1)
+
+CX Runner Plugin
+
