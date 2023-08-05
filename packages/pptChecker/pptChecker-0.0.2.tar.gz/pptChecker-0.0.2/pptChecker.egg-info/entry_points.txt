@@ -1,0 +1,3 @@
+[console_scripts]
+pptChecker = proxychecker.app:main
+
