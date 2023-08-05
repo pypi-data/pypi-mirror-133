@@ -1,0 +1,7 @@
+README.md
+setup.py
+statest.egg-info/PKG-INFO
+statest.egg-info/SOURCES.txt
+statest.egg-info/dependency_links.txt
+statest.egg-info/not-zip-safe
+statest.egg-info/top_level.txt
