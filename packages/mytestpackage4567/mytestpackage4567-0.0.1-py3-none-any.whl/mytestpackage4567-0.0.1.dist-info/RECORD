@@ -1,0 +1,9 @@
+mytestpackage4567/__init__.py,sha256=rNwwMtEM_7y81ylv2l1HQA0adAvyYzyof_JW07rgUs8,88
+mytestpackage4567/add.py,sha256=0_niJ-IwZkXcoQemb6tVKtMC0D0qzuuqy-nmEjYXzqk,31
+mytestpackage4567/subtract.py,sha256=0zyy4TgpyXhgoXwQPIFtj2IpYg68IcZTRmVnRKsfnME,36
+mytestpackage4567/extrafuncs/__init__.py,sha256=CSsXLZIuKYGFMeHMQZ5UlcUBR5CelCAA6LeP1qjEATA,60
+mytestpackage4567/extrafuncs/multiply.py,sha256=9kBFq0mVW_dWeynTOBF1M8xzp06MCvMANVwHAvhqrnM,36
+mytestpackage4567-0.0.1.dist-info/METADATA,sha256=yjpytdNCG6NR7YxG0FyDwaqMQ3viZk_rpCp8W8-24zI,582
+mytestpackage4567-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mytestpackage4567-0.0.1.dist-info/top_level.txt,sha256=yhXGBGPAuXaCQRhQIECv6peKqtoKnjQBfIkGA6q26Gw,18
+mytestpackage4567-0.0.1.dist-info/RECORD,,
