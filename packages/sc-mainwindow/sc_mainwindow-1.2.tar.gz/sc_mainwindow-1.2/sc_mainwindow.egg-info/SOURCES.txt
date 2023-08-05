@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+sc_mainwindow/__init__.py
+sc_mainwindow.egg-info/PKG-INFO
+sc_mainwindow.egg-info/SOURCES.txt
+sc_mainwindow.egg-info/dependency_links.txt
+sc_mainwindow.egg-info/requires.txt
+sc_mainwindow.egg-info/top_level.txt
+sc_mainwindow/components/__init__.py
+sc_mainwindow/components/body.py
+sc_mainwindow/components/body_ui.py
+sc_mainwindow/components/main_window.py
+sc_mainwindow/components/main_window_ui.py
+sc_mainwindow/components/movable_label.py
+sc_mainwindow/components/resizable_mwindow.py
+sc_mainwindow/components/sihinaRes_rc.py
