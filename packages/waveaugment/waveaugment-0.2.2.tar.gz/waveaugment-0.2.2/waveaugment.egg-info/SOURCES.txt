@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+augment/__init__.py
+augment/effects.py
+waveaugment.egg-info/PKG-INFO
+waveaugment.egg-info/SOURCES.txt
+waveaugment.egg-info/dependency_links.txt
+waveaugment.egg-info/requires.txt
+waveaugment.egg-info/top_level.txt
