@@ -1,0 +1,8 @@
+LICENCE
+setup.py
+PyRingD/PyRingD.py
+PyRingD.egg-info/PKG-INFO
+PyRingD.egg-info/SOURCES.txt
+PyRingD.egg-info/dependency_links.txt
+PyRingD.egg-info/requires.txt
+PyRingD.egg-info/top_level.txt
