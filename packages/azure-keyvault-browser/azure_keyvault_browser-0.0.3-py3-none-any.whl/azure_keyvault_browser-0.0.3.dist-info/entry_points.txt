@@ -1,0 +1,3 @@
+[console_scripts]
+kv=azure_keyvault_browser.app:run
+
