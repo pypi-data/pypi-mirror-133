@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/road_collisions_france/__init__.py
+src/road_collisions_france.egg-info/PKG-INFO
+src/road_collisions_france.egg-info/SOURCES.txt
+src/road_collisions_france.egg-info/dependency_links.txt
+src/road_collisions_france.egg-info/entry_points.txt
+src/road_collisions_france.egg-info/requires.txt
+src/road_collisions_france.egg-info/top_level.txt
+src/road_collisions_france/bin/__init__.py
+src/road_collisions_france/bin/load.py
+src/road_collisions_france/models/__init__.py
+src/road_collisions_france/models/casualty.py
+src/road_collisions_france/models/collision.py
+src/road_collisions_france/models/vehicle.py
+src/road_collisions_france/resources/fr/fr.csv.tgz
