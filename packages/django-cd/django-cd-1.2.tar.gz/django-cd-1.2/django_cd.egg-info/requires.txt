@@ -1,0 +1,16 @@
+django
+django-bootstrap5
+loguru
+pyyaml
+yarl
+pytest
+huey
+crontab
+
+[dev]
+sphinx
+
+[test]
+pytest
+pytest-cov
+pytest-django
