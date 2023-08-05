@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/GameBlock.egg-info/PKG-INFO
+src/GameBlock.egg-info/SOURCES.txt
+src/GameBlock.egg-info/dependency_links.txt
+src/GameBlock.egg-info/top_level.txt
