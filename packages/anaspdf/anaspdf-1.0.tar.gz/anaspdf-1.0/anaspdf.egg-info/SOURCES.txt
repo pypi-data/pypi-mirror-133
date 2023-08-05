@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+anaspdf.egg-info/PKG-INFO
+anaspdf.egg-info/SOURCES.txt
+anaspdf.egg-info/dependency_links.txt
+anaspdf.egg-info/top_level.txt
