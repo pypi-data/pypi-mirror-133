@@ -1,0 +1,9 @@
+LICENSE
+README.md
+_init_.py
+setup.py
+swapsub.py
+swapsub.egg-info/PKG-INFO
+swapsub.egg-info/SOURCES.txt
+swapsub.egg-info/dependency_links.txt
+swapsub.egg-info/top_level.txt
