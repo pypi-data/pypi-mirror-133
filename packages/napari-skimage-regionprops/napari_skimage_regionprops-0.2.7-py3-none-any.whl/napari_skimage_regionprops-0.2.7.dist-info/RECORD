@@ -1,0 +1,13 @@
+napari_skimage_regionprops/__init__.py,sha256=0XAtzJd6WAktLVE6VGgz85BFG7_PCDQ_NjO9KQ3vSrE,465
+napari_skimage_regionprops/_parametric_images.py,sha256=UDLdqL8RoE5oOgfLWP7zs13Ih7ZHgYy01FZYymVLxhE,794
+napari_skimage_regionprops/_regionprops.py,sha256=Ixu3KdOiTTeOQ-XMpkdwEKCSvkAJb8owb0f2hC0HRyo,6363
+napari_skimage_regionprops/_table.py,sha256=-dYfgr0dtiOXm6cl6jF90vkN-Z19B_KCqZ_S1RL6wIM,5121
+napari_skimage_regionprops/_utilities.py,sha256=D35Dm9lPIoe3UofxNUCvOzzBP00aSp8CVnjYmT038Oo,593
+napari_skimage_regionprops/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_skimage_regionprops/_tests/test_function.py,sha256=63ruVFocCrigjz5qaz3iOArckJxo8vMRH5vnFyBVido,7632
+napari_skimage_regionprops-0.2.7.dist-info/LICENSE,sha256=8FgBAFEmWiiMWAE1G_TG8nkH3jY6Cpl-ej4yia6TxKI,1554
+napari_skimage_regionprops-0.2.7.dist-info/METADATA,sha256=Zg5KiVFUQ1KA88RQuiXwCqGzRUQ6z8s1VSQ0DJTeGuk,6334
+napari_skimage_regionprops-0.2.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_skimage_regionprops-0.2.7.dist-info/entry_points.txt,sha256=eCkLLSwbYqeHujlxGBiWBFldlRT8CIgRAZQB1UZ6yD4,155
+napari_skimage_regionprops-0.2.7.dist-info/top_level.txt,sha256=bWmru1cxP21W5vh3k6p7iXl-KnUQtP94-ZbSHhYTs4E,27
+napari_skimage_regionprops-0.2.7.dist-info/RECORD,,
