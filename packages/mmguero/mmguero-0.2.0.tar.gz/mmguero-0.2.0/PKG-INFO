@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mmguero
+Version: 0.2.0
+Summary: Useful helpers by me, for me.
+Home-page: https://github.com/mmguero/python-mmguero
+Author: Seth Grover
+Author-email: mero.mero.guero@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/mmguero/python-mmguero/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
