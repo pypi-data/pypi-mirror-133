@@ -1,0 +1,5 @@
+setup.py
+childs_animal.egg-info/PKG-INFO
+childs_animal.egg-info/SOURCES.txt
+childs_animal.egg-info/dependency_links.txt
+childs_animal.egg-info/top_level.txt
