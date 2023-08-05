@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+doit_tools/__init__.py
+doit_tools/tasks.py
+doit_tools.egg-info/PKG-INFO
+doit_tools.egg-info/SOURCES.txt
+doit_tools.egg-info/dependency_links.txt
+doit_tools.egg-info/top_level.txt
