@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: calcar
+Version: 0.1
+Summary: This is a Python Package which will help you to calculate two numbers!
+Home-page: UNKNOWN
+Author: Arinjoy Nath
+Author-email: arinjoy762@gmail.com
+License: MIT License
+Keywords: calculator
+Platform: UNKNOWN
+License-File: LICENCE.txt
+
+
+
+Change Log
+=============
+
+0.1 (1/1/2022)
+----------------
+- First Release
+
