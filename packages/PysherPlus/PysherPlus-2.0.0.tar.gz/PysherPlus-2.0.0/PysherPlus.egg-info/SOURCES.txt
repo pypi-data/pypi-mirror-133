@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+PysherPlus.egg-info/PKG-INFO
+PysherPlus.egg-info/SOURCES.txt
+PysherPlus.egg-info/dependency_links.txt
+PysherPlus.egg-info/requires.txt
+PysherPlus.egg-info/top_level.txt
+pysherplus/__init__.py
+pysherplus/authentication.py
+pysherplus/channel.py
+pysherplus/connection.py
+pysherplus/pusher.py
