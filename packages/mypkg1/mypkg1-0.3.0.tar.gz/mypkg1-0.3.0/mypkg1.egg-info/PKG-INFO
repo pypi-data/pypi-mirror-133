@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mypkg1
+Version: 0.3.0
+Summary: This is MyPkg-1.
+Home-page: https://github.com/my/pkg1
+Author: MY
+Author-email: my@example.com
+Maintainer: MY
+Maintainer-email: my@example.com
+License: MIT
+Description: 
+        # MyPkg-1
+        
+        This is 1st PKG.
+        
+        Using `setup.py`.
+        
+        
+        
+        ## 中文的简要介绍
+        
+        …
+        
+Keywords: test,package
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: Freeware
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
