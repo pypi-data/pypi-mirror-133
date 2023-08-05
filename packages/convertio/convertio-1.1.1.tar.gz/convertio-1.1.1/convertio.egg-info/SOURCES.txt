@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+convertio/__init__.py
+convertio/__version__.py
+convertio/client.py
+convertio/conversion.py
+convertio/options.py
+convertio/types.py
+convertio.egg-info/PKG-INFO
+convertio.egg-info/SOURCES.txt
+convertio.egg-info/dependency_links.txt
+convertio.egg-info/top_level.txt
