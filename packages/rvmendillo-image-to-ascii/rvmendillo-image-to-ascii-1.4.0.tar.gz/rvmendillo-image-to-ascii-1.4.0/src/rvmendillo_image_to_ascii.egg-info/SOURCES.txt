@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/rvmendillo_image_to_ascii/__init__.py
+src/rvmendillo_image_to_ascii.egg-info/PKG-INFO
+src/rvmendillo_image_to_ascii.egg-info/SOURCES.txt
+src/rvmendillo_image_to_ascii.egg-info/dependency_links.txt
+src/rvmendillo_image_to_ascii.egg-info/top_level.txt
