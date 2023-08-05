@@ -1,0 +1,17 @@
+.DS_Store,sha256=fVAmO_uysLmieBIa_wtB4mWL_m5NjVzidfBq0B3qN2o,6148
+mangawalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangawalk/scraping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangawalk/scraping/comick.py,sha256=JVQR0b4MEWSoTpze-2x5fQvWOhmdIzYbMktJ8U1qRrk,19710
+mangawalk/scraping/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangawalk/scraping/types/type_comick.py,sha256=zn_VZkON6avuR_iNTuvaf_MtE8vYsjFRkhGx3pnei5w,743
+mangawalk/scraping/types/type_mangawalk.py,sha256=zgAA5YKDMTp-wS-UCEjf8w7RMUfq-NE8ltizlhyeQEA,4811
+mangawalk/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangawalk/utils/dateutils.py,sha256=pSVOjpkcO-u2A5_WFBGrOlx-VIWgJtIAcYSV7soMoh0,891
+mangawalk/utils/functional.py,sha256=52B9CrxBQmrBO7FTWBKjvquKbTXkQEl__E7df0ag0sQ,538
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/scraping/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/scraping/test_comick.py,sha256=gO4E_i9Igs2_cTKfDp7bxMAh8u0MOzKuX0P-vWrFrOA,7544
+mangawalk-0.0.8.dist-info/METADATA,sha256=A6IQ83dV_atZBsm_9VFBvDSrS_kVQWzmZ97qUKr31D4,1286
+mangawalk-0.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mangawalk-0.0.8.dist-info/top_level.txt,sha256=n94Xemc7x3zPe62HWvnQoFmXhP0tguQr81DP9TbrCJA,16
+mangawalk-0.0.8.dist-info/RECORD,,
