@@ -1,0 +1,3 @@
+[console_scripts]
+garden-gateway=src.main:main
+

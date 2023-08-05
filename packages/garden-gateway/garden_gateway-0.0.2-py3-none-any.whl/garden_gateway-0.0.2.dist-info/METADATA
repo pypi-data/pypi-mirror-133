@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: garden-gateway
+Version: 0.0.2
+Summary: Gateway that integrates the sensors for the garden and the mushrooms
+License: GPLv3
+Author: Jeff Labonte
+Author-email: grimsleepless@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.25,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
