@@ -1,0 +1,50 @@
+## Thunders
+
+迅雷非官方批量下载SDK。
+
+感谢使用。
+
+
+## 版本记录
+* 0.1.5: 修复Windows下批量任务启动失效的问题
+* 0.1.3: 新增版本记录
+* 0.1.2: 更新ReadMe
+    * 新增`obj.dump`，为了简洁、美观，无需再调用`__repr__`
+    * 新增"获取批量任务中的子任务"示例
+    * 新增"内存中获取URL Scheme"示例
+* 0.1.1: 更新ReadMe
+    * 新增"创建批量自定义任务"示例
+
+## 快速入门
+### 创建批量自定义任务
+
+```python
+from thunders import Task, GroupTask
+
+group_task = GroupTask(name="test")
+group_task.append(Task("https://ahamega.com/1.mp4"))
+group_task.append(Task("https://ahamega.com/2.mp4", name="自定义重命名2.mp4"))
+group_task.run()   # 执行完后，迅雷会打开并弹出上面创建的批量任务，点击下载即可
+
+# 也可以这么用
+group_task.extend([
+    Task("https://ahamega.com/1.mp4"),
+    Task("https://ahamega.com/2.mp4", name="自定义重命名2.mp4")
+])
+group_task.run()   # 执行完后，迅雷会打开并弹出上面创建的批量任务，点击下载即可
+
+```
+
+### 获取批量任务中的子任务
+```python
+for task in group_task:
+    print(task.name, task.origin_url, task.url, sep="\n")
+    
+# 也可以直接索引取出
+task1 = group_task[0]
+```
+
+### 内存中获取URL Scheme
+```python
+url_scheme = group_task.dump()
+```

@@ -1,0 +1,3 @@
+[console_scripts]
+thunders = thunders.run:run
+
