@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyMonteCarlo-GUI
+Version: 1.1.0
+Summary: Python interface for Monte Carlo simulation programs
+Home-page: https://github.com/pymontecarlo
+Author: Hendrix Demers and Philippe T. Pinard
+Author-email: philippe.pinard@gmail.com
+Maintainer: Philippe T. Pinard
+Maintainer-email: philippe.pinard@gmail.com
+License: GPL v3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyMonteCarlo-GUI
+
+Graphical user interface for **pyMonteCarlo**.
+See https://github.com/pymontecarlo/pymontecarlo for more information.
+
