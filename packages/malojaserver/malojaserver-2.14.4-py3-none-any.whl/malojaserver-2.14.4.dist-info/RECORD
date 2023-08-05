@@ -1,0 +1,17 @@
+maloja/__init__.py,sha256=dpHogLX4oGDQbkAQdgMzNuheOjU7bGXrl4CTTfWec3g,96
+maloja/__main__.py,sha256=Pnim3b27KJbQ1RumRVfg_0JQWFgPScr4ql8u2qgFXkA,103
+maloja/__pkginfo__.py,sha256=0X_4MBAR4osZSavefvhGKDahwiL-2FLYzuga6dxyrKk,393
+maloja/cleanup.py,sha256=fL8wUMXuqCM9OaxBoR7dHc36T4mn-2W67HJ2BO-sz70,8393
+maloja/database.py,sha256=pIpc1amtnv5qDzLU6iTwqHppKB2hyWnQLz0fPrSgamQ,31435
+maloja/database_packed.py,sha256=o-e94zWQ1NxsGpfaoSq2tN0x3qOSObEiaxADffHenoY,809
+maloja/globalconf.py,sha256=nArCNufbepjnED-KxT9_Vxn5aKgf8U3AgCyrRmMcA-g,13506
+maloja/malojatime.py,sha256=S-MB85S3XYbj9iE5FOd5gtk2oBCCkdKBG5GBp2vlkH0,16048
+maloja/malojauri.py,sha256=XMU0MJdvEkAtjSgfaoaB16EfQ4bWXQbT-IqMPcA2yVk,4458
+maloja/monkey.py,sha256=6egMin7AJzejUEfioOnMTZyr4FPYNMiR5flzpXYDM_Q,1536
+maloja/server.py,sha256=5riIBYBSVuq-HbQCjOzTCfwNa3OcG6WE8gFB5gj_drY,7179
+malojaserver-2.14.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+malojaserver-2.14.4.dist-info/METADATA,sha256=179QfxsG5BJd4wur8pqnngvNu0IT2rfVMS4FFvtuHXY,11312
+malojaserver-2.14.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+malojaserver-2.14.4.dist-info/entry_points.txt,sha256=BUnK6gOwT8oFtMCLfEAMKMtOw_8oUaXxqEEL4-DxnRk,60
+malojaserver-2.14.4.dist-info/top_level.txt,sha256=2IiggJit-BGBThIZ72Y7POZRejdTcFzusOZ7ZOlu5MU,7
+malojaserver-2.14.4.dist-info/RECORD,,
