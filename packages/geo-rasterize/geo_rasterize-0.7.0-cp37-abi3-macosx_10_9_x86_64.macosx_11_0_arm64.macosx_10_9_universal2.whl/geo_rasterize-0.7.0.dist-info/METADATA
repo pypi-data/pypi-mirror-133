@@ -1,0 +1,375 @@
+Metadata-Version: 2.1
+Name: geo-rasterize
+Version: 0.7.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy>=1.16
+Requires-Dist: shapely>=1.6
+Summary: a 2D rasterizer for geospatial applications, written in Rust
+Keywords: geospatial,gis,geo,raster,geographic
+Author-email: Michael Salib <msalib@gmail.com>
+License:                               Apache License
+	                        Version 2.0, January 2004
+	                     http://www.apache.org/licenses/
+	
+	TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+	
+	1. Definitions.
+	
+	   "License" shall mean the terms and conditions for use, reproduction,
+	   and distribution as defined by Sections 1 through 9 of this document.
+	
+	   "Licensor" shall mean the copyright owner or entity authorized by
+	   the copyright owner that is granting the License.
+	
+	   "Legal Entity" shall mean the union of the acting entity and all
+	   other entities that control, are controlled by, or are under common
+	   control with that entity. For the purposes of this definition,
+	   "control" means (i) the power, direct or indirect, to cause the
+	   direction or management of such entity, whether by contract or
+	   otherwise, or (ii) ownership of fifty percent (50%) or more of the
+	   outstanding shares, or (iii) beneficial ownership of such entity.
+	
+	   "You" (or "Your") shall mean an individual or Legal Entity
+	   exercising permissions granted by this License.
+	
+	   "Source" form shall mean the preferred form for making modifications,
+	   including but not limited to software source code, documentation
+	   source, and configuration files.
+	
+	   "Object" form shall mean any form resulting from mechanical
+	   transformation or translation of a Source form, including but
+	   not limited to compiled object code, generated documentation,
+	   and conversions to other media types.
+	
+	   "Work" shall mean the work of authorship, whether in Source or
+	   Object form, made available under the License, as indicated by a
+	   copyright notice that is included in or attached to the work
+	   (an example is provided in the Appendix below).
+	
+	   "Derivative Works" shall mean any work, whether in Source or Object
+	   form, that is based on (or derived from) the Work and for which the
+	   editorial revisions, annotations, elaborations, or other modifications
+	   represent, as a whole, an original work of authorship. For the purposes
+	   of this License, Derivative Works shall not include works that remain
+	   separable from, or merely link (or bind by name) to the interfaces of,
+	   the Work and Derivative Works thereof.
+	
+	   "Contribution" shall mean any work of authorship, including
+	   the original version of the Work and any modifications or additions
+	   to that Work or Derivative Works thereof, that is intentionally
+	   submitted to Licensor for inclusion in the Work by the copyright owner
+	   or by an individual or Legal Entity authorized to submit on behalf of
+	   the copyright owner. For the purposes of this definition, "submitted"
+	   means any form of electronic, verbal, or written communication sent
+	   to the Licensor or its representatives, including but not limited to
+	   communication on electronic mailing lists, source code control systems,
+	   and issue tracking systems that are managed by, or on behalf of, the
+	   Licensor for the purpose of discussing and improving the Work, but
+	   excluding communication that is conspicuously marked or otherwise
+	   designated in writing by the copyright owner as "Not a Contribution."
+	
+	   "Contributor" shall mean Licensor and any individual or Legal Entity
+	   on behalf of whom a Contribution has been received by Licensor and
+	   subsequently incorporated within the Work.
+	
+	2. Grant of Copyright License. Subject to the terms and conditions of
+	   this License, each Contributor hereby grants to You a perpetual,
+	   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+	   copyright license to reproduce, prepare Derivative Works of,
+	   publicly display, publicly perform, sublicense, and distribute the
+	   Work and such Derivative Works in Source or Object form.
+	
+	3. Grant of Patent License. Subject to the terms and conditions of
+	   this License, each Contributor hereby grants to You a perpetual,
+	   worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+	   (except as stated in this section) patent license to make, have made,
+	   use, offer to sell, sell, import, and otherwise transfer the Work,
+	   where such license applies only to those patent claims licensable
+	   by such Contributor that are necessarily infringed by their
+	   Contribution(s) alone or by combination of their Contribution(s)
+	   with the Work to which such Contribution(s) was submitted. If You
+	   institute patent litigation against any entity (including a
+	   cross-claim or counterclaim in a lawsuit) alleging that the Work
+	   or a Contribution incorporated within the Work constitutes direct
+	   or contributory patent infringement, then any patent licenses
+	   granted to You under this License for that Work shall terminate
+	   as of the date such litigation is filed.
+	
+	4. Redistribution. You may reproduce and distribute copies of the
+	   Work or Derivative Works thereof in any medium, with or without
+	   modifications, and in Source or Object form, provided that You
+	   meet the following conditions:
+	
+	   (a) You must give any other recipients of the Work or
+	       Derivative Works a copy of this License; and
+	
+	   (b) You must cause any modified files to carry prominent notices
+	       stating that You changed the files; and
+	
+	   (c) You must retain, in the Source form of any Derivative Works
+	       that You distribute, all copyright, patent, trademark, and
+	       attribution notices from the Source form of the Work,
+	       excluding those notices that do not pertain to any part of
+	       the Derivative Works; and
+	
+	   (d) If the Work includes a "NOTICE" text file as part of its
+	       distribution, then any Derivative Works that You distribute must
+	       include a readable copy of the attribution notices contained
+	       within such NOTICE file, excluding those notices that do not
+	       pertain to any part of the Derivative Works, in at least one
+	       of the following places: within a NOTICE text file distributed
+	       as part of the Derivative Works; within the Source form or
+	       documentation, if provided along with the Derivative Works; or,
+	       within a display generated by the Derivative Works, if and
+	       wherever such third-party notices normally appear. The contents
+	       of the NOTICE file are for informational purposes only and
+	       do not modify the License. You may add Your own attribution
+	       notices within Derivative Works that You distribute, alongside
+	       or as an addendum to the NOTICE text from the Work, provided
+	       that such additional attribution notices cannot be construed
+	       as modifying the License.
+	
+	   You may add Your own copyright statement to Your modifications and
+	   may provide additional or different license terms and conditions
+	   for use, reproduction, or distribution of Your modifications, or
+	   for any such Derivative Works as a whole, provided Your use,
+	   reproduction, and distribution of the Work otherwise complies with
+	   the conditions stated in this License.
+	
+	5. Submission of Contributions. Unless You explicitly state otherwise,
+	   any Contribution intentionally submitted for inclusion in the Work
+	   by You to the Licensor shall be under the terms and conditions of
+	   this License, without any additional terms or conditions.
+	   Notwithstanding the above, nothing herein shall supersede or modify
+	   the terms of any separate license agreement you may have executed
+	   with Licensor regarding such Contributions.
+	
+	6. Trademarks. This License does not grant permission to use the trade
+	   names, trademarks, service marks, or product names of the Licensor,
+	   except as required for reasonable and customary use in describing the
+	   origin of the Work and reproducing the content of the NOTICE file.
+	
+	7. Disclaimer of Warranty. Unless required by applicable law or
+	   agreed to in writing, Licensor provides the Work (and each
+	   Contributor provides its Contributions) on an "AS IS" BASIS,
+	   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+	   implied, including, without limitation, any warranties or conditions
+	   of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+	   PARTICULAR PURPOSE. You are solely responsible for determining the
+	   appropriateness of using or redistributing the Work and assume any
+	   risks associated with Your exercise of permissions under this License.
+	
+	8. Limitation of Liability. In no event and under no legal theory,
+	   whether in tort (including negligence), contract, or otherwise,
+	   unless required by applicable law (such as deliberate and grossly
+	   negligent acts) or agreed to in writing, shall any Contributor be
+	   liable to You for damages, including any direct, indirect, special,
+	   incidental, or consequential damages of any character arising as a
+	   result of this License or out of the use or inability to use the
+	   Work (including but not limited to damages for loss of goodwill,
+	   work stoppage, computer failure or malfunction, or any and all
+	   other commercial damages or losses), even if such Contributor
+	   has been advised of the possibility of such damages.
+	
+	9. Accepting Warranty or Additional Liability. While redistributing
+	   the Work or Derivative Works thereof, You may choose to offer,
+	   and charge a fee for, acceptance of support, warranty, indemnity,
+	   or other liability obligations and/or rights consistent with this
+	   License. However, in accepting such obligations, You may act only
+	   on Your own behalf and on Your sole responsibility, not on behalf
+	   of any other Contributor, and only if You agree to indemnify,
+	   defend, and hold each Contributor harmless for any liability
+	   incurred by, or claims asserted against, such Contributor by reason
+	   of your accepting any such warranty or additional liability.
+	
+	END OF TERMS AND CONDITIONS
+	
+	APPENDIX: How to apply the Apache License to your work.
+	
+	   To apply the Apache License to your work, attach the following
+	   boilerplate notice, with the fields enclosed by brackets "[]"
+	   replaced with your own identifying information. (Don't include
+	   the brackets!)  The text should be enclosed in the appropriate
+	   comment syntax for the file format. We also recommend that a
+	   file or class name and description of purpose be included on the
+	   same "printed page" as the copyright notice for easier
+	   identification within third-party archives.
+	
+	Copyright [yyyy] [name of copyright owner]
+	
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+	
+		http://www.apache.org/licenses/LICENSE-2.0
+	
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+	
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# geo-rasterize: a 2D rasterizer for geospatial applications, written in Rust
+
+[![PyPI][pypi-badge]][pypi-url]
+[![Build Status][actions-badge]][actions-url]
+
+[pypi-badge]: https://img.shields.io/pypi/pyversions/geo-rasterize
+[pypi-url]: https://pypi.org/project/geo-rasterize/
+[actions-badge]: https://github.com/msalib/py-geo-rasterize/actions/workflows/Release.yml/badge.svg
+[actions-url]: https://github.com/msalib/py-geo-rasterize/actions?query=Release+branch%3Amain
+
+`geo-rasterize` is a Python wrapper for a [rust library with the same
+name](https://crates.io/crates/geo-rasterize) that rasterizes
+[shapely](https://shapely.readthedocs.io/en/stable/project.html)
+vector shapes, just like
+[rasterio](https://rasterio.readthedocs.io/)'s
+[features.rasterize](https://rasterio.readthedocs.io/en/latest/api/rasterio.features.html#rasterio.features.rasterize). The
+difference is that while [rasterio](https://rasterio.readthedocs.io/)
+is built on GDAL, this library has no dependencies -- you can install
+it without having to worry about GDAL (or any other C library at all)!
+Plus `geo-rasterize`'s rasterization algorithm is based on GDAL's so
+it should be a drop in replacement for `rasterio.features.rasterize`
+and it offers a very similar API.
+
+We publish wheels to PyPI Python 3.7+ for the following platforms:
+
+| Operating System | Architecture                    |
+|------------------|---------------------------------|
+| Linux            | x86-64                          |
+| Linux            | i686                            |
+| Linux            | aarch64                         |
+| Windows          | x86-64                          |
+| Windows          | i686                            |
+| MacOS            | Universal2 (x86-64 and aarch64) |
+
+
+## Examples
+
+For example, let's rasterize a single `Point` located at `(x=1, y=2)`
+onto a raster that is 5 pixels wide and 6 pixels high. By default, the
+raster pixels will start out with value zero, and we'll put a `1` in
+every pixel the point touches:
+
+```python
+>>> from shapely.geometry import Point
+>>> from geo_rasterize import rasterize
+>>> print(rasterize([Point(1, 2)], [1], (5, 6)))
+[[0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 1 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]
+ [0 0 0 0 0]]
+
+```
+
+And the result is just what we expect: a 5x6 `numpy` array with
+exactly one pixel set to 1! Note that we had to specify a list of
+shapes rather than just one shape. And the list of foreground values
+(`[1]` in this case) has to have the same length since we'll need one
+foreground value for each shape.
+
+So let's see multiple shapes!
+```python
+>>> from shapely.geometry import Point, LineString
+>>> from geo_rasterize import rasterize
+>>> shapes = [Point(3, 4), LineString([(0, 3), (3, 0)])]
+>>> foregrounds = [3, 7]
+>>> raster_size = (4, 5)
+>>> print(rasterize(shapes, foregrounds, raster_size))
+[[0 0 7 0]
+ [0 7 7 0]
+ [7 7 0 0]
+ [7 0 0 0]
+ [0 0 0 3]]
+
+```
+
+What happens when two shapes burn in the same pixel? That depends on
+how you set the merge algorithm, given by the `algorithm`
+parameter. The default is `'replace'` which means the last shape
+overwrites the pixel but you can also set it to `'add'` to that
+foreground values will sum. That allows you to make heatmaps!
+
+```python
+>>> from shapely.geometry import Point, LineString
+>>> from geo_rasterize import rasterize
+>>> shapes = [LineString([(0, 0), (5, 5)]), LineString([(5, 0), (0, 5)])]
+>>> print(rasterize(shapes, [1, 1], (5, 5), algorithm='add'))
+[[1 0 0 0 1]
+ [0 1 0 1 1]
+ [0 0 2 1 0]
+ [0 1 1 1 0]
+ [1 1 0 0 1]]
+
+```
+
+Our two lines cross at the center where you'll find `2`.
+
+You can change the default value using the `background` parameter. And
+you can set the array `dtype` using the `dtype` parameter. Setting
+`dtype='uint8'` will reduce the space needed for your raster array by
+8x. This is especially useful if you're only interested in binary
+rasterization.
+
+## Geographic transforms
+
+All our examples so far have assumed that our shapes' coordinates are
+in the image space. In other words, we've assumed that the `x`
+coordinates will be in the range `0..width` and the `y` coordinates
+will be in the range `0..height`. Alas, that is often not the case!
+
+For satellite imagery (or remote sensing imagery in general), images
+will almost always specify both a Coordinate Reference System
+([CRS](https://en.wikipedia.org/wiki/Spatial_reference_system)) and an
+affine transformation in their metadata. See [rasterio's
+Georeferencing](https://rasterio.readthedocs.io/en/latest/topics/georeferencing.html)
+for more details.
+
+In order to work with most imagery, you have to convert your vector
+shapes from whatever their original CRS is (often `EPSG:4326` for
+geographic longitude and latitude) into whatever CRS your data file
+specifies (often a
+[UTM](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system)
+projection but there are so many choices). Then, you need to apply an
+affine transformation to convert from world coordinates to pixel
+coordinates. Since raster imagery usually specifies the inverse
+transformation matrix (i.e. a `pix_to_geo` transform), you'll first
+need to invert it to get a `geo_to_pix` transform before applying it
+to the coordinates. And now you've got pixel coordinates appropriate
+for your image data!
+
+`geo-raterize` can ease this tedious process by taking care of the
+affine transformation. Just pass an affine transform array using the
+`geo_to_pix` parameter (call `.to_gdal()` if you have an
+`affine.Affine` instance).
+
+To summarize, you'll have to:
+
+* extract the CRS from your image and convert your shapes into that
+  CRS (probably using [pyproj](https://pyproj4.github.io/pyproj/stable/)
+  and its integration with [geo types][geo],
+* extract the `pix_to_geo` transform from your imagery metadata
+* create an `Affine` instance from that data (GDAL represents these
+  as a `[f64; 6]` array and you can use `Affine.from_gdal`)
+* call `transform.inverse` to get the corresponding `geo_to_pix`
+  transform (remember that not all transforms are invertible!)
+* call `transform.to_gdal()` and use the resulting array with the
+  `geo_to_pix` parameter
+
