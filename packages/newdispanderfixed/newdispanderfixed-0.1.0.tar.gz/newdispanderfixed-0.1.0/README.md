@@ -1,0 +1,39 @@
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/dispanderfixed)](https://pypi.org/project/dispanderfixed)
+[![PyPI](https://img.shields.io/pypi/v/discord.py?label=discord.py%20%3E%3D)](https://pypi.org/project/discord.py/)
+[![PyPI](https://img.shields.io/pypi/v/dpy-components?label=dpy-components%20%3E%3D)](https://pypi.org/project/dpy-components)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/dispanderfixed)
+# Dispanderfixed
+このライブラリは、DiscordBotPortalJP様のdispanderライブラリを<br>
+ライセンスに基づきクロヱ水族館サーバー用Bot向けに改変したものです。<br>
+[フォーク元ライブラリ様](https://github.com/DiscordBotPortalJP/dispander)
+
+## インストール
+
+`pip install dispanderfixed`
+
+## 依存関係
+discord.py >= 1.6.0<br>
+dpy-components >= 0.4.2<br>
+<br>
+が必要です。<br>
+
+## 機能は？
+
+関数としての使用を想定しています。<br>
+on_message内のどこかで実行してください。<br>
+**元ライブラリ様にあった展開元メッセージ削除機能は無効化されています。**<br>
+
+```python
+import discord
+from dispanderfixed import dispand
+
+client = discord.Client()
+
+@client.event
+async def on_message(message):
+    if message.author.bot:
+        return
+    await dispand(message)
+
+client.run(token)
+```
