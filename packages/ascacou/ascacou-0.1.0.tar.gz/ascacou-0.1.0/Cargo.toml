@@ -1,0 +1,15 @@
+[dependencies.ascacou-solver]
+path = "local_dependencies/ascacou-solver"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.15.1"
+
+[lib]
+crate-type = ["cdylib"]
+name = "ascacou"
+
+[package]
+edition = "2021"
+name = "ascacou-solver-python"
+version = "0.1.0"
