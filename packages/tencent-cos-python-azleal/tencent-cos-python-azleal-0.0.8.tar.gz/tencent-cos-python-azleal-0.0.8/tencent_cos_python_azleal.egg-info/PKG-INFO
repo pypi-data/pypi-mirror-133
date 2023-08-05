@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tencent-cos-python-azleal
+Version: 0.0.8
+Summary: easy use for tencent_cos_python client
+Home-page: https://github.com/Azleal/tencent-cos-python
+Author: Azleal
+Author-email: azleal.mr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+封装腾讯cos操作.
+
+1. 从环境变量中加载cos_client.
+
