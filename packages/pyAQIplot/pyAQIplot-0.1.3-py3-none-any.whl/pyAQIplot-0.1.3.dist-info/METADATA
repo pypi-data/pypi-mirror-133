@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyAQIplot
+Version: 0.1.3
+Summary: plot AQI data
+Home-page: https://github.com/Augus1999/pyAQIplot
+Author: Nianze Augus TAO
+Author-email: TaoN@cardiff.ac.uk
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: matplotlib (>=3.2.1)
+Requires-Dist: numpy (>=1.20.2)
+
+
+# pyAQIplot
+
+current version is 0.1.3.
+
+plot AQI data (.csv files downloaded from [https://waqi.info/](https://waqi.info/)) with colours and output statistics.
+
+
