@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: PM3
+Version: 0.0.2
+Summary: Like pm2 without node.js ;-)
+Home-page: https://github.com/ilariofebi/PM3.git 
+Author: Ilario Febi
+Author-email: ilario@febi.biz
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dsnparse (==0.1.15)
+Requires-Dist: Flask (==2.0.2)
+Requires-Dist: pidfile (==0.1.1)
+Requires-Dist: psutil (==5.8.0)
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: rich (==10.16.2)
+Requires-Dist: setuptools (==60.1.1)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: tinydb (==4.5.2)
+
+# PM3
+Like pm2 without node.js ;-)
+
+# Install
+`pip install pm3`
+
+
