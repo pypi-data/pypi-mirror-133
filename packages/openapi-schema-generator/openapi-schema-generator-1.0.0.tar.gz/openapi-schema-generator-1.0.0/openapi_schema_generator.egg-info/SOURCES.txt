@@ -1,0 +1,16 @@
+README.md
+setup.py
+openapi_schema_generator/AbsGenerator.py
+openapi_schema_generator/FilePathTracker.py
+openapi_schema_generator/OpenApiSchemaGenerator.py
+openapi_schema_generator/OpenApiSchemaValidator.py
+openapi_schema_generator/V_2_Generator.py
+openapi_schema_generator/V_3_Generator.py
+openapi_schema_generator/__init__.py
+openapi_schema_generator.egg-info/PKG-INFO
+openapi_schema_generator.egg-info/SOURCES.txt
+openapi_schema_generator.egg-info/dependency_links.txt
+openapi_schema_generator.egg-info/requires.txt
+openapi_schema_generator.egg-info/top_level.txt
+test/test_SchemaGenerator.py
+test/test_SchemaValidator.py
