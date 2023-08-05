@@ -1,0 +1,7 @@
+fastapi_users_db_sqlmodel/__init__.py,sha256=ognbisx_db7n_ust5Nzn7M2fh0M8Zfkv3cZ_xLX8ILk,6907
+fastapi_users_db_sqlmodel/access_token.py,sha256=cUIqAZVz7E_ZUxR3dgsRjPXHTeCrJfmCuTsV62j4b_o,3779
+fastapi_users_db_sqlmodel/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_users_db_sqlmodel-0.1.0.dist-info/LICENSE,sha256=xeZkqqHpa9lkurYK7IUUcu311AWO4s0BDVC8V1U8-VM,1072
+fastapi_users_db_sqlmodel-0.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+fastapi_users_db_sqlmodel-0.1.0.dist-info/METADATA,sha256=W2giWfaun2GZ-ZpXlnmtBzbkHYnOhTNsoNtFGDABzcI,3384
+fastapi_users_db_sqlmodel-0.1.0.dist-info/RECORD,,
