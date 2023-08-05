@@ -1,0 +1,7 @@
+cython
+ipdb
+ipython
+numpy
+pytest
+setuptools
+virtualenv
