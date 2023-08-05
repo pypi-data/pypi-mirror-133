@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: xmldt
+Version: 0.0.1
+Summary: python module to Down Translate XML
+Author-email: José João Almeida <jj@di.uminho.pt>, Alberto Simões <ambs@zbr.pt>
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://natura.di.uminho.pt/svn/main/python/XML-DT/
