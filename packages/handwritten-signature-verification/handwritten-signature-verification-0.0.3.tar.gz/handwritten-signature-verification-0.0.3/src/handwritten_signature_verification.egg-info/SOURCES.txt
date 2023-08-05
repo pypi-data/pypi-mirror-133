@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/handsignverify/__init__.py
+src/handsignverify/model.py
+src/handwritten_signature_verification.egg-info/PKG-INFO
+src/handwritten_signature_verification.egg-info/SOURCES.txt
+src/handwritten_signature_verification.egg-info/dependency_links.txt
+src/handwritten_signature_verification.egg-info/top_level.txt
