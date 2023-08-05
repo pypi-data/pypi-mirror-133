@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+ipyturtlenext.py
+setup.py
+ipyturtlenext.egg-info/PKG-INFO
+ipyturtlenext.egg-info/SOURCES.txt
+ipyturtlenext.egg-info/dependency_links.txt
+ipyturtlenext.egg-info/not-zip-safe
+ipyturtlenext.egg-info/requires.txt
+ipyturtlenext.egg-info/top_level.txt
