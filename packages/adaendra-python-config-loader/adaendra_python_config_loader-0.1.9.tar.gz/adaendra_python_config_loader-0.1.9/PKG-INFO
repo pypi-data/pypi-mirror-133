@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: adaendra_python_config_loader
+Version: 0.1.9
+Summary: A config loader for Python projects
+Home-page: https://github.com/Adaendra/python-config-loader
+Author: Maxime G.
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Adaendra/python-config-loader/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Config Loader
+
+![badge](https://img.shields.io/badge/version-0.1.0-blue)
+
+The objective of this library is to easily load external configs for a Python project and use it for anywhere 
+in your project.
+
+---
+
+## How to use it
+Install with pip
+> pip install adaendra-python-config-loader
+
+Import the configs and use it!
+```python
+from AdaendraConfigs import AdaendraConfigs
+
+print(AdaendraConfigs.configs.abc)
+```
+
+## Environment variables
+|Name|Description|Default value|
+|---|---|---|
+|CONFIG_ENVIRONMENT|Environment to load|*None*|
+|CONFIG_FOLDER|Path to the config files|'/app/resources'|
+|CONFIG_FILE_EXTENSION|File extensions of your config file. Allow : '.yml'/'.yaml'/'.json'|'.yaml'|
+|CONFIG_PROJECT_NAME|Name of your project *(which is generally the name of the config files)*|'application'|
+
+---
+
+## Documentation
+- [PyPi](./documentation/pypi.md)
+
+
