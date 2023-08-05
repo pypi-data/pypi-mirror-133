@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fast-proxy-list
+Version: 0.0.1
+Summary: Tool made to find fast working proxies in order to rotate them
+Home-page: https://github.com/FabienGaillard/fast_proxy_list
+Author: Fabien Gaillard
+Author-email: fabien.gaillard83@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+UNKNOWN
+
