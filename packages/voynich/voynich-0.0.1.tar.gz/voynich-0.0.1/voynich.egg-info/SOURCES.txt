@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+voynich/__init__.py
+voynich/voynich.py
+voynich.egg-info/PKG-INFO
+voynich.egg-info/SOURCES.txt
+voynich.egg-info/dependency_links.txt
+voynich.egg-info/top_level.txt
