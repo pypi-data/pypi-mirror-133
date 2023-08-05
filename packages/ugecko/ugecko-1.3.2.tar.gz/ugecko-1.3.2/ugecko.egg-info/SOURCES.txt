@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+ugecko/__init__.py
+ugecko/uGecko.py
+ugecko.egg-info/PKG-INFO
+ugecko.egg-info/SOURCES.txt
+ugecko.egg-info/dependency_links.txt
+ugecko.egg-info/top_level.txt
+ugecko/enums/Commands.py
+ugecko/utils/Errors.py
+ugecko/utils/Memory.py
+ugecko/utils/Verification.py
