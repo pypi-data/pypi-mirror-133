@@ -1,0 +1,15 @@
+HandsAnalyzer/Hand.py,sha256=HqiLWai18w8sYyOmLv4biFLCfsDmp6wO6OezpSi0wns,17979
+HandsAnalyzer/HandsAnalyzer.py,sha256=4865tcwMYzHq7mZgky5Tx1IaGccdczv32TEn1byIAzU,3930
+HandsAnalyzer/Helpers.py,sha256=9X9mXP7eVXn6Br5Wly9J3_jjzQm-nk62iHNsxXt_shM,515
+HandsAnalyzer/__init__.py,sha256=aK_Z8kCNOMfUGRygDMzasMAqkt_dURKHMdOdEndXa40,778
+HandsAnalyzer/helpers/__init__.py,sha256=wy6mY40UyI7RiHzSxx-oST236HEa-QmI9j0tcCmT2I8,207
+HandsAnalyzer/helpers/estimation/__init__.py,sha256=iHiMwVQpRx_asW7cn8QNnNqSd_KrVYWAI-zgpTrG45Y,214
+HandsAnalyzer/helpers/estimation/kalman.py,sha256=lc8ZBcVOopF-1UJPQpL_OYJNVbcpfDpmCAvWqsBosTA,1896
+HandsAnalyzer/helpers/geometry/__init__.py,sha256=0T5MlgwDk-VIPMXf653VDgHM2oc8ePQv1pJlwzfgScI,411
+HandsAnalyzer/helpers/geometry/euclidian.py,sha256=QSZRuTGbKRV_r2Zii_il3lUE4JBq_R7uSsdVFZS7lGw,5893
+HandsAnalyzer/helpers/geometry/orientation.py,sha256=5FJGgFlNQPNBWQwYr7vdBeD2t6mulWyBCNcsESU46sU,1824
+HandsAnalyzer-0.0.1.dist-info/LICENSE,sha256=oP302TvntTm1DZOuDGSbQhBNu3KfiH___2EIXfUMYpo,1094
+HandsAnalyzer-0.0.1.dist-info/METADATA,sha256=Sw9EYctHNYqNwzfqbtUiru3mZPXoBOV5z9WgqCYFCtA,764
+HandsAnalyzer-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+HandsAnalyzer-0.0.1.dist-info/top_level.txt,sha256=1Fsas4LqX3VyfztVCNRDfzYxFdoCWCS8zy_KITnqjYc,14
+HandsAnalyzer-0.0.1.dist-info/RECORD,,
