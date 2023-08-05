@@ -1,0 +1,9 @@
+conodictor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conodictor/conodictor.py,sha256=jrW5pPrqyiQyOg8MW0aU1xQ8gaS6GNdzWKW2lQ-3DT8,36636
+db/conodictor.hmm,sha256=ow5kXQ2bntbXeqAthXwKVpAFd35G9N9Jt5mnL2wlAGw,1317501
+db/conodictor.pssm,sha256=CWjaq8P3dfumW8Ei9URApwy_zBbocAemUTKq0JYNUtk,283092
+conodictor-2.3.3.dist-info/entry_points.txt,sha256=fNJS1dBOq1FhYdFCrOaynldRfIEbbQ9r1r1RQjXsM7M,57
+conodictor-2.3.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+conodictor-2.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+conodictor-2.3.3.dist-info/METADATA,sha256=uaAbUYk7u106IrIJYp4YLuxvWiYzzeai_s0OeUvAJQs,7257
+conodictor-2.3.3.dist-info/RECORD,,
