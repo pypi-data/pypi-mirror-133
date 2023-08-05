@@ -1,0 +1,75 @@
+{% load djangocd_extras %}
+
+<div class="d-inline-flex align-items-center my-3">
+    <span class="text-nowrap">Job</span>
+    <select class="form-select form-select-sm mx-2" name="jobname">
+        {% for name in available_jobs %}
+        <option value="{{ name }}">{{ name }}</option>
+        {% endfor %}
+    </select>
+    <button type="button"
+            class="btn btn-primary btn-sm text-nowrap"
+            hx-post="{% url 'django_cd:runjob' %}"
+            hx-include="[name='jobname']">
+        Force run
+    </button>
+</div>
+
+<table class="table table-striped align-middle">
+    <thead>
+        <tr class="">
+            <th scope="col">Job name</th>
+
+            {% for index in njobs|listrange:1 reversed %}
+            <th scope="col"
+                    class="text-center {% if index > 3 %}d-none d-md-table-cell{% endif %}"
+                    style="width: {{ colwidth }}%">
+                {{ index }}
+            </th>
+            {% endfor %}
+
+            <th scope="col"
+                class="text-center"
+                style="width: {{ colwidth }}%">Next</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for name, jobruns, nextrun in rows %}
+        <tr>
+            <td>{{ name }}</td>
+
+            {% for jobrun in jobruns reversed %}
+            <td class="text-center {% if forloop.counter0 < 7 %}d-none d-md-table-cell{% endif %}">
+                {%if jobrun.id %}
+                <a class="btn btn-circle btn{{ jobrun.state|state_style }}"
+                    href="{% url 'django_cd:jobrun' jobrun.id %}"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Started on: {{ jobrun.started_on }}">
+                    {% if jobrun.state == "success" %}
+                        <i class="bi bi-check-lg"></i>
+                    {% elif jobrun.state == "running" %}
+                        <i class="bi bi-hourglass-split"></i>
+                    {% elif jobrun.state == "error" %}
+                        <i class="bi bi-exclamation-lg"></i>
+                    {% endif %}
+                </a>
+                {% endif %}
+            </td>
+            {% endfor %}
+
+            <td class="text-center">
+                {% if nextrun %}
+                <span class="d-inline-block"
+                        tabindex="0"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="Scheduled for: {{ nextrun }}">
+                    <button class="btn btn-circle btn-secondary" type="button" disabled></button>
+                </span>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
