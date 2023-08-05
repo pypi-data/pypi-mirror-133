@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/analysishelper/__init__.py
+src/analysishelper/customdatetime.py
+src/analysishelper/customfilesys.py
+src/analysishelper/customlog.py
+src/analysishelper/customperiod.py
+src/analysishelper.egg-info/PKG-INFO
+src/analysishelper.egg-info/SOURCES.txt
+src/analysishelper.egg-info/dependency_links.txt
+src/analysishelper.egg-info/requires.txt
+src/analysishelper.egg-info/top_level.txt
