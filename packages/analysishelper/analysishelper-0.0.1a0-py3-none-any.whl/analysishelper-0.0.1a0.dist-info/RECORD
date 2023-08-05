@@ -1,0 +1,11 @@
+analysishelper/__init__.py,sha256=bW4p430sUg-skLW_IyCS1k0STpGry4IiZAjtTUvFUpc,115
+analysishelper/customdatetime.py,sha256=hO8doCTA53lSL1Wx1Ef9oX8Ng3FuWq4UsI3aBxOrcdI,601
+analysishelper/customfilesys.py,sha256=jvjzuX1sIhHJMprpxQ3D6c-TcDrtQkQYneQyDmAE8y0,1216
+analysishelper/customlog.py,sha256=LuMbrzZDzfLEBTiPY6wlU7XA2LzvG9LTYvp97KDge04,1844
+analysishelper/customperiod.py,sha256=yJxI6pcIfLTuyPFVgaED8yavUaGMgMBUQSZS4ucsLq4,1184
+analysishelper/metadata/period_dict.csv,sha256=dpkrWzlijODXgBmnLRxI5fMhR_tuO8W8aOEuO-dA5YE,10542
+analysishelper-0.0.1a0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+analysishelper-0.0.1a0.dist-info/METADATA,sha256=7rhPJzqrwRZqGpRMpSzCFZWm1WnTxO_XOJlMC9_Tj5M,890
+analysishelper-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+analysishelper-0.0.1a0.dist-info/top_level.txt,sha256=YZzSEy0o0P-VDzM-Jgy44ANFyR0y1iRGd43qnPbKOws,15
+analysishelper-0.0.1a0.dist-info/RECORD,,
