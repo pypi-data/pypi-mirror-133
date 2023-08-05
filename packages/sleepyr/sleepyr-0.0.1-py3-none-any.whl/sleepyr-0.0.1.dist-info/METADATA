@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sleepyr
+Version: 0.0.1
+Summary: Python Sleeper API client
+License: MIT
+Author: Craig Martek
+Author-email: craigmartek@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
