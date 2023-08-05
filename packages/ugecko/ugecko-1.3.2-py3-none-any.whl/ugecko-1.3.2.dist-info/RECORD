@@ -1,0 +1,11 @@
+ugecko/__init__.py,sha256=NCZRLkEh-yS2_Aomsexa--toN4f4dW5JO5M3FvSFnic,254
+ugecko/uGecko.py,sha256=3e5Gi-3n6pIPrvBbgtfrQy9GI1J-CKyNuXaeMzs-q_g,17425
+ugecko/enums/Commands.py,sha256=u9pGEW-pVxYbXUk6EU6cQe8EtOPFxYy236ajqN7pl0I,1927
+ugecko/utils/Errors.py,sha256=nWllhlMuJv07cTapUsMhvY0gW_DKtC0EH5ugp5M8nBY,448
+ugecko/utils/Memory.py,sha256=8mLF5zj6ARNbfbNwA9fOx-15JBxavGaRnqj_Ylos678,3135
+ugecko/utils/Verification.py,sha256=XTXxKOT8X86MSbmRP1l8k5lgE4fkDVG-qzm2hTlIw0M,271
+ugecko-1.3.2.dist-info/LICENSE,sha256=9SYSSaebppQA7zecjgpE4U3jG3HErrPDoHspIaPnaLE,1104
+ugecko-1.3.2.dist-info/METADATA,sha256=hxNUtRDfIFwOH-fY5rFdqqVTrY9f6hvvwrrXGuzapm4,1468
+ugecko-1.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ugecko-1.3.2.dist-info/top_level.txt,sha256=ddDhe2yXYVyiJ-KZatMQ0GGQAEDJGGeA3B1s65L-vLk,7
+ugecko-1.3.2.dist-info/RECORD,,
