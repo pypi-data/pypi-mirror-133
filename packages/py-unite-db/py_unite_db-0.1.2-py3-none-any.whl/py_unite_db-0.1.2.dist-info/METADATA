@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: py_unite_db
+Version: 0.1.2
+Summary: Unnofficial Python wrapper of the unite-db.com REST API.
+License: UNKNOWN
+Author-email: Jay Newey <jay.newey@protonmail.com>
+Requires-Python: >=3.9
+Requires-Dist: pydantic~=1.8
+Requires-Dist: uplink~=0.9
+Project-URL: homepage, https://github.com/jaynewey/py-unite-db
