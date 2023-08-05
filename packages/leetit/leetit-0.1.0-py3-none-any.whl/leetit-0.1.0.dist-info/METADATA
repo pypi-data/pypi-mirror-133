@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: leetit
+Version: 0.1.0
+Summary: 1337 translator lib
+Home-page: https://github.com/DomesticMoth/leetit
+License: GNU GPLv3
+Author: DomesticMoth
+Requires-Python: >=3.7,<4.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/DomesticMoth/leetit
+Description-Content-Type: text/markdown
+
+# leetit
+1337 translator lib
+
