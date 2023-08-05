@@ -1,0 +1,7 @@
+fastapi_users_db_mongodb/__init__.py,sha256=isTR1i2DfsYof-ZSe8hWKgfJ1MVbQ5q6GBKtwhw5d3o,2824
+fastapi_users_db_mongodb/access_token.py,sha256=bVgaeRW696Uz340iBOd7vGgl_jjnQrgdMtwHShf-V1g,1906
+fastapi_users_db_mongodb/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_users_db_mongodb-1.1.0.dist-info/LICENSE,sha256=xeZkqqHpa9lkurYK7IUUcu311AWO4s0BDVC8V1U8-VM,1072
+fastapi_users_db_mongodb-1.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+fastapi_users_db_mongodb-1.1.0.dist-info/METADATA,sha256=OQGawgxlG7B2W8E5BP13-jnLQBKWC_b-gMMngxw0cAE,3531
+fastapi_users_db_mongodb-1.1.0.dist-info/RECORD,,
