@@ -1,0 +1,9 @@
+bbox/__init__.py,sha256=OTefQWayC8JfHqjzqVfpriMpy0CP3m9EB-2C1zevgVk,175
+bbox/coco.py,sha256=_A7E4tGZZKS2IpmKjmOPuodr_nMWXJ43Jgt_uKjea0A,4175
+bbox/utils.py,sha256=rwx3OJaVEOCPeipaGGx_sO6PgTzLHbpeRVXIAXpFubk,7948
+bbox/version.py,sha256=fCDDAyG3nMZcE_hvt1RHdxkiFN3DfNSyU_k-rLUDrpE,21
+bbox_utility-1.0.6.dist-info/LICENSE.md,sha256=dyV9j2LJwfnH0fDIav_OgQfgsWlSQxk5b8PGWxowUiA,1073
+bbox_utility-1.0.6.dist-info/METADATA,sha256=OAN_jPwtfw_6a7BtCAqrO6aFSINYL5Nc9QUFer3kXvI,1293
+bbox_utility-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bbox_utility-1.0.6.dist-info/top_level.txt,sha256=ifM3OZ-zzmngdpqBU5P0UdHSPfTD8V-qoIbzxLcX4NI,5
+bbox_utility-1.0.6.dist-info/RECORD,,
