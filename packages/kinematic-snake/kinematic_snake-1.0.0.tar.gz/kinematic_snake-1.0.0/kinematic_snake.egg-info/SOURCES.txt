@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+./kinematic_snake/__init__.py
+./kinematic_snake/__version__.py
+./kinematic_snake/circle_fit.py
+./kinematic_snake/kinematic_snake.py
+./kinematic_snake/launch_snake.py
+kinematic_snake.egg-info/PKG-INFO
+kinematic_snake.egg-info/SOURCES.txt
+kinematic_snake.egg-info/dependency_links.txt
+kinematic_snake.egg-info/requires.txt
+kinematic_snake.egg-info/top_level.txt

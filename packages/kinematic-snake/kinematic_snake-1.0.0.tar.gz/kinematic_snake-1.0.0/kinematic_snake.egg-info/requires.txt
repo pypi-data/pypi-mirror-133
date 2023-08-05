@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+sympy
+
+[Parameter sweep]
+p_tqdm
+psutil
