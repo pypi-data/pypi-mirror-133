@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+jenti/__init__.py
+jenti/patch.py
+jenti.egg-info/PKG-INFO
+jenti.egg-info/SOURCES.txt
+jenti.egg-info/dependency_links.txt
+jenti.egg-info/top_level.txt
