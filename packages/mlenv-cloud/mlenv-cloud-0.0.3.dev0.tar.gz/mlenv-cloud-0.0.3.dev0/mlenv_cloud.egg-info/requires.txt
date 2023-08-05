@@ -1,0 +1,18 @@
+absl-py
+docker
+google-api-python-client
+google-auth
+google-cloud-storage
+
+[:python_version < "3.7"]
+importlib_resources
+
+[tests]
+absl-py
+flake8
+mock
+numpy
+nbconvert
+
+[tests:python_version < "3.7"]
+importlib_resources
