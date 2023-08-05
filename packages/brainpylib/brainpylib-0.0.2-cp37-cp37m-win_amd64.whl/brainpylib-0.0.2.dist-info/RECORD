@@ -1,0 +1,15 @@
+brainpylib/KernelBase.dll,sha256=lAG04HzsNHTv2EKcDfPj3hx__3w-kU4TX83OCWJlT5Q,2920808
+brainpylib/__init__.py,sha256=o9ozDhnrUYeMIj62k9Lc6U-NE9Y1FDYffPTKZR4VJxI,198
+brainpylib/atomic_sum.py,sha256=4-xgKj6HF2zgL8GUtKAu9aFWA82sutMH4nnsXrHvep0,4585
+brainpylib/cpu_ops.cp37-win_amd64.pyd,sha256=NIYxQhr9rRvS3mIlN1-mmTYWtXK4QzOy7vCRlS0N99w,123392
+brainpylib/event_sum.py,sha256=dp6dZTJpJE4NnD3WdPqwR6AcSbMrbBd3ysK0ep5kHMA,8622
+brainpylib/kernel32.dll,sha256=_7gYJ2PCO4q87zXoUpFCKh1tFloPRAe8aP_tClii0Dw,770136
+brainpylib/msvcp140d.dll,sha256=qbImBwcGU3zQqKQDtRcIxpAFpV3DUFucMfFagQt9H0c,919928
+brainpylib/register_custom_calls.py,sha256=N5nvjX_IFSIooCQBJQ-KcRRZOPU8yxeEwk2lY3ixrfU,569
+brainpylib/ucrtbased.dll,sha256=ID0QsN6uqH1Wh9NiupJSiaE-UrXfVbneWLpTQpCvJ78,1854416
+brainpylib/vcruntime140_1d.dll,sha256=hSBBCtw_cEP2fq4tcAQplfcWqd7WMK1Ev6StlOU_Cwk,53136
+brainpylib/vcruntime140d.dll,sha256=-COVu21hDNDCOKAPm-PLsdj17c6IiGG-KwBZ36BJYX4,164728
+brainpylib-0.0.2.dist-info/METADATA,sha256=1V9EMkzQNaknGNv_sBLYcnT_rLrei3NkhZXabOBARLk,373
+brainpylib-0.0.2.dist-info/WHEEL,sha256=OmDKD3JmZjhMu_YdpkiJDfFL1rf8n9nexhWCGhSBGVE,101
+brainpylib-0.0.2.dist-info/top_level.txt,sha256=YQsJGyIteid0gvfxhHzrTKbdqVTs-qRRhMDKN2vPB2g,30
+brainpylib-0.0.2.dist-info/RECORD,,
