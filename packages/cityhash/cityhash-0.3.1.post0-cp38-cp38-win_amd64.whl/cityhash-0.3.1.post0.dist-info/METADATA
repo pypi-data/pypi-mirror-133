@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cityhash
+Version: 0.3.1.post0
+Summary: Python bindings for CityHash and FarmHash
+Home-page: https://github.com/escherba/python-cityhash
+Author: Alexander [Amper] Marshalov
+Author-email: alone.amper+cityhash@gmail.com
+Maintainer: Eugene Scherba
+Maintainer-email: escherba+cityhash@gmail.com
+License: MIT
+Download-URL: https://github.com/escherba/python-cityhash/tarball/master/0.3.1.post0
+
+CityHash/FarmHash
+
+
