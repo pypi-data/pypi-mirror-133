@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: migcomparator
+Version: 0.0.2
+Summary: Apache Hive and MariaDB(MySQL) compare library
+Home-page: UNKNOWN
+Author: Gyojun An
+Author-email: sencom1028@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+Requires-Dist: impyla (==0.17.0)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: numpy (>=1.20.1)
+Requires-Dist: PyMySQL (==1.0.2)
+Requires-Dist: pandera (==0.8.0)
+
+# migvalidator
+
+
