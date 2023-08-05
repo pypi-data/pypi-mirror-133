@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+src/hsiehpinghan_setuptools_test.egg-info/PKG-INFO
+src/hsiehpinghan_setuptools_test.egg-info/SOURCES.txt
+src/hsiehpinghan_setuptools_test.egg-info/dependency_links.txt
+src/hsiehpinghan_setuptools_test.egg-info/requires.txt
+src/hsiehpinghan_setuptools_test.egg-info/top_level.txt
+src/my_package_0/__init__.py
+src/my_package_0/example.py
+src/my_package_2/__init__.py
+src/my_package_2/example.py
