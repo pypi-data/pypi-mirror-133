@@ -1,0 +1,6 @@
+Cython
+ipdb
+ipython
+numpy
+py-cpuinfo
+pytest
