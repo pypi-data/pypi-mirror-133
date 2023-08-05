@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mplStrater/__init__.py
+mplStrater/data.py
+mplStrater/strata.py
+mplStrater.egg-info/PKG-INFO
+mplStrater.egg-info/SOURCES.txt
+mplStrater.egg-info/dependency_links.txt
+mplStrater.egg-info/requires.txt
+mplStrater.egg-info/top_level.txt
