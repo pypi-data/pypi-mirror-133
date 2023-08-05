@@ -1,0 +1,11 @@
+mumailer/__init__.py,sha256=9ZW33c7haGK4lgYfHQIHwcGWUisyOuUYG_0BSluB_sM,1241
+mumailer/attachment.py,sha256=jIek7TeKIZkp2j54tQ0hJnQe-OUy7NVPUo5fofbE1q8,1602
+mumailer/connection.py,sha256=MyGCPJsXpg2vnBp4_1KLqpy01cgJ_1TsCtbGmBXatA8,3411
+mumailer/constants.py,sha256=EQ_GmQvVKFUFZ3zxQ9tzdvZYSVLMR2udxPgDMTL9PxI,1133
+mumailer/message.py,sha256=DSvdd2phJPBugkgG-EjwXSjwhyIUd0Wvb1-678cEEhI,3009
+mumailer/recipient.py,sha256=bjD_Yngz94vVoGkjg66EfiGAwmVUpv5OIK8o50YPzAw,1872
+MuMailer-0.2.0.dist-info/LICENSE,sha256=KXtvAwlDxFxMIdHxHJfaPxp2LLs4cZoPCATTgfcKCTE,613
+MuMailer-0.2.0.dist-info/METADATA,sha256=zViMkOQRNAGe058CQRjupWfmz1dgU9ZVMy9ymAUrodE,4348
+MuMailer-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MuMailer-0.2.0.dist-info/top_level.txt,sha256=IQ2O7gb_BYdgpnjH2utnVj24xw6n6vQ3q1EtkoqcXPE,9
+MuMailer-0.2.0.dist-info/RECORD,,
