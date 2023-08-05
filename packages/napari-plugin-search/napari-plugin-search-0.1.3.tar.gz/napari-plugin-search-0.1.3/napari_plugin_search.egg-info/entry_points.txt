@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-plugin-search = napari_plugin_search
+
