@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: mdisk
+Version: 0.0.1
+Summary: Unofficial python api wrapper from https://mdisk.me
+Home-page: https://github.com/HeimanPictures/mdisk
+Author: Akkil
+Author-email: heimanpicturesofficial@gmail.com
+License: UNKNOWN
+Keywords: api mdisk video hosting unlimited
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: click
+
+# Mdisk
+
+
+## Install
+
+- For [Package](https://github.com/heimanpictures/mdisk)
+
+```bash
+pip install mdisk
+```
+
+
+---
+
+## Usage
+
+You can use this as python module or via terminal
+
+### Use as python module
+```python
+from mdisk import Mdisk
+
+d = Mdisk("YOUR_API_KEY")
+
+# Upload video from direct links
+d.upload("VIDEO_LINK")
+```
+
+### Use via terminal
+set your Mdisk api key first
+```bash
+export MDISK_API=you_key_here
+```
+- Providesw link for mdisk
+```bash
+mdisk upload VIDEO_LINK
+```
+
+## Credits
+
+- **[AkKiL](https://github.com/heimanpictures)**
+
+
