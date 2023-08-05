@@ -1,0 +1,3 @@
+from road_collisions_us.download import ensure_data_downloaded
+
+ensure_data_downloaded()
