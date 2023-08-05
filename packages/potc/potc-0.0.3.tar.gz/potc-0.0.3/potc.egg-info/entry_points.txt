@@ -1,0 +1,3 @@
+[console_scripts]
+potc = potc.entry.cli:potc_cli
+
