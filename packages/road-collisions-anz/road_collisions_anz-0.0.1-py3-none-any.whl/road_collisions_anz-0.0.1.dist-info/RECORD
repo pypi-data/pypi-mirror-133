@@ -1,0 +1,11 @@
+road_collisions_anz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_anz/bin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_anz/bin/load.py,sha256=DhATL1ePp2LkZZuyJ5eDJYLwpTeiZoGc357C8xhzddg,377
+road_collisions_anz/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+road_collisions_anz/models/collision.py,sha256=nwhIad5cA6hbPU-OklGEqr2AhfL7Hu3eID80izMk2xM,8774
+road_collisions_anz/resources/anz/anz.csv.tgz,sha256=JbGHRxih2csBZM9QwMX2mYOjxuCyYhGO7z4aeqF4q1Q,51569838
+road_collisions_anz-0.0.1.dist-info/METADATA,sha256=HwnQe0dnktX7wglca6n0Q_6yBgzh_ynaeB74PeyuIcs,309
+road_collisions_anz-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+road_collisions_anz-0.0.1.dist-info/entry_points.txt,sha256=qkLYaRz50v7fEhOUzejduS4AU_7K1Sc7GozGGJzeErs,80
+road_collisions_anz-0.0.1.dist-info/top_level.txt,sha256=Ikpa-z0AuCGxQ6EAqmGsNHGqfFoITsq52x3arRM8gnE,20
+road_collisions_anz-0.0.1.dist-info/RECORD,,
