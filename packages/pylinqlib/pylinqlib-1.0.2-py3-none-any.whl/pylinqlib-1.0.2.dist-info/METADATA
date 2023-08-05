@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pylinqlib
+Version: 1.0.2
+Summary: LINQ implementation
+Home-page: UNKNOWN
+Author: crimsondevel
+Author-email: crimsondevel@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyLinq
+It is a Python adaptation of C# LINQ that implements the IEnumerable methods that are applicable for use in Python. I tried to optimize the library as much as possible for working with large data collections. Рowever, I will be glad if you make a fork with fixing bugs that will interfere with your work.
+
