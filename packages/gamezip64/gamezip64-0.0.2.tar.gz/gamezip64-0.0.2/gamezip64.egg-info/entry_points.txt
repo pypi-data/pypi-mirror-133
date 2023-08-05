@@ -1,0 +1,3 @@
+[console_scripts]
+gz64 = gamezip64:main
+
