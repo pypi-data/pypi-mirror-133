@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "joblib",
+    "streamlit"
+]
+
+build-backend = "setuptools.build_meta"
