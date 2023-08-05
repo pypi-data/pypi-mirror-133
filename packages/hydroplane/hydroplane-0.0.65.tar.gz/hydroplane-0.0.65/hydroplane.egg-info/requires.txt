@@ -1,0 +1,9 @@
+dash
+pandas
+numpy
+cython
+pydruid
+requests
+psycopg2-binary
+dash-editor-components
+python-dotenv

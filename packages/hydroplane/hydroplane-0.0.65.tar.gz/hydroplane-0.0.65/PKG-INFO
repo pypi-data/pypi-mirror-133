@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hydroplane
+Version: 0.0.65
+Summary: A Data Exploration Custom Dashboarding Framework
+Home-page: http://pypi.python.org/pypi/hydroplane/
+Author: Ryan Moos
+Author-email: ryan@moos.engineering
+License: LICENSE
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hydroplane  
+A Data Exploration Custom Dashboard Framework  
+
+
+## Quick Start  
+```python
+from hydroplane import Hydroplane  
+
+# START HYDROPLANE
+hp = Hydroplane("HYDROPLANE", 8053) 
+hp.start_up() 
+``` 
+
+## To Do  
+[ ] Hydroplane Onboarding Tutorial / Minimum Requirements  
+[ ] Kubernetes Templates  
+[ ] Docker Image Repository AWS  
+[ ] 
+

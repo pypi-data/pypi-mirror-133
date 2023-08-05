@@ -1,0 +1,89 @@
+#! /usr/bin/python
+import os, sys, getopt, shutil, pkg_resources 
+from dotenv import load_dotenv
+
+from hydroplane import hydro, hydro_router, Hydroplane 
+from hydroplane import Input, Output
+
+
+# HYDRO LOCATIONS
+CWD_PATH = os.getcwd() 
+ENV_PATH = CWD_PATH + "/.env"
+DEV_ENV_PATH = pkg_resources.resource_filename('hydroplane', 'environments/hydro_developer_environment/')
+DEV_ENV_FILES = os.listdir(DEV_ENV_PATH)
+DEV_ENV_FOLDER = CWD_PATH + '/hydroplane_dev'
+
+# LOAD HYDRO .ENV FILE
+load_dotenv(ENV_PATH)
+
+
+
+def create_hydro_dev_env():
+    # CREATE DEV ENV FOLDER 
+    if not os.path.exists(DEV_ENV_FOLDER):
+        os.makedirs(DEV_ENV_FOLDER)
+
+    # DEV ENV DOWNLOAD
+    for file in DEV_ENV_FILES:
+        if file != '__pycache__':
+            destination = shutil.copy(DEV_ENV_PATH + "/" + file, DEV_ENV_FOLDER) 
+
+
+
+# https://www.tutorialspoint.com/python/python_command_line_arguments.htm
+
+
+def start_hydro_web_server(opts):
+    name = "HYDROPLANE" #DEFAULT
+    port = 8050 #DEFAULT
+    for opt, arg in opts:
+        if opt == '-n':
+            name = arg
+        elif opt == '-p':
+            port = arg
+    hydro_postgres_config = {
+        "host": os.environ['POSTGRES_HOST'],
+        "port": os.environ['POSTGRES_PORT'],
+        "database": os.environ['POSTGRES_DB'],
+        "user": os.environ['POSTGRES_USER'],
+        "password": os.environ['POSTGRES_PASSWORD']
+    } 
+    hp = Hydroplane(name, port, hydro_postgres_config)
+    hp.start_up()
+    @hydro.callback(
+        Output('page-content', 'children'),
+        Input('url', 'pathname')
+    )
+    def display_page(pathname):  
+        return hydro_router(hp, pathname)
+
+
+
+
+
+def main(argv): 
+    try:
+        opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="]) 
+    except getopt.GetoptError:
+        print('hydro --help')
+        sys.exit(2)
+
+    # ARGUMENTS
+    for arg in args:
+        if arg == "--help":
+            print("HYDROPLANE HELP")
+        elif arg == "dev":
+            print('CREATING HYDRO DEVELOPMENT ENVIRONMENT...')
+            create_hydro_dev_env()
+            sys.exit()
+        elif arg == "start":
+            print('STARTING HYDRO WEB SERVER...')
+            start_hydro_web_server(opts) 
+
+if __name__ == "__main__":
+   main(sys.argv[1:])
+
+
+# SAMPLES
+# hydro dev
+# hydro start -n "hydroPLANE" -p 8053
