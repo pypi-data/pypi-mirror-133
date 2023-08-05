@@ -1,0 +1,10 @@
+ExchangeRateApi/ExchangeRateApi.py,sha256=L0kxhRqwGh_C7MVwcLjy3HGbBahkVWcq_DiwIOHJqzM,23239
+ExchangeRateApi/__init__.py,sha256=FEWW6a48WhloM2bzmj1HvQLuzEPvqZBTheIMtu1jy-Y,218
+ExchangeRateApi/exceptions.py,sha256=xe3V6pUYJwoFxlfFULR9LLLZwTz8J-RqtkiH5p0mlD8,1893
+ExchangeRateApi/utils.py,sha256=V7peJLLuYzd4KsnVN_0bG9DE8j-mzWzYNX3x1SQHMrg,10626
+ExchangeRateApi-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ExchangeRateApi-0.1.0.dist-info/METADATA,sha256=diy2oN8oAy2xwoY3yxYWoqqvk-37Sehdo3zAcGac3J8,5117
+ExchangeRateApi-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ExchangeRateApi-0.1.0.dist-info/entry_points.txt,sha256=WQhsZF4kBumRJOQqkBX-udcq4NE9EuXE8XdDqk-D4WE,74
+ExchangeRateApi-0.1.0.dist-info/top_level.txt,sha256=BratIs3PI13l-pcAbqDeqS1DESjK8oyD9XScxBouWDw,16
+ExchangeRateApi-0.1.0.dist-info/RECORD,,
