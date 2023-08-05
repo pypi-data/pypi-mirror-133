@@ -1,0 +1,11 @@
+tanoshi/__init__.py,sha256=oUmP89EXz-ppcY_fdbwcMFBi4S-hxUeBUtOeAdMQTgY,143
+tanoshi/application.py,sha256=RcYhBJRt_gRtH-Lw3dz279VVMV4wX2mFzc8lhnprHQE,2153
+tanoshi/exception_handlers.py,sha256=6vdXy0bZrPMBpXKvWHAc6pVX-6BCCLSpB_VsMIDmY38,390
+tanoshi/fglobals.py,sha256=rdrN4Zi7X_DrQWGGMmoFVn53iHjFLDnxT4ztLn7gMeQ,747
+tanoshi/requests.py,sha256=53Pk-_7tbx8cpxeVHmGjfdG4oEm2FKIdFNyMMa8L9tc,54
+tanoshi/responses.py,sha256=Kzp9KLttNFRDdSeAk6nVjvJ9Q4_EpQALl9tQ-9x_yG0,178
+tanoshi/shortcuts.py,sha256=IXhD0m-1UGM2xFJvyhVzI1kg0yKsM0qznwMKlJlkB-U,1201
+tanoshi-0.0.1a0.dist-info/METADATA,sha256=yloqZFqDzGwGjaCk41dI36UUgsHiGOxBqtrzRyJzxhM,3321
+tanoshi-0.0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tanoshi-0.0.1a0.dist-info/top_level.txt,sha256=ldSh5F9NRQF7HNkqyPnujbUXN_Cemhr16OsMgDtOW9c,8
+tanoshi-0.0.1a0.dist-info/RECORD,,
