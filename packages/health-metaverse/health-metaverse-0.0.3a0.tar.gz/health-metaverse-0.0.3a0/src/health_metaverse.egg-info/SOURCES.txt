@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/health_metaverse.egg-info/PKG-INFO
+src/health_metaverse.egg-info/SOURCES.txt
+src/health_metaverse.egg-info/dependency_links.txt
+src/health_metaverse.egg-info/requires.txt
+src/health_metaverse.egg-info/top_level.txt
+src/healthmetaverse/__init__.py
+src/healthmetaverse/healthtopicmodel.py
+src/healthmetaverse/healthwordcloud.py
+src/healthmetaverse/__pycache__/__init__.cpython-36.pyc
+src/healthmetaverse/__pycache__/healthtopicmodel.cpython-36.pyc
+src/healthmetaverse/__pycache__/healthwordcloud.cpython-36.pyc
+src/healthmetaverse/data/metaverse-news.txt
