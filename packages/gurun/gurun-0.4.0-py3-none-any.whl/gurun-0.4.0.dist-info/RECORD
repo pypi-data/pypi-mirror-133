@@ -1,0 +1,15 @@
+gurun/__init__.py,sha256=WwVu2JnD9nF9fRBmWwfCSUhLOOhGjAhqWbtmpWn_jlw,823
+gurun/cv/__init__.py,sha256=Kp55ru3YR1ZNyASjdI5JimCzhT2ZIBHZLWzyxKQJerk,83
+gurun/cv/detection.py,sha256=ZXMHW73Y8wXNCPwuRvVfo0LkG8xc5ilE5ac-j3ylbWI,2385
+gurun/cv/transformation.py,sha256=FjNEE1ABPUFsllJvJBNH49IBT6HLhwbLMZrdMoolYzQ,3647
+gurun/exceptions.py,sha256=e-QSPyqTTHjhOBdB7GZUCcFKZ7unCepUculUfItYyRQ,63
+gurun/gui/__init__.py,sha256=kZhEkI6rKtrLZDrTbDj6RNlivf7X1DomBdeHHlPaZZU,61
+gurun/gui/io.py,sha256=UWrSCRfGxyCwgYT4OiQStHdPLBCoDAyUeMd945T1GSI,2730
+gurun/gui/screenshot.py,sha256=ClAfjpxuqus2P6blx-J4RAlglKMbUQyYP15p9TGdKRc,1337
+gurun/node.py,sha256=o1CUKhI7_e0tAlKgY9lCOAuoeYMRVKNCC6dwM6GVuIU,7797
+gurun/runner.py,sha256=3W3AlSff8T7sgO5bwn2sfD1kqrcVqfYTts9xC75A9MY,1191
+gurun/utils.py,sha256=NwxotvhAk_XIv9AsBzTR-7WFRbS-dqSFPXo6K8alKX0,3650
+gurun-0.4.0.dist-info/LICENSE,sha256=6B65cNFeODKHaK3kQou5K1dsy8_g46LIYFQ-isPfgdU,1073
+gurun-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gurun-0.4.0.dist-info/METADATA,sha256=UbVD1uknQICzifB8cxuUs8qTnWy7qMX2tvAY4I3lmiI,3394
+gurun-0.4.0.dist-info/RECORD,,
