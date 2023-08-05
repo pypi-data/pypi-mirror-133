@@ -1,0 +1,10 @@
+napari_plot_profile/__init__.py,sha256=9Q1qRG8BPXy8vuT1kTiW53VvmxKGcmeaUVStnZSc1dE,115
+napari_plot_profile/_dock_widget.py,sha256=mpGZIrnCYpBLrl8zpbFGBkI6DQpdUqXEl868-H-gH2o,10151
+napari_plot_profile/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_plot_profile/_tests/test_dock_widget.py,sha256=gJwAYT9r53DTejg3vDt7tVt4jXHL3P0pjmAKfoJXQmw,632
+napari_plot_profile-0.2.1.dist-info/LICENSE,sha256=rpMCpNN25clP84Coa5iS9uhFFqsQNrDYA_sclHkbST8,1518
+napari_plot_profile-0.2.1.dist-info/METADATA,sha256=rTBStTWy-7jo9LYmba6R3EUP3xQAtjJE-I7f0cHbIOI,5081
+napari_plot_profile-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_plot_profile-0.2.1.dist-info/entry_points.txt,sha256=YAXwB0QHfBagMaWdFq_Yvskr46pZv1-nHYfE8_6tRrA,59
+napari_plot_profile-0.2.1.dist-info/top_level.txt,sha256=Vp_E0_3U0Becs1lBHoHrAYHJDBbXv23NMobf1J9RYeA,20
+napari_plot_profile-0.2.1.dist-info/RECORD,,
