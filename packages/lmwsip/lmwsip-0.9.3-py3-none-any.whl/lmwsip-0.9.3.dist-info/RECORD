@@ -1,0 +1,8 @@
+lmwsip/__init__.py,sha256=iBwwW4pGqlC5GwMMlE4GyZcLYTbzWYek4ZOFOlI05Ws,34516
+lmwsip/run.py,sha256=PHN-dQFkkCu2pK59tEh8rzlS04gUDrKLSTGvS8yCjgg,2462
+lmwsip/tests/__init__.py,sha256=qi4o5c5TaxFQeAY_9015VCCfeqCOrYOzsi3pEtkxw6I,5232
+lmwsip/tests/stubSipServer.py,sha256=Sw-x1lfmMwoZmhDfjbPM6__gJpx0evldlT96bUyrvYI,3189
+lmwsip-0.9.3.dist-info/METADATA,sha256=zw2SuP20W9DW3Yut0_gNhtLyOxNwNZy_I9G8MGhsV1o,2553
+lmwsip-0.9.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lmwsip-0.9.3.dist-info/top_level.txt,sha256=2T7PGk_L1yOtAQmbohIkG9qX7-oVPRAVveO02eEDBYQ,7
+lmwsip-0.9.3.dist-info/RECORD,,
