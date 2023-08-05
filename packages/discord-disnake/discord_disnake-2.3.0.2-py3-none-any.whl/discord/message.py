@@ -1,0 +1,46 @@
+from disnake.message import (
+    Attachment,
+    ChannelType,
+    DeletedReferencedMessage,
+    Embed,
+    Emoji,
+    File,
+    Guild,
+    HTTPException,
+    Hashable,
+    InteractionReference,
+    InteractionType,
+    InvalidArgument,
+    MISSING,
+    Member,
+    Message,
+    MessageFlags,
+    MessageReference,
+    MessageType,
+    PartialEmoji,
+    PartialMessage,
+    Reaction,
+    StickerItem,
+    Thread,
+    User,
+    _component_factory,
+    _edit_handler,
+    convert_emoji_reaction,
+    escape_mentions,
+    flatten_handlers,
+    try_enum,
+    try_enum_to_int,
+    utils,
+)
+
+__all__ = (
+    "Attachment",
+    "Message",
+    "PartialMessage",
+    "MessageReference",
+    "InteractionReference",
+    "DeletedReferencedMessage",
+)
+
+from disnake.message import __dict__ as __original_dict__
+locals().update(__original_dict__)
