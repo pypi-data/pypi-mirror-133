@@ -1,0 +1,42 @@
+from disnake.opus import (
+    APPLICATION_AUDIO,
+    APPLICATION_LOWDELAY,
+    APPLICATION_VOIP,
+    BAD_ARG,
+    BandCtl,
+    CTL_LAST_PACKET_DURATION,
+    CTL_SET_BANDWIDTH,
+    CTL_SET_BITRATE,
+    CTL_SET_FEC,
+    CTL_SET_GAIN,
+    CTL_SET_PLP,
+    CTL_SET_SIGNAL,
+    Decoder,
+    DecoderStruct,
+    DecoderStructPtr,
+    DiscordException,
+    Encoder,
+    EncoderStruct,
+    EncoderStructPtr,
+    InvalidArgument,
+    OK,
+    OpusError,
+    OpusNotLoaded,
+    SignalCtl,
+    _OpusStruct,
+    _err_lt,
+    _err_ne,
+    _lib,
+    _load_default,
+    band_ctl,
+    exported_functions,
+    is_loaded,
+    libopus_loader,
+    load_opus,
+    signal_ctl,
+)
+
+__all__ = ("Encoder", "OpusError", "OpusNotLoaded")
+
+from disnake.opus import __dict__ as __original_dict__
+locals().update(__original_dict__)
