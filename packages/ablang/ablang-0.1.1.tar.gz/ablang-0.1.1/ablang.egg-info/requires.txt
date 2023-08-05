@@ -1,0 +1,4 @@
+numpy
+requests
+fairseq
+torch>=1.6

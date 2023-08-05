@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ablang
+Version: 0.1.1
+Summary: AbLang: A language model for antibodies.
+Home-page: UNKNOWN
+Maintainer: Tobias Hegelund Olsen
+Maintainer-email: tobias.olsen@stats.ox.ac.uk
+License: BSD 3-clause license
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# **AbLang: A language model for antibodies**
+
+-----------
+
+# Install AbLang
+
+AbLang is currently installed through github, using the following command.
+
+~~~.sh
+    pip install -U git+https://github.com/TobiasHeOl/AbLang.git
+~~~
+
+----------
+
+# AbLang
+
+Examples on use cases for AbLang can be found in the examples folder.
+
+
