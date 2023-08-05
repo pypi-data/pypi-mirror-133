@@ -1,0 +1,3 @@
+[console_scripts]
+reponews = reponews.__main__:main
+
