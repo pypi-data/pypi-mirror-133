@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/helloworld.py
+src/helloworld_avborodin.egg-info/PKG-INFO
+src/helloworld_avborodin.egg-info/SOURCES.txt
+src/helloworld_avborodin.egg-info/dependency_links.txt
+src/helloworld_avborodin.egg-info/top_level.txt
