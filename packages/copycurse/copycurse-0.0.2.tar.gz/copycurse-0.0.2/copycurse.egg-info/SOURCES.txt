@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+copycurse/__init__.py
+copycurse/__main__.py
+copycurse.egg-info/PKG-INFO
+copycurse.egg-info/SOURCES.txt
+copycurse.egg-info/dependency_links.txt
+copycurse.egg-info/entry_points.txt
+copycurse.egg-info/requires.txt
+copycurse.egg-info/top_level.txt

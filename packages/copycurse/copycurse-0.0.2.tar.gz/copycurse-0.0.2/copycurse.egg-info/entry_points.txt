@@ -1,0 +1,3 @@
+[console_scripts]
+copycurse = copycurse.__main__:main
+
