@@ -1,0 +1,9 @@
+README.md
+setup.py
+wangxqpdf/__init__.py
+wangxqpdf/pdf2image.py
+wangxqpdf/pdf2text.py
+wangxqpdf.egg-info/PKG-INFO
+wangxqpdf.egg-info/SOURCES.txt
+wangxqpdf.egg-info/dependency_links.txt
+wangxqpdf.egg-info/top_level.txt
