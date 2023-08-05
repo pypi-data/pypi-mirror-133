@@ -1,0 +1,78 @@
+
+   *************************************************************
+   **   Program PENEPMA.  Input data and run-time messages.   **
+   *************************************************************
+
+   Date and time: 10th Feb 2019. 13:00:18
+
+   Options                                                                                                                 
+
+   ------------------------------------------------------------------------
+   >>>>>>  Incident beam.
+
+   Primary particles: electrons
+   Initial energy =  1.500000E+04 eV
+   Coordinates of source:     SX0 =  0.000000E+00 cm
+                              SY0 =  0.000000E+00 cm
+                              SZ0 =  1.000000E+00 cm
+   Beam redius:              SRAD =  5.000000E-07 cm
+   Beam direction angles:   THETA =  1.800000E+02 deg
+                              PHI =  0.000000E+00 deg
+   Beam aperture:           ALPHA =  0.000000E+00 deg
+
+   ------------------------------------------------------------------------
+   >>>>>>  Material data and simulation parameters.
+
+   ****  1st material
+   Material data file: mat01.mat           
+   Electron absorption energy =  7.103540E+02 eV
+     Photon absorption energy =  7.103540E+02 eV
+   Positron absorption energy =  7.103540E+02 eV
+   Electron-positron simulation parameters:
+    C1 = 2.000000E-01,      C2 = 2.000000E-01
+   Wcc = 7.103540E+02 eV,  Wcr = 7.103540E+02 eV
+
+   PENGEOM's geometry definition file: sample.geo          
+
+   ------------------------------------------------------------------------
+   >>>>>>  Maximum allowed step lengths of electrons and positrons.
+   * Body =   1,   DSMAX =  1.000000E+20 cm
+
+   ------------------------------------------------------------------------
+   >>>>>>  Interaction forcing: FORCE(IBODY,KPAR,ICOL)
+   FORCE(   1,1,4) = 1.370220E+04,  weight window = ( 1.00E-04, 1.00E+00)
+   FORCE(   1,1,5) = 4.629459E+01,  weight window = ( 1.00E-04, 1.00E+00)
+
+   ------------------------------------------------------------------------
+   >>>>>>  Bremsstrahlung splitting
+   IBODY =    1,  IBRSPL =   2
+
+   ------------------------------------------------------------------------
+   >>>>>>  X-ray splitting
+   IBODY =    1,  IXRSPL =   2
+
+   ------------------------------------------------------------------------
+   >>>>>>  Energy and angular distributions of emerging particles.
+   E:       NBE = ***,  EMIN = 0.000000E+00 eV,  EMAX = 1.500000E+04 eV
+   Theta:  NBTH =  90 (linear scale)
+   Phi:    NBPH =   1
+
+   ------------------------------------------------------------------------
+   >>>>>>  Photon detector # 1
+   Angular intervals : theta_1 = 3.0000E+01 deg,  theta_2 = 5.0000E+01 deg
+                         phi_1 = 0.0000E+00 deg,    phi_2 = 3.6000E+02 deg
+   Energy window = ( 0.00000E+00, 1.50000E+04) eV, no. of channels =   10
+   Channel width = 1.500000E+03 eV
+
+   ------------------------------------------------------------------------
+   >>>>>>  Job characteristics.
+   Write final counter values on the dump file: dump1.dat           
+   Dumping period: DUMPP = 1.500000E+01
+   Random-number generator seeds =  327796803,  915478773
+
+   Reference line: 29040500,  detector =  1,  tolerance = 5.00E-02
+
+   Number of showers to be simulated = 1.000000E+02
+   Computation time available =  1.000000E+38 sec
+
+   ------------------------------------------------------------------------

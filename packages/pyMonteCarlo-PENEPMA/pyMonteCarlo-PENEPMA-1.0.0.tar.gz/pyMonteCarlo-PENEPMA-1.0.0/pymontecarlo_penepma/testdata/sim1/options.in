@@ -1,0 +1,43 @@
+TITLE  Options
+       .
+       >>>>>>>> Source definition.
+SKPAR  1                   [Primary particles: 1=electron, 2=photon, 3=positron]
+SENERG 15000                       [Initial energy (monoenergetic sources only)]
+SPOSIT 0 0 1                                         [Coordinates of the source]
+SRADI  5e-07                                         [Radius of the beam, in cm]
+SDIREC 180 0                         [Direction angles of the beam axis, in deg]
+SAPERT 0                                                 [Beam aperture, in deg]
+       .
+       >>>>>>>> Material data and simulation parameters.
+MFNAME mat01.mat                                 [Material file, up to 20 chars]
+MSIMPA 710.354 710.354 15000 0.2 0.2 710.354 710.354   [EABS(1:3),C1,C2,WCC,WCR]
+       .
+       >>>>>>>> Geometry of the sample.
+GEOMFN sample.geo                                [Geometry file, up to 20 chars]
+       .
+       >>>>>>>> Interaction forcing.
+IFORCE 1 1 4 -40 0.0001 1                        [KB,KPAR,ICOL,FORCER,WLOW,WHIG]
+IFORCE 1 1 5 -40 0.0001 1                        [KB,KPAR,ICOL,FORCER,WLOW,WHIG]
+       .
+       >>>>>>>> Bremsstrahlung splitting.
+IBRSPL 1 2                                                 [KB,splitting factor]
+       .
+       >>>>>>>> X-ray splitting.
+IXRSPL 1 2                                                 [KB,splitting factor]
+       .
+       >>>>>>>> Emerging particles. Energy and angular distributions.
+       .
+       >>>>>>>> Photon detectors (up to 25 different detectors).
+PDANGL 30 50 0 360 0                              [Angular window, in deg, IPSF]
+PDENER 0 15000 10                               [Energy window, no. of channels]
+       .
+       >>>>>>>> Spatial distribution of events in a box.
+       .
+       >>>>>>>> Job properties.
+DUMPTO dump1.dat                             [Generate this dump file, 20 chars]
+DUMPP  2                                                [Dumping period, in sec]
+       .
+RSEED  -10 1                              [Seeds of the random-number generator]
+REFLIN 29040500 1 0.05                 [IZ*1e6+S1*1e4+S2*1e2,detector,tolerance]
+NSIMSH 100                                 [Desired number of simulated showers]
+TIME   1e+38                                  [Allotted simulation time, in sec]

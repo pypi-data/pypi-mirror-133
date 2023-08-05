@@ -1,0 +1,2 @@
+pymontecarlo_penepma/_version.py export-subst
+pymontecarlo_penepma/penepma/** filter=lfs diff=lfs merge=lfs -text

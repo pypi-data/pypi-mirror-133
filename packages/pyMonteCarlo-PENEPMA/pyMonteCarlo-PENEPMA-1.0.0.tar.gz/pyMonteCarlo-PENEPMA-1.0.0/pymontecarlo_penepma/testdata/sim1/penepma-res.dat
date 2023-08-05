@@ -1,0 +1,45 @@
+
+
+   ***********************************
+   **   Program PENEPMA. Results.   **
+   ***********************************
+
+   Simulation time .........................  5.720000E-01 sec
+   Simulation speed ........................  1.748252E+02 showers/sec
+
+   Simulated primary showers ...............  1.000000E+02
+
+   Upbound primary particles ...............  3.100000E+01
+   Downbound primary particles .............  0.000000E+00
+   Absorbed primary particles ..............  6.900000E+01
+
+   Upbound fraction ...................  3.221786E-01 +- 1.7E-01
+   Downbound fraction .................  0.000000E+00 +- 0.0E+00
+   Absorption fraction ................  6.900000E-01 +- 1.4E-01
+
+   Secondary-particle generation probabilities:
+                   ----------------------------------------------
+                   |  electrons   |   photons    |  positrons   |
+   --------------------------------------------------------------
+   |   upbound     | 1.217861E-02 | 1.735488E-03 | 0.000000E+00 |
+   |               |  +- 3.0E-02  |  +- 1.2E-03  |  +- 0.0E+00  |
+   --------------------------------------------------------------
+   |   downbound   | 0.000000E+00 | 0.000000E+00 | 0.000000E+00 |
+   |               |  +- 0.0E+00  |  +- 0.0E+00  |  +- 0.0E+00  |
+   --------------------------------------------------------------
+   |   absorbed    | 1.854913E+00 | 7.522775E-03 | 0.000000E+00 |
+   |               |  +- 3.4E-01  |  +- 3.1E-03  |  +- 0.0E+00  |
+   --------------------------------------------------------------
+
+   Average deposited energies (bodies):
+      Body    1 ......  1.154334E+04 +- 1.6E+03 eV    (effic. = 8.42E+02)
+
+   Average photon energy at the detectors:
+      Detector # 1 ...  1.142210E+00 +- 6.1E-01 eV    (effic. = 5.49E+01)
+
+   Last random seeds = 1739864702 , 2008865275
+
+   Reference line: 29040500,  detector =  1,  tolerance = 5.000E-02
+                                   Relative uncertainty = 2.917E+00
+
+   ------------------------------------------------------------------------
