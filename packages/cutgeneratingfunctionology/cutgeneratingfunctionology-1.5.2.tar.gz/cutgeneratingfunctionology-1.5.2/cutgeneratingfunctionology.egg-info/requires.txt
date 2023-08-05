@@ -1,0 +1,5 @@
+
+[doc]
+sage-package
+sphinx
+sphinxcontrib-bibtex
