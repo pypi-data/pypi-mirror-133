@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+MoralisPy/__init__.py
+MoralisPy/api.py
+MoralisPy.egg-info/PKG-INFO
+MoralisPy.egg-info/SOURCES.txt
+MoralisPy.egg-info/dependency_links.txt
+MoralisPy.egg-info/top_level.txt
