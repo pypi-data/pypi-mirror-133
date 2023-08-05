@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+lfilterpy/__init__.py
+lfilterpy.egg-info/PKG-INFO
+lfilterpy.egg-info/SOURCES.txt
+lfilterpy.egg-info/dependency_links.txt
+lfilterpy.egg-info/not-zip-safe
+lfilterpy.egg-info/top_level.txt
+lfilterpy/http/__init__.py
+lfilterpy/http/filter.py
