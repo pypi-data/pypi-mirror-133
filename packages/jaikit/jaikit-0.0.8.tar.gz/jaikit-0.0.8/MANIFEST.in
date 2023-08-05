@@ -1,0 +1,2 @@
+include jaikit/data/lexicon.txt
+include jaikit/data/unicode_info.pkl
