@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/smilepngquant/PNGQuant.py
+src/smilepngquant/__init__.py
+src/smilepngquant.egg-info/PKG-INFO
+src/smilepngquant.egg-info/SOURCES.txt
+src/smilepngquant.egg-info/dependency_links.txt
+src/smilepngquant.egg-info/top_level.txt
+src/test/__init__.py
