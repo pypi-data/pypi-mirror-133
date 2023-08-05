@@ -1,0 +1,12 @@
+README.md
+setup.py
+gdschamfer/__init__.py
+gdschamfer/_static_version.py
+gdschamfer/_version.py
+gdschamfer/gdschamfer.py
+gdschamfer.egg-info/PKG-INFO
+gdschamfer.egg-info/SOURCES.txt
+gdschamfer.egg-info/dependency_links.txt
+gdschamfer.egg-info/not-zip-safe
+gdschamfer.egg-info/requires.txt
+gdschamfer.egg-info/top_level.txt
