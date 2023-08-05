@@ -1,0 +1,3 @@
+[console_scripts]
+freshenv = freshenv.cli:cli
+
