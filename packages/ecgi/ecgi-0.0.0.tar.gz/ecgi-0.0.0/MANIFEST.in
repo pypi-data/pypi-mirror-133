@@ -1,0 +1,16 @@
+include *.md
+include LICENSE
+include Version
+include requirements.txt
+include ecgi/__init__.py
+
+recursive-include ecgi *.py
+recursive-include ecgi *.txt
+recursive-include examples *.py
+recursive-include examples *.ipynb
+recursive-include *.ipynb
+recursive-include *.pkl
+recursive-include ecgi/data *.pkl
+
+recursive-exclude * __pycache__
+recursive-exclude *.yml

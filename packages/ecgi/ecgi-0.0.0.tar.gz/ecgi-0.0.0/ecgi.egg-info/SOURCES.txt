@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+Version
+requirements.txt
+setup.py
+ecgi/__init__.py
+ecgi/processing.py
+ecgi/utils.py
+ecgi.egg-info/PKG-INFO
+ecgi.egg-info/SOURCES.txt
+ecgi.egg-info/dependency_links.txt
+ecgi.egg-info/requires.txt
+ecgi.egg-info/top_level.txt
