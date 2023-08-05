@@ -1,0 +1,3 @@
+[console_scripts]
+sfilter = src.sfilter.cli:main
+
