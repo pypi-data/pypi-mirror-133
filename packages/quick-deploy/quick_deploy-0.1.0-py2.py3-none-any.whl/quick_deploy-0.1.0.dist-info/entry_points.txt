@@ -1,0 +1,3 @@
+[console_scripts]
+fast-deploy = fast_deploy.cli:main
+
