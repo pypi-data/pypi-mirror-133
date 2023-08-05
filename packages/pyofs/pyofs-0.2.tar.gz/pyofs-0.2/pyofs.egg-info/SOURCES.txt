@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+pyofs/__init__.py
+pyofs.egg-info/PKG-INFO
+pyofs.egg-info/SOURCES.txt
+pyofs.egg-info/dependency_links.txt
+pyofs.egg-info/not-zip-safe
+pyofs.egg-info/top_level.txt
