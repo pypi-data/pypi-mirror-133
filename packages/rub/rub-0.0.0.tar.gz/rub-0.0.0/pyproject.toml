@@ -1,0 +1,22 @@
+[build-system]
+requires = [ "flit_core >=3.2,<4" ]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "rub"
+version = "0.0.0"
+description = "A static generator"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { file = "COPYING" }
+authors = [ { name = "Nguyễn Gia Phong", email = "mcsinyx@disroot.org" } ]
+maintainers = [ { name = "Nguyễn Gia Phong", email = "mcsinyx@disroot.org" } ]
+keywords = [ "ssg", "feed", "markdown" ]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Utilities" ]
+dependencies = [ "markdown-it-py" ]
+urls = { SourceHut = "https://sr.ht/~cnx/rub" }
