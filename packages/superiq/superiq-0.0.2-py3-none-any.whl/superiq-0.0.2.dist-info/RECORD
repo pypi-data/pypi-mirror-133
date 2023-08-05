@@ -1,0 +1,16 @@
+superiq/__init__.py,sha256=TkGfolbNi4MDaKC1sEMG7gUASS0Oo3r4M4IVSnvfXOA,1074
+superiq/basalforebrain.py,sha256=Z1nhwNNoOv5uYnEPkM1hF7-kBzo5wZghlAj8nPAtBzw,9635
+superiq/basalforebrainOR.py,sha256=pTZ0BX3lHjBhqOCyNg-4-hG7g_gxMUglDmc57rPvF-E,4882
+superiq/basalforebrain_seg.py,sha256=nxXU8gfvYkCVWYXEJDNzmXw27i1oYimQC85J2nXqsE4,15564
+superiq/collect_volume_files.py,sha256=k2TZgYNgAOpJ3C_0s43ONRki79U42DSgBQyySZxLVg8,8811
+superiq/deep_dkt.py,sha256=JVrp8Q4PVS1a3t3MQHEwzfX2sTTzuJHEB987GfCei0s,2655
+superiq/deep_hippo.py,sha256=iJwsL90E0Zj7vo5CTvHOgEImzgnU2m306TMJ7m27Lr8,5921
+superiq/pipeline_utils.py,sha256=oTtpXyw3nArli9WgpwHOx2GwMzjLsSHbgMRHIiIIvGE,10983
+superiq/segmentation_validation.py,sha256=8CjwQsGBdNVvBFfhRgJQjOdg8W31vFgG1w8R5G40v64,10141
+superiq/super_resolution_segmentation_per_label.py,sha256=ve7Mn6yQgoxX4ar89TxxoFA1qa7PtjB4z6cBnkQG3Q8,26376
+superiq/super_resolution_segmentation_with_probabilities.py,sha256=UPWNYYNgJmpnMjwBZxj2PIY0yBdEDdiF3CrqURJmVOI,2935
+superiq-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+superiq-0.0.2.dist-info/METADATA,sha256=ox4VbCs2cGzne3ngxfzjbmQhY_RlLru1TMnT40qCzzA,272
+superiq-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+superiq-0.0.2.dist-info/top_level.txt,sha256=BH5jHRNKnKYOzRL3DpYtkYAAWG-Ac8pWPx0S_6JWiFc,8
+superiq-0.0.2.dist-info/RECORD,,
