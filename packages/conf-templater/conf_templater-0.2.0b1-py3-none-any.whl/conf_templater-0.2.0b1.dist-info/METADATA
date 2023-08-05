@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: conf-templater
+Version: 0.2.0b1
+Summary: Templater for app configuration files.
+Home-page: https://bitbucket.org/p-app/config_templater
+License: MIT
+Author: Vladimir V. Pivovarov
+Author-email: admin@p-app.ru
+Maintainer: Vladimir V. Pivovarov
+Maintainer-email: admin@p-app.ru
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: Mako (>=1.1.6,<2.0.0)
+Project-URL: Repository, https://bitbucket.org/p-app/config_templater
+Description-Content-Type: text/markdown
+
+## Config files templater
+
+Package provides templating of [mako-based](http://www.makotemplates.org/) templates of package config files. 
+
+
+### Purpose
+The main idea is, that config can be generated via console arguments of it`s required values. It is useful for deploy with configuration systems like ansible and others. 
+
+There is no more reason to keep config template itself separately from application (in deploy scripts/roles/whatever) or to define example with comments what config values require changing. 
+
+Besides that, package or program, as usual, is situated in system package directory (with config templates), that looks like one more problem during configuring.
+
+
+### Installation (standalone usage)
+```bash
+sudo -H pip install git+https://bitbucket.org/p-app/config_templater
+```
+
+
+### Usage (standalone)
+```bash
+conf_templater --help
+```
+
+
+### Usage (python package)
+- Add `git+https://bitbucket.org/p-app/config_templater` to *requirements.txt*.
+
+- Create cli script file, for example `mypackage/scripts/config.py`, that contains:
+
+```python
+from conf_templater import run_config_templating
+
+
+def run():
+    run_config_templating(package='mypackage', subpath='config')
+
+
+if __name__ == '__main__':
+    run()
+```
+
+- Create config file in package structure, for example `mypackage/config/development.mako`
+
+- Define entry point in `setup.py` file:
+```python
+from setuptools import setup
+
+setup(
+    name='mypackage',
+    install_requires=[
+        'conf_templater'
+    ],
+    entry_points={
+        'console_scripts': [
+            'mypackage_config = mypackage.scripts.config:run'
+        ]
+    }
+)
+
+```
+
+- Run for development
+```bash 
+pip install -e .
+```
+
+- Run for help
+```bash
+mypackage_config --help
+```
+
+
+### Compatibility
+
+This package is python 2 and 3 both compatible.
+
