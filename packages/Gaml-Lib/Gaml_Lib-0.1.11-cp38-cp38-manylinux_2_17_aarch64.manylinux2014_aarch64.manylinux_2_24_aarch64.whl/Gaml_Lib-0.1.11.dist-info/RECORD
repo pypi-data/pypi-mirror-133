@@ -1,0 +1,15 @@
+Gaml_Lib-0.1.11.dist-info/metadata.json,sha256=8raapXOOTG4_D30qalDvOYRHKt2ozcMnWJ_d4uPQ56M,217
+Gaml_Lib-0.1.11.dist-info/DESCRIPTION.rst,sha256=zS54wBVgy3CfSq8q7qh-JWLsjwhGW64lUZGRcMV_tdQ,9
+Gaml_Lib-0.1.11.dist-info/WHEEL,sha256=HF6dzQ-WwkZGx3f0czJkXcKOC01IfyawUzKdocMBiFM,188
+Gaml_Lib-0.1.11.dist-info/top_level.txt,sha256=xrbpUOckjnpoVDr2pCo6kMIEhXUYHT-R2bO37VoZkp4,5
+Gaml_Lib-0.1.11.dist-info/RECORD,,
+Gaml_Lib-0.1.11.dist-info/METADATA,sha256=sAac18ApjssXGUmL2yy5c6g7fWGUcwB7Z5LqFUeHuRY,134
+Gaml/_gamlpq.cpython-38-aarch64-linux-gnu.so,sha256=pdULgecWvbNBlHATuC2j2-LxSEO4NNim4670To_wj04,446424
+Gaml/_gamlprimitives.cpython-38-aarch64-linux-gnu.so,sha256=EwWiJww8HIJeg8hO-x4P9hvtA7uKNLiMOdK9--x21ok,216760
+Gaml/_gamlblock.cpython-38-aarch64-linux-gnu.so,sha256=k8hDmVzxVe4AtqPoIhEKJbYaDKZMrZ9Xot8wB0DwCHw,948888
+Gaml/hibot_client.cpython-38-aarch64-linux-gnu.so,sha256=UK_HDd-nT0qE-4qMROjy9a6vOXae-eT8oklS2Liqm2U,3590304
+Gaml/_gamlaction.cpython-38-aarch64-linux-gnu.so,sha256=A-xj01IR0qWrdS9kYEEe7DtmUCNkLumpWJHNfEfps2Q,509864
+Gaml/blocks.cpython-38-aarch64-linux-gnu.so,sha256=x3bm-QC0rDc9oCtB0MJmM1m8F-M7d0UpLbwQA_YQ0q8,1016096
+Gaml/compiler.cpython-38-aarch64-linux-gnu.so,sha256=LIu7QYdNAPRTlvojuzwO4Hpy6ryIQRcxnVVzJ92mbcg,842672
+Gaml/__init__.cpython-38-aarch64-linux-gnu.so,sha256=Pi1lYLvahXJjBEsFRqUXmB2PsF4Dpm9uJzI-xmdmoQg,763824
+Gaml/_gamlmodule.cpython-38-aarch64-linux-gnu.so,sha256=LL_PYOcZjZ_ICug3YVlvF1xF6IFuXjGvK8NXUhDmD-A,843336
