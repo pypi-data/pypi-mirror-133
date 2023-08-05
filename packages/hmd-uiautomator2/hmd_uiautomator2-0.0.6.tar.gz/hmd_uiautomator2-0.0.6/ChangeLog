@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+0.0.6
+-----
+
+* V 0.0.6 reset\_uiautomator when get NullPointerExceptionError
+* 0.0.5
+* Submit code first
+* Initial commit
