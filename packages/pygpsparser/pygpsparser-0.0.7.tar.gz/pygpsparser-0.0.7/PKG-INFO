@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pygpsparser
+Version: 0.0.7
+Summary: GPS Sentence Parser
+Home-page: https://github.com/Kun-Neng/py-gps-parser
+Author: Kun-Neng Hung
+Author-email: kunneng.hung@gmail.com
+License: UNKNOWN
+Description: # GPS parser module
+        
+        Steps
+        -----
+        * Step 1: install pygpsparser module
+        ```
+        pip install pygpsparser
+        ```
+        
+        * Step 2: import GPSParser
+        ```python
+        from pygpsparser import GPSParser
+        ```
+        
+        * Step 3: prepare GPS sentences, e.g.,
+        ```python
+        sentence_RMC = '$GNRMC,062357.00,A,2502.3376,N,12133.52528,E,0.132,,231221,,,A*68'
+        ```
+        
+        * Step 4: create GPSParser instance
+        ```python
+        gps_parser = GPSParser(local_time_zone = 'Asia/Taipei')
+        ```
+        > `local_time_zone`: set the local time zone for datetime conversion
+        
+        * Step 5: get the RMC message
+        ```python
+        if gps_parser.parse_NMEA(sentence_RMC) is True:
+            print(f'local datetime: {gps_parser.local_datetime}')
+            print(f'latlon in radian: {gps_parser.latlon_radian_RMC}')
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,13 @@
+README.md
+setup.py
+pygpsparser/__init__.py
+pygpsparser/gpsparser.py
+pygpsparser.egg-info/PKG-INFO
+pygpsparser.egg-info/SOURCES.txt
+pygpsparser.egg-info/dependency_links.txt
+pygpsparser.egg-info/requires.txt
+pygpsparser.egg-info/top_level.txt
+tests/NMEA_message_sample.py
+tests/__init__.py
+tests/test_parser/__init__.py
+tests/test_parser/test_parser.py
