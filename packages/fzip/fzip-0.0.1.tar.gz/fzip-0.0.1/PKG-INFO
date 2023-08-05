@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fzip
+Version: 0.0.1
+Summary: package to cep requests
+Home-page: https://github.com/JohnnyDev2001/fast_zipcode
+Author: Johnny Rocha
+Author-email: johnny.devcode@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<p align="center">
+    <img src="https://github.com/JohnnyDev2001/fast_zipcode/blob/main/image/ceplogo.png?raw=true" width="30%">
+</p>
+<h2 align="center" color="green">Fast_ZipCode</h2>
+
+
+## Instalação
+
+Clone o repositorio usando o link abaixo.
+
+```
+git clone https://github.com/JohnnyDev2001/fast_zipcode.git
+```
+
