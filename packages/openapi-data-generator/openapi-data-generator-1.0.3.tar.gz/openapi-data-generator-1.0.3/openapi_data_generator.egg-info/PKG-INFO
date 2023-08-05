@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openapi-data-generator
+Version: 1.0.3
+Summary: Generate all valid and invalid permutations of payloads - according OpenAPI specification
+Home-page: https://github.com/elyashiv3839/openapi-data-generator.git
+Author: elyashiv3839, RAZALKALY
+Author-email: elyashiv3839@gmail.com, RAZALKALY@YAHOO.COM
+License: UNKNOWN
+Download-URL: https://github.com/elyashiv3839/openapi-data-generator/archive/refs/tags/1.0.3.tar.gz
+Project-URL: Bug Tracker, https://github.com/elyashiv3839/openapi-data-generator.git/issues
+Description: file: README.md
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
