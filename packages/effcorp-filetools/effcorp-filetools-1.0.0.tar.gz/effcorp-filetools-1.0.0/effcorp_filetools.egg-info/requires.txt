@@ -1,0 +1,17 @@
+pandas
+numpy
+openpyxl
+XlsxWriter
+reportlab
+PyPDF2
+pdfminer
+datetime
+getopt
+tabula
+tabulate
+win32com
+PyPDF4
+pdf2image
+python-pptx
+PIL
+time
