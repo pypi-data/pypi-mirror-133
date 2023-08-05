@@ -1,0 +1,6 @@
+README.md
+setup.py
+beichentokenizer.egg-info/PKG-INFO
+beichentokenizer.egg-info/SOURCES.txt
+beichentokenizer.egg-info/dependency_links.txt
+beichentokenizer.egg-info/top_level.txt
