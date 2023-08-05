@@ -1,0 +1,8 @@
+ecgi/__init__.py,sha256=ZX19CygNEmoCdU4YOw59Qtk2POQnJwYjB20K_hkwLzE,260
+ecgi/processing.py,sha256=e5m88LvsJZfQ5rwckDcCu36xUE9caFlPqTlcBRY3zBM,925
+ecgi/utils.py,sha256=qU6DaYlQtK2PsZ2jLqelrEk-Ox6yR663xDE0b_AKW8Q,2399
+ecgi-0.0.0.dist-info/LICENSE,sha256=2q6yj_qr2PiTroJnWyWSXeSWL8fypSljxMYRhCSL-tM,1073
+ecgi-0.0.0.dist-info/METADATA,sha256=0L2iZmV8IbhBxKzZ9PgoouQN4jYYsXlI9VPutFTflHk,2225
+ecgi-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ecgi-0.0.0.dist-info/top_level.txt,sha256=gdVG_uRHUYgdKVjjt1M9fFEJpqSGTcXV59WhTr0naoY,5
+ecgi-0.0.0.dist-info/RECORD,,

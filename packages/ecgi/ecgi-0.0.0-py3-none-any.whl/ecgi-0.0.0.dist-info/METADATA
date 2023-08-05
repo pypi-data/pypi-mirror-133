@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ecgi
+Version: 0.0.0
+Summary: ECGI: 
+Home-page: https://ecgikit.github.io/
+Author: Nikesh Bajaj
+Author-email: n.bajaj@imperial.ac.uk
+License: MIT
+Download-URL: https://github.com/Nikeshbajaj/ecgi/tarball/0.0.0
+Project-URL: Documentation, https://ecgi.readthedocs.io/
+Project-URL: Say Thanks!, https://github.com/Nikeshbajaj
+Project-URL: Source, https://github.com/Nikeshbajaj/ecgi
+Project-URL: Tracker, https://github.com/Nikeshbajaj/ecgi/issues
+Keywords: ECGI
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: spkit
+Requires-Dist: scikit-learn
+
+# Electrocardiogram Imaging
+
+### Links: **[Homepage](https://ecgikit.github.io/)** | **[Github](https://github.com/Nikeshbajaj/ecgi)**  |  **[PyPi - project](https://pypi.org/project/ecgi/)** |
+-----
+-----
+-----
+
+## New Updates
+
+
+
+# Contacts:
+
+* **Nikesh Bajaj**
+* n.bajaj[AT]imperial[dot]ac[dot]uk
+* http://nikeshbajaj.in
+### Imperial College London
+______________________________________
+
+
