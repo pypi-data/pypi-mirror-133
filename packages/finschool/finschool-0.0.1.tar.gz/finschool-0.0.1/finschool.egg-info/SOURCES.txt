@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+finschool/__init__.py
+finschool/newschool.py
+finschool/school.py
+finschool.egg-info/PKG-INFO
+finschool.egg-info/SOURCES.txt
+finschool.egg-info/dependency_links.txt
+finschool.egg-info/top_level.txt
