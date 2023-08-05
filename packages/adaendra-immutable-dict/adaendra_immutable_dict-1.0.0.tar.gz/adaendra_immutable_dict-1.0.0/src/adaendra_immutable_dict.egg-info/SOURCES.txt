@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/adaendra_immutable_dict/AdaendraImmutableDict.py
+src/adaendra_immutable_dict/__init__.py
+src/adaendra_immutable_dict.egg-info/PKG-INFO
+src/adaendra_immutable_dict.egg-info/SOURCES.txt
+src/adaendra_immutable_dict.egg-info/dependency_links.txt
+src/adaendra_immutable_dict.egg-info/top_level.txt
