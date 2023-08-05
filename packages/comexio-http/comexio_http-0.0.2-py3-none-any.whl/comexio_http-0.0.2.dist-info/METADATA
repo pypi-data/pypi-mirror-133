@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: comexio-http
+Version: 0.0.2
+Summary: Library to read and write variables on a Comexio server over their HTTP API
+Home-page: https://github.com/sanderd17/comexio-http
+Author: Sander Deryckere
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/sanderd17/comexio-http/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# comexio-http
+Python implementation for the Comexio HTTP API
+
+## Documentation
+
+Go to `/admin/api/home` on your Comexio server and enable the HTTP API with a chosen user and password. Enable access for the wanted endpoints.
+
+Run the demo script as
+```
+$ python main.py
+```
+
+This will prompt you to connect to the Comexio server, and guid you through the proces to get and set variables.
+
+## Legal
+
+License: MIT - http://opensource.org/licenses/MIT
+
+"Comexio" is a trademark owned by Comexio GmbH, see www.comexio.com for more information. I am in no way affiliated with the Comexio organization.
+
+
