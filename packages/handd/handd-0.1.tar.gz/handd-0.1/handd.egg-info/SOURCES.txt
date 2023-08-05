@@ -1,0 +1,9 @@
+README.md
+setup.py
+handd/__init__.py
+handd/handd.py
+handd.egg-info/PKG-INFO
+handd.egg-info/SOURCES.txt
+handd.egg-info/dependency_links.txt
+handd.egg-info/requires.txt
+handd.egg-info/top_level.txt
