@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mechmean
+Version: 0.0.2
+Summary: mechmean
+Home-page: https://github.com/JulianKarlBauer/mechmean/
+Author: Julian Karl Bauer
+Author-email: juliankarlbauer@gmx.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+This Python package contains selected mean field methods in the context of continuum mechanics with special focus on orientation averaged homogenization
+
