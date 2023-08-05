@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ncolor
+Version: 1.0.0
+Summary: label matrix coloring algorithm
+Home-page: https://github.com/kevinjohncutler/ncolor
+Author: Kevin Cutler
+Author-email: kevinjohncutler@outlook.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20.0)
+Requires-Dist: scipy
+Requires-Dist: numba
+Requires-Dist: edt
+Requires-Dist: fastremap
+Requires-Dist: scikit-image
+
+# ncolor
+Fast remapping of intance labels 1,2,3,...,M to N repeating, disjoint labels, 1,2,3,...,N. The four-color-theorem guarantees that at most four colors is required for any 2D segmentation/map, but this algorithm will opt for 5 or 6 to give an acceptable result quickly. Also works for 3D labels (&lt;8 colors typically required) and perhaps higher dimensions as well.
+
+
