@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/idoji.py
+src/idoji.egg-info/PKG-INFO
+src/idoji.egg-info/SOURCES.txt
+src/idoji.egg-info/dependency_links.txt
+src/idoji.egg-info/entry_points.txt
+src/idoji.egg-info/top_level.txt
+tests/conftest.py
+tests/test_idoji.py
