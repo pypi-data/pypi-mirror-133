@@ -1,0 +1,9 @@
+cookiecutter
+
+[dev]
+pytest
+pytest-cookies
+
+[doc]
+sphinx
+sphinxcontrib-napolean

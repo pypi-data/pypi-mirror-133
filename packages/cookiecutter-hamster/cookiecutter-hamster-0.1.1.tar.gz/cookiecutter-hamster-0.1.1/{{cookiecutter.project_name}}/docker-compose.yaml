@@ -1,0 +1,38 @@
+version: "3"
+services:
+  mysqldb:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASS:-test}
+      MYSQL_DATABASE: ${DB_NAME:-ghost}
+      MYSQL_USER: ${DB_USER:-test}
+      MYSQL_PASSWORD: ${DB_PASS:-test}
+
+  adminer:
+    image: adminer
+    restart: always
+    expose:
+      - 8080
+    links:
+      - mysqldb
+    environment:
+      ADMINER_DESIGN: ${ADMINER_THEME:-brade}
+
+  ghost:
+    image: ghost:4-alpine
+    restart: always
+    ports:
+      - "2368:2368"
+    links:
+      - mysqldb
+    environment:
+      database__client: mysql
+      database__connection__host: mysqldb
+      database__connection__user: ${DB_USER:-test}
+      database__connection__password: ${DB_PASS:-test}
+      database__connection__database: ${DB_NAME-ghost}
+      url: ${URL:-slowmole.com}
+volumes:
+  db_data: {}
