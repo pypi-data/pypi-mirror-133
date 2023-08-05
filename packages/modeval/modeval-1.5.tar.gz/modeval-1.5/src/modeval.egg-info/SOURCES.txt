@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/modeval/__init__.py
+src/modeval/modeval.py
+src/modeval.egg-info/PKG-INFO
+src/modeval.egg-info/SOURCES.txt
+src/modeval.egg-info/dependency_links.txt
+src/modeval.egg-info/top_level.txt
