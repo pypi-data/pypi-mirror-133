@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: spi-lora
+Version: 0.2.1
+Summary: Control LoRa modems like the SX127x over SPI
+Home-page: https://github.com/interfect/spi-lora
+Author: Adam Novak
+Author-email: interfect@gmail.com
+License: AGPL
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: spidev (>=3.1)
+
+UNKNOWN
+
