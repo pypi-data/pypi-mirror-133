@@ -1,0 +1,11 @@
+include LICENSE
+include README.md
+include MANIFEST.in
+include requirements.txt
+
+include setup.py
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include *.rst conf.py Makefile make.bat *.jpg *.png *.gif
