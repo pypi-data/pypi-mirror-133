@@ -1,0 +1,7 @@
+setup.py
+artificium/__init__.py
+artificium.egg-info/PKG-INFO
+artificium.egg-info/SOURCES.txt
+artificium.egg-info/dependency_links.txt
+artificium.egg-info/not-zip-safe
+artificium.egg-info/top_level.txt
