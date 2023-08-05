@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pptChecker
+Version: 0.3.10
+Summary: Proxy Checker
+Home-page: https://github.com/roman-bergman/pptChecker
+Author: Roman Bergman
+Author-email: roman.bergman@protonmail.com
+License: AGPL3.0
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: requests
+
+UNKNOWN
+
