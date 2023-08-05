@@ -1,0 +1,4 @@
+[console_scripts]
+event-horyzen=event_horyzen.event_horyzen:cli
+event-horyzen-plot=event_horyzen.animated_plot:cli
+
