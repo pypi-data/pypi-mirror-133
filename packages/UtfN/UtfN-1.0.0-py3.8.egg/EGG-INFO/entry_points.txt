@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        utfn=utfn.__main__:main
+    
