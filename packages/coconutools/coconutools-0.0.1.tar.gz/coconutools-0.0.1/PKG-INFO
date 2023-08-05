@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: coconutools
+Version: 0.0.1
+Summary: Modern API for good old MS-COCO CV dataset format
+License: MIT
+Author: Roman Glushko
+Author-email: roman.glushko.m@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
