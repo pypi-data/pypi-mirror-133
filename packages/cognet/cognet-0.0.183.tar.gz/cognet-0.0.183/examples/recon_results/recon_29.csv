@@ -1,0 +1,241 @@
+feature_names,sample,qsampled,random_sample
+OCC10,e,e,e
+PRESTG105PLUS,e,,b
+SPHRS2,e,e,b
+COHRS2,e,,e
+SPOCC10,e,,b
+SPPRES10,e,,e
+COOCC10,e,,e
+PAPRES10,e,,c
+PAPRES105PLUS,e,d,c
+MAOCC10,e,e,a
+MAPRES10,e,,b
+sibs,e,,e
+age,c,,b
+agekdbrn,e,,c
+educ,c,,a
+paeduc,e,,c
+maeduc,e,,b
+dipged,high school diploma,high school diploma,ged
+INCOM16,average,below average,far below average
+unrelat,e,c,e
+earnrs,c,,e
+srcbelt,"suburb, 12 lrgst",,12 lrgst smsa's
+PRES16,no answer,,trump
+polviews,moderate,,conservative
+natroad,too little,too little,too much
+natpark,about right,,about right
+natchld,too little,too little,about right
+natsci,too little,,too little
+natenrgy,too little,,too much
+natcityy,about right,about right,about right
+natcrimy,about right,too little,about right
+nateducy,too little,,about right
+natfarey,too little,too little,too much
+tax,too high,,about right
+librac,remove,,not remove
+colcom,fired,,not fired
+spkmil,not allowed,allowed,allowed
+colmil,not allowed,allowed,not allowed
+spkhomo,allowed,,allowed
+libhomo,not remove,not remove,remove
+spkmslm,not allowed,not allowed,"yes, allowed"
+courts,too harsh,,not harsh enough
+relig,none,none,native american
+reliten,no religion,,not very strong
+prayer,disapprove,,approve
+bible,inspired word,,word of god
+racopen,cant discriminate,,owner decides
+raclive,yes,no,yes
+happy,pretty happy,very happy,not too happy
+socrel,sev times a mnth,,never
+socfrend,sev times a year,,once a month
+finalter,stayed same,,better
+getahead,both equally,hard work,luck or help
+fepol,disagree,disagree,disagree
+abdefect,yes,no,yes
+abnomore,yes,,yes
+abpoor,yes,,no
+abany,yes,,no
+chldidel,e,,b
+pillok,agree,agree,disagree
+divlaw,stay same,,easier
+teensex,almst always wrg,,almst always wrg
+homosex,not wrong at all,,always wrong
+LETDIE1,yes,,yes
+SUICIDE2,no,,no
+SUICIDE3,no,,yes
+fear,no,,no
+owngun,refused,,yes
+news,few times a week,,never
+coop,cooperative,"friendly,interested","friendly,interested"
+fechld,agree,agree,strongly disagree
+fepresch,disagree,,disagree
+fefam,disagree,,strongly disagree
+RACDIF3,yes,,no
+helpsick,e,,c
+reborn,no,yes,yes
+savesoul,no,,yes
+numcong,e,,e
+wlthhsps,e,e,c
+workwhts,c,c,e
+workblks,c,c,e
+workhsps,c,c,c
+MARAsian,neither favor nor oppose,,favor
+marhisp,neither favor nor oppose,neither favor nor oppose,favor
+discaff,not very likely,somewhat likely,not very likely
+CLOSETO1,e,,e
+CLOSETO3,e,,c
+CLOSETO4,e,,c
+CLOSETO5,e,,c
+SEETALK1,e,,c
+SEETALK2,e,,b
+SEETALK3,e,,c
+SEETALK5,e,e,b
+MYPROBS1,e,e,d
+MYPROBS3,e,,d
+SEVERE3,e,e,d
+SEVERE4,e,,e
+SEVERE5,e,,e
+DANGOTH1,e,,c
+DANGOTH2,e,e,d
+DANGOTH3,e,,d
+DANGSLF1,e,,b
+DANGSLF3,e,,c
+DANGSLF4,e,,d
+DANGSLF5,e,,d
+sprtprsn,modeate spirtual,,slight spiritual
+othlang,no,yes,yes
+compuse,yes,,no
+emailmin,e,e,c
+wwwhr,e,e,c
+waypaid,e,c,c
+moredays,e,,e
+hrsrelax,e,,b
+physhlth,e,c,d
+mntlhlth,e,,c
+hurtatwk,e,,e
+usetech,e,,b
+weight,e,e,a
+ntwkhard,e,,e
+LIFEIN5,e,e,a
+poorserv,a few times a year,a few times a month,less than once a year
+afraidof,never,,at least once a week
+quallife,good,very good,fair
+hlthmntl,good,poor,fair
+physacts,completely,completely,moderately
+emoprobs,c,d,b
+ratepain,b,c,b
+abfelegl,should,,should not
+abmoral,it depends,it depends,not morally opposed
+ABHELP1,yes,yes,yes
+ABHELP2,no,,no
+ABHELP4,yes,,no
+ABMEDGOV2,a woman and her medical professional should decide,,a woman and her medical professional should decide
+abinspay,people should be able,,people should be able
+extraval,e,,e
+toofast,agree,,disagree
+scistudy,little understanding,,clear understanding
+ODDS1,no,,yes
+ODDS2,yes,,no
+hotcore,True,,False
+radioact,False,,False
+boyorgrl,True,,False
+EVOLVED2,True,,True
+colsci,no,,no
+colscinm,e,c,c
+hsphys,no,,yes
+intfarm,not at all interested,,moderately interested
+inteduc,very interested,,moderately interested
+intsci,not at all interested,,very interested
+intecon,moderately interested,,not at all interested
+intspace,moderately interested,,very interested
+intenvir,very interested,,not at all interested
+visnhist,c,,d
+scientgo,agree,agree,agree
+scienthe,agree,agree,disagree
+compwage,e,,d
+marcohab,na,"not married, no cohabitating partner","not married, cohabitating partner"
+trcourts,e,,e
+trbigbus,e,,b
+healthissp,good,very good,poor
+hubbywrk,strongly disagree,,strongly disagree
+marhomo,agree,,neither agree nor disagree
+XMARSEX1,always wrong,,not wrong at all
+conbiz,some confidence,,very little confidence
+conchurh,some confidence,,complete confidence
+concourt,some confidence,some confidence,very little confidence
+conschls,some confidence,some confidence,very little confidence
+godmeans,disagree,,neither agree nor disagree
+egomeans,agree,agree,agree
+relactiv,never,less than once a year,about once or twice a year
+relscrpt,no,,no
+religcon,not agree/dsagre,disagree,disagree
+mywaygod,neither agree nor disagree,strongly disagree,disagree
+relobjct,no,,yes
+relgenbar,neither agree nor disagree,,disagree
+buddhsts,neither positive nor negative,,very negative
+jews,neither positive nor negative,neither positive nor negative,somewhat positive
+nukegen,somewhat dangerous,extremely dangerous,extremely dangerous
+indusgen,extremely dangerous,,somewhat dangerous
+chemgen,very dangerous,,not very dangerous
+LETIN1A,remain the same as it is,reduced a little,"reduced a lot, or"
+numwomen,e,,c
+GENETST1,nothing at all,,nothing at all
+realinc,e,,c
+coninc,e,,b
+conrinc,e,,e
+hispanic,not hispanic,not hispanic,not hispanic
+DWELOWN16,paid rent,owned or was buying,owned or was buying
+wordb,correct,,correct
+wordc,correct,,incorrect
+wordd,correct,correct,incorrect
+worde,correct,,incorrect
+GENDER1,female,female,female
+OLD1,c,,d
+OLD2,e,c,b
+OLD6,e,,c
+OLD7,e,e,c
+OLD8,e,e,b
+OLD11,e,,e
+OLD12,e,e,b
+hefinfo,1st person,,11th person
+hhrace,black,,"other, mixed"
+respnum,1st person,,11th person
+hhtype,"1adlt,0kids","1adlt,0kids","1adlt,0kids"
+famgen,1 gen,,"2 gens, children"
+rplace,head of household,head of household,non-relative
+visitors,no visitors,no visitors,1 visitor
+dateintv,628,615,514
+ISCO88,e,,e
+PAISCO88,e,b,e
+MAISCO88,e,,e
+SEI10,e,e,c
+PASEI10EDUC,e,,c
+MASEI10INC,e,,d
+SPSEI10,e,c,c
+SPSEI10INC,e,e,c
+COSEI10,e,,e
+COPRES105PLUS,e,e,d
+zodiac,leo,leo,cancer
+INTRACE1,white,,asian indian
+WHOELSE1,no,,no
+WHOELSE4,no,,yes
+feeused,"yes, money",,no
+feelevel,d,,c
+intage,60,,39
+intethn,white,,hispanic
+mode,over the phone,,in-person
+intyrs,0,8,3
+consent,r consents to recording interview,,r consents to recording interview
+version,1,,2
+phase,phase one - initial cases,,phase two - sub sampled cases
+spaneng,english,english,english
+hlthstrt,good,,good
+huadd,yes,,no
+kidsinhh,no,no,no
+incuspop,average,lower than average,higher than average
+neisafe,very safe,,somewhat safe
+wtssall,c,,c
+vstrat,3302,3314,3311
+vpsu,2,2,1
