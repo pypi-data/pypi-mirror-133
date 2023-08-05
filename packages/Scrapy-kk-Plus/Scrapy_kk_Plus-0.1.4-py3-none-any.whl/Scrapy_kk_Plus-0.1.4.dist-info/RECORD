@@ -1,0 +1,16 @@
+scrapy_kk_plus/__init__.py,sha256=ZOnQyZvxCd_fnAd_2eQI3spNsEDRZOjgtx9O0q6FrnM,179
+scrapy_kk_plus/__version__.py,sha256=Rtv0mOd6ZbUE8cGNroCp4At9nsvZBx9PINGzsAU_NWI,75
+scrapy_kk_plus/middlewares.py,sha256=-JH5fSrmCPkP7hcohvbl5j2-TXe-1wpKmP_6u1EfZWA,3682
+scrapy_kk_plus/pipelines.py,sha256=R8EM7aIoTvtFWVL3XCwMsMR2peTrvmpftxZ1QpWnTeU,1713
+scrapy_kk_plus/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_kk_plus/libs/bloomfilter.py,sha256=izdVvESaKilrmsSstriolcnZJfMtBL_nEA6szdfktHc,1676
+scrapy_kk_plus/libs/defaults.py,sha256=rYmxG86ucPlHRNPnxOTYHgfdufVqZ2mGaGq8NFyTeKI,164
+scrapy_kk_plus/libs/dupefilter.py,sha256=bfdx7mQG1tjssJJDQy2MjTrOc5DckVnEdb0xc98Ub0E,4884
+scrapy_kk_plus/libs/pipelinesbase.py,sha256=6qENVIt513NzAD8QSjND_egDG2qaKDPa7lcx3mzI79s,1882
+scrapy_kk_plus/libs/scheduler.py,sha256=QT0o95rEDAWOGY8P1h1LpxCGTq53UEqdjEkhKxxW4R0,1356
+scrapy_kk_plus/use/PermanentFilterManager.py,sha256=RnF_4LcVfA0bwRiyEgYJf7UNytJlcX2kmsL5gZhXpKE,717
+scrapy_kk_plus/use/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Scrapy_kk_Plus-0.1.4.dist-info/METADATA,sha256=JoR4yNBEcvYQ6hMKTP9hi0_Al-5A1uDfaDQJjX_UB7Q,907
+Scrapy_kk_Plus-0.1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Scrapy_kk_Plus-0.1.4.dist-info/top_level.txt,sha256=zLbQb6DcZRednpg5n-tXM8pGVNzcrDKBq3nqHOnjrSo,15
+Scrapy_kk_Plus-0.1.4.dist-info/RECORD,,
