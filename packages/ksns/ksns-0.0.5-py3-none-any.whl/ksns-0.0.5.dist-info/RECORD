@@ -1,0 +1,11 @@
+ksns/__init__.py,sha256=BXXm0ewhzx27ImVI2urKi1oIpSr0mru1S7ktvBrtWzg,19
+ksns/__main__.py,sha256=xW2xCM8VmjXNzQL1rCPeKYKkDcJI4-ScQX_xenLnSjY,87
+ksns/cli.py,sha256=sam8qMzdELDnHq63OG8BenX6r6l-YvcgFpYtb42nWlY,3219
+ksns/client.py,sha256=G3UKMClaSCRNngoarerX6NfurlwuDrTkdAAPW-g82wY,927
+ksns/const.py,sha256=_32cQbmocLQ_P-lujrul_N9Rt-3kubnClTO4BT4ASdM,224
+ksns-0.0.5.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ksns-0.0.5.dist-info/METADATA,sha256=_2RWtVb15wlIyP4MqroulKsWwc-QYr4B5Zz2ga0JzpI,2087
+ksns-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ksns-0.0.5.dist-info/entry_points.txt,sha256=P_natSjuz2EmwCmWW3XUfeYWYAo6AyhKno29WBvBwRY,58
+ksns-0.0.5.dist-info/top_level.txt,sha256=ISFpE6nFYbu4Whu8WXF8QUgLmGC-w1tQbzwZWW9ONLo,5
+ksns-0.0.5.dist-info/RECORD,,

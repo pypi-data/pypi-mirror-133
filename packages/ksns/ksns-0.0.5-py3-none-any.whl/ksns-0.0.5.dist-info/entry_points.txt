@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ksns=ksns.cli:main
+    
