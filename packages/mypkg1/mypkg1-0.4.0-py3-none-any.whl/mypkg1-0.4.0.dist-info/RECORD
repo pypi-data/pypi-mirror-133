@@ -1,0 +1,6 @@
+mypkg1/__init__.py,sha256=LNlouvFvwZs0J34SCaUqpmwPxhXLDFpTpq46ILXhOrQ,119
+mypkg1/main.py,sha256=J17V1WJyZJkdRunncQUP3EInTgLEmnbxF4EFCnwmPHQ,185
+mypkg1-0.4.0.dist-info/METADATA,sha256=02adv_jOzu1AoqRsfDBNQguSm9fhDdqC1qRaLtKrKvQ,896
+mypkg1-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypkg1-0.4.0.dist-info/top_level.txt,sha256=9wSquo6Gqey5JNlvuoTkprnt1tdWSDVgaA_WxlP6GLI,7
+mypkg1-0.4.0.dist-info/RECORD,,
