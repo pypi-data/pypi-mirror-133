@@ -1,0 +1,3 @@
+[console_scripts]
+cfspeedtest = cloudflarepycli.__main__:main
+
