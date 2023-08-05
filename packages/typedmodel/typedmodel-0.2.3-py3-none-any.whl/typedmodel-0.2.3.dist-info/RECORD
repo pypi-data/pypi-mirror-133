@@ -1,0 +1,9 @@
+typedmodel/__init__.py,sha256=vuPsmCM48cDF_HUrjHSU_BcllcTHu3n8AO7cLbns3b8,30
+typedmodel/compat.py,sha256=e7bvexsu5TnB3USfbyqugvtk0uhYwpJEqqQUmnxpMcQ,747
+typedmodel/exceptions.py,sha256=l2JbhpNRrUWip0r1UJ3kL-L2c7UEOhoJtLYvS0LWask,308
+typedmodel/models.py,sha256=WQJZPbX9bfOKiGlc1La7N0VI4aG0RpyS2eMUfZOqXVc,3004
+typedmodel/utils.py,sha256=3Am8NaObdJqirmIZbpUSJYiY40-r5ojcHyldVdsdRdw,1393
+typedmodel-0.2.3.dist-info/METADATA,sha256=tGwNhOoY15_wcYU_31oB7EhpRtjw1uHD2LSs8tNY114,1023
+typedmodel-0.2.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+typedmodel-0.2.3.dist-info/top_level.txt,sha256=5C80BQ4rwkS5uU1dZas0Ddo0-dh9XP5bHFRhZIU4j2s,11
+typedmodel-0.2.3.dist-info/RECORD,,
