@@ -1,0 +1,6 @@
+aws_sqs_batchlib.py,sha256=AprRVJ5pIle7Lt62S8OamVpd-E2hTM9ariN_woYYSwE,2464
+py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_sqs_batchlib-1.0.1.dist-info/LICENSE,sha256=MTmLjbhoAe0s8tSOYgbtQBgAmHfOOAJnUtBk4uqQNcw,1093
+aws_sqs_batchlib-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aws_sqs_batchlib-1.0.1.dist-info/METADATA,sha256=nEVT1k72UkrDdlWXIRUpbSUqjvVgvND8ruMyOos_aIc,2944
+aws_sqs_batchlib-1.0.1.dist-info/RECORD,,
