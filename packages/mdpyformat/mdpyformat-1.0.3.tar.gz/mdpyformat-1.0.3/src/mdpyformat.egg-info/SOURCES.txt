@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/mdpyformat/__init__.py
+src/mdpyformat/mdf.py
+src/mdpyformat/tocgen.py
+src/mdpyformat.egg-info/PKG-INFO
+src/mdpyformat.egg-info/SOURCES.txt
+src/mdpyformat.egg-info/dependency_links.txt
+src/mdpyformat.egg-info/requires.txt
+src/mdpyformat.egg-info/top_level.txt
