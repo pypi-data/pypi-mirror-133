@@ -1,0 +1,2 @@
+Clien-karjakak>=0.1.7
+DecAn-karjakak>=0.2.5
