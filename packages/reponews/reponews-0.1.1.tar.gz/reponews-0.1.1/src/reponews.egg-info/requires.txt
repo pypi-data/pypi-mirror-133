@@ -1,0 +1,14 @@
+click>=8.0
+eletter~=0.2
+ghrepo~=0.1
+mailbits~=0.2
+outgoing~=0.3
+platformdirs~=2.1
+pydantic~=1.7
+python-dotenv~=0.11
+requests~=2.20
+tomli<3.0,>=1.2
+
+[:python_version < "3.8"]
+backports.cached-property
+typing_extensions
