@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+CryptICE/__init__.py
+CryptICE.egg-info/PKG-INFO
+CryptICE.egg-info/SOURCES.txt
+CryptICE.egg-info/dependency_links.txt
+CryptICE.egg-info/top_level.txt
