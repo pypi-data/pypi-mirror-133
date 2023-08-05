@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: handwritten-signature-verification
+Version: 0.0.3
+Summary: Argument passed are image1, image2 & modelname(VGG16, ResNet, AlexNet) to return match/unmatch.
+Home-page: https://github.com/eryash15/handsignverify
+Author: Yash Gupta
+Author-email: eryash15@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/eryash15//handsignverify/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+handwritten-signature-verification
+
+Argument passed are image1, image2 & modelname(VGG16, ResNet, AlexNet) to return match/unmatch. 
+
+[incomplete]
+
