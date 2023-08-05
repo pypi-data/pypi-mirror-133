@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: punx
+Version: 0.3.0
+Summary: Python Utilities for NeXus
+Home-page: https://prjemian.github.io/punx
+Author: Pete R. Jemian
+Author-email: prjemian@gmail.com
+License: Creative Commons Attribution 4.0 International Public License (see LICENSE file)
+Keywords: NeXus,HDF5
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Freely Distributable
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Dist: h5py
+Requires-Dist: lxml
+Requires-Dist: numpy
+Requires-Dist: pyRestTable
+Requires-Dist: requests
+
+punx: Python Utilities for NeXus
+
+* home: https://prjemian.github.io/punx
+* GitHub: https://github.com/prjemian/punx/archive/main.zip
+* PyPI: https://pypi.python.org/pypi/punx/
+* Conda: https://anaconda.org/conda-forge/punx
+* Copyright: 2014-2022, Pete R. Jemian
+* email: prjemian@gmail.com
+
