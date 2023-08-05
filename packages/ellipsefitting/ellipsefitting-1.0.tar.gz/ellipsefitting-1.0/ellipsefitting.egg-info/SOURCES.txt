@@ -1,0 +1,17 @@
+.bumpversion.cfg
+.gitignore
+LICENSE
+README.md
+ellipse.py
+example.py
+requirements.txt
+setup.py
+test.py
+.circleci/config.yml
+ellipsefitting.egg-info/PKG-INFO
+ellipsefitting.egg-info/SOURCES.txt
+ellipsefitting.egg-info/dependency_links.txt
+ellipsefitting.egg-info/requires.txt
+ellipsefitting.egg-info/top_level.txt
+media/WSCG98.pdf
+media/ellipse_fit.png
