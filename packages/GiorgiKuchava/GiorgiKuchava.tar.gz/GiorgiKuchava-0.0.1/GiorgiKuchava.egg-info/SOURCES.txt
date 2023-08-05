@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+LICESNCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+GiorgiKuchava.egg-info/PKG-INFO
+GiorgiKuchava.egg-info/SOURCES.txt
+GiorgiKuchava.egg-info/dependency_links.txt
+GiorgiKuchava.egg-info/top_level.txt
