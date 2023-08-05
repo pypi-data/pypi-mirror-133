@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sypdf.egg-info/PKG-INFO
+sypdf.egg-info/SOURCES.txt
+sypdf.egg-info/dependency_links.txt
+sypdf.egg-info/top_level.txt
