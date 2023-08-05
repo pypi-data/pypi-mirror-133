@@ -1,0 +1,6 @@
+leidenalg
+numpy
+scrublet
+sklearn
+igraph
+pysam
