@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gharbala
+Version: 0.1.5
+Summary: Remove music from videos and publish it to wordpress as posts
+License: GPL
+Author: Ahmed Kamel
+Author-email: k.tricky@gmail.com
+Requires-Python: >=3.6,<3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
+Requires-Dist: Pillow (>=8.4.0,<9.0.0)
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: google-cloud-translate (>=3.6.1,<4.0.0)
+Requires-Dist: htmlmin (>=0.1.12,<0.2.0)
+Requires-Dist: internetarchive (>=2.2.0,<3.0.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: sentry-sdk (>=1.5.1,<2.0.0)
+Requires-Dist: spleeter (>=2.3.0,<3.0.0)
+Requires-Dist: tornado (>=6.1,<7.0)
+Requires-Dist: youtube_dl (>=2021.12.17,<2022.0.0)
+Requires-Dist: yt-dlp (>=2021.12.27,<2022.0.0)
