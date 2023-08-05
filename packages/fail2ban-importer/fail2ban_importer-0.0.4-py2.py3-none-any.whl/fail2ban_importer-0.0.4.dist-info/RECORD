@@ -1,0 +1,6 @@
+fail2ban_importer/__init__.py,sha256=p_QvR6H3ybWI6DA4uQaw1rkIvMe3uSv7yCkMaQeoZUA,102
+fail2ban_importer/__main__.py,sha256=fKZwzUNyN-dN6JF_TFzRPRiiwP9LIiAKpPB4u-XyHT4,8756
+fail2ban_importer-0.0.4.dist-info/entry_points.txt,sha256=M7_1sSeWK8zeL5UaUiv-frTyJ9QR_nPl2x8BBzD4lX4,68
+fail2ban_importer-0.0.4.dist-info/WHEEL,sha256=2adPsdwavOXlr3i4h108dwQdqKgJbVa5zTEEuD11F08,99
+fail2ban_importer-0.0.4.dist-info/METADATA,sha256=uyXCwUhcdn-DNsolTLrGK04pGsNQxl3wDlJrwvC8jKI,3382
+fail2ban_importer-0.0.4.dist-info/RECORD,,
