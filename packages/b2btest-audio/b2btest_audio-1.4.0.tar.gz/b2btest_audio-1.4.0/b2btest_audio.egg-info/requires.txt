@@ -1,0 +1,6 @@
+b2btest
+setuptools>40.5
+wavefile
+
+[:python_version < "3.5"]
+pathlib2
