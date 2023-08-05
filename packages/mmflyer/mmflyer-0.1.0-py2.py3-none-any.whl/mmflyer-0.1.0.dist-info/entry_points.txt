@@ -1,0 +1,3 @@
+[console_scripts]
+mmd = mmdesigner.cli:cli
+

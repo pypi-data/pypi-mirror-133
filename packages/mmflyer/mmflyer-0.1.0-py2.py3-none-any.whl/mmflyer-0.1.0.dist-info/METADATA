@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: mmflyer
+Version: 0.1.0
+Summary: Indoor model duration assessment
+Home-page: https://github.com/rblack42/math-magik
+Author: Roie R. Black
+Author-email: roie.black@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: tox
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7, <3.10
+Description-Content-Type: text/x-rst
+
+Math Magik Flyer
+################
+:Author: Roie R. Black
+:Email: roie.black@gmail.com
+:Docs: https://rblack42.github.io/math-magik-flight-time
+
+..  start-badges
+
+.. list-table::
+    :stub-columns: 1
+
+    * - tests
+      - | |github| |travis| |appveyor| |coverage|
+
+    * - package
+      - | |version| |wheel| |supported-versions| |commits-since| |status|
+
+
+
+.. |github| image:: https://github.com/rblack42/math-magik/actions/workflows/python-app.yml/badge.svg
+    :alt: Github Workflows
+    :target: https://github.com/rblack42/math-magik
+
+.. |travis| image:: https://travis-ci.com/rblack42/math-magik.svg?branch=main
+    :alt: Travis-CI Build Status
+    :target: https://travis-ci.com/rblack42/math-magik
+
+.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/pevivsa6n5adw5lw?svg=true
+    :alt: AppVeyor Build Status
+    :target: https://ci.appveyor.com/project/rblack42/math-magik
+
+
+.. |coverage| image:: https://coveralls.io/repos/github/rblack42/math-magik/badge.svg?branch=main
+    :target: https://coveralls.io/github/rblack42/math-magik?branch=main
+    :alt: Code Coverage"
+
+.. |requires| image:: https://requires.io/github/rblack42/math-magik/requirements.svg?branch=main
+    :alt: Requirements Status
+    :target: https://requires.io/github/rblack42/math-magik/requirements/?branch=main
+
+.. |version| image:: https://img.shields.io/pypi/v/mmdesigner.svg
+    :alt: PyPI Package latest release
+    :target: https://pypi.org/project/mmflyer
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/mmflyer.svg
+    :alt: PyPI Wheel
+    :target: https://pypi.org/project/mmflyer
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/mmflyer.svg
+    :alt: Supported versions
+    :target: https://pypi.org/project/mmflyer
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/mmflyer.svg
+    :alt: Supported implementations
+    :target: https://pypi.org/project/mmflyer
+
+.. |status| image:: https://img.shields.io/pypi/status/mmflyer
+    :alt: development status
+    :target: https://pypi.org/project/mmflyer
+
+.. |commits-since| image:: https://img.shields.io/github/commits-since/rblack42/math-magik-flight-time/v0.1.10.svg
+    :alt: Commits since latest release
+    :target: https://github.com/rblack42/math-magik-flight-time/compare/v0.1.10...main
+
+..  image:: rst/_static/lpp.gif
+    :align: center
+    :width: 600
+
+.. end-badges
+
+This project is part of the `Math Magik`- project. You can launch an
+interactive version of this project by clicking on this link:
+
+
+..  image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/rblack42/math-magik-flight-time/HEAD
+
+..  _math-magik:    https://rblack42.github.io/math-magik
+
+This site hosts a revisit of Doug McLean's 1976 NFFS Symposium article "A
+Method For Predicting Indoor Model Duration". In the current paper, Python code
+is presented that will provide an estimate of model flight times. The code uses
+the *SymPy* package to validate the math presented, and *Pint* to make sure
+engineering units of measure are consistent.
+
+This code is part of the *Math Magic* project which  provides
+tools to assist in the designing, building, and flying of indoor model
+airplanes. .
+
+Comments and suggestions are welcome. Please contact the author if you find any
+of this useful.
+
+
+
+
