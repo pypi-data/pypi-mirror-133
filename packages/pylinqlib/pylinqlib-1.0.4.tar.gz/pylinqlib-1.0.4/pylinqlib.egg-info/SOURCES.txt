@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pylinqlib.egg-info/PKG-INFO
+pylinqlib.egg-info/SOURCES.txt
+pylinqlib.egg-info/dependency_links.txt
+pylinqlib.egg-info/top_level.txt
