@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: VCIBD2
+Version: 2.0.0
+Summary: You will be able to make a program which can take input in the form of audio.
+Home-page: UNKNOWN
+Author: Deo Krishna
+Author-email: deo2k09@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENCE
+Requires-Dist: SpeechRecognition
+Requires-Dist: pyaudio
+Requires-Dist: pyttsx3
+
+Please visit at-'https://github.com/Deo-Krishna/VCIBD2/blob/main/README.md'
+
