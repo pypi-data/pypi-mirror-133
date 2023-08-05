@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: ksns
+Version: 0.0.3
+Summary: Switch kubernetes namespace
+Home-page: https://github.com/ratulbasak/ksns
+Author: Ratul Basak
+Author-email: ratulbasak93@gmail.com
+License: UNKNOWN
+Keywords: python,kubernetes,namespace,switch namespace,k8s,package
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: kubernetes
+Requires-Dist: PyYAML
+Requires-Dist: requests
+
+
+# ksns
+Under construction! Not ready for use yet! Currently experimenting and planning!
+
+Developed by Ratul (c) 2021
+
+## Examples of How To Use (Alpha Version)
+
+Install from pypi
+
+```python
+pip3 install ksns
+```
+
+Creating A Build
+
+```python
+pip3 install --editable .
+```
+
+Run commands
+
+```python
+ksns ➤ python3 -m ksns
+
+Usage: python -m ksns [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  list  List of namespaces in context
+  ns    Switch to another namespace: <namespace_name>
+```
+
