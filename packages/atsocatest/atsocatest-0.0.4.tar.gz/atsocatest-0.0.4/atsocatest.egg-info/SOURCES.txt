@@ -1,0 +1,9 @@
+README.md
+licence.txt
+setup.py
+atsocatest/__init__.py
+atsocatest/sum.py
+atsocatest.egg-info/PKG-INFO
+atsocatest.egg-info/SOURCES.txt
+atsocatest.egg-info/dependency_links.txt
+atsocatest.egg-info/top_level.txt
