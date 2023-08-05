@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['aiohttp_catcher']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['aiohttp>=3.8.1,<4.0.0']
+
+setup_kwargs = {
+    'name': 'aiohttp-catcher',
+    'version': '0.1.0',
+    'description': 'A centralized error handler for aiohttp servers',
+    'long_description': '# aiohttp-catcher\n\n\n<div align="center">\n    <a href="https://github.com/yuvalherziger/aiohttp-catcher/actions?query=workflow%3ACI"><img alt="CI Job" src="https://github.com/yuvalherziger/aiohttp-catcher/workflows/CI/badge.svg"></a>\n    <a href="https://pypi.org/project/aiohttp-catcher"><img src="https://badge.fury.io/py/aiohttp-catcher.svg" alt="PyPI version" height="18"></a>\n</div>\n\naiohttp-catcher is a centralized error handler for [aiohttp servers](https://docs.aiohttp.org/en/stable/web.html).\nIt enables consistant error handlling across your web server or API, so your code can raise Python exceptions that\nwill be handled however you want them to.\n\n***\n\n- [Quickstart](#quickstart)\n- [Key Features](#key-features)\n  * [Return a Constant](#return-a-constant)\n  * [Stringify the Exception](#stringify-the-exception)\n  * [Callables and Awaitables](#callables-and-awaitables)\n  * [Handle Several Exceptions Similarly](#handle-several-exceptions-similarly)\n  * [Scenarios as Dictionaries](#scenarios-as-dictionaries)\n- [Development](#development)\n\n***\n\n## Quickstart\n\n```python\nfrom aiohttp import web\nfrom aiohttp_catcher import catch, Catcher\n\nasync def hello(request):\n    division = 1 / 0\n    return web.Response(text=f"1 / 0 = {division}")\n\n\nasync def main():\n    # Add a catcher:\n    catcher = Catcher()\n\n    # Register error-handling scenarios:\n    await catcher.add_scenario(\n        catch(ZeroDivisionError).with_status_code(400).and_return("Zero division makes zero sense")\n    )\n\n    # Register your catcher as an aiohttp middleware:\n    app = web.Application(middlewares=[catcher.middleware])\n    app.add_routes([web.get("/divide-by-zero", hello)])\n    web.run_app(app)\n```\n\nMaking a request to `/divide-by-zero` will return a 400 status code with the following body:\n```json\n{"code": 400, "message": "Zero division makes zero sense"}\n```\n\n***\n\n## Key Features\n\n### Return a Constant\n\nIn case you want some exceptions to return a constant message across your application, you can do\nso by using the `.and_return("some value")` method:\n\n```python\nawait catcher.add_scenario(\n    catch(ZeroDivisionError).with_status_code(400).and_return("Zero division makes zero sense")\n)\n```\n\n***\n\n### Stringify the Exception\n\nIn some cases, you would want to return a stringified version of your exception, should it entail\nuser-friendly information.\n\n```\nclass EntityNotFound(Exception):\n    def __init__(self, entity_id, *args, **kwargs):\n        super(EntityNotFound, self).__init__(*args, **kwargs)\n        self.entity_id = entity_id\n\n    def __str__(self):\n        return f"Entity {self.entity_id} could not be found"\n\n\n@routes.get("/user/{user_id}")\nasync def get_user(request):\n    user_id = request.match_info.get("user_id")\n    if user_id not in user_db:\n        raise EntityNotFound(entity_id=user_id)\n    return user_db[user_id]\n\n# Your catcher can be directed to stringify particular exceptions:\n\nawait catcher.add_scenario(\n    catch(EntityNotFound).with_status_code(404).and_stringify()\n)\n```\n\n***\n\n### Callables and Awaitables\n\nIn some cases, you\'d want the message returned by your server for some exceptions to call a custom\nfunction.  This function can either be a synchronous function or an awaitable one.  It should expect\na single argument, which is the exception being raised:\n\n```python\n# Can be a synchronous function as well:\nasync def write_message(exc: Exception):\n    return "Whoops"\n\nawait catcher.add_scenarios(\n    catch(MyCustomException2).with_status_code(401).and_call(write_message),\n    catch(MyCustomException2).with_status_code(403).and_call(lambda exc: str(exc))\n)\n\n```\n\n***\n\n### Handle Several Exceptions Similarly\n\nYou can handle several exceptions in the same manner by adding them to the same scenario:\n\n```python\nawait catcher.add_scenario(\n    catch(\n        MyCustomException1,\n        MyCustomException2,\n        MyCustomException3\n    ).with_status_code(418).and_return("User-friendly error message")\n)\n```\n\n***\n\n### Scenarios as Dictionaries\n\nYou can register your scenarios as dictionaries as well:\n\n```python\nawait catcher.add_scenarios(\n    {\n        "exceptions": [ZeroDivisionError],\n        "constant": "Zero division makes zero sense",\n        "status_code": 400,\n    },\n    {\n        "exceptions": [EntityNotFound],\n        "stringify_exception": True,\n        "status_code": 404,\n    },\n    {\n        "exceptions": [IndexError],\n        "func": lambda exc: f"Out of bound: {str(exc)}",\n        "status_code": 418,\n    },\n)\n```\n\n***\n\n## Development\n\nContributions are warmly welcomed.  Before submitting your PR, please run the tests using the following Make target:\n\n```bash\nmake ci\n```\n\nAlternatively, you can run each test suite separately:\n\n1. Unit tests:\n\n   ```bash\n   make test/py\n   ```\n\n2. Linting with pylint:\n\n   ```bash\n   make pylint\n   ```\n\n3. Static security checks with bandit:\n\n   ```bash\n   make pybandit\n   ```\n',
+    'author': 'Yuvi Herziger',
+    'author_email': 'yherziger@immuta.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/yuvalherziger/aiohttp-catcher',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
