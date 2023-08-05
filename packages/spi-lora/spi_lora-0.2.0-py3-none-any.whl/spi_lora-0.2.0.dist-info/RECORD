@@ -1,0 +1,10 @@
+spi_lora/LoRa.py,sha256=aIO9FSRLnlXCs42lwCYTQTrd3S46tCbLkNEPLQ8XaaE,42012
+spi_lora/LoRaArgumentParser.py,sha256=GcwqNS2yvjnkfhRGfHx9KNaqflBrV4MOxbvJqo2FXMI,3832
+spi_lora/__init__.py,sha256=5qNegKkTSQVB9HQ0z0qmJSaqe1TYNksc5W8R9sxo7Zg,23
+spi_lora/board_config.py,sha256=UvUH1Mfe8JI-7TtQwNlati0e0zlxSO3hjG0kgXZvn1M,1158
+spi_lora/constants.py,sha256=ngKw7qPI41SPs03P_-ZwKJBLrw64622bO4900kdtCGY,5257
+spi_lora-0.2.0.dist-info/LICENSE,sha256=kbZSd5WewnN2PSjvAC6DprP7pXx6NUNsnltmU2Mz1yA,34519
+spi_lora-0.2.0.dist-info/METADATA,sha256=FwVvio41vknX1f9DrMJ9PRWNyxfBq00-bmtTX_PAXxs,302
+spi_lora-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spi_lora-0.2.0.dist-info/top_level.txt,sha256=qek-_bUduMFQag52D0HIZxiTcggmngRYDk-sSOldqHc,9
+spi_lora-0.2.0.dist-info/RECORD,,
