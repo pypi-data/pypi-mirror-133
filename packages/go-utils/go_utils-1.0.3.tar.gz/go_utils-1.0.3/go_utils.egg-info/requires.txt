@@ -1,0 +1,5 @@
+numpy>=1.19.0
+pandas>=1.1.5
+requests>=2.23.0
+arcgis>=1.8.4
+seaborn>=0.11.1
