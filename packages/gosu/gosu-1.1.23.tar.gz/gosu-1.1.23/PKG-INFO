@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gosu
+Version: 1.1.23
+Summary: the extensible taskrunner
+Author-email: "Herbert Rusznak (tlb)" <herbert.rusznak@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: plumbum
+Requires-Dist: typer
+Requires-Dist: click<8
+Requires-Dist: python-dotenv
+Requires-Dist: ansible ; extra == "ansible"
+Requires-Dist: semver ; extra == "build"
+Requires-Dist: pytest ; extra == "build"
+Requires-Dist: pyupgrade ; extra == "build"
+Requires-Dist: isort ; extra == "build"
+Requires-Dist: black ; extra == "build"
+Requires-Dist: flake8 ; extra == "build"
+Requires-Dist: mccabe ; extra == "build"
+Requires-Dist: flake8-comprehensions ; extra == "build"
+Requires-Dist: flake8-print ; extra == "build"
+Requires-Dist: flake8-cognitive-complexity ; extra == "build"
+Requires-Dist: pre_commit ; extra == "build"
+Requires-Dist: pytest-xdist ; extra == "build"
+Requires-Dist: pytest-sugar ; extra == "build"
+Requires-Dist: coverage ; extra == "build"
+Requires-Dist: django_coverage_plugin ; extra == "build"
+Requires-Dist: flit ; extra == "build"
+Requires-Dist: twine ; extra == "build"
+Project-URL: Source, https://gitlab.com/tuhls/gosu
+Provides-Extra: ansible
+Provides-Extra: build
