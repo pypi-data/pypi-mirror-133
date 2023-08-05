@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: links-to-hugo-post
+Version: 0.4.0
+Summary: Convert a list of links to a Hugo blog post
+Home-page: https://namuan.github.io/links-to-hugo-post
+License: MIT
+Author: namuan
+Author-email: github@deskriders.dev
+Requires-Python: >=3.7.1,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Requires-Dist: py-executable-checklist (>=0.9.0,<0.10.0)
+Requires-Dist: slug (>=2.0,<3.0)
+Project-URL: Documentation, https://namuan.github.io/links-to-hugo-post
+Project-URL: Repository, https://github.com/namuan/links-to-hugo-post
+Description-Content-Type: text/markdown
+
+# Links to Hugo Post
+
+[![PyPI](https://img.shields.io/pypi/v/links-to-hugo-post?style=flat-square)](https://pypi.python.org/pypi/links-to-hugo-post/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/links-to-hugo-post?style=flat-square)](https://pypi.python.org/pypi/links-to-hugo-post/)
+[![PyPI - License](https://img.shields.io/pypi/l/links-to-hugo-post?style=flat-square)](https://pypi.python.org/pypi/links-to-hugo-post/)
+
+
+---
+
+**Documentation**: [https://namuan.github.io/links-to-hugo-post](https://namuan.github.io/links-to-hugo-post)
+
+**Source Code**: [https://github.com/namuan/links-to-hugo-post](https://github.com/namuan/links-to-hugo-post)
+
+**PyPI**: [https://pypi.org/project/links-to-hugo-post/](https://pypi.org/project/links-to-hugo-post/)
+
+---
+
+Convert a list of links to a Hugo blog post.
+
+## Installation
+
+```sh
+pip install links-to-hugo-post
+```
+
+## Example Usage
+
+```shell
+
+```
+
+## Development
+
+* Clone this repository
+* Requirements:
+  * [Poetry](https://python-poetry.org/)
+  * Python 3.7+
+* Create a virtual environment and install the dependencies
+
+```sh
+poetry install
+```
+
+* Activate the virtual environment
+
+```sh
+poetry shell
+```
+
+### Validating build
+
+```sh
+make build
+```
+
+### Release process
+
+A release is automatically published when a new version is bumped using `make bump`.
+See `.github/workflows/build.yml` for more details.
+Once the release is published, `.github/workflows/publish.yml` will automatically publish it to PyPI.
+
