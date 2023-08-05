@@ -1,0 +1,3 @@
+[console_scripts]
+selsoup=entry:main
+
