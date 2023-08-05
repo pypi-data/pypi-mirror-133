@@ -1,0 +1,8 @@
+input_sanitizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+input_sanitizer/config.py,sha256=49M-6q2xNEEFQc5WXS7g9dNS3a37vsMUFTmPXxEs7-A,421
+input_sanitizer/sanitized_fields.py,sha256=mVHvYhi0ht4nR1hwpQMi3wiWlJeOBQwSw3ddo1z3XDk,1732
+input_sanitizer/sanitizers.py,sha256=SqNiwR96LCmQ3WYwWRsmw_kNHYUp-1Kp97nmLWYLKC8,591
+input_sanitizer-0.1.8.dist-info/METADATA,sha256=tToCYPWXeAXi8VzmPqtzZpcYZX2E-vQFTP7txbN8W1g,3236
+input_sanitizer-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+input_sanitizer-0.1.8.dist-info/top_level.txt,sha256=oMbg8VUJgGue2n8B3EN45HgrlBlalm5pora0uZ9onrY,16
+input_sanitizer-0.1.8.dist-info/RECORD,,
