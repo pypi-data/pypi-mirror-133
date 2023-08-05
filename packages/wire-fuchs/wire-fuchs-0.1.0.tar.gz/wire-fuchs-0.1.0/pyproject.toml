@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "wire-fuchs"
+version = "0.1.0"
+description = "Template engine for smart foxes, in python"
+authors = ["cheetahbyte <bernerdoodle@outlook.de>"]
+repository = "https://github.com/cheetahbyte/fuchs"
+keywords = ["template", "python", "web", "webdevelopment", "template-engine"]
+readme="README.md"
+license = "MIT"
+include = [
+    "LICENSE"
+]
+packages = [
+    {include = "fuchs"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
