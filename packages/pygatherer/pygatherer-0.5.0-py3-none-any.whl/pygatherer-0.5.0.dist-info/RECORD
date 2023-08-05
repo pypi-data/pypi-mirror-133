@@ -1,0 +1,10 @@
+CHANGELOG.rst,sha256=a3VGI9gJv17GXCQjlZkJSIsXCS1sn9c2Mm6sYY-yZYY,1985
+pygatherer/__init__.py,sha256=w8YLbCgbHU-5ibqbPb0aoScwh8HIHDgVRiWS2zNho1E,81
+pygatherer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygatherer/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygatherer/utils/constants.py,sha256=dbX5ONryRBSesXAuK4f7WTY86SjY22YkRLfpHeRkKy0,145
+pygatherer/utils/parser.py,sha256=YUVMnrLEuz_2QJef4iae6S0v4hZCoMhK9d077IrnGdY,4475
+pygatherer-0.5.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pygatherer-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pygatherer-0.5.0.dist-info/METADATA,sha256=qx7sBZ27eeKImfVVyoDIN0Kwy7RiDXbIPzD8RlqmjmQ,2555
+pygatherer-0.5.0.dist-info/RECORD,,
