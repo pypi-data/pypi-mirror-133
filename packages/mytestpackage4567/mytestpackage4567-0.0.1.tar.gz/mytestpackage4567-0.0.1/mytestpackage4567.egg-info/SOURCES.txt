@@ -1,0 +1,10 @@
+setup.py
+mytestpackage4567/__init__.py
+mytestpackage4567/add.py
+mytestpackage4567/subtract.py
+mytestpackage4567.egg-info/PKG-INFO
+mytestpackage4567.egg-info/SOURCES.txt
+mytestpackage4567.egg-info/dependency_links.txt
+mytestpackage4567.egg-info/top_level.txt
+mytestpackage4567/extrafuncs/__init__.py
+mytestpackage4567/extrafuncs/multiply.py
