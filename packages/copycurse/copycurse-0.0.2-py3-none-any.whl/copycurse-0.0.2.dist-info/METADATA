@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: copycurse
+Version: 0.0.2
+Summary: Simple copy tool
+Home-page: https://github.com/0xrytlock/copycurse
+Author: 0xrytlock
+Author-email: neo.ahlander@protonmail.com
+License: MIT
+Keywords: copy,recursively,cli
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+
+![Version 1.0](http://img.shields.io/badge/version-v0.0.2-green.svg)
+![Python 3.10](http://img.shields.io/badge/python-3.10-blue.svg)
+[![MIT License](http://img.shields.io/badge/license-MIT%20License-blue.svg)](https://github.com/0xrytlock/copycurse/blob/main/LICENSE)
+
+CopyCurse is a simple tool for recursively copying files from one directory to another.
+
+## Installation
+
+Windows:
+`pip install copycurse`
+
+Linux:
+`pip3 install copycurse`
+
+## Usage
+
+`copycurse source destination [--version] [-h]`
+
+| Arguments         | Description                       |
+|-------------------|-----------------------------------| 
+| source            | Source directory [Default=.]      | 
+| destination       | Destination directory             |
+| --version         | Show version and exit             |
+| -h, --help        | Show help and exit                |
+
+## Examples
+
+**Copy from your current directory:**
+
+`copycurse . C:\directory`
+
+**Copy from directory to another directory:**
+
+`copycurse C:\directory D:\directory`
+
+**Copy from your current directory to network share:**
+
+`copycurse . \\192.168.1.1\directory`
+
