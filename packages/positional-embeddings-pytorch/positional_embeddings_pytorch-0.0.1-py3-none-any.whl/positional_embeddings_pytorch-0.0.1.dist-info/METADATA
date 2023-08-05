@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: positional-embeddings-pytorch
+Version: 0.0.1
+Summary: A collection of positional embeddings (or positional encodings) written in pytorch.
+License: MIT
+Author: wusuowei60
+Author-email: quym@foxmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: torch (>=1.10.1,<2.0.0)
