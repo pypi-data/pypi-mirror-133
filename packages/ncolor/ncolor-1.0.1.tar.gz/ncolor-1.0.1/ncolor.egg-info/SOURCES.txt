@@ -1,0 +1,11 @@
+LICENSE
+README.md
+example.ipynb
+setup.py
+ncolor/__init__.py
+ncolor/ncolor.py
+ncolor.egg-info/PKG-INFO
+ncolor.egg-info/SOURCES.txt
+ncolor.egg-info/dependency_links.txt
+ncolor.egg-info/requires.txt
+ncolor.egg-info/top_level.txt
