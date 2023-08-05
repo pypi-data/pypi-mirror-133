@@ -1,0 +1,10 @@
+pedalboard_native.cp38-win_amd64.pyd,sha256=DaX9x9DxujPHKdGBeRn7bw7qckI9ynGcZTc_kmAMSNA,5943808
+pedalboard/__init__.py,sha256=D_EvVpXbVtwcHdBZGEDwg1IJ5FigrVk2tsxkrB6c7bo,888
+pedalboard/pedalboard.py,sha256=7XB7HgpQliRhFM3C9fmuJY9j23mdKyEuAASTyiyu3rk,27942
+pedalboard/version.py,sha256=66bLLyBzkr4YBsOX4ATLBnlaOWRpIuOdn9yTKaNBJUI,705
+pedalboard-0.3.9.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pedalboard-0.3.9.dist-info/METADATA,sha256=AdCAf0t2bIUpmnS_CeYEVPHuqCqWfg5JbM1DankaIy0,12224
+pedalboard-0.3.9.dist-info/NOTICE,sha256=kiwgiOynSFva5dva9jbBupGHmrxihaxbDWAsJNGZzls,589
+pedalboard-0.3.9.dist-info/WHEEL,sha256=M2GQ3lde8oJhlQPj2wbRvnqE3cuovPJasri5X5aCmck,100
+pedalboard-0.3.9.dist-info/top_level.txt,sha256=jXwDvqMjquuPLra-PGmmayt3AFe5_l7hpSqbUgOvP9g,29
+pedalboard-0.3.9.dist-info/RECORD,,
