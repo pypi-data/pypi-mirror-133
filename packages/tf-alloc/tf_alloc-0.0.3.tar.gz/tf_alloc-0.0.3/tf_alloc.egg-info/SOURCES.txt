@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+tf_alloc/__init__.py
+tf_alloc/allocate.py
+tf_alloc/gpu.py
+tf_alloc/utils.py
+tf_alloc.egg-info/PKG-INFO
+tf_alloc.egg-info/SOURCES.txt
+tf_alloc.egg-info/dependency_links.txt
+tf_alloc.egg-info/not-zip-safe
+tf_alloc.egg-info/top_level.txt
