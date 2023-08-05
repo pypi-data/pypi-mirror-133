@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/spycalc/__init__.py
+src/spycalc/loaded.py
+src/spycalc.egg-info/PKG-INFO
+src/spycalc.egg-info/SOURCES.txt
+src/spycalc.egg-info/dependency_links.txt
+src/spycalc.egg-info/top_level.txt
