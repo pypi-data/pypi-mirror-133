@@ -1,0 +1,10 @@
+/target
+Cargo.lock
+
+.idea
+
+**/*.pyc
+**/__pycache__
+
+**/*.pyd
+**/*.so
