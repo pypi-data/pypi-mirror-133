@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyxtend/pyxtend.egg-info/PKG-INFO
+pyxtend/pyxtend.egg-info/SOURCES.txt
+pyxtend/pyxtend.egg-info/dependency_links.txt
+pyxtend/pyxtend.egg-info/top_level.txt
