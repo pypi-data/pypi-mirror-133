@@ -1,0 +1,68 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[tool.flakehell]
+max_line_length = 88
+show_source = true
+exclude = [".git", ".venv", ".mypy_cache", ".pytest_cache", ".nox"]
+extended_default_ignore = [] # https://github.com/flakehell/flakehell/issues/10
+
+[tool.flakehell.plugins]
+pyflakes = ["+*"]
+pycodestyle = ["+*", "-E203"]
+
+[tool.coverage.run]
+branch = true
+disable_warnings = [
+	"module-not-measured",
+	"no-data-collected",
+]
+source_pkgs = [
+	"wtforms_html5",
+]
+
+[tool.coverage.report]
+fail_under = 80
+precision = 2
+skip_covered = true
+skip_empty = true
+show_missing = true
+
+[tool.towncrier]
+directory = "changes"
+filename = "CHANGELOG.md"
+template = "changes/template.j2"
+start_string = "<!-- TOWNCRIER -->\n"
+underlines = ["", ""]
+title_format = "## {version} ({project_date})\n\n"
+issue_format = "[#{issue}](https://github.com/brutus/wtforms-html5/issues/{issue})"
+wrap = true
+
+[[tool.towncrier.type]]
+directory = "feature"
+name = "Features"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "change"
+name = "Changes"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "removal"
+name = "Deprecations and Removals"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "fix"
+name = "Bugfixes"
+showcontent = true
+
+[[tool.towncrier.type]]
+directory = "misc"
+name = "Misc"
+showcontent = false
