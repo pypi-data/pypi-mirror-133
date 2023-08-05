@@ -1,0 +1,14 @@
+mkdocs_mdpo_plugin/__init__.py,sha256=n4ZxA0lQ3aOp4368KA8H50PAz2_SHWOlaz9eiMDhvLU,57
+mkdocs_mdpo_plugin/config.py,sha256=JQ7y26OD1NSI_KNZnnqceJbN201LIcaPaPOP8kn3EtI,5534
+mkdocs_mdpo_plugin/extension.py,sha256=pLsLLbGs3_-9TW8FMeJnsfGpHScNpDnWXiqkvhXCAVw,6393
+mkdocs_mdpo_plugin/io.py,sha256=7dq58DsGeXFQtGvVV4z3L8q82mHApd_Io6XNkHupO5w,738
+mkdocs_mdpo_plugin/mdpo_events.py,sha256=teHh661P9D__JWxIjA5SqcPpX0M8jAxwgZGx8dExFnI,4214
+mkdocs_mdpo_plugin/mdpo_utils.py,sha256=MvVCdl3gYBxPIDyIJC8RR0cvgVyzZ6xpxpadkzTDluQ,857
+mkdocs_mdpo_plugin/mkdocs_utils.py,sha256=2wGZVULzxbpCcaAzmS44ju3_fz0K9b8A_CUQ_lE7CCU,1783
+mkdocs_mdpo_plugin/plugin.py,sha256=OuslMFawexwMxf4bj7GCJaEHEpRUH58EVK6QLP98cBQ,17207
+mkdocs_mdpo_plugin-0.0.17.dist-info/LICENSE,sha256=tBE5SZiEgCnOCmd6ig2ISC91ZTQIHF0QYriS9It5UaQ,1531
+mkdocs_mdpo_plugin-0.0.17.dist-info/METADATA,sha256=bxHOM9YL8GpX-jEV3-6Ynjw5wum-gU_yuSRN5mpqMwc,6060
+mkdocs_mdpo_plugin-0.0.17.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mkdocs_mdpo_plugin-0.0.17.dist-info/entry_points.txt,sha256=KcLe9TbbYMzWDOIesqNhdtfZ-aI0WdsPBeWO2H4mDT8,148
+mkdocs_mdpo_plugin-0.0.17.dist-info/top_level.txt,sha256=Dls9zV9E9M3rPCZi5bd9cglnZbBmNda6PayXWf3llSQ,19
+mkdocs_mdpo_plugin-0.0.17.dist-info/RECORD,,

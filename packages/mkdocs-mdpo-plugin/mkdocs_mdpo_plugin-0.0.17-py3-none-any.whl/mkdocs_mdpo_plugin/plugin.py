@@ -1,0 +1,456 @@
+"""mkdocs-mdpo-plugin module"""
+
+import functools
+import math
+import os
+import sys
+
+import mkdocs
+import polib
+from jinja2 import Template
+from mdpo.md2po import Md2Po
+from mdpo.md4c import DEFAULT_MD4C_GENERIC_PARSER_EXTENSIONS
+from mdpo.po2md import Po2Md
+
+from mkdocs_mdpo_plugin.config import CONFIG_SCHEME, on_config_event
+from mkdocs_mdpo_plugin.io import (
+    remove_empty_directories_from_dirtree,
+    remove_file_and_parent_dir_if_empty,
+)
+from mkdocs_mdpo_plugin.mdpo_events import (
+    build_md2po_events,
+    build_po2md_events,
+)
+from mkdocs_mdpo_plugin.mdpo_utils import (
+    remove_mdpo_commands_preserving_escaped,
+)
+from mkdocs_mdpo_plugin.mkdocs_utils import (
+    MkdocsBuild,
+    set_on_build_error_event,
+)
+
+
+class MdpoPlugin(mkdocs.plugins.BasePlugin):
+    config_scheme = CONFIG_SCHEME
+
+    def __init__(self, *args, **kwargs):
+        #  temporal translated pages created by the plugin at runtime
+        self._temp_pages_to_remove = []
+
+        # md4c extensions used in mdpo translation (depend on Python-Markdown
+        # configured extensions in `mkdocs.yml`)
+        self._md4c_extensions = DEFAULT_MD4C_GENERIC_PARSER_EXTENSIONS
+        # markdown extensions used by the build (loaded on config eventg)
+        self._markdown_extensions = None
+
+        # navigation translation
+        # {original_title: {lang: {title: [translation, url]}}}
+        self._nav_pages_titles_translations = {}
+
+        # {lang: compendium_filepath}
+        self._lang_compendiums = {}
+        # {lang: [msgids]}
+        self._lang_compendium_msgids = {}
+        # {lang: [msgstrs]}
+        self._lang_compendium_translated_msgstrs = {}
+
+        # translated page objects by language
+        self._translated_pages_by_lang = {}
+
+        # information needed by `mkdocs.mdpo` extension (`extension` module)
+        #
+        #   instance that represents the run
+        MkdocsBuild.instance(self)
+        #   current page being rendered
+        self.current_page = None
+
+        super().__init__(*args, **kwargs)
+
+    @functools.lru_cache(maxsize=None)
+    def _non_default_languages(self):
+        return [
+            language for language in self.config['languages']
+            if language != self.config['default_language']
+        ]
+
+    @functools.lru_cache(maxsize=None)
+    def _language_dir(self, base_dir, language):
+        return os.path.join(
+            base_dir,
+            self.config['locale_dir'],
+            language,
+            self.config['lc_messages'],
+        )
+
+    def on_config(self, config, **kwargs):
+        """Configuration for `mkdocs_mdpo_plugin`."""
+        return on_config_event(self, config, **kwargs)
+
+    def on_pre_build(self, config):
+        """Create locales folders inside documentation directory."""
+        for language in self._non_default_languages():
+            os.makedirs(
+                os.path.join(
+                    self._language_dir(config['docs_dir'], language),
+                ),
+                exist_ok=True,
+            )
+
+    def on_files(self, files, config):
+        """Remove locales directory from collected files.
+
+        NOTE: Since mkdocs 1.2.X, there is a new method ``remove`` for
+              files which will simplify the code defined in this event.
+        """
+        new_files = mkdocs.structure.files.Files([])
+
+        ignore_extensions = self.config['ignore_extensions']
+        for file in files:
+            # exclude all files with PO related extensions
+            if os.path.splitext(file.src_path)[-1] not in ignore_extensions:
+                new_files.append(file)
+
+        return new_files
+
+    def on_page_context(self, context, page, config, nav):
+        """Navigation translation."""
+        if not hasattr(page, '_language'):
+            return
+
+        # using mkdocs-material, configure the language for each page
+        if context['config']['theme'].name == 'material':
+            context['config']['theme']['language'] = page._language
+
+        def _translate_section_title(section):
+            if section.title and section.title not in \
+                    self._lang_compendium_msgids[page._language]:
+                compendium_filepath = self._lang_compendiums[page._language]
+                compendium_pofile = polib.pofile(compendium_filepath)
+
+                _section_title_in_compendium = False
+                for entry in compendium_pofile:
+                    if entry.msgid == section.title:
+                        _section_title_in_compendium = True
+                        entry.obsolete = False
+                        if entry.msgstr:
+                            section.title = entry.msgstr
+                            self._lang_compendium_translated_msgstrs[
+                                page._language
+                            ].append(
+                                entry.msgstr,
+                            )
+                        break
+                if not _section_title_in_compendium:
+                    compendium_pofile.insert(
+                        0,
+                        polib.POEntry(
+                            msgid=section.title,
+                            msgstr='',
+                        ),
+                    )
+                    compendium_pofile.save(compendium_filepath)
+                self._lang_compendium_msgids[page._language].append(
+                    section.title,
+                )
+
+        def _translate_nav_section(items):
+            for item in items:
+                if isinstance(item, mkdocs.structure.nav.Section):
+                    _translate_section_title(item)
+
+                    if item.children:
+                        _translate_nav_section(item.children)
+
+                if item.title not in self._nav_pages_titles_translations:
+                    continue
+
+                tr_title, tr_url = self._nav_pages_titles_translations[
+                    item.title
+                ][page._language]
+
+                if tr_title:
+                    item.title = tr_title
+                if item.is_page:
+                    item.file.url = tr_url
+
+        # recursively translate navigation sections
+        # (pages titles and section titles)
+        _translate_nav_section(nav.items)
+
+    def on_page_markdown(self, markdown, page, config, files):
+        """Event executed when markdown content of a page is collected.
+
+        Here happen most of the logic handled by the plugin:
+
+        * For each documentation page, creates another documentation page
+          for each language that will be translated (part here and part
+          inside the `mkdocs.mdpo` extension, see
+          :py:mod:`mkdocs_mdpo_plugin.extension` module).
+        """
+        # only process original files, pages created for translation
+        # are ignored
+        if hasattr(page, '_language'):
+            return
+
+        # navigation pages titles translations and new pages urls are stored
+        # in dictionaries by language, so we can translate the titles in their
+        # own po files and then change the URLs (see `on_page_context` event)
+        if page.title not in self._nav_pages_titles_translations:
+            # lang: [title, url]
+            self._nav_pages_titles_translations[page.title] = {}
+
+        # extract translations from original Markdown file
+        md2po = Md2Po(
+            markdown,
+            events=build_md2po_events(self._markdown_extensions),
+            mark_not_found_as_obsolete=False,
+            location=False,
+            ignore_msgids=self.config['ignore_msgids'],
+        )
+        original_po = md2po.extract()
+
+        po2md_events = build_po2md_events(self._markdown_extensions)
+
+        for language in self._non_default_languages():
+            lang_docs_dir = self._language_dir(config['docs_dir'], language)
+
+            compendium_filepath = os.path.join(
+                lang_docs_dir,
+                '_compendium.po',
+            )
+
+            # create compendium if doesn't exists, load to memory
+            if language not in self._lang_compendiums:
+                if not os.path.isfile(compendium_filepath):
+                    compendium_pofile = polib.POFile()
+                    compendium_pofile.save(compendium_filepath)
+                self._lang_compendiums[language] = compendium_filepath
+
+                # intialize compendium messages cache
+                self._lang_compendium_translated_msgstrs[language] = []
+                self._lang_compendium_msgids[language] = []
+
+            compendium_pofile = polib.pofile(compendium_filepath)
+
+            # create pofile of the page for each language
+            po_filepath = os.path.join(
+                lang_docs_dir,
+                f'{page.file.src_path}.po',
+            )
+            os.makedirs(
+                os.path.abspath(os.path.dirname(po_filepath)),
+                exist_ok=True,
+            )
+            if not os.path.isfile(po_filepath):
+                po = polib.POFile()
+            else:
+                po = polib.pofile(po_filepath)
+
+            for entry in original_po:
+                if entry not in po:
+                    po.append(entry)
+
+            _translated_entries_msgids = []
+            _translated_entries_msgstrs = []
+
+            # translate title
+            translated_page_title, _title_in_pofile = (None, False)
+            for entry in po:
+                if entry.msgid == page.title:
+                    # matching title found
+                    entry.obsolete = False
+                    translated_page_title = entry.msgstr
+                    _title_in_pofile = True
+                    _translated_entries_msgids.append(page.title)
+                    if entry.msgstr:
+                        _translated_entries_msgstrs.append(page.title)
+            if not _title_in_pofile:
+                po.insert(
+                    0,
+                    polib.POEntry(
+                        msgid=page.title,
+                        msgstr='',
+                    ),
+                )
+                _translated_entries_msgids.append(page.title)
+
+            # add temporally compendium entries to language pofiles
+            for entry in compendium_pofile:
+                if entry not in po and entry.msgstr:
+                    po.append(entry)
+
+            po.save(po_filepath)
+
+            # translate part of the markdown producing a translated file
+            # content (the rest of the translations are handled by extensions,
+            # see `extension` module)
+            po2md = Po2Md(
+                [po_filepath, compendium_filepath],
+                events=po2md_events,
+                wrapwidth=math.inf,
+            )
+            content = po2md.translate(markdown)
+
+            # create site language dir if not exists
+            os.makedirs(
+                self._language_dir(config['site_dir'], language),
+                exist_ok=True,
+            )
+
+            # render destination filepath
+            context = locals()
+            context.update(self.config)
+            del context['self']
+            dest_path = Template(
+                self.config['dest_filename_template'],
+            ).render(**context)
+            src_path = f"{dest_path.rstrip('.html')}.md"
+
+            # next code seems like a hack, but it works
+            #
+            # the current Mkdocs approach doesn't provide a way to add new
+            # documentation pages on the fly when a page is being populated,
+            # so we need to create a temporal page inside the locales
+            # directory and populate them manually
+            src_abs_path = os.path.abspath(
+                os.path.join(config['docs_dir'], src_path),
+            )
+            self._temp_pages_to_remove.append(src_abs_path)
+            os.makedirs(os.path.dirname(src_abs_path), exist_ok=True)
+            with open(src_abs_path, 'w') as f:
+                f.write(content)
+
+            new_file = mkdocs.structure.files.File(
+                src_path,
+                config['docs_dir'],
+                config['site_dir'],
+                config['use_directory_urls'],
+            )
+            new_page = mkdocs.structure.pages.Page(
+                translated_page_title,
+                new_file,
+                config,
+            )
+
+            # attach useful information inside the new translated page object
+            new_page._language = language
+            new_page._po = po
+            new_page._po_filepath = po_filepath
+
+            new_page._po_msgids = [entry.msgid for entry in po]
+            new_page._translated_entries_msgstrs = _translated_entries_msgstrs
+            new_page._translated_entries_msgids = _translated_entries_msgids
+            new_page._disabled_msgids = [
+                entry.msgid for entry in po2md.disabled_entries
+            ]
+            new_page._disabled_msgids.extend(self.config['ignore_msgids'])
+            for entry in po2md.translated_entries:
+                new_page._translated_entries_msgstrs.append(entry.msgstr)
+                new_page._translated_entries_msgids.append(entry.msgid)
+
+            files.append(new_file)
+
+            self._nav_pages_titles_translations[page.title][language] = [
+                translated_page_title, new_page.url,
+            ]
+
+            self.current_page = new_page
+
+            mkdocs.commands.build._populate_page(
+                new_page,
+                config,
+                files,
+                dirty=(
+                    '--dirty' in sys.argv and
+                    '-c' not in sys.argv and '--clean' not in sys.argv
+                ),
+            )
+
+            if language not in self._translated_pages_by_lang:
+                self._translated_pages_by_lang[language] = []
+            self._translated_pages_by_lang[language].append(new_page)
+
+        self.current_page = page
+
+        return remove_mdpo_commands_preserving_escaped(markdown)
+
+    def _remove_temp_pages(self):
+        """Remove temporal generated pages."""
+        for filepath in self._temp_pages_to_remove:
+            remove_file_and_parent_dir_if_empty(filepath)
+
+    def on_post_build(self, config):
+        # remove temporal created pages
+        self._remove_temp_pages()
+
+        # remove empty directories from site_dir
+        remove_empty_directories_from_dirtree(config['site_dir'])
+
+        # dump repeated msgids from language files to compendium and
+        # remove them from language files
+        for language, pages in self._translated_pages_by_lang.items():
+            msgids, repeated_msgids = ([], [])
+            for page in pages:
+                for msgid in page._po_msgids:
+                    if msgid in msgids:
+                        if msgid not in repeated_msgids:
+                            repeated_msgids.append(msgid)
+                    else:
+                        msgids.append(msgid)
+            compendium_filepath = self._lang_compendiums[language]
+            compendium_pofile = polib.pofile(compendium_filepath)
+
+            # dump repeated msgids into compendium
+            for repeated_msgid in repeated_msgids:
+                _repeated_msgid_in_compendium = False
+                for entry in compendium_pofile:
+                    if entry.msgid == repeated_msgid:
+                        _repeated_msgid_in_compendium = True
+                        break
+
+                _msgids_appended_to_compendium = []
+                for page in pages:
+                    po = polib.pofile(page._po_filepath)
+                    _entry_found = None
+                    for entry in po:
+                        if entry.msgid == repeated_msgid:
+                            if (
+                                repeated_msgid not in
+                                _msgids_appended_to_compendium and
+                                not _repeated_msgid_in_compendium
+                            ):
+                                compendium_pofile.append(entry)
+                                _msgids_appended_to_compendium.append(
+                                    repeated_msgid,
+                                )
+                            _entry_found = entry
+                            break
+                    if _entry_found:
+                        po.remove(_entry_found)
+                        po.save(page._po_filepath)
+
+            for entry in compendium_pofile:
+                if entry.msgid not in repeated_msgids:
+                    entry.obsolete = True
+            compendium_pofile.save(compendium_filepath)
+
+            # mark not found msgstrs as obsolete
+            for page in pages:
+                po = polib.pofile(page._po_filepath)
+                for entry in po:
+                    if entry.msgid not in page._translated_entries_msgids:
+                        entry.obsolete = True
+                po.save(page._po_filepath)
+
+        # remove empty compendium files
+        for lang, compendium_filepath in self._lang_compendiums.items():
+            with open(compendium_filepath) as f:
+                content = f.read()
+            if content == '#\nmsgid ""\nmsgstr ""\n':
+                os.remove(compendium_filepath)
+
+        # reset mkdocs build instance
+        MkdocsBuild._instance = None
+
+
+set_on_build_error_event(MdpoPlugin)
