@@ -1,0 +1,9 @@
+README.md,sha256=2vpjJl8iOf_0DmfUZYBASlephh8V6tHBWkiRUvCtkP8,2674
+kedro_lsp/__init__.py,sha256=MXXts8WjCJQvzDSpOg1s8V2ktPa5DVN7QrN63iWyd58,28
+kedro_lsp/cli.py,sha256=6zCPNDo7hlY9sfjKzvyPgMrND4vCOPZmjjolF40y_98,2758
+kedro_lsp/server.py,sha256=W9rFy23O0VY_geWUag_JpPcMJ3SqyJxCUHUeVR_XeXU,5913
+kedro_lsp-0.2.0.dist-info/entry_points.txt,sha256=d-eTHL8vtPj3nfvYbvcZ_7sxzS5jDycDhwhlG9Rwl54,47
+kedro_lsp-0.2.0.dist-info/LICENSE,sha256=6vV5F9ReVOHboHvdDb52SYvYqG6h_nOG6a2H0uR-TTc,1076
+kedro_lsp-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+kedro_lsp-0.2.0.dist-info/METADATA,sha256=AAFererf7b_JjHLaYUA9-2wwMNKr9tpU8mX8F2O7sck,3702
+kedro_lsp-0.2.0.dist-info/RECORD,,
