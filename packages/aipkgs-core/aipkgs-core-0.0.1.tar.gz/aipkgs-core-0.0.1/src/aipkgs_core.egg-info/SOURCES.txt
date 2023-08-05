@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+src/aipkgs_core.egg-info/PKG-INFO
+src/aipkgs_core.egg-info/SOURCES.txt
+src/aipkgs_core.egg-info/dependency_links.txt
+src/aipkgs_core.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/file_helpers.py
+src/utils/utils.py
