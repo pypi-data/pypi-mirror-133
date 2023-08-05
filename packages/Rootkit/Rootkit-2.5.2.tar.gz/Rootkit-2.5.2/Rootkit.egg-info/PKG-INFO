@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: Rootkit
+Version: 2.5.2
+Summary: UNKNOWN
+Home-page: https://github.com/Rootkit-/bdfrz
+Author: Hoe
+Author-email: hoe@hoe.com
+License: GPLv3
+Keywords: reddit,download,archive
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.0
+License-File: LICENSE
+
+UNKNOWN
+
