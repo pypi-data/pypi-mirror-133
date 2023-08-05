@@ -1,0 +1,16 @@
+gosu/.coveragerc_django,sha256=llVUi2jnONFOSIw_PRPcKahGX0yp7UDL6DPspqqZqZc,410
+gosu/.coveragerc_python,sha256=2Ctl3j3-ix3EGeobHDwU4YflA8UJIHjEgz274X5iAws,342
+gosu/.flake8,sha256=yrbs0zh7pFN_isSS6ZGCTXsUANtnQXePFLza3y2LdVE,347
+gosu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gosu/main.py,sha256=u2B4XZJJUsk-76whFrepIHBmUuZ7eYaX1oZH0XBfSJ4,713
+gosu/ansible/setup.yaml,sha256=j9yXY0_pXS0_JjpGoxQ5dannwhdTW0Nk8lLObrwmWAo,47
+gosu/cmds/__init__.py,sha256=AV5i8T0n5L-VMoH1IEFo61lzbH2qc0xKeFVkYSjIOEs,50
+gosu/cmds/ansible.py,sha256=Ch_0CDnafXjcK5AsrmDR0wdzN106pRdoJjDoDZts90o,373
+gosu/cmds/ci.py,sha256=FY8B_wlLAhpPG8Q0pLfThqC9R0JJYp6LXCyZ5VN1X0k,3896
+gosu/cmds/django.py,sha256=rHpNHyBhWBMeQoxp3RdsEpnIi0-Cex4RWqewyWAm4AA,1884
+gosu/cmds/python.py,sha256=uckmJivhysJ9gEcrsGHmZheWji1Zawe6AysgzDhkoFY,4008
+gosu-1.1.22.dist-info/entry_points.txt,sha256=GrQfjfV6tQHpiQc3T3xA2JPjcg3KqMW-Z8ME7Cx5DxE,38
+gosu-1.1.22.dist-info/LICENSE,sha256=Gb_pkfGgsahGoGR3xjSzvFU-rsD-n8mbVu8nDq0hd5U,1098
+gosu-1.1.22.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+gosu-1.1.22.dist-info/METADATA,sha256=wgiPAu5HHrsW9nAr_r4FcX0PVLpKAI2_2KrR9RztdWw,1181
+gosu-1.1.22.dist-info/RECORD,,
