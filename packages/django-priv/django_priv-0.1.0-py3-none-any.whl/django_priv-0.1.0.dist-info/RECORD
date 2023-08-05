@@ -1,0 +1,11 @@
+django_priv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_priv/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_priv/apps.py,sha256=d4dveDb0ur-vrUa9ZdPHxZOFhhR2aiQwbz9LUtIr3x8,153
+django_priv/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_priv/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+django_priv/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_priv/urls.py,sha256=atPKvs7Lbav2kNoVyw7IQdAcabNIRh-ZE6mQqsogcJ8,116
+django_priv/views.py,sha256=AliHAwJzQcobVhCBQXueHtSipW39euVMAGm7bRRv-cI,533
+django_priv-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_priv-0.1.0.dist-info/METADATA,sha256=qN7ui4QljkDXHtZ8J_AZ_t-LuR941SgHGPbaHnlGIEs,480
+django_priv-0.1.0.dist-info/RECORD,,
