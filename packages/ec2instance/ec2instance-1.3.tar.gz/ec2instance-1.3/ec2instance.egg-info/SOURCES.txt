@@ -1,0 +1,11 @@
+README.md
+setup.py
+ec2instance/__init__.py
+ec2instance/main.py
+ec2instance.egg-info/PKG-INFO
+ec2instance.egg-info/SOURCES.txt
+ec2instance.egg-info/dependency_links.txt
+ec2instance.egg-info/entry_points.txt
+ec2instance.egg-info/not-zip-safe
+ec2instance.egg-info/requires.txt
+ec2instance.egg-info/top_level.txt
