@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scrapy-exts
+Version: 0.0.1
+Summary: Scrapy辅助工具
+Home-page: https://gitee.com/kingons/scrapy_tools
+Author: dragons
+Author-email: 521274311@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: scrapy (>=2.2.0)
+
+Scrapy辅助工具, 拓展常用组件
+
