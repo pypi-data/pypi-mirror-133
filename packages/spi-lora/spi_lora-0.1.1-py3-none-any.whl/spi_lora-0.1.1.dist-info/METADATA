@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: spi-lora
+Version: 0.1.1
+Summary: Control LoRa modems like the SX127x over SPI
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: spidev (>=3.1)
+
+UNKNOWN
+
