@@ -1,0 +1,1 @@
+miniball==1.1.0matplotlib==3.3.1numpy==1.21.4meshio==5.0.2pygalmesh==0.10.6scipy==1.6.1xfab==0.0.4numba
