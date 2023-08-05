@@ -1,0 +1,3 @@
+[console_scripts]
+cloudpost = cloudpost.cli.main:cloudpost
+
