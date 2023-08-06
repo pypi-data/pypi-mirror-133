@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+uscalt_drf.egg-info/PKG-INFO
+uscalt_drf.egg-info/SOURCES.txt
+uscalt_drf.egg-info/dependency_links.txt
+uscalt_drf.egg-info/requires.txt
+uscalt_drf.egg-info/top_level.txt
