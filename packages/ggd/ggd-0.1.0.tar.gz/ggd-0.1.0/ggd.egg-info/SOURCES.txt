@@ -1,0 +1,9 @@
+README.md
+setup.py
+ggd/__init__.py
+ggd/_ggd.py
+ggd.egg-info/PKG-INFO
+ggd.egg-info/SOURCES.txt
+ggd.egg-info/dependency_links.txt
+ggd.egg-info/requires.txt
+ggd.egg-info/top_level.txt
