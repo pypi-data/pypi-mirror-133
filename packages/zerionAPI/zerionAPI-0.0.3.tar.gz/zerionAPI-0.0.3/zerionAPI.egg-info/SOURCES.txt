@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+zerionAPI/__init__.py
+zerionAPI/api.py
+zerionAPI/dfa.py
+zerionAPI/ifb.py
+zerionAPI.egg-info/PKG-INFO
+zerionAPI.egg-info/SOURCES.txt
+zerionAPI.egg-info/dependency_links.txt
+zerionAPI.egg-info/not-zip-safe
+zerionAPI.egg-info/requires.txt
+zerionAPI.egg-info/top_level.txt
