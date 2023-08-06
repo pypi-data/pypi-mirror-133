@@ -1,0 +1,8 @@
+README.md
+setup.py
+showFlodersTree.py
+pwjyyds.egg-info/PKG-INFO
+pwjyyds.egg-info/SOURCES.txt
+pwjyyds.egg-info/dependency_links.txt
+pwjyyds.egg-info/requires.txt
+pwjyyds.egg-info/top_level.txt
