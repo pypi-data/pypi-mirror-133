@@ -1,0 +1,8 @@
+setuptools
+wheel
+requests
+nltk
+feedparser
+ShynaTime
+google_speech
+sox
