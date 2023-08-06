@@ -1,0 +1,53 @@
+[tool.poetry]
+name = "devcontainers4all"
+version = "0.1.0"
+description = ""
+authors = ["Cosimo Alfarano <cosimo@alfarano.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+#podman = "^3.2.1"
+docker = "^5.0.3"
+logzero = "^1.7.0"
+commentjson = "^0.9.0"
+pexpect = "^4.8.0"
+click = "^8.0.3"
+click-pathlib = "^2020.3.13.0"
+behave = "^1.2.6"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.812"
+pylint = "^2.7.2"
+py2puml = "^0.4.0"
+
+types-dataclasses = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dc = 'devcontainers4all.cli:run'
+
+[tool.pytest.ini_options]
+markers = [
+    "end2end: end to end tests which require Internet connection and will change live REST entities"
+]
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+# consider only those files
+#files = ["devcontainers4all/**.py"]
+# regexp exclude (https://mypy.readthedocs.io/en/stable/running_mypy.html#mapping-file-paths-to-modules)
+#exclude = "features"
+# modules are located in those directories, relative to the mypy working dir (which should be the repo root directory)
+mypy_path = "devcontainers4all"
+# https://mypy.readthedocs.io/en/stable/running_mypy.html#mapping-file-paths-to-modules
+show_error_codes = true
+install_types = true
+non_interactive = true
+junit_xml = "mypy_report.xml"
+disable_error_codes = ["no-redef", "import"]
