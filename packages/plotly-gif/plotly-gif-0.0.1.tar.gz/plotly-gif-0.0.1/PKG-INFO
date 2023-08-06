@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: plotly-gif
+Version: 0.0.1
+Summary: Create gif from your plotly figures!
+Home-page: https://github.com/dylanwal/plotly_gif
+Author: Dylan Walsh
+License: BSD
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Plotly-gif 
+
+A simple python package to generate .gif from your plotly figures. It works for both 2D and 3D figures. It can even 
+create motion for you in 3D plots. 
+
+## Installation
+
+```
+pip install plotly-gif
+```
+
+## Usage
+
+
+## Examples
+
