@@ -1,0 +1,12 @@
+devlprd/DaemonState.py,sha256=GMuc0Ju8vxO5dY1iwvUUaeYAE_8q1dpSfS2_m5gfgIg,6486
+devlprd/__init__.py,sha256=srIkWEFcjEw4_7PObbaDftiPuKlk2-FCGqC-GqHsAPM,100
+devlprd/__main__.py,sha256=ZE8O0U0Uw5mXtdDhIfIgOjbR7mRgUfHpvHH78REeeiI,140
+devlprd/config.py,sha256=RmrETvCxHoR1yYyPXjiEpTatLIjRxwOImJ4279BZAJU,466
+devlprd/daemon.py,sha256=0NEZvNMG0j6tt-KkV1P34N8VPV8XskLriSS3A8PisoM,4694
+devlprd/filtering.py,sha256=VH_DYUCauqwrychoAgA2626cJxkjVcHY4OcqZ8vRLsU,3208
+devlprd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devlprd/serif.py,sha256=c3apDSsNMOrv6uqLmIQUtassAKtUl9u5hdLVhjvlQOw,3527
+devlprd-0.4.1.dist-info/LICENSE,sha256=MqipwhMA8b3CdqPi78LZX4Lp08Yw6jSoq4AxOH6V3_M,1062
+devlprd-0.4.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+devlprd-0.4.1.dist-info/METADATA,sha256=0SRX4BOq2E2tJ-HtVrxYT6LGV2ibSDiCs4_y8O5vwJY,3687
+devlprd-0.4.1.dist-info/RECORD,,
