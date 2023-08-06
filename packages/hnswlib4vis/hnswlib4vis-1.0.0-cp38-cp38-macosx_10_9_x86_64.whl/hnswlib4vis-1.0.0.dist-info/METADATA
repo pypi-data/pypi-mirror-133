@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hnswlib4vis
+Version: 1.0.0
+Summary: hnswlib for visualization
+Home-page: https://github.com/alwayslove2013/hnswlib/tree/minmin
+Author: [hnswlib] Yury Malkov and others; [hnswlib4vis] min.tian from zilliz
+Author-email: min.tian.cn@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+
+hnsw
+
