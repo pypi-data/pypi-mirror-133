@@ -1,0 +1,5 @@
+setup.py
+LogicCircuit.egg-info/PKG-INFO
+LogicCircuit.egg-info/SOURCES.txt
+LogicCircuit.egg-info/dependency_links.txt
+LogicCircuit.egg-info/top_level.txt
