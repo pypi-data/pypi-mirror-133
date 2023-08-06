@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mutag.egg-info/PKG-INFO
+mutag.egg-info/SOURCES.txt
+mutag.egg-info/dependency_links.txt
+mutag.egg-info/requires.txt
+mutag.egg-info/top_level.txt
+test/__init__.py
+test/conftest.py

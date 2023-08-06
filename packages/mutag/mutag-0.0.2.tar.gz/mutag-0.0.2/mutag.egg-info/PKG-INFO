@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mutag
+Version: 0.0.2
+Summary: Automatic tagging of music excerpts with SOTA models in TensorFlow 2
+Home-page: https://https://github.com/pvardanis/mutag
+Author: Panagiotis Vardanis
+Author-email: panagiotisvardanis@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://https://github.com/pvardanis/mutag
+Project-URL: Tracker, https://https://github.com/pvardanis/mutag/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+[![PythonVersion][PythonVersion-shield]][PythonVersion-url]
+[![PyPi][PyPi-shield]][PyPi-url]
+[![Black][black-shield]][black-url]
+
+.. |PyPi| image:: https://img.shields.io/pypi/v/scikit-learn
+.. _PyPi: https://pypi.org/project/scikit-learn
+
+# MUTAG: A Music Tagging framework with SOTA Deep Learning models in TensorFlow 2
+
+[black-shield]: https://img.shields.io/badge/code%20style-black-000000.svg
+[black-url]: https://github.com/psf/black
+
+[PythonVersion-shield]: https://img.shields.io/badge/python-3.7-blue
+[PythonVersion-url]: https://img.shields.io/badge/python-3.7-blue
+
