@@ -1,0 +1,7 @@
+sqlalchemy_databricks/__init__.py,sha256=iWJDX-H_HcHBdvFXps0GhcQRwhIXZhvRWg2k9yN6src,63
+sqlalchemy_databricks/_dialect.py,sha256=1UY37Jd0PWj9bChPeh7XHR0uxZ_L9p1NtMvhFl-klLM,2617
+sqlalchemy_databricks-0.1.0.dist-info/entry_points.txt,sha256=hE54amXrhQzPqtifpBUsT4nymRpIpI3dNTz7SxLPojA,84
+sqlalchemy_databricks-0.1.0.dist-info/LICENSE.txt,sha256=s3zLvRuNg5df3Hpsl0y0mpoRow8ZLMWioCzsDsQv0BU,1073
+sqlalchemy_databricks-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sqlalchemy_databricks-0.1.0.dist-info/METADATA,sha256=KqzcOrwFWw2AdTbaiHjrSGm8Oxr_3B7501k0wcWiNy4,2176
+sqlalchemy_databricks-0.1.0.dist-info/RECORD,,
