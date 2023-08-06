@@ -1,0 +1,10 @@
+pandas
+matplotlib
+seaborn
+numpy
+plotly>=5.5.0
+kaleido
+jupyter
+scikit-learn
+Joblib
+yfinance
