@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ecgai_training_data_physionet/__init__.py
+src/ecgai_training_data_physionet/main.py
+src/ecgai_training_data_physionet/models.py
+src/ecgai_training_data_physionet/physionet.py
+src/ecgai_training_data_physionet/ptbxl.py
+src/ecgai_training_data_physionet.egg-info/PKG-INFO
+src/ecgai_training_data_physionet.egg-info/SOURCES.txt
+src/ecgai_training_data_physionet.egg-info/dependency_links.txt
+src/ecgai_training_data_physionet.egg-info/top_level.txt
