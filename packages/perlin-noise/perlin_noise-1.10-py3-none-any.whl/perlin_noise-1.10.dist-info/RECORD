@@ -1,0 +1,8 @@
+perlin_noise/__init__.py,sha256=zSrGtoZbvtM42VKQw9afrOaLxSoEdmcXL5cXti22Yws,139
+perlin_noise/perlin_noise.py,sha256=YfcmyvMLnuadPDRSe75Xn3FrFmK5XRytOgdg_LR72tA,2567
+perlin_noise/rand_vec.py,sha256=DDcSM9mPDOpSfZOh6RymDIBlbSLFTif5YI8MwzP5GDE,1867
+perlin_noise/tools.py,sha256=FHJhZe0sTk8TnalTlRZBPnL1XB76XlC_ahoc_00WCXM,2927
+perlin_noise-1.10.dist-info/METADATA,sha256=IaJc60a7o-uLarEZZqsrApNESciTpCeMIggNAteTFlY,2098
+perlin_noise-1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+perlin_noise-1.10.dist-info/top_level.txt,sha256=UqJP1FgUyhxeHpCGRT46k8X1mXYwwVPmE1yXIuDLrEU,13
+perlin_noise-1.10.dist-info/RECORD,,
