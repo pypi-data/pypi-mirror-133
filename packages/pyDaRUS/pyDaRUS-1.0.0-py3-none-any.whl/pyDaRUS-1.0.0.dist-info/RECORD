@@ -1,0 +1,14 @@
+pyDaRUS/__init__.py,sha256=zNd1COcMiE0KSIn0ts-CwxsODg7qzZtjDQRF8OkAQnM,337
+pyDaRUS/metadatablocks/__init__.py,sha256=A0rd2siNJlOiU-7yDPk8L_aPw_b-QeHHR7gFB4P34dM,363
+pyDaRUS/metadatablocks/archive.py,sha256=r-Ukb6VHInyv1fQLYh_i2ePLsRWjvS6cLHZlPZab9FM,1513
+pyDaRUS/metadatablocks/citation.py,sha256=KUT_zGw5RVD2G9G7Ccb3Nvv6qbCYR6TVnqbo7A3v-nU,44671
+pyDaRUS/metadatablocks/codeMeta.py,sha256=ajfhsHE5N-HohP3j36A0hrkSX0L5Naj0SeG_kNp3qzI,8211
+pyDaRUS/metadatablocks/engMeta.py,sha256=ik355E9JqoWq1fem4JHJXM38orsnc3sGg6u_M4Jk2CU,30935
+pyDaRUS/metadatablocks/enzymeML.py,sha256=ErzN7iTMaZk7FIp1QYv_ifeOhYl4fmxv3gBlVG5UWuQ,27250
+pyDaRUS/metadatablocks/privacy.py,sha256=IUGUlDeRKtseyWBFliZargQULW2SjQof4B7dccDO9e0,2122
+pyDaRUS/metadatablocks/process.py,sha256=TcWeflFTXz313_edaUSQY07r_F0YNBmoOrWnnHX_hrE,18065
+pyDaRUS-1.0.0.dist-info/LICENSE,sha256=2AkkalHXMfIukegMQQFKzVhPHY8AKczl2PV5St7NGQ8,1064
+pyDaRUS-1.0.0.dist-info/METADATA,sha256=BLrHCSvjrpT-lfXSiuRRkGSf30nT12QvrIGIB1k8KUk,365
+pyDaRUS-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyDaRUS-1.0.0.dist-info/top_level.txt,sha256=4e8HYHt7aKukBxa1jJNgvErUOyEGN8cCmp9Hlr8qbEA,8
+pyDaRUS-1.0.0.dist-info/RECORD,,
