@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: EBomb
+Version: 0.0.8
+Summary: proxytv.ru IPTV Channels Parser and Robot
+Home-page: https://github.com/NIKDISSV-Forever/ProxyTVRobot
+Author: Nikita (NIKDISSV)
+Author-email: nikdissv.forever@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#### Documentation in Russian
+
+# EBomb - Спам на почту/ы
+
+> pip install [EBomb](https://pypi.org/project/EBomb/)
+
+```python
+# EBomb/__init__.py
+class EBomb:
+    def __init__(self,
+                 targets: list[str],
+                 threads_count: int = None,
+                 proxy: bool = True,
+                 forever: bool = True,
+                 verbose: bool = True): ...
+```
+
