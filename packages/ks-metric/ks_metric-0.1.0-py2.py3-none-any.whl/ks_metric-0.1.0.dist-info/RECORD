@@ -1,0 +1,9 @@
+ks_metric/__init__.py,sha256=y9aEtsTRZQFeHSEUvVPcuXse7Y-TLHbqzDvgOrgimno,166
+ks_metric/_ks_metric.py,sha256=aeHUw2NoR9PNIlgmkcZxr47Ohd2pCT6JI_u9w8Vp7F8,2895
+ks_metric/cli.py,sha256=Cu37i_5iEsNZl7DocJdJpJs0-huay46wPw71yY8XWYk,442
+ks_metric-0.1.0.dist-info/LICENSE,sha256=kBFxQxIWJSQ2OrKFNCyGhRBRDxjM6Nls6nqez1LhTuU,1074
+ks_metric-0.1.0.dist-info/METADATA,sha256=kGIqQRvAgvt_6WBOuYolPsh5OnNru-zWipgx0bRNzFk,2272
+ks_metric-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+ks_metric-0.1.0.dist-info/entry_points.txt,sha256=jVz3bDjsoLR8-9rcPrPiFWQjvCwgv5bkwweh5OZjip8,50
+ks_metric-0.1.0.dist-info/top_level.txt,sha256=z0cdYl6mHgaY2ablunrr0HMoC6FM2wakCcigXNtLcxk,10
+ks_metric-0.1.0.dist-info/RECORD,,
