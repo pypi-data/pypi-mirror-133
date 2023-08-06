@@ -1,0 +1,38 @@
+{
+    "cuda_run_1": {
+        "cpu": 1,
+        "exp.time": 0.01,
+        "duration": 0.4809999465942383,
+        "nphot": 94292
+    },
+    "cuda_run_2": {
+        "cpu": 1,
+        "exp.time": 0.1,
+        "duration": 0.4779999256134033,
+        "nphot": 942940
+    },
+    "cuda_run_3": {
+        "cpu": 1,
+        "exp.time": 1.0,
+        "duration": 0.5750017166137695,
+        "nphot": 9429432
+    },
+    "cuda_run_4": {
+        "cpu": 1,
+        "exp.time": 10,
+        "duration": 0.840998649597168,
+        "nphot": 94294368
+    },
+    "cuda_run_5": {
+        "cpu": 1,
+        "exp.time": 30,
+        "duration": 0.8850018978118896,
+        "nphot": 282883108
+    },
+    "cuda_run_6": {
+        "cpu": 1,
+        "exp.time": 60,
+        "duration": 1.226996898651123,
+        "nphot": 565766219
+    }
+}
