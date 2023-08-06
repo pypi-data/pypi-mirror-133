@@ -1,0 +1,71 @@
+interactions:
+- request:
+    body: '{"clientId": "test", "secret": "test_fail"}'
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '43'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.25.1
+    method: POST
+    uri: https://superwise-dev.frontegg.com/identity/resources/auth/v1/api-token
+  response:
+    body:
+      string: '{"errors":["Invalid authentication"]}'
+    headers:
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '37'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 26 Dec 2021 08:42:48 GMT
+      Set-Cookie:
+      - visid_incap_2473133=vgJQ7dGkROmFSGvihPkoK/0qyGEAAAAAQUIPAAAAAAAcwXZjZMMHhDTgYqnC946s;
+        expires=Mon, 26 Dec 2022 00:23:00 GMT; HttpOnly; path=/; Domain=.frontegg.com
+      - nlbi_2473133=u6e5V9tPH0crGfuDRTaqUgAAAABC+A1BhS5iK2tydZI2G1G2; path=/; Domain=.frontegg.com
+      - incap_ses_1456_2473133=mshvfYczkxZtZbISesA0FAcryGEAAAAA5RreQLmexMvI3g5hepvg1g==;
+        path=/; Domain=.frontegg.com
+      X-CDN:
+      - Imperva
+      X-Iinfo:
+      - 43-42374377-42374381 NNNN CT(84 86 0) RT(1640508167486 20) q(0 0 1 1) r(2
+        2) U5
+      content-security-policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      etag:
+      - W/"25-RzVpVPSsARofXaCBY4VaEWX6wg0"
+      expect-ct:
+      - max-age=0
+      frontegg-trace-id:
+      - 6a075bf2-f7d1-47c5-b563-f5a74725a8ee
+      referrer-policy:
+      - no-referrer
+      strict-transport-security:
+      - max-age=15724800; includeSubDomains
+      x-content-type-options:
+      - nosniff
+      x-dns-prefetch-control:
+      - 'off'
+      x-download-options:
+      - noopen
+      x-frame-options:
+      - SAMEORIGIN
+      x-permitted-cross-domain-policies:
+      - none
+      x-xss-protection:
+      - '0'
+    status:
+      code: 401
+      message: Unauthorized
+version: 1
