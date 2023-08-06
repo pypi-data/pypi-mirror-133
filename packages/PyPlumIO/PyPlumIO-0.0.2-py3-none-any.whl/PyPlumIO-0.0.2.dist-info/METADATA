@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: PyPlumIO
+Version: 0.0.2
+Summary: PyPlumIO is a native ecoNET library for Plum ecoMAX controllers.
+Home-page: https://github.com/denpamusic/PyPlumIO
+Author: Denis Paavilainen
+Author-email: denpa@denpa.pro
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/denpamusic/PyPlumIO/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyPlumIO is a native ecoNET library for Plum ecoMAX controllers.
+
+```python
+from pyplumio import econet_connection
+
+async def main(ecomax, connection):
+    if ecomax.has_data():
+        print(ecomax)
+
+with econet_connection('ecomax.home', 8899) as c:
+    c.loop(main)
+```
+
+
