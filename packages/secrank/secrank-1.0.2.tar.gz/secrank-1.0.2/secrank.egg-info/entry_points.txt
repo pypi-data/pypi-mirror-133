@@ -1,0 +1,3 @@
+[console_scripts]
+secrank = secrank.cli:main
+
