@@ -1,0 +1,78 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "avanikop",
+      "name": "avanikop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39831515?v=4",
+      "profile": "https://github.com/avanikop",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Luke-Poeppel",
+      "name": "Luke Poeppel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20927930?v=4",
+      "profile": "http://www.lukepoeppel.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "yardencsGitHub",
+      "name": "yardencsGitHub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17324841?v=4",
+      "profile": "https://yardencsgithub.github.io/",
+      "contributions": [
+        "code",
+        "ideas",
+        "talk",
+        "userTesting",
+        "question"
+      ]
+    },
+    {
+      "login": "NickleDave",
+      "name": "David Nicholson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11934090?v=4",
+      "profile": "https://nicholdav.info/",
+      "contributions": [
+        "bug",
+        "code",
+        "data",
+        "doc",
+        "example",
+        "ideas",
+        "infra",
+        "maintenance",
+        "mentoring",
+        "projectManagement",
+        "review",
+        "question",
+        "talk",
+        "test",
+        "tutorial"
+      ]
+    },
+    {
+      "login": "marichard123",
+      "name": "marichard123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30010668?v=4",
+      "profile": "https://github.com/marichard123",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "vak",
+  "projectOwner": "NickleDave",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
