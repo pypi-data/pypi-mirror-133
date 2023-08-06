@@ -1,0 +1,3 @@
+[console_scripts]
+heroku-guardian=heroku_guardian.bin.cli:main
+
