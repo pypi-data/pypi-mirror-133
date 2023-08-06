@@ -1,0 +1,3 @@
+[console_scripts]
+unstar-pipfile=unstar_pipfile.unstar_pipfile:unstar
+
