@@ -1,0 +1,17 @@
+drf_jsonmask/__init__.py,sha256=Qv6lQDCn6pfuCqcADHRbpjR08cwNMFN2Xlo3K9kvb1Y,126
+drf_jsonmask/constants.py,sha256=5qHhjY-4vAy6BRwyCPs6q3oJYssFjsJUIDp2Y5_Nfec,50
+drf_jsonmask/decorators.py,sha256=gOgWz7HfUZyltIGXW9ywyO1krX6Flys8koyywOEc5HQ,305
+drf_jsonmask/serializers.py,sha256=RLkdLewiML6P8wgYiAEMhI7GIp9OS4j3GM0k-aNhrHY,1417
+drf_jsonmask/utils.py,sha256=cn3xvCu0vI5NobTyK4z4DZuqKe3V57rMuU-xrjE8rTM,496
+drf_jsonmask/views.py,sha256=6zhgExplX43kKL91LImzYtx1rwei-ZWUjzJZAeSClN8,3687
+drf_jsonmask/__pycache__/__init__.cpython-310.pyc,sha256=8lMQoXRCQAE3wJ-faLePsJimcF4GWsfGLCexhrBr6X8,271
+drf_jsonmask/__pycache__/constants.cpython-310.pyc,sha256=2uNQPVdf3-rRCF-BnI1GvXA5315PkEr0eLbgeyRH0xw,204
+drf_jsonmask/__pycache__/decorators.cpython-310.pyc,sha256=G1yeM8RaToKhxf5u1_WK1rEVpwRGgQMVAnaXoi3uJcY,703
+drf_jsonmask/__pycache__/serializers.cpython-310.pyc,sha256=RuenPUyy-9YQ3BOfWtemr9EdnVX21x6hnQSkAe6Ec5Y,1442
+drf_jsonmask/__pycache__/utils.cpython-310.pyc,sha256=uVvZQ4MMKz-PscW54LijufgqqfGE-16CnHtjYYmd-zk,665
+drf_jsonmask/__pycache__/views.cpython-310.pyc,sha256=jOgNxcJ3fy7fc7KiKPoj6rZ_eeOdHteSDMvP71ZNiXo,3683
+drf_jsonmask-0.2.0.dist-info/LICENSE,sha256=EVwD3_CHZn_t5Ua5cxSPdxv-WdeuCczT1r27P8L-Ht8,750
+drf_jsonmask-0.2.0.dist-info/METADATA,sha256=CJU8PuC8a8uJ0PNkf5x9A0bBeTwoo0DSIFLE6X9nXaM,9944
+drf_jsonmask-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+drf_jsonmask-0.2.0.dist-info/top_level.txt,sha256=mB8Di6hYE_aEEfCI-jwuYDvj2iRYad2Zyq0uKiGK6jg,13
+drf_jsonmask-0.2.0.dist-info/RECORD,,
