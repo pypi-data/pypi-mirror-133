@@ -1,0 +1,3 @@
+[console_scripts]
+bobcat-miner=bobcat_miner.cli:main
+
