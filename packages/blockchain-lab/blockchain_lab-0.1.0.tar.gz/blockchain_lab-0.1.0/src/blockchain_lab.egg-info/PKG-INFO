@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: blockchain-lab
+Version: 0.1.0
+Summary: A fully functional blockchain lab.
+Home-page: https://github.com/Decentra-Network/blockchain_lab
+Author: Decentra Network Developers
+Author-email: onur@decentranetwork.org
+License: MPL-2.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+<<<<<<< HEAD
+# Blockchain Lab
+A fully functional blockchain lab.
+
+# Install
+```
+pip3 install blockchain_lab
+```
+# Using
+## In command line
+```console
+blockchain_lab_create
+```
+```console
+blockchain_lab_delete
+```
+```console
+blockchain_lab_status
+```
+```console
+blockchain_lab_send_transaction -r decentra_network -a 5000
+```
+=======
+
+>>>>>>> 59f0f46427cc1b1345447ac1ddc1fe981e6bec24
+
+
