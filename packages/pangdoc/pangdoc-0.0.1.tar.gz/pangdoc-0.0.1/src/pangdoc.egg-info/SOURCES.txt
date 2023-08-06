@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/pangdoc/__init__.py
+src/pangdoc/blocks.py
+src/pangdoc/data_reader.py
+src/pangdoc/pandoc.py
+src/pangdoc/utils.py
+src/pangdoc.egg-info/PKG-INFO
+src/pangdoc.egg-info/SOURCES.txt
+src/pangdoc.egg-info/dependency_links.txt
+src/pangdoc.egg-info/requires.txt
+src/pangdoc.egg-info/top_level.txt
+src/pangdoc/data/code.md
+src/pangdoc/data/insertTables.lua
+src/pangdoc/data/pandoc-ling.lua
