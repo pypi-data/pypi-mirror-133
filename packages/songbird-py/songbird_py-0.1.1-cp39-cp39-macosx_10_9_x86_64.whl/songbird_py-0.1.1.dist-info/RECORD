@@ -1,0 +1,12 @@
+songbird_py-0.1.1.dist-info/METADATA,sha256=Z5PaucKZ6aGfAFX-UsBLcYFYjYsvRkVc_FaW2UQ1_zU,3539
+songbird_py-0.1.1.dist-info/WHEEL,sha256=6V9A0nAFH3Hn1fXX6bSasdorevv55YE2JCfzxr8DBsU,104
+songbird/queue.py,sha256=INnmmZxZavJkHZN7XeKdvhwt62Dh7kSyw1SrK0T3ML8,4689
+songbird/songbird.pyi,sha256=k2t9YDj6ekA1La8nwrOjH0nxG6bPN7xrJsRoqZJLSGc,6413
+songbird/pincer.py,sha256=KtoyJN8or7PNu5eMEF708Zch9SEMY95T10lxJuvl8fs,1911
+songbird/__init__.py,sha256=iHGDj1bh8ixgPMHy9FC8Gc0sU8TdOLCA_eANgn5RSMw,154
+songbird/hikari.py,sha256=w12ib5agcfyOyf4Fsks-Q6HvwZQerIxqYIQPCYjrd7w,2692
+songbird/playlist.py,sha256=T4DZWpeV1JIIuZwmKehRSmRas8qsNlcYJMDyUVPN3Y0,1009
+songbird/voicebox_base.py,sha256=gmgyas-0aJm_Et2zFMVmEWSZmqbR7UoueWIIo7xDP2s,1758
+songbird/helpers.py,sha256=juiePsZvBOwUIz6ob_eNzilDGkKoey3ZTdhCmv0z6c4,309
+songbird/songbird.cpython-39-darwin.so,sha256=--IAuJfNcHo5EjIaky0vqzktu4qO4efIBdVU4bm5h0s,7533304
+songbird_py-0.1.1.dist-info/RECORD,,
