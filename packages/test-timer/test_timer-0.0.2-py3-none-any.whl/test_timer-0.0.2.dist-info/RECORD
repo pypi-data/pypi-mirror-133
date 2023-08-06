@@ -1,0 +1,5 @@
+test_timer/__init__.py,sha256=0n9ih78FfEzS09P4JeGQHyArIdVKeWm4pPqD2Gm94D4,100
+test_timer/base.py,sha256=C-VXrZfc89khRnrBIooVs8fLgYES35r59DxTuDwZtOo,1304
+test_timer-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+test_timer-0.0.2.dist-info/METADATA,sha256=E_QhgktBCpReLOz5jFRN6tYWNOD7JaVvYnTF42eX0KQ,1837
+test_timer-0.0.2.dist-info/RECORD,,
