@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: crysnet
+Version: 0.0.2
+Summary: Labelled Graph Networks for machine learning of crystal.
+Home-page: UNKNOWN
+Author: Zongxiang Hu
+Author-email: huzongxiang@yahoo.com
+License: BSD
+Download-URL: https://github.com/huzongxiang/CrysNetwork
+Keywords: materials,science,machine,learning,deep,graph,networks,neural,transformer,massagepassing,topology,tight,bingding,twisted,graphene
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+using mpnn or graphtransformer to learn
+
