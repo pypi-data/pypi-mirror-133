@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/sigma/__init__.py
+src/sigma.egg-info/PKG-INFO
+src/sigma.egg-info/SOURCES.txt
+src/sigma.egg-info/dependency_links.txt
+src/sigma.egg-info/top_level.txt
