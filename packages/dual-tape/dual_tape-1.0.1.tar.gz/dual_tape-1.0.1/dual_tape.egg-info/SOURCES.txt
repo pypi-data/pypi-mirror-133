@@ -1,0 +1,14 @@
+README.rst
+setup.py
+dual_tape/__init__.py
+dual_tape/assembler.py
+dual_tape/dual_tape.py
+dual_tape/error.py
+dual_tape/log.py
+dual_tape/vm.py
+dual_tape.egg-info/PKG-INFO
+dual_tape.egg-info/SOURCES.txt
+dual_tape.egg-info/dependency_links.txt
+dual_tape.egg-info/entry_points.txt
+dual_tape.egg-info/requires.txt
+dual_tape.egg-info/top_level.txt
