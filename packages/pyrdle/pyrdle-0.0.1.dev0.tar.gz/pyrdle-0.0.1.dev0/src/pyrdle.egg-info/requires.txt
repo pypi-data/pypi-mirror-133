@@ -1,0 +1,16 @@
+matplotlib
+pandas
+seaborn
+tqdm
+english_words
+pyrdle
+rich
+click
+class-resolver
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-click
+sphinx-autodoc-typehints
+sphinx_automodapi

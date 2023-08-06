@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyrdle/__init__.py
+src/pyrdle/best_word_search.py
+src/pyrdle/lang.py
+src/pyrdle/play.py
+src/pyrdle/wordle.py
+src/pyrdle.egg-info/PKG-INFO
+src/pyrdle.egg-info/SOURCES.txt
+src/pyrdle.egg-info/dependency_links.txt
+src/pyrdle.egg-info/entry_points.txt
+src/pyrdle.egg-info/not-zip-safe
+src/pyrdle.egg-info/requires.txt
+src/pyrdle.egg-info/top_level.txt
