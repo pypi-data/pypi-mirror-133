@@ -1,0 +1,85 @@
+# This is an example configuration file.
+# It works with the demo in located in the demo directory
+# Make sure to change the url, user and password attributes in the output section
+
+output:
+  # Specify the output writer to use
+
+  # Use the json file writer
+  #  writer: indis.output.json_writer.JsonFileWriter
+  #  configuration:
+  #    directory: /tmp/director
+
+  # Use the API writer
+  writer: indis.output.api_writer.APIWriter
+  # Configuration for API writer
+  configuration:
+    url: http://172.25.1.64/icingaweb2/director
+    user: icingaadmin
+    password: icinga
+    # Automatically do a deployment after all create, changes and deletes is done, default false
+    deploy: true
+    # If delete is used it's a MUST that a full extraction is done from the source system to match what is deleted
+    # compare to what's currently in the Indis cache, default false.
+    # Delete set to true require that cache is enabled
+    delete: true
+
+
+source:
+  # Specify the source system provider
+  demo_source:
+    name: demo
+    class: demo.source.NetworkSource
+    # This part describe how the data read by the cmdb module
+    access:
+      # This is mandatory. The class that define the abstract methods that the reader implementation must implement.
+      # The module class should only know about this class.
+      reader_inf: demo.reader.Reader
+      # This defines the real implementation. This is not mandatory, but than be supplied in runtime.
+      reader: demo.file_reader.FileReader
+
+processor:
+  # Specify different automated processing steps
+
+  # Add vars to all and specific object types
+  vars:
+    # Add vars to both hosts and services
+    common:
+      env: Sthlm
+    # Add vars just to hosts
+    hosts:
+      template: base_host
+    # Add vars jist to services
+    services:
+      dc: dc1
+
+  # Add groups to object of host and service
+  groups:
+    # Add groups to hosts
+    hosts:
+      - all_host_group
+
+cache:
+  # Use cache to enable life cycle on objects. A MUST to understand deletes.
+  # if cache is not used Indis will do API calls for all objects. Using a cache will minimize the amount of API calls
+  # only to object that are changed or delete since last run of Indis.
+  redis:
+    # Data will be stored in redis with the prefix of the source name, e.g. "demo_source:", as a way to separate between
+    # different sources.
+    # Below are default values
+    host: localhost
+    port: 6379
+    db: 0
+    auth: null
+
+
+demo:
+  # Provider specific attribute used in the provider logic
+  demo_file: demo_data/demo_hosts.json
+  demo_template_file: demo_data/demo_templates.json
+
+logger:
+  # Path and name for the log file. Default is stdout
+  #logfile: /var/tmp/mender.log
+  # Log level. Default INFO
+  level: DEBUG
