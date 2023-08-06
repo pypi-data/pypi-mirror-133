@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: scribeutil
+Version: 0.0.3
+Summary: Library that help with data validation, data conversion and logging.
+Home-page: https://github.com/carloxdev/scribeutil
+Author: Carlos A. Martínez Jiménez
+Author-email: carloxdev@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/carloxdev/scribeutil/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ScribeUtil
+
+Library that help with data validation, data conversion and logging
+
+
