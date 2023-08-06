@@ -1,0 +1,1 @@
+This is a python api to scrape search results from a url.
