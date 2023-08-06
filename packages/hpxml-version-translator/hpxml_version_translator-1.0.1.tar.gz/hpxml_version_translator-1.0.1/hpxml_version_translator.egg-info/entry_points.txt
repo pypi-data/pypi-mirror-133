@@ -1,0 +1,3 @@
+[console_scripts]
+hpxml_version_translator = hpxml_version_translator:main
+

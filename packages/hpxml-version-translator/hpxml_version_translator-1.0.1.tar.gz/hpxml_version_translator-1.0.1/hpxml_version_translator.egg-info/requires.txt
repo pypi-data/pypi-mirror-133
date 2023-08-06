@@ -1,0 +1,11 @@
+lxml
+deprecated
+
+[dev]
+pytest>=6.2
+pytest-mock
+pytest-xdist
+pytest-cov
+flake8
+rope
+black
