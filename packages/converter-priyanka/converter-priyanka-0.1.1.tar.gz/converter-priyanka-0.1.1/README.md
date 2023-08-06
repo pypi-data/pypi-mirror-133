@@ -1,0 +1,1 @@
+The Python script to generate different file formats while fetching API data from server. 

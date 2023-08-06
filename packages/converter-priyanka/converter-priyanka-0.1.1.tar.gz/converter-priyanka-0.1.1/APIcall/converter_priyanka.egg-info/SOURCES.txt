@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+APIcall/converter_priyanka.egg-info/PKG-INFO
+APIcall/converter_priyanka.egg-info/SOURCES.txt
+APIcall/converter_priyanka.egg-info/dependency_links.txt
+APIcall/converter_priyanka.egg-info/requires.txt
+APIcall/converter_priyanka.egg-info/top_level.txt
