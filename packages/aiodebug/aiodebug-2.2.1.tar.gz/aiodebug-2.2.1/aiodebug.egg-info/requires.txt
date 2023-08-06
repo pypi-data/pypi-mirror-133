@@ -1,0 +1,4 @@
+typing-extensions<5.0.0,>=3.7.0
+
+[logwood]
+logwood<4.0.0,>=3.0.0
