@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: django-model-to-excel-csv
+Version: 0.1.2
+Summary: Simple Excel and CSV file Generator
+Home-page: UNKNOWN
+Author: H I Govinda
+Author-email: higovind5@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Simple Excel and CSV File Generator From Django Model.
+
+Required Packages:
+
+    pip install pandas
+
+Usage :
+
+Django Models to Excel File:
+
+    from django_model_to_excel_csv import generate_excel_file
+
+    def func(request):
+        queryset = User.objects.all().values()
+        # queryset will be your model data
+        # file_path : 'your absloute path' or it will store in your project Base Directory
+        # file_name accepts string : 'string' 
+        # sheet_name accepts string : 'string'
+        # index and header : Boolean
+        generate_excel = generate_excel_file.all_to_excel(queryset, file_path, file_name, sheet_name, index, header)
+
+
+Django Models to CSV File:
+
+    from django_model_to_excel_csv import generate_csv_file
+
+    def func(request):
+        queryset = User.objects.all().values()
+        # queryset will be your model data
+        # file_path : 'your absloute path' or it will store in your project Base Directory
+        # file_name accepts string : 'string' 
+        # sheet_name accepts string : 'string'
+        # index and header : Boolean
+        generate_excel = generate_excel_file.all_to_excel(queryset, file_path, file_name, sheet_name, index, header)
+        
+
+
+
+
