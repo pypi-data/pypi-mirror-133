@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+aurora_driver_gfxhat.egg-info/PKG-INFO
+aurora_driver_gfxhat.egg-info/SOURCES.txt
+aurora_driver_gfxhat.egg-info/dependency_links.txt
+aurora_driver_gfxhat.egg-info/not-zip-safe
+aurora_driver_gfxhat.egg-info/requires.txt
+aurora_driver_gfxhat.egg-info/top_level.txt
