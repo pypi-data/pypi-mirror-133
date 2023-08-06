@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: codemaker
+Version: 0.0.2.2
+Summary: Utils to easily generate code, speed up your workflow.
+Home-page: https://gitee.com/peiiii/codemaker
+Author: Wang Pei
+Author-email: 1535376447@qq.com
+License: UNKNOWN
+Description: # codemaker
+        Utils to easily generate code, speed up your workflow.
+        # Usage
+        
+        
+        ### quick start
+        
+        ```shell
+        # Assume we are going to create a python package (which can be uploaded to pypi.org adn be installed using pip) named foopkg
+        # 1. Export the template files for a normal python package project.
+        pip3 install codetmpl
+        codetmpl export pypkg foopkg
+        # 2. Edit file foopkg/maker.yml, fill in some information such as author and package name
+        # 3. Make your project code from template, 
+        cd foopkg
+        codemaker make
+        ```
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
