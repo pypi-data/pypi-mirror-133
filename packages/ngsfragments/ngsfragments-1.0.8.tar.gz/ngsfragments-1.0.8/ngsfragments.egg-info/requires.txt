@@ -1,0 +1,8 @@
+numpy
+ailist
+cbseg
+bcpseg
+intervalframe
+statsmodels
+h5py
+pysam
