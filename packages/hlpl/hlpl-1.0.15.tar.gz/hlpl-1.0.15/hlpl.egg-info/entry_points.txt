@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl = hlpl.__main__:main
+
