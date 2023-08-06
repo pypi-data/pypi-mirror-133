@@ -1,0 +1,11 @@
+python-dateutil
+suds-py3
+
+[test]
+pytest
+pytest-cov
+
+[typing]
+mypy
+types-python-dateutil
+types-setuptools
