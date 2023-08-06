@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+MAGOT2/__init__.py
+MAGOT2/__main__.py
+MAGOT2/lib.py
+MAGOT2/tools.py
+MAGOT2.egg-info/PKG-INFO
+MAGOT2.egg-info/SOURCES.txt
+MAGOT2.egg-info/dependency_links.txt
+MAGOT2.egg-info/entry_points.txt
+MAGOT2.egg-info/not-zip-safe
+MAGOT2.egg-info/requires.txt
+MAGOT2.egg-info/top_level.txt
