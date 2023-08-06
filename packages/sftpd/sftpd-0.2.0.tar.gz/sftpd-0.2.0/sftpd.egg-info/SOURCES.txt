@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+sftpd/__init__.py
+sftpd/application.py
+sftpd/server.py
+sftpd/simple.py
+sftpd/utils.py
+sftpd.egg-info/PKG-INFO
+sftpd.egg-info/SOURCES.txt
+sftpd.egg-info/dependency_links.txt
+sftpd.egg-info/entry_points.txt
+sftpd.egg-info/requires.txt
+sftpd.egg-info/top_level.txt
