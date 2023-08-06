@@ -1,0 +1,93 @@
+[tool.poetry]
+name = "fs.onedrivefs"
+packages = [
+    { include = "fs"}
+]
+version = "1.1.1"
+description = "Pyfilesystem2 implementation for OneDrive using Microsoft Graph API"
+authors = ["Rehan Khwaja <rehan@khwaja.name>"]
+license = "MIT"
+homepage = "https://github.com/rkhwaja/fs.onedrivefs"
+keywords = ["filesystem", "Pyfilesystem2", "onedrive"]
+readme = "README.md"
+classifiers = [
+	"License :: OSI Approved :: MIT License",
+	"Development Status :: 5 - Production/Stable",
+	"Intended Audience :: Developers",
+	"Programming Language :: Python :: 3.6",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4"
+# Need 2.0.5 for opendir factory parameter
+# Need 2.0.6 because in 2.0.5, opener didn't work
+# Need 2.4.13 for preserve_time flag
+fs = ">=2.4.13,<3"
+requests = ">=2.20"
+urllib3 = [
+	{ version = ">=1.26", python = ">=3.10,<4" }
+]
+requests-oauthlib = ">=1.2.0"
+
+[tool.poetry.dev-dependencies]
+pyperclip = ">=1.7"
+pytest = ">=3.10"
+pylint = ">=2.11" # need at least this for all the extensions
+pylint-quotes = ">=0.2.1"
+pytest-localserver = ">=0.5.0"
+pyngrok = ">=5.0.6,<6"
+click = ">=7.0"
+pytest-cov = ">=2.9.0"
+pynacl = ">=1.5.0"
+cffi = [
+	{ version = ">=1.15.0", markers = "sys_platform == 'darwin'" }
+]
+pytest-rerunfailures = ">=10"
+
+[tool.poetry.plugins] # Optional super table
+
+[tool.poetry.plugins."fs.opener"]
+"onedrive" = "fs.onedrivefs.opener:OneDriveFSOpener"
+
+[tool.pylint.master]
+load-plugins = [
+	"pylint_quotes",
+	"pylint.extensions.code_style",
+	"pylint.extensions.confusing_elif",
+	"pylint.extensions.bad_builtin",
+	"pylint.extensions.bad_builtin",
+	# "pylint.extensions.mccabe",
+	"pylint.extensions.check_elif",
+	"pylint.extensions.redefined_variable_type",
+	"pylint.extensions.overlapping_exceptions",
+	"pylint.extensions.empty_comment",
+	"pylint.extensions.set_membership",
+	# "pylint.extensions.while_used",
+	]
+enable="useless-suppression"
+
+[tool.pylint.format]
+indent-string = "\t"
+max-line-length = "200"
+string-quote = "single-avoid-escape"
+
+[tool.pylint.messages_control]
+# no-member to remove false positives with objects constructed via google's discovery protocol
+disable = [
+	"bad-continuation",
+	"consider-using-assignment-expr",
+	"duplicate-code",
+	"fixme",
+	"invalid-name",
+	"missing-docstring",
+	"too-many-locals",
+	"logging-fstring-interpolation"
+]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
