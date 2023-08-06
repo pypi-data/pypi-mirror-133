@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dependente
+Version: 0.0.post12
+Summary: Extract Python package dependencies from configuration files
+Home-page: https://dependente.leouieda.com
+Author: Leonardo Uieda
+Author-email: leouieda@gmail.com
+License: MIT
+Project-URL: Documentation, https://dependente.leouieda.com
+Project-URL: Release Notes, https://github.com/leouieda/dependente/releases
+Project-URL: Bug Tracker, https://github.com/leouieda/dependente/issues
+Project-URL: Source Code, https://github.com/leouieda/dependente
+Keywords: dependencies,pyproject,setuptools
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: click (<9.0.0,>=8.0.0)
+Requires-Dist: rich (<11.0.0,>=9.6.0)
+Requires-Dist: tomli (<3.0.0,>=1.0.0)
+
+# Dependente: Extract Python package dependencies from configuration files
+
+[![Latest release on PyPI](https://img.shields.io/pypi/v/dependente.svg?style=flat-square)][pypi]
+[![Latest release on conda-forge](https://img.shields.io/conda/vn/conda-forge/dependente.svg?style=flat-square)][conda-forge]
+[![Compatible Python versions](https://img.shields.io/pypi/pyversions/dependente.svg?style=flat-square)][pypi]
+
+## License
+
+Dependente is free and open-source software distributed under the
+[MIT License](LICENSE.txt).
+
+[pypi]: https://pypi.org/project/dependente/
+[conda-forge]: https://github.com/conda-forge/dependente-feedstock
+
+
