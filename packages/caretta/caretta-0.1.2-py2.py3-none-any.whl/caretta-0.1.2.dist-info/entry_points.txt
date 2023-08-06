@@ -1,0 +1,3 @@
+[console_scripts]
+caretta = caretta.__main__:main
+
