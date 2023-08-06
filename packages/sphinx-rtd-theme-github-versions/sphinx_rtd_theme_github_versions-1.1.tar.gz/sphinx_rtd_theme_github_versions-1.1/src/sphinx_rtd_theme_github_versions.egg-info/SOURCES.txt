@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/sphinx_rtd_theme_github_versions/__init__.py
+src/sphinx_rtd_theme_github_versions/__main__.py
+src/sphinx_rtd_theme_github_versions/_version_git.py
+src/sphinx_rtd_theme_github_versions/layout.html
+src/sphinx_rtd_theme_github_versions/theme.conf
+src/sphinx_rtd_theme_github_versions.egg-info/PKG-INFO
+src/sphinx_rtd_theme_github_versions.egg-info/SOURCES.txt
+src/sphinx_rtd_theme_github_versions.egg-info/dependency_links.txt
+src/sphinx_rtd_theme_github_versions.egg-info/entry_points.txt
+src/sphinx_rtd_theme_github_versions.egg-info/requires.txt
+src/sphinx_rtd_theme_github_versions.egg-info/top_level.txt

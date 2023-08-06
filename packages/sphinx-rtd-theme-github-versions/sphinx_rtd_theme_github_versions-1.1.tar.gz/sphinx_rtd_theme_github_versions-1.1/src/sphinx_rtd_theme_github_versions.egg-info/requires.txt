@@ -1,0 +1,10 @@
+sphinx_rtd_theme
+
+[dev]
+black==21.9b0
+isort>5.0
+pytest-cov
+mypy
+flake8-isort
+pre-commit
+types-docutils
