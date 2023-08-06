@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+bike2csv/__init__.py
+bike2csv/converter.py
+bike2csv/fit.py
+bike2csv/xml.py
+bike2csv.egg-info/PKG-INFO
+bike2csv.egg-info/SOURCES.txt
+bike2csv.egg-info/dependency_links.txt
+bike2csv.egg-info/not-zip-safe
+bike2csv.egg-info/requires.txt
+bike2csv.egg-info/top_level.txt
+bin/run.py
