@@ -1,0 +1,5 @@
+{
+  "load_extensions": {
+    "jupyter_stad/extension": true
+  }
+}
