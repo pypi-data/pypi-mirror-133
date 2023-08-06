@@ -1,0 +1,3 @@
+[console_scripts]
+uni-translate = uni_translate.cli:main
+
