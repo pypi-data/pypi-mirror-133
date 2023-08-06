@@ -1,0 +1,3 @@
+[console_scripts]
+pyjsx-run = pyes.bin.pyjsx_run:main
+
