@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+setup.py
+ocr_cv.egg-info/PKG-INFO
+ocr_cv.egg-info/SOURCES.txt
+ocr_cv.egg-info/dependency_links.txt
+ocr_cv.egg-info/not-zip-safe
+ocr_cv.egg-info/top_level.txt
