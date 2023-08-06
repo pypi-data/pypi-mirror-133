@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+umpyutl/__init__.py
+umpyutl.egg-info/PKG-INFO
+umpyutl.egg-info/SOURCES.txt
+umpyutl.egg-info/dependency_links.txt
+umpyutl.egg-info/requires.txt
+umpyutl.egg-info/top_level.txt
+umpyutl/http/__init__.py
+umpyutl/http/get.py
+umpyutl/reader/__init__.py
+umpyutl/reader/read.py
+umpyutl/writer/__init__.py
+umpyutl/writer/write.py
