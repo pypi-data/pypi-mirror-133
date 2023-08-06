@@ -1,0 +1,6 @@
+JPype1>=1.2.1
+matplotlib
+
+[testing]
+matplotlib
+python-matplotlib-qt5
