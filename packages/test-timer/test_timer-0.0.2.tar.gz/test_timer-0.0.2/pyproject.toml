@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "test_timer"
+version = "0.0.2"
+description = "Benchmark your code while unit testing them"
+authors = ["nazrul <mnazrul.c@gmail.com>"]
+maintainers = ["nazrul <mnazrul.c@gmail.com>"]
+repository = "https://github.com/mnislam01/test_timer"
+keywords = ["unitest", "bechmark", "test_timer", "time_a_function", "time_and_test"]
+documentation = "https://github.com/mnislam01/test_timer#readme"
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = [
+    "poetry-core>=1.0.0",
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "poetry.core.masonry.api"
