@@ -1,0 +1,6 @@
+README.txt
+setup.py
+pydevpack.egg-info/PKG-INFO
+pydevpack.egg-info/SOURCES.txt
+pydevpack.egg-info/dependency_links.txt
+pydevpack.egg-info/top_level.txt
