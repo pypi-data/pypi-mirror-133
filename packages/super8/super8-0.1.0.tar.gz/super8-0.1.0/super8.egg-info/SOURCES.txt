@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+super8.egg-info/PKG-INFO
+super8.egg-info/SOURCES.txt
+super8.egg-info/dependency_links.txt
+super8.egg-info/entry_points.txt
+super8.egg-info/top_level.txt
