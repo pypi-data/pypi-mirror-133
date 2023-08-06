@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: time-converters
+Version: 1.6.9
+Summary: Converts e.g. 24h to 86400
+Home-page: https://skayus.pl/
+Author: Skayuś
+Author-email: skayuus@gmail.com
+License: MIT
+Keywords: time convert hour second
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+Installing
+~~~~~~~~~~
+
+**Should work on any version, Python 2.7+ is recommended**
+
+
+.. code:: sh
+
+    # Linux/macOS
+    pip3 install -U time_converters
+
+    # Windows
+    pip install -U time_converters
+
+Code Example
+~~~~~~~~~~~~~~~~~~~~
+
+.. code:: py
+
+    from time_converters import time_to_sec
+
+    time = '24h'
+
+    print(time_to_sec(time))
+    //results: 86400 (int)
+
+Convert proof:
+~~~~~~~~~~~~~~~~~~~~
+.. image:: https://cdn.discordapp.com/attachments/925827864950108180/929453894470361188/unknown.png
+   :target: https://cdn.discordapp.com/attachments/925827864950108180/929453894470361188/unknown.png
+
