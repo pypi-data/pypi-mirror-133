@@ -1,0 +1,3 @@
+[console_scripts]
+argtest = argtest.argtest:main
+
