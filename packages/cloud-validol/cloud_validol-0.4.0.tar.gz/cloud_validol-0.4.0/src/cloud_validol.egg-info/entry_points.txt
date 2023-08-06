@@ -1,0 +1,4 @@
+[console_scripts]
+validol_admin_backend = cloud_validol.admin.main:main
+validol_scraper = cloud_validol.loader.main:main
+
