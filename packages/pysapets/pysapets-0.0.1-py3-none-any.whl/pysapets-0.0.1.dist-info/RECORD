@@ -1,0 +1,14 @@
+pysapets/__init__.py,sha256=RulCAUmy1R4Zthog3QPr4bj7B_VR5SQuQMSxSWbrQG0,201
+pysapets/animal.py,sha256=xrw3D_C-JUPJLqnlzmPfeTkUOVwslG6Qb9U2PrTa4Ww,3878
+pysapets/ant.py,sha256=r0liKS_B7H21pM-zYc5Jv_lggMtiyGpTJ_gqgjEQ16c,1707
+pysapets/battle.py,sha256=bS3XEtNJ1oY4d4cPN4vt6BtSeEB1k3Qni00aypfmZs8,3492
+pysapets/constants.py,sha256=mZdIv2f9yL479fzPr2z29px2xs_xrVQNk7i_e-Wq3rk,5030
+pysapets/cricket.py,sha256=R5DIRdHPt3srCs4FNHwjVeevECpby2A5ZQUaw7rF_wY,1373
+pysapets/horse.py,sha256=odIYCs3vMSZw7OTDrQtf4DXTh7h9gyXipQyvqrQhX3o,1307
+pysapets/mosquito.py,sha256=oTyWiVBWLTAwV93VlW2_1vjhN87EUxvPQLkwI5PfXns,1497
+pysapets/zombie_cricket.py,sha256=5iFu8I_KClWNU3bnZBspzXOOyxvjBf-0cBmePJWXWDE,645
+pysapets-0.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pysapets-0.0.1.dist-info/METADATA,sha256=82akSAUdRof-T-tGh44K9joLLlooL1fqFUpRjSgIlvU,791
+pysapets-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysapets-0.0.1.dist-info/top_level.txt,sha256=FZ8qB__RNv5NpEhrCls7zIPKKi26o0aAX32Kdr4NsdU,9
+pysapets-0.0.1.dist-info/RECORD,,
