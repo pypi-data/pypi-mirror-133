@@ -1,0 +1,9 @@
+celeryanalytics_housekeeping/__init__.py,sha256=7dgno6aQI1CkjDhyByl9uO3tNLNRuhEKI_dMw7xgq-I,130
+celeryanalytics_housekeeping/app_settings.py,sha256=yMRX53ZtnOilcuyO0njjUpHJGcx7BMKaboRmQURdlrI,294
+celeryanalytics_housekeeping/apps.py,sha256=GeANuIEw2Hw6_VjsjKD_ZrFNshOrIjH9_bViYb96e9o,233
+celeryanalytics_housekeeping/tasks.py,sha256=D3CBqZDHkuAGfChT-4NJkJUYzkDrg_gt8lenIf7FCXk,1082
+allianceauth_celeryanalytics_housekeeping-0.0.1a3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+allianceauth_celeryanalytics_housekeeping-0.0.1a3.dist-info/METADATA,sha256=J3hcIhKEdD6ZvnJj6I1uU7K47YO2tLbCrfE727hMUqo,2330
+allianceauth_celeryanalytics_housekeeping-0.0.1a3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+allianceauth_celeryanalytics_housekeeping-0.0.1a3.dist-info/top_level.txt,sha256=J7kwu8yZvCX-yREEn68kuyed2GIaObDyHZSc_BhowfU,29
+allianceauth_celeryanalytics_housekeeping-0.0.1a3.dist-info/RECORD,,
