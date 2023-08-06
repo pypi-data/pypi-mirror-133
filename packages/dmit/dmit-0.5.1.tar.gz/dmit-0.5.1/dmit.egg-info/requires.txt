@@ -1,0 +1,4 @@
+wheel
+scipy
+numpy
+boto3
