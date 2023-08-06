@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: boxfish
+Version: 0.0.1
+Summary: A lightweight tool for table extraction from HTML pages.
+Home-page: https://github.com/
+Author: Peter Korteweg
+Author-email: nospam@noreply.com
+License: MIT
+Keywords: template
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Readme
+
+A lightweight tool for table extraction from HTML pages.
+
+Version 0.0.1 has a single function `hello` which takes a string argument.
+
+```python
+import boxfish
+boxfish.hello('World')
+```
+```text 
+>>>Hello World!
+```
+
+
