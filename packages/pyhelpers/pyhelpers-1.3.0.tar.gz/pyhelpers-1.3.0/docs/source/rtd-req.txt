@@ -1,0 +1,10 @@
+numpy
+pyproj
+scipy
+Shapely
+pandas
+requests
+SQLAlchemy
+Sphinx~=4.3.2
+sphinx-copybutton
+sphinx-rtd-theme~=1.0.0
