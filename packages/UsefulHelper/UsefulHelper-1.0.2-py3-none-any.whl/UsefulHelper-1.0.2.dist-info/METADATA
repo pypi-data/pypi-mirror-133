@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: UsefulHelper
+Version: 1.0.2
+Summary: Some useful python tools
+Home-page: https://github.com/CleverCreater/UsefulTools
+Author: CleaverCreator
+Author-email: liuhanbo333@icloud.com
+License: GNU
+Platform: Linux
+Requires-Dist: UNKnownDB
+
+
+Some python tools
+-Pack tools
+
+
