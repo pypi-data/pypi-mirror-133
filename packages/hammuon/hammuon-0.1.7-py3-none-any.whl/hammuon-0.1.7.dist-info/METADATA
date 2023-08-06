@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hammuon
+Version: 0.1.7
+Summary: Basic and important data structures algorithms.
+Home-page: https://github.com/mcvarer/algorithms
+License: GNU General Public License
+Author: mcvarer
+Author-email: ktuce.mcanv@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/mcvarer/algorithms
+Description-Content-Type: text/markdown
+
+# Basic Data Structure Algorithms
+
+
+## 1. Quicksort
+## 2. Merge Sort
+## 3. Insertion Sort
+## 4. Bubble Sort
+## 5. Heapsort
+## 6. Counting Sort
