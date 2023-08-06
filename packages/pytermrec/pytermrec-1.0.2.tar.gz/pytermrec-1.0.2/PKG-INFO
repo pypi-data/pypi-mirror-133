@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pytermrec
+Version: 1.0.2
+Summary: Record your terminal and play it
+Home-page: https://github.com/donno2048/termrec
+Author: Elisha Hollander
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# termrec
+
+Record your terminal and play it
+
+## install
+
+### From PyPI
+
+`pip3 install pytermrec`
+
+### From GitHub
+
+`pip3 install git+https://github.com/donno2048/termrec`
+
+## Usage
+
+Just type the command in the terminal:
+
+### Record to a file
+
+```sh
+termrec -p <filepath> # record without default command
+termrec -p <filepath> -c <command to record> # record with custom command
+```
+
+To stop recording use the `exit` command or just <kbd>ctrl</kbd> + <kbd>D</kbs>
+
+### Play a file
+
+```sh
+termplay -p <filepath>
+# or with a prompt
+termplay -P
+```
+
+
