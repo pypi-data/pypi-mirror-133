@@ -1,0 +1,10 @@
+simplejson
+paho-mqtt
+click
+croniter
+arrow
+pudb
+pathlib
+pyyaml
+inquirer
+click-completion-helper
