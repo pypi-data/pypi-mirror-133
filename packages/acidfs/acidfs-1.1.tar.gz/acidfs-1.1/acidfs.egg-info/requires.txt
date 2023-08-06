@@ -1,0 +1,10 @@
+transaction
+
+[docs]
+Sphinx
+
+[testing]
+transaction
+pytest
+pytest-cov
+tox
