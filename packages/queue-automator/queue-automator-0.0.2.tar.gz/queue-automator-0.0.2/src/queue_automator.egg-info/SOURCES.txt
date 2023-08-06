@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/queue_automator/__init__.py
+src/queue_automator/constants.py
+src/queue_automator/example.py
+src/queue_automator/main.py
+src/queue_automator.egg-info/PKG-INFO
+src/queue_automator.egg-info/SOURCES.txt
+src/queue_automator.egg-info/dependency_links.txt
+src/queue_automator.egg-info/top_level.txt
