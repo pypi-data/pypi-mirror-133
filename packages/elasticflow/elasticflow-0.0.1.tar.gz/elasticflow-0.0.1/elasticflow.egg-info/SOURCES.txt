@@ -1,0 +1,9 @@
+README.md
+setup.py
+elasticflow/__version__.py
+elasticflow.egg-info/PKG-INFO
+elasticflow.egg-info/SOURCES.txt
+elasticflow.egg-info/dependency_links.txt
+elasticflow.egg-info/not-zip-safe
+elasticflow.egg-info/requires.txt
+elasticflow.egg-info/top_level.txt
