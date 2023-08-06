@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+Zadacha.egg-info/PKG-INFO
+Zadacha.egg-info/SOURCES.txt
+Zadacha.egg-info/dependency_links.txt
+Zadacha.egg-info/not-zip-safe
+Zadacha.egg-info/top_level.txt
