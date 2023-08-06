@@ -1,0 +1,7 @@
+README.md
+setup.py
+bmi_package/__init__.py
+bmi_package.egg-info/PKG-INFO
+bmi_package.egg-info/SOURCES.txt
+bmi_package.egg-info/dependency_links.txt
+bmi_package.egg-info/top_level.txt
