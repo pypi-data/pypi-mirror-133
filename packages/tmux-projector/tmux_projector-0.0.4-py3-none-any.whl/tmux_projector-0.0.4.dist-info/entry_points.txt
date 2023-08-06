@@ -1,0 +1,3 @@
+[console_scripts]
+ts = tmux_projector.run:main
+
