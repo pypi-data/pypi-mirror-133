@@ -1,0 +1,5 @@
+napari-plugin-engine>=0.1.4
+numpy
+apoc>=0.6.0
+napari-tools-menu
+napari-time-slicer
