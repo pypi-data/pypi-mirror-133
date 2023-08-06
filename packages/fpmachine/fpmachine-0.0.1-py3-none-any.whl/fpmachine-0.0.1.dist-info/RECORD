@@ -1,0 +1,11 @@
+fpmachine/__init__.py,sha256=PIZY74fhCah2MJC27vlubq6psKyimBTyNfXyTjguaBM,849
+fpmachine/devices.py,sha256=SwEpjONoaaTBRe9QhKTBIQ1e6tr6i82VwmacGvFWeUI,32808
+fpmachine/models.py,sha256=HqJDTuVXCZ-LBgA8TNJNmLHDg8tOCjv68zB1w3MzioU,6691
+fpmachine/network.py,sha256=cVsKUwpix6Y8Mf6cCLXiddjaXfGoUn02W02phWMd7r4,19324
+fpmachine/network_utils.py,sha256=nbsO6855gCLXinczbyENN0j2fCfj8FE2B9QGZ1d-n24,5774
+fpmachine/utils.py,sha256=LRGChx3axQCItko5d74MCRFOr4eaupQcBrft7mX3DjE,5108
+fpmachine-0.0.1.dist-info/LICENSE,sha256=Ae-puwL4586joh5mLRA9ImU9fcx-NP55vlgDd3gRJCc,1068
+fpmachine-0.0.1.dist-info/METADATA,sha256=LwTWvVnqGzcFdOyviH0ISGJcJA1OMjoHv6hb0CLkX8Y,4473
+fpmachine-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fpmachine-0.0.1.dist-info/top_level.txt,sha256=8umwmGMGmmUWsabMEg8kDF37nheDpPlU6_TmH8_eRiM,10
+fpmachine-0.0.1.dist-info/RECORD,,
