@@ -1,0 +1,12 @@
+potc_torch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+potc_torch/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+potc_torch/config/meta.py,sha256=EqevL6GgFsL3yJGY6PG1FaseY1uoIxY2LnjbPrQI_Bg,419
+potc_torch/plugin/__init__.py,sha256=U7ILwGCJmRgp-Tq9PtyIC8w-nXzr2FS51G6GMbWb7Zs,29
+potc_torch/plugin/rules.py,sha256=m54dcYv2yQfSibnVxcVMLmJrEgyKwXOHiDIPuhC2Du8,157
+potc_torch/plugin/torch.py,sha256=KvINgExnrnst6zXLQVAvWfoDvYjHz0rbww_mdWiBAJg,955
+potc_torch-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+potc_torch-0.0.1.dist-info/METADATA,sha256=uDzFHeI-qi6ydZRMYjq5VD1BKf70phNifTEcHpCu26s,5692
+potc_torch-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+potc_torch-0.0.1.dist-info/entry_points.txt,sha256=9pwNFYFKUji3agD5RFxwM7Vd49Y29xz4bOk7jnJZl1c,56
+potc_torch-0.0.1.dist-info/top_level.txt,sha256=I2Ra-kjQR4H3NtwTz08u8voCn6fknHiSEndOTteLz6Q,11
+potc_torch-0.0.1.dist-info/RECORD,,

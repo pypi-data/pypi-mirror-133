@@ -1,0 +1,3 @@
+[potc_plugin]
+potc_torch = potc_torch.plugin:__rules__
+
