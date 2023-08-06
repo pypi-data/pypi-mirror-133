@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pprofiler
+Version: 0.1.0
+Summary: Python Decorator for Profiling Function or Method
+Home-page: https://github.com/nsiregar/pprof
+License: MIT
+Author: Ngalim Siregar
+Author-email: ngalim.siregar@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/nsiregar/pprof
+Description-Content-Type: text/markdown
+
+# pprofiler
+
+Simple Python Decorator to Profiling Function or Method
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pprof.
+
+```bash
+pip install pprof
+```
+
+## Usage
+
+```python
+# profiling.py
+
+from pprof import pprof
+
+@pprof()
+def method_to_profile():
+    # do some task
+    print("value")
+
+method_to_profile()
+```
+
+it will resulting cProfile output on console
+
+```bash
+$ python ./profiling.py
+value
+         3 function calls in 0.000 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 <ipython-input-8-fb2a62e7b3fa>:1(test)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
