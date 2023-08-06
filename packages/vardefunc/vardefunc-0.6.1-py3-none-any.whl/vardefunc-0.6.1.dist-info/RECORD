@@ -1,0 +1,16 @@
+vardefunc/__init__.py,sha256=vj-xgVAh06qIV75ykP_EaMWQwxU1_h4ALnz0PBCfVAY,377
+vardefunc/aa.py,sha256=IjaAHPpgEr4F1i-rDSf0MrcnkdRvfXGR9V0hnkDq0_E,7012
+vardefunc/mask.py,sha256=jVn70KAiFkXPqOhyqX4m4RZcRynL1uOyBXyVSaL9f9I,29367
+vardefunc/misc.py,sha256=BNKmgMJjo0ZYph1qSvAGG61F8_xirXhtu-wOCiIGPC4,23878
+vardefunc/noise.py,sha256=xURaHcHpaOsomCXZ1CyMYdj497unRBWCJXrwdNHdKwY,16351
+vardefunc/ocr.py,sha256=cSwJA5sLiUMFanzSHMHQzWAJe-2obnBhwD0jN8SvTes,9417
+vardefunc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vardefunc/scale.py,sha256=TGurzI3zKH_NbwBTRapY2jW4tg5zI1vgwH2E4LkUasw,14909
+vardefunc/sharp.py,sha256=nKt6690enzkxu9xIybK5Lj-__JCz2-GWhavLUNJsd4A,1616
+vardefunc/types.py,sha256=TfCqDz40MGVtMgQcwo8fseAtL4T_BduOTq-G9lz5SaM,11128
+vardefunc/util.py,sha256=Y9G9-UclX8R59VNU_eh0UF4SG3pu_d-PLWi1SU-Y0N4,15942
+vardefunc-0.6.1.dist-info/LICENSE,sha256=bts9Go27PNbygVYhMSS4pEAhsr7R_roqVleBNQ4td0A,1084
+vardefunc-0.6.1.dist-info/METADATA,sha256=cWOB5wP0ekvfF7iIV2-bEhuAUKJFR5kocjIOJv502HY,1181
+vardefunc-0.6.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vardefunc-0.6.1.dist-info/top_level.txt,sha256=EHAEWgB7ScqfMcXdEJ3PulKJ4zHS1taTxMDngf2UPXQ,10
+vardefunc-0.6.1.dist-info/RECORD,,
