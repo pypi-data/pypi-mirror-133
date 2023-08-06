@@ -1,0 +1,12 @@
+fsscan/__init__.py,sha256=MKA_BPU2V5KDvNHJ6MSqOJzVShFpsnURmxMbIOddyRA,346
+fsscan/__main__.py,sha256=kmZtlcIWL9BAzfr-9fOSDFuNOmySUZEKOICbzZUwJz0,86
+fsscan/__version__.py,sha256=V-m-8aE6-VzDcJJGyKUNaeHhTUpveUEjKViy70kgn3A,68
+fsscan/callbacks.py,sha256=hz3m-yTotMH6dI4P22w9qk88iT4geaqTOIo2dGE5mfE,500
+fsscan/cli.py,sha256=2KdY10rbxYVfizdFIrisC829t5RxlEqbL7LE3JiX3nU,1893
+fsscan/core.py,sha256=zDf0ejtH74ydO6b58J6XaTY1u5txFlCwH0SbWE2_Qpc,4433
+fsscan-0.0.5.dist-info/LICENSE,sha256=7-5NFzKv7fukSCyfKTh5dv5xV4hUymaoo5M1qesomVA,1067
+fsscan-0.0.5.dist-info/METADATA,sha256=vraUmT7MKzTBO6nyV7-uJBoY6YbhDnBiHQ27bX1_Phs,4352
+fsscan-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fsscan-0.0.5.dist-info/entry_points.txt,sha256=3bsWEEeGTIi2-FruHp2ygbPVq6FSb34U5b0u_O15j84,49
+fsscan-0.0.5.dist-info/top_level.txt,sha256=uiOEeDLA1NiKuZhAfuSNcOtgsmLD5M_hbBN2bCMXj6I,7
+fsscan-0.0.5.dist-info/RECORD,,
