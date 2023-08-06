@@ -1,0 +1,11 @@
+camels_aus/__init__.py,sha256=IE8480frXEwU-U4AKPWiq0DapA6D93S2oimP-ri_tBI,49
+camels_aus/_version.py,sha256=lrA8xVoQq_aEzmsF3tUCGL1CC5aJU311KGUljCQJWGM,154
+camels_aus/conventions.py,sha256=aNuH8wToDW0PbKh2Zgw8yw0tXOYoOgC4uUopI-Ant-k,6916
+camels_aus/read.py,sha256=zw9rA-0Yqm7k6-DuAFT-inxRC-JYn1jdvpe_F7SMwHw,4531
+camels_aus/repository.py,sha256=rGaZAGl3hocSC-9i6EZroiukm843m1u9OG8hmp-CWSs,12680
+camels_aus/transforms.py,sha256=eAGsgxym01WBrtvmuFz0X-quoc9H207X1Fr0mZ1iRmY,159
+camels_aus-0.5.dist-info/LICENSE,sha256=m-hyHK87Cpzogyp5_HLTKOCqKK6vCn2iAkmXb6fdiQY,1530
+camels_aus-0.5.dist-info/METADATA,sha256=DnLDw2T-PNO9ioxgWjEHCJDKS9UmKj7lhN5h0APb2jY,3824
+camels_aus-0.5.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+camels_aus-0.5.dist-info/top_level.txt,sha256=LJMDZ5xlZOcYqnMuxgOC7_CnqT0F8x-NL1DCjgpHSGA,11
+camels_aus-0.5.dist-info/RECORD,,
