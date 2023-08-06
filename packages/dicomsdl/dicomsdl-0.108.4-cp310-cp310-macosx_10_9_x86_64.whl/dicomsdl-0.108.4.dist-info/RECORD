@@ -1,0 +1,12 @@
+dicomsdl/__init__.py,sha256=fPOeh3dMGWoWVFdpkDXc89Sl0GPl7_ZQ1a96vwPs9q4,5825
+dicomsdl/_dicomsdl.cpython-310-darwin.so,sha256=hyKnqnmusifenIFZdrYlT2m4_5_1G2IpVq7DDABbMPg,2615860
+dicomsdl/_util.cpython-310-darwin.so,sha256=HfAciu-nMSbRZlCpbK5qwc8o8uHTn1XqEbdiQSF1sZM,107048
+dicomsdl/dump.py,sha256=UmMQnILHcDiPSRXoYZAxD2X_1aRpv8OdONPsbvtX03Q,574
+dicomsdl/show.py,sha256=EcWlWhkpV3U2YFmQoQ6awtoUDLFotpJBnWLuvwo8whA,458
+dicomsdl/util.py,sha256=snU_PwLneFchn8wVToq86YhOyefHTX459pnlQcQBn7g,126
+dicomsdl-0.108.4.dist-info/LICENSE,sha256=B1q0TXVUOR2hJ8MMXlePRhDrNElEpn-EF6T2jFKyXU0,9800
+dicomsdl-0.108.4.dist-info/METADATA,sha256=ZuKSZQfycf0-8gyNE-X7Jh4q2yVxl65DTptQK3rk8TA,5944
+dicomsdl-0.108.4.dist-info/WHEEL,sha256=QN3MNOFrRIeE9ccPTe5mH4Q_A2DBDdD7_qUigvuJeQU,111
+dicomsdl-0.108.4.dist-info/entry_points.txt,sha256=PSvjseq-iSUdrdl5CWdnqE6mIWbxhCJUx7LMKzxAKs4,81
+dicomsdl-0.108.4.dist-info/top_level.txt,sha256=5Aec8NM9UXIX27-GGPVCrS2mRpl8hgAHFaDkO_MiMWw,9
+dicomsdl-0.108.4.dist-info/RECORD,,
