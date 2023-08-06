@@ -1,0 +1,3 @@
+[console_scripts]
+wordle = pyrdle.play:main
+

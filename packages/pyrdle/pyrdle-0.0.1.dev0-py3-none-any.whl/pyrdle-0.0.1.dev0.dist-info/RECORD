@@ -1,0 +1,11 @@
+pyrdle/__init__.py,sha256=lc62CcdKfyI2T2FBoOKa79zbOqA1hss6geLOrHErsrc,101
+pyrdle/best_word_search.py,sha256=ZBJ1VKk6BWM-LI1dqoDANLAz4HjJ6A0yjO-KQgm1dRk,2140
+pyrdle/lang.py,sha256=G3DIiRWVMm4RWT6eFEXFWEnDrQE6r9f5eRmAYBS_xBE,4795
+pyrdle/play.py,sha256=reEvD_XMKwGf1ToD4nGlJMaa5JhdEOecBY5knfqcr00,1971
+pyrdle/wordle.py,sha256=Sdn3qZQoitFJEUCKmudlpOWw6thZ4sqqKPQRikubRT8,11339
+pyrdle-0.0.1.dev0.dist-info/LICENSE,sha256=ve6WiK7DUzD7fEkZ_ddqaiBSMNj9ib93QYZG5UsOAH0,1076
+pyrdle-0.0.1.dev0.dist-info/METADATA,sha256=Rz2eQ8TkK-3MUYqobR66oznaaGrbHHwgg0LH6-eOxZQ,3320
+pyrdle-0.0.1.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyrdle-0.0.1.dev0.dist-info/entry_points.txt,sha256=qFQarYteSWaIUl640fHBT8WKpof7bZ--deZcAJfgLHw,45
+pyrdle-0.0.1.dev0.dist-info/top_level.txt,sha256=Tv9hVXi3y5tHsIpIGckao2BGqxI_YPaM-NAwd3z8UgU,7
+pyrdle-0.0.1.dev0.dist-info/RECORD,,
