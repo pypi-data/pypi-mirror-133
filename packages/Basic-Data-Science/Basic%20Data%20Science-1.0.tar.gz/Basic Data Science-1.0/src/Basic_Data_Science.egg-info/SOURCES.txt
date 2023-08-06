@@ -1,0 +1,11 @@
+LICENSE.LIC
+README.md
+pyproject.toml
+setup.py
+src/Basic_Data_Science.egg-info/PKG-INFO
+src/Basic_Data_Science.egg-info/SOURCES.txt
+src/Basic_Data_Science.egg-info/dependency_links.txt
+src/Basic_Data_Science.egg-info/requires.txt
+src/Basic_Data_Science.egg-info/top_level.txt
+src/basic_data_science/__init__.py
+src/basic_data_science/readcsv.py

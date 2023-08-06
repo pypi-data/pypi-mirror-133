@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Basic-Data-Science
+Version: 1.0
+Summary: A small package - to extract basic information from csv file
+Home-page: https://github.com/user0000/package
+Author: Datamics
+Author-email: saumya.goyal@datamics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.LIC
+
+# Basic Data Science package
+This is a simple package containing one python file which helps in extracting the basic information from any .csv file
+
