@@ -1,0 +1,9 @@
+datatransformer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datatransformer/abstractobject.py,sha256=NPcZ2CbXwKlspMgGgHankBI2A48jQ5Dn8oviENGJN3I,415
+datatransformer/tensorflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datatransformer/tensorflow/tensorflow_text.py,sha256=aH3KJZLv79qC9HyvXRycUpXVcz_Unv0CucqiAhC4EpQ,10551
+datatransformer-0.1.6.dist-info/LICENSE,sha256=H9eZtyUPxy-6kmP41nPX0qRj95ceMefjknSGXLV6kXQ,1065
+datatransformer-0.1.6.dist-info/METADATA,sha256=vca5DDLk_E4riwqd-zF3A5mrZ7a0SMBM-edRv4sQQd0,677
+datatransformer-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+datatransformer-0.1.6.dist-info/top_level.txt,sha256=Rl512RDo4JmaTVzg_m2Efr7fytVmd4dS41XgS_tICGY,16
+datatransformer-0.1.6.dist-info/RECORD,,
