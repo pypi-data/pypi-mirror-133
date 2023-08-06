@@ -1,0 +1,14 @@
+rawbuilder/__init__.py,sha256=WDN3oAl9m7I-_etJHUf2eblWM19ekj2KJXF1MXBmOlM,172
+rawbuilder/rawbuilder.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+rawbuilder/schema.json,sha256=hDsI_YRiCx0LD7x51EYBXQ1VhaifNVV_X9Mb7lntBbk,401
+rawbuilder/schema.yml,sha256=Dirs5Q6aE_YAUI1OPiFgwXW0_fbPuC55rwrl2ukBrgg,250
+rawbuilder/dataset/DataSet.py,sha256=au1CdqVXytiZDeI1UTJZc60azYIF7v_V_kyboQa02uY,2435
+rawbuilder/dataset/__init__.py,sha256=nQpqVQH8GPSbhR1rSR8TidXssowlUUZgL4JgphQBThs,29
+rawbuilder/mocker/Mocker.py,sha256=qmLlspPNeSD-fvz6mmI7BOA3CeA_CwV_TwRpRT0mtnY,3174
+rawbuilder/mocker/__init__.py,sha256=-BLRE7TM4clhTW0Fu8iG0gOvBQfo0s-nlVdXycsI3sw,27
+rawbuilder-0.0.5.dist-info/AUTHORS.rst,sha256=ydaRWWOFEhp6mER8uQO3SGbW5QLOTimETFLfwzMGgOM,162
+rawbuilder-0.0.5.dist-info/LICENSE,sha256=rLytIu1vMJ9Iuuko9h9d7lVQLUNRxOmsWX1kZBD_gp8,1074
+rawbuilder-0.0.5.dist-info/METADATA,sha256=nnO700xyrm4AFJvQRU7U2xAeyJY2QJPl9BqyOs3GqK0,3592
+rawbuilder-0.0.5.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+rawbuilder-0.0.5.dist-info/top_level.txt,sha256=4uknprlLSQraOuV-a34oWMPqqYyfQ2MvRwiLYNkB9Yo,11
+rawbuilder-0.0.5.dist-info/RECORD,,
