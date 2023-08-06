@@ -1,0 +1,12 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/exceptions/__init__.py
+src/exceptions/exceptions.py
+src/swimlane_connector_exceptions.egg-info/PKG-INFO
+src/swimlane_connector_exceptions.egg-info/SOURCES.txt
+src/swimlane_connector_exceptions.egg-info/dependency_links.txt
+src/swimlane_connector_exceptions.egg-info/top_level.txt
