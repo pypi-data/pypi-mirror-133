@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: LT3OpenCorpora
+Version: 0.2.1
+Summary: Python script to convert Ukrainian morphological dictionary from LanguageTool project to OpenCorpora formamore than million lexemes
+Home-page: https://github.com/no-plagiarism/LT3OpenCorpora
+Author: Danylo Halaiko
+Author-email: d9nich@pm.me
+License: MIT license
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Text Processing :: Linguistic
+License-File: LICENSE
+Requires-Dist: blinker (~=1.4)
+Requires-Dist: requests (==2.27.1)
+Provides-Extra: plot
+Requires-Dist: pydot (~=1.4.2) ; extra == 'plot'
+
+UNKNOWN
+

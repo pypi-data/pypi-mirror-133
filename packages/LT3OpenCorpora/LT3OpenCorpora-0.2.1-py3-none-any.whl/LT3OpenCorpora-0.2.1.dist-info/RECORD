@@ -1,0 +1,11 @@
+LT3OpenCorpora-0.2.1.data/scripts/lt_convert.py,sha256=YAHssTqN-K-sirP29pDGTqHr3Db2TRbGHmbTSgPr4uk,2095
+LT3OpenCorpora-0.2.1.data/scripts/lt_plot.py,sha256=Nr5lmEOw87_kAKT-Fj4pOf2nmwnXAI11ktFvHgykJwo,2098
+lt3opencorpora/__init__.py,sha256=gNpckgnfw-d5Z6Ls0aomABAvwQsk7N7e9owIxTRoGZs,121
+lt3opencorpora/convert.py,sha256=mc1gAUZWhrZvwFD5AOcFRf0vTW7OXFq2R8fSa1j4ce0,10496
+lt3opencorpora/mapping.csv,sha256=PVk4tf_S-Mu8ipxrd8Ps2uwcPBV66blEFcHHWF1GU98,4561
+lt3opencorpora/open_corpora_tagset.xml,sha256=X_6Q8aOE9YazHAmyskrNYnAXbWzuYoT7lfGosq2lbFE,15524
+LT3OpenCorpora-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+LT3OpenCorpora-0.2.1.dist-info/METADATA,sha256=_a5-t_ooyTevjxaiDmdlcxREsjOGiFpze3KurProzRU,1134
+LT3OpenCorpora-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LT3OpenCorpora-0.2.1.dist-info/top_level.txt,sha256=e-SZwRY97ZC29WRYQv53lKqXsxfaZkB_GYAAbFomgN8,15
+LT3OpenCorpora-0.2.1.dist-info/RECORD,,
