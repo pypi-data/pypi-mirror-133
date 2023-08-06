@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+funcgui/__init__.py
+funcgui/ios.py
+funcgui/tk.py
+funcgui.egg-info/PKG-INFO
+funcgui.egg-info/SOURCES.txt
+funcgui.egg-info/dependency_links.txt
+funcgui.egg-info/top_level.txt
