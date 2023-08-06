@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+kiteauth/__init__.py
+kiteauth.egg-info/PKG-INFO
+kiteauth.egg-info/SOURCES.txt
+kiteauth.egg-info/dependency_links.txt
+kiteauth.egg-info/requires.txt
+kiteauth.egg-info/top_level.txt
