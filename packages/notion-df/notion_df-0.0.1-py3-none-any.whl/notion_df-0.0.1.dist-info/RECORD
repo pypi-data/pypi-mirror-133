@@ -1,0 +1,12 @@
+notion_df/__init__.py,sha256=ypMjFaBpYmbhNU5MpeOpSBWr0UUa4IJ1RIZiOc7_Cu0,109
+notion_df/_pandas.py,sha256=jGu6rwYN88AMhiQgvx_zFqLasuuDYrGHVFEwdKILLnc,605
+notion_df/agent.py,sha256=ItrNkwRsntH4djxefCmzGPd36tNgh5t0fy_qroqZb7Q,4838
+notion_df/base.py,sha256=A9wZqMyIO4yx6tP1gFJFE1M6Wn5pbabSZCQLl1yAhKE,3949
+notion_df/configs.py,sha256=xhMrvkZBEMkvURuzzJYpoYvesRLPderP21sR5ky8r6I,8625
+notion_df/utils.py,sha256=BnuMimTqzYkM-DUFc3_Ljo33VlBFzNQqjoCQWV22i-Y,2071
+notion_df/values.py,sha256=bAIMg_yn_dlq_ObrnJZpFEcTnzeMJ_S7-BtsK6oHcrk,9493
+notion_df-0.0.1.dist-info/LICENSE,sha256=6pZ_dUaAYTdTr3fiLqEOIv4_7pCTa2O8DTpqAQ7YmzE,1069
+notion_df-0.0.1.dist-info/METADATA,sha256=5-2nEXEAC9Cz-RaXnEZk5meMiDNQb2wtU9UYDbGaEBQ,2795
+notion_df-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+notion_df-0.0.1.dist-info/top_level.txt,sha256=xcfykQy7EGkJ3DPPXQ6uA8i8cnlMOezfDggzbiFxuek,10
+notion_df-0.0.1.dist-info/RECORD,,
