@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+spicesor/__init__.py
+spicesor.egg-info/PKG-INFO
+spicesor.egg-info/SOURCES.txt
+spicesor.egg-info/dependency_links.txt
+spicesor.egg-info/requires.txt
+spicesor.egg-info/top_level.txt

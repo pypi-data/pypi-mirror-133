@@ -1,0 +1,282 @@
+Metadata-Version: 2.1
+Name: spicesor
+Version: 0.0.1
+Summary: A library or package to slice sparse tensors with one, two, or three dimensions
+Home-page: https://github.com/andreasbrownethz/ISC2021-solutions/tree/main/assignment_8
+Author: Andreas Brown
+Author-email: browna@student.ethz.ch
+License: MIT
+Description: # Spicesor
+        A library or package to slice sparse tensors: the name is a play on words combining slice, sparse, and tensor.  
+        
+        # How to Install
+        The package is publicly available and published online at https://pypi.org/.  
+        To install, open a terminal and copy the following command:  
+        ```
+        pip install spicesor==0.0.1
+        ```
+        
+        # How to Use
+        Once the package is installed, it can be included in your project as follows:  
+        ```Python
+        import spicesor
+        ```
+        The main slicing function can be called as follows:  
+        ```Python
+        sliced_sparse_tensor = spicesor.slice(original_sparse_tensor)
+        ```
+        where the input tensor is a sparse tensor in COO (coordinate) format, either as a NumPy array or a TensorFlow object.    
+        The output is also returned in COO format as a NumPy array.  
+        
+        # How it Works
+        spicesor takes a sparse tensor in COO (coordinate) format, converts it to a dense representation, performs the slicing specified by the user, and converts the dense result back into COO format for output.  
+        
+        # Features and Functionality
+        - With spicesor, users can slice one, two, and three dimensional tensors.  
+        - Input tensors can either be TensorFlow objects or NumPy arrays.   
+        - Unlike the TensorFlow function, tf.sparse.slice, spicesor supports negative slicing indices, and slicing steps or strided slicing.  
+          (There is a tf.strided_slice function in TensorFlow but this is intended for dense matrices, not sparse matices.)  
+        - spicesor is very simple to use and requires fewer lines of code compared to TensorFlow.  
+        - For each dimension of a tensor, users are prompted for slicing indices in a familiar format that is already used in Python and NumPy.  
+        - If the user forgets to enter slicing indices, spicesor will retain the original tensor by default and keep all elements.  
+        - No loops are used in the source code for efficiency and optimal performance.  
+          (This is achieved thanks to vectorized operations in NumPy.)  
+        
+        # Notes
+        - This package deliberately only supports tensors that are one, two, or three dimensional.  
+          (Working with higher dimension tensors can be difficult to conceptualize and these are not often used in practice outside of machine learning.)  
+        - spicesor only supports TensorFlow 2 and not TensorFlow 1 since it is more user-friendly and intuitive to use.  
+        - The user should provide an input in COO format and expect an output also in COO format.  
+        - To represent a sparse tensor in COO format, the right-most column of the matrix should contain non-zero values while the column(s) to the left should contain the indices where these values can be found (in the dense representation of the tensor).  
+        - When slicing, users must provide a start and stop index, as well as a step-size, for all tensor dimensions.  
+        - If slicing indices are not provided, by default, the entire tensor will be returned and no slicing will occur.  
+        - Slicing indices can be negative, but they must always be integers (slicing indices cannot be float values).  
+        - When converting from sparse COO format to dense format, spicesor does not require the user to input a shape or size (like TensorFlow), but instead creates the smallest possible dense format that can accommodate all values present in the original COO format.  
+        
+        # Example: Slicing a Sparse 1D Tensor
+        
+        **Code**
+        ```Python
+        tensor1d = tf.constant([[0, 2], [5, 3], [7, 4], [11, 1], [12, 5], [22, 4], [26, 2], [33, 3], [37, 1], [42, 5]]) #A 1d tensor
+        tensor1d_sliced = spicesor.slice(tensor1d) #Call function to perform slicing
+        #The function will then prompt the user for slicing indices
+        #In this example, let us choose -20:-40:-3 to prove that negative indices and step sizes work
+        ```
+        
+        **Output**
+        ```
+        This is a 1 dimensional tensor      
+        
+        Original Tensor in Sparse COO Format
+        [[ 0  2]
+         [ 5  3]
+         [ 7  4]
+         [11  1]
+         [12  5]
+         [22  4]
+         [26  2]
+         [33  3]
+         [37  1]
+         [42  5]]
+        
+        Original Tensor in Dense Format
+        [2. 0. 0. 0. 0. 3. 0. 4. 0. 0. 0. 1. 5. 0. 0. 0. 0. 0. 0. 0. 0. 0. 4. 0.
+         0. 0. 2. 0. 0. 0. 0. 0. 0. 3. 0. 0. 0. 1. 0. 0. 0. 0. 5.]
+        
+        Enter slicing indices in the format start:stop:step, type here -> -20:-40:-3
+        
+        Sliced Tensor in Dense Format
+        [0. 0. 0. 0. 1. 0. 3.]
+        
+        Sliced Tensor in Sparse COO Format
+        [[4. 1.]
+         [6. 3.]]
+        ```
+        
+        # Example: Slicing a Sparse 2D Tensor
+        
+        **Code**
+        ```Python
+        tensor2d = tf.constant([[0, 2, 2], [1, 0, 6], [2, 1, 8], [3, 4, 7]]) #A 2d tensor
+        tensor2d_sliced = spicesor.slice(tensor2d) #Call function to perform slicing
+        #The function will then prompt the user for slicing indices
+        #In this example, let us choose 0:3:1 for the first dimension and 0:3:1 for the second dimension
+        ```
+        
+        **Output**
+        ```
+        This is a 2 dimensional tensor
+        
+        Original Tensor in Sparse COO Format
+        [[0 2 2]
+         [1 0 6]
+         [2 1 8]
+         [3 4 7]]
+        
+        Original Tensor in Dense Format
+        [[0. 0. 2. 0. 0.]
+         [6. 0. 0. 0. 0.]
+         [0. 8. 0. 0. 0.]
+         [0. 0. 0. 0. 7.]]
+        
+        Enter slicing indices for the first dimension in the format start:stop:step, type here -> 0:3:1
+        Enter slicing indices for the second dimension in the format start:stop:step, type here -> 0:3:1
+        
+        Sliced Tensor in Dense Format
+        [[0. 0. 2.]
+         [6. 0. 0.]
+         [0. 8. 0.]]
+        
+        Sliced Tensor in Sparse COO Format
+        [[0. 2. 2.]
+         [1. 0. 6.]
+         [2. 1. 8.]]
+        ```
+        
+        # Example: Slicing a Sparse 3D Tensor
+        
+        **Code**
+        ```Python
+        tensor3d = tf.constant([[0, 0, 0, 1], [0, 3, 0, 2], [3, 0, 0, 3], [3, 3, 0, 4], [0, 0, 1, 5], [0, 3, 1, 6], [1, 1, 1, 7], [1, 2, 1, 8], [3, 0, 1, 9], [3, 3, 1, 10], [0, 0, 2, 11], [0, 3, 2, 12], [3, 0, 2, 13], [3, 3, 2, 14]]) #A 3d tensor
+        tensor3d_sliced = spicesor.slice(tensor3d) #Call function to perform slicing
+        #The function will then prompt the user for slicing indices
+        #In this example, let us choose 0:2:1 for the first dimension, 2:4:1 for the second dimension, and 0:2:1 for the third dimension
+        ```
+        
+        **Output**
+        ```
+        This is a 3 dimensional tensor
+        
+        Original Tensor in Sparse COO Format
+        [[ 0  0  0  1]
+         [ 0  3  0  2]
+         [ 3  0  0  3]
+         [ 3  3  0  4]
+         [ 0  0  1  5]
+         [ 0  3  1  6]
+         [ 1  1  1  7]
+         [ 1  2  1  8]
+         [ 3  0  1  9]
+         [ 3  3  1 10]
+         [ 0  0  2 11]
+         [ 0  3  2 12]
+         [ 3  0  2 13]
+         [ 3  3  2 14]]
+        
+        Tensor in Dense Format
+        [[1. 0. 0. 2.]
+         [0. 0. 0. 0.]
+         [0. 0. 0. 0.]
+         [3. 0. 0. 4.]]
+        
+        [[ 5.  0.  0.  6.]
+         [ 0.  7.  8.  0.]
+         [ 0.  0.  0.  0.]
+         [ 9.  0.  0. 10.]]
+        
+        [[11.  0.  0. 12.]
+         [ 0.  0.  0.  0.]
+         [ 0.  0.  0.  0.]
+         [13.  0.  0. 14.]]
+        
+        Enter slicing indices for the first dimension in the format start:stop:step, type here -> 0:2:1
+        Enter slicing indices for the second dimension in the format start:stop:step, type here -> 2:4:1
+        Enter slicing indices for the third dimension in the format start:stop:step, type here -> 0:2:1
+        
+        Sliced Tensor in Dense Format
+        [[0. 2.]
+         [0. 0.]]
+        
+        [[0. 6.]
+         [8. 0.]]
+        
+        Sliced Tensor in Sparse COO Format
+        [[0. 1. 0. 2.]
+         [0. 1. 1. 6.]
+         [1. 0. 1. 8.]]
+        ```
+        
+        # Comparing spicesor and TensorFlow
+        Here, we will compare spicesor and TensorFlow for the case of a Sparse 2D tensor.
+        The same 2D example from earlier will be considered. Once again, we will use slicing indices 0:3:1 for both dimensions, rows and columns.
+        Only the sparse COO representations are compared as we are not interested in the dense representations.  
+          
+        ## spicesor
+        
+        **Code**
+        ```Python
+        tensor2d = tf.constant([[0, 2, 2], [1, 0, 6], [2, 1, 8], [3, 4, 7]])
+        tensor2d_sliced = spicesor.slice(tensor2d)
+        ```
+        
+        **Output**
+        ```
+        Original Tensor in Sparse COO Format
+        [[0 2 2]
+         [1 0 6]
+         [2 1 8]
+         [3 4 7]]
+        
+        Sliced Tensor in Sparse COO Format
+        [[0. 2. 2.]
+         [1. 0. 6.]
+         [2. 1. 8.]]
+        ```
+        
+        ## TensorFlow
+        
+        **Code**
+        ```Python
+        tf2d = tf.SparseTensor(indices = [[0,2], [1,0], [2,1], [3,4]],
+                                 values = [2,6,8,7],
+                                 dense_shape = [4,5])
+        tf.print(tf2d, '\n')
+        tf.print(tf.sparse.slice(tf2d, start = [0,0], size = [3, 3]), '\n')
+        ```
+        
+        **Output**
+        ```
+        Original Tensor in Sparse COO Format
+        'SparseTensor(indices=[[0 2]
+         [1 0]
+         [2 1]
+         [3 4]], values=[2 6 8 7], shape=[4 5])'
+        
+        Sliced Tensor in Sparse COO Format
+        'SparseTensor(indices=[[0 2]
+         [1 0]
+         [2 1]], values=[2 6 8], shape=[3 3])'
+        ```
+        
+        Observe how TensorFlow is somewhat inconvenient and cumbersome compared to spicesor.  
+        In spicesor, a clear and compact COO (coordinate) matrix is returned whereas in TensorFlow, the indices and values are separated.  
+        Furthermore, in TensorFlow, there is no place to insert a step-size for strided slicing.    
+        
+        # File Descriptions
+        - build: Automatically generated by Twine when publishing a package to https://pypi.org/.      
+        - dist: Automatically generated by Twine when publishing a package to https://pypi.org/.  
+        - __ init __ .py: Contains the Python module/package/library and all the associated function definitions; tells the Python interpreter that there is a module to be imported.  
+        - spicesor: Contains the __ init __ .py file, the main part of the package.  
+        - spicesor.egg-info: Automatically generated by Twine when publishing a package to https://pypi.org/.  
+        - CHANGELOG.txt: Keeps track of modifications and describes the details that change with each new release or version.  
+        - LICENSE.txt: Grants permission for programmers to freely use and distribute this module (MIT License).  
+        - MANIFEST.in: Declares all the file types present inside the module.  
+        - README.md: Provides key information and documentation for the library, includes instructions and examples, and describes all of the files involved.  
+        - main.py: Provides various examples to test the package; illustrates functionalities and features.  
+        - setup.py: Contains the necessary configuration details and metadata for creating a package and publishing it online.  
+        
+        
+        Change Log
+        ==========
+        
+        0.0.1 (04.01.2022)
+        ------------------
+        First Release
+Keywords: spicesor,slice,sparse,tensor
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
