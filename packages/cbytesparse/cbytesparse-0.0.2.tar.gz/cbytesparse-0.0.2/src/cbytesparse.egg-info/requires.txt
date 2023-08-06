@@ -1,0 +1,6 @@
+
+[scripts]
+Cython
+
+[testing]
+pytest
