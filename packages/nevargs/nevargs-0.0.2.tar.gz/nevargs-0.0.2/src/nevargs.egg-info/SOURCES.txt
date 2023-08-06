@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/nevargs/__init__.py
+src/nevargs/dictify.py
+src/nevargs.egg-info/PKG-INFO
+src/nevargs.egg-info/SOURCES.txt
+src/nevargs.egg-info/dependency_links.txt
+src/nevargs.egg-info/top_level.txt
