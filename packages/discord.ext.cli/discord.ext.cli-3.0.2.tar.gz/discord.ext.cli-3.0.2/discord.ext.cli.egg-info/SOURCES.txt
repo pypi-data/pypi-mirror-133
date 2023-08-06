@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+discord.ext.cli.egg-info/PKG-INFO
+discord.ext.cli.egg-info/SOURCES.txt
+discord.ext.cli.egg-info/dependency_links.txt
+discord.ext.cli.egg-info/requires.txt
+discord.ext.cli.egg-info/top_level.txt
+discord/ext/cli/__init__.py
+discord/ext/cli/channel.py
+discord/ext/cli/cli.py
+discord/ext/cli/utils.py
