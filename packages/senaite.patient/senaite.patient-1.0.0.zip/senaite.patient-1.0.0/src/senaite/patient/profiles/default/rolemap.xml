@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<rolemap>
+
+  <permissions>
+
+    <!-- Add permissions -->
+    <permission name="senaite.patient: Add Patient Folder" acquire="False">
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.patient: Add Patient" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+
+    <!-- Transition permissions -->
+    <permission name="senaite.patient: Transition: Activate" acquire="False">
+      <role name="LabManager"/>
+      <role name="LabClerk"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.patient: Transition: Deactivate" acquire="False">
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+
+    <!-- Field permissions -->
+    <permission name="senaite.patient: Field: Edit MRN" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.patient: Field: Edit Fullname" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.patient: Field: Edit Date of Birth" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.patient: Field: Edit Gender" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+    <permission name="senaite.patient: Field: Edit Address" acquire="False">
+      <role name="LabClerk"/>
+      <role name="LabManager"/>
+      <role name="Manager"/>
+    </permission>
+
+  </permissions>
+
+</rolemap>

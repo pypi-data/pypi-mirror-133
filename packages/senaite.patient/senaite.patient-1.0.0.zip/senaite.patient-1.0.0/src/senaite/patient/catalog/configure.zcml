@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="senaite.patient">
+
+  <!-- Sample (aka AnalysisRequest) Index Adapters -->
+  <adapter name="is_temporary_mrn" factory=".indexers.is_temporary_mrn"/>
+  <adapter name="medical_record_number" factory=".indexers.medical_record_number"/>
+
+  <!-- Patient Indexes -->
+  <adapter name="patient_mrn" factory=".indexers.patient_mrn" />
+  <adapter name="patient_email" factory=".indexers.patient_email" />
+  <adapter name="patient_fullname" factory=".indexers.patient_fullname" />
+  <adapter name="patient_searchable_text" factory=".indexers.patient_searchable_text" />
+
+</configure>
