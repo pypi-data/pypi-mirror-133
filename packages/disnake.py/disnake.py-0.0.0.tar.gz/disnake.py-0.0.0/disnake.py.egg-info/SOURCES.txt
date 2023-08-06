@@ -1,0 +1,6 @@
+README.md
+setup.py
+disnake.py.egg-info/PKG-INFO
+disnake.py.egg-info/SOURCES.txt
+disnake.py.egg-info/dependency_links.txt
+disnake.py.egg-info/top_level.txt
