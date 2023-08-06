@@ -1,0 +1,79 @@
+---
+version: 2.1
+
+executors:
+  dev-env:
+    environment:
+      # use DEV_ENV_DOCKER_IMAGE because all the bin/*.sh scripts
+      # will reference DEV_ENV_DOCKER_IMAGE
+      DEV_ENV_DOCKER_IMAGE=simonsdave/focal-dev-env:bindle
+    docker:
+      - image: circleci/python:3.7.5
+    resource_class: medium
+
+jobs:
+  build_test_and_deploy:
+    working_directory: ~/repo
+    executor: dev-env
+    steps:
+      - checkout
+      - run:
+          name: bin and in-container consistency check
+          command: bin/in-container/should-be-the-same.sh
+      - setup_remote_docker:
+          version: 19.03.13
+      - run:
+          name: Build Docker Image
+          command: dockerfiles/build-docker-image.sh "${DEV_ENV_DOCKER_IMAGE}"
+      - run:
+          name: Run pip check
+          command: bin/run-pip-check.sh
+      - run:
+          name: Lint Python Files
+          command: bin/run-flake8.sh
+      - run:
+          name: Run Bandit
+          command: bin/run-bandit.sh
+      - run:
+          name: Lint Shell Scripts
+          command: bin/run-shelllint.sh --verbose
+      - run:
+          name: Lint Markdown Files
+          command: bin/run-markdownlint.sh --verbose
+      - run:
+          name: Lint YAML Files
+          command: bin/run-yamllint.sh --verbose
+      - run:
+          name: Lint JSON Files
+          command: bin/run-jsonlint.sh --verbose
+      - run:
+          name: Scan Repo for Passwords, Private Keys, etc.
+          command: bin/run-repo-security-scanner.sh
+      - run:
+          name: Run Unit Tests
+          command: bin/run-unit-tests.sh
+      - run:
+          name: Upload Unit Test Coverage Data to Codecov
+          command: bin/run-codecov-uploader.sh
+      - run:
+          name: Build README.rst
+          command: bin/build-readme-dot-rst.sh
+      - run:
+          name: Build Python Packages
+          command: bin/build-python-package.sh
+      - deploy:
+          name: Push Docker Image to Dockerhub
+          command: |
+            if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
+              dockerfiles/tag-and-push-docker-image.sh "${DEV_ENV_DOCKER_IMAGE}" "latest" "${DOCKER_PASSWORD}"
+            fi
+            if [[ "${CIRCLE_BRANCH}" =~ ^release-([0-9]+.)*[0-9]+$ ]]; then
+              dockerfiles/tag-and-push-docker-image.sh "${DEV_ENV_DOCKER_IMAGE}" "v${CIRCLE_BRANCH##release-}" "${DOCKER_PASSWORD}"
+            fi
+
+workflows:
+  version: 2
+  commit:
+    jobs:
+      - build_test_and_deploy:
+          context: dev-env
