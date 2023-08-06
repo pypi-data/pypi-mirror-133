@@ -1,0 +1,3 @@
+[console_scripts]
+jdNBTExplorer = jdNBTExplorer.jdNBTExplorer:main
+
