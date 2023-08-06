@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wikipya
+Version: 4.0.1
+Summary: A simple async python library for search pages and images in wikis
+License: MIT
+Author: Daniel Zakharov
+Author-email: daniel734@bk.ru
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: httpx (>=0.21.2,<0.22.0)
+Requires-Dist: pydantic (>=1.9.0,<2.0.0)
+Requires-Dist: tghtml (>=1.0.6,<2.0.0)
