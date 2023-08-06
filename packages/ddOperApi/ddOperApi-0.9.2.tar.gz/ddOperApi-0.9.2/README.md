@@ -1,0 +1,83 @@
+# dd-oper-api
+## Inleiding
+
+Rijkswaterstaat maakt gebruik van de [Operationele Digitale Delta API]
+(https://digitaledeltaorg.github.io/dd-oper.v201.html). Deze api word
+gebruikt voor het opvragen van:
+
+ * Metingen
+ * Verwachtingen
+ * Astronomisch getij
+
+De operationele digitale delta api is beschikbaar via:
+
+ *  https://ddapi.rws.nl/dd-oper/2.0
+
+De authenticatie op deze url is geregeld via PKI overheidscertificaten.
+Zonder PKI overheidscertificaat is de api niet toegankelijk.
+
+Deze git repository bevat een python module om de dd oper api te benaderen
+inclusief:
+
+ * Autenticatie via certificaten.
+ * Access functies voor de resultaten.
+
+## Installatie
+
+Het installeren gaat via:
+```
+pip ddOperApi
+```
+
+## De inhoud van de git repository
+
+ * ddOperApi/: De module
+ * ddOperApi/tests: De module test code
+ * githooks: Standaard hooks voor een locale zelf test
+ * demo/DD-API-Oper demo.ipynb: [Jupyter notebook](https://jupyter.org/)
+   demo file
+
+### ddOperApi
+
+Deze module bevat documentatie. Deze is op te vragen door de module te
+laden en vervolgens via de python hulp functie heb je toegang tot de
+documentatie.
+
+### ddOperApi/tests
+
+Bevat een flask webserver waartegen de module getest kan worden en
+python unittest code. 
+
+### DD-API-Oper demo.ipynb
+
+Een werkende demo in Jupyter van de dd-oper api en de module.
+
+In deze demo worden de volgende elementen getoont:
+
+ * Het opvragen van de lijst met locaties.
+   * De gegevens van een locatie.
+ * Het opvragen van de quantities.
+   * Inclusief de quantities van een specefieke locatie.
+ * Het opvragen van waarde.
+   * Het opvragen diverse meta data gegevens.
+   * Het verder verwerken van meetgegevens.
+   * De meetgegevens in rmi sip formaat weergeven.
+   * Het plotten van meetgegevens in een grafiek 
+
+## Over de certificaten.
+
+Om de api te kunnen gebruiken is een pki overheidscertificaat en de
+bijbehorende private key nodig. Het certicaat moet geldig zijn als
+client certificaat.
+
+Het certificaat moet aangeboden worden in x509 formaat en de private
+key mag niet encrypt zijn.
+
+## Status
+
+Deze module en de voorbeeld code is in ontwikkeling. Dit is geen
+stabiele code!
+
+## Vragen en/of uitbreidingen.
+
+Vragen en of uitbreidingen kunnen gemaild worden naar ddoperapi(a)marceln(.)org.
