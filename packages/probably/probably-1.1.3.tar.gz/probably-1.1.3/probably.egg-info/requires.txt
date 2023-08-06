@@ -1,0 +1,7 @@
+bitarray
+mmh3>=2.4
+numpy>=1.16.5
+six
+
+[test]
+pytest>=5.0.1
