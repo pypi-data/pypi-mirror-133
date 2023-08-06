@@ -1,0 +1,9 @@
+gp/__init__.py,sha256=MITF3HnKftFeN9siZLmRiHWOCAHrBLY5N4QpPn9s9f8,415
+gp/core.py,sha256=XEFfgU0WKwvGMIqzQYw-CCXIUqWoRphcIWQ65rdvtxw,32339
+gp/data.py,sha256=4tHew4nRd4nyOAXUi33puntz1KIfUJSb-7Kr3hGsA2A,12467
+gp/modules.py,sha256=-xZo7d7FGu3o8SI_mLtDwQFe2T9qYmVIVTNKyihGvpo,24783
+genepattern_python-22.1.dist-info/LICENSE.txt,sha256=i1wkweflWuN_D5Xh8iRjRAxC0KrSukagcPq--L4rFfI,1561
+genepattern_python-22.1.dist-info/METADATA,sha256=TMN2pJcC3yW2p0Bwf60kMrZSFIP4dEP7Q8RCxbdYKyo,2216
+genepattern_python-22.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+genepattern_python-22.1.dist-info/top_level.txt,sha256=assBi-rPeHPOF1DELwZJfAVFrVMlRrz_JTlc1hH5KBM,3
+genepattern_python-22.1.dist-info/RECORD,,
