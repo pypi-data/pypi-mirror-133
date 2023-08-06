@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cliwrap
+Version: 0.2.1
+Summary: A lightweight wrapper around CLIs for error handling and logging.
+License: MPL-2.0
+Author: Olivier Van Aken
+Author-email: olivier.va@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# cliwrap-python
+A lightweight wrapper around CLIs for error handling and logging.
+
