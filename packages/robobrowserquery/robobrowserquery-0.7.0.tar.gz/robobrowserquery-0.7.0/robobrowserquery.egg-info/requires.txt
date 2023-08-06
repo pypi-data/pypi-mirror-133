@@ -1,0 +1,2 @@
+robobrowser@ https://github.com/torico-tokyo/robobrowser/
+pyquery
