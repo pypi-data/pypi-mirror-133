@@ -1,0 +1,3 @@
+[console_scripts]
+usersgenerator = usersgenerator.usersgenerator:main
+

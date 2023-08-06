@@ -1,0 +1,10 @@
+README.md
+setup.py
+usersgenerator/__init__.py
+usersgenerator/usersgenerator.py
+usersgenerator.egg-info/PKG-INFO
+usersgenerator.egg-info/SOURCES.txt
+usersgenerator.egg-info/dependency_links.txt
+usersgenerator.egg-info/entry_points.txt
+usersgenerator.egg-info/requires.txt
+usersgenerator.egg-info/top_level.txt
