@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gvol
+Version: 0.1.0
+Summary: 
+Author: Denys Halenok
+Author-email: denys.halenok@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: gql[requests] (==3.0.0rc0)
+Requires-Dist: sphinx (>=4.3.2,<5.0.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=1.0.0,<2.0.0); extra == "docs"
+Requires-Dist: typing-extensions (>=4.0.1,<5.0.0); python_version >= "3.7" and python_version < "3.8"
