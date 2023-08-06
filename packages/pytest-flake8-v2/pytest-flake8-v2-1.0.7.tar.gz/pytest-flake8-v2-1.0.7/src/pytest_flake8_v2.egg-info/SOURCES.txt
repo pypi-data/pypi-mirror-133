@@ -1,0 +1,16 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tox.ini
+src/pytest_flake8.py
+src/pytest_flake8_v2.egg-info/PKG-INFO
+src/pytest_flake8_v2.egg-info/SOURCES.txt
+src/pytest_flake8_v2.egg-info/dependency_links.txt
+src/pytest_flake8_v2.egg-info/entry_points.txt
+src/pytest_flake8_v2.egg-info/requires.txt
+src/pytest_flake8_v2.egg-info/top_level.txt
+test/test_flake8.py
+test/__pycache__/test_flake8.cpython-39-pytest-6.2.5.pyc
