@@ -1,0 +1,4 @@
+[console_scripts]
+onnx = onnxcli.dispatcher:dispatch
+onnxcli = onnxcli.dispatcher:dispatch
+
