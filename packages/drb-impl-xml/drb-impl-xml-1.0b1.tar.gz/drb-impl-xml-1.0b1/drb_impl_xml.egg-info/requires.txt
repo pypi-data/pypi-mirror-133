@@ -1,0 +1,5 @@
+drb==1.0b3
+drb-impl-file==1.0b4
+versioneer>=0.20
+defusedxml>=0.7.1
+requests>=2.26.0
