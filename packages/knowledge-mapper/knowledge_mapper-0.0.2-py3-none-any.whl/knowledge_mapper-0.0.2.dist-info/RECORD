@@ -1,0 +1,12 @@
+knowledge_mapper/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+knowledge_mapper/__main__.py,sha256=pNuDfO5N91d4kOnIRMESyOUeOjIl2xLHYBooQTK9vMY,3177
+knowledge_mapper/data_source.py,sha256=DWlyQjsdigaZTaSuk3-WhOfvNFfb3DO9VPfuK5BN11w,309
+knowledge_mapper/knowledge_mapper.py,sha256=NfOa0B9yHxhHvgZ4TEGuRBAL7hQ-jS7spO6WjxwxJR8,3128
+knowledge_mapper/sparql_source.py,sha256=pBEdnppBsxb0xMFEo5xMeC-pDknw8eq8J-5EwOTXjMc,5895
+knowledge_mapper/sql_source.py,sha256=b3t6BDPsx0LFFk39W9CnHJpccUOPac8jdasc34eP7JI,5042
+knowledge_mapper/tke_client.py,sha256=QNHpeNJX0qfAEeTQaEkSyJA-VAV6GZ15Tlx9GAFKwVY,8021
+knowledge_mapper-0.0.2.dist-info/METADATA,sha256=ahYsK27yf9bRchkcnwO4ZE3XVWwa0aARslfFozUeqao,203
+knowledge_mapper-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+knowledge_mapper-0.0.2.dist-info/entry_points.txt,sha256=NM9HpvoQIQ61zhe_yEa0KQp1fvaYB96YB7l4TZ4W0do,69
+knowledge_mapper-0.0.2.dist-info/top_level.txt,sha256=TLkxRl2PykheEEM99GQ3rOX5KI8LpgHela9QmQLIpPY,17
+knowledge_mapper-0.0.2.dist-info/RECORD,,
