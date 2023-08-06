@@ -1,0 +1,3 @@
+[console_scripts]
+multirun=multirun:main
+
