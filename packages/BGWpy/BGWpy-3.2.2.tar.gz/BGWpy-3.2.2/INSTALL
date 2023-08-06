@@ -1,0 +1,18 @@
+
+Installing
+----------
+
+Automatic installation:
+
+    python -m pip install BGWpy
+
+Manual installation: once you have satisfied the requirements, install the package with
+
+    python setup.py install
+
+Whether you install automatically of manually,
+you should run the script `BGWpy_make_config_file.py`
+to generate a runtime configuration file `~/.BGWpyrc`
+which you can then modify. Most options in this file
+represent default values, and can be overridden when using the module.
+
