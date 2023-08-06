@@ -1,0 +1,3 @@
+[console_scripts]
+nspoet=ns_poet.cli:cli
+
