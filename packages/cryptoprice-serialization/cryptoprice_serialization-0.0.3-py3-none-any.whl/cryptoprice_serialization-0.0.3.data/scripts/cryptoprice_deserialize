@@ -1,0 +1,13 @@
+#!python
+
+import sys
+import cryptoprice_serialization.serializer.serialize
+
+if __name__ == "__main__":
+    content = sys.stdin.buffer.read()
+    try:
+        for deserialized in cryptoprice_serialization.serializer.serialize.deserialize_message(content):
+            print(deserialized)
+    except Exception as ex:
+        print(ex, file=sys.stderr)
+
