@@ -1,0 +1,26 @@
+{
+    "active": true,
+    "schedule": "*/2 * * * *",
+    "type": "latex",
+    "array_chart_id": [
+        "91"
+    ],
+    "download_images": true,
+    "download_images_url":[
+		{
+			"name": "Katze.jpg",
+			"url": "https://cdn.pixabay.com/photo/2021/12/01/18/17/cat-6838844_960_720.jpg"
+		}
+    ],    
+    "generate_pdf": true,
+    "filename": "example_job.tex",
+	"use_nextcloud":false,
+    "nextcloud_folder":"superset_pdf_report", 
+    "E-Mail": false,
+    "mail_recipient": [
+        "email@example.org"
+    ],
+    "mail_subject": "E-Mail from superset_pdf_report for test purpose",
+    "mail_text": "Werte Damen und werte Herren,\nDies ist eine automatisch erzeugte Email von superset_pdf_report\n"
+                
+}
