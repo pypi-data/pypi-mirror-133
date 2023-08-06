@@ -1,0 +1,5 @@
+[console_scripts]
+optilog-scenario = optilog.runner.runner:_scenario_entrypoint
+optilog-solver-no-timestamp = optilog.runner.runner:_run_no_timestamp
+optilog-solver-timestamp = optilog.runner.runner:_run_timestamp
+
