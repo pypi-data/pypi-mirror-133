@@ -1,0 +1,5 @@
+setup.py
+easy_gaussian.egg-info/PKG-INFO
+easy_gaussian.egg-info/SOURCES.txt
+easy_gaussian.egg-info/dependency_links.txt
+easy_gaussian.egg-info/top_level.txt
