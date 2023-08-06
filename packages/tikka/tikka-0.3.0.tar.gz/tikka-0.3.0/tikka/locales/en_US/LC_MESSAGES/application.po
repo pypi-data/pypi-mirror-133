@@ -1,0 +1,262 @@
+# Tikka translation file
+# Copyright (C) 2020 Duniter project
+# Vincent Texier <vit@free.fr>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1.0\n"
+"POT-Creation-Date: 2021-12-26 15:00+CET\n"
+"PO-Revision-Date: 2020-12-16 14:59+CET\n"
+"Last-Translator: Vincent Texier <vit@free.fr>\n"
+"Language-Team: fr_FR <vit@li.org>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Generated-By: pygettext.py 1.5\n"
+
+#: tikka/slots/gui/main_window.py:132 tikka/slots/gui/menus/help.py:90
+#: tikka/slots/gui/tabs/licence.py:86
+msgid "Ğ1 licence"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:58
+msgid "Copy public key"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:67
+#: tikka/slots/gui/windows/account_unlock.py:59
+msgid "Unlock account access"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:71
+msgid "Unlock by file"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:75
+msgid "Lock account access"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:79
+#: tikka/slots/gui/windows/wallet_save.py:54
+#: tikka/slots/gui/windows/wallet_save.py:185
+msgid "Save wallet to disk"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:83
+msgid "Withdraw account"
+msgstr ""
+
+#: tikka/slots/gui/menus/account_popup.py:148
+msgid "Withdraw account {pubkey}?"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:58
+msgid "&Account list\tCtrl-L"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:59
+msgid "Open the account list"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:64
+msgid "&Add an existing account"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:65
+msgid "Add an existing account by its public key"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:69
+msgid "&Create an account"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:70
+msgid "Create an account with an automatically generated access code"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:74
+msgid "&Load a wallet"
+msgstr ""
+
+#: tikka/slots/gui/menus/accounts.py:75
+msgid "Load a wallet to add a new account or unlock existing one"
+msgstr ""
+
+#: tikka/slots/gui/menus/help.py:57
+msgid "&Ğ1 licence"
+msgstr ""
+
+#: tikka/slots/gui/menus/help.py:58
+msgid "Display the Ğ1 Licence"
+msgstr ""
+
+#: tikka/slots/gui/menus/help.py:61
+msgid "&Configuration"
+msgstr ""
+
+#: tikka/slots/gui/menus/help.py:61
+msgid "Open the configuration window"
+msgstr ""
+
+#: tikka/slots/gui/menus/menubar.py:52
+msgid "&Accounts"
+msgstr ""
+
+#: tikka/slots/gui/menus/menubar.py:54
+msgid "&Help"
+msgstr ""
+
+#: tikka/slots/gui/tabs/identity.py:37
+msgid "Nickname"
+msgstr ""
+
+#: tikka/slots/gui/tabs/identity.py:73
+msgid "Identity"
+msgstr ""
+
+#: tikka/slots/gui/windows/about.py:44
+msgid "About"
+msgstr ""
+
+#: tikka/slots/gui/windows/about.py:56
+msgid ""
+"A desktop client for Duniter.\n"
+"Manage your Ǧ1 accounts securely and easily!"
+msgstr ""
+
+#: tikka/slots/gui/windows/about.py:67
+msgid "Author"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:51
+msgid "Add account"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:63
+#: tikka/slots/gui/windows/account_create.py:78
+#: tikka/slots/gui/windows/account_list.py:68
+#: tikka/slots/gui/windows/account_unlock.py:84
+#: tikka/slots/gui/windows/wallet_load.py:95
+#: tikka/slots/gui/windows/wallet_save.py:84
+msgid "Public key"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:74
+#: tikka/slots/gui/windows/account_create.py:87
+#: tikka/slots/gui/windows/account_unlock.py:110
+#: tikka/slots/gui/windows/wallet_load.py:104
+#: tikka/slots/gui/windows/wallet_save.py:113
+msgid "Ok"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:75
+#: tikka/slots/gui/windows/account_create.py:88
+#: tikka/slots/gui/windows/account_unlock.py:111
+#: tikka/slots/gui/windows/wallet_load.py:105
+#: tikka/slots/gui/windows/wallet_save.py:114
+msgid "Cancel"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:111
+msgid "Checksum is not valid!"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:118
+msgid "Public key is not valid!"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_add.py:126
+msgid "Account already exists!"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_create.py:54
+msgid "Create account"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_create.py:64
+#: tikka/slots/gui/windows/account_unlock.py:91
+#: tikka/slots/gui/windows/wallet_load.py:85
+#: tikka/slots/gui/windows/wallet_save.py:99
+msgid "Access code"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_create.py:71
+msgid "Cesium Password"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_create.py:84
+#: tikka/slots/gui/windows/wallet_save.py:104
+msgid "Change"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_list.py:49
+msgid "Account list"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_unlock.py:96
+#: tikka/slots/gui/windows/account_unlock.py:103
+#: tikka/slots/gui/windows/wallet_load.py:91
+msgid "View"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_unlock.py:99
+msgid "Password"
+msgstr ""
+
+#: tikka/slots/gui/windows/account_unlock.py:208
+#: tikka/slots/gui/windows/account_unlock.py:218
+#: tikka/slots/gui/windows/wallet_load.py:208
+msgid "Access code is not valid!"
+msgstr ""
+
+#: tikka/slots/gui/windows/configuration.py:50
+msgid "Configuration"
+msgstr ""
+
+#: tikka/slots/gui/windows/configuration.py:65
+msgid "Language"
+msgstr ""
+
+#: tikka/slots/gui/windows/configuration.py:76
+msgid "Restart application to apply change"
+msgstr ""
+
+#: tikka/slots/gui/windows/configuration.py:82
+msgid "Currency"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_load.py:56
+msgid "Load wallet from disk"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_load.py:77
+#: tikka/slots/gui/windows/wallet_save.py:91
+msgid "Path"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_load.py:82
+#: tikka/slots/gui/windows/wallet_save.py:96
+msgid "Browse disk..."
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_load.py:160
+#: tikka/slots/gui/windows/wallet_save.py:186
+msgid "All files (*.*)|*.*|EWIF files (*.dunikey)|*.dunikey"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_load.py:204
+msgid "Unable to decrypt file!"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_save.py:76
+msgid "Wallet file format"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_save.py:176
+msgid "Wallet"
+msgstr ""
+
+#: tikka/slots/gui/windows/wallet_save.py:216
+msgid "Failed to save wallet!"
+msgstr ""
