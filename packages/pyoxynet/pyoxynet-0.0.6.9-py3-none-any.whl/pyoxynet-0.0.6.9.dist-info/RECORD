@@ -1,0 +1,9 @@
+pyoxynet/__init__.py,sha256=lwrG0lfY9ySH-JaIvP_J6A_UhMcrBVYc68vUnUC2q54,112
+pyoxynet/utilities.py,sha256=FiECVxZXcb9Pz6kzn2PKgVCqI80DNA11h7nOuSH4bRU,3590
+pyoxynet/models/tfl_model.pickle,sha256=bYBLCyCBB-oHiMX0bLyk3wfPfZICQtef7mF_B9qgIzw,110314
+pyoxynet/models/tfl_model.tflite,sha256=u0zG8CdUosNRTnwd3WTSkX4hL0_xNLFRZFIAJSPS57E,110260
+pyoxynet-0.0.6.9.dist-info/LICENSE.txt,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+pyoxynet-0.0.6.9.dist-info/METADATA,sha256=iRms-UetV8AsagbDlJWNkPhzdX5trZJ98UL20hRtZSw,597
+pyoxynet-0.0.6.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyoxynet-0.0.6.9.dist-info/top_level.txt,sha256=6BpjetuuB0-WK2BhBHbtYPgs0ZV_VPzfZc1HoD7sEIU,9
+pyoxynet-0.0.6.9.dist-info/RECORD,,
