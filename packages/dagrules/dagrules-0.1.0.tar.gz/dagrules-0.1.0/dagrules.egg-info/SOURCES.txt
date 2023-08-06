@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+dagrules/__init__.py
+dagrules/cli.py
+dagrules/core.py
+dagrules/version.py
+dagrules.egg-info/PKG-INFO
+dagrules.egg-info/SOURCES.txt
+dagrules.egg-info/dependency_links.txt
+dagrules.egg-info/entry_points.txt
+dagrules.egg-info/requires.txt
+dagrules.egg-info/top_level.txt

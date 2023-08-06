@@ -1,0 +1,7 @@
+pyyaml
+colorama
+
+[dev]
+
+[test]
+pytest

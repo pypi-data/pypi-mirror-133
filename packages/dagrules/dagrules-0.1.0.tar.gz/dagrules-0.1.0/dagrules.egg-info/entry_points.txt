@@ -1,0 +1,3 @@
+[console_scripts]
+dagrules = dagrules.cli:main
+
