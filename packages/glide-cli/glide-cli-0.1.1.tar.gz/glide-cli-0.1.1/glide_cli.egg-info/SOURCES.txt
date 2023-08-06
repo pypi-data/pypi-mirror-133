@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+glide_cli.egg-info/PKG-INFO
+glide_cli.egg-info/SOURCES.txt
+glide_cli.egg-info/dependency_links.txt
+glide_cli.egg-info/entry_points.txt
+glide_cli.egg-info/requires.txt
+glide_cli.egg-info/top_level.txt
+src/api.py
+src/cli.py
+src/constants.py
+src/deployment.py
+src/utils.py
