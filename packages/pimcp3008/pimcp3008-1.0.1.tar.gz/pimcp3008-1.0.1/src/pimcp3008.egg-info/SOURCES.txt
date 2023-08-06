@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/pimcp3008/__init__.py
+src/pimcp3008/pimcp3008.py
+src/pimcp3008.egg-info/PKG-INFO
+src/pimcp3008.egg-info/SOURCES.txt
+src/pimcp3008.egg-info/dependency_links.txt
+src/pimcp3008.egg-info/requires.txt
+src/pimcp3008.egg-info/top_level.txt
