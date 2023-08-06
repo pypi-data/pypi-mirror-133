@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hlpl-character
+Version: 1.0.0
+Summary: hlpl_character simulates human life
+Home-page: https://character.hlpl.net
+Author: Ahmida Bendjoudi
+Author-email: email@hlpl.net
+License: MIT
+Download-URL: https://character.hlpl.net/download/
+Project-URL: hlpl, https://hlpl.net
+Project-URL: hlpl_character-docs, https://docs.hlpl.net
+Project-URL: hlpl_character-forum, https://forum.hlpl.net
+Project-URL: hlpl_character-resource, https://resource.hlpl.net
+Project-URL: hlpl_character-github, https://github.com/hlpl/character
+Keywords: hlpl_character,hlpl character,hlpl-character,human life simulator,NLP,hlpl
+Platform: UNKNOWN
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Framework :: Robot Framework :: Tool
+Classifier: Natural Language :: Arabic
+Classifier: Natural Language :: English
+Requires-Python: >=3, <=3.9
+Description-Content-Type: text/markdown
+
+
+### hlpl_character 
+<p style="font-size:14px;">hlpl_character is a software simulates human life</p>
+
+![hlpl_character status](https://hlpl.net/public_files/character-uc.png)
+
+
