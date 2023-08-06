@@ -1,0 +1,7 @@
+setup.py
+math_package_08/__init__.py
+math_package_08.egg-info/PKG-INFO
+math_package_08.egg-info/SOURCES.txt
+math_package_08.egg-info/dependency_links.txt
+math_package_08.egg-info/not-zip-safe
+math_package_08.egg-info/top_level.txt
