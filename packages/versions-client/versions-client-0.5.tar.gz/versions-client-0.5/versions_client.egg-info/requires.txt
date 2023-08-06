@@ -1,0 +1,4 @@
+envparse==0.2.0
+prometheus_client==0.12.0
+pyyaml==5.4.1
+six==1.16.0
