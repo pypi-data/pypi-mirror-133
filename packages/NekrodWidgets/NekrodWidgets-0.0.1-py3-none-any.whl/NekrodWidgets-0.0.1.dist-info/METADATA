@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: NekrodWidgets
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: PySide6
+Requires-Dist: importlib
+Requires-Dist: python-version (>=3.7)
+
+UNKNOWN
+
