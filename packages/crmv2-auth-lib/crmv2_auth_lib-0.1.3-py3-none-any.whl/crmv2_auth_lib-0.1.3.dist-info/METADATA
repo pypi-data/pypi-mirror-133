@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: crmv2-auth-lib
+Version: 0.1.3
+Summary: Auth Library CRMV2
+Home-page: UNKNOWN
+Author: mrizkyff
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bson
+Requires-Dist: datetime
+Requires-Dist: fastapi
+Requires-Dist: jwt
+Requires-Dist: pydantic
+Requires-Dist: pyjwt
+
+UNKNOWN
+
+
