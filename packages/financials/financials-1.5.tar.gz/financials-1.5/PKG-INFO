@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: financials
+Version: 1.5
+Summary: UNKNOWN
+Home-page: http://pypi.python.org/pypi/financials/
+Author: cmmeyer1800
+Author-email: collinmmeyer@gmail.com    
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+#Financials
+
+Python library for working with and retrieving stock data
+
