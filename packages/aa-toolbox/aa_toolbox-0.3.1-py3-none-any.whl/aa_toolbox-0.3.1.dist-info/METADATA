@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: aa-toolbox
+Version: 0.3.1
+Summary: Toolbox for anticipatory action
+Home-page: https://github.com/OCHA-DAP/pa-aa-toolbox
+Author: Centre for Humanitarian Data Predictive Analytics Team
+Author-email: centrehumdata@un.org
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: <3.10,>=3.6
+License-File: LICENSE
+Requires-Dist: geopandas
+Requires-Dist: hdx-python-api (>=5.4.9)
+Requires-Dist: numpy
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: rioxarray
+Requires-Dist: typing-extensions
+Requires-Dist: xarray
+
+UNKNOWN
+
