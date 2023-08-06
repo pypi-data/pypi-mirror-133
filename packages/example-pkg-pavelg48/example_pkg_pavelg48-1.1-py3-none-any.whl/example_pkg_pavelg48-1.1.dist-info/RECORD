@@ -1,0 +1,8 @@
+calculate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculate/calc.py,sha256=CfSP0Vou20kQ9JimlDtU-EJ78xnA9fns0kjiNeEgnm4,650
+calculate/unit_test.py,sha256=J6GCtgK_jBGq1C0XJvMJb1uMQQHR6q9k5eCer2bFeEY,939
+example_pkg_pavelg48-1.1.data/scripts/calc.py,sha256=CfSP0Vou20kQ9JimlDtU-EJ78xnA9fns0kjiNeEgnm4,650
+example_pkg_pavelg48-1.1.dist-info/METADATA,sha256=aut2vx90FR3dr0IfQF3NyetUoGTkyNmAc2BSnhzD248,277
+example_pkg_pavelg48-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+example_pkg_pavelg48-1.1.dist-info/top_level.txt,sha256=6ZTAowwBxlSEDS1GfMtlGDijN6BfDLe_m73jRe_oxrY,10
+example_pkg_pavelg48-1.1.dist-info/RECORD,,
