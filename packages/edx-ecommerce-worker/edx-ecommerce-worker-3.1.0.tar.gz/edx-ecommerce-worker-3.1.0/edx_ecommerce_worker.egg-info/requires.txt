@@ -1,0 +1,4 @@
+celery
+redis
+edx-rest-api-client
+six
