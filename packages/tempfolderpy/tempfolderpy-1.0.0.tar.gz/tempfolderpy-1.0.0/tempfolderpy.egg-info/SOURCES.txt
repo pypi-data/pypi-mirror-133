@@ -1,0 +1,9 @@
+licence
+setup.py
+tempfolderpy/__init__.py
+tempfolderpy/exceptions.py
+tempfolderpy.egg-info/PKG-INFO
+tempfolderpy.egg-info/SOURCES.txt
+tempfolderpy.egg-info/dependency_links.txt
+tempfolderpy.egg-info/requires.txt
+tempfolderpy.egg-info/top_level.txt
