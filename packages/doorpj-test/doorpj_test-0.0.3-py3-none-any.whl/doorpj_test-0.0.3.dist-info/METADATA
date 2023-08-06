@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: doorpj-test
+Version: 0.0.3
+Summary: Can use it to save or recall preferences from Python.
+Home-page: https://github.com/ParkJiyong/doorpj_test
+Author: ParkJiyong
+Author-email: hptbutcld@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dchance (==1.0)
+
+# doorpj_test
+
