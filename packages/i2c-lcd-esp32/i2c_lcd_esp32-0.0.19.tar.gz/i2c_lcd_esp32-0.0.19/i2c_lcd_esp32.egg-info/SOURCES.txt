@@ -1,0 +1,8 @@
+setup.py
+i2c_lcd/__init__.py
+i2c_lcd/i2c_lcd.py
+i2c_lcd/lcd_api.py
+i2c_lcd_esp32.egg-info/PKG-INFO
+i2c_lcd_esp32.egg-info/SOURCES.txt
+i2c_lcd_esp32.egg-info/dependency_links.txt
+i2c_lcd_esp32.egg-info/top_level.txt
