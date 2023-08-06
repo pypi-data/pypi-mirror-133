@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: simpadlib
+Version: 2.2.1
+Summary: A library that allows users to interface with their SimPad devices in real-time
+Home-page: https://github.com/malevtuber/simpadlib
+Author: Ashe Muller
+Author-email: contact.notashe@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/malevtuber/simpadlib/issues
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywinusb (>=0.4.2)
+
+# SimpadLib v2.2.1
+
+### Example Usages
+```py
+from simpadlib import simpad
+
+sim = simpad.Controller() # Initialize the SimPad class
+sim.set_color("#FF000", keys=simpad.Keys.both) # Change all keys to color "#FF0000"
+sim.set_color("#00FF00", keys=simpad.keys.left) # Change the left key's color to "#00FF00"
+```
+
+```py
+from simpadlib import simpad
+
+sim = simpad.Controller() # Initialize the SimPad class
+sim.set_color("#FF000", keys=simpad.Keys.both, brightness="25%") # Change all keys to color "#FF0000", but only with 25% brightness
+sim.set_color("#00FF00", keys=simpad.keys.left, brightness="50%") # Change the left key's color to "#00FF00", but only with 50% brightness
+```
+
+
