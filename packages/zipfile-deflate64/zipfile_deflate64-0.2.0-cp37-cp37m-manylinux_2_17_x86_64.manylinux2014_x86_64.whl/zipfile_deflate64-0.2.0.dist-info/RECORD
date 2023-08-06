@@ -1,0 +1,9 @@
+zipfile_deflate64/__init__.py,sha256=-5ul0eHg3Lc_wCLVqaVwESixwgLSpwi9mTvJORBUi4I,335
+zipfile_deflate64/deflate64.cpython-37m-x86_64-linux-gnu.so,sha256=ijeGd3J2OHgGYvagDYPlwypG7Dg_ADcTydSqw_Dk4Kc,90800
+zipfile_deflate64/_patcher.py,sha256=NGslunaCQI0q9PUJekQJSx4vWJLIvpHu9Xsdz-DKJ7w,468
+zipfile_deflate64/_zipfile.py,sha256=L61a1i9dEZGurBUVQgjVIRf05DGa-x_lobBw0X-koXI,1175
+zipfile_deflate64-0.2.0.dist-info/METADATA,sha256=-ryackPWCiRYnpDHYceoO8CtM8QSAK8oZ8Sf-iMUPpQ,5982
+zipfile_deflate64-0.2.0.dist-info/WHEEL,sha256=FGGRUrvefXOiAJfyJCZAiu4TpTMkXB_CzdEp3x2T96E,150
+zipfile_deflate64-0.2.0.dist-info/RECORD,,
+zipfile_deflate64-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+zipfile_deflate64-0.2.0.dist-info/top_level.txt,sha256=ZAy5yzdcQRf6EpRV6YeQVJpo8IO5EX9Zal8FV3KsPEM,18
