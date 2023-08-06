@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: weather-usa
+Version: 1.1.0
+Summary: Wrapper for parts of the IEM and NWS API, built with asyncio for speed
+Home-page: https://github.com/Shom770/weather_usa
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.md
+
+# What is this package?
+This package (weather-usa) is a wrapper for portions of the IEM and NWS APIs.
+It uses asyncio for when calling multiple requests to speed up the time it takes to access said data when needed.
+
+# How do I install this?
+`pip install weather-usa`
+
+# Where is the documentation?
+It will be coming soon after a few changes.
+
+
