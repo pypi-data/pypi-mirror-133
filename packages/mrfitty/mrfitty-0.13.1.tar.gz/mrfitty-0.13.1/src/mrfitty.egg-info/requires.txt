@@ -1,0 +1,15 @@
+bokeh
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+scikits.bootstrap
+scikit-learn
+
+[test]
+pytest
+pyfakefs
+coverage
+pytest-catchlog
+pytest-cov
