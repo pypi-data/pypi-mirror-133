@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: cbpa
+Version: 0.0.1
+Summary: cbpa
+Author-email: Anthony Corletti <anthcor@gmail.com>
+Requires-Python: >=3.9.6
+Requires-Dist: typer==0.4.0
+Requires-Dist: pydantic==1.9.0
+Requires-Dist: coinbasepro==0.3.0
+Requires-Dist: PyYaml==6.0
+Requires-Dist: discord==1.7.3
+Requires-Dist: flake8==3.9.2 ; extra == "dev"
+Requires-Dist: black==21.10b0 ; extra == "dev"
+Requires-Dist: isort==5.9.3 ; extra == "dev"
+Requires-Dist: autoflake==1.4 ; extra == "dev"
+Requires-Dist: flake8-docstrings==1.6.0 ; extra == "dev"
+Requires-Dist: types-PyYAML==6.0 ; extra == "dev"
+Requires-Dist: pytest==6.2.5 ; extra == "test"
+Requires-Dist: mypy==0.910 ; extra == "test"
+Requires-Dist: coverage==6.1.1 ; extra == "test"
+Requires-Dist: pytest-cov==3.0.0 ; extra == "test"
+Project-URL: Documentation, https://www.github.com/anthonycorletti/cbpa
+Provides-Extra: dev
+Provides-Extra: test
