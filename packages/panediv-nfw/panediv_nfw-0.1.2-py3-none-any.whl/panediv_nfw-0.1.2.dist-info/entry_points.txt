@@ -1,0 +1,5 @@
+[console_scripts]
+panediv = panediv.panediv:run
+pdc = panediv.pdc:run
+pdv = panediv.pdv:run
+
