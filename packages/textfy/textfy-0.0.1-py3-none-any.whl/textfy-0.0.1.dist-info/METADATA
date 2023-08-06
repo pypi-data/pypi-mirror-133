@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: textfy
+Version: 0.0.1
+Summary: Send text notification when job is finished.
+Home-page: https://github.com/ojy0216/textfy
+Author: Juyoung Oh
+Author-email: ojy7041@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: twilio
+
+# textfy
+Send text notification when job is finished.
+
+## Usage
+* Functionality is given by decorator.
+* Use decorator to functions you want to send text message when job is finished.
+* Function can return dictionary to put information in text message.
+
