@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: dual-tape
+Version: 1.0.2
+Summary: Tape Esolang
+Home-page: https://github.com/cmcmarrow/dual_tape
+Author: Charles McMarrow
+Author-email: Charles.McMarrow.4@gmail.com
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Requires-Dist: wheel ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pyinstaller ; extra == 'dev'
+
+##################
+dual tape - v1.0.2
+##################
+
+*****
+About
+*****
+This python module "dual_tape" is an `Esolang <https://esolangs.org/wiki/Main_Page>`_.
+
+*******************
+Python Installation
+*******************
+.. code-block:: bash
+
+   pip install dual_tape
+
+*****************
+Console Interface
+*****************
+.. code-block:: bash
+
+   dual_tape hello_world.dt
+
+.. code-block:: text
+
+   dual_tape
+
+   positional arguments:
+     file           path to dual_tape script
+
+   optional arguments:
+     -h, --help     show this help message and exit
+     -a, --author   get author of dual_tape
+     -v, --version  get version of dual_tape
+     -l, --log      enables debug log
+     --timeout TIMEOUT  max number of instructions that can run
+
+*************
+Documentation
+*************
+* `Documentation <https://esolangs.org/wiki/dual_tape>`_
+* `Raw Documentation <https://github.com/cmcmarrow/dual_tape/blob/master/DOCUMENTATION.txt>`_
+
+****************
+Build Executable
+****************
+.. code-block:: bash
+
+   git clone https://github.com/cmcmarrow/dual_tape.git
+   pip install -e .[dev]
+   python build.py
+
+***
+API
+***
+``dual_tape_api.py``
+
+.. code-block:: text
+
+   info: API to dual_tape
+   :param: inputs: Optional[Union[Tuple[str, ...], List[str]]]
+   :param: sys_output: bool
+   :param: catch_output: bool
+   :param: log: bool
+   :return: Generator[vm.VMState, None, None]
+
+
