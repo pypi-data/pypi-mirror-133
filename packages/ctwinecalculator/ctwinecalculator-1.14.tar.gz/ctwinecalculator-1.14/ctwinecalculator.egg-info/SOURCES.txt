@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ctwinecalculator.egg-info/PKG-INFO
+ctwinecalculator.egg-info/SOURCES.txt
+ctwinecalculator.egg-info/dependency_links.txt
+ctwinecalculator.egg-info/top_level.txt
