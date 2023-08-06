@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: async-supercell-api
+Version: 0.0.1
+Summary: Async wrapper for Supercell API
+Home-page: https://async-supercell-api.readthedocs.io/en/latest/
+Author: Andrea Princic
+Author-email: princic.1837592@studenti.uniroma1.it
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+
+# async-supercell-api
+
+Async implementation of supercell API. You can find the complete
+documentation [here](https://async-supercell-api.readthedocs.io/en/latest/)
+
+
