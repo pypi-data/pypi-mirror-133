@@ -1,0 +1,9 @@
+Change Log
+==========
+
+1.0.0 (08/01/2022)
+-------------------
+- Tenth release , headless mode added!
+
+
+
