@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: adverseml
+Version: 0.0.1
+Summary: Adversarial ML Library
+Home-page: UNKNOWN
+Author: TRIPODS
+Author-email: tsivap2@uic.edu
+License: UNKNOWN
+Keywords: python,adversarial,machine learning,lipschitz partition
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+
+A library implementing adversarial ML algorithms
+
+

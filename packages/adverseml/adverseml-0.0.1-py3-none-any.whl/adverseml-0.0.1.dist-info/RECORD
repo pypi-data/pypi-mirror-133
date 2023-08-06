@@ -1,0 +1,14 @@
+adverseml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adverseml/partitioners/DummyPartitioner.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adverseml/partitioners/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adverseml/poisoners/KNNPoisoner.py,sha256=L03txapeG6hyQ4UFWocgfD6rhI6YjQesLF53llfT71I,2693
+adverseml/poisoners/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poisonlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poisonlib/partitioners/DummyPartitioner.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poisonlib/partitioners/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+poisonlib/poisoners/KNNPoisoner.py,sha256=L03txapeG6hyQ4UFWocgfD6rhI6YjQesLF53llfT71I,2693
+poisonlib/poisoners/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+adverseml-0.0.1.dist-info/METADATA,sha256=37Os2uMNtP3UwLbOKtcsZ1QRe1dTHsSde-aY6FAn53Q,685
+adverseml-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+adverseml-0.0.1.dist-info/top_level.txt,sha256=s2IfgWDy62nStbmH_QDSGP6Q-NRIgDMPpvAsYUiD81Q,10
+adverseml-0.0.1.dist-info/RECORD,,
