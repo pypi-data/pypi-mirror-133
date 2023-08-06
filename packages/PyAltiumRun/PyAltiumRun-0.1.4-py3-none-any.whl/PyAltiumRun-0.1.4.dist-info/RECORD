@@ -1,0 +1,13 @@
+PyAltiumRun/AltiumRun.py,sha256=onVq-5pgBv1U5ho6i6ML50DkdXudkk6wsHAgcauMsHI,11683
+PyAltiumRun/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyAltiumRun/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyAltiumRun/helpers/AltiumHelper.py,sha256=jdSw9ZdlJcONVvLon_5m4DIhqrYoFBNRiUEA1A66oh8,2038
+PyAltiumRun/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyAltiumRun/scriptingbase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyAltiumRun/scriptingbase/logger.pas,sha256=bqnSHmttuGZ3Bxm85yBwL0grG3xaZGotiqX__0UDbvQ,549
+PyAltiumRun/scriptingbase/main.pas,sha256=L_3AONWVwV0zkQ0BbIwk5R534T4AZsKp-U503EySlsc,513
+PyAltiumRun-0.1.4.dist-info/LICENSE,sha256=Pp1Sevq-_M0nufayn-twpyWNDAkVIaXG1uhKstRtEwc,1057
+PyAltiumRun-0.1.4.dist-info/METADATA,sha256=M44dBhuRbzeUtLDlkP313qemhqAwjtzDvGQghJw90e4,2832
+PyAltiumRun-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyAltiumRun-0.1.4.dist-info/top_level.txt,sha256=MGLLAkF-NEQpC9RnLIXFisWY2QLoP9lAI3egIhvUA6c,12
+PyAltiumRun-0.1.4.dist-info/RECORD,,
