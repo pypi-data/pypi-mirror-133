@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: python-pygaze
+Version: 0.7.4
+Summary: A Python library for eye tracking
+Home-page: http://www.pygaze.org/
+Author: Edwin Dalmaijer
+Author-email: edwin@dalmaijer.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: X11 Applications
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
