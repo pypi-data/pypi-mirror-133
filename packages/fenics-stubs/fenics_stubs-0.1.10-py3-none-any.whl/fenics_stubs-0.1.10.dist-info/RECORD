@@ -1,0 +1,14 @@
+stubs/__init__.py,sha256=0oP2kAjXOflpV-tgFLa8pI72V0X0nhrQCj7R1Ivbqhk,312
+stubs/common.py,sha256=FGy3FLIttbeMiznc5myiClf014gUa-xr8lS_R2czIQk,16163
+stubs/config.py,sha256=rlR0h0Nwe7ymuZcCfW0phyQc0UlS4w0qMoAQ839_FQQ,2246
+stubs/data_manipulation.py,sha256=NM-M3P425uBafHRr19PiU1y9XFNIBC0B5y6oZgBbh1w,27816
+stubs/mesh.py,sha256=vN_7ERJ4xwg6LGCXmFJjdOraK5qiGQZ2FS-fIw0Do9k,11746
+stubs/model.py,sha256=qVA7TrmhtIHwpc9g9fFmBpYQQJtcylJIPwBbH4PdTeA,70568
+stubs/model_assembly.py,sha256=6mI4tkVQ7Ze_iaUvLmsx5ohEqAyAAI0MUFIiULcAe1g,47742
+stubs/model_building.py,sha256=yFjrQPM6g71aSt06XN-l2udXopPeUCewmBt3PurQDFQ,10588
+stubs/solvers.py,sha256=e2yo-2g6dvhDmix5Qor0LuH3UN2LEuWc2UJXDZnv6YE,9728
+fenics_stubs-0.1.10.dist-info/LICENSE,sha256=B2nQoEBuLPE2xksZqQDjJTK4l4EM3y4wiafF0XKY7EI,7370
+fenics_stubs-0.1.10.dist-info/METADATA,sha256=6lmY1dVlVnU9EdoY39BczFaq57YvcwpkHjptk5HTrBQ,6523
+fenics_stubs-0.1.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fenics_stubs-0.1.10.dist-info/top_level.txt,sha256=CdSpX99F4fJtYD6sxf1W4aVDvApcqcz8KFmIH9-hQZI,6
+fenics_stubs-0.1.10.dist-info/RECORD,,
