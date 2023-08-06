@@ -1,0 +1,9 @@
+/.idea/
+/build/
+/_skbuild/
+/dist/
+/MANIFEST
+/.venv/
+__pycache__
+*.egg-info/
+wheelhouse/
