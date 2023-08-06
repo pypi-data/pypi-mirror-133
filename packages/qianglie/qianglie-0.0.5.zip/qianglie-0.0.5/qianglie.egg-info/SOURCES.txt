@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+qianglie/__init__.py
+qianglie.egg-info/PKG-INFO
+qianglie.egg-info/SOURCES.txt
+qianglie.egg-info/dependency_links.txt
+qianglie.egg-info/top_level.txt
