@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sumdf
+Version: 0.1.0
+Summary: Summary of dataframes
+Home-page: UNKNOWN
+Author: Nariaki Tateiwa
+Author-email: nariaki3551@gmail.com
+License: MIT
+Keywords: dataframe
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SumDf
+summary of data frames
+
+
