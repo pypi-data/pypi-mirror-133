@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/verbose_print/__init__.py
+src/verbose_print/style_decorators.py
+src/verbose_print/styles.py
+src/verbose_print/vprint.py
+src/verbose_print.egg-info/PKG-INFO
+src/verbose_print.egg-info/SOURCES.txt
+src/verbose_print.egg-info/dependency_links.txt
+src/verbose_print.egg-info/requires.txt
+src/verbose_print.egg-info/top_level.txt
