@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: autograde-viz
+Version: 0.0.1.6
+Summary: D3 Autograding Utility
+Home-page: https://github.com/matthewdhull/autograde-viz
+Author: Matthew Hull
+Author-email: matthewdhull@gmail.com.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# autograde-viz
+
+## Setup
+`conda create --name <env_name> --file requirements.txt`
+`conda activate <env_name>`
+
+## Create package release
+`python3 -m build`
+`python3 -m twine upload --repository pypi dist/*` (or the newly built files in `dist/`)
+username: `__token__`
+password: api token
+
+
