@@ -1,0 +1,7 @@
+hifigan_ts_vocoder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hifigan_ts_vocoder/vocoder.py,sha256=bzZsFsoY5EeWaPyQpFFRdmeijnvCP6RYi2EQC-I31XM,173
+hifigan_ts_vocoder-0.1.0.data/data/ckpts/hfgan-fcm_base2-L-16k-v0.1.1.ts,sha256=2mejcWsB9SG5AQgtnBYf_ThkSaZa1wSV3o-yVa3Z5Yg,55139903
+hifigan_ts_vocoder-0.1.0.dist-info/METADATA,sha256=t0KGJqz2lPUG0zV2uoCXjeAvcWGpuwRuo9WAuUZWcTY,379
+hifigan_ts_vocoder-0.1.0.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+hifigan_ts_vocoder-0.1.0.dist-info/top_level.txt,sha256=8MjJOyBY_JZWJ2Whn4Uz-MZKZK6ZGGvZ9VeI6vAerjs,19
+hifigan_ts_vocoder-0.1.0.dist-info/RECORD,,
