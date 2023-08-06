@@ -1,0 +1,5 @@
+blinker~=1.4
+requests==2.27.1
+
+[plot]
+pydot~=1.4.2
