@@ -1,0 +1,12 @@
+pangdoc/__init__.py,sha256=8Gi3XfyGFrWTbRYNjOofxs7Qj8eMWfUW-oeG3eKYY2U,33
+pangdoc/blocks.py,sha256=tCxk7iRW5S4vAUfe5w9pcp3stxs4cL3vHZ-6to_ZtBs,3192
+pangdoc/data_reader.py,sha256=wQDbgFAVE9GkVbTCGZzjklgmQr6CWIC_Mi7W0gMBmSI,633
+pangdoc/pandoc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pangdoc/utils.py,sha256=PHSDVYEGIfnt_E6dsMetByFnGZwuzkyMXWCFnlz3b7M,1622
+pangdoc/data/code.md,sha256=f-L31PxbX-Eh0Cbanojxx23-QfO31K4Dd82IgvODNHU,201
+pangdoc/data/insertTables.lua,sha256=NkShgFe7qvKHlF0ID-kOcDb19bTvX6F0RImrU77m0_g,6000
+pangdoc/data/pandoc-ling.lua,sha256=ScmewTUyQqjwr-WLgE_t-6-qgwJG0_v6xfocBAr-w0c,43051
+pangdoc-0.0.1.dist-info/METADATA,sha256=j2jOOT31tMGBjER7f8M6JsESZ7AZqf_o6SYwIxGOeXs,490
+pangdoc-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pangdoc-0.0.1.dist-info/top_level.txt,sha256=yBs6roL1jG3lyal9LEYNL9rquDjKpElijmsgRbY7MUU,8
+pangdoc-0.0.1.dist-info/RECORD,,
