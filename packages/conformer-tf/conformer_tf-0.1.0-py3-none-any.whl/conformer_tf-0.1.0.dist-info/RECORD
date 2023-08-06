@@ -1,0 +1,9 @@
+conformer_tf/__init__.py,sha256=8PEDb8N4gePRzzgtqk1gV9RzkKl_qb_GCjgNyjOZLH8,95
+conformer_tf/attention.py,sha256=JRHSiDVm8fOlRrHOwZJrTVJ2liSHtj6wmJeZmLASeD8,2678
+conformer_tf/conformer_tf.py,sha256=GZX4Akcne9BBVRCP2HmoCQuZIUNU9OZab2cZbA4RQqM,5250
+conformer_tf/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+conformer_tf-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+conformer_tf-0.1.0.dist-info/METADATA,sha256=2NoN3BmQYtfjcUX1d5CRbwOY7R9lVqHDWyd-vmgNZAM,6321
+conformer_tf-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+conformer_tf-0.1.0.dist-info/top_level.txt,sha256=AFzzCeIoQrtWKPPz2bSg1Jg6oGVUiraxijV-Nh8sxJE,13
+conformer_tf-0.1.0.dist-info/RECORD,,
