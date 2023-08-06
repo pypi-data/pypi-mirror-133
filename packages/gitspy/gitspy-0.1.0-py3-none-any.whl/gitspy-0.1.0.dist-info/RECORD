@@ -1,0 +1,9 @@
+gitspy/__init__.py,sha256=S7b0n1Tujgz1rxVRxMET6Piu49R01-fVpZ3QPIqAo-M,192
+gitspy/_environ.py,sha256=DRPiU_bchNvgSGyhHwQqDVGQDfFx1qpHfhfACm5O3A0,1109
+gitspy/_subprocess.py,sha256=1Y8wrmfhasfk5OGxpSnVWoFmMsxR0zU0lOm0_gzNq9E,7407
+gitspy/_version.py,sha256=GgRsVcc67WpChhIK5QsDehYOoIFaId_G8YB2h-NSMSk,210
+gitspy/exceptions.py,sha256=-HI-qeq6SLRRPq0sK5to1pRe8-Y1M50gTL2Vo7-CoRA,630
+gitspy-0.1.0.dist-info/LICENSE,sha256=0lBh_Imko5b-MI52fUxolUYRKtbXg0DIpci3WDu2mzo,1073
+gitspy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gitspy-0.1.0.dist-info/METADATA,sha256=hqT_ToanDAxm1U6zYOh4qlzZgXVTszbzUbwGJMitMbE,430
+gitspy-0.1.0.dist-info/RECORD,,
