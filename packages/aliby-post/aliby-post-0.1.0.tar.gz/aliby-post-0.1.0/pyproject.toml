@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "aliby-post"
+version = "0.1.0"
+description = "Post-processing tools for aliby pipeline."
+authors = ["Alán Muñoz <amuoz@ed.ac.uk>"]
+license = "GPLv3"
+packages = [
+    { include = "postprocessor" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = ">=1.17.3"
+scipy = ">=1.4.1"
+more-itertools = "^8.12.0"
+catch22 = "^0.2.0"
+leidenalg = "^0.8.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+Sphinx = "^4.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
