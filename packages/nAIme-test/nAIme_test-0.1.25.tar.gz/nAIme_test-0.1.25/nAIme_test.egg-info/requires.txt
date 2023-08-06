@@ -1,0 +1,17 @@
+turicreate
+jellyfish
+pandas
+editdistance
+importlib_resources
+pydub
+pyAudioAnalysis
+tqdm
+gtts
+requests
+networkx
+phonetics
+pyunpack
+patool
+matplotlib
+eyed3
+py7zr
