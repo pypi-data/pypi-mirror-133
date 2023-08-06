@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: chenguolibs
+Version: 1.1.0
+Summary: A useful python tool by chenguo
+Home-page: https://www.baidu.com
+Author: 陈果
+Author-email: 2672688737@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+这是一个作者本人制作的Python工具库，功能强大......
+
