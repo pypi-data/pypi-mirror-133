@@ -1,0 +1,13 @@
+aiohttp
+attrs
+requests
+
+[dev]
+mypy
+pre-commit
+pylint
+pytest
+pytest-asyncio
+pytest-cov
+setuptools
+tox
