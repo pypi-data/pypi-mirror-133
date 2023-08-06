@@ -1,0 +1,22 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "bean_mortgage"
+authors = [{name = "Gerry Agbobada", email = "pypi@gagbo.net"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+dependencies = [
+    "python-dateutil >= 2.8"
+]
+readme = "README.md"
+requires-python = ">=3.7,<4"
+
+[project.scripts]
+bean-mortgage = "bean_mortgage:main"
+
+[project.urls]
+Documentation = "https://git.sr.ht/~gagbo/bean_mortgage"
+Source = "https://git.sr.ht/~gagbo/bean_mortgage"
