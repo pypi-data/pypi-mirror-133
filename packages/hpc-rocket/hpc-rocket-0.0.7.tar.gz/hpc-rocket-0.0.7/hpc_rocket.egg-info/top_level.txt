@@ -1,0 +1,6 @@
+build
+coverage-reports
+demo
+hpcrocket
+test
+test_config_files
