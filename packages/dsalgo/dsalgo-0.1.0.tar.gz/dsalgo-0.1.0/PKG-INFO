@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dsalgo
+Version: 0.1.0
+Summary: A package for datastructures and algorithms.
+Author: Hiroshi Tsuyuki
+Author-email: kagemeka1@gmail.com
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: networkx (>=2,<3)
+Requires-Dist: numba (>=0,<1)
+Requires-Dist: numpy (>=1,<2)
+Requires-Dist: scipy (>=1,<2)
