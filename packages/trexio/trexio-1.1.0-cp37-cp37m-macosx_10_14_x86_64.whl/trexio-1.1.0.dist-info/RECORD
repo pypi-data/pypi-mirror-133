@@ -1,0 +1,14 @@
+trexio.py,sha256=wCiv1AZf2vWvoAI_cuXUuDe4f7B_6umev-PozzTN9_s,337149
+pytrexio/_pytrexio.cpython-37m-darwin.so,sha256=InOFsLO6-UQJBg_0X9F3UaxuUiPgdRpgAX3z0HttJlA,1103072
+pytrexio/_version.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+pytrexio/pytrexio.py,sha256=v_eAVtS3097hRNOTlxGIb9Gc_QlVgTlPsBOB_47P1s8,117925
+pytrexio/__init__.py,sha256=T7_T21a1w_dmVMlCHUdMD78NVUeH13jHtaWYdMjLomg,35
+pytrexio/.dylibs/libhdf5_hl.200.dylib,sha256=wf8YFTy02q6pk2p5cyccpk1tqIoutlLo0GPjaiGFhks,171872
+pytrexio/.dylibs/libsz.2.dylib,sha256=ZYu5VlyNaD9icxnu42wLrtJIwAuQKcbnMwiVKNf4fQY,71088
+pytrexio/.dylibs/libhdf5.200.dylib,sha256=a2dAD0JpHCnTuJQzxPBSpaKNoGU3EOo3hTzO4Ve4YzU,3401280
+trexio-1.1.0.dist-info/RECORD,,
+trexio-1.1.0.dist-info/LICENSE,sha256=k5tNeJAI-NBDsIblFPsSmrEInq5s_3FoY2psbHoPKGc,1533
+trexio-1.1.0.dist-info/AUTHORS,sha256=VRfGXsIKV-svRKRQCvG0i15L58SunXL6WG-4LuNqIAI,39
+trexio-1.1.0.dist-info/WHEEL,sha256=JoRoAcGcB07oxwVUj_ocWLs1R-8Timenr03_jU7LVfc,111
+trexio-1.1.0.dist-info/top_level.txt,sha256=x9ItO8CmbK3kMcUDW77tg0Qw3bqNLh-1eTpj0MFLJ8Y,16
+trexio-1.1.0.dist-info/METADATA,sha256=o37XkDy79J6FCPcEW-b8W4bplPp6QVw8Up4QmgM7LIQ,5447
