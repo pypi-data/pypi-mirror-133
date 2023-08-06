@@ -1,0 +1,6 @@
+tabulate
+ailist
+cbseg
+bcpseg
+numpy
+pandas

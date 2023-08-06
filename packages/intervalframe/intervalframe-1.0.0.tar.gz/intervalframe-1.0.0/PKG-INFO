@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: intervalframe
+Version: 1.0.0
+Summary: Python package for interval manipulation
+Home-page: https://github.com/kylessmtih/intervalframe
+Author: Kyle S. Smith
+Author-email: kyle.smith@stjude.org
+License: GPL2
+Description: # IntervalFrame for interval manipulation
+        
+        [![Build Status](https://travis-ci.org/kylessmith/intervalframe.svg?branch=master)](https://travis-ci.org/kylessmith/intervalframe) [![PyPI version](https://badge.fury.io/py/intervalframe.svg)](https://badge.fury.io/py/intervalframe)
+        [![Coffee](https://img.shields.io/badge/-buy_me_a%C2%A0coffee-gray?logo=buy-me-a-coffee&color=ff69b4)](https://www.buymeacoffee.com/kylessmith)
+        
+        This is a Python package for easy and efficient manipulation
+        of Next Generation Sequencing reads.
+        
+        
+        ## Install
+        
+        If you dont already have numpy and scipy installed, it is best to download
+        `Anaconda`, a python distribution that has them included.  
+        ```
+            https://continuum.io/downloads
+        ```
+        
+        Dependencies can be installed by:
+        
+        ```
+            pip install -r requirements.txt
+        ```
+        
+        PyPI install, presuming you have all its requirements installed:
+        ```
+            NOT AVAILABLE...YET
+        	pip install intervalframe
+        ```
+        
+        ## Usage
+        
+        ```python
+        from intervalframe import IntervalFrame
+        import numpy as np
+        
+        # Create data
+        iframe = IntervalFrame()
+        ```
+        
+Keywords: interval pandas dataframe ailist overlap
+Platform: Linux
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Provides: intervalframe
+Description-Content-Type: text/markdown
