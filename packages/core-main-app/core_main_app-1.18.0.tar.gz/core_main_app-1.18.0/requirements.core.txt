@@ -1,0 +1,2 @@
+blob-utils==1.12.*
+xml-utils==1.16.*
