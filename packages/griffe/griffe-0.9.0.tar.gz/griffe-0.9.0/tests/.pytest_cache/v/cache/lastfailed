@@ -1,0 +1,10 @@
+{
+  "test_cli.py": true,
+  "test_docstrings/test_google.py": true,
+  "test_docstrings/test_google.py::test_multi_single_line_sections": true,
+  "test_docstrings/test_numpy.py": true,
+  "test_docstrings/test_rst.py": true,
+  "test_functions.py": true,
+  "test_inspector.py": true,
+  "test_inspector.py::test_s": true
+}
