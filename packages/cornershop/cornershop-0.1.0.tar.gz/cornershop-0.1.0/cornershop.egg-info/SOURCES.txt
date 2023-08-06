@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+cornershop/__init__.py
+cornershop/cornershop.py
+cornershop/models.py
+cornershop.egg-info/PKG-INFO
+cornershop.egg-info/SOURCES.txt
+cornershop.egg-info/dependency_links.txt
+cornershop.egg-info/requires.txt
+cornershop.egg-info/top_level.txt
+examples/Working with Cornershop methods.ipynb
+examples/Working with Cornershop models.ipynb
