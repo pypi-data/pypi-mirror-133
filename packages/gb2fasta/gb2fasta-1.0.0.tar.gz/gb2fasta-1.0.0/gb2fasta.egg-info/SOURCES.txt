@@ -1,0 +1,10 @@
+README.md
+setup.py
+gb2fasta/__init__.py
+gb2fasta/gb2fasta.py
+gb2fasta.egg-info/PKG-INFO
+gb2fasta.egg-info/SOURCES.txt
+gb2fasta.egg-info/dependency_links.txt
+gb2fasta.egg-info/entry_points.txt
+gb2fasta.egg-info/requires.txt
+gb2fasta.egg-info/top_level.txt

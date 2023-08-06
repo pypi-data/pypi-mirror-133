@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gb2fasta
+Version: 1.0.0
+Summary: Python CLI to convert .gb file to .fasta.
+Home-page: https://github.com/J-E-J-S/gb2fasta
+Author: James Sanders
+Author-email: james.sanders1711@gmail.com
+License: UNKNOWN
+Description: Python CLI that converts genbank file format to fasta file format.
+Platform: UNKNOWN
