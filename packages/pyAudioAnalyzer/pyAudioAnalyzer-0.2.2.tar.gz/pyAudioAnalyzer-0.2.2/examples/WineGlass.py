@@ -1,0 +1,17 @@
+import pyAudioAnalyzer as paa
+
+AA = paa.AudioAnalyzer()
+AA.read('audioFiles/WineGlass.wav')
+AA.play()
+AA.PlotTimeDomain()
+AA.PlotTimeDomain(tMin=0.45, tMax=5)
+AA.cutData(tMin=0.45, tMax=5)
+AA.PlotTimeDomain()
+AA.PlotFFT()
+AA.PlotFFT(fMin=500, fMax=2500)
+AA.PlotFFTpyFFTW()
+AA.PlotFFTpyFFTW(fMin=500, fMax=2500)
+AA.PlotSpectrogram()
+AA.PlotSpectrogram(fMin=500, fMax=12000)
+AA.PlotSpectrogram(fMin=500, fMax=2500)
+AA.PlotCepstrum()
