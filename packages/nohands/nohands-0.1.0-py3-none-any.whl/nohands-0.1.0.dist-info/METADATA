@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: nohands
+Version: 0.1.0
+Summary: A little library for effortless demos
+Home-page: https://github.com/nirs/nohands
+Author: Nir Soffer
+Author-email: nirsof@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/nirs/nohands
+Project-URL: Bug Tracker, https://github.com/nirs/nohands/issues
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: Nir Soffer <nirsof@gail.com>
+SPDX-License-Identifier: MIT
+-->
+
+# Look ma no hands!
+
+A little library for effortless demos.
+
+![Example demo](https://i.imgur.com/dhQkaVj.gif)
+
+To run the example demo:
+
+    python example.py
+
+## License
+
+This work is licensed under MIT license. See `LICENSES/MIT.txt` for more
+info.
+
+
