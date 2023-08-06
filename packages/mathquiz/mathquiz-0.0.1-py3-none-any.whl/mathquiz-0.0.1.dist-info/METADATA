@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mathquiz
+Version: 0.0.1
+Summary: A small package that lets you make a math test
+Home-page: https://replit.com/@SuperCoder75/PyPI-test#mt/math%20test/__init__.py
+Author: Anonamous
+Author-email: filippo.buerki@mdusd.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# About
+---
+
+
+-
+test()
+is a function the one and only function and it lets you start a math test!
+
+---
+
