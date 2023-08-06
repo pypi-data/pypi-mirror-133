@@ -1,0 +1,11 @@
+zerionAPI/__init__.py,sha256=tQnc7LhOKdoHKrr63eCAcq8syL520VbI017f_WRBogc,111
+zerionAPI/api.py,sha256=piMq7bNLVQvgjeR4VYia2kymsEiZV-wgBHaf4LhZL-Q,4778
+zerionAPI/dfa.py,sha256=XaPgSkOSWMGqb_HWWryxW6YxwZ6O0DtUx3uvrI9BUjg,6862
+zerionAPI/dfa_utilities.py,sha256=hhdBkFCk7RW-mKeHJZ6Hi73sReayywyvDgrhkZThUg4,1318
+zerionAPI/ifb.py,sha256=CIfruWm2f02ukq-feKL_A7axaJTB8C1CXZjlILHt9IQ,20212
+zerionAPI/ifb_utilities.py,sha256=34u9iLJUmH9thExNEGZl_oEbmFNUYz7dZbxUruFUSZI,3686
+zerionAPI-0.0.4.dist-info/LICENSE,sha256=ldoKX1FdP-PhUFTVXg_okBJcyitlkVTAKPkGbDNzPiw,1090
+zerionAPI-0.0.4.dist-info/METADATA,sha256=e_5--B9ic8wFMdDKyKajYGdsObH7YHCOuCvfMV5Jm-4,5326
+zerionAPI-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zerionAPI-0.0.4.dist-info/top_level.txt,sha256=RYwGQqAVg5pmUW21aPu9ag85aNJ-rQjyQm8EGiBZ-XE,10
+zerionAPI-0.0.4.dist-info/RECORD,,
