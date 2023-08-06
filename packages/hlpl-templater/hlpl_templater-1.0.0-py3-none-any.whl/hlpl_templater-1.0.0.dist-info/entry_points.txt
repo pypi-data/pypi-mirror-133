@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_templater = hlpl_templater.__main__:main
+
