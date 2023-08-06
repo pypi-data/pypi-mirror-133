@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.rst
+ecg_50hz_1.dat
+example.py
+iir_filter.py
+setup.py
+py_iir_filter.egg-info/PKG-INFO
+py_iir_filter.egg-info/SOURCES.txt
+py_iir_filter.egg-info/dependency_links.txt
+py_iir_filter.egg-info/not-zip-safe
+py_iir_filter.egg-info/requires.txt
+py_iir_filter.egg-info/top_level.txt
