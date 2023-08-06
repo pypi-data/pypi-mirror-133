@@ -1,0 +1,11 @@
+CHANGELOG.rst,sha256=K7Ke6l3tmH7Eb4RY_zQIAvY5C8hX5Ys5EQmJiZPqLok,502
+README.rst,sha256=HUDfBAqjCOm-z-i43wyGCfuAwv8Ua945oiewQksCLh4,3774
+slotscheck/__init__.py,sha256=dk4LArdgRs1xhR6QmZ8YkOxUWFP1h9XDC6k5ljPWXEM,325
+slotscheck/__main__.py,sha256=cHjd7K7EGElDLppVV1Mitec3KN26Y7LB0EM-YzPs4Ic,62
+slotscheck/common.py,sha256=GExXd8uH2RxzXoeSdjnExAkJF7igjRs3_axaSs5Rcw4,4769
+slotscheck/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slotscheck-0.2.1.dist-info/entry_points.txt,sha256=yd0oHuJNFPqGhnVGu61T_tMewV69owNO3P5xjuuo1Fg,52
+slotscheck-0.2.1.dist-info/LICENSE,sha256=w-YiRO5IaS4NZAImTBwDk-9OnSnbmIqv7RaGXwcZvGs,1071
+slotscheck-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+slotscheck-0.2.1.dist-info/METADATA,sha256=BvIe43_Psy3tUxHbxZab4ALL99GpCDHwN8FHYhekFco,4700
+slotscheck-0.2.1.dist-info/RECORD,,
