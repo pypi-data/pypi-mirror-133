@@ -1,0 +1,14 @@
+.gitignore
+LICENSE.txt
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/publish-to-pypi.yml
+colliderscope/__init__.py
+colliderscope/_version.py
+colliderscope/plot.py
+colliderscope.egg-info/PKG-INFO
+colliderscope.egg-info/SOURCES.txt
+colliderscope.egg-info/dependency_links.txt
+colliderscope.egg-info/requires.txt
+colliderscope.egg-info/top_level.txt
