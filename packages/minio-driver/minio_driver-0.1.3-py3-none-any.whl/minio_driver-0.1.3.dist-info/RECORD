@@ -1,0 +1,9 @@
+minio_driver/MinioDriver.py,sha256=olb3DwtaStDneSIzqeTKXeD0FVfrFLtRH95vdvofbw8,4643
+minio_driver/MinioProvider.py,sha256=_Y0DUn4G81hIpA0i6V83mfoTCExH3XhlMowufgfegIQ,378
+minio_driver/__init__.py,sha256=krWA5cTD8zPMTACmwtFR0HhRT7foAnYzduSIZriuuqA,36
+minio_driver/integration.py,sha256=9-ckv-4nHAHogdoUl3b1yC7x7PtsrLlzg5abrEU9FqQ,76
+minio_driver-0.1.3.dist-info/LICENSE,sha256=Bf6uxpWyw3g7PCXOjjD9hl3Z2asrSPZoBaADHZXuwzs,1068
+minio_driver-0.1.3.dist-info/METADATA,sha256=C47CP_T53wCo1LG5EB6JEB_11FOzLiY5Pt61k8pWRGA,1756
+minio_driver-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+minio_driver-0.1.3.dist-info/top_level.txt,sha256=b9O6Cr_lur-kwNspGpjZouTC9F6j24HmDh1UtRGxbN8,13
+minio_driver-0.1.3.dist-info/RECORD,,
