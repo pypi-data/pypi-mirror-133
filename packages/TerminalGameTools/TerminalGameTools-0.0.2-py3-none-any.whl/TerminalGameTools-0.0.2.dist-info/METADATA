@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: TerminalGameTools
+Version: 0.0.2
+Summary: A package to allow for terminal text-based games to be easier to create
+Home-page: UNKNOWN
+Author: KermitPurple (Shane McDonough)
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: getch
+
+# Terminal Game Tools
+
+most functions need colorama.init to be called before using
+
+
