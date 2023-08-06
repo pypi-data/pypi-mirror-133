@@ -1,0 +1,9 @@
+[run]
+source =
+    cbpa
+    tests
+
+omit =
+    *__init__.py
+
+parallel = True
