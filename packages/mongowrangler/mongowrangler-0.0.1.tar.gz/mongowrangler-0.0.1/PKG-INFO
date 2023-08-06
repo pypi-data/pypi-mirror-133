@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mongowrangler
+Version: 0.0.1
+Summary: A Python package that simplifies implementing CRUD functionality with MongoDB
+Home-page: https://github.com/notjoshno/mongowrangler
+Author: Josh Roberts
+Author-email: josh@jroberts.co
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/notjoshno/mongowrangler/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MongoWrangler
+A Python package that abstracts simple CRUD operations into functions
+
