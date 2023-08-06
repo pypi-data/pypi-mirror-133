@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cli-args-system
+Version: 1.0
+Summary: A Cli flags libary  to control argv flags and content
+Home-page: https://github.com/mateusmoutinho/python-cli-args.git
+Author: Mateus Moutinho Queiroz
+Author-email: mateusmoutinho01@gmail.com
+License: MIT
+Download-URL: https://github.com/mateusmoutinho/python-cli-args/archive/refs/heads/main.zip
+Keywords: ARGV,ClI ARGUMENTS
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
