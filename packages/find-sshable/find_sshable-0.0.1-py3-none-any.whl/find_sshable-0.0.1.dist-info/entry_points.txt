@@ -1,0 +1,3 @@
+[console_scripts]
+find-sshable = find_sshable._command:main
+
