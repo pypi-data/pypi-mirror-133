@@ -1,0 +1,29 @@
+{# -*- engine:django -*- #}
+
+{% extends "core/base.html" %}
+
+{% load i18n data_helpers rules %}
+{% load render_table from django_tables2 %}
+
+{% block browser_title %}{% blocktrans %}Live documents{% endblocktrans %}{% endblock %}
+{% block page_title %}{% blocktrans %}Live documents{% endblocktrans %}{% endblock %}
+
+{% block content %}
+  <a class="btn green waves-effect waves-light dropdown-trigger" href="#" data-target="widget-dropdown">
+    <i class="material-icons left">add</i>
+    {% trans "Create live document" %}
+  </a>
+
+  <ul id="widget-dropdown" class="dropdown-content">
+    {% for ct, model in widget_types %}
+      <li>
+        <a href="{% url 'create_live_document' ct.app_label ct.model %}">
+          {% verbose_name_object model as widget_name %}
+          {% blocktrans with name=widget_name %}Create {{ name }}{% endblocktrans %}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% render_table table %}
+{% endblock %}
