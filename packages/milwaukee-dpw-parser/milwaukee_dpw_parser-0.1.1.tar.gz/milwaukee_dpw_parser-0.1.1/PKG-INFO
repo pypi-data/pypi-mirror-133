@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: milwaukee_dpw_parser
+Version: 0.1.1
+Summary: Milwaukee Wisconsin Department of Public Works Parser
+Home-page: https://github.com/jasonfry89/milwaukee-dpw-parser
+Author: Jason Fry
+License: MIT
+Description: # Milwaukee, Wisconsin Department of Public Works Parser
+        
+        Gets the next upcoming trash and recycling date for an address in Milwaukee, WI. 
+        
+        ### Installation
+        
+        `pip install milwaukee-dpw-parser`
+        
+        ### Run
+        
+        ```
+        from milwaukee_dpw_parser import get_next_garbage_and_recycling_dates
+        garbage_date, recycling_date = await get_next_garbage_and_recycling_dates('1011', 'E', 'BRADY', 'ST')
+        print(garbage_date)
+        print(recycling_date)
+        ```
+        
+        ```
+        2022-01-11
+        2022-01-19
+        ```
+        
+        
+Keywords: Milwaukee,Wisconsin,Garbage,Recycling,DPW
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
