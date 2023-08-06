@@ -1,0 +1,8 @@
+termux_ssh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+termux_ssh/__main__.py,sha256=529D8u2oEQ8-rlaUG4NuO3kfTykUzafxH97tcWGGAjk,2039
+termux_ssh/termux.py,sha256=vdWy_PDWN0dzOebdqMf1rIB7wCDfKl0xfyORAj-0mbU,6198
+Termux_SSH-1.0.0.dist-info/LICENSE,sha256=g_yGK3zuAw4G-xSLLRyrDjoKmf-fsDaLEjNg0G3LH9c,1093
+Termux_SSH-1.0.0.dist-info/METADATA,sha256=1Sop4tPQ9dXeePq_oWKlzEuG9O5tDDkEB4lPQsBeNt8,4249
+Termux_SSH-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Termux_SSH-1.0.0.dist-info/top_level.txt,sha256=ex7HXZAkSccRMB_E3UAEyPAz24J1Kgc_Cm3UIz_PJ70,11
+Termux_SSH-1.0.0.dist-info/RECORD,,
