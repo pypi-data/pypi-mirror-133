@@ -1,0 +1,6 @@
+emmet-core~=0.20.1
+fastapi
+maggma
+uvicorn
+gunicorn
+boto3
