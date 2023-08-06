@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "multirun"
+version = "0.2.1"
+description = "Multirun is a simple wrapper around tmux to allow running and monitoring multiple processes at once"
+authors = ["Rob Sayers <rsayers@robsayers.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+multirun = "multirun:main"
