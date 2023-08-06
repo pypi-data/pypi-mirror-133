@@ -1,0 +1,11 @@
+autodc/__init__.py,sha256=m4HQzQ8ZR8YrCoHFFgdRCkNwOMmnBkByaGMLSdV8p1g,166
+autodc/data_augmentation.py,sha256=yQoZuzHYVcZ4I0im-gkBiNVci9Z4Kxq4wzCDl7d3Bjw,3317
+autodc/data_processing.py,sha256=1EDT1Oo3dYTCktaGQ1Aflo60TQKHPPKVUEUUO_dsk40,695
+autodc/edge_case_selection.py,sha256=zl9LJQvWHwWv_qKNC8a8Q6WV7XJbaMJAn5XV3V6Esw8,2621
+autodc/outlier_detection.py,sha256=7klgkLlRLJANRQCstSbGEnKvM_X82fWcNpHgkHbOP8c,4212
+autodc/setup.py,sha256=yo20xeCDmA7rP9vgQnoFzkTbBv0zRt-cFY4_cksrvGg,597
+autodc-1.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+autodc-1.0.5.dist-info/METADATA,sha256=eIoAbayoggR2zr9sFJLEkVSW5b_GiaBIdeDJP2SFTdw,1713
+autodc-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+autodc-1.0.5.dist-info/top_level.txt,sha256=eI9kbNYjPRRlXLFKrBbUSS1GgLTArBfnWhzi9Xyqt3A,7
+autodc-1.0.5.dist-info/RECORD,,
