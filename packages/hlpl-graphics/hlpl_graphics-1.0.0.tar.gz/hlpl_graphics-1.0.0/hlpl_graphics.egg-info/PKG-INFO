@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hlpl-graphics
+Version: 1.0.0
+Summary: hlpl_graphics is a software makes graphics (games, movies, animes...)
+Home-page: https://graphics.hlpl.net
+Author: Ahmida Bendjoudi
+Author-email: email@hlpl.net
+License: MIT
+Download-URL: https://graphics.hlpl.net/download/
+Project-URL: hlpl, https://hlpl.net
+Project-URL: hlpl_graphics-docs, https://docs.hlpl.net
+Project-URL: hlpl_graphics-forum, https://forum.hlpl.net
+Project-URL: hlpl_graphics-resource, https://resource.hlpl.net
+Project-URL: hlpl_graphics-github, https://github.com/hlpl/graphics
+Description: 
+        ### hlpl_graphics 
+        <p style="font-size:14px;">hlpl_graphics is a software makes graphics (games, movies, animes...)</p>
+        
+        ![hlpl_graphics status](https://hlpl.net/public_files/graphics-uc.png)
+        
+Keywords: hlpl_graphics,hlpl graphics,hlpl-graphics,NLP,hlpl,games maker,movies maker,animes maker
+Platform: UNKNOWN
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3, <=3.9
+Description-Content-Type: text/markdown
