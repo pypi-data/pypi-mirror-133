@@ -1,0 +1,12 @@
+mechkit/__init__.py,sha256=i4zKB437tgOhXC6KMFDq6Ka2g979rMhbdwK7eAqcWQU,344
+mechkit/fabric_tensors.py,sha256=17Bc6a2JSvUOLd2qmxJvmGhv0jnBiNS2wujgE8SMHZ0,5629
+mechkit/material.py,sha256=hRM874ycourRBMCSFDgbFhCKqNdr-fpaGsaH3NzQXXk,31552
+mechkit/notation.py,sha256=9QhzEODY5dthI-VW_hPycYhMdtbFCyDRoJ9XnuMnnMY,45669
+mechkit/tensors.py,sha256=iDPOsymI6a0YD1ZjhEBeaOrESD2qZR_kgY17NayMA9g,4991
+mechkit/utils.py,sha256=2pkmoXY5jRKyoff3DwLR4aSzuT3Ftj3pw8iI2WEN3Pc,156
+mechkit/visualization.py,sha256=hgdSYLAav2gf549WTaWt4IaF9WdNrIx-EAKxSij2Ugc,2886
+mechkit-0.3.0.dist-info/LICENSE,sha256=Kt5GKI1SZt7q__YT6nMvXIOzOdI8TG-1aQTOKF33fsE,1074
+mechkit-0.3.0.dist-info/METADATA,sha256=zZO7C8phmNz9LSdJvGiUQTL7Ph7ZJhs80J2ITCbNnCw,1267
+mechkit-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mechkit-0.3.0.dist-info/top_level.txt,sha256=kllgTh56tNxu6kZs_pH9-gVc-dhSArSTiHzOhE-Iios,8
+mechkit-0.3.0.dist-info/RECORD,,
