@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+genderdetectfrance/src/genderdetectfrance.py
+genderdetectfrance/src/genderdetectfrance.egg-info/PKG-INFO
+genderdetectfrance/src/genderdetectfrance.egg-info/SOURCES.txt
+genderdetectfrance/src/genderdetectfrance.egg-info/dependency_links.txt
+genderdetectfrance/src/genderdetectfrance.egg-info/top_level.txt
