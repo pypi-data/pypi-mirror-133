@@ -1,0 +1,3 @@
+[console_scripts]
+create_mysql = mysql:create_mysql
+
