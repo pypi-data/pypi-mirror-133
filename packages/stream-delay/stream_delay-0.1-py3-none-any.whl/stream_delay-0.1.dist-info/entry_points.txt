@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        stream-delay=stream_delay:main
+    
