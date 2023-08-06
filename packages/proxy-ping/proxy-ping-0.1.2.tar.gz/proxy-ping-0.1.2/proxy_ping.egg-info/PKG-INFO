@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: proxy-ping
+Version: 0.1.2
+Summary: Tool to ping hosts behind a proxy blocking ICMP packages.
+Home-page: https://github.com/marcus67/proxy_ping
+Author: Marcus Rickert
+Author-email: proxy-ping@web.de
+License: UNKNOWN
+Description: Tool to ping hosts behind a proxy host.
+Platform: UNKNOWN
