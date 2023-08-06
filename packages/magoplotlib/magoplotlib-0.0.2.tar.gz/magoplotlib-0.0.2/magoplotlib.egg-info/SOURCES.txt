@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+magoplotlib/__init__.py
+magoplotlib/add.py
+magoplotlib.egg-info/PKG-INFO
+magoplotlib.egg-info/SOURCES.txt
+magoplotlib.egg-info/dependency_links.txt
+magoplotlib.egg-info/requires.txt
+magoplotlib.egg-info/top_level.txt
