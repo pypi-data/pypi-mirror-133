@@ -1,0 +1,9 @@
+verysimple/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verysimple/add.py,sha256=O6gYGa2cGrp4au8WxPg1MPFFfonLJdi4rZKJhG9rX_w,60
+verysimple/minus.py,sha256=F5ZGvXNs3w9gZN5OEHaTZ0IaCAxNQ-8LKmuKEl6YJQo,64
+verysimple/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verysimple/extras/multiply.py,sha256=1Ae3flzK1g7pRGL3HnDrTWHkpnzdSnOPIVLBOJmuya0,70
+verysimple-0.0.1.dist-info/METADATA,sha256=H7P55qGazvpMjV4yL5mMMEOctiC4Uv1FkDYQv2DcNgA,581
+verysimple-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+verysimple-0.0.1.dist-info/top_level.txt,sha256=_RitYTKRCpkn7mcmG9u9bPC9-A_BdMIFYxnlE1QIPtw,11
+verysimple-0.0.1.dist-info/RECORD,,
