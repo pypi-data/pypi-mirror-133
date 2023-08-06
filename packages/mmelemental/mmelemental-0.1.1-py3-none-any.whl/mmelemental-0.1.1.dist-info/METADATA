@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mmelemental
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: MolSSI
+Author-email: support@molssi.edu
+License: BSD-3-Clause
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pint
+Requires-Dist: cmselemental
+
+MMElemental
+==============================
+[//]: # (Badges)
+[![CI](https://github.com/MolSSI/MMElemental/actions/workflows/CI.yaml/badge.svg)](https://github.com/MolSSI/MMElemental/actions/workflows/CI.yaml)
+[![codecov](https://codecov.io/gh/MolSSI/MMElemental/branch/master/graph/badge.svg)](https://codecov.io/gh/MolSSI/MMElemental/branch/master)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/MolSSI/MMElemental.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/MolSSI/MMElemental/context:python)
+[![docs](https://github.com/MolSSI/mmelemental/actions/workflows/doc.yaml/badge.svg)](https://molssi.github.io/mmelemental)
+
+A python package which provides data models for Molecular Mechanics based on the [MMSchema](https://molssi.github.io/mmschema) specification.
+
+<p align="center">
+<img src="mmelemental/data/imgs/mmelemental.png" width="170">
+</p>
+
+### Copyright
+Copyright (c) 2021, MolSSI
+
+#### Acknowledgements
+
+Project based on the
+[Computational Molecular Science Python Cookiecutter](https://github.com/molssi/cookiecutter-cms) version 1.5.
+
+
