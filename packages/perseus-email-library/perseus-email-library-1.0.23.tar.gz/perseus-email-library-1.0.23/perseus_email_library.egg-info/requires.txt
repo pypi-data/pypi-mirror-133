@@ -1,0 +1,3 @@
+perseus-core-library
+mailjet-rest
+jinja2
