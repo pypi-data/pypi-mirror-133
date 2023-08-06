@@ -1,0 +1,3 @@
+[console_scripts]
+tbell=telegram_bell.bell:cli
+
