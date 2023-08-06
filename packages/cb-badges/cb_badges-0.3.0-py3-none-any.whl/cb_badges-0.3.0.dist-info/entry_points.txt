@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        badges=cb_badges.cli:cli
+    

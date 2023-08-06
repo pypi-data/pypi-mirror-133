@@ -1,0 +1,12 @@
+cb_badges/__init__.py,sha256=a6GwMcIrymqIdEaoLZa8waDgF_VQ7iY-RRUUmdVv-mc,11160
+cb_badges/cli.py,sha256=EA7Q5jVaVbq8XCEAuVomVuMj3_74tHS0RtHuw0sC1uA,1309
+cb_badges/utils/__init__.py,sha256=oGMDawwuObKeGhxk8wwDnz7y9xH69adBT7JtrmTrDuc,1509
+cb_badges/utils/cairo.py,sha256=YykflqqCrQRaPm8_EulXv877ZqXVwLZWW8YVQc26k5M,4546
+cb_badges/utils/svg.py,sha256=QmIaaUr0AX698N_aWVlHuH2NZT4jKZaJwXiEcIXS8wg,1565
+cb_badges/utils/xml.py,sha256=OxfC05amqmjFP0lZ-LvaJooGDR52dKnVGe_AOaeMqc8,520
+cb_badges-0.3.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cb_badges-0.3.0.dist-info/METADATA,sha256=IEtkkEUXG48l6RwAMG8zuoQwy0AvMV5iaGId0c2sW7c,2324
+cb_badges-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cb_badges-0.3.0.dist-info/entry_points.txt,sha256=ocmwIkJ-OVVnulnnfVYkyd6lG6NhBAEO5BSdQHpx0Mc,64
+cb_badges-0.3.0.dist-info/top_level.txt,sha256=PClayzF8IrnczGLy5X6Vm-uge8iVuag42_sbH5AcanU,10
+cb_badges-0.3.0.dist-info/RECORD,,
