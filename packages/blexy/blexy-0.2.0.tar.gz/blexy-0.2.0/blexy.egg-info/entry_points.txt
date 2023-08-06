@@ -1,0 +1,3 @@
+[console_scripts]
+blexy = blexy.main:cli
+
