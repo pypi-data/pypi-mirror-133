@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+zipo/__init__.py
+zipo.egg-info/PKG-INFO
+zipo.egg-info/SOURCES.txt
+zipo.egg-info/dependency_links.txt
+zipo.egg-info/top_level.txt

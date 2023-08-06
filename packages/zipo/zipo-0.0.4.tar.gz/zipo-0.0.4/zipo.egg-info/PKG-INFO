@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: zipo
+Version: 0.0.4
+Summary: functions.
+Home-page: https://github.com/seoul2k/zipp
+Author: xiongtianshuo
+Author-email: Mr_Xiongts@163.com
+Maintainer: xiongtianshuo
+Maintainer-email: seoul1k@163.com
+License: BSD License
+Project-URL: Bug Tracker, https://github.com/seoul2k/zipp/issues
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# zipp
+
+##### this is a .zip file aggregate
+
+## Installation
+
+```shell
+pip install zipp
+```
+
+
+
+```python
+import zipp
+
+# backup2zip
+zipp.backup2zip(floder=, backupfilename=)
+
+# decompression
+zipp.decompression(name=)
+```
+
+
