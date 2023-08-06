@@ -1,0 +1,12 @@
+matplotlib
+numpy
+scipy
+pandas
+jupyter
+
+[dev]
+pytest
+wheel
+black
+twine
+jupyter_contrib_nbextensions
