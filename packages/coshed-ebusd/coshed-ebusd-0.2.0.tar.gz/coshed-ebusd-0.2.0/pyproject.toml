@@ -1,0 +1,39 @@
+[tool.black]
+line-length = 79
+target-version = ['py37']
+exclude = '''
+(
+  /(
+      __pycache__
+    | \.vscode
+    | build
+    | contrib
+    | dist
+    | doc
+    | \.?venv3?
+  )/
+)
+'''
+
+[tool.poetry]
+name = "coshed-ebusd"
+version = "0.2.0"
+description = "ebusd helper for lazy developer(s)"
+authors = ["doubleO8 <wb008@hdm-stuttgart.de>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+coshed-flask = "^0.15.0"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+cebusd-analysis = 'coshed_ebusd.cli:analysis_cli'
+cebusd-configuration-server = 'coshed_ebusd.cli:configuration_server_cli'
