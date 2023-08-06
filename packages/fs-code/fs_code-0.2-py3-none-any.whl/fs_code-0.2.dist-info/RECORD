@@ -1,0 +1,13 @@
+codefs/__init__.py,sha256=oxWNw4SWGjlmerQxOdxoYSpcLO_A7OiZj79NvugZWqg,72
+codefs/core.py,sha256=8yN2UhJ9T1mz20WDfgm2X9r0EDb35NTdwshgtFHbTZM,3904
+codefs/gitfs/__init__.py,sha256=90VwSwzu-zWi3RAU8-R8SlDSPgtii2bChjt9iUl8t8I,3080
+codefs/gitfs/opener.py,sha256=DlgQPrqqGBaiCKOjWmG-7O4ICHJ3CAyKKM9j3fQx6xM,739
+codefs/githubfs/__init__.py,sha256=WaYyfh4jnxlvDl5MJP9grO7LsNLNtk70EuaYJa0GB28,4505
+codefs/githubfs/opener.py,sha256=-c4l-misFa05TXnva2LUlzlfvPastCkd99ykAIRUR8I,2287
+codefs/gitlabfs/__init__.py,sha256=hZYpobzroF6cqywDpicBTqCcQYG2yQFDnyqxH0_mBps,4790
+codefs/gitlabfs/opener.py,sha256=DANKJ1el9uj6SqBBTzcmDRk5AK2M1EXbfXAsLKe_SFc,2610
+fs_code-0.2.dist-info/entry_points.txt,sha256=ZW2NjvYV-RirmC_QS8nvp_OioDDfUk3dPokY13kTeYg,147
+fs_code-0.2.dist-info/LICENSE,sha256=7dlmptNhs1gr__sbiLOQ1y5LZoP719dd5GINVvgHxdU,1067
+fs_code-0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fs_code-0.2.dist-info/METADATA,sha256=eKxU4vYdumhNXHc7GS0q-OFPLDgtlkNpZQ63c8Bq6Sg,2702
+fs_code-0.2.dist-info/RECORD,,
