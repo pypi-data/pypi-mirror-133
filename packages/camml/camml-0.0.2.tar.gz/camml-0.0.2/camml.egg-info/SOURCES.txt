@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+camml/__init__.py
+camml/coral.py
+camml.egg-info/PKG-INFO
+camml.egg-info/SOURCES.txt
+camml.egg-info/dependency_links.txt
+camml.egg-info/requires.txt
+camml.egg-info/top_level.txt
