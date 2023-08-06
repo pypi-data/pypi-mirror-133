@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+superstocks/data/__init__.py
+superstocks/data/web_scraper.py
+superstocks/data/io/__init__.py
+superstocks/data/io/loader.py
+superstocks/data/io/writer.py
+superstocks/data/miner/__init__.py
+superstocks/model/__init__.py
+superstocks/superstocks.egg-info/PKG-INFO
+superstocks/superstocks.egg-info/SOURCES.txt
+superstocks/superstocks.egg-info/dependency_links.txt
+superstocks/superstocks.egg-info/top_level.txt
