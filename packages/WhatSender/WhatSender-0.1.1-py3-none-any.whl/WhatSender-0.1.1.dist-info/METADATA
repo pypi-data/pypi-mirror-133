@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: WhatSender
+Version: 0.1.1
+Summary: Sending Whatsapp messages.
+Home-page: UNKNOWN
+Author: GodZilo (Ido Barel)
+Author-email: <vikbarel5@gmail.com>
+License: UNKNOWN
+Keywords: python,Whatsapp,message,Whatsapp sender,message sender
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pyautogui
+Requires-Dist: termcolor
+Requires-Dist: requests
+
+A package that allows to send Whatsapp messages, by given number, message, and time.
+
