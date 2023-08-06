@@ -1,0 +1,5 @@
+setup.py
+is_square.egg-info/PKG-INFO
+is_square.egg-info/SOURCES.txt
+is_square.egg-info/dependency_links.txt
+is_square.egg-info/top_level.txt
