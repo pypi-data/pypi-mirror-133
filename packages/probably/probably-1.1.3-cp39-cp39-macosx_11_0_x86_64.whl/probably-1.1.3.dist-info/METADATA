@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: probably
+Version: 1.1.3
+Summary: Probably: Simple Probabilistic Data Structures
+Home-page: https://github.com/Parsely/probably
+Author: Parse.ly
+Author-email: hello@parsely.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/Parsely/probably/issues
+Project-URL: Documentation, https://github.com/Parsely/probably
+Project-URL: Source Code, https://github.com/Parsely/probably
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: bitarray
+Requires-Dist: mmh3 (>=2.4)
+Requires-Dist: numpy (>=1.16.5)
+Requires-Dist: six
+Provides-Extra: test
+Requires-Dist: pytest (>=5.0.1) ; extra == 'test'
+
+UNKNOWN
+
