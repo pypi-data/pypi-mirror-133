@@ -1,0 +1,11 @@
+pyicacls/__init__.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+pyicacls/attributes.py,sha256=IMUh4atIut8H2DudaW6peZqoFU6-sF6Ap0vwZIuUGCo,937
+pyicacls/getter.py,sha256=nkBNcQGBGW81ldOZOofEa26tuuAfrCXXyim0tLtcUc0,4503
+pyicacls/manager.py,sha256=vhWkfPu61AGLjDhhOXoxG853Wqp6YVbtq-L53OAyszs,2199
+pyicacls/permissions.py,sha256=BJwA9Jgnv1blRlCNELzkucs6yb6R0hptOC1pHsftkow,2730
+pyicacls/setter.py,sha256=-iYylJg8XcCXO9mL8lEOwIOoSnmvHkcUr_sTij2Upsw,6543
+pyicacls/structs.py,sha256=DofMfHsRoUd0_MGxtCPbhaaX1UAhNW70lwr9GJtLyAs,4982
+pyicacls-1.0.1.dist-info/METADATA,sha256=StpiJ49A6FH5ciNb_suW1xR5kI215QEiWHpGOlCsmsA,2679
+pyicacls-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyicacls-1.0.1.dist-info/top_level.txt,sha256=iIbAIbRtENSoPP1LO9Ykubg8J7YcuFuoUF2CiFNYgVQ,9
+pyicacls-1.0.1.dist-info/RECORD,,
