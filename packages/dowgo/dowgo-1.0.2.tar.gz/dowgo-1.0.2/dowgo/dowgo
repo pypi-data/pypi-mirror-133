@@ -1,0 +1,206 @@
+#!/usr/bin/python
+
+import requests as r
+import sys
+from optparse import OptionParser
+import os
+import tarfile
+from pathlib import Path
+import json
+import dowgo as dowutil
+
+'''
+DowGo! by NDRAEY 
+
+Structure:
+
+    (root)
+        lists
+        packages/
+            testpackage/
+                version
+                package-1.0.tar
+            testpackage2/
+                version
+                package-1.0.tar
+
+"lists" structure:
+    FILE
+    FILE2
+    FILE3
+'''
+
+class DowErr:
+    DOWNOLISTS = 1
+    DOWNOPACKAGE = 2
+    DOWNOPACKVER = 3
+    DOWNOVER = 4
+    DOWOTHERERROR = 99
+
+class DowGo:
+    def __init__(self):
+        self.session = r.Session()
+        self.mainurl = "http://c91451dc.beget.tech/dowgo"
+        self.repos = ["http://c91451dc.beget.tech/dowgo"]
+        self.hdr = {'User-Agent':'Mozilla/5.0 (DowGo/1.0.2; Charmeleon; NDRAEY;)'}
+        self.lists = {}
+
+    def parselists(self,lists):
+        return lists.split("\n")
+
+    def getlistsbyurl(self,url):
+        data = self.session.get(url+"/lists",
+                         headers=self.hdr)
+        if (data.status_code>=200 and data.status_code<400):
+            return self.parselists(data.text)
+        return DowErr.DOWNOLISTS
+
+    def checkevery(self):
+        if self.repos:
+            for i in self.repos:
+                print(f"[{self.repos.index(i)+1}/{len(self.repos)}] Checking repository "+i+"...")
+                h = self.getlistsbyurl(i)
+                self.lists[i]=h
+            return self.lists
+
+    def getlatest(self,name):
+        errfl = False
+        for i in self.lists:
+            ver = self.session.get(i+"/packages/"+name+"/version",
+                                   headers=self.hdr)
+            if (ver.status_code>=200 and ver.status_code<400):
+                return (ver.text,i)
+                            
+        print("Returning NOVER: %s"%ver.text)
+        return (DowErr.DOWNOVER, None)
+
+    def checkver(self,name,ver):
+        for i in self.lists:
+            dt = self.session.get(i+"/packages/"+name+"/package-"+ver+".tar",
+                                  headers=self.hdr,
+                                  stream=True)
+            if (dt.status_code>=200 and dt.status_code<400): return (ver,i)
+        return (DowErr.DOWNOVER, None)
+
+    def torsize(self,size: int):
+        r = size
+        suff = ""
+        if r>1024:
+            r/=1024; suff="KB"
+        if r>1024:
+            r/=1024; suff="MB"
+        return ("%.1f"%r)+suff
+
+    def progresstick(self,pkname,cur,size):
+        pl = pkname
+        if len(pl)>20: pl=pl[0:20]+"..."
+        pr = (cur/size)*100
+        kstr = ("#"*round(pr/100*30))+(" "*(30-round((pr/100*30))))
+        nsiz = self.torsize(int(size))
+        print(f"{pl} [{kstr}] {str(pr).split('.')[0]+'%'} of {nsiz}",
+              end='\033[K\r',flush=True)
+
+    def downloadpk(self,url,name,ver,path):
+        pk = self.session.get(url+"/packages/"+name+"/package-"+ver+".tar",
+                              headers=self.hdr,stream=True)
+        path = f"{path}/{name}-{ver}.tar"
+        with open(path, 'wb') as f:
+            for chunk in pk.iter_content(chunk_size=32768):
+                self.progresstick(path,f.tell(),int(pk.headers["Content-Length"]))
+                f.write(chunk)
+            self.progresstick(path,f.tell(),int(pk.headers["Content-Length"]))
+
+    def downloadpackage(self,name,version="default"):
+        ver = self.getlatest(name) if version=="default" else self.checkver(name,version)
+        if ver[0]==DowErr.DOWNOVER: return DowErr.DOWNOPACKVER
+        jd = self.session.get(ver[-1]+"/packages/"+name+"/package-"+ver[0]+".tar",
+                              headers=self.hdr,stream=True)
+        if not (jd.status_code>=200 and jd.status_code<400): return DowErr.DOWNOPACKAGE
+        jd.close()
+        self.downloadpk(ver[-1],name,ver[0],self.dpath)
+        print("")
+
+    def getusrfolder(self):
+        #self.dpath = os.environ["PREFIX"] if os.name=="posix" else "C:\\DowGo User\\"
+        self.dpath = str(Path.home())
+        return self.dpath
+
+    def showhelp(self):
+        print('''
+dowgo install [package_name]
+        ''')
+
+def warn(st):
+    print("\033[33mW\033[0m: "+str(st))
+
+def note(st):
+    print("\033[33mN\033[0m: "+str(st))
+
+if __name__=="__main__":
+    version="1.0.2-digimon"
+    print(f"DowGo! (Download and Go!) v{version} by NDRAEY")
+
+    pars = OptionParser()
+    pars.add_option("--here"
+                    ,action="store_true"
+                    )
+    (opts, args) = pars.parse_args()
+
+    dow = DowGo()
+
+    fldr = dow.getusrfolder()+"/DowGo Packages/"
+    if not os.path.isdir(fldr):
+        print("")
+        warn("Creating directory: "+fldr+"...\nThis folder will contain downloaded pseudo-packages.")
+        Path(fldr).mkdir(parents=True,exist_ok=True)
+    dow.dpath = "." if opts.here else fldr
+
+    if not args: dow.showhelp(); sys.exit(1)
+
+    if args[0]=="install":
+        packages = args[1:]
+        print("Updating lists...")
+        work = dow.checkevery()
+        '''
+        print(work)
+        for i in work:
+            print(dow.getlatest(work[i][0]))
+            print(dow.checkver(work[i][0],"1.2")) # Error
+            print(dow.checkver(work[i][0],"1.0")) # 1.0
+        exit()
+        '''
+        if len(packages)>2:
+            print(f"Searching {packages[0]}, {packages[1]} and {len(packages[1:])-1} more...")
+        else:
+            if len(packages)==2:
+                print(f"Searching {packages[0]}, {packages[1]}...")
+            elif len(packages)==1:
+                print(f"Searching {packages[0]}...")
+            else:
+                print("No packages specifed!!!")
+                sys.exit(1)
+        
+        for i in packages:
+            onlyls = []
+            for h in work:
+                for j in work[h]:
+                    onlyls.append(j)
+
+            if not (i.split("@")[0] in onlyls):
+                i=i.split("@")[0]
+                print("\nPackage "+i+" not found...")
+                sys.exit(1)
+                
+        for i in packages:
+            ver = i.split("@")[-1]
+            pkg = i.split("@")[0]
+            if ver==i: ver="default"
+            res = dow.downloadpackage(pkg,ver) # Result
+            if res==DowErr.DOWNOPACKVER:
+                print("\033[31mE:\033[0m No version ("+ver+") found for package "+pkg)
+            elif res==DowErr.DOWNOPACKAGE:
+                print("\033[31mE:\033[0m Could not download package "+pkg+"@"+ver)
+    else:
+        print("dowgo: Unknown parameter!!!")
+        dow.showhelp()
+        sys.exit(1)
