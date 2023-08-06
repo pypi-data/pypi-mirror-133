@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pastegram_cli.egg-info/PKG-INFO
+pastegram_cli.egg-info/SOURCES.txt
+pastegram_cli.egg-info/dependency_links.txt
+pastegram_cli.egg-info/requires.txt
+pastegram_cli.egg-info/top_level.txt
+scripts/pastegram-cli
