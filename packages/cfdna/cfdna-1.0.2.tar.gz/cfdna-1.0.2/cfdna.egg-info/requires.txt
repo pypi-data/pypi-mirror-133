@@ -1,0 +1,4 @@
+numpy
+ngsfragments
+h5py
+pandas
