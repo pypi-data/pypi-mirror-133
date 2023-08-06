@@ -1,0 +1,8 @@
+sklearn
+pandas
+numpy
+cloudpickle
+gunicorn
+Click
+fastapi
+uvicorn
