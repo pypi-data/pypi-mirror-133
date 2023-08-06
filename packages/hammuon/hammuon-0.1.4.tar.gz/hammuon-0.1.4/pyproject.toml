@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hammuon"
+version = "0.1.4"
+description = "Basic and important data structures algorithms."
+readme = "README.md"
+authors = ["mcvarer <ktuce.mcanv@gmail.com>"]
+license = "GNU General Public License"
+repository = "https://github.com/mcvarer/algorithms"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
