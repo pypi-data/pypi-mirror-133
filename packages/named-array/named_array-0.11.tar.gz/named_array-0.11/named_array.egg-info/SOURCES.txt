@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+named_array.py
+setup.cfg
+setup.py
+named_array.egg-info/PKG-INFO
+named_array.egg-info/SOURCES.txt
+named_array.egg-info/dependency_links.txt
+named_array.egg-info/requires.txt
+named_array.egg-info/top_level.txt

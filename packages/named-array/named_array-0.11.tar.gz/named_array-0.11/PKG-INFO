@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: named_array
+Version: 0.11
+Summary: This is a python module that extends numpy array to be able to have column names to index with
+Home-page: https://github.com/Rainbow-Dreamer/named_array
+Author: Rainbow-Dreamer
+Author-email: 1036889495@qq.com
+License: LGPLv2.1
+Download-URL: https://github.com/Rainbow-Dreamer/named_array/archive/0.11.tar.gz
+Keywords: python,hide warnings
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# named_array
+
+This is a python module that extends numpy array to be able to have column names to index with.
+
+## Installation
+
+```
+pip install named_array
+```
+
+Note that you need to have numpy installed already to use this module.
+
+## Usage
+
+```python
+import numpy as np
+from named_array import named_array
+
+# the keyword arguments for named_array are exactly the same with numpy array,
+# but with an extra keyword `colnames`, which is a list of the column names for each column
+A = named_array([[1,2,3],[4,5,6]], colnames=['a', 'b', 'c'])
+
+>>> A
+named_array([[1, 2, 3],
+             [4, 5, 6]])
+
+# you can index a column by name
+>>> A['a']
+named_array([1, 4])
+
+# you can extract several columns as a new array
+# by a tuple or a list of column names
+>>> A['a', 'b']
+array([[1, 2],
+       [4, 5]])
+
+>>> A[['a', 'b']]
+array([[1, 2],
+       [4, 5]])
+
+# set the column names of the named_array
+A.set_colnames(['a1', 'b1', 'c1'])
+
+# you can also put a numpy array into the name_array constructor
+# and turn it into a named_array
+B = np.array([[1,2,3],[4,5,6]])
+C = named_array(B, colnames=['a', 'b', 'c'])
+
+# the column name could also be a tuple, where the first element is the column name,
+# the second element is the number of columns the column name spans
+A = named_array([[1,2,3],[4,5,6]], colnames=['a', ('b', 2)])
+>>> A['b']
+named_array([[2, 3],
+             [5, 6]])
+```
+
+
+
