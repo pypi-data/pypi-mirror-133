@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sap_commissions_api.egg-info/PKG-INFO
+sap_commissions_api.egg-info/SOURCES.txt
+sap_commissions_api.egg-info/dependency_links.txt
+sap_commissions_api.egg-info/top_level.txt
