@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: streamlit-monaco-yaml
+Version: 0.1.1
+Summary: Monaco editor component for Streamlit for editing YAML files.
+Author: Skalar Systems
+Author-email: contact@skalarsystems.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: streamlit (>=1.1.0,<2.0.0)
