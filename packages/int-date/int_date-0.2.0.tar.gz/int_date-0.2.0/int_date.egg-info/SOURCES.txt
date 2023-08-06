@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+int_date.py
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+int_date.egg-info/PKG-INFO
+int_date.egg-info/SOURCES.txt
+int_date.egg-info/dependency_links.txt
+int_date.egg-info/requires.txt
+int_date.egg-info/top_level.txt
