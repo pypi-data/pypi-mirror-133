@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+perspective/__init__.py
+perspective/main.py
+perspective.py.egg-info/PKG-INFO
+perspective.py.egg-info/SOURCES.txt
+perspective.py.egg-info/dependency_links.txt
+perspective.py.egg-info/requires.txt
+perspective.py.egg-info/top_level.txt
