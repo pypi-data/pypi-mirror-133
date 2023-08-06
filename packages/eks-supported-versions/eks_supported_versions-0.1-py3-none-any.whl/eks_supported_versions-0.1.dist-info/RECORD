@@ -1,0 +1,7 @@
+eks_supported_versions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eks_supported_versions/eks_supported_versions.py,sha256=G7VMhqToGkfsnBwjHDFl85V_UkrdzC-qqCQks_X0XXg,2023
+eks_supported_versions-0.1.dist-info/LICENSE,sha256=C5zh5X_KjgNvUsyqYLhKK3BgktzcgCJe-rLmaBX-40E,1061
+eks_supported_versions-0.1.dist-info/METADATA,sha256=3wncj5_IbfTYfDop2ZPy77cBSl8FqzKTiYTvzf8muws,288
+eks_supported_versions-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eks_supported_versions-0.1.dist-info/top_level.txt,sha256=yUuKe3p9n_xcMtDyqVpoKpOYTcxG7hC-QFXpYzGgCjU,23
+eks_supported_versions-0.1.dist-info/RECORD,,
