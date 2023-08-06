@@ -1,0 +1,4 @@
+azure-identity>=1.7.1
+azure-mgmt-dns>=8.0.0
+azure-mgmt-trafficmanager>=0.51.0
+octodns>=0.9.14
