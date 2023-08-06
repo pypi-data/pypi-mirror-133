@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+potc_torch/__init__.py
+potc_torch.egg-info/PKG-INFO
+potc_torch.egg-info/SOURCES.txt
+potc_torch.egg-info/dependency_links.txt
+potc_torch.egg-info/entry_points.txt
+potc_torch.egg-info/requires.txt
+potc_torch.egg-info/top_level.txt
+potc_torch/config/__init__.py
+potc_torch/config/meta.py
+potc_torch/plugin/__init__.py
+potc_torch/plugin/rules.py
+potc_torch/plugin/torch.py
