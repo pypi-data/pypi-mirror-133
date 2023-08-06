@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/diretree/__init__.py
+src/diretree/diretree.py
+src/diretree.egg-info/PKG-INFO
+src/diretree.egg-info/SOURCES.txt
+src/diretree.egg-info/dependency_links.txt
+src/diretree.egg-info/top_level.txt
