@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/examle_package/__init__.py
+src/examle_package/example.py
+src/example_pkg_HONORABLECON.egg-info/PKG-INFO
+src/example_pkg_HONORABLECON.egg-info/SOURCES.txt
+src/example_pkg_HONORABLECON.egg-info/dependency_links.txt
+src/example_pkg_HONORABLECON.egg-info/top_level.txt
