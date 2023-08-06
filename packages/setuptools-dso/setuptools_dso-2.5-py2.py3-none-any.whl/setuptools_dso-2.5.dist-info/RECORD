@@ -1,0 +1,12 @@
+setuptools_dso/__init__.py,sha256=Kvhn2IJYxqsALIh5faY3gWh_ptm5oPSxWh1GLClt7-Q,4045
+setuptools_dso/compiler.py,sha256=7NKkLx7x9sKSCwzMCCorAm-Iac1qm5YoGXCIVI7NRv0,2673
+setuptools_dso/dsocmd.py,sha256=-oGpBn5yfS64SrmRwhU0U3lIQoOd6ssryDqy08Ic_HA,23307
+setuptools_dso/probe.py,sha256=HY-vOKUurhkj_p7Eq4XY2FzzIAmpw4kbQi2eZAjwCPw,16480
+setuptools_dso/runtime.py,sha256=QeOT4VBA1LrfI1ODeLxuBOZCw-PVdMPUhN696hwQ7HI,5009
+setuptools_dso/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+setuptools_dso/test/test_probe.py,sha256=N0hBINM8DpRbAqQqL1vJ6sToCyD3o8EpjCmXnBy-NIc,2281
+setuptools_dso-2.5.dist-info/LICENSE,sha256=XViOs7FX1SESr-qTXIin_5793B4tlaQsJdO5atkFUAg,1499
+setuptools_dso-2.5.dist-info/METADATA,sha256=3QnDnwYFhEjRzZ8f9UIP0cQAIJvKV18CrUrdWhV0r5o,1574
+setuptools_dso-2.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+setuptools_dso-2.5.dist-info/top_level.txt,sha256=zW1QeWzUUd-5ggYNyFHrwe_tTzbb2o9r3E0K2GFEzog,15
+setuptools_dso-2.5.dist-info/RECORD,,
