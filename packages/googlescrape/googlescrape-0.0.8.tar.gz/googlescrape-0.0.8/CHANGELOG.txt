@@ -1,0 +1,9 @@
+Change Log
+==========
+
+0.0.8 (06/01/2022)
+-------------------
+- Eight release , fixed bug in jsonsearch function.
+- Fixes to import errors.
+
+
