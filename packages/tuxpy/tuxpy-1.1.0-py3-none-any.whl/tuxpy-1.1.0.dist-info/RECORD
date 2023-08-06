@@ -1,0 +1,9 @@
+tuxpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tuxpy/client.py,sha256=8pdqHjoAKAk4C7Xq4uD-HcdXd9ezjc7K3eLhvMiZscE,463
+tuxpy/collection.py,sha256=nQLyXiccY-Efq3TWa5vsPZEyqhPSgX7g267TLdbJJFI,3097
+tuxpy/database.py,sha256=qBcehFZMy9AIrJT7SsY-GfaQ1HcUaC3JaZyHnx9v1NM,1326
+tuxpy-1.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tuxpy-1.1.0.dist-info/METADATA,sha256=sPLylWlYEoSF7z8tT1azkGFAyAQHCcAwcE4RYp7hTS4,7675
+tuxpy-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tuxpy-1.1.0.dist-info/top_level.txt,sha256=9VzT0XEuhwNswPDb6LPLvAjgDCpUNPq4YiAdDAEzJPM,6
+tuxpy-1.1.0.dist-info/RECORD,,
