@@ -1,0 +1,11 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.py
+jschemalite/__init__.py
+jschemalite/jschemalite.py
+jschemalite/mongodb.py
+jschemalite.egg-info/PKG-INFO
+jschemalite.egg-info/SOURCES.txt
+jschemalite.egg-info/dependency_links.txt
+jschemalite.egg-info/top_level.txt
