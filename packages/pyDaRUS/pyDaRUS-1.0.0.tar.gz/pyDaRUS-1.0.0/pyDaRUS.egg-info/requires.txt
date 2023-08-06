@@ -1,0 +1,7 @@
+easyDataverse
+pydantic
+jinja2
+pyDataverse
+pandas
+datamodel_code_generator
+pyaml
