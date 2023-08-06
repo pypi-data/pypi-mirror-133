@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: lernsax
+Version: 1.5.2
+Summary: A Python Async LernSax Client
+Home-page: https://github.com/okok7711/lernsax
+Author: okok7711
+Author-email: okok7711@etstun.de
+License: MIT License
+Keywords: lernsax,client,files,internet,download,upload,sachsen,deutschland,ostdeutschland
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-box
+Requires-Dist: aiohttp
+
+**This project is in no way associated with LernSax, WebWeaver, DigiOnline GmbH or Freistaat Sachsen**
+
+## What is this?
+
+This is an API Wrapper for the LernSax API using aiohttp. Please note that we do not encourage taking any harmful actions against anyone using this wrapper.
+
+
+## Documentation?
+Basic Documentation, generated with pdoc, for this module is available [here](https://okok7711.github.io/lernsax/)
+For Documentation of the actual LernSax jsonrpc API you should probably still stick to  [this repo](https://github.com/TKFRvisionOfficial/lernsax-webweaver-api-research)
+
+## Example Usage
+```
+import lernsax
+import asyncio
+
+async def main():
+    client = await lernsax.Client(
+    email="",
+    password=""
+    )
+    await client.login(client.email, client.password)
+    print(await client.get_emails("494e424f58"))
+
+asyncio.get_event_loop().run_until_complete(main())
+```
+
+## Accessing Files via WebDav
+Use aiodav for async webdav access to LernSax, please refer to [this repo](https://github.com/jorgeajimenezl/aiodav) for more info on aiodav
+
+```
+import aiodav
+import asyncio
+
+async def main():
+    async with Client('https://lernsax.de/webdav.php', login='', password='') as client:
+        await client.download_file('/remote/file.zip', 
+                                    '/local/file.zip',
+                                    progress=progress)
+```
+
+

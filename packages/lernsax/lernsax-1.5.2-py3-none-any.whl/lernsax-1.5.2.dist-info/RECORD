@@ -1,0 +1,10 @@
+lernsax/__init__.py,sha256=DsrJ1gmAcpiCcRGdD5zaekvsRFxRrzF5w5XIWxGKpn0,69
+lernsax/lernsax.py,sha256=NpiflfR3Rsvd9Vxln9ARKj1-vL0UoptL0Z2ndkdgV3w,1685
+lernsax/util/__init__.py,sha256=Y_qu5KPbyRB4aYpCaCIC0I3nv2bGwS6dvRXnTfT95XA,49
+lernsax/util/client.py,sha256=ZO87phakmEKF5j1Eq2JNGPKPDzRSLxGjqM4s_xToZYM,17420
+lernsax/util/exceptions.py,sha256=sDH-j_3wn80Hkdl7Va-szfoEfSkFPYE2WKS2LOSuvyY,1397
+lernsax-1.5.2.dist-info/LICENSE,sha256=sIzSrM5ZjQI-SC-ZhD-BmZxJ_6WdIW3FTy3c7FTA07s,1065
+lernsax-1.5.2.dist-info/METADATA,sha256=r9I1kkvIfkFUeCZ0SUgP0wQAfnVtN1nfC8KPj_2DDVY,2287
+lernsax-1.5.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lernsax-1.5.2.dist-info/top_level.txt,sha256=Kfr6rtfEM_aAg1OMOq4wL__Gcgz76V4UBcbIF6EyUX8,8
+lernsax-1.5.2.dist-info/RECORD,,
