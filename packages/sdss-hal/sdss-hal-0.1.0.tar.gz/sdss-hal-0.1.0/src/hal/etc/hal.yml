@@ -1,0 +1,63 @@
+---
+actor:
+  name: hal
+  host: 0.0.0.0
+  port: 19980
+  tron_host: ${TRON_HOST}
+  tron_port: ${TRON_PORT}
+  models:
+    - tcc
+    - mcp
+    - apogee
+    - jaeger
+    - cherno
+    - boss
+    - hartmann
+  log_dir: /data/logs/actors/hal
+
+timeouts:
+  ffs: 30.0
+  lamps: 30.0
+  apogee_shutter: 15.0
+  boss_flushing: 25.0
+  boss_readout: 82.0
+  expose: 25.0
+  slew: 160.0
+  hartmann: 260.
+  fvc: 300.
+
+lamp_warmup:
+  ff: 1
+  wht: 0
+  UV: 0
+  HgCd: 120
+  Ne: 20
+
+macros:
+  goto_field:
+    arc_time: 4
+    flat_time: 25
+    guider_time: 15.
+    guider_offset: [0, 0, -432]
+    fvc_rms_threshold: 10.0
+
+goto:
+  stow:
+    alt: 30
+    az: 121
+    rot: 0
+  all_60:
+    alt: 60
+    az: 60
+    rot: 60
+  stow_60:
+    alt: 60
+    az: 120
+    rot: 0
+  instrument_change:
+    alt: 90
+    az: 121
+    rot: 0
+  alt_limit: 18
+
+scripts: etc/scripts/
