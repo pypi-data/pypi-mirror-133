@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: correios-utils
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Douglas Gusson
+Author-email: douglasgusson@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
+Description-Content-Type: text/markdown
+
+# Correios Python 🚚
+
+> **correios-utils** - Biblioteca para a realização de cotação de frete de encomendas no serviço dos Correios
+
+## Instalação 📦
+
+```bash
+pip install correios-utils
+```
+
