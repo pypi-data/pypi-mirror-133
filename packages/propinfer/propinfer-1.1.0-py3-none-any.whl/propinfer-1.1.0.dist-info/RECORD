@@ -1,0 +1,11 @@
+propinfer/__init__.py,sha256=DSzlTAtvhpUzrPlXn_lNNvZJvfZ-RY9xSEs8en_AUEQ,758
+propinfer/deepsets.py,sha256=AxLK-nVXuA9aQnVi6fwwdEstKL-7aYnauQiIj-9_PJo,4489
+propinfer/experiment.py,sha256=uEp5GEd_Jj15grCclqpMHSoHqKwniT9dBMxgpAYC4pA,13715
+propinfer/generator.py,sha256=hPNdVBO3XwHcumu7B6NLSemSIuOSXBOCDqmjQguKHM4,6692
+propinfer/model.py,sha256=lLv92-DX2-wmAwArI10rUGvHzBJBBfOZWA2PZRZf_w8,8608
+propinfer/model_utils.py,sha256=eE2mnWQAIko7_XmEALCChJl3Znm2kpKbU3x8R9dmFUM,1634
+propinfer-1.1.0.dist-info/LICENSE.md,sha256=-WXx8MyQInqPsato1oACpiWYvJOJ5VqNNNrHDT6-zi0,1066
+propinfer-1.1.0.dist-info/METADATA,sha256=0W4d2WCJFSxBteMJUlnxKhBLnhmu4s9ti3BfrWsViHk,4066
+propinfer-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+propinfer-1.1.0.dist-info/top_level.txt,sha256=8lhhY9l_5whxDJT8vls5Y5BaH7k0pRE9iK_bA73D0TU,10
+propinfer-1.1.0.dist-info/RECORD,,
