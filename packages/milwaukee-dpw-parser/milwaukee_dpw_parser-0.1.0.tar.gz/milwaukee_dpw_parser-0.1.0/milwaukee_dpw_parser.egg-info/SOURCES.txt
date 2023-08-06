@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+milwaukee_dpw_parser/__init__.py
+milwaukee_dpw_parser/parser.py
+milwaukee_dpw_parser.egg-info/PKG-INFO
+milwaukee_dpw_parser.egg-info/SOURCES.txt
+milwaukee_dpw_parser.egg-info/dependency_links.txt
+milwaukee_dpw_parser.egg-info/requires.txt
+milwaukee_dpw_parser.egg-info/top_level.txt
