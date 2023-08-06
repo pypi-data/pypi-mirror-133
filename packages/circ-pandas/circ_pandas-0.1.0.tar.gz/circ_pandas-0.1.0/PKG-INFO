@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: circ_pandas
+Version: 0.1.0
+Summary: extending pandas data for circular data
+Home-page: https://github.com/konnyakmannan/circ-pandas
+Author: Taiki Kanda
+Author-email: taiki@konnyak.com
+License: MIT
+Keywords: circular data,directional statistics,extending pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# circ-pandas
+
+`circ-pandas` extends pandas data for circular data.
+
+### Mean direction
+
+```python
+>> import pandas as pd
+>> from circpandas import circseries
+
+>> s = pd.Series([170, -160])
+>> s.circ.mean(radian=False)
+-175.0
+```
+
+### Circular variance
+
+```python
+>> import pandas as pd
+>> from circpandas import circseries
+
+>> s = pd.Series([45, -45])
+>> s.circ.var(radian=False)
+0.2928932188134524 # 1 - (1 / sqrt(2))
+```
+
+
