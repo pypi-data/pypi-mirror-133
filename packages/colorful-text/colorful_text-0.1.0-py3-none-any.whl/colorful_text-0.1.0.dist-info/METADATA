@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: colorful-text
+Version: 0.1.0
+Summary: 
+Author: AminuIsrael
+Author-email: aminuisrael2@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
