@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nlerosion
+Version: 1.0.0
+Summary: A python package for nonlinear erosion modeling
+Home-page: https://github.com/demichie/NLerosion
+Author: Mattia de' Michieli Vitturi
+Author-email: demichie@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NLerosion
+2D numerical model for the temporal evolution of simple landforms such as cinder cones by nonlinear diffusive processes.
+
+by M. de' Michieli Vitturi
+
+
