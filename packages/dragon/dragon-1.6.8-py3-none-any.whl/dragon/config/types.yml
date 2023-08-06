@@ -1,0 +1,174 @@
+Types:
+  comprehensive:
+  app:
+    required_states:
+      - has_build_files
+    variables:
+      install_location: '/Applications/'
+      target: '$proj_build_dir/$stagedir/$location/$name.app/$name'
+  application:
+    required_states:
+      - has_build_files
+    variables:
+      install_location: '/Applications/'
+      target: '$proj_build_dir/$stagedir/$location/$name.app/$name'
+  tweak-jailed:
+    required_states:
+      - has_build_files
+    variables:
+      install_location: '/Applications/'
+      target: '$proj_build_dir/$stagedir/$location/$name.app/$name'
+      loader: DragonLoad
+      embed-libs:
+        - CydiaSubstrate
+  tweak:
+    required_states:
+      - has_build_files
+    production:
+      deb:
+        - 'build-files'
+        - 'copy-to-target'
+    production_allow:
+      - deb
+    variables:
+      install_location: '/Library/MobileSubstrate/DynamicLibraries/'
+      build_target_file: '$proj_build_dir/$stagedir/$location$name.dylib'
+      hooker-priority: libhooker
+      lang: logos
+      lopts: '-dynamiclib -ggdb -Xlinker -segalign -Xlinker 4000 -framework CydiaSubstrate'
+      frameworks:
+        - UIKit
+        - Foundation
+      stage2:
+        - 'cp $name.plist $proj_build_dir/_/Library/MobileSubstrate/DynamicLibraries/$name.plist 2>/dev/null  || python3 -m dragongen.bfilter $proj_build_dir/DragonMake $name > $proj_build_dir/_/Library/MobileSubstrate/DynamicLibraries/$name.plist'
+  prefs:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+    variables:
+      install_location: '/Library/PreferenceBundles/$name.bundle'
+      build_target_file: '$proj_build_dir/$stagedir$location/$name'
+      libs:
+        - 'substrate'
+      lopts: '-dynamiclib -ggdb -Xlinker -segalign -Xlinker 4000 -framework Preferences'
+      frameworks:
+        - UIKit
+        - Foundation
+      stage2:
+        - 'mkdir -p .dragon/_/Library/PreferenceLoader/Preferences/'
+        - 'cp entry.plist .dragon/_/Library/PreferenceLoader/Preferences/$name.plist 2> /dev/null'
+        - 'cp -R Resources/ $proj_build_dir/$stagedir/$location'
+  bundle:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+    variables:
+      install_location: '/Library/$name/'
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name.bundle/$name'
+      lopts: '-dynamiclib -ggdb -Xlinker -segalign -Xlinker 4000'
+      frameworks:
+        - UIKit
+        - Foundation
+      stage2:
+        - 'cp -R Resources/ $proj_build_dir/$stagedir/$location/$name.bundle/'
+
+  framework:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+    variables:
+      install_location: '/Library/Frameworks/$name.framework'
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name'
+      lopts: '-dynamiclib -ggdb -Xlinker -segalign -Xlinker 4000'
+      frameworks:
+        - Foundation
+      stage2:
+        - 'cp -R Resources/ $proj_build_dir/$stagedir/$location'
+        - 'cp -R $proj_build_dir/$stagedir$location $$DRAGONDIR/frameworks/$name.framework'
+        - 'if [ ! -z "$public_headers" ]; then
+           mkdir -p $proj_build_dir/$stagedir/$location/Headers;
+           cp $public_headers $proj_build_dir/$stagedir/$location/Headers;
+           fi'
+  resource-bundle:
+    required_states:
+    production_allow:
+      - deb
+    variables:
+      install_location: '/Library/$name/$name.bundle/'
+      build_target_file: 'build.ninja'
+      libs:
+        - 'substrate'
+      lopts: '-dynamiclib -ggdb -Xlinker -segalign -Xlinker 4000'
+      frameworks:
+        - UIKit
+        - Foundation
+      stage2:
+        - 'true;'
+  stage:
+    variables:
+      build_target_file: 'build.ninja'
+      stage2:
+        - 'true;'
+  library:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+      - raw
+    variables:
+      install_location: 'usr/lib'
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name.dylib'
+      ldflags: '-install_name $location$name.dylib'
+      lopts: '-dynamiclib -ggdb -Xlinker -segalign -Xlinker 4000'
+      stage2:
+        - 'true;'
+  cli:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+      - raw
+    variables:
+      install_location: '/usr/bin'
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name'
+      stage2:
+        - 'true;'
+  binary:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+      - raw
+    variables:
+      install_location: '/usr/bin'
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name'
+      stage2:
+        - 'true;'
+  tool:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+      - raw
+    variables:
+      install_location: '/usr/bin'
+      lopts: ''
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name'
+      stage2:
+        - 'true;'
+  static:
+    required_states:
+      - has_build_files
+    production_allow:
+      - deb
+      - raw
+    variables:
+      install_location: '/usr/lib'
+      lopts: ''
+      build_target_file: '$proj_build_dir/$stagedir/$location/$name.a'
+      stage2:
+        - 'true;'
+  raw:
