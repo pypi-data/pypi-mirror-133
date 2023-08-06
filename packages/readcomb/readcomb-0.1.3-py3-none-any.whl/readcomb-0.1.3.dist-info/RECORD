@@ -1,0 +1,11 @@
+readcomb/classification.py,sha256=Yde-SwbX8oZrFkLwqT6d3Zi2Phf8BQ3L8YWkMsU1pws,21647
+readcomb/filter.py,sha256=ErLsSvF6NYSJbEh4JMM_lOUB4fI2DrYAnapllW2F8Y8,21570
+readcomb-0.1.3.data/scripts/bamprep.py,sha256=TpEBiIuAMXQTvosTKv-7Bo-U4YjpzBkfzZ2xS4LoyuY,6074
+readcomb-0.1.3.data/scripts/filter.py,sha256=zjResxkBzCrmkmBS6BqJkrar9InwZS1jCbsIA4hleWw,21556
+readcomb-0.1.3.data/scripts/vcfprep.py,sha256=y-fR73eDcxgyEdVueBQVwRdXjQNT3hK226Ud-R_VqjY,4537
+readcomb-0.1.3.dist-info/LICENSE,sha256=yUyz5DCMXxI7IYLdbWkdqmSfceiOCJmU0UOvFi44QQ4,35121
+readcomb-0.1.3.dist-info/METADATA,sha256=IrTHVJQcrJt14KO59YknlHbZsFa92f2ZgxpEozd-z1U,4839
+readcomb-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+readcomb-0.1.3.dist-info/entry_points.txt,sha256=82nI86tMC_CPI3S1dg46v9Uka-3LMj8wGNvAjxSqZJc,125
+readcomb-0.1.3.dist-info/top_level.txt,sha256=VdJTYrkdoG3tI1mntYwDEDZF0l-UG3WEQKXn7k1T6Y8,40
+readcomb-0.1.3.dist-info/RECORD,,
