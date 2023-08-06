@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "aws-cdk-update-checker"
+version = "0.0.13"
+description = "This script fetches latest version of AWS CDK."
+authors = ["otajisan <dev@morningcode.io>"]
+repository = "https://github.com/morning-code/aws-cdk-update-checker"
+documentation = "https://github.com/morning-code/aws-cdk-update-checker"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-mock = "^3.6.1"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.scripts]
+aws_cdk_update_checker = "aws_cdk_update_checker.main:fetch_aws_cdk_latest_version"
+acuc = "aws_cdk_update_checker.main:fetch_aws_cdk_latest_version"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+style = "pep440"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
