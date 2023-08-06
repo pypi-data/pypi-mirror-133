@@ -1,0 +1,12 @@
+.gitignore
+HISTORY.rst
+README.md
+setup.py
+django_pipeline_esbuild.egg-info/PKG-INFO
+django_pipeline_esbuild.egg-info/SOURCES.txt
+django_pipeline_esbuild.egg-info/dependency_links.txt
+django_pipeline_esbuild.egg-info/not-zip-safe
+django_pipeline_esbuild.egg-info/top_level.txt
+pipeline_esbuild/__init__.py
+pipeline_esbuild/conf.py
+pipeline_esbuild/esbuild.py
