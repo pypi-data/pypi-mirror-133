@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "sundial-framework"
+version = "0.1.4"
+description = "The Sundial timeseries model data framework."
+authors = ["Gavin Bell <gavin.bell@optimeering.com>"]
+license = "Apache-2.0"
+packages = [{include = "sundial"}]
+
+[tool.black]
+line-length = 120
+target_version = ['py38']
+include = '\.py$'
+
+[tool.isort]
+line_length=120                # corresponds to -w  flag
+multi_line_output=3            # corresponds to -m  flag
+include_trailing_comma=true    # corresponds to -tc flag
+skip_glob = '^((?!py$).)*$'    # this makes sort all Python files
+
+known_third_party = ["archimedes", "matplotlib", "icecream", "numpy", "pandas", "plotly", "sklearn", "tensorflow"]
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<4"
+tensorflow = "^2.6.0"
+scikit-learn = "^0.24.2"
+pandas = "^1.2.5"
+plotly = "^5.2.2"
+matplotlib = "^3.4.3"
+numpy = "*"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.8.0"
+black = "^21.6b0"
+pytest = "^6.2.4"
+pre-commit = "^2.13.0"
+notebook = "^6.4.3"
+archimedes-python-client = "*"
+icecream = "^2.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
