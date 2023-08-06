@@ -1,0 +1,5 @@
+include fair_dynamic_rec/*
+include fair_dynamic_rec/core/*
+include fair_dynamic_rec/core/rankers/*
+include fair_dynamic_rec/core/simulators/*
+include fair_dynamic_rec/core/utils/*
