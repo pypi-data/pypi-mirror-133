@@ -1,0 +1,11 @@
+solid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solid/auth.py,sha256=aHYA6gwuI75ObYsUE8LDPPiGhN_jdTlNF-WMz-fDVr0,614
+solid/solid_api.py,sha256=XDOxdEkdz72kZqRlXs26w7GlDEPn1kqSARYJWwkIuS8,8093
+solid/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+solid/utils/api_util.py,sha256=GW6Z-7m4ocTBeRo3RIV1T2kTrGWS5O9f8gy1mWCXulA,1221
+solid/utils/folder_utils.py,sha256=vlLpoh7JbRYfBzG-bwLMa4UJN7de3WSYuXlxqqMqAt8,1633
+solid_file-0.2.0.dist-info/LICENSE,sha256=kpbcnqnjY0l_HdJ57z_PDuIO1m0y-G7ScOCmo9d1YRQ,1064
+solid_file-0.2.0.dist-info/METADATA,sha256=xaYDKERCc1GPfb5V_qKtfuxcgGD3sP-Wy28ASZauEqo,2112
+solid_file-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+solid_file-0.2.0.dist-info/top_level.txt,sha256=TXI21dLTtjKJjSH7iUumsjXl-usDxzBxD4O1YCG2H8A,6
+solid_file-0.2.0.dist-info/RECORD,,
