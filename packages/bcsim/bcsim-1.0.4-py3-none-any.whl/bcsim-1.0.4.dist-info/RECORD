@@ -1,0 +1,11 @@
+bcsim/__init__.py,sha256=jZpa2ZJltx1DO8aTthmZ0J1rVfuHFw7iNecmawdjxAE,317
+bcsim/__main__.py,sha256=L84SD7CKdHFPbPeNnQgJ8Zzvzt59hIYjd9z4Cm7bAIU,2738
+bcsim/clocks.py,sha256=6HVyO1z6VHKnLad8lP6VgVe_ftRVhZHRjWESnKbrCJA,7200
+bcsim/rail.py,sha256=wcR-bXdZhCbDrgBQY3tFYtMrsecSH3rbo9lW1YLIwD8,5626
+bcsim/tools.py,sha256=0Z5qDluhscVBZDksCrZ47YMd_8772WntyXawChT10A8,5437
+bcsim-1.0.4.dist-info/LICENSE.txt,sha256=IcYQGzn1FqFY6QRjuueixyPEBnOMs7qIdYfi7BKlbGQ,1070
+bcsim-1.0.4.dist-info/METADATA,sha256=-Blo8pj3mx-Joo3SALOzHWSRF2w4vsFNaTQ5Yaa6TiI,7399
+bcsim-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bcsim-1.0.4.dist-info/entry_points.txt,sha256=7-6qAI4fE_890AwoPSxsNY5_arW0GNihPyudZ_hYOfA,47
+bcsim-1.0.4.dist-info/top_level.txt,sha256=4V9H4wlZrYAGADgGa12oUfRD-4e62JDVcgtUEkvRxTw,6
+bcsim-1.0.4.dist-info/RECORD,,
