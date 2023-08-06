@@ -1,0 +1,8 @@
+README.md
+setup.py
+django_kinder_settings/__init__.py
+django_kinder_settings.egg-info/PKG-INFO
+django_kinder_settings.egg-info/SOURCES.txt
+django_kinder_settings.egg-info/dependency_links.txt
+django_kinder_settings.egg-info/requires.txt
+django_kinder_settings.egg-info/top_level.txt
