@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_graphics = hlpl_graphics.__main__:main
+
