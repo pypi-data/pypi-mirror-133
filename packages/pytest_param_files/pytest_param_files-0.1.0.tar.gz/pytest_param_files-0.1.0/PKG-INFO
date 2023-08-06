@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pytest_param_files
+Version: 0.1.0
+Summary: Create pytest parametrize decorators from external files.
+Keywords: pytest,parameterized
+Author-email: Chris Sewell <chrisj_sewell@hotmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pytest
+Requires-Dist: pytest
+Requires-Dist: black ; extra == "develop"
+Project-URL: Home, https://github.com/chrisjsewell/pytest-param-files
+Provides-Extra: develop
+
+# pytest-param-files
+
+A small package to create pytest parametrize decorators from external files.
+
+Simply create a text file with the following (`dot`) format:
+
+```
+[name1] description
+.
+input content
+.
+expected output content
+,
+
+[name2] description
+.
+input content
+.
+expected output content
+,
+```
+
+Then, use the `with_parameters` decorator to create a parametrized test:
+
+```python
+from pathlib import Path
+from pytest_param_files import with_parameters
+
+import my_function
+
+PATH = Path(__file__).parent.joinpath("test_file.txt")
+
+@with_parameters(PATH, fmt="dot")
+def test_function(line, title, description, content, expected):
+    assert my_function(content) == expected
+```
+
+and the output will be:
+
+```console
+$ pytest -v test_file.py
+...
+test_file.py::test_function[1-name1] PASSED
+test_file.py::test_function[8-name2] PASSED
+```
+
+## Other formats
+
+TODO ...
+
+## Regenerating expected output on failures
+
+TODO ...
+
