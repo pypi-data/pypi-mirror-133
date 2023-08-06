@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.py
+simpad/__init__.py
+simpad/lib.py
+simpadlib.egg-info/PKG-INFO
+simpadlib.egg-info/SOURCES.txt
+simpadlib.egg-info/dependency_links.txt
+simpadlib.egg-info/requires.txt
+simpadlib.egg-info/top_level.txt
