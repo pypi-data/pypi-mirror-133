@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/quota_tracker/__init__.py
+src/quota_tracker/main.py
+src/quota_tracker/options.py
+src/quota_tracker/utils.py
+src/quota_tracker.egg-info/PKG-INFO
+src/quota_tracker.egg-info/SOURCES.txt
+src/quota_tracker.egg-info/dependency_links.txt
+src/quota_tracker.egg-info/top_level.txt
