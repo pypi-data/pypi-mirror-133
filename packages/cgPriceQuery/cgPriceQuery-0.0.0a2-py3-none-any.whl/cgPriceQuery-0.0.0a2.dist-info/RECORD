@@ -1,0 +1,8 @@
+cgPriceQuery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cgPriceQuery/blockTimestamps.py,sha256=g838bAlXXSIOcQqpKoKUZCiMtKhd-zCt5Kl4fHds6j0,5846
+cgPriceQuery/cgPriceQuery.py,sha256=k060N0l_yxzDOc1QDUUux8-q6YNoouJA0lO6eVcnv34,3363
+cgPriceQuery/historicalPriceQuery.py,sha256=REfletbrVcTRsjzODfPlXoadQYkNZ4e9Qs52mCi7sAc,8690
+cgPriceQuery-0.0.0a2.dist-info/METADATA,sha256=GjRkDeWoMKR-buKw18yVsERSiNk9xJ4lRWr4-S4caVY,1415
+cgPriceQuery-0.0.0a2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cgPriceQuery-0.0.0a2.dist-info/top_level.txt,sha256=jfYHy2bp99chxoFF34vBBZpijy8qljnrpbhYzlagJSE,13
+cgPriceQuery-0.0.0a2.dist-info/RECORD,,
