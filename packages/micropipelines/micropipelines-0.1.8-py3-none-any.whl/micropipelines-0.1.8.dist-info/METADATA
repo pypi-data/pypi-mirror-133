@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: micropipelines
+Version: 0.1.8
+Summary: Micro Pipelines for Dataloop platform
+Home-page: UNKNOWN
+Author: Eran Shlomo
+Author-email: eran@dataloop.ai
+License: Apache License 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (<=1.22.*)
+Requires-Dist: fastapi (<=0.70.0)
+Requires-Dist: uvicorn (<=0.15.0)
+Requires-Dist: httpx (<=0.20.0)
+Requires-Dist: websockets (<=10.0)
+Requires-Dist: pydantic (<=1.8.2)
+Requires-Dist: python-multipart
+Requires-Dist: aiohttp (<=3.7.4.post0)
+Requires-Dist: psutil (<=5.8.0)
+Requires-Dist: starlette (<=0.16.0)
+Requires-Dist: opencv-python (<=4.5.3.56)
+Requires-Dist: colorama (<=0.4.4)
+Requires-Dist: websocket-client (<=1.2.1)
+Requires-Dist: requests (<=2.26.0)
+
+# README #
+
+This README would normally document whatever steps are necessary to get your application up and running.
+
+### What is this repository for? ###
+
+* Quick summary
+* Version
+* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Who do I talk to? ###
+
+* Repo owner or admin
+* Other community or team contact
+
