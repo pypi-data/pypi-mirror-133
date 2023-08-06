@@ -1,0 +1,6 @@
+shapely
+pyproj
+rtree
+lxml
+geopandas
+arcgis
