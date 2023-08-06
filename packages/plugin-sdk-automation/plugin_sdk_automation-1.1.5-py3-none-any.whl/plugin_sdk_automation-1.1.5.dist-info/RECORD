@@ -1,0 +1,10 @@
+plugin_sdk_automation/__init__.py,sha256=KlgaVSJ1AQxCDJZgh4wFk-gpem-k9PfebW8U3hiKJD4,22
+plugin_sdk_automation/main.py,sha256=B7IFqddAc1oWOwOG22APZ0eAt8KHZmQRxQMvn8P5JNs,1517
+plugin_sdk_automation/handlers/__init__.py,sha256=XnZ5Ksbhusk9T54F8el5gaSyayEjVK3sWFOjB_Ve_H0,82
+plugin_sdk_automation/handlers/docker_handler.py,sha256=wai7tegTWCruqBo333ohqqbBlneYzATCERnooLybv_c,3777
+plugin_sdk_automation/handlers/props_handler.py,sha256=1qSuFUnPQ82GtGPewhcd8fB54m9JfIhjPq7v_w2UvqY,2727
+plugin_sdk_automation-1.1.5.dist-info/METADATA,sha256=4o8uXwOHydXP5C4PlncoPW5JoqeCOtESAn8XuYm0xLs,1392
+plugin_sdk_automation-1.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+plugin_sdk_automation-1.1.5.dist-info/entry_points.txt,sha256=78xixIOSS1nQH1Ce3Rb1yRA8cP4px64c_tWwIjgC5ws,113
+plugin_sdk_automation-1.1.5.dist-info/top_level.txt,sha256=oJsIv5RekCYXIdye57cBYBtZEP7oR4fQgSo4PZHag3c,22
+plugin_sdk_automation-1.1.5.dist-info/RECORD,,
