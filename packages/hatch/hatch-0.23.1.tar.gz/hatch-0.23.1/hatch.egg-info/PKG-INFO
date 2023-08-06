@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hatch
+Version: 0.23.1
+Summary: A modern project, package, and virtual env manager
+Home-page: https://github.com/ofek/hatch
+Author: Ofek Lev
+Author-email: ofekmeister@gmail.com
+Maintainer: Ofek Lev
+Maintainer-email: ofekmeister@gmail.com
+License: MIT or Apache-2.0
+Keywords: productivity,virtual env,packaging,package manager,cookiecutter,project template,bump version,versioning,cleanup,testing,cli
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+License-File: AUTHORS.rst
+
+Hatch
+=====
+
+Hatch has been rewritten entirely, see `<https://github.com/ofek/hatch>`_
+
+
