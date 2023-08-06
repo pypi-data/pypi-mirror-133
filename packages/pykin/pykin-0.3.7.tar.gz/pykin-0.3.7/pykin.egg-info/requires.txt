@@ -1,0 +1,6 @@
+numpy==1.21.4
+matplotlib
+trimesh
+pyglet
+tqdm
+pyyaml
