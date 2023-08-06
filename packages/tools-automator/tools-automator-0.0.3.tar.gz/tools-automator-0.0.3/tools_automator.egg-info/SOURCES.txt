@@ -1,0 +1,8 @@
+README.md
+setup.py
+tools_automator.egg-info/PKG-INFO
+tools_automator.egg-info/SOURCES.txt
+tools_automator.egg-info/dependency_links.txt
+tools_automator.egg-info/entry_points.txt
+tools_automator.egg-info/requires.txt
+tools_automator.egg-info/top_level.txt
