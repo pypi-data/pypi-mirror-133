@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+src/ID3Algorithm.py
+src/buildTree.py
+src/classify_data.py
+src/load_csv.py
+src/node.py
+src/printTree.py
+src/decision_tree_ID3_Algorithm.egg-info/PKG-INFO
+src/decision_tree_ID3_Algorithm.egg-info/SOURCES.txt
+src/decision_tree_ID3_Algorithm.egg-info/dependency_links.txt
+src/decision_tree_ID3_Algorithm.egg-info/requires.txt
+src/decision_tree_ID3_Algorithm.egg-info/top_level.txt
