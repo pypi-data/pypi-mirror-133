@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: autoroc
+Version: 0.0.1
+Summary: Auto Calculate Best Threshold ROC
+Home-page: https://github.com/rupak-roy
+Author: rupak_bob_roy
+Author-email: rupak2013bob1@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rupak-roy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+# Dependencies 
+### Make sure you have install the sklearn 
+import
+```
+from sklearn.metrics import roc_curve
+```
+### Install the package
+```
+pip install package_name
+```
+
+
+### Import the package 
+```
+from autoroc_rupakbob import autoroc
+```
+
+### Call the package function 1
+```
+autoroc.best_threshold(test_y,yhat)
+```
+### Call the package function 2
+```
+autoroc.best_threshold_YoudenJstatistic
+```
+
+
+
