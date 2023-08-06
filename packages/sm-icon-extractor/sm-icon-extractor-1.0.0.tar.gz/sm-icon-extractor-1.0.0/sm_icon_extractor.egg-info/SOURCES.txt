@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sm_icon_extractor/__init__.py
+sm_icon_extractor/__main__.py
+sm_icon_extractor.egg-info/PKG-INFO
+sm_icon_extractor.egg-info/SOURCES.txt
+sm_icon_extractor.egg-info/dependency_links.txt
+sm_icon_extractor.egg-info/entry_points.txt
+sm_icon_extractor.egg-info/requires.txt
+sm_icon_extractor.egg-info/top_level.txt
