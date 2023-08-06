@@ -1,0 +1,2 @@
+from setuptools import setup
+setup(name = "discordpy-helpme", author = "Shayokh", description = "A helper package for discord.py", version = "0.1", packages = ["discordpy_helper"], install_requires = ["discord.py"])

@@ -1,0 +1,7 @@
+setup.py
+discordpy_helper/__init__.py
+discordpy_helpme.egg-info/PKG-INFO
+discordpy_helpme.egg-info/SOURCES.txt
+discordpy_helpme.egg-info/dependency_links.txt
+discordpy_helpme.egg-info/requires.txt
+discordpy_helpme.egg-info/top_level.txt
