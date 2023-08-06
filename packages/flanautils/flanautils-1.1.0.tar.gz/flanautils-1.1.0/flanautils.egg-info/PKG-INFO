@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flanautils
+Version: 1.1.0
+Summary: Flanagan's utils.
+Home-page: https://github.com/AlberLC/flanautils
+Author: AlberLC
+Author-email: alberlc@outlook.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/AlberLC/flanautils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
+
+FlanaUtils
+==========
+
+.. image:: https://img.shields.io/github/license/AlberLC/flanautils?style=flat
+    :target: https://github.com/AlberLC/flanautils/blob/main/LICENSE
+    :alt: License
+
+Flanagan's utils.
+
+Installation
+------------
+
+Python 3.10 or higher is required.
+
+.. code-block:: python
+
+    pip install flanautils
+
