@@ -1,0 +1,8 @@
+setup.py
+core/__init__.py
+reloadly_core.egg-info/PKG-INFO
+reloadly_core.egg-info/SOURCES.txt
+reloadly_core.egg-info/dependency_links.txt
+reloadly_core.egg-info/not-zip-safe
+reloadly_core.egg-info/requires.txt
+reloadly_core.egg-info/top_level.txt
