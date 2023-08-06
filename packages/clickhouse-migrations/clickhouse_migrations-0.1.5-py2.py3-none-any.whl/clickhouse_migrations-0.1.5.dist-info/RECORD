@@ -1,0 +1,12 @@
+clickhouse_migrations/__init__.py,sha256=z8Cv_vgc4XrtXkh3rMb0DvhSr2FGddmU6H9iUVMRAlc,74
+clickhouse_migrations/clickhouse_cluster.py,sha256=4Wa49sZ-xmxnCLSl27vLw5zPy2lI2Y4UPDjfBfXbpIw,2067
+clickhouse_migrations/cmd.py,sha256=WRjzOADL-pUc8v4Y5iwbj5NoVE6aT2Sx5tNLXs2uCqM,1415
+clickhouse_migrations/defaults.py,sha256=dYiNEKIj_cVs1QjOtKq-crXL7GmU2JwWMfaR2pd80O0,202
+clickhouse_migrations/migrator.py,sha256=NjQue6-klN1sBLr80FMPLTpYKROQ4OP_nOqrLcf_ID4,3454
+clickhouse_migrations/types.py,sha256=tPMJ3PBbbtJytyKFjAUiz6KhRiim70DDC9W4Of3PGZU,1001
+clickhouse_migrations-0.1.5.dist-info/LICENSE,sha256=S1WkoRMWqrYc5SYLhoHLSa2xjdyZl8-cQX9wP-5CviY,1071
+clickhouse_migrations-0.1.5.dist-info/METADATA,sha256=IeLrIzKQHTvRCBIM6WP5mdiPNYIp-XGnVTpbUbnSmHo,2890
+clickhouse_migrations-0.1.5.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+clickhouse_migrations-0.1.5.dist-info/entry_points.txt,sha256=OOhax-236crFZhQv6j_lj2z2x3VWZiYD68kxKiTW4Dw,74
+clickhouse_migrations-0.1.5.dist-info/top_level.txt,sha256=20fOFhdZ6uZxNHhwA9ad09huPt5hCfdQJqC1VwpHidY,22
+clickhouse_migrations-0.1.5.dist-info/RECORD,,
