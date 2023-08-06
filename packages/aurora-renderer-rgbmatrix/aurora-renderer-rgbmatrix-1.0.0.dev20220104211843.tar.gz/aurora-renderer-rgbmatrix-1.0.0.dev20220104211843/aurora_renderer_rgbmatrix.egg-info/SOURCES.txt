@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+aurora_renderer_rgbmatrix.egg-info/PKG-INFO
+aurora_renderer_rgbmatrix.egg-info/SOURCES.txt
+aurora_renderer_rgbmatrix.egg-info/dependency_links.txt
+aurora_renderer_rgbmatrix.egg-info/not-zip-safe
+aurora_renderer_rgbmatrix.egg-info/requires.txt
+aurora_renderer_rgbmatrix.egg-info/top_level.txt
+aurora_rgbmatrix/__init__.py
