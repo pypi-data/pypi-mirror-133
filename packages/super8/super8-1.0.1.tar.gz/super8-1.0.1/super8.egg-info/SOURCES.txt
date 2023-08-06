@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+super8/__init__.py
+super8/__main__.py
+super8/main.py
+super8/utils.py
+super8.egg-info/PKG-INFO
+super8.egg-info/SOURCES.txt
+super8.egg-info/dependency_links.txt
+super8.egg-info/entry_points.txt
+super8.egg-info/top_level.txt
