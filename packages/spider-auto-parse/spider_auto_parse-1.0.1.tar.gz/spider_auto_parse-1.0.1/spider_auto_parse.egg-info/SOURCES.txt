@@ -1,0 +1,7 @@
+setup.py
+auto_parse/__init__.py
+spider_auto_parse.egg-info/PKG-INFO
+spider_auto_parse.egg-info/SOURCES.txt
+spider_auto_parse.egg-info/dependency_links.txt
+spider_auto_parse.egg-info/requires.txt
+spider_auto_parse.egg-info/top_level.txt
