@@ -1,0 +1,11 @@
+ciftostr/__init__.py,sha256=qJB2H2rM3Rclo7MfGG_mHQYxg4_KGkHqSUxpMRqtqLo,48
+ciftostr/__main__.py,sha256=7gnWGOImnSXvCRDPZxVM0t7RdMfUNlE-4a3dxdMa438,401
+ciftostr/ciftostr.py,sha256=69kRxZn15h2a21OjksFAkUeBpBg48JjM2pCXPbs_pwA,35516
+ciftostr/cli.py,sha256=0GYtMuGkCjbxq8S4XPPAXntvGdFZuDxget_-d9oPozI,9396
+ciftostr-0.1.1.dist-info/AUTHORS.rst,sha256=5zdyxvaSIQcxMnDj_BkCiraCKqBnjaeJ0smZnPkahMU,44
+ciftostr-0.1.1.dist-info/LICENSE,sha256=9B2W-q8I-hVoyT6VjdL22tjadBEj-2gnbnwz3rjGVRY,600
+ciftostr-0.1.1.dist-info/METADATA,sha256=s58wyJbXnjoJfjK-W_qp8l_da1B7ySXirdoe5n7xkvw,10016
+ciftostr-0.1.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+ciftostr-0.1.1.dist-info/entry_points.txt,sha256=grfwwzKBBSq5Tb6dUtlyMrCi-zI93tr1EMj2nYQHzIo,48
+ciftostr-0.1.1.dist-info/top_level.txt,sha256=U-_8mBE5ecI86tUS2SIVg1W4zcFv6lETAgRUqZsbv6Q,9
+ciftostr-0.1.1.dist-info/RECORD,,
