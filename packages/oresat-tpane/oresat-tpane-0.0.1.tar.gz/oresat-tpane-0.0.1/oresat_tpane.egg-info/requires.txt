@@ -1,0 +1,10 @@
+urwid==2.1.2
+
+[dev]
+python-can
+setuptools
+wheel
+flake8
+twine
+sphinx
+sphinx_rtd_theme
