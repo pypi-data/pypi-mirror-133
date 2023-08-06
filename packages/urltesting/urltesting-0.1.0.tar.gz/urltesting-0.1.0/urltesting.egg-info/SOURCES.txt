@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+urltesting.py
+urltesting.egg-info/PKG-INFO
+urltesting.egg-info/SOURCES.txt
+urltesting.egg-info/dependency_links.txt
+urltesting.egg-info/entry_points.txt
+urltesting.egg-info/not-zip-safe
+urltesting.egg-info/requires.txt
+urltesting.egg-info/top_level.txt
