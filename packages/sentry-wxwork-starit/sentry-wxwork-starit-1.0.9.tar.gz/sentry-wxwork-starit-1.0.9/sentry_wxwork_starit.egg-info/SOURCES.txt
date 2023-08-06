@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+sentry_wxwork/__init__.py
+sentry_wxwork/plugin.py
+sentry_wxwork_starit.egg-info/PKG-INFO
+sentry_wxwork_starit.egg-info/SOURCES.txt
+sentry_wxwork_starit.egg-info/dependency_links.txt
+sentry_wxwork_starit.egg-info/entry_points.txt
+sentry_wxwork_starit.egg-info/requires.txt
+sentry_wxwork_starit.egg-info/top_level.txt
