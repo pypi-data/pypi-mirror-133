@@ -1,0 +1,16 @@
+fastack/__init__.py,sha256=z5QPKPtyDMUmOrCRbbswwcolErGVv-xeHxgr6dpMhkA,313
+fastack/__main__.py,sha256=niGTuUjNyvGDJaJZSja5kcHrSF7Cy-2s62ZBMiIYlyo,1133
+fastack/app.py,sha256=Cbdw22A2KqrD8LlLv74Fn4tglnB6TmuGB50K1B7aRx0,5910
+fastack/cli.py,sha256=9SHOKbZAyZnfLlmN5905cukOlJopI4wq0ProAqDY0pg,4365
+fastack/constants.py,sha256=T4ZatQ293g1KXvOWGPqzGzMNKIgiuXLWqw0R6kd_ylA,783
+fastack/controller.py,sha256=giKnjmsaXgVly0BTpiAKzt9vHuKNirOxRlqavylhXcY,7884
+fastack/decorators.py,sha256=O5nnanR1WdwGBJOzCu2kueVy_XYaUpnSBJD9HB4jkIc,4226
+fastack/middleware.py,sha256=DGja-DEkcm0ZfwMTPxBZDxZjlYZE2pmPZoc9P_0HrT0,427
+fastack/models.py,sha256=XZwMAvhyR-JIoSgA1a498Fab9c35YREscjWzStsExHM,542
+fastack/pagination.py,sha256=PsmK8n72cIIW5qTwcWiTe_2CyqT8mWNHAyszA3Tvdk8,630
+fastack/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastack/utils.py,sha256=Emi9pvDw4RSO3chsHbM9SweqekBnxIM-vek77wC_55c,179
+fastack-3.0.0.dist-info/entry_points.txt,sha256=Mf_IZexd-wD9YuhvTJ2bmU6HjPgfQpEn4cu3UPYY8hE,52
+fastack-3.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fastack-3.0.0.dist-info/METADATA,sha256=Xpoih0j1wUkK5vS2-P9U4_W6hMKZsWsc1vBqtNxp_fI,3102
+fastack-3.0.0.dist-info/RECORD,,
