@@ -1,0 +1,6 @@
+ID3Algorithm
+buildTree
+classify_data
+load_csv
+node
+printTree
