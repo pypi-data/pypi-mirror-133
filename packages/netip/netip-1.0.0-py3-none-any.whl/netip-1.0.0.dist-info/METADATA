@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: netip
+Version: 1.0.0
+Summary: Print a user ipv4 in youre code.
+License: GNU-v3
+Author: OwoNicoo
+Author-email: 86409467+DiscordBotML@users.noreply.github.com
+Requires-Python: >=3.9.6,<4.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
