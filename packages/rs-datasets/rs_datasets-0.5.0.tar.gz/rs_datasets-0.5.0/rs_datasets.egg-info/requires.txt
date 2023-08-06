@@ -1,0 +1,9 @@
+datatable
+pandas
+gdown
+pyarrow
+tqdm
+xlrd
+kaggle
+py7zr
+openpyxl
