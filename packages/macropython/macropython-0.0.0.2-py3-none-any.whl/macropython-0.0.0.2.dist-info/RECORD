@@ -1,0 +1,10 @@
+macropython/__init__.py,sha256=zDr350exO14Ii8Pj3TXwPuRxIDrEjrg43CpjYABDqh4,19
+macropython/functions.py,sha256=UH-wkjqPDmL44xzZaDjTOe_ppHlMY7gwTL-gl9M2_zo,1134
+macropython/keyboard_funcs.py,sha256=r3Fnx-ZJtfUWVMlASyL-QFMnVFVDaDMtWxQ24iCvTuQ,996
+macropython/main.py,sha256=X60djaTd6Ny6UXgVgs5omT6jLNQKEjcOJ_AR7vPOo24,4813
+macropython/mouse_funcs.py,sha256=WLET8z3JYfYodyRh1IkFkk808TY2bXBUFMplESV6WVE,1061
+macropython-0.0.0.2.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+macropython-0.0.0.2.dist-info/METADATA,sha256=Lx2ZUs91AnKefGNdZwHswGOryQOSCeK5yIecIuy2qwU,613
+macropython-0.0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+macropython-0.0.0.2.dist-info/top_level.txt,sha256=WEwRr2mCL4vAdgUU5-wcvB6Bys7HCsYDQ19p3Yd0w58,12
+macropython-0.0.0.2.dist-info/RECORD,,
