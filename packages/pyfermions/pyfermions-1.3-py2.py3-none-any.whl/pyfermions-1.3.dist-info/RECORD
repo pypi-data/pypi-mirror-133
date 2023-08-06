@@ -1,0 +1,15 @@
+pyfermions/__init__.py,sha256=31qumRBtOKiDGE9-qQHnK9okrlmgNOJnmhBhXuIkiGQ,131
+pyfermions/hilbert.py,sha256=oZHySGEwcrbQItpInA5TEv5kJuNns9HdCSQlHBOrzak,5164
+pyfermions/mera.py,sha256=cXC4GSh2QKvwvE9boa1J3pWZ_hP62Pu01ad2G9bcI8Q,6915
+pyfermions/signal.py,sha256=MXW-ekVFVawZJ7G8ViSzwyHgTLOXKORtuevSVzX7SVs,5320
+pyfermions/test_hilbert.py,sha256=FZtUEx8_8uw_en1j97yTwdulKFm6SJXLgcM_msebcYs,12821
+pyfermions/test_signal.py,sha256=HnwC5l1NzEeTMvBgQvQ1GdiZ9D65fm_lciQF6sOMqDA,1923
+pyfermions/test_utils.py,sha256=qCdSvdgXhFto8h0La1Pc_K4pLTihr1t3xMWalruuTrI,354
+pyfermions/test_wavelets.py,sha256=wpl9tZItQ8eYh6Yx36iJ1aYZK4H50ewt2SYEPNTQLMM,1060
+pyfermions/utils.py,sha256=8nl1Tc3p2JvggtZwEXyeIvK7r-nLMoOnXNLJJ8gPYBw,2339
+pyfermions/wavelets.py,sha256=Ot-7WGScrXCZX-OBaplP3ZBlS2icOFdUe4osc-Hb2eM,3054
+pyfermions-1.3.dist-info/LICENSE,sha256=Cy5ZMxG6O20APxtmE1r6kgC2uF-xSC6rteHlIJCwTZI,1087
+pyfermions-1.3.dist-info/METADATA,sha256=ni8JWp4jA1o38bNKXZvZ1gnxlPMqwXNoUTXtz7jJR9s,4316
+pyfermions-1.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pyfermions-1.3.dist-info/top_level.txt,sha256=fzRyJFG3beAkU4t6LuwsV3cFFm8wgejvs9pvH6CNm2Q,11
+pyfermions-1.3.dist-info/RECORD,,
