@@ -1,0 +1,10 @@
+setup.py
+verysimple24/__init__.py
+verysimple24/add.py
+verysimple24/minus.py
+verysimple24.egg-info/PKG-INFO
+verysimple24.egg-info/SOURCES.txt
+verysimple24.egg-info/dependency_links.txt
+verysimple24.egg-info/top_level.txt
+verysimple24/extras/__init__.py
+verysimple24/extras/multiply.py
