@@ -1,0 +1,5 @@
+dist
+doc
+examples
+milvus_cli
+venv
