@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nembis
+Version: 0.0.0
+Summary: Numerical Environment for Many-body Interacting System
+Home-page: https://gitlab.com/deqitang/nembis
+Author-email: deqitang@gmail.com
+License: MIT
+Keywords: Many-body Physics,Interacting System,Numerical Environment
+Platform: any
+Requires-Python: >=3.0
+License-File: LICENSE
+Requires-Dist: pybind11
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
