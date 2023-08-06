@@ -1,0 +1,5 @@
+[console_scripts]
+docops-gitbook=doitintl.docops.gitbook.cli:run
+docops-gloss-terms=doitintl.docops.gloss.cli.terms:run
+docops-screenshots=doitintl.docops.screenshots.cli:run
+
