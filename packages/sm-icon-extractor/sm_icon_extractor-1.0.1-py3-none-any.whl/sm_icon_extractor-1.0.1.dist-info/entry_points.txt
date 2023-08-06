@@ -1,0 +1,3 @@
+[console_scripts]
+sm-icon-extractor = sm_icon_extractor.__main__:main
+
