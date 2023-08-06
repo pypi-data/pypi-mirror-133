@@ -1,0 +1,12 @@
+girg_sampling/__init__.py,sha256=SRk0cq9-Qe5GSYcj5D4q2r_dihjOu_ZCY8feODVzV8Q,32
+girg_sampling/_libgirgs_wrapper.cpp,sha256=IzilKEzaguaa-soEdG4IME5LYLjdbS5jUnALQwxJjR4,737
+girg_sampling/_libgirgs_wrapper.so,sha256=XcHAfvyHrJdIqPrPCUA9-j-LkGA8vXh65VaTp1_AsJU,2627504
+girg_sampling/_libhypergirgs_wrapper.cpp,sha256=Aq0R2VbLRSGmatZMYruvuSWECkz3plnukVMlrg5koQk,951
+girg_sampling/_libhypergirgs_wrapper.so,sha256=FCF3MLaRioAo-6IO2HlT3JNHORlaMjnY_zofGwKwirk,2473696
+girg_sampling/girgs.py,sha256=bD330ZLCFPIB3-LW4xm4n4e9QNHqAjDF_1XoBLzVZG0,1339
+girg_sampling/hypergirgs.py,sha256=YL42jSbo1JOUEco7hwqqIlu167kN0lCYu2d-mG_yINk,1730
+girg_sampling/libgirgs.so.1,sha256=RFJ-Vs0SLKmOLhTsCfriOKOcKAYIbXixVE90QTdi4vA,816448
+girg_sampling/libhypergirgs.so.1,sha256=38hT6da-KioKOmuJsPOgnUR-4EkNaXe4D-d315Y270g,524408
+girg_sampling-0.2.1.dist-info/WHEEL,sha256=nV3LVitbTgDic0N2gOjgwdozN7juc__9NxgOgacjIes,103
+girg_sampling-0.2.1.dist-info/METADATA,sha256=Y0SsXHqeYhYXSCyJIAjDlYPyvmzYMXWnQgHfWzASQpc,1318
+girg_sampling-0.2.1.dist-info/RECORD,,
