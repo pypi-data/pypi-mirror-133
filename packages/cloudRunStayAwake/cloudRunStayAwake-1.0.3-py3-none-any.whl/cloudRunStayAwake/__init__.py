@@ -1,0 +1,5 @@
+import signal
+from .cloudRunStayAwake import stayAwake
+
+# Define trigger for SIGTERM signal, just before the service to be stopped
+signal.signal(signal.SIGINT, stayAwake)
