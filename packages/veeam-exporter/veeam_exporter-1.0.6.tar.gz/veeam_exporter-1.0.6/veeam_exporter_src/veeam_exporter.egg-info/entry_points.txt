@@ -1,0 +1,4 @@
+[console_scripts]
+build_veeam_exporter_conf = veeam_exporter.build_conf:main
+veeam_exporter = veeam_exporter.veeam_exporter:main
+
