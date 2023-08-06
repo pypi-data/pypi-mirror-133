@@ -1,0 +1,2 @@
+pyfrx
+supported_currencies
