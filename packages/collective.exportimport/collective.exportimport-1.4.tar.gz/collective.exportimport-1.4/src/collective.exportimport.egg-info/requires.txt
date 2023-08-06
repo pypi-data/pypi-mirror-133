@@ -1,0 +1,13 @@
+setuptools
+plone.api>=1.8.4
+hurry.filesize
+ijson
+six
+beautifulsoup4<4.10
+plone.restapi<8.0.0
+jsonschema<4
+
+[test]
+plone.app.testing
+plone.app.robotframework
+plone.app.contenttypes
