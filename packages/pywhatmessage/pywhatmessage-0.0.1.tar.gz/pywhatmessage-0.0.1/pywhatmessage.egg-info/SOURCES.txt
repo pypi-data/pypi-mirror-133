@@ -1,0 +1,9 @@
+README.md
+setup.py
+pywhatmessage.egg-info/PKG-INFO
+pywhatmessage.egg-info/SOURCES.txt
+pywhatmessage.egg-info/dependency_links.txt
+pywhatmessage.egg-info/requires.txt
+pywhatmessage.egg-info/top_level.txt
+pywhatsapp/__init__.py
+pywhatsapp/pywhatsapp.py

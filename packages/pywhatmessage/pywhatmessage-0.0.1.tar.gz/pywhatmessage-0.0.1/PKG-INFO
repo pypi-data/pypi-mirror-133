@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pywhatmessage
+Version: 0.0.1
+Summary: Send whatsapp messages
+Home-page: UNKNOWN
+Author: Sabaris
+Author-email: spssabaris@gmail.com
+License: UNKNOWN
+Description: A package that allows to send whatsapp messages.
+Keywords: python,whatsapp,message,whatmessage,whatmsg,automation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
