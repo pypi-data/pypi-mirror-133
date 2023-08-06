@@ -1,0 +1,81 @@
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+target-version = [
+    "py37",
+    "py38",
+    "py39",
+    "py310",
+]
+exclude = '''
+/(
+  \.git
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 120
+default_section = "THIRDPARTY"
+known_first_party = "check_uncommitted_git_changes,scripts"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = [
+    "-rA"
+]
+testpaths = [
+    "tests",
+]
+
+[tool.poetry]
+name = "check_uncommitted_git_changes"
+version = "1.0.0"
+description = "check for uncommitted git changes to identify outdated generated content during continuous integration"
+readme = "README.md"
+authors = ["Thomas Aglassinger <roskakori@users.sourceforge.net>"]
+license = "BSD"
+homepage = "https://github.com/roskakori/check_uncommitted_git_changes"
+repository = "https://github.com/roskakori/check_uncommitted_git_changes.git"
+keywords = ["check", "ci", "git"]
+classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Environment :: Console",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: BSD License",
+        "Natural Language :: English",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Topic :: Software Development",
+        "Topic :: Software Development :: Code Generators",
+        "Topic :: Software Development :: Quality Assurance",
+        "Topic :: Software Development :: Version Control :: Git",
+]
+packages = [
+    { include = "check_uncommitted_git_changes" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+pytest-cov = "^3"
+pre-commit = "^2"
+
+[tool.poetry.scripts]
+check_uncommitted_git_changes = "check_uncommitted_git_changes.main:main"
+
+[tool.poetry.urls]
+"Issue Tracker" = "https://github.com/roskakori/check_uncommitted_git_changes/issues"
+"Changes" = "https://github.com/roskakori/check_uncommitted_git_changes/blob/main/CHANGES.md"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
