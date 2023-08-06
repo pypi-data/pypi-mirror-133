@@ -1,0 +1,43 @@
+Metadata-Version: 1.2
+Name: django-reactify
+Version: 1.1
+Summary: A package to reactify Django app.
+Home-page: https://github.com/Bonifase/django-reactify
+Author: Bonifase Orwa
+Author-email: orwabonifase@gmail.com
+License: UNKNOWN
+Description: ===============
+        Django Reactify
+        ===============
+        
+        Django Reactify is an app that allows developers to integrate React Js with Django without using create-react-app.
+        
+        Detailed documentation is in the "docs" directory.
+        
+        Quick start
+        -----------
+        
+        1. Add "reactify" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+                'reactify',
+            ]
+        
+        
+Keywords: django reactjs
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
