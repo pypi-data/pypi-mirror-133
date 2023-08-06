@@ -1,0 +1,4 @@
+cryptography>=36.0
+nassl>=4.0
+validators>=0.18
+certifi
