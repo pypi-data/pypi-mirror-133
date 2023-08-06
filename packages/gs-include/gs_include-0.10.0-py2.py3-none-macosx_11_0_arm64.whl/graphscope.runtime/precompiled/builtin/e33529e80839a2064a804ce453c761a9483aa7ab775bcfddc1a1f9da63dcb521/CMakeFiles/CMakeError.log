@@ -1,0 +1,392 @@
+Performing C++ SOURCE FILE Test W_NO_CLASS_MEMACCESS failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2ed7/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f2ed7.dir/build.make CMakeFiles/cmTC_f2ed7.dir/build
+Building CXX object CMakeFiles/cmTC_f2ed7.dir/src.cxx.o
+/opt/homebrew/opt/llvm/bin/clang++ -DW_NO_CLASS_MEMACCESS  -Wall -O0 -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wno-class-memaccess -MD -MT CMakeFiles/cmTC_f2ed7.dir/src.cxx.o -MF CMakeFiles/cmTC_f2ed7.dir/src.cxx.o.d -o CMakeFiles/cmTC_f2ed7.dir/src.cxx.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-class-memaccess'; did you mean '-Wno-class-varargs'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_f2ed7
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ed7.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang++  -Wall -O0 -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f2ed7.dir/src.cxx.o -o cmTC_f2ed7 
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test W_NO_STRINGOP_OVERFLOW failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b633a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b633a.dir/build.make CMakeFiles/cmTC_b633a.dir/build
+Building CXX object CMakeFiles/cmTC_b633a.dir/src.cxx.o
+/opt/homebrew/opt/llvm/bin/clang++ -DW_NO_STRINGOP_OVERFLOW  -Wall -O0 -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk   -Wno-stringop-overflow -MD -MT CMakeFiles/cmTC_b633a.dir/src.cxx.o -MF CMakeFiles/cmTC_b633a.dir/src.cxx.o.d -o CMakeFiles/cmTC_b633a.dir/src.cxx.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-stringop-overflow'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_b633a
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b633a.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang++  -Wall -O0 -g  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b633a.dir/src.cxx.o -o cmTC_b633a 
+
+
+Source file was:
+int main() { return 0; }
+Detecting C OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a332c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a332c.dir/build.make CMakeFiles/cmTC_a332c.dir/build
+Building C object CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o
+/opt/homebrew/opt/llvm/bin/clang   -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o -x c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_a332c
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a332c.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang  -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o -o cmTC_a332c  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_a332c -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_a332c.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a332c] Error 1
+make: *** [cmTC_a332c/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c9fc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c9fc.dir/build.make CMakeFiles/cmTC_5c9fc.dir/build
+Building C object CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o
+/opt/homebrew/opt/llvm/bin/clang   -fopenmp=libiomp5 -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o -x c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_5c9fc
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c9fc.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang  -fopenmp=libiomp5 -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o -o cmTC_5c9fc  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_5c9fc -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_5c9fc.dir/OpenMPTryFlag.c.o -v -liomp5 -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5c9fc] Error 1
+make: *** [cmTC_5c9fc/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_beba2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_beba2.dir/build.make CMakeFiles/cmTC_beba2.dir/build
+Building C object CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o
+/opt/homebrew/opt/llvm/bin/clang   -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o -x c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_beba2
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_beba2.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang  -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o -o cmTC_beba2  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_beba2 -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_beba2.dir/OpenMPTryFlag.c.o -v -lomp -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_beba2] Error 1
+make: *** [cmTC_beba2/fast] Error 2
+
+
+
+Detecting C OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0f5f3/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0f5f3.dir/build.make CMakeFiles/cmTC_0f5f3.dir/build
+Building C object CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o
+/opt/homebrew/opt/llvm/bin/clang   -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fopenmp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o -x c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.c
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_0f5f3
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f5f3.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang  -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o -o cmTC_0f5f3  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_0f5f3 -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_0f5f3.dir/OpenMPTryFlag.c.o -v -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+Undefined symbols for architecture arm64:
+  "_omp_get_max_threads", referenced from:
+      _main in OpenMPTryFlag.c.o
+ld: symbol(s) not found for architecture arm64
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0f5f3] Error 1
+make: *** [cmTC_0f5f3/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8e2ee/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8e2ee.dir/build.make CMakeFiles/cmTC_8e2ee.dir/build
+Building CXX object CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o
+/opt/homebrew/opt/llvm/bin/clang++   -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -O0 -Wall -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fdeprecated-macro -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o -x c++ /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/opt/llvm/bin/../include/c++/v1
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_8e2ee
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e2ee.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang++  -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fopenmp=libomp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o -o cmTC_8e2ee  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_8e2ee -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_8e2ee.dir/OpenMPTryFlag.cpp.o -v -lomp -lc++ -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8e2ee] Error 1
+make: *** [cmTC_8e2ee/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3e56c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3e56c.dir/build.make CMakeFiles/cmTC_3e56c.dir/build
+Building CXX object CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o
+/opt/homebrew/opt/llvm/bin/clang++   -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fopenmp=libiomp5 -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -O0 -Wall -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fdeprecated-macro -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o -x c++ /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/opt/llvm/bin/../include/c++/v1
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_3e56c
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e56c.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang++  -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fopenmp=libiomp5 -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o -o cmTC_3e56c  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_3e56c -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_3e56c.dir/OpenMPTryFlag.cpp.o -v -liomp5 -lc++ -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+ld: library not found for -liomp5
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3e56c] Error 1
+make: *** [cmTC_3e56c/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5cf68/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5cf68.dir/build.make CMakeFiles/cmTC_5cf68.dir/build
+Building CXX object CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o
+/opt/homebrew/opt/llvm/bin/clang++   -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -O0 -Wall -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fdeprecated-macro -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -fopenmp -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o -x c++ /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/opt/llvm/bin/../include/c++/v1
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_5cf68
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cf68.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang++  -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o -o cmTC_5cf68  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_5cf68 -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_5cf68.dir/OpenMPTryFlag.cpp.o -v -lomp -lc++ -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+ld: library not found for -lomp
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5cf68] Error 1
+make: *** [cmTC_5cf68/fast] Error 2
+
+
+
+Detecting CXX OpenMP failed with the following output:
+Change Dir: /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68ab4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68ab4.dir/build.make CMakeFiles/cmTC_68ab4.dir/build
+Building CXX object CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o
+/opt/homebrew/opt/llvm/bin/clang++   -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -MD -MT CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o -MF CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o.d -o CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o -c /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ (in-process)
+ "/opt/homebrew/Cellar/llvm/13.0.0_1/bin/clang-13" -cc1 -triple arm64-apple-macosx11.0.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-rounding-math -munwind-tables -target-sdk-version=11.3 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +fp-armv8 -target-feature +neon -target-feature +crc -target-feature +crypto -target-feature +dotprod -target-feature +fp16fml -target-feature +ras -target-feature +lse -target-feature +rdm -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sha2 -target-feature +aes -target-abi darwinpcs -fallow-half-arguments-and-returns -debug-info-kind=standalone -dwarf-version=4 -debugger-tuning=lldb -target-linker-version 711 -v -fcoverage-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -resource-dir /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o.d -MT CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -stdlib=libc++ -internal-isystem /opt/homebrew/opt/llvm/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include -O0 -Wall -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -fdeprecated-macro -fdebug-compilation-dir=/private/tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/CMakeTmp -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -fopenmp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o -x c++ /tmp/gs/builtin/e33529e80839a2064a804ce453c761a9483aa7ab775bcfddc1a1f9da63dcb521/CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target arm64-apple-darwin20.5.0
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/homebrew/opt/llvm/bin/../include/c++/v1
+ /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking CXX executable cmTC_68ab4
+/opt/homebrew/Cellar/cmake/3.21.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68ab4.dir/link.txt --verbose=1
+/opt/homebrew/opt/llvm/bin/clang++  -Wall -O0 -g -Wno-deprecated-declarations -Wno-attributes -Wno-sign-compare -Wno-undef-prefix -Wno-unused-result -Wno-unused-lambda-capture -Wno-unused-but-set-variable -Wno-unknown-pragmas -Wno-unused-variable -Wno-redundant-move -Xclang -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -L/usr/local/lib  CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o -o cmTC_68ab4  -v -Wl,-v 
+Homebrew clang version 13.0.0
+Target: arm64-apple-darwin20.5.0
+Thread model: posix
+InstalledDir: /opt/homebrew/opt/llvm/bin
+ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/13.0.0_1/lib/libLTO.dylib -no_deduplicate -dynamic -arch arm64 -platform_version macos 11.0.0 11.3 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk -o cmTC_68ab4 -L/usr/local/lib -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_68ab4.dir/OpenMPTryFlag.cpp.o -v -lc++ -lSystem /opt/homebrew/Cellar/llvm/13.0.0_1/lib/clang/13.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-650.9
+BUILD 13:09:13 May 28 2021
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/usr/local/lib
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/usr/lib
+Framework search paths:
+	/Library/Developer/CommandLineTools/SDKs/MacOSX11.sdk/System/Library/Frameworks/
+Undefined symbols for architecture arm64:
+  "_omp_get_max_threads", referenced from:
+      _main in OpenMPTryFlag.cpp.o
+ld: symbol(s) not found for architecture arm64
+clang-13: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_68ab4] Error 1
+make: *** [cmTC_68ab4/fast] Error 2
+
+
+
