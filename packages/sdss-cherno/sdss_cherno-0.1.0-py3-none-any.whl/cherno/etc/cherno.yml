@@ -1,0 +1,48 @@
+---
+actor:
+  name: cherno
+  host: 0.0.0.0
+  port: 19992
+  models:
+    - fliswarm
+    - tcc
+    - mcp
+  verbose: 30
+  tron_host: sdss5-hub
+  tron_port: 6093
+  schema: etc/schema.json
+  log_dir: /data/logs/actors/cherno
+
+cameras:
+  names: [gfa2, gfa3, gfa4, gfa5, gfa6]
+  path: /data/gcam/
+  pixel_scale: 0.216
+  rotation:
+    gfa1: 300
+    gfa2: 0
+    gfa3: 60
+    gfa4: 120
+    gfa5: 180
+    gfa6: 240
+
+guide_loop:
+  radec:
+    pid:
+      k: 0.7
+    min_correction: 0.05
+    max_correction: 600
+  rot:
+    pid:
+      k: 0.6
+    min_correction: 3
+    max_correction: 7200
+    min_isolated_correction: 30
+
+acquisition:
+  cpulimit: 15.0
+  sigma: 10.0
+  min_npix: 50
+
+offset: [0, 0, -432]
+
+observatory: ${OBSERVATORY}
