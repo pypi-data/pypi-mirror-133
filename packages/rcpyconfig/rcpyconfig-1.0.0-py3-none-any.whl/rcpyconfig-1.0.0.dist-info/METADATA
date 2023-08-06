@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rcpyconfig
+Version: 1.0.0
+Summary: A simple yaml to object configuration manager for python
+Home-page: https://github.com/St4rG00se/rcpyconfig
+Author: St4rG00se
+Author-email: rollandcyrille@free.fr
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: rcpyutils
+
+# rcpyconfig
+
+A simple yaml to object configuration manager for python
+
+
