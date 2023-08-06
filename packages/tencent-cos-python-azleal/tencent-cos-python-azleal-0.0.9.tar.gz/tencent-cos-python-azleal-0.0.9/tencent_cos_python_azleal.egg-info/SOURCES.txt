@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+tencent_cos_python/__init__.py
+tencent_cos_python/cos_client_factory.py
+tencent_cos_python/cos_object.py
+tencent_cos_python/logger.py
+tencent_cos_python/util.py
+tencent_cos_python_azleal.egg-info/PKG-INFO
+tencent_cos_python_azleal.egg-info/SOURCES.txt
+tencent_cos_python_azleal.egg-info/dependency_links.txt
+tencent_cos_python_azleal.egg-info/requires.txt
+tencent_cos_python_azleal.egg-info/top_level.txt
