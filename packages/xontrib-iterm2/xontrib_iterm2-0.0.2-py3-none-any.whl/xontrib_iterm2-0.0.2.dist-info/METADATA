@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: xontrib-iterm2
+Version: 0.0.2
+Summary: iTerm2 shell integration for Xonsh shell.
+Home-page: https://github.com/jnoortheen/xontrib-iterm2
+License: MIT
+Keywords: xontrib,xonsh
+Author: Noortheen Raja NJ
+Author-email: jnoortheen@gmail.com
+Requires-Python: >=3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Dist: xonsh (>=0.11.0)
+Project-URL: Code, https://github.com/jnoortheen/xontrib-iterm2
+Project-URL: Documentation, https://github.com/jnoortheen/xontrib-iterm2/blob/master/README.md
+Project-URL: Issue tracker, https://github.com/jnoortheen/xontrib-iterm2/issues
+Project-URL: Repository, https://github.com/jnoortheen/xontrib-iterm2
+Description-Content-Type: text/markdown
+
+# iTerm2 Shell Integration
+[iTerm2](https://iterm2.com/index.html) 
+[Shell integration](https://iterm2.com/documentation-escape-codes.html) for Xonsh shell. 
+
+
+## Installation
+
+To install use pip:
+
+``` bash
+xpip install xontrib-iterm2
+# or: xpip install -U git+https://github.com/jnoortheen/xontrib-iterm2
+```
+
+## Usage
+
+``` bash
+# this modifies the $PROMPT function. So load it after setting $PROMPT if you have a custom value
+xontrib load iterm2
+```
+
