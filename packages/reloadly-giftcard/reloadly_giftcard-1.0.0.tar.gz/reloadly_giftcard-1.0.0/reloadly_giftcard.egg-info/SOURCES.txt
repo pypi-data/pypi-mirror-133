@@ -1,0 +1,9 @@
+README.md
+setup.py
+giftcard/__init__.py
+reloadly_giftcard.egg-info/PKG-INFO
+reloadly_giftcard.egg-info/SOURCES.txt
+reloadly_giftcard.egg-info/dependency_links.txt
+reloadly_giftcard.egg-info/not-zip-safe
+reloadly_giftcard.egg-info/requires.txt
+reloadly_giftcard.egg-info/top_level.txt
