@@ -1,0 +1,5 @@
+---
+
+default_params:
+  a_key: 'some value'
+
