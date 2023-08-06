@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: libkdv
+Version: 0.0.10
+Summary: KDV
+Home-page: https://github.com/libkdv
+Author: Kerple GL Plugin
+Author-email: www.1nick@gmail.com
+License: MIT Licence
+Keywords: pip,KDE,heatmap,KDV,KeplerGL
+Platform: any
+
+A library of feature heatmap algorithm
+
