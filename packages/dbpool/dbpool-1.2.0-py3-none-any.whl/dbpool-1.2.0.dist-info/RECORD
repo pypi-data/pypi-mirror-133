@@ -1,0 +1,6 @@
+dbpool/__init__.py,sha256=DRyTUZ9tQazBfbrRKDbn4oe2mTqhe2i2IIHqcFLLawk,570
+dbpool/impl.py,sha256=yNFXGB6msXJ0d4JTMJxjSDRj6SkbHzCrgVzBmPImKT0,9779
+dbpool-1.2.0.dist-info/LICENSE,sha256=dGSUXH9y9us6mHoAwqvNaL_bGpbgu6n4WPosn-NstLg,1064
+dbpool-1.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dbpool-1.2.0.dist-info/METADATA,sha256=raKrrrsRNCDSUsRKsIW1ZQ57FANmnpXp1rGlL1tzZoM,774
+dbpool-1.2.0.dist-info/RECORD,,
