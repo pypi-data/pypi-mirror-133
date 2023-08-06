@@ -1,0 +1,4 @@
+[console_scripts]
+ebt=pyebus.cli:main
+ebustool=pyebus.cli:main
+
