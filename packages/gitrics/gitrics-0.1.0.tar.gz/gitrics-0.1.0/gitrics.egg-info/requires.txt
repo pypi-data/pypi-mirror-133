@@ -1,0 +1,8 @@
+colorgram.py
+glapi
+networkx
+treelib
+
+[test]
+pytest
+pytest-cov
