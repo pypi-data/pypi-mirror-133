@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+kpctl/__init__.py
+kpctl/__main__.py
+kpctl/kpctl.py
+kpctl.egg-info/PKG-INFO
+kpctl.egg-info/SOURCES.txt
+kpctl.egg-info/dependency_links.txt
+kpctl.egg-info/entry_points.txt
+kpctl.egg-info/requires.txt
+kpctl.egg-info/top_level.txt
