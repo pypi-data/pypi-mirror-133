@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: antiheroes
+Version: 0.0.2
+Summary: Python Library for ANTIHEROES APP
+Home-page: https://github.com/yuyatinnefeld/antiheros
+Author: yuya tinnefeld
+Author-email: yuyatinnefeld@gmail.com
+License: Copyright (c) 2022 Yuya Tinnefeld
+Project-URL: Bug Tracker, https://github.com/yuyatinnefeld/antiheros/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ANTIHEROES
+Do you like antiheroes? You can use this python package ANTIHEROES to list and get fascinating antiheroes from movies, TV shows, video games, and comics.
+
+## Installation
+```bash
+# Official Version
+python -m pip install antiheroes
+
+# TEST PyPI Version
+python -m pip install --extra-index-url https://test.pypi.org/simple/ antiheroes
+
+```
+## Getting Started
+Directly after the installation you can use this package. You will need Python Release 3.7.0 or older.
+
+You can use 3 Methods:
+- get_hero(): get a random antihero
+- list_heroes(): list all antiheroes
+- popular_heroes5(): list top 5 antiheroes
+
+1. Open the python console and use the package
+
+```bash
+>>> from antiheroes import get_hero
+>>> get_hero()
+THE HULK enters in your room!!!
+>>> get_hero()
+WOLVERINE enters in your room!!!
+>>> get_hero()
+ELEKTRA NATCHIOS enters in your room!!!
+>>> get_hero()
+DUKE NUKEM enters in your room!!!
+>>> get_hero()
+THE HULK enters in your room!!!
+
+
+>>> from antiheroes import list_heroes
+>>> list_heroes()
+ALL ANTI HEROES:
+[   {'name': 'WOLVERINE', 'world': 'MARVEL COMICS'},
+    {'name': 'DEADPOOL', 'world': 'MARVEL COMICS'},
+    {'name': 'ELEKTRA NATCHIOS', 'world': 'MARVEL COMICS'},
+    {'name': 'JOHN WICK', 'world': 'JOHN WICK'},
+    {'name': 'BLADE', 'world': 'MARVEL COMICS'},
+
+
+>>> from antiheroes import popular_heroes
+>>> popular_heroes(5)
+MY TOP 5 ANTI HEROES:
+[   {'name': 'WOLVERINE', 'world': 'MARVEL COMICS'},
+    {'name': 'DEADPOOL', 'world': 'MARVEL COMICS'},
+    {'name': 'ELEKTRA NATCHIOS', 'world': 'MARVEL COMICS'},
+    {'name': 'JOHN WICK', 'world': 'JOHN WICK'},
+    {'name': 'BLADE', 'world': 'MARVEL COMICS'}]
+```
+
