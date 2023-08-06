@@ -1,0 +1,8 @@
+appscript==1.1.2
+commonpy==1.8.0
+plac==1.3.3
+requests==2.25.1
+sidetrack==2.0.0
+setuptools==58.3.0
+uritools==3.0.0
+pytest==6.2.5
