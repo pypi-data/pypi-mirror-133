@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+Pandaspretty/__init__.py
+Pandaspretty.egg-info/PKG-INFO
+Pandaspretty.egg-info/SOURCES.txt
+Pandaspretty.egg-info/dependency_links.txt
+Pandaspretty.egg-info/requires.txt
+Pandaspretty.egg-info/top_level.txt
