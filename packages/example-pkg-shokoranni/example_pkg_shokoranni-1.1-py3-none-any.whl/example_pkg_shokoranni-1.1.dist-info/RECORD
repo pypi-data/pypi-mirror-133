@@ -1,0 +1,7 @@
+calculate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculate/calc.py,sha256=njDi_K1QqkZv8eZato1XCWdVVxFRYbLni-bjls4oVFE,1007
+example_pkg_shokoranni-1.1.data/scripts/calc.py,sha256=njDi_K1QqkZv8eZato1XCWdVVxFRYbLni-bjls4oVFE,1007
+example_pkg_shokoranni-1.1.dist-info/METADATA,sha256=a2ZKxEYezC_i4sRCIOqEN2FBpjBotIFKWx2U3TxSoNU,279
+example_pkg_shokoranni-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+example_pkg_shokoranni-1.1.dist-info/top_level.txt,sha256=6ZTAowwBxlSEDS1GfMtlGDijN6BfDLe_m73jRe_oxrY,10
+example_pkg_shokoranni-1.1.dist-info/RECORD,,
