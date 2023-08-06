@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hammuon
+Version: 0.1.5
+Summary: Basic and important data structures algorithms.
+Home-page: https://github.com/mcvarer/algorithms
+License: GNU General Public License
+Author: mcvarer
+Author-email: ktuce.mcanv@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/mcvarer/algorithms
+Description-Content-Type: text/markdown
+
+# Basic Algorithms
+
+
+## 1. Quick Sort
+Quick Sort is a sorting algorithm, which is commonly used in computer science. 
+Quick Sort is a divide and conquer algorithm. 
+
+### Usage
+```python
+from data_structure import quickSort
+
+print(quickSort([8, 12, 55, -12]))
+```
+
+### Output
+```bash
+[-12, 8, 12, 55]
+```
