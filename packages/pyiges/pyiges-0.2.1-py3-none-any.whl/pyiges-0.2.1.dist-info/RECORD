@@ -1,0 +1,15 @@
+pyiges/__init__.py,sha256=RJGA7ukpUe6Oia3zV2MHxdS5TUElvzTNm-Uw9SKTpg4,75
+pyiges/_version.py,sha256=TYJ3JEgBQpSNBinPtBQvZEUQUqVWHyOH52g9BW4tStk,411
+pyiges/constants.py,sha256=67hQvcdQ0ZyY2xMFyhiBlERqd09QNQN1LaOKL2V49As,160
+pyiges/entity.py,sha256=KJMkFEs5Qxe6l7nm-IDOzRyubzovc6VE1rLfi4uTsfs,2607
+pyiges/faces.py,sha256=TVXQu2Y5gTQGaNuqbfNKFBAhUz4VUDSnpU0zXsM7eDE,472
+pyiges/geometry.py,sha256=VSpNsHELymHMi7nDaqYO5aQr0TQOVUbPmwWzxlGgCQA,27403
+pyiges/iges.py,sha256=QggcJJS9Mc4SIvji6946vIpVqhteKbpfpPgydvR2GRo,14975
+pyiges/examples/__init__.py,sha256=YJMBNBHlvPUqatDwkt-X8KboeKwxXusi9Wj1ovVyMeA,143
+pyiges/examples/impeller.igs,sha256=yfoCP-3ciN_Fpz2gDTzS2Zh7lLJyN_KKf5GwmIEgPfU,4033498
+pyiges/examples/sample.igs,sha256=NTOwGTIAcNLmfTZfG5_JXVr16qGlrs79Jf2XGy8EB0U,5103
+pyiges-0.2.1.dist-info/LICENSE,sha256=SFAKJj62TqU4yNAxDXSknly-J5DIwPq6MtlqFr8RcK0,1088
+pyiges-0.2.1.dist-info/METADATA,sha256=3qubZPsRbkN-Ddxm9zJXVuHm3je8U0QzaO5Tn-xYtrQ,2958
+pyiges-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyiges-0.2.1.dist-info/top_level.txt,sha256=_i0SMv1sLVFqkUHtxEi-hqIwNR0iY52u0p9PXUqAEQA,7
+pyiges-0.2.1.dist-info/RECORD,,
