@@ -1,0 +1,17 @@
+cmaboss/__init__.py,sha256=lSRM7ZeYwGrcLht9LNI_Y3LsThi3Aupf4vkibRqiCKQ,22
+cmaboss/cmaboss.cpython-37m-x86_64-linux-gnu.so,sha256=ifTO0n40uaM-w3IyvEIsjAiQBaFTWGeXJeIX25I-l_I,13090904
+cmaboss_512n/cmaboss_512n.cpython-37m-x86_64-linux-gnu.so,sha256=Cj_q1HPSNVlLvbgmG50-NHZtMA8R-d6cFdWmALBWU3g,13163000
+cmaboss_512n/__init__.py,sha256=7WxEdH-roPpggcsWehkJ29he6dVqJbVIXrVBtP3Xmjw,27
+cmaboss_128n/__init__.py,sha256=pe27nB1Xae9NdG1RikXDfIvkAGphWi_dZjGkaw58eZA,27
+cmaboss_128n/cmaboss_128n.cpython-37m-x86_64-linux-gnu.so,sha256=uWXIQlhXRQk9IxCu9S7HXbswJZdpeFKzE4ciVkEuRLU,13256208
+cmaboss-1.0.0b16.dist-info/WHEEL,sha256=SyGcpGi1pkq23uayPq7EIty4fRv9OlQT7thlio7Ne6U,150
+cmaboss-1.0.0b16.dist-info/top_level.txt,sha256=oUuQG0b1-reTV9ejkYAp8slOETSZgRZ-GkQoSnM4eOk,61
+cmaboss-1.0.0b16.dist-info/RECORD,,
+cmaboss-1.0.0b16.dist-info/METADATA,sha256=pO2WQkYCwokJtknqwXEy4lufWY7YoqL0zyEQvzTItGM,203
+cmaboss_1024n/cmaboss_1024n.cpython-37m-x86_64-linux-gnu.so,sha256=Q9Cj9WTkEKTVvh8HJH9PcYGWMZ2PEIrlwOAkFm6dRIs,13183536
+cmaboss_1024n/__init__.py,sha256=jfA5cCfqNuvD1DJTimkFugawONGSjxTb6WmOc8WUSF0,28
+cmaboss_256n/cmaboss_256n.cpython-37m-x86_64-linux-gnu.so,sha256=B3BWuGWseVbZJSnPppTolrQc8pyV3KhJmyk84ZO8z0w,13256960
+cmaboss_256n/__init__.py,sha256=EYsWWs-pksQW9u9iBiAEAuWz-62kYfhOXWZw7dS1xpg,27
+cmaboss.libs/libbz2-13e8c345.so.1.0.4,sha256=nahojg9Xor6BTcIq-b47GPFeAryvLip8D2t-Z0sKjGQ,70944
+cmaboss.libs/libxml2-e04a0072.so.2.7.6,sha256=lfbayXYMMNhIQ9vly2GItxbWJ98IBqOn2BQn9FJgMBk,1437736
+cmaboss.libs/libsbml-dc85325a.so.5.19.0,sha256=DW-B10kNL4EP_97fenhHvB9nqdSRDrt56BlpmE6zxOo,16548032
