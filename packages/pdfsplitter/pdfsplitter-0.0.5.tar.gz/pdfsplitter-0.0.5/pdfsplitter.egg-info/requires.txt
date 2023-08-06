@@ -1,0 +1,9 @@
+pip
+packaging
+pymupdf
+rich
+pandas
+beautifulsoup4
+requests
+
+[dev]
