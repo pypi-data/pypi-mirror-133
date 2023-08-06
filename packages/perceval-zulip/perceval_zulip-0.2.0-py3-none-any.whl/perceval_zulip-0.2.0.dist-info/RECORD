@@ -1,0 +1,9 @@
+perceval/__init__.py,sha256=Em9eaKDwOqIf_Sn-cXM7S9Jzj8NH4jEiwxHJsHTAdVE,821
+perceval/_version.py,sha256=YFNKwzqrOOCVY7jIzvcfCUfjpgjMUEjbVKCOGxHmEPs,86
+perceval/backends/__init__.py,sha256=Em9eaKDwOqIf_Sn-cXM7S9Jzj8NH4jEiwxHJsHTAdVE,821
+perceval/backends/zulip/__init__.py,sha256=Em9eaKDwOqIf_Sn-cXM7S9Jzj8NH4jEiwxHJsHTAdVE,821
+perceval/backends/zulip/zulip.py,sha256=lbdcLHWFHIOrJEhsuG0RkRvc4TFBv_rrRJ3IPWaZwXA,7790
+perceval_zulip-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+perceval_zulip-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+perceval_zulip-0.2.0.dist-info/METADATA,sha256=gjOqnuJAkLXEcAJCGbW-Tsr5vKWDrSJ1nSuiIZ49N6c,4445
+perceval_zulip-0.2.0.dist-info/RECORD,,
