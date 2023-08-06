@@ -1,0 +1,14 @@
+appcommands/__init__.py,sha256=BzC4fQ0yDbI5uEkseF9fGacf4cOcReT-tj-pglGeUVw,309
+appcommands/__main__.py,sha256=6SGwoZ-DDXkARAVk12PQtfCtiIi4EhVXOKP1eVUiYtU,9985
+appcommands/appbot.py,sha256=WBnKnLDf6rzPeU0PdJgU6oHDOl5Az4KWMv3j6sux5Gw,9086
+appcommands/client.py,sha256=mRdo6uWXGRcHgq1jNjEbe9rZeQTPIGcLLKVnSgSuoC8,21764
+appcommands/cog.py,sha256=IYDCUiw_Nw5ra_OQnfd4uLYMPd2YWNFsK3WbJGFGkYQ,6941
+appcommands/core.py,sha256=mf35Br3cvqY1lldT6ZsHdL1Csaw7UyH0__-2KFFfxso,41349
+appcommands/enums.py,sha256=IJ2gI_U8huR8Zd3YXVV41xuQBmPbedRVjOcewQYvoUI,2029
+appcommands/utils.py,sha256=J-jwks8MSCFOZh0fkCegEyP88Tq-A_4bveFcWqGaYOg,756
+dpy_appcommands-2.0.4.2.dist-info/LICENSE,sha256=HIkxG1yzwvx2A7nVsFHdn1RzXwjuDvXJJgYofLJxeU4,1065
+dpy_appcommands-2.0.4.2.dist-info/METADATA,sha256=Tln0FFzOEgCjdRS-lMaAWl7I3qfyuyfjpPnFbDIrdec,2483
+dpy_appcommands-2.0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dpy_appcommands-2.0.4.2.dist-info/entry_points.txt,sha256=5_R5H8hQGFljvRu5xHb6Y09OFXqS6etEYz52DumhYVw,59
+dpy_appcommands-2.0.4.2.dist-info/top_level.txt,sha256=LxJtW6j98LmhStkkS0x1fdNLyfHwsgoeQQr-Ure8IiY,12
+dpy_appcommands-2.0.4.2.dist-info/RECORD,,
