@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/xyce/__init__.py
+src/xycepymi.egg-info/PKG-INFO
+src/xycepymi.egg-info/SOURCES.txt
+src/xycepymi.egg-info/dependency_links.txt
+src/xycepymi.egg-info/top_level.txt
