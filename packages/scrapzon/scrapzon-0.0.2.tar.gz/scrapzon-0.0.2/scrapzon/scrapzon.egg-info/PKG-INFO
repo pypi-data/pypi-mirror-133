@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: scrapzon
+Version: 0.0.2
+Summary: Amazon product details scraper
+Home-page: https://github.com/Chicken1Geek/scrapzon
+Author: sachin Sankar
+Author-email: sachinpannadi@gmail.com
+License: UNKNOWN
+Keywords: amazon,scraper,crawlwer,lightweight
+Platform: UNKNOWN
+Requires-Python: >=3.6, <4
+
+UNKNOWN
+
