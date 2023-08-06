@@ -1,0 +1,10 @@
+bs4
+click
+diskcache
+font-line
+jinja2
+lxml
+pycairo
+pytest
+requests
+svgpathtools
