@@ -1,0 +1,8 @@
+saferecipient/VERSION,sha256=bPTghLR_M8mwLveSedFXgzho-PcFFBaadovjU-4yj-o,6
+saferecipient/__init__.py,sha256=3UunNSKffoLiXBx8ITwz9ls3o79qq0sJy3xCG6uMVCI,2531
+saferecipient/tests.py,sha256=ZjoNOSaO6Qz2sxXCn_XOXb1Xkzr5JUSdmUN3wP6YQYU,5163
+Django_Safe_EmailBackend-1.2.1.dist-info/LICENSE,sha256=psuoW8kuDP96RQsdhzwOqi6fyWv0ct8CR6Jr7He_P_k,10173
+Django_Safe_EmailBackend-1.2.1.dist-info/METADATA,sha256=Fl-VRSsVyHZk8DJ4KkCsjQ7cg2AWU-gF5u7m5nK4yEo,721
+Django_Safe_EmailBackend-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Django_Safe_EmailBackend-1.2.1.dist-info/top_level.txt,sha256=VbrV9bp-FXIHYahxuHmC9V3rBGUEvAwPWFSKT-hEryk,14
+Django_Safe_EmailBackend-1.2.1.dist-info/RECORD,,
