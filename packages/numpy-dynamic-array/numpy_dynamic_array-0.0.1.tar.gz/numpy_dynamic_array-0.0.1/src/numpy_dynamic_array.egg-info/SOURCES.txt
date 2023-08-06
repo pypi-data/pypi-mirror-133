@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/numpy_da/__init__.py
+src/numpy_da/dynamic_array.py
+src/numpy_dynamic_array.egg-info/PKG-INFO
+src/numpy_dynamic_array.egg-info/SOURCES.txt
+src/numpy_dynamic_array.egg-info/dependency_links.txt
+src/numpy_dynamic_array.egg-info/not-zip-safe
+src/numpy_dynamic_array.egg-info/requires.txt
+src/numpy_dynamic_array.egg-info/top_level.txt
