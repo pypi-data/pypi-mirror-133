@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: aiontai
+Version: 1.0.1
+Summary: Async wrapper for nhentai API
+Home-page: https://github.com/LEv145/aiontai
+License: MIT
+Author: LEv145
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: dataclasses-json (>=0.5.6,<0.6.0)
+Requires-Dist: injector (>=0.19.0,<0.20.0)
+Requires-Dist: schema (>=0.7.5,<0.8.0)
+Project-URL: Documentation, https://aiontai.readthedocs.io/en/latest/
+Description-Content-Type: text/x-rst
+
+Aiontai
+=======
+
+Async wrapper for nhentai API
+
+
+============
+Installation
+============
+
+.. code:: shell
+
+    $ pip install git+https://github.com/LEv145/aiontai
+
+
+==========
+How to use
+==========
+
+
+Create client
+
+.. code:: python
+
+    import asyncio
+
+    from aiohttp import ClientSession
+
+    from aiontai import (
+        NHentaiClient,
+        NHentaiAPI,
+        Conventer,
+    )
+
+
+    async def main():
+        client_object = NHentaiClient(
+            api=NHentaiAPI(
+                ClientSession(),
+            ),
+            conventer=Conventer(),
+        )
+
+    asyncio.run(main())
+
+
+Or can use ``injector`` that will create the object itself (Next examples will be using it)
+
+.. code:: python
+
+    import asyncio
+
+    from injector import Injector
+
+    from aiontai import (
+        NHentaiClient,
+        ClientModule,
+    )
+
+
+    async def main():
+        injector = Injector(ClientModule())
+        client_object = injector.get(NHentaiClient)
+
+    asyncio.run(main())
+
+
+Example of using the client
+
+.. code:: python
+
+    async def main():
+        injector = Injector(ClientModule())
+        client_object = injector.get(NHentaiClient)
+
+        async with client_object as client:  # Will close the session itself
+            doujin = await client.get_random_doujin()
+
+            for page in doujin.images:
+                print(page.url)
+
+            print(doujin.to_json())
+
+    asyncio.run(main())
+
+
+Example of using the proxy
+
+.. code:: python
+
+    ...
+    from aiohttp_proxy import ProxyConnector  # pip install aiohttp_proxy
+    ...
+
+
+    async def main():
+        injector = Injector(
+            modules=[
+                ClientModule(),
+                AiohttpProxyModule("http://user:password@127.0.0.1:1080"),
+            ],
+        )
+        client_object = injector.get(NHentaiClient)
+
+    asyncio.run(main())
+
+
+Example of using the Low level api
+
+.. code:: python
+
+    async def main():
+        injector = Injector(ClientModule())
+        client_object = injector.get(NHentaiAPI)
+        async with client_object as client:
+            doujin = await client.get_random_doujin()  # Return: Dict[str, Any]
+                                                       # from api without loss of information
+
+            print(doujin)
+
+
+    asyncio.run(main())
+
