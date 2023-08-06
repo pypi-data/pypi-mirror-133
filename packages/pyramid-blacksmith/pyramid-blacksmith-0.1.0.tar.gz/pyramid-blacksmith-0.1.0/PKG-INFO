@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pyramid-blacksmith
+Version: 0.1.0
+Summary: Pyramid Bindings for Blacksmith
+Home-page: https://github.com/mardiros/pyramid-blacksmith
+Author: Guillaume Gauvrit
+Author-email: guillaume@gauvr.it
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pyramid
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: blacksmith (>=0.9.2,<0.10.0)
+Requires-Dist: pyramid (>=2.0,<3.0)
+Project-URL: Repository, https://github.com/mardiros/pyramid-blacksmith
+Description-Content-Type: text/x-rst
+
+pyramid-blacksmith
+==================
+
+.. image:: https://readthedocs.org/projects/pyramid-blacksmith/badge/?version=latest
+   :target: https://pyramid-blacksmith.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://github.com/mardiros/pyramid-blacksmith/actions/workflows/main.yml/badge.svg
+   :target: https://github.com/mardiros/pyramid-blacksmith/actions/workflows/main.yml
+   :alt: Continuous Integration
+
+.. image:: https://codecov.io/gh/mardiros/pyramid-blacksmith/branch/main/graph/badge.svg?token=9IRABRO2LN
+   :target: https://codecov.io/gh/mardiros/pyramid-blacksmith
+   :alt: Coverage
+
+Pyramid bindings for `Blacksmith`_ rest api client.
+
+
+Introduction
+------------
+
+This plugin create a request proterty named ``blacksmith`` that bind
+clients to do API Call using `Blacksmith`_ 
+
+
+Clients are configured via the pyramid configurator and its settings.
+
+
+.. _`Blacksmith`: https://pypi.org/project/blacksmith/
+
+
