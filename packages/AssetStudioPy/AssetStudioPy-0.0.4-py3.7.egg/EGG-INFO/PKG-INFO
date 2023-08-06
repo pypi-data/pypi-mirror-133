@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: AssetStudioPy
+Version: 0.0.4
+Summary: A pythonnet wrapper around AssetStudio
+Home-page: https://github.com/K0lb3/AssetStudioPy
+Author: K0lb3
+License: UNKNOWN
+Download-URL: https://github.com/K0lb3/AssetStudioPy/tarball/master
+Keywords: python,unity,unity-asset,python3,data-minig,unitypack,assetstudio,unity-asset-extractor
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Description-Content-Type: text/markdown
+
+# AssetStudioPy
+
+## Installation
+
+1. install all requirements
+2. run
+```
+pip install git+https://github.com/K0lb3/AssetStudioPy.git
+```
+
+## Requirements
+
+### Software (to be installed by the user)
+- [Python 3.6+](https://www.python.org/downloads/)
+- [.net 6.0](https://docs.microsoft.com/en-us/dotnet/core/install/)
+- [git](https://git-scm.com/downloads)
+
+### Python Packages (will be installed by the setup)
+- [pythonnet 3](https://github.com/pythonnet/pythonnet)
+- [Pillow](https://pypi.org/project/Pillow/)
+
+## Examples
+
+TODO
+
+check the [tests](tests/test.py) for now
+
+
