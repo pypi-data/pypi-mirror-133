@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: simplehello
+Version: 0.0.1
+Summary: hello_app1
+Home-page: UNKNOWN
+Author: moti ksir
+Author-email: motiksir@gmail.com
+License: MIT
+Description: hello_app1
+Keywords: simplehello
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
