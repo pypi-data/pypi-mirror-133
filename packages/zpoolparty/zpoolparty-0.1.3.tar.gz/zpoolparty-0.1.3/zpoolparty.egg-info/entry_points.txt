@@ -1,0 +1,3 @@
+[console_scripts]
+zpoolparty = zpoolparty:main
+
