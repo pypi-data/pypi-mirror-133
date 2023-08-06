@@ -1,0 +1,10 @@
+py3d/__init__.py,sha256=IFTBv0SPpMwYtZOYMQoI2s4JX3mQKRM9GYS_K7e1_n0,46
+py3d/core.py,sha256=F-W53b8Unmha9b5MITaVTCVPy6kgm4Fjn0rCzDhhKds,22273
+py3d/server.py,sha256=KbiGP-M3Mh9vp80RhJCXydaiEFZyytQ_SQBnEzW4R9c,5328
+py3d/viewer.html,sha256=Mle0u6SuqN_uN1xLNjAcvnJtTH5A4C9f-S_kKsIvdIc,505
+py3d/static/bundle.js,sha256=rMa37fftuMNbDN4Cfac7zu-PErxSViEDh1ShPbl8vn8,1346923
+py3d/static/logo.png,sha256=fMUYELYZC1IHLe7aZu94AiUm3AyJcF3JTG7qSqOgJDY,4550
+py3d-0.0.16.dist-info/METADATA,sha256=LdEAJ1umRgxr5nBxedEYoOPKahaCZbweSqkhYrxuJSU,18063
+py3d-0.0.16.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py3d-0.0.16.dist-info/top_level.txt,sha256=4FlxjVWKBmgtfYWCX2ZDGPpHIDerM_D2THqW4OT5GWc,5
+py3d-0.0.16.dist-info/RECORD,,
