@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: ev3msg
+Version: 0.0.3.6
+Summary: A EV3 Messaging Library for Python
+Home-page: UNKNOWN
+Author: JJTV
+License: OSI Approved :: GNU General Public License v3 (GPLv3)
+Keywords: ev3,messaging,robotics,communication,protocol,mailbox,py,python
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ev3msg
+## Making Communication with the EV3 easier
+
+ev3msg is a library for communicating with your original, unmodified EV3 Brick via Bluetooth<br>
+
+## Features
+
+- Works via Bluetooth
+- Can send strings, booleans, integers and float numbers
+
+## Code Examples
+
+- Connect to the EV3<br>
+```python
+from ev3msg import EV3
+
+ev3 = EV3('EV3')
+# or
+ev3 = EV3('00:16:53:47:27:F4')
+```
+You can connect to the EV3, by using the EV3 Class and entering the EV3 Name, or it's MAC Address
+<br>
+- Send a message to the EV3<br>
+```python
+ev3.send_message('title', 'content')
+```
+You can send a message to the EV3 by calling the `send_message` method
+<br>
+- Receive a message from the EV3
+```python
+message_object = ev3.get_message('message_title')
+
+content = message_object.value
+content_type = message_object.d_type
+title = message_object.title
+```
+You can also specify a Timeout Parameter, to wait for the message. Defaults to 5 Seconds
+```python
+msg = ev3.get_message('please_wait_for_me', timeout=10)
+```
+
+- Disconnect from the EV3 (please do this)
+```python
+ev3.disconnect()
+```
+
+# Receiving and Sending Messages from the EV3
+
+- Receive Incoming messages<br><br>
+<img src="https://i.ibb.co/NyVtcXk/upload.png" alt="upload">
+
+- Send Messages back<br><br>
+<img src="https://i.ibb.co/6mZvGMP/upload.png" alt="upload">
+
+# Credits
+Message Encoding and Decoding, as well as some other code snippets by Jerry Nicholls<br>
+Check it out here: https://gitlab.com/Jander/ev3-mailbox-python/-/blob/master/ev3mailbox.py
+
+
+
+Change Log
+==========
+
+0.0.3.6 (07/01/2022)
+-------------------
+- Minor Changes
+
