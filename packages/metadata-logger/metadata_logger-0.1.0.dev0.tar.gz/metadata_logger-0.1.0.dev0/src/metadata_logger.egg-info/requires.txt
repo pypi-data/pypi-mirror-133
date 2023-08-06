@@ -1,0 +1,12 @@
+attrs
+
+[dev]
+pre-commit
+
+[doc]
+jupyter-book
+sphinx_autodoc_typehints
+
+[test]
+pytest
+hypothesis

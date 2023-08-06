@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/metadata_logger/__init__.py
+src/metadata_logger/_version.py
+src/metadata_logger/metadata_logger.py
+src/metadata_logger.egg-info/PKG-INFO
+src/metadata_logger.egg-info/SOURCES.txt
+src/metadata_logger.egg-info/dependency_links.txt
+src/metadata_logger.egg-info/requires.txt
+src/metadata_logger.egg-info/top_level.txt
+src/metadata_logger.egg-info/zip-safe

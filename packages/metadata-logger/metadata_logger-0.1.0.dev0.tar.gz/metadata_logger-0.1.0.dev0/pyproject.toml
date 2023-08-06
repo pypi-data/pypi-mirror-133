@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2", "pbr>=5.7.0"]
+build-backend = "pbr.build"
+
+[tool.setuptools_scm]
+fallback_version = "0.1dev0"
+write_to = "src/metadata_logger/_version.py"
+write_to_template = '__version__ = "{version}"'
+version_scheme = "release-branch-semver"
+local_scheme = "dirty-tag"
+
+
+[tool.black]
+line-length = 88
+target_version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+  | foo.py           # also separately exclude a file named foo.py in
+                     # the root of the project
+)
+'''
+
+[tool.pbr]
+autodoc_tree_index_modules = true
+
+[tool.interrogate]
+ignore-init-method = true
+ignore-init-module = true
+ignore-magic = false
+ignore-semiprivate = true
+ignore-private = true
+ignore-property-decorators = true
+ignore-module = false
+-nested-functions = true
+Ignore-nested-classes = true
+Ignore-setters = true
+fail-under = 95
+exclude = ['setup.py', '**/docs/', 'build', '**/_version.py', '**/*_test.py', '**/test_*.py'] # not read by pre-commit
+ignore-regex = ["^get$", "^mock_.*", ".*BaseClass.*"]
+# possible values: 0 (minimal output), 1 (-v), 2 (-vv)
+verbose = 0
+quiet = false
+whitelist-regex = []
+color = true
+omit-covered-files = false
+generate-badge = "./docs"
+badge-format = "svg"
+
+# [pytype]
+# exclude =
+#     **/*_test.py
+#     docs/
+# inputs = src tests scripts
+# keep_going = True
+# jobs = 4
+# output = .pytype
+# pythonpath =
+#     .
+# python_version = 3.8
+# disable =
+#     pyi-error
+# report_errors = True
+# precise_return = False
+# protocols = False
+# strict_import = False
+
+
+[tool.pytest.ini]
+addopts = "-ra -q --ignore setup.py --hypothesis-show-statistics tests/"
