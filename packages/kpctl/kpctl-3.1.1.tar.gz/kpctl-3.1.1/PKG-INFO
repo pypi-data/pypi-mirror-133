@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: kpctl
+Version: 3.1.1
+Summary: Command line interface for managing and executing BPMN
+Home-page: https://github.com/tstephen/bpaas
+Author: KnowProcess
+Author-email: info@knowprocess.com
+License: Apache
+Description: kpctl
+        =====
+        
+        Command line interface to:
+        
+        - inspect, document, enhance and validate BPMN files; and
+        - execute process-based applications on the KnowProcess platform
+        
+        Build and publish to Test version of PyPI
+        -----------------------------------------
+        
+        1. Increment version
+        
+           ```
+           bumpversion --current-version 3.1.0 [major|minor|patch] setup.py kpctl/__init__.py
+           ```
+        
+        2. Build...
+        
+           ```
+           python3 setup.py sdist bdist_wheel
+           ```
+        
+        3. Check (note this is not exhaustive)
+        
+           ```
+           twine check dist/*
+           ```
+        
+        4. Publish to test server (can be repeated for same version)
+        
+           ```
+           twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+           ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
