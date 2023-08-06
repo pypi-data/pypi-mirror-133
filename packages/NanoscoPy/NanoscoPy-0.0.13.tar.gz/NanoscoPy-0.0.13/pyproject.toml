@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+  "setuptools>=42",
+  "pandas",
+  "SPIEPy",
+  "scipy",
+  "numpy",
+  "matplotlib",
+  "access2theMatrix",
+  "lmfit",
+  "pySPM"
+]
+build-backend = "setuptools.build_meta"
