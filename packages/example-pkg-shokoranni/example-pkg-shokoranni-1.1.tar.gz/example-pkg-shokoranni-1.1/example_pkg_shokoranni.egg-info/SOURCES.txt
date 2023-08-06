@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+calculate/__init__.py
+calculate/calc.py
+example_pkg_shokoranni.egg-info/PKG-INFO
+example_pkg_shokoranni.egg-info/SOURCES.txt
+example_pkg_shokoranni.egg-info/dependency_links.txt
+example_pkg_shokoranni.egg-info/top_level.txt
