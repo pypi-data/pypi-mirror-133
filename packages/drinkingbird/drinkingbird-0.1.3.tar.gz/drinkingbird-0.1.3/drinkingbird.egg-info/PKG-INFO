@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: drinkingbird
+Version: 0.1.3
+Summary: Program to keep your browser/computer active
+Home-page: https://github.com/Dih5/drinkingbird
+Author: Dih5
+Author-email: dihedralfive@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: test
+
+# drinkingbird
+
+Program to keep your browser/computer active.
+
+![Homer's drinking bird](https://media.giphy.com/media/l41lUJ1YoZB1lHVPG/giphy.gif)
+
+## Installation
+
+Assuming you have a [Python3](https://www.python.org/) distribution
+with [pip](https://pip.pypa.io/en/stable/installing/):
+
+```
+pip3 install drinkingbird
+```
+
+## Usage
+
+To run, open some relevant tabs in a browser in the foreground and execute:
+
+```
+drinkingbird
+```
+
+This will cycle tabs each 10 s.
+
+To stop it, just press Esc.
+
+For more options see
+
+```
+drinkingbird --help
+```
+
+

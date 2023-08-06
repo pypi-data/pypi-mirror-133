@@ -1,0 +1,9 @@
+pynput
+
+[docs]
+nbsphinx
+sphinx-rtd-theme
+IPython
+
+[test]
+pytest
