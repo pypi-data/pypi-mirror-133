@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: textDetect
+Version: 0.0.1
+Summary: Text Detector package
+Home-page: UNKNOWN
+Author: Rischit Aggarwal
+Author-email: <rischitcode365@gmail.com>
+License: UNKNOWN
+Keywords: Text,Detect
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+This will detect the text that you type 
+
+
