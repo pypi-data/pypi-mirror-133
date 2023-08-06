@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+zpylib/zpylib.egg-info/PKG-INFO
+zpylib/zpylib.egg-info/SOURCES.txt
+zpylib/zpylib.egg-info/dependency_links.txt
+zpylib/zpylib.egg-info/entry_points.txt
+zpylib/zpylib.egg-info/top_level.txt
