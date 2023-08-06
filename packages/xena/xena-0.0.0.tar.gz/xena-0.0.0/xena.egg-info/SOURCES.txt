@@ -1,0 +1,6 @@
+README.md
+xena.egg-info/PKG-INFO
+xena.egg-info/SOURCES.txt
+xena.egg-info/dependency_links.txt
+xena.egg-info/top_level.txt
+xena.egg-info/zip-safe
