@@ -1,0 +1,4 @@
+[console_scripts]
+acuc=aws_cdk_update_checker.main:fetch_aws_cdk_latest_version
+aws_cdk_update_checker=aws_cdk_update_checker.main:fetch_aws_cdk_latest_version
+
