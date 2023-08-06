@@ -1,0 +1,16 @@
+tinypublisher/__init__.py,sha256=hnaMf7gDD1dmsnvbULkLgbva1LZoBA1sdWFBxtZiyqA,358
+tinypublisher/command.py,sha256=49zPOdZBW4v2z9tr1rQrPzmfwu9dl_ZHhT9JEJ1cPfQ,4301
+tinypublisher/builder/__init__.py,sha256=BS-DrOhGmG6trwMR0ftD8GRiqEWrahZ__gwpgrW-TEo,13669
+tinypublisher/builder/templates/container.xml,sha256=AYuk6i-KlDvmxgwGZpwmIKWSrJSg0S0zLBWccWy1Xb8,247
+tinypublisher/builder/templates/navigation.xhtml,sha256=ZQpBC9WxsBBZb8Ssjls8wUpfkgVmiBbufZvDpmUZrIw,537
+tinypublisher/builder/templates/package.opf,sha256=TtkF84b1GlzRqKZDoLiM_wTHeq9vREAhflNoHD28GaU,1150
+tinypublisher/builder/templates/page.css,sha256=HyfqAQ2mA2czUQgu7z6rZzak0aQK_z4tFIFxwoPYoq4,274
+tinypublisher/builder/templates/page.xhtml,sha256=klGPGH5thHnzpRaE9jgVF1FZ3g5W05CxiNXXIEKq_Dk,580
+tinypublisher/package/__init__.py,sha256=ZLF47XDows520w8Q1HgVLEZrudkfovjTe90gxixNkQw,3867
+tinypublisher/reader/__init__.py,sha256=FS2cR00g7n3jwmEY6UG5QGhZxusEOq5UZ9BUaGvCvEM,8028
+tinypublisher-0.3.2.dist-info/LICENSE.txt,sha256=VNS-4uSOfwRviNyJDBFYD65_ea_C64JSPNBHUoRcHeo,1069
+tinypublisher-0.3.2.dist-info/METADATA,sha256=q_xHo_RTc6UXwdVclk7ISjKvWaV68pQUQDXTFs8xq10,8554
+tinypublisher-0.3.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tinypublisher-0.3.2.dist-info/entry_points.txt,sha256=qDo68E_TOJpffYLc--YuO4JPsopsBeknbzyWsU1elEY,60
+tinypublisher-0.3.2.dist-info/top_level.txt,sha256=G6qMqQYRYC2SPiFg5h89eBvtNIWwpFhn0hJ2509R8ig,14
+tinypublisher-0.3.2.dist-info/RECORD,,

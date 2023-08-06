@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf"
+	 version="3.0"
+	 unique-identifier="uuid">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="uuid">${id}</dc:identifier>
+    <dc:title>${book_title}</dc:title>
+    <dc:language>${language_tag}</dc:language>
+    %if author:
+    <dc:creator id="creator">${author}</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+    %endif
+    <meta property="dcterms:modified">${modified_date}</meta>
+  </metadata>
+  <manifest>
+    <item href="navigation.xhtml" id="navigation" media-type="application/xhtml+xml" properties="nav"/>
+<%!
+import urllib.parse as URL
+%>
+% for item in pkg_items:
+  % if item.cover_image_p:
+    <item href="${URL.quote(item.href)}" id="${item.id}" media-type="${item.media_type}" properties="cover-image"/>
+  % else:
+    <item href="${URL.quote(item.href)}" id="${item.id}" media-type="${item.media_type}"/>
+  % endif
+% endfor
+  </manifest>
+  <spine>
+% for item in pkg_items:
+    % if item.spine_item_p:
+    <itemref idref="${item.id}"/>
+    % endif
+% endfor
+  </spine>
+</package>

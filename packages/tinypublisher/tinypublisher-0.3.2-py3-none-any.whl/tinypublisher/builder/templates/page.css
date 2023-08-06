@@ -1,0 +1,17 @@
+body, figure {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    text-align: center;
+    display: block;
+}
+figure img, figure svg {
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
+    page-break-inside: avoid;
+}
+figure figcaption {
+    font-size: small;
+}
