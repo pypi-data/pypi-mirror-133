@@ -1,0 +1,41 @@
+# Normal and Binomial Distributions (Basics)
+<img src='images/logo.png'>
+
+This project is just a package which calculates some basic statistics, handle simple operations and show some plots about the Normal and the Binomial statistical Distributions.
+
+---
+
+# Intallation
+## Dependencies
+This project requires the following:
+- Python (>= 3.8)
+
+With the following packages:
+- Matplotlib (>= 3.3)
+- Scipy (>= 1.6)
+
+---
+
+# Project description
+This is a very basic package, which could grow in the future but there isn't a plan by now for future improvements.
+
+Now this package contains the following statistical distributions:
+> - Gaussian
+> - Binomial
+
+and handles the following operations:
+> - Calculate the mean
+> - Calculate the standard deviation
+> - Sum two distributions (only with the same p for Binomial)
+> - Plot PDF (probability density function)
+
+---
+
+# Contributing
+If you are interested in contributing to this project, please contact me.
+
+---
+
+# Copyright and license
+This analysis and the data used are here published under the GNU general public
+license v3.0
