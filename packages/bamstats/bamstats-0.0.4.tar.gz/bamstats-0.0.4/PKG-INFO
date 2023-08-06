@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: bamstats
+Version: 0.0.4
+Summary: A Python utility for calculating statistics against nCov-2019 genome position based on sequence alignments from a BAMfile.
+Home-page: UNKNOWN
+Author: Lianlin
+Author-email: LianLin@hectobio.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

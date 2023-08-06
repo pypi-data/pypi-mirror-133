@@ -1,0 +1,56 @@
+#!/usr/bin/env python
+
+
+import sys,os
+from optparse import OptionParser
+import pysam
+import bamstats
+from bamstats.opt import count_bases
+import pandas as pd 
+
+
+if __name__ == '__main__':
+
+    usage = 'usage: %prog [options] FILE'
+    description = "A Python utility for calculating statistics against nCov-2019 genome " \
+                  "position based on sequence alignments from a " \
+                  "BAMfile."
+    epilog = """
+    look like igvtools count,output all position's aligment bases:
+
+    * count_bases            - 'Pos':None,'A':0,'C':0,'G':0,'T':0,'N':0,'DEL':0,'INS':0,'Ref':None,'Depth':0
+
+Examples:
+
+    bamstats -r reference -o ./count.tsv bamFile
+
+Version: {version} (pysam {pysamversion})
+
+""".format(version=bamstats.__version__, pysamversion=pysam.__version__)
+
+    OptionParser.format_epilog = lambda self, formatter: self.epilog
+    parser = OptionParser(usage=usage, description=description, epilog=epilog)
+    parser.add_option(
+        '-r', '--reference', dest='reference', 
+        help='nCov genome file')
+    parser.add_option(
+        '-o', '--output', dest='output', 
+        help='output file name')
+
+    options, args = parser.parse_args()
+
+    if len(args) != 1:
+        parser.error('missing SAM or BAM file operand\n\nTry "bamstats --help" for more '
+                     'information.')
+
+    bamFile = args[0]
+    reference = options.reference
+    output = options.output
+    if os.path.isdir(output):
+        raise TypeError('plz provide filename,not directory')
+    _ = count_bases(bamFile,reference)
+    df = pd.DataFrame.from_dict(_).T
+    print(df)
+    df.to_csv(output,index=False,sep='\t')
+    print('Done!')
+        
