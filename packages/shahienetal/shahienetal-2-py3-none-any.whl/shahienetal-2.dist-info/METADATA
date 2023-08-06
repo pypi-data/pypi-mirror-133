@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: shahienetal
+Version: 2
+Summary: description
+Home-page: https://github.com/abdopetroleum/ShahienBeggs
+Author: Abdulrhman Shahien
+Author-email: abdopetroleum@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: seaborn
+
+UNKNOWN
+
