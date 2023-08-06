@@ -1,0 +1,7 @@
+dowgo
+setup.py
+dowgo/dowgo
+dowgo.egg-info/PKG-INFO
+dowgo.egg-info/SOURCES.txt
+dowgo.egg-info/dependency_links.txt
+dowgo.egg-info/top_level.txt
