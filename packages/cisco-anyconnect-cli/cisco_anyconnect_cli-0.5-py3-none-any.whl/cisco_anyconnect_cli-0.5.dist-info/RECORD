@@ -1,0 +1,9 @@
+cisco_anyconnect_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cisco_anyconnect_cli/cisco_anyconnect.py,sha256=nxa0u5Y4a-u-bDnWm4-UBv2Cz7aUsxoK3jomgCRgwvY,2359
+cisco_anyconnect_cli/cli.py,sha256=KonVu7J-1v39_X0fU-IRfA7UGggalykDn5mYItELsz8,2923
+cisco_anyconnect_cli-0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cisco_anyconnect_cli-0.5.dist-info/METADATA,sha256=1Es_CM1CXdi2BODZyLl9uOfubwOPYwgzw8yNxFvZgiI,646
+cisco_anyconnect_cli-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cisco_anyconnect_cli-0.5.dist-info/entry_points.txt,sha256=ixJSHbN02wDzDTnUd_dEXjR_pJ2C0kYi7l1dSYNgggI,62
+cisco_anyconnect_cli-0.5.dist-info/top_level.txt,sha256=4LuKpyusDhje-K_qrUolmw8gpU7E7UytEdBo5xxmxZE,21
+cisco_anyconnect_cli-0.5.dist-info/RECORD,,
