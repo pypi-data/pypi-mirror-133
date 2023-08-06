@@ -1,0 +1,3 @@
+[console_scripts]
+tarpy = tarpy.cli.run:cli
+

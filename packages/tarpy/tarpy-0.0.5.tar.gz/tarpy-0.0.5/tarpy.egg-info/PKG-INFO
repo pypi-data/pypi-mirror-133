@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tarpy
+Version: 0.0.5
+Summary: Python Version of tar.
+Home-page: UNKNOWN
+Author: m1ghtfr3e
+License: UNKNOWN
+Project-URL: Source, https://github.com/m1ghtfr3e/tarpy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Requires-Python: >=3
+License-File: LICENSE
+
+UNKNOWN
+
