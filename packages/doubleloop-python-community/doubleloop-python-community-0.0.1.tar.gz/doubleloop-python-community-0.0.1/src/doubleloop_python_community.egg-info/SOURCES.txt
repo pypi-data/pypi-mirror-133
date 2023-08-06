@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/doubleloop-python-community/__init__.py
+src/doubleloop-python-community/doubleloop.py
+src/doubleloop_python_community.egg-info/PKG-INFO
+src/doubleloop_python_community.egg-info/SOURCES.txt
+src/doubleloop_python_community.egg-info/dependency_links.txt
+src/doubleloop_python_community.egg-info/top_level.txt
