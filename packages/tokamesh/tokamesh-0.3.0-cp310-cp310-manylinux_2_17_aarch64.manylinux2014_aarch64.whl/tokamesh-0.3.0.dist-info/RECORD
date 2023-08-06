@@ -1,0 +1,14 @@
+tokamesh/intersection.py,sha256=zP4ptulL9kSC46NgHYotUoMhXRq_dpuNuOKP-ttsTeY,3112
+tokamesh/__init__.py,sha256=JKLKzKd-Ac_sAtM233PneqtVsmEtGY9AK8U-60RKPcg,16340
+tokamesh/_version.py,sha256=YNd1dEdZGzG2MvXfaTQdmMYCLOQm-rV09_xmC5Hxu5Y,142
+tokamesh/construction.py,sha256=3Da7GGpy1_2kARGkkuOAXD51__YT7yrXYXmyMtRVvyg,24117
+tokamesh/operators.py,sha256=5BRpO91PFfl3XmfPktG1LBVXwCUGauID4r7MIvHLKIU,5683
+tokamesh/geometry.py,sha256=6wWhqvOP1oB7mstcz_N-vlkC98UiRwTbCOk1QoKNDXU,21025
+tokamesh/tokamaks/__init__.py,sha256=30oPwfPYD0G_PXDwutvy9wvJE0_exDfYayLGVFyiJOQ,755
+tokamesh/triangle/triangulate.cpython-310-aarch64-linux-gnu.so,sha256=5jmI0Uifxhg-eHFSLZrZanp2aJspclZl3J1IfjAw6i8,2080384
+tokamesh/triangle/__init__.py,sha256=YAqZEvq887GOn8gZVrB5iTO1VTjFMa1LG6z7wBXImFU,37
+tokamesh-0.3.0.dist-info/METADATA,sha256=zD27ruXTXt8XJn4OHcr7g5NmSsEELhvrp3EwNVlA2_A,2799
+tokamesh-0.3.0.dist-info/WHEEL,sha256=3zITUdHX-zH-jhKLfklGA9F0ms_hxVHRE4Z-vedBDkY,154
+tokamesh-0.3.0.dist-info/RECORD,,
+tokamesh-0.3.0.dist-info/LICENSE,sha256=cUBVQ70q5DDA8C9sIUu1arvLMtkcUJ8WKFrHDz6U-yA,1069
+tokamesh-0.3.0.dist-info/top_level.txt,sha256=BREPv2yCnCgcDJ8f6Kb6GfUf853tXwhQmx04MFSLBV0,9
