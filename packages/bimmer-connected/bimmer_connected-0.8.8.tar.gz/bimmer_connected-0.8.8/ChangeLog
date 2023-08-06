@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.8
+-----
+
+* Add ExecutionState.ERROR and raise Exception if it occurs
