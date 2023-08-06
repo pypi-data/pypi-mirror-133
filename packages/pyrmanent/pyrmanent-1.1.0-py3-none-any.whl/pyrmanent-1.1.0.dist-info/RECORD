@@ -1,0 +1,13 @@
+pyrmanent/__init__.py,sha256=sHi1OSnlO6wqBWt_IfXntr37rOdgW0zCnwtcvzR2uPo,133
+pyrmanent/pyrmanent_class.py,sha256=vzCuzLUgi-DAUWYjTxuFSj4xCbVEdg7gzW1sL7jGsk8,3239
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_attributes.py,sha256=6GCep2OIrbV8J_sVHV-TNtS9gFJCzGwYkPsryHmBwK8,789
+tests/test_files.py,sha256=9_3ltBPgSjh_RH2RipD5Gn9gFlTzCwGXPvnncHA7mxw,846
+tests/test_name.py,sha256=-p_CFPiMWLKv79w7UZg2zaYDX1TnoWIrdjwbOFzxb7o,729
+tests/test_persistency.py,sha256=I2c7aKoaIkKqdCEnIHOvEKWdYv0eOe0UEnmDnwIMYiA,1646
+tests/test_reset.py,sha256=__ej3IK766XYess0WUGbqpMZIy-9iTVNSsjsIY59-QE,815
+pyrmanent-1.1.0.dist-info/LICENSE,sha256=xwILUwWSKtnPDyhO32P8A2TFS-2Wf3--naxs-qgAvMI,1068
+pyrmanent-1.1.0.dist-info/METADATA,sha256=JIDaDjqVB90DL5Jk4oiSaAjxvGAw8XvdcDItSuF1YUY,4504
+pyrmanent-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyrmanent-1.1.0.dist-info/top_level.txt,sha256=WgdrpB7qi3BNpb23F-OiT7U2bnlY6aLqYIj1Ze6HoLo,16
+pyrmanent-1.1.0.dist-info/RECORD,,
