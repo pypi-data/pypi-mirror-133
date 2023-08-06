@@ -1,0 +1,16 @@
+git_machete/__init__.py,sha256=VXds9HGt7RNvlAp998lTQrSl2Bz-9r02gROEdTRFQb4,22
+git_machete/cli.py,sha256=wCO7mPizyFn7gFunATmFgwiusynD7CgfDoSMHMd3yzw,37208
+git_machete/client.py,sha256=sMvcvG0hWJJMrOlluM3DeVfrsK3bZIP1zXHk3NQWDvQ,123416
+git_machete/constants.py,sha256=bGMsXu5q47VZBRm-iYOkspA107axS9fAvxDjipu96GU,1015
+git_machete/docs.py,sha256=TdFC3wRZZRTSRwZ10efLjfD6hU4NZ6dnK7SW8ae7t8o,49086
+git_machete/exceptions.py,sha256=Wdu0fKxQgfLbuzu5hlVzJhkHPfeUGjb_AVjq6eNGlDY,855
+git_machete/git_operations.py,sha256=8fZAUdrQkEsku2BLgH8xc83Pzwxg8d6X3_77lTWK2DQ,48413
+git_machete/github.py,sha256=bWNC6F9uRcnNsBW7Ms2JW4dsdKr99i8FkBnryayU8VE,11646
+git_machete/options.py,sha256=fmqYUA_1mC1A0o0PpuiZpJBNFjjDaa-gRkLeWoUP6vA,2865
+git_machete/utils.py,sha256=v42vY8DbIB1suz70VA8F-KqMhe-FnVyrHsPz9ReQ-oc,8672
+git_machete-3.6.2.data/scripts/git-machete,sha256=RNGdCpKN00WPb4DhvAzvDY1T1HhkuTHkQtHHw-0euPk,624
+git_machete-3.6.2.dist-info/LICENSE,sha256=zqYne6HDvkofjSeB8uz65ab4nhOnCGLYQ5gsmzpGPOM,1075
+git_machete-3.6.2.dist-info/METADATA,sha256=8pVuMooPJkMqw3CMk79u4f9DMdF6vNtBloomDWXqbk8,8953
+git_machete-3.6.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+git_machete-3.6.2.dist-info/top_level.txt,sha256=_vVPtsfs8dQ2BnfAlQNaJMAJHW5_ZY4pB0qG5L5KMnA,12
+git_machete-3.6.2.dist-info/RECORD,,
