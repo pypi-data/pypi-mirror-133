@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aladin
+Version: 0.0.1
+Summary: Analysis of large-dimensional data in neuroscience
+Home-page: https://github.com/RajanDasgupta/aladin
+Author: Rajan Dasgupta
+Author-email: rajan.dg@gmail.com
+License: UNKNOWN
+Description: 
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: easygui
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sklearn
+
