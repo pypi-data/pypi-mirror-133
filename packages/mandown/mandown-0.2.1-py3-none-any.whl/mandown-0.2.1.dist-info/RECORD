@@ -1,0 +1,12 @@
+mandown/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mandown/cli.py,sha256=JXIUPv2fVUE16UwA1XVlHlLcSl3qMXrqyNPq9lgThas,1699
+mandown/iohandler.py,sha256=_S4Wm_OI0icqkVJeHNVovBP3_5sHJwXiWLmVn6m1_lA,933
+mandown/mandown.py,sha256=chZDzIOvg3XSpLOC10vjxKILypHwZ2H4PHPUqBN-OaI,987
+mandown/sources/__init__.py,sha256=AXqFllooLCqZ9mJKvuh4VYZlOtSd99XX4sZyyMJIIu8,745
+mandown/sources/base_source.py,sha256=93qcb66-uehwE4yNTPm3BL_hK3oJBNgOjq3V7Is67Vk,3213
+mandown/sources/source_mangasee.py,sha256=ty7Evko9q-zEhID9bw_GmUst4muKJ6RBPJUiqiS89Z0,3328
+mandown-0.2.1.dist-info/entry_points.txt,sha256=qD9AqHpC9dXal6GdTlFkurE_DjPpdz9XfjxRtrOd0Ls,44
+mandown-0.2.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+mandown-0.2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mandown-0.2.1.dist-info/METADATA,sha256=2X9otFZmdjByRhoFrgddJcQ2mlO4jXq--sdCu4LkwzY,2202
+mandown-0.2.1.dist-info/RECORD,,
