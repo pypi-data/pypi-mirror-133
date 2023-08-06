@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: RattleSNP
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/sravel/RattleSNP
+Author: Ravel Sebastien
+Author-email: sebastien.ravel@cirad.fr
+License: GPLv3
+Download-URL: https://github.com/sravel/RattleSNP/archive/1.0.0.tar.gz
+Project-URL: Bug Tracker, https://github.com/sravel/RattleSNP/issues
+Project-URL: Documentation, https://RattleSNP.readthedocs.io/en/latest/
+Project-URL: Source Code, https://github.com/sravel/RattleSNP
+Keywords: snakemake,SNP calling,workflow
+Platform: unix
+Platform: linux
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: PyYAML
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: tabulate
+Requires-Dist: rpy2
+Requires-Dist: ipython
+Requires-Dist: biopython
+Requires-Dist: pysam (<=0.15.4)
+Requires-Dist: pysamstats
+Requires-Dist: numpy
+Requires-Dist: argparse
+Requires-Dist: snakemake
+Requires-Dist: click (>=8.0.3)
+Requires-Dist: cookiecutter
+Requires-Dist: tqdm
+Provides-Extra: docs
+Requires-Dist: sphinx-copybutton ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-click ; extra == 'docs'
+
+.. image:: docs/source/_images/rattleSNP_logo.png
+   :target: docs/source/_images/rattleSNP_logo.png
+   :align: center
+   :alt: RattleSNP Logo
+
+|PythonVersions| |SnakemakeVersions|
+
+.. contents:: Table of Contents
+    :depth: 2
+
+About RattleSNP
+==================
+
+**Homepage:** `https://rattleSNP.readthedocs.io/en/latest/ <https://rattleSNP.readthedocs.io/en/latest/>`_
+
+
+The Best snakemake mapping pipeline !!!
+
+Authors
+=======
+
+* Sébastien RAVEL(CIRAD).
+
+License
+=======
+Licencied under `CeCill-C <http://www.cecill.info/licences/Licence_CeCILL-C_V1-en.html>`_ and GPLv3.
+
+Intellectual property belongs to CIRAD and authors.
+
+.. |PythonVersions| image:: https://img.shields.io/badge/python-3.7%2B-blue
+   :target: https://www.python.org/downloads
+.. |SnakemakeVersions| image:: https://img.shields.io/badge/snakemake-≥5.10.0-brightgreen.svg?style=flat
+   :target: https://snakemake.readthedocs.io
+
+
