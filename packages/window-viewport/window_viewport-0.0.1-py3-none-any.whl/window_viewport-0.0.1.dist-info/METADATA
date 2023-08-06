@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: window-viewport
+Version: 0.0.1
+Summary: Just another window to viewport coordinates translator
+Home-page: https://github.com/jeffa/window-viewport
+Author: Jeff Anderson
+Author-email: jeffa@cpan.org
+License: Artistic
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Artistic License
+
+Translate real world coordinates into any viewport coordinates
+
