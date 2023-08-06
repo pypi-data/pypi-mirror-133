@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jaxson
+Version: 0.1.8
+Summary: A generative art libary based on Jax
+Author: Sam Corzine
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: jax (>=0.2.24,<0.3.0)
+Requires-Dist: jaxlib (>=0.1.70,<0.2.0)
