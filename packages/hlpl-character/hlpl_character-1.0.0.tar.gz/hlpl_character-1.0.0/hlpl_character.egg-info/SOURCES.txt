@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hlpl_character/__init__.py
+hlpl_character/__main__.py
+hlpl_character/setup.cfg
+hlpl_character.egg-info/PKG-INFO
+hlpl_character.egg-info/SOURCES.txt
+hlpl_character.egg-info/dependency_links.txt
+hlpl_character.egg-info/entry_points.txt
+hlpl_character.egg-info/top_level.txt

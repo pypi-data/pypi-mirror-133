@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_character = hlpl_character.__main__:main
+
