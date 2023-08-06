@@ -1,0 +1,10 @@
+README.md
+setup.py
+lfsdb/__init__.py
+lfsdb/__version__.py
+lfsdb.egg-info/PKG-INFO
+lfsdb.egg-info/SOURCES.txt
+lfsdb.egg-info/dependency_links.txt
+lfsdb.egg-info/entry_points.txt
+lfsdb.egg-info/requires.txt
+lfsdb.egg-info/top_level.txt
