@@ -1,0 +1,17 @@
+seckerwiki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seckerwiki/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seckerwiki/commands/git.py,sha256=Nm6eMDiT1qkBf-LQjxFdG8LrnkHVrfFCopRkPe3oy9g,1965
+seckerwiki/commands/journal.py,sha256=hSXU6ah3hFwEfaF_XqBTL9Wo0GPlUsEgTice1GAX78o,2184
+seckerwiki/commands/lecture.py,sha256=NZ9Fw9D-vyjVp-IuFHPNA8zahSq2rwtZxqRGql-t3Vg,2345
+seckerwiki/commands/receipt.py,sha256=daYrNT9e4LSaIrHChgAJzoUGej6659bjbubyDvNJ-us,357
+seckerwiki/commands/setup.py,sha256=pn9Nn2ag7Gmeii0yeB3XbFCmtIcoKmtksuXFts9N048,1432
+seckerwiki/commands/stats.py,sha256=P9POlmu7h0VjOVaVTx4WG3Fnk_kQrASHrpi2F3l0pLI,1163
+seckerwiki/commands/toc.py,sha256=yWIMj8rAJmKuZMkQTH1826J7JHe0x2BG2iwoHe7fjiw,2153
+seckerwiki/scripts/lecture_gen.py,sha256=TacvhZzpH8870uslHyZrVWvZJ1jlqC6tfeGiQ_9YGr0,6738
+seckerwiki/util.py,sha256=5Jo5i7mtNB7dsGtwx5FDrw73NnSIqOWsADXWmcCev-M,1937
+seckerwiki/wiki.py,sha256=XvJ7DAnybU91r1StkKZHD1FLYXL6QlcOSp8wdYn5snI,2979
+seckerwiki-2.0.12.dist-info/entry_points.txt,sha256=Ip5bgNF5YoWLvyOM-HwKjFcMjUDtUx6ZE_FgBax1Hcw,45
+seckerwiki-2.0.12.dist-info/LICENSE.txt,sha256=wxng8jakD_ArH_jvZ6tiU40GM3pmmaP-S2Nag49nowc,1053
+seckerwiki-2.0.12.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+seckerwiki-2.0.12.dist-info/METADATA,sha256=3zuZUTC0JIYBEMg1JYCxLDwlXSNgD5BtDn7ilJpPSiA,3833
+seckerwiki-2.0.12.dist-info/RECORD,,
