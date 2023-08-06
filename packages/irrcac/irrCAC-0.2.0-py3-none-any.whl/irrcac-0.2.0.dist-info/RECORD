@@ -1,0 +1,9 @@
+irrCAC/__init__.py,sha256=xF-Yn4BLuxwqdt59sv9Mztp9KD5gEAsi5t652Q-6PO0,1044
+irrCAC/benchmark.py,sha256=URwTd2_Zmb7W8g4oDhGAdUnbtQfNeeyQ_aWzfIA1m3A,11073
+irrCAC/datasets.py,sha256=4UOLk7ucBAx-qaoCa5iRpd0jGP_fvIAw2kk5HdZYJZ4,15583
+irrCAC/raw.py,sha256=Ge9DJ-2uvxzQWi4hXRGlfsNPPUlILdEhaGVOTx8uO_c,16615
+irrCAC/table.py,sha256=9ed237rtKc_SSUMiFcwcBVqH2zk8rp4i3GfYmCnyxRo,16724
+irrCAC/weights.py,sha256=vJ0GggfZDj8r6XRZYnDkTyRyzbtyHmu5_H55QZFNfcg,10383
+irrcac-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+irrcac-0.2.0.dist-info/METADATA,sha256=VmlD_kS4yEfFhJFb8Wm2mhMFNFbXflk12gGQIA2LGUY,3005
+irrcac-0.2.0.dist-info/RECORD,,
