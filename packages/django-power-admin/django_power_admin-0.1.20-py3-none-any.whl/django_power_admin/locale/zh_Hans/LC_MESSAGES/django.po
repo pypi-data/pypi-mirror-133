@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-09 19:12+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\django_power_admin\admin.py:488
+msgid "Operations"
+msgstr "操作"
+
+#: .\django_power_admin\admin.py:507
+msgid "Read"
+msgstr "查看"
+
+#: .\django_power_admin\admin.py:515
+msgid "Change"
+msgstr "编辑"
+
+#: .\django_power_admin\admin.py:523
+msgid "Delete"
+msgstr "删除"
+
+#: .\django_power_admin\admin.py:531
+msgid "Add Child"
+msgstr "增加子节点"
+
+#: .\django_power_admin\admin.py:634
+msgid "Sortable Admin Sortable Arrows"
+msgstr "排序按钮"
+
+#: .\django_power_admin\admin.py:664
+msgid "This item is already the first."
+msgstr "已经到最顶端了。"
+
+#: .\django_power_admin\admin.py:681
+msgid "Item move up done!"
+msgstr "已成功向上移动。"
+
+#: .\django_power_admin\admin.py:684
+msgid "Move Up"
+msgstr "向上"
+
+#: .\django_power_admin\admin.py:708
+msgid "This item is already the last."
+msgstr "已经到最底部了。"
+
+#: .\django_power_admin\admin.py:725
+msgid "Item move down done!"
+msgstr "已成功下向移动。"
+
+#: .\django_power_admin\admin.py:728
+msgid "Move Down"
+msgstr "向下"
+
+#: .\django_power_admin\admin.py:905
+msgid "Export"
+msgstr "导出"
+
+#: .\django_power_admin\admin.py:911
+msgid "Export All"
+msgstr "导出全部"
+
+#: .\django_power_admin\admin.py:971
+msgid "Export Filtered"
+msgstr "按筛选条件导出全部"
+
+#: .\django_power_admin\apps.py:7
+msgid "Django Power Admin"
+msgstr "DjangoAdmin扩展"
+
+#: .\django_power_admin\export.py:80 .\django_power_admin\models.py:104
+#: .\django_power_admin\models.py:125
+msgid "NULL"
+msgstr "空"
+
+#: .\django_power_admin\export.py:80 .\django_power_admin\models.py:114
+#: .\django_power_admin\models.py:125
+msgid "TRUE"
+msgstr "是"
+
+#: .\django_power_admin\export.py:80 .\django_power_admin\models.py:114
+#: .\django_power_admin\models.py:125
+msgid "FALSE"
+msgstr "否"
+
+#: .\django_power_admin\models.py:22 .\django_power_admin\models.py:55
+msgid "Owner"
+msgstr "所有者"
+
+#: .\django_power_admin\models.py:56
+msgid "Manager"
+msgstr "管理员"
+
+#: .\django_power_admin\models.py:57
+msgid "Developer"
+msgstr "开发者"
+
+#: .\django_power_admin\models.py:58
+msgid "Visitor"
+msgstr "访问者"
+
+#: .\django_power_admin\models.py:60
+msgid "User"
+msgstr "用户"
+
+#: .\django_power_admin\models.py:61
+msgid "Role"
+msgstr "角色"
+
+#: .\django_power_admin\models.py:191 .\django_power_admin\models.py:210
+msgid "COLUMN#{}"
+msgstr "第{}列"
+
+#: .\django_power_admin\models.py:270
+msgid "Index"
+msgstr "序号"
+
+#: .\django_power_admin\models.py:274
+msgid "Primary Key Field Name"
+msgstr "内部编号"
