@@ -1,0 +1,17 @@
+PyYaml
+pydantic
+yarl
+httpx
+
+[expression]
+tatsu
+
+[tests]
+pytest
+pytest-asyncio
+pytest-httpx
+pytest-coverage
+fastapi-versioning
+hypercorn
+uvloop
+tatsu
