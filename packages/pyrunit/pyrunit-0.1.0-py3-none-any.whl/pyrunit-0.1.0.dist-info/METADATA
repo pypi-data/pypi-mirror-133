@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pyrunit
+Version: 0.1.0
+Summary: Simple shortcut to manage runit service
+Home-page: https://gitlab.com/nesstero/pyrunit
+Author: nestero
+Author-email: nestero@mail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyRunit
+Simple shortcut to manage runit service.
+
+# Install
+```
+$ pip install pyrunit
+```
+
+# Usage
+```
+$ pyrunit -h
+
+██████╗ ██╗   ██╗██████╗ ██╗   ██╗███╗   ██╗██╗████████╗
+██╔══██╗╚██╗ ██╔╝██╔══██╗██║   ██║████╗  ██║██║╚══██╔══╝
+██████╔╝ ╚████╔╝ ██████╔╝██║   ██║██╔██╗ ██║██║   ██║
+██╔═══╝   ╚██╔╝  ██╔══██╗██║   ██║██║╚██╗██║██║   ██║
+██║        ██║   ██║  ██║╚██████╔╝██║ ╚████║██║   ██║
+╚═╝        ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝ v.0.1.0
+Simple shortcut to manage runit service.
+
+
+Options:
+  -h, --help               Display this message
+  -l, --list-service       Enable service list
+  -la, --list-all-service  List a service
+  -c, --check-status       Check service status
+  -r, --run                Run service
+  -s, --stop               Stop service
+  -R, --restart            Restart service
+  -e, --enable             Enable service
+  -d, --disable            Disable service
+```
+
+
