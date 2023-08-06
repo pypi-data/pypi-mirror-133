@@ -1,0 +1,9 @@
+README.md
+setup.py
+py_Matrix_123.egg-info/PKG-INFO
+py_Matrix_123.egg-info/SOURCES.txt
+py_Matrix_123.egg-info/dependency_links.txt
+py_Matrix_123.egg-info/top_level.txt
+pymatrix123/__init__.py
+pymatrix123/generalmatrix.py
+pymatrix123/squarematrix.py
