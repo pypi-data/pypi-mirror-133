@@ -1,0 +1,8 @@
+setup.py
+WhatSender/__init__.py
+WhatSender/sender.py
+WhatSender.egg-info/PKG-INFO
+WhatSender.egg-info/SOURCES.txt
+WhatSender.egg-info/dependency_links.txt
+WhatSender.egg-info/requires.txt
+WhatSender.egg-info/top_level.txt
