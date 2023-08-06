@@ -1,0 +1,8 @@
+docstats/__init__.py,sha256=iU3yowEu1V29lcpQzmjwYHLzQOXZdrltwocU7rxrqbo,36
+docstats/directives/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+docstats/directives/call_graph.py,sha256=nsKisvrAJz1YHjeFaNi9HZ9zpF1rtWB-rGG_fkDud_A,1224
+docstats/docstats.py,sha256=99ZxXEaVWHD6YoscaIKNu3JXDel5empY_nDomFxp9Zg,731
+docstats-0.1.0.dist-info/LICENSE,sha256=gqO73FYvrp0CCAQ9hpBaph-YjdBQOvXtNllfeAJF0qo,1089
+docstats-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+docstats-0.1.0.dist-info/METADATA,sha256=rs1H0GHIU-zaAPoRQp-Yn1gKOLE9ha8eB56QstvRpQ0,553
+docstats-0.1.0.dist-info/RECORD,,
