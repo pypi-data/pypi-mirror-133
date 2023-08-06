@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: discordpy-helpme
+Version: 0.1
+Summary: A helper package for discord.py
+Home-page: UNKNOWN
+Author: Shayokh
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: discord.py
+
+UNKNOWN
+
