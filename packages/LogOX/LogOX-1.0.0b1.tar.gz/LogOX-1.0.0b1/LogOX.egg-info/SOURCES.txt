@@ -1,0 +1,11 @@
+LICENSE
+NOTICE
+README.md
+setup.py
+LogOX/__init__.py
+LogOX/formatter.py
+LogOX/main.py
+LogOX.egg-info/PKG-INFO
+LogOX.egg-info/SOURCES.txt
+LogOX.egg-info/dependency_links.txt
+LogOX.egg-info/top_level.txt
