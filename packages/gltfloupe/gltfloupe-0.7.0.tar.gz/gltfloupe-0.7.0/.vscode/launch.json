@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gltfloupe",
+            "type": "python",
+            "request": "launch",
+            "module": "gltfloupe",
+            "args": [
+                "${env:GLTF_SAMPLE_MODELS}/2.0/CesiumMan/glTF-Binary/CesiumMan.glb"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "gltfloupe(profile)",
+            "type": "python",
+            "request": "launch",
+            "module": "cProfile",
+            "args": [
+                "-s",
+                "cumulative",
+                "-o",
+                "profile.dat",
+                "-m",
+                "gltfloupe",
+                "${env:GLTF_SAMPLE_MODELS}/2.0/CesiumMan/glTF-Binary/CesiumMan.glb"
+            ],
+            "justMyCode": false
+        },
+        {
+            "name": "stubgen",
+            "type": "python",
+            "request": "launch",
+            "program": "stubgen.py",
+            "justMyCode": false
+        },
+        {
+            "name": "print_profile",
+            "type": "python",
+            "request": "launch",
+            "program": "print_profile.py",
+            "justMyCode": false
+        },
+    ]
+}

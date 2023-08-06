@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gltfloupe
+Version: 0.7.0
+Summary: glTF debug viewer
+Home-page: https://ousttrue.github.io/gltfloupe/
+Author: ousttrue
+Author-email: ousttrue@gmail.com
+License: UNKNOWN
+Project-URL: source, https://github.com/ousttrue/gltfloupe
+Keywords: opengl,gltf
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Description-Content-Type: text/markdown
+
+# gltfloupe 🔎
+
+glTF viewer.
+
+<https://github.com/ousttrue/gltfloupe>
+
+
+## experimental pyimgui-2.0 GUI
+
+`git+ssh://git@github.com/pyimgui/pyimgui@docking`
+
+## install
+
+`pip install gltfloupe --upgrade`
+
+windows
+
+`{PYTHON_INSTALL}/Scripts/gltfloupe.exe`
+
+

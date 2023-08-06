@@ -1,0 +1,4 @@
+glglue>=1.12.1
+pygltfio>=0.5.0
+pillow
+toml

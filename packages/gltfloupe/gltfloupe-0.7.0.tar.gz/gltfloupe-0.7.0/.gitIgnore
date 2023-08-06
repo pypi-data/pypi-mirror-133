@@ -1,0 +1,6 @@
+.venv
+*.pyc
+*.egg-info
+src/gltfloupe/_version.py
+/imgui.ini
+typings/imgui
