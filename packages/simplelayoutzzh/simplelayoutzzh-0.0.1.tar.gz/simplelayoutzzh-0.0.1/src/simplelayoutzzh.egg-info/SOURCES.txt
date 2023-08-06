@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/simplelayoutzzh.egg-info/PKG-INFO
+src/simplelayoutzzh.egg-info/SOURCES.txt
+src/simplelayoutzzh.egg-info/dependency_links.txt
+src/simplelayoutzzh.egg-info/entry_points.txt
+src/simplelayoutzzh.egg-info/requires.txt
+src/simplelayoutzzh.egg-info/top_level.txt
