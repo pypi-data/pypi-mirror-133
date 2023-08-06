@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h2>Compose</h2>
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+{% for category, message in messages %}
+<div class="ui {{ category }} message">
+  {{ message }}
+</div>
+{% endfor %}
+{% endif %}
+{% endwith %}
+<div class="ui form">
+  <form method="POST" action="{{ url_for('query', env=current_env) }}">
+    {{ form.csrf_token }}
+    <div class="field {% if form.query.errors %} error {% endif %}">
+      {{ form.query(autofocus="autofocus", rows=5, placeholder="nodes { certname = \"hostname\" }") }}
+    </div>
+    <div class="inline fields">
+      <div class="field">
+        API Endpoint: {{ form.endpoints() }}
+      </div>
+      <div class="field">
+        {{ form.rawjson(active=True) }} Raw (but pretty and colored) JSON
+      </div>
+      <input type=submit class="ui active submit button" value='Submit'>
+    </div>
+  </form>
+</div>
+
+{% if result or zero_results or error_text %}
+
+<div class="row">
+ <div class="span12">
+  <h2 id="results_header">Result</h2>
+
+  {% if result %}
+    <p id="number_of_results" class="info_message">Number of results: {{ result | length }}</p>
+    {% if form.rawjson.data %}
+    <pre class="result" id="result"></pre>
+    <script>
+    try {
+        $("#result").html(pretty_print(JSON.parse('{{ result | tojson }}')));
+    } catch (e) {
+        $("#result").html(pretty_print({{ result | tojson }}));
+    }
+    </script>
+    {% else %}
+    {% autoescape false %}
+    {{ result | prettyprint}}
+    {% endautoescape %}
+    {% endif %}
+
+  {% elif zero_results %}
+
+    <div class="ui warning message">
+        <div class="header">Zero results</div>
+        <p id="zero_results" class="warning_message">The query was successful but the response is empty. Please try changing query conditions.</p>
+    </div>
+
+  {% elif error_text %}
+
+    <div class="ui error message">
+        <div class="header">Invalid query</div>
+        <pre id="invalid_query" class="error_message">{{ error_text }}</pre>
+    </div>
+
+  {% endif %}
+
+ </div>
+</div>
+
+{% endif %}
+
+{% endblock content %}
