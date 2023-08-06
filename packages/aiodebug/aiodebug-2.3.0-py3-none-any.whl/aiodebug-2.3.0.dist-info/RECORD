@@ -1,0 +1,12 @@
+aiodebug/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiodebug/hang_inspection.py,sha256=im7OOe84P1JMFady_nFG4cgFYxxcxvVuGlzjCn4A_0A,2662
+aiodebug/log_slow_callbacks.py,sha256=nxpTv8xGZ26X4wz8oNc_wvgn3bwueHL-TZNBa7wS7Lk,1266
+aiodebug/logging_compat.py,sha256=UYT4JnK6JgM9y9jsxnND7iS4tx4QLPqicIF9ffEKvNM,106
+aiodebug/monitor_loop_lag.py,sha256=BdBJhDr-li-SdqNFYJORhBros2r-uXW0TzwxWoGCW34,807
+aiodebug/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiodebug/testing/time_dilated_loop.py,sha256=7RDOLvu8gL69hkCKG6Co3DuH-BhLw5aeqXOZoYlzTwY,3001
+aiodebug-2.3.0.dist-info/LICENSE,sha256=tEH9SALRCLbEUGGI77Jix2N5Ty2U-2Auk8mwUZW_X9g,589
+aiodebug-2.3.0.dist-info/METADATA,sha256=AogyTrLpTk9jaSSqxE5Z5Mg-mKJn17UrE8wh4OcG6XM,4537
+aiodebug-2.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiodebug-2.3.0.dist-info/top_level.txt,sha256=DqHiDW90j8aG28hBIMbZNiLUyXWrEeIcQIHx0QcMz2s,9
+aiodebug-2.3.0.dist-info/RECORD,,
