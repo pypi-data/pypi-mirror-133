@@ -1,0 +1,67 @@
+**enp** (stands for Everything in NumPy) provides implementation of deep learning, machine learning, and math algorithms in
+NumPy and pure Python.
+
+Installation
+----------------------
+
+You can install the library using pip: ::
+
+    pip install enp
+
+Description
+----------------------
+
+The library consists of 3 main parts:
+
+- deep learning
+    - examples of usage are in examples/nn
+    - impementation is in enp/nn
+    - loosely follows PyTorch conventions
+- machine learning
+    - examples of usage are in examples/ml
+    - impementation is in enp/ml
+    - loosly follows scikit-learn conventions
+- linear algebra
+    - examples of usage are in tests/test_linear_algebra.py and tests/test_linear_algebra_additional.py
+    - impementation is in enp/linalg
+
+Deep Learning
+----------------------
+Example of building, prediction, and training a simple neural network consisting of linear layers: ::
+
+    from enp.nn import *
+
+    model = Model(learning_rate=0.0075)
+    input_layer = InputLayer(layer_dim=12288)
+    linear_1 = Linear(layer_dim=7, prev_layer=input_layer, activation='relu')
+    linear_2 = Linear(layer_dim=1, prev_layer=linear_1, activation='sigmoid')
+    cost_layer = BCELoss(layer_dim=1, prev_layer=linear_2)
+    model.layers = [input_layer, linear_1, linear_2, cost_layer]
+    model.train(x=train_x, y=train_y, num_iterations=2500)
+    test_y_pred = model.predict(test_x)
+
+Machine Learning
+----------------------
+Example of building, prediction, and training a linear regression: ::
+
+    from enp.ml import LinearRegression
+    import numpy as np
+
+    X = np.array([[1, 1], [1, 2], [2, 2], [2, 3]])
+    y = np.dot(X, np.array([1, 2])) + 3
+    reg = LinearRegression().fit(X, y)
+    prediction = reg.predict(np.array([[3, 5]]))
+
+Linear Algebra
+----------------------
+Example of solving a system of linear equations Ax=b: ::
+
+    from enp.linalg import solve_system_of_linear_equations
+    import numpy as np
+
+    a = np.array([[0, -2],
+                  [4, 7]])
+    b = np.array([1, 2])
+    x = solve_system_of_linear_equations(a, b)
+
+
