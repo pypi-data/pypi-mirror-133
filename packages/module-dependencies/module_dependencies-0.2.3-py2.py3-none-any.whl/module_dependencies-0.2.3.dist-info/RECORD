@@ -1,0 +1,17 @@
+module_dependencies/__init__.py,sha256=G_V6_J5RCJdqqQSgsxJc6cJdOIEfJhbJRKMaXLfnz2o,5257
+module_dependencies/module/__init__.py,sha256=8iXAyWYqJXlo8il7zQiFlX_0KgBCPvnkuJE6GR6bU5Q,5243
+module_dependencies/module/module.py,sha256=A8zQ4lTXOla6zvjsuAdmxCT0F56Xn2y9L8KO0FWG2f0,23727
+module_dependencies/module/query.txt,sha256=pqzztRGAOPgpnEy20qpc3jPFREhwwNlwmxn5Yder-6w,793
+module_dependencies/module/session.py,sha256=dHwfmyr6fxFihYx2zmQkOr015cSt9_r-jKYQV00icHs,10871
+module_dependencies/source/__init__.py,sha256=OToLfLPW1b5OWVHOzKQiQpnPhjwo-7_JCNFndxn6ajo,1450
+module_dependencies/source/api.py,sha256=c0K0u_yiMl3AAd2I8Xu2CiRDn-gZkIBkl5rZR8oM81c,5302
+module_dependencies/source/factory.py,sha256=IO5Y5kpaOf7Cgd6p5dBoP3bEzYuUGH-seU3eIzQHvpA,2436
+module_dependencies/source/source.py,sha256=TLoivI0dl7tooQL24dIwRDVzz11HS86cjxvL2o2fAJI,10062
+module_dependencies/source/visitor.py,sha256=o-yfkU33foBgih3Mm6RkF2bVW92n0G-wrQXbDPCwlq4,11989
+module_dependencies/util/__init__.py,sha256=y8T5BHYMSPdwMBrJWCFR0H5oRgPMgOyl_7ALmDMMBOw,84
+module_dependencies/util/tokenize.py,sha256=_KqOwHLjzDmygpqqBNxpIozrBbFTFYutNJRyqQbao9s,585
+module_dependencies-0.2.3.dist-info/LICENSE,sha256=wX1otATqQglJ35KpKGXIkCgiOXZ1mNqK1LWgvHX1uec,1088
+module_dependencies-0.2.3.dist-info/METADATA,sha256=sA4NuNRspbgPE3chEjUsFX79zzCW0Ta2XpjfI1UtHeE,6477
+module_dependencies-0.2.3.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+module_dependencies-0.2.3.dist-info/top_level.txt,sha256=L_zvyH3N9DAnSkcUmlu_rj-Rx9QzG2IYTkXDFyMPHqs,20
+module_dependencies-0.2.3.dist-info/RECORD,,
