@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: shopex-matrix-tools
+Version: 1.4.4
+Summary: shopex_matrix_tools
+Home-page: https://git.ishopex.cn/matrix-container/matrix_tools.git
+Author: xuhongtao
+Author-email: 18921846960@163.com
+License: BSD License
+Description: just use by yourself
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
