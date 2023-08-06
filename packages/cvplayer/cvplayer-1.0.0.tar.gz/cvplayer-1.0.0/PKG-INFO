@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cvplayer
+Version: 1.0.0
+Summary: a simple video player written in python using ffpyplayer and OpenCV
+Home-page: https://github.com/addyett/video-player
+Author: addyett
+Author-email: g.aditya2048@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# video-player
+a simple video player written in python using ffpyplayer and OpenCV
+
+
