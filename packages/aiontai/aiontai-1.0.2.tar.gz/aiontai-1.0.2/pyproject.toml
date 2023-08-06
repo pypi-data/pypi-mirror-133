@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "aiontai"
+version = "1.0.2"
+description = "Async wrapper for nhentai API"
+authors = ["LEv145"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/LEv145/aiontai"
+documentation = "https://aiontai.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.1"
+schema = "^0.7.5"
+injector = "^0.19.0"
+dataclasses-json = "^0.5.6"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.930"
+mkinit = "^0.3.4"
+black = "^21.12b0"
+coverage = {extras = ["toml"], version = "^6.2"}
+attrs = "^21.4.0"
+pydocstyle = {extras = ["toml"], version = "^6.1.1"}
+flake8-import-order = "^0.18.1"
+flake8-commas = {git = "https://github.com/LEv145/flake8-commas"}
+flake9 = "^3.8.3"
+poethepoet = "^0.11.0"
+Sphinx = "^4.3.2"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.mypy]
+ignore_missing_imports = true
+strict_optional = true
+implicit_reexport = true
+warn_unused_ignores = false
+disallow_any_generics = false
+
+[tool.flake8]
+max-line-length = 99
+
+application-import-names = "aiontai,tests"
+import-order-style = "pep8"
+
+[tool.coverage.run]
+branch = true
+command_line = "-m unittest discover tests"
+
+[tool.coverage.report]
+exclude_lines = [
+    "def __repr__",
+    "def __str__",
+    "if __name__ == .__main__.:",
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "\\.\\.\\.",
+    "pass",
+]
+
+[tool.poe.tasks]
+mkinit = "mkinit aiontai -w --black --nomods --relative --recursive"
