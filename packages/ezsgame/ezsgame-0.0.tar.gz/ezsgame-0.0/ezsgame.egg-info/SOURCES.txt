@@ -1,0 +1,11 @@
+README.md
+setup.py
+ezgame/__init__.py
+ezgame/animations.py
+ezgame/main.py
+ezgame/premade.py
+ezsgame.egg-info/PKG-INFO
+ezsgame.egg-info/SOURCES.txt
+ezsgame.egg-info/dependency_links.txt
+ezsgame.egg-info/requires.txt
+ezsgame.egg-info/top_level.txt
