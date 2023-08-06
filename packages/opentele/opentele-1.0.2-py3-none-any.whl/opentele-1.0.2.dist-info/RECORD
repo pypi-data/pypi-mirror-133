@@ -1,0 +1,10 @@
+opentele/__init__.py,sha256=AEF1cNoHnWKs9cbW9R0-FWcLrwDjj6X8l64-Rss7V5w,22
+opentele/authkey.py,sha256=hDvBItcgCXMF_VyGePH7aENDEnoLBYrTn68Eah-031k,1426
+opentele/exception.py,sha256=v1S8J6R5PeqFuLp1PO2hlMKUOGohL5JRYhqkQnXBEL0,1912
+opentele/setup.py,sha256=xeoJO-fTwvqzwosN7GCK9YOlZ3AbBTSag4-puLpXTZ0,873
+opentele/storage.py,sha256=7MDcqVke4g7LpM4569FfWrTEZDIxww_gunLy3NVVLdU,7029
+opentele/tdesktop.py,sha256=zY41jwSVeMKHoL1J0Q6X6MgYEQ_-Zi7AdSY_zHwhl7Y,3046
+opentele-1.0.2.dist-info/METADATA,sha256=Xgpc6gT6Gf2Ym2dvSTluxg24an4m45rLMdDa6ovq_Wo,447
+opentele-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+opentele-1.0.2.dist-info/top_level.txt,sha256=DVKuOJWXaihyMvUh6P7OEojtwJDt3aDM4zWQCC6APlw,9
+opentele-1.0.2.dist-info/RECORD,,
