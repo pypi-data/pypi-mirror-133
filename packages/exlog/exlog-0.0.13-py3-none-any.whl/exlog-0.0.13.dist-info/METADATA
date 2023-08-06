@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: exlog
+Version: 0.0.13
+Summary: exception logging decorator
+Home-page: https://github.com/yrom1/exception-logging-decorator
+Author: yrom1
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mypy-extensions
+Requires-Dist: backports.zoneinfo ; python_version < "3.9"
+
+# exception-logging-decorator
+The following function:
+```py
+from typing import NoReturn
+
+from src.exlog.exceptlog import exception_logger
+# if install from pip, use:
+# from exlog.exceptlog
+
+log = exception_logger("./tests/log.log", "US/Eastern")
+
+
+@log
+def no_return() -> NoReturn:
+    """Test function."""
+    raise Exception("DO NOT PASS GO DO NOT COLLECT $200.")
+
+
+if __name__ == "__main__":
+    try:
+        no_return()
+    except:
+        pass
+```
+Logs the following exception in `log.log`.
+```
+ERROR:root:no_return
+  raised Exception: DO NOT PASS GO DO NOT COLLECT $200.
+    called with args = (), kwargs = {}
+    at 2022-01-04 14:40:23.745422-05:00
+Traceback (most recent call last):
+  File "/home/ryan/exception-logging-decorator/src/exlog/exceptlog.py", line 65, in wrapper
+    output = function(*args, **kwargs)
+  File "/home/ryan/exception-logging-decorator/./tests/test.py", line 23, in no_return
+    raise Exception("DO NOT PASS GO DO NOT COLLECT $200.")
+Exception: DO NOT PASS GO DO NOT COLLECT $200.
+```
+
+
