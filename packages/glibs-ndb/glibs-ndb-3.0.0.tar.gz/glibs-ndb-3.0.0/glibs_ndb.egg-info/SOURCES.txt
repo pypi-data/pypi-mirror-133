@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+glibs/__init__.py
+glibs/ndb/ProtocolBuffer.py
+glibs/ndb/__init__.py
+glibs/ndb/compat.py
+glibs/ndb/entity_pb.py
+glibs/ndb/ndb.py
+glibs_ndb.egg-info/PKG-INFO
+glibs_ndb.egg-info/SOURCES.txt
+glibs_ndb.egg-info/dependency_links.txt
+glibs_ndb.egg-info/namespace_packages.txt
+glibs_ndb.egg-info/requires.txt
+glibs_ndb.egg-info/top_level.txt
