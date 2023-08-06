@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keywordspec name="OpenApiDriver" type="LIBRARY" format="HTML" scope="SUITE" generated="2022-01-06T09:03:31Z" specversion="3" source="openapidriver.py" lineno="275">
+<version>1.5.0</version>
+<doc>&lt;p&gt;Helper class to be able to generate curated libdoc and libspec documentation.&lt;/p&gt;</doc>
+<tags>
+</tags>
+<inits>
+<init name="Init" lineno="148">
+<arguments repr="source: str, ignored_endpoints: List[str] | None = None, ignored_responses: List[int] | None = None, ignored_testcases: List[typing.List[str]] | None = None, origin: str = , base_path: str = , mappings_path: str | Path = , username: str = , password: str = , security_token: str = , auth: AuthBase | None = None, response_validation: ValidationLevel = WARN, disable_server_validation: bool = True, require_body_for_invalid_url: bool = False, invalid_property_default_response: int = 422">
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="source: str">
+<name>source</name>
+<type>str</type>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="ignored_endpoints: List[str] | None = None">
+<name>ignored_endpoints</name>
+<type>List[str]</type>
+<type>None</type>
+<default>None</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="ignored_responses: List[int] | None = None">
+<name>ignored_responses</name>
+<type>List[int]</type>
+<type>None</type>
+<default>None</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="ignored_testcases: List[typing.List[str]] | None = None">
+<name>ignored_testcases</name>
+<type>List[typing.List[str]]</type>
+<type>None</type>
+<default>None</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="origin: str = ">
+<name>origin</name>
+<type>str</type>
+<default/>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="base_path: str = ">
+<name>base_path</name>
+<type>str</type>
+<default/>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="mappings_path: str | Path = ">
+<name>mappings_path</name>
+<type>str</type>
+<type>Path</type>
+<default/>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="username: str = ">
+<name>username</name>
+<type>str</type>
+<default/>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="password: str = ">
+<name>password</name>
+<type>str</type>
+<default/>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="security_token: str = ">
+<name>security_token</name>
+<type>str</type>
+<default/>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="auth: AuthBase | None = None">
+<name>auth</name>
+<type>AuthBase</type>
+<type>None</type>
+<default>None</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="response_validation: ValidationLevel = WARN">
+<name>response_validation</name>
+<type>ValidationLevel</type>
+<default>WARN</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="disable_server_validation: bool = True">
+<name>disable_server_validation</name>
+<type>bool</type>
+<default>True</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="require_body_for_invalid_url: bool = False">
+<name>require_body_for_invalid_url</name>
+<type>bool</type>
+<default>False</default>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="invalid_property_default_response: int = 422">
+<name>invalid_property_default_response</name>
+<type>int</type>
+<default>422</default>
+</arg>
+</arguments>
+<doc>&lt;h4&gt;source&lt;/h4&gt;
+&lt;p&gt;An absolute path to an openapi.json or openapi.yaml file or an url to such a file.&lt;/p&gt;
+&lt;h4&gt;ignored_endpoints&lt;/h4&gt;
+&lt;p&gt;A list of endpoints that will be ignored when generating the test cases.&lt;/p&gt;
+&lt;h4&gt;ignored_responses&lt;/h4&gt;
+&lt;p&gt;A list of responses that will be ignored when generating the test cases.&lt;/p&gt;
+&lt;h4&gt;ignored_testcases&lt;/h4&gt;
+&lt;p&gt;A list of specific test cases that, if it would be generated, will be ignored. Specific test cases to ignore must be specified as a &lt;code&gt;List&lt;/code&gt; of &lt;code&gt;endpoint&lt;/code&gt;, &lt;code&gt;method&lt;/code&gt; and &lt;code&gt;response&lt;/code&gt;.&lt;/p&gt;
+&lt;h4&gt;origin&lt;/h4&gt;
+&lt;p&gt;The server (and port) of the target server. E.g. &lt;code&gt;https://localhost:7000&lt;/code&gt;&lt;/p&gt;
+&lt;h4&gt;base_path&lt;/h4&gt;
+&lt;p&gt;The routing between &lt;code&gt;origin&lt;/code&gt; and the endpoints as found in the &lt;code&gt;paths&lt;/code&gt; in the openapi document. E.g. &lt;code&gt;/petshop/v2&lt;/code&gt;.&lt;/p&gt;
+&lt;h4&gt;mappings_path&lt;/h4&gt;
+&lt;p&gt;See &lt;a href="https://marketsquare.github.io/robotframework-openapi-libcore/advanced_use.html"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;username&lt;/h4&gt;
+&lt;p&gt;The username to be used for Basic Authentication.&lt;/p&gt;
+&lt;h4&gt;password&lt;/h4&gt;
+&lt;p&gt;The password to be used for Basic Authentication.&lt;/p&gt;
+&lt;h4&gt;security_token&lt;/h4&gt;
+&lt;p&gt;The token to be used for token based security using the &lt;code&gt;Authorization&lt;/code&gt; header.&lt;/p&gt;
+&lt;h4&gt;auth&lt;/h4&gt;
+&lt;p&gt;A &lt;a href="https://docs.python-requests.org/en/latest/api/#authentication"&gt;requests AuthBase instance&lt;/a&gt; to be used for authentication instead of the &lt;code&gt;username&lt;/code&gt; and &lt;code&gt;password&lt;/code&gt;.&lt;/p&gt;
+&lt;h4&gt;response_validation&lt;/h4&gt;
+&lt;p&gt;By default, a &lt;code&gt;WARN&lt;/code&gt; is logged when the Response received after a Request does not comply with the schema as defined in the openapi document for the given operation. The following values are supported:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;DISABLED&lt;/code&gt;: All Response validation errors will be ignored&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;INFO&lt;/code&gt;: Any Response validation erros will be logged at &lt;code&gt;INFO&lt;/code&gt; level&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;WARN&lt;/code&gt;: Any Response validation erros will be logged at &lt;code&gt;WARN&lt;/code&gt; level&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;STRICT&lt;/code&gt;: The Test Case will fail on any Response validation errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;disable_server_validation&lt;/h4&gt;
+&lt;p&gt;If enabled by setting this parameter to &lt;code&gt;True&lt;/code&gt;, the Response validation will also include possible errors for Requests made to a server address that is not defined in the list of servers in the openapi document. This generally means that if there is a mismatch, every Test Case will raise this error. Note that &lt;code&gt;localhost&lt;/code&gt; and &lt;code&gt;127.0.0.1&lt;/code&gt; are not considered the same by Response validation.&lt;/p&gt;
+&lt;h4&gt;require_body_for_invalid_url&lt;/h4&gt;
+&lt;p&gt;When a request is made against an invalid url, this usually is because of a "404" request; a request for a resource that does not exist. Depending on API implementation, when a request with a missing or invalid request body is made on a non-existent resource, either a 404 or a 422 or 400 Response is normally returned. If the API being tested processes the request body before checking if the requested resource exists, set this parameter to True.&lt;/p&gt;
+&lt;h4&gt;invalid_property_default_response&lt;/h4&gt;
+&lt;p&gt;The default response code for requests with a JSON body that does not comply with the schema. Example: a value outside the specified range or a string value for a property defined as integer in the schema.&lt;/p&gt;</doc>
+<shortdoc>=== source === An absolute path to an openapi.json or openapi.yaml file or an url to such a file.</shortdoc>
+</init>
+</inits>
+<keywords>
+<kw name="Test Endpoint" source="openapi_executors.py" lineno="135">
+<arguments repr="endpoint: str, method: str, status_code: int">
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="endpoint: str">
+<name>endpoint</name>
+<type>str</type>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="method: str">
+<name>method</name>
+<type>str</type>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="status_code: int">
+<name>status_code</name>
+<type>int</type>
+</arg>
+</arguments>
+<doc>&lt;p&gt;Validate that performing the &lt;span class="name"&gt;method&lt;/span&gt; operation on &lt;span class="name"&gt;endpoint&lt;/span&gt; results in a &lt;span class="name"&gt;status_code&lt;/span&gt; response.&lt;/p&gt;
+&lt;p&gt;This is the main keyword to be used in the &lt;span class="name"&gt;Test Template&lt;/span&gt; keyword when using the OpenApiDriver.&lt;/p&gt;
+&lt;p&gt;The keyword calls other keywords to generate the neccesary data to perform the desired operation and validate the response against the openapi document.&lt;/p&gt;</doc>
+<shortdoc>Validate that performing the `method` operation on `endpoint` results in a `status_code` response.</shortdoc>
+</kw>
+<kw name="Test Invalid Url" source="openapi_executors.py" lineno="93">
+<arguments repr="endpoint: str, method: str, expected_status_code: int = 404">
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="endpoint: str">
+<name>endpoint</name>
+<type>str</type>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="method: str">
+<name>method</name>
+<type>str</type>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="false" repr="expected_status_code: int = 404">
+<name>expected_status_code</name>
+<type>int</type>
+<default>404</default>
+</arg>
+</arguments>
+<doc>&lt;p&gt;Perform a request for the provided 'endpoint' and 'method' where the url for the &lt;span class="name"&gt;endpoint&lt;/span&gt; is invalidated.&lt;/p&gt;
+&lt;p&gt;This keyword will be &lt;span class="name"&gt;SKIPPED&lt;/span&gt; if the endpoint contains no parts that can be invalidated.&lt;/p&gt;
+&lt;p&gt;The optional &lt;span class="name"&gt;expected_status_code&lt;/span&gt; parameter (default: 404) can be set to the expected status code for APIs that do not return a 404 on invalid urls.&lt;/p&gt;
+&lt;p&gt;&amp;gt; Note: Depending on API design, the url may be validated before or after validation of headers, query parameters and / or (json) body. By default, no parameters are send with the request. The &lt;span class="name"&gt;require_body_for_invalid_url&lt;/span&gt; parameter can be set to &lt;span class="name"&gt;True&lt;/span&gt; if needed.&lt;/p&gt;</doc>
+<shortdoc>Perform a request for the provided 'endpoint' and 'method' where the url for the `endpoint` is invalidated.</shortdoc>
+</kw>
+<kw name="Test Unauthorized" source="openapi_executors.py" lineno="73">
+<arguments repr="endpoint: str, method: str">
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="endpoint: str">
+<name>endpoint</name>
+<type>str</type>
+</arg>
+<arg kind="POSITIONAL_OR_NAMED" required="true" repr="method: str">
+<name>method</name>
+<type>str</type>
+</arg>
+</arguments>
+<doc>&lt;p&gt;Perform a request for &lt;span class="name"&gt;method&lt;/span&gt; on the &lt;span class="name"&gt;endpoint&lt;/span&gt;, with no authorization.&lt;/p&gt;
+&lt;p&gt;This keyword only passes if the response code is 401: Unauthorized.&lt;/p&gt;
+&lt;p&gt;Any authorization parameters used to initialize the library are ignored for this request. &amp;gt; Note: No headers or (json) body are send with the request. For security reasons, the authorization validation should be checked first.&lt;/p&gt;</doc>
+<shortdoc>Perform a request for `method` on the `endpoint`, with no authorization.</shortdoc>
+</kw>
+</keywords>
+<datatypes>
+<enums>
+<enum name="ValidationLevel">
+<doc>&lt;p&gt;The available levels for the response_validation parameter.&lt;/p&gt;</doc>
+<members>
+<member name="DISABLED" value="DISABLED"/>
+<member name="INFO" value="INFO"/>
+<member name="WARN" value="WARN"/>
+<member name="STRICT" value="STRICT"/>
+</members>
+</enum>
+</enums>
+</datatypes>
+</keywordspec>
