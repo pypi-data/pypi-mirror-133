@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_composer = hlpl_composer.__main__:main
+
