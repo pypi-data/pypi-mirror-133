@@ -1,0 +1,9 @@
+snapmap_archiver/__init__.py,sha256=Jhca4BaOfEnilxvxNuEQe8cu8HcAtFgRda3evznHR9c,4269
+snapmap_archiver/__main__.py,sha256=sO7-46pad6_FZ-LDIfCkqA_K0hIPQ4VIkZ0fQ-SXJY8,84
+snapmap_archiver/get_data.py,sha256=tCvp9mXEbwd0C8svEZW0-RmjXF3X9NxL01tvaByeKOc,3113
+snapmap_archiver/utils/__init__.py,sha256=NYjO21BOte6LaY8C7K2uICHtVvsgMCJBxHL4qq7GRXQ,5308
+snapmap_archiver/utils/user-agents.json,sha256=WZQkCUtt6pOKAXlE0-PzNi-8wdATwziPaTcrmTg4v9I,116534
+snapmap_archiver-1.3.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+snapmap_archiver-1.3.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+snapmap_archiver-1.3.0.dist-info/METADATA,sha256=oEBJK95bDE3O160yj45vzGerhNfZZTCGlc-ak8ZsEWM,2804
+snapmap_archiver-1.3.0.dist-info/RECORD,,
