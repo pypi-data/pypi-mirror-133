@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+visualapplets.py
+visualapplets.egg-info/PKG-INFO
+visualapplets.egg-info/SOURCES.txt
+visualapplets.egg-info/dependency_links.txt
+visualapplets.egg-info/top_level.txt
