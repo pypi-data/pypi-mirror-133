@@ -1,0 +1,12 @@
+pandocx/__init__.py,sha256=8Gi3XfyGFrWTbRYNjOofxs7Qj8eMWfUW-oeG3eKYY2U,33
+pandocx/data_reader.py,sha256=Ct2cd0wuRhzmEx5cNK1nVhmqPaiZJlkosGrVQycEM_k,1710
+pandocx/pandoc.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pandocx/process.py,sha256=6Ea4EF-lVb8-176AsDnt0zQw3McR2FRtsKfh0WapD5U,3694
+pandocx/utils.py,sha256=PG8vJ7KfCc3gsivzMvQ3mRFBpxXvvk_BWMat5QaXY20,1829
+pandocx/data/code.md,sha256=f-L31PxbX-Eh0Cbanojxx23-QfO31K4Dd82IgvODNHU,201
+pandocx/data/insertTables.lua,sha256=NkShgFe7qvKHlF0ID-kOcDb19bTvX6F0RImrU77m0_g,6000
+pandocx/data/pandoc-ling.lua,sha256=ScmewTUyQqjwr-WLgE_t-6-qgwJG0_v6xfocBAr-w0c,43051
+pandocx-0.0.1.dist-info/METADATA,sha256=_D4YiF0K8tDNS50jkcjit5o55GI8hnFZLxjSUImmsrU,507
+pandocx-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pandocx-0.0.1.dist-info/top_level.txt,sha256=kiINZj_97nAxkFr9529EcLaVrPjGF6ywqnaXcSHZCfk,8
+pandocx-0.0.1.dist-info/RECORD,,
