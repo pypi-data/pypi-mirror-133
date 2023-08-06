@@ -1,0 +1,14 @@
+secrets.yaml
+qiskit_emulator_provider.egg-info/
+.eggs/
+**/__pycache__/
+**/.ipynb_checkpoints/
+.vscode/
+get-pip.py
+*.log
+.pytest_cache/
+build/
+qiskit_runtime_emulator.egg-info/
+dist/
+**/secrets.*
+examples/programs/vqe.py
