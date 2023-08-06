@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zen-core
+Version: 0.2.3
+Summary: Github API zen core utilities
+License: MIT
+Author: dragosdumitrache
+Author-email: dragos@afterburner.dev
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: github3.py (>=2.0.0,<3.0.0)
