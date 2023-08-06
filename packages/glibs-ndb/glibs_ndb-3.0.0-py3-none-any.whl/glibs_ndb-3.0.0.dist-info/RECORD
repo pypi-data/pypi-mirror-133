@@ -1,0 +1,11 @@
+glibs_ndb-3.0.0-py3.10-nspkg.pth,sha256=QZLgogpRqGl1j3jEWRKFgAU4zeBAhLrytfbUc2mEi8c,534
+glibs/ndb/ProtocolBuffer.py,sha256=HXMlzQ9ihhejVe19WEDWhjeIa8SJL326KNSUkFoLTYw,28882
+glibs/ndb/__init__.py,sha256=7hEiB_NZ95mVhXyJaiicPamtR_RpQaOjRpz5kr4jLjA,38
+glibs/ndb/compat.py,sha256=eEkMbXaStcT7NmUuwGHv1N6GA73hvl-vbARWU6xHDv8,331
+glibs/ndb/entity_pb.py,sha256=I4k5su9HVb0OkRzIsaEqTkBcdjSLY0ml2suL6qlL94k,136679
+glibs/ndb/ndb.py,sha256=Y6hZsdLBmXpa15wXTeHF-vPOhdXehnWTNQzu7JfJx2s,4268
+glibs_ndb-3.0.0.dist-info/METADATA,sha256=u0_srVQQ3aSqE2JK80mv5Ntf4jtdvVBTBZk-kXe5t80,254
+glibs_ndb-3.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+glibs_ndb-3.0.0.dist-info/namespace_packages.txt,sha256=lciV7A9yChmASlrlEDUkBLCLuqKMhG_l_UcG8N2nYvA,6
+glibs_ndb-3.0.0.dist-info/top_level.txt,sha256=lciV7A9yChmASlrlEDUkBLCLuqKMhG_l_UcG8N2nYvA,6
+glibs_ndb-3.0.0.dist-info/RECORD,,
