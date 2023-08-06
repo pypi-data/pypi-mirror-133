@@ -1,0 +1,10 @@
+remote_stack/__init__.py,sha256=Nlu9chLMbiXAda0LmNgcijeD2xDMVT4hl_LWGMCTUD0,71
+remote_stack/config.py,sha256=lik0qYPvItYp9dLoWaQcAgIYVyzRKh9cEFvN2JKbSeI,789
+remote_stack/provider.py,sha256=XTvtBrsJXkvlUCiKbF-N3xRJLVC3ev1xTsRfpiqcshk,7100
+remote_stack/remote_stack.py,sha256=ufnAE1DRRQEnTjdYE5Ttgbf6_eXBc2GD8Z8_82pt2Vw,1618
+remote_stack/subprocess_run.py,sha256=Z7NuqgH9S_13zcTULMfFTp-kL8VMLSOAdYbJPIm6W-o,682
+pulumi_remote_stack-0.0.9.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pulumi_remote_stack-0.0.9.dist-info/METADATA,sha256=O-U70KyMrLZkUkreMd3VJkbg1lIOiH6LSSDgOrfKJNQ,555
+pulumi_remote_stack-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pulumi_remote_stack-0.0.9.dist-info/top_level.txt,sha256=gaNj9Ip6kL5PpaWtyHolWfOVjgV41MsoniVmXhVjnV4,13
+pulumi_remote_stack-0.0.9.dist-info/RECORD,,
