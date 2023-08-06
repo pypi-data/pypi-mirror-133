@@ -1,0 +1,10 @@
+numintegrator/__init__.py,sha256=1rrskptD0G7UrX_ka0Td75x4jbSyd4ZSh42W2uI5BT8,44
+numintegrator/__main__.py,sha256=0IvihLoQk7vQT-oCUzDLGCTVGlrSrxzm-Fts3F3zWJM,7045
+numintegrator/_integrators(old).py,sha256=emwnkaRdn_AFz-5umrbVUKwP_nbrVMdUYk-dpiYe7-M,2985
+numintegrator/helpers.py,sha256=LR-h4626hSoaF5sKGo9W8D3x-hd9qn-2sVyv2El8Wpo,3390
+numintegrator/integrators.py,sha256=ODrrjl5FfhhZMNUcTkPOficWvfHsFPaAqsZbtr6I97c,4162
+numintegrator-0.0.0.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+numintegrator-0.0.0.dist-info/METADATA,sha256=sUQ3_SXftvIdH0Tzn_YGdK0Rbxz5rcigoDyBeCl-Ro8,2088
+numintegrator-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+numintegrator-0.0.0.dist-info/top_level.txt,sha256=W4_sRZb0SF5f4QweO7Iq09Lb7GT5k0k61D_OAYNU284,14
+numintegrator-0.0.0.dist-info/RECORD,,

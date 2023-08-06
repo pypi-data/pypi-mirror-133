@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: numintegrator
+Version: 0.0.0
+Summary: Numerical integrators for solving differential equations.
+Home-page: https://github.com/Armin-Ariamajd/numintegrator
+Author: Armin Ariamajd
+Author-email: a.ariamajd@gmail.com
+License: GNU Affero General Public License v3
+Project-URL: Bug Tracker, https://github.com/Armin-Ariamajd/numintegrator/issues
+Keywords: numerical integration,integrator,differential equations,ordinary differential equations,ODE,partial differential equations,PDE,initial value problem,Runge–Kutta methods,linear multistep methods,symplectic integrators,Explicit integrator,Implicit integrator,Euler,Verlet,Velocity Verlet,Heun,Leapfrog,Yoshida,Crank-Nicolson,Midpoint rule
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.17)
+
+# NumIntegrator
+[![PyPI Latest Release](https://img.shields.io/pypi/v/numintegrator.svg)](https://pypi.org/project/numintegrator/)
+[![Package Status](https://img.shields.io/pypi/status/numintegrator.svg)](https://pypi.org/project/numintegrator/)
+[![License](https://img.shields.io/pypi/l/numintegrator.svg)](https://github.com/Armin-Ariamajd/numintegrator/blob/main/LICENSE)
+
+NumIntegrator provides numerical integration methods for solving differential equations.
+
+## Installing
+```sh
+pip install numintegrator
+```
+
+## Manual
+See the [provided Jupyter notebooks](https://github.com/Armin-Ariamajd/numintegrator/tree/main/docs) for demonstration of the core functionalities.
+
+
