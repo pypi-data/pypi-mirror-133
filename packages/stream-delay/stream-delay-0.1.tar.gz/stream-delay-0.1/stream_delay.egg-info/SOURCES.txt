@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+stream_delay.py
+stream_delay.egg-info/PKG-INFO
+stream_delay.egg-info/SOURCES.txt
+stream_delay.egg-info/dependency_links.txt
+stream_delay.egg-info/entry_points.txt
+stream_delay.egg-info/requires.txt
+stream_delay.egg-info/top_level.txt
