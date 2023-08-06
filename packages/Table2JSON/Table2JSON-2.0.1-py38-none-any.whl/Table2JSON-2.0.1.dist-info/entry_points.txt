@@ -1,0 +1,3 @@
+[console_scripts]
+Table2JSON = table2json.bin:execute_from_command_line
+
