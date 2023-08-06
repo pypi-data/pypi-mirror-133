@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: mdforce
+Version: 0.0.0
+Summary: MDForce is a package to calculate the force field, potential energy and related data in molecular dynamics simulations
+Home-page: https://github.com/Armin-Ariamajd/mdforce
+Author: Armin Ariamajd
+Author-email: a.ariamajd@gmail.com
+License: GNU Affero General Public License v3
+Project-URL: Bug Tracker, https://github.com/Armin-Ariamajd/mdforce/issues
+Keywords: Molecular dynamics,MD,MD simulation,force field,potential energy
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MDForce
+[![PyPI Latest Release](https://img.shields.io/pypi/v/mdforce.svg)](https://pypi.org/project/mdforce/)
+[![Package Status](https://img.shields.io/pypi/status/mdforce.svg)](https://pypi.org/project/mdforce/)
+[![License](https://img.shields.io/pypi/l/mdforce.svg)](https://github.com/Armin-Ariamajd/mdforce/blob/main/LICENSE)
+
+
+MDForce is a package for molecular dynamics (MD) simulations; it offers:
+* force-field and potential energy calculations
+
+## Installing
+```sh
+pip install mdforce
+```
+
+## Manual
+See the [provided Jupyter notebooks](https://github.com/Armin-Ariamajd/mdforce/tree/main/docs) for demonstration of the core functionalities.
+
+
