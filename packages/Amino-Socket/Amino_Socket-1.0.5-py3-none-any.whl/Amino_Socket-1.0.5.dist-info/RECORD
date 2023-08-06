@@ -1,0 +1,11 @@
+aminos/__init__.py,sha256=jv28_LUuW4DQdZSzWgFoWTAC31G5iRZE_YUouVlJT3o,316
+aminos/api.py,sha256=CZ8CdlyFKrsaEhpN1S1B-lSAdZSMWgo8Z4VOZYpYly4,25746
+aminos/src/__init__.py,sha256=w9QwBONkQAPAzvyghwXEN0ajtBJbD_ZkIhG5xPmmY8E,34
+aminos/src/exception.py,sha256=mVFJW7mxDZQAyGic8Y8hIa0DVArUH7f9PXPMcXZ98oA,157
+aminos/src/headers.py,sha256=HtfsfqyOfXOA3uABWrzwcwUMneSgbRHeStY3FNxh3og,1176
+aminos/src/objects.py,sha256=1nSSeb1EEun4ZEG-mIRwdlD0KLQ82a3M8zNaPtRu4oM,48865
+Amino_Socket-1.0.5.dist-info/LICENSE,sha256=zaadMDXteVmh2DrCALgTmef9Gv5dgTFvshSLuN_fHwk,560
+Amino_Socket-1.0.5.dist-info/METADATA,sha256=R4eLzAZ8zhp6YweOwBQ2v9gMEWlW1wUH9lRElh5h0No,1437
+Amino_Socket-1.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Amino_Socket-1.0.5.dist-info/top_level.txt,sha256=h1bY7davQkOVTh-NIQ_N4geXubBE8MbCrdb7OyT15FM,7
+Amino_Socket-1.0.5.dist-info/RECORD,,
