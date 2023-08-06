@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: AutoTransform
+Version: 0.0.3
+Summary: A component based tool for designing automated code modification
+Home-page: https://github.com/nathro/AutoTransform
+Author: Nathan Rockenbach
+Author-email: nathro.software@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nathro/AutoTransform/issues
+Project-URL: Source, https://github.com/nathro/AutoTransform/
+Project-URL: Say Thanks!, https://saythanks.io/to/nathro.software
+Project-URL: Support, https://www.paypal.com/paypalme/nathrosoftware
+Project-URL: Stream, https://www.twitch.tv/AllSublime
+Keywords: codemod,automation,code change
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AutoTransform
+
+AutoTransform is a structured, schema based approach to large scale code modification. It provides a structure for designing and implementing these types of modifications using common components that can be utilized to accelerate development.
+
+
