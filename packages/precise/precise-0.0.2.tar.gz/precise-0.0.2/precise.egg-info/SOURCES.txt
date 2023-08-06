@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+precise/__init__.py
+precise.egg-info/PKG-INFO
+precise.egg-info/SOURCES.txt
+precise.egg-info/dependency_links.txt
+precise.egg-info/entry_points.txt
+precise.egg-info/requires.txt
+precise.egg-info/top_level.txt
