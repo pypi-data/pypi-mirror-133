@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+pytest_testpluggy.egg-info/PKG-INFO
+pytest_testpluggy.egg-info/SOURCES.txt
+pytest_testpluggy.egg-info/dependency_links.txt
+pytest_testpluggy.egg-info/entry_points.txt
+pytest_testpluggy.egg-info/not-zip-safe
+pytest_testpluggy.egg-info/requires.txt
+pytest_testpluggy.egg-info/top_level.txt
+test_pluggy/__init__.py

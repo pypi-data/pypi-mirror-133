@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pytest-testpluggy
+Version: 0.0.1
+Summary: set your encoding
+Home-page: UNKNOWN
+Author: zhaoyi
+Author-email: 2284401112@qq.com
+License: UNKNOWN
+Keywords: pytest,py.test,pytest_pluggy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Pytest
+Requires-Python: >=3.6
+License-File: LICENSE
+
+show Chinese for your mark.parametrize().
+
