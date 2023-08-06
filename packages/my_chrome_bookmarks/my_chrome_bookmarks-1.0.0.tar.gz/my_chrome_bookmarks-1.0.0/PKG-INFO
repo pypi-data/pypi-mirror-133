@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: my_chrome_bookmarks
+Version: 1.0.0
+Summary: Utils to load local chrome bookmarks.
+Keywords: chrome,bookmarks
+Author-email: Conchylicultor <etiennefg.pot@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: etils[epy]
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-xdist ; extra == "dev"
+Requires-Dist: black ; extra == "dev"
+Project-URL: homepage, https://github.com/conchylicultor/my-chrome-bookmarks
+Project-URL: repository, https://github.com/conchylicultor/my-chrome-bookmarks
+Provides-Extra: dev
+
+# my-chrome-bookmarks
+
+Python extension to read local Chrome bookmarks.
+
+Installation:
+
+```sh
+pip install my_chrome_bookmarks
+```
+
+Usage:
+
+```python
+import my_chrome_bookmarks
+
+bookmarks = my_chrome_bookmarks.bookmark_bar()
+```
+
