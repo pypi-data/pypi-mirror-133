@@ -1,0 +1,13 @@
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+markers = [
+    "integration: marks integration tests",
+]
+
+[tool.doculog]
+name = "Jaepeto"
+local = true
+srcdir = "jaepeto"
+package = "jaepeto"
