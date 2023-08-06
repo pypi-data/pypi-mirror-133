@@ -1,0 +1,4 @@
+requests
+httpx
+webdavclient3
+croniter
