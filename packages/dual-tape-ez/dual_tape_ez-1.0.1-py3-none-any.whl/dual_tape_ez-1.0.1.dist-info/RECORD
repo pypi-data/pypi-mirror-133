@@ -1,0 +1,12 @@
+dual_tape_ez/__init__.py,sha256=IU7AZdFG19vSGKMoL_RRrtQ27l8q9UIkBikoX7InANg,791
+dual_tape_ez/assembler.py,sha256=LvgzPXLY-_1Q6hHVjnCgQLOJ25LqLyoCnCi7N0x2nWM,4020
+dual_tape_ez/dual_tape_ez.py,sha256=lNuOMwTeGfa1V_YoPUHGFUlLNx_WvF_cms03YLyfXD0,2850
+dual_tape_ez/error.py,sha256=ASt6KvR5DFwL7p7jVBtvgp_8rwcTbgW2U8yI0XIdy4k,85
+dual_tape_ez/log.py,sha256=aRJZL47jS-65_ykpiyqR7w-5CbW3GZmPysqndlOPtHU,645
+dual_tape_ez/vm.py,sha256=3w_aJZhlNCEMT2oFl5OHvLRA4eNQsNLT4sasmtjOajA,9159
+dual_tape_ez-1.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dual_tape_ez-1.0.1.dist-info/METADATA,sha256=4QWCAODrzel7GadHaiyNzmocdN-3S8TUoD_8rfDAjyc,2327
+dual_tape_ez-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dual_tape_ez-1.0.1.dist-info/entry_points.txt,sha256=aacf9GFko3aexGMXwiOpK7qziBoJZyyt6l49I1UgvWo,73
+dual_tape_ez-1.0.1.dist-info/top_level.txt,sha256=1fDQMKjvhvbRQMGf2f2Lg-SBNn-INshNWGyvx3sEisg,13
+dual_tape_ez-1.0.1.dist-info/RECORD,,
