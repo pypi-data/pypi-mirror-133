@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: elasticcode
+Version: 0.0.9
+Summary: An elastic, distributed python compute platform
+Home-page: https://github.com/radiantone/elasticcode
+Author: Darren Govoni
+Author-email: darren@ontrenet.com
+License: MIT
+Description: # elasticcode
+        Elastic network-resident,reliable and fault-tolerant python code.
+        
+Keywords: parallel processing,devops,dataflow,supercomputing,workflows
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8.*
+Description-Content-Type: text/markdown

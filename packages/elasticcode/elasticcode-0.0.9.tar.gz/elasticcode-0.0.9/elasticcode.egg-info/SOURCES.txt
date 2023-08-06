@@ -1,0 +1,9 @@
+README.md
+setup.py
+elasticcode/__version__.py
+elasticcode.egg-info/PKG-INFO
+elasticcode.egg-info/SOURCES.txt
+elasticcode.egg-info/dependency_links.txt
+elasticcode.egg-info/not-zip-safe
+elasticcode.egg-info/requires.txt
+elasticcode.egg-info/top_level.txt
