@@ -1,0 +1,15 @@
+pelican/plugins/photos/SourceCodePro-Bold.otf,sha256=719MfK9HTO--c4Mb92kQpy46JQdRm7KB1m66d4pvGT0,143932
+pelican/plugins/photos/SourceCodePro-Regular.otf,sha256=LkG_JlHaXOo3lhyUdu5FfUfQuIkAeUHC-rTIFXMncuw,140088
+pelican/plugins/photos/__init__.py,sha256=C-Mq3EfFsSXVXku0q0eCgAVPEpJCRrHnLOaez09-q9Y,30
+pelican/plugins/photos/licenses.json,sha256=ltBNjDSweHxaOzPAATf_9dyQabbDbBQgIGssoRf1EXQ,2165
+pelican/plugins/photos/photos.py,sha256=vWvGp-ntl7Ycm-pJ6cprwnFfybbwqyU43IcRydLsYl0,41976
+pelican/plugins/photos/test_data/agallery/best.jpg,sha256=DM3cYxS_EQ98AiclTqxJes7HiVR-t8emaNNjwstO_20,68284
+pelican/plugins/photos/test_data/agallery/captions.txt,sha256=aWKAVwzkJd5lbye37zuXXXBFwZ7x3HkhqufG1An_1nY,23
+pelican/plugins/photos/test_data/agallery/exif.txt,sha256=d8sTUNE1rmPSymMH-trEoSl-OIXEIoI5mgf7-eZmtq8,42
+pelican/plugins/photos/test_data/agallery/night.png,sha256=rJEqF4ixPJS5OAtaYcCXtP5Dzr8YDmFhrIm_86vHfxk,82619
+pelican/plugins/photos/test_data/filename.md,sha256=01WiHK0OYmcWKcJVbmCBBV-A1EAPi2jat-v0ftMZga8,150
+pelican/plugins/photos/test_data/photo.md,sha256=b4ODyd6_k-3pNP3FDyGLAPdsgbVJ2ZaUEM83k3yiN2E,138
+pelican/plugins/photos/test_photos.py,sha256=NJlRy0DO4gCjGCA4az-sX7eS3Yp3DRCAW6vyvKWSZ70,5225
+pelican_photos-1.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pelican_photos-1.3.0.dist-info/METADATA,sha256=QfWSK_ppXfoW21d8KSSKXbUjIiX55wAq8CKS_CceXX4,16811
+pelican_photos-1.3.0.dist-info/RECORD,,
