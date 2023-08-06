@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: opensanctions
+Version: 3.2.0
+Summary: UNKNOWN
+Home-page: https://opensanctions.org
+Author: OpenSanctions
+Author-email: info@opensanctions.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: followthemoney (>=1.21.2)
+Requires-Dist: nomenklatura (>=0.0.1)
+Requires-Dist: pantomime
+Requires-Dist: sqlalchemy
+Requires-Dist: alembic
+Requires-Dist: certifi
+Requires-Dist: addressformatting
+Requires-Dist: prefixdate
+Requires-Dist: psycopg2-binary
+Requires-Dist: requests[security] (<3.0.0,>=2.25.0)
+Requires-Dist: requests-cache (<0.9.0,>=0.8.1)
+Requires-Dist: datapatch
+Requires-Dist: structlog
+Requires-Dist: colorama
+Requires-Dist: xlrd
+Requires-Dist: lxml
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Requires-Dist: wheel (>=0.29.0) ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 (>=2.6.0) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+
+# OpenSanctions.org
+
+The codebase for OpenSanctions, an open-source repository of sanctions data, politically exposed persons, and other entities of interest.
+
+OpenSanctions uses [Follow the Money](https://followthemoney.readthedocs.io/en/latest/index.html), a JSON-based anti-corruption data model, as a common target for all crawlers. Additonal exports into CSV and JSON formats are planned.
+
+* [opensanctions.org](https://opensanctions.org)
+    * [Datasets](https://opensanctions.org/datasets/)
+    * [About the project](https://opensanctions.org/docs/about/)
+    * [FAQ](https://opensanctions.org/docs/faq/)
+    * [API](https://api.opensanctions.org/)
+* [Technical documentation](https://docs.opensanctions.org/en/latest/) (readthedocs.org)
+    * [Installation](https://docs.opensanctions.org/en/latest/install.html)
+    * [Adding crawlers](https://opensanctions.org/docs/contribute/)
+* [Data sources roadmap](https://bit.ly/osa-sources)
+* [Data licensing](https://opensanctions.org/licensing/)
+* [Contact us](https://opensanctions.org/contact/)
+
+### Technical overview
+
+Repository layout:
+
+* ``opensanctions/``: Python project with data extraction and cleaning components
+* ``site/``: Next.js project web site
+* ``api/``: FastAPI appliance for the project API and on-premises KYC use
+* ``docs/``: Sphinx [technical documentation](https://opensanctions.org/docs/faq/)
+
+Daily data extraction and processing runs on GitHub Actions. Status:
+
+[![production](https://github.com/pudo/opensanctions/actions/workflows/production.yml/badge.svg)](https://github.com/pudo/opensanctions/actions/workflows/production.yml)
+
+**Licensing:** code is MIT-licensed, content & [data is CC 4.0 Attribution-NonCommercial](https://opensanctions.org/licensing/).
+
