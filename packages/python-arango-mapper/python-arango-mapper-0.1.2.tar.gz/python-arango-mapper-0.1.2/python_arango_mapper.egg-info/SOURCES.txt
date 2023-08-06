@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+python_arango_mapper.egg-info/PKG-INFO
+python_arango_mapper.egg-info/SOURCES.txt
+python_arango_mapper.egg-info/dependency_links.txt
+python_arango_mapper.egg-info/requires.txt
+python_arango_mapper.egg-info/top_level.txt
