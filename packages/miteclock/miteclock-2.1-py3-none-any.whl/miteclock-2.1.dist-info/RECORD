@@ -1,0 +1,12 @@
+miteclock/__init__.py,sha256=TumIAW6GYnBo0loNjgLo5LJ__osgbhSGZBpDZflyngs,188
+miteclock/activities.py,sha256=wh71RE1h5z6oJMWjHKtsBk-DB03o6CoRAHFI0EjotfE,5457
+miteclock/cli.py,sha256=2u-OITS_TA6ybic4Omdy_UxNOnMDKi_HhAPf1EOzIxY,10251
+miteclock/completions/bash,sha256=tYWKGfkwEfiP2AiD4DkTXsPIdV8LWfHvaYLd2iV8EN8,606
+miteclock/completions/zsh,sha256=ow-XWuUMqj9croS6Cm8zP0pUKUGF0im7rBe0vYO6gZg,823
+miteclock/config.py,sha256=iCC_7OrfUHhY8C1kb8Vby8X4re2GklqBhgTb32T3ihU,7558
+miteclock/mite.py,sha256=L_VOja3kZo0SdMnsEOLs2wbPighrbJMGxnZs-gfNzSk,2269
+miteclock-2.1.dist-info/entry_points.txt,sha256=k9i5EvlTOT9G1Ik1XGgTuUj5DaVEKLxNIkZcbFQQRH0,40
+miteclock-2.1.dist-info/LICENSE,sha256=SloeOCOx5oa16M1hzLi1tIDOJcxl10qtEixgu6W-zXE,1087
+miteclock-2.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+miteclock-2.1.dist-info/METADATA,sha256=pCSCu8NYPowk7jfUsZF8E6YnA9YogsEkN2AIZQN0NUE,9620
+miteclock-2.1.dist-info/RECORD,,
