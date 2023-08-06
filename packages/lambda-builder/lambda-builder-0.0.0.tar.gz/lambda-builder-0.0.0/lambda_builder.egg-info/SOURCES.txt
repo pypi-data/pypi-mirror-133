@@ -1,0 +1,6 @@
+README.md
+lambda_builder.egg-info/PKG-INFO
+lambda_builder.egg-info/SOURCES.txt
+lambda_builder.egg-info/dependency_links.txt
+lambda_builder.egg-info/top_level.txt
+lambda_builder.egg-info/zip-safe
