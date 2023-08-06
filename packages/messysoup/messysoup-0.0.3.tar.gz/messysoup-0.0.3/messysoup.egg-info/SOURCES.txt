@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+setup.py
+messysoup/__init__.py
+messysoup/attributes.py
+messysoup/messysoup.py
+messysoup.egg-info/PKG-INFO
+messysoup.egg-info/SOURCES.txt
+messysoup.egg-info/dependency_links.txt
+messysoup.egg-info/top_level.txt
+messysoup/pyodide/__init__.py
+messysoup/pyodide/run_python.py
+messysoup/pyodide/standard_library.json
+messysoup/pyodide/supported_imports.json
+messysoup/table/__init__.py
+messysoup/table/table.py
+messysoup/table/table_helpers.py
