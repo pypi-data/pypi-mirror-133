@@ -1,0 +1,13 @@
+fayouts/__init__.py,sha256=CuCe0uPg0Z5uKMpPnqdNjRYO5ZYpiEBcYQ_vGHxcKg4,77
+fayouts/aiobot/startproject.py,sha256=gDV6Bv5mbkysmplRFmuZ-CtS7Cl5u6ZxU6kgyjIA8QM,924
+fayouts/calc/calc.py,sha256=vd4yq9wXwQJKaIrJMdrSQDLbS1IRgSI0ZZPcXuxiBnM,826
+fayouts/datetime/datetime.py,sha256=Bjm-pgvKO4PGeyJIlcj2zfJfP709yx0Di6H8PPb0WtI,82221
+fayouts/datetime/dt.py,sha256=ucB9-QbBRU68YO0mJvEDSvl8keRcsvq9qBh9cj-HfB4,2274
+fayouts/discobot/startproject.py,sha256=vq0JTPI55_QrsOxde8lnqH3ZAdse7wFJeiQDRCbQsPY,649
+fayouts/fayouts/__init__.py,sha256=qrKcgyzPxFuQR_tFUjXOdeUJuf-kGh592MPTNwDZE7c,196
+fayouts/fayouts/main.py,sha256=MJa-dojcAkNFmLuzHx-wYYPFRUogBy19L3m9-kLi9rE,3154
+fayouts/files/files.py,sha256=1oi7Ufl6FeDxCTnIptiMyjeKmNkieo0aU1v0aRs6WMc,535
+fayouts/start/newproject.py,sha256=a8oAT5cODm5htYW5GITcjxdBO0SbjIiagK0ibKrfAdg,234
+fayouts-1.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fayouts-1.1.0.dist-info/METADATA,sha256=5pLFKeqq7zgazMeHKdiq0171f4zy2Dk_JZTTzgHvfyk,4702
+fayouts-1.1.0.dist-info/RECORD,,
