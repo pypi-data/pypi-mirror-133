@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+apico/__init__.py
+apico/monitor.py
+apico.egg-info/PKG-INFO
+apico.egg-info/SOURCES.txt
+apico.egg-info/dependency_links.txt
+apico.egg-info/top_level.txt
