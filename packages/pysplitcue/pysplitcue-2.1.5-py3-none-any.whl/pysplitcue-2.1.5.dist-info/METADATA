@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: pysplitcue
+Version: 2.1.5
+Summary: CUE sheet Splitter, based on shntool and cuetools libraries.
+Home-page: https://github.com/jeanslack/pysplitcue
+Author: Gianluca Pernigotto - Jeanslack
+Author-email: <jeanlucperni@gmail.com>
+License: Type 'pysplitcue -h' for help or, more detailed, run 'man pysplitcue'
+Platform: Linux
+Platform: Unix
+Platform: MacOS
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: AUTHORS
+Requires-Dist: chardet (>=4.0.0)
+
+# Pysplitcue - CUE sheet splitter, based on shntool and cuetools libraries.
+
+Pysplitcue is a stupid wrapper for the 
+[shntool](http://freshmeat.sourceforge.net/projects/shntool) 
+and [cuetools](https://github.com/svend/cuetools) libraries.
+It splits big audio tracks using informations contained in the associated
+**"CUE"** sheet file and can automatically handle files encoded other than 
+UTF-8 and ASCII encodings without modifying the source files.    
+
+**Note:** there are also other alternatives to pysplitcue: 
+- [deflacue](https://github.com/idlesign/deflacue)
+- [flacon](https://github.com/flacon/flacon)
+
+# Features
+
+- Supported input formats: WAV, FLAC, APE, WavPack
+- Supported output formats: FLAC, APE, WAV, WavPack, OGG or MP3
+- Auto-tag is supported only for FLAC, MP3, OGG formats
+
+## Requires
+
+- Python >=3.6
+- [chardet](https://pypi.org/project/chardet/) (The Universal Character Encoding Detector)
+- [shntool](http://freshmeat.sourceforge.net/projects/shntool) *(includes shnsplit)*
+- [cuetools](https://github.com/svend/cuetools) *(includes cuebreakpoints, cueconvert, cueprint, cuetag)*
+
+## Optionals
+- flac 
+- lame
+- vorbis-tools *(includes oggenc, oggdec)*
+- monkeys-audio  *(to convert APE audio format, name depends to your O.S.)*
+- wavpack
+ 
+Ubuntu users can install required and optional dependencies like this:   
+`sudo apt install shntool cuetools flac lame vorbis-tools wavpack monkeys-audio`   
+
+## Usage
+
+#### From Command Line
+
+```
+pysplitcue -i IMPUTFILE
+             [-h] 
+             [--version]  
+             [-f {wav, wv, flac, ape, mp3, ogg}] 
+             [-o OUTPUTDIR] 
+             [-ow {ask,never,always}] 
+             [-c]
+```
+
+#### From Python Interpreter
+
+```python
+>>> from pysplitcue.splitcue import PySplitCue
+>>> kwargs = {'filename': '/home/user/my_file.cue',
+              'outputdir': '/home/user/some_other_dir',
+              'suffix': 'flac',
+              'overwrite': 'ask'
+             }
+>>> split = PySplitCue(**kwargs)
+>>> split.open_cuefile()
+>>> split.do_operations()
+>>> split.cuefile.close()
+```
+
+## Examples
+
+`pysplitcue -i 'inputfile.cue'`   
+
+To split and convert several audio formats into the relative individual 
+`flac` format audio tracks.    
+
+`pysplitcue -i '/User/music/collection/inputfile.cue' -f wav -o 'my-awesome-tracklist'`   
+
+This command splits the individual audio tracks into `wav` format 
+and saves them in the 'my-awesome-tracklist' folder.   
+
+
+## Installation
+
+`python3 -m pip install pysplitcue`
+
+## License and Copyright
+
+Copyright © 2010 - 2022 Gianluca Pernigotto   
+Author and Developer: Gianluca Pernigotto   
+Mail: <jeanlucperni@gmail.com>   
+License: GPL3 (see LICENSE file in the docs folder)
+
+
+
+

@@ -1,0 +1,127 @@
++--------------------------------+
+January  06 2022  Version 2.1.5
++--------------------------------+
+
+- Added support for mp3, ogg output formats.
+- auto-detect CUE shee file encoding.
+- Rewrite the tests with the unittest module.
+- Now pysplitcue can also be used interactively as a Python module.
+- Improved exception handling.
+
+
++--------------------------------+
+December 28 2021  Version 2.1.4
++--------------------------------+
+
+- Fixed issue using `-o` option for recursive directory creation.
+- Code refactoring
+- Made unittest test cases
+
++--------------------------------+
+December 26 2021  Version 2.1.3
++--------------------------------+
+
+- Fixed `ask` option when there is nothing to overwriting #8.
+- Fixed 'WARNING: File already exists:' if you save tracks in another folder
+  and tracks already exists on cue sheet path.
+- Added the ability to include relative or absolute paths.
+- Fixes minor bugs
+
+
++--------------------------------+
+December 25 2021  Version 2.1.2
++--------------------------------+
+
+- Changed the source code launcher name to pysplitcue.py .
+- Changed package name to pysplitcue
+- Changed splc.py module to pysplitcue.py.
+- Fixed "No executable after pip install" #6
+- Changed `-p`, `--preferred-format` option to `-f`, `format-type`
+- Updated man page, help and README.md.
+- Updated actions for parsing arguments.
+- Fixed COPYING in MANIFEST.in file.
+- Added new option to set actions to prevent or allow overwriting of
+  existing files.
+- Improved console messages (made some cosmetic text).
+
++--------------------------------+
+December 15 2021  Version 2.1.1
++--------------------------------+
+
+- Changed, input file must be CUE sheet now.
+- Fixed which(cuetag.sh) variable on splc.py .
+- Changed `subprocess.check_call` to `subprocess.run`
+- Added option to move audio tracks to an output folder of your choice.
+- Fixed `warning: number of files does not match number of tracks` see #4.
+- Use a temp dir to fix #4 .
+- Rewrite man page and help.
+- The flac format is the default in the choice of output formats.
+
++--------------------------------+
+December 07 2021  Version 2.0.0
++--------------------------------+
+
+- Fixed missing quotes in the filenames #2
+- Some code refactoring.
+- Improved description and examples
+- Improved man page
+- Fixed setup.py
+
++--------------------------------+
+August 8 2019  Version 1.0.0
++--------------------------------+
+
+- Support guaranteed only on Python3
+- Add checking dependencies
+- Add argparser integrity
+- Checking the input file for determine supported audio
+  formats and cue sheet presence.
+
++--------------------------------+
+Novembar 24 2017  Version 0.6.3
++--------------------------------+
+
+- Improved error management, now it's a little better commented
+
+- I have separated the splitting process and the tagging process
+  for improve errors management
+
+
++--------------------------------+
+Novembar 21 2017  Version 0.6.2
++--------------------------------+
+
+- Add a error management interface for shell output
+
+- Improved python code somewhere
+
+- Resolved the cuetag binaries name on slackware 14.2
+
+
++--------------------------------+
+January 26 2015  Version 0.6.1
++--------------------------------+
+
+- This is first stable release
+
+- Translation done completely in English
+
+- Make a setup.py and MANIFEST.in for building a package for your Linux
+  distribution (Debian and derived, Slackware)
+
+- It was clean the main executable code
+
++--------------------------------+
+August 25 2012  Version 0.6
++--------------------------------+
+- Modified the program manual (I hope it is more understandable)
+
+- Adjusted positional parameters in this order:
+  program_name > option > path-name (optional)
+
+
++--------------------------+
+Nov. 09  2010  Version 0.5
++--------------------------+
+
+Initial not public release
