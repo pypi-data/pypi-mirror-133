@@ -1,0 +1,9 @@
+dse-do-utils>=0.5.3.1
+dash>=2.0.0
+flask_caching
+dash_bootstrap_components
+dash_pivottable
+dash_daq
+sqlalchemy
+pandas
+plotly
