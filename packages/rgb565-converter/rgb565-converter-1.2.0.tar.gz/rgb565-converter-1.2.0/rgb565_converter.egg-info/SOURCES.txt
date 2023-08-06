@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+rgb565_converter/__init__.py
+rgb565_converter/converter.py
+rgb565_converter.egg-info/PKG-INFO
+rgb565_converter.egg-info/SOURCES.txt
+rgb565_converter.egg-info/dependency_links.txt
+rgb565_converter.egg-info/entry_points.txt
+rgb565_converter.egg-info/requires.txt
+rgb565_converter.egg-info/top_level.txt
