@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hlpl_photographer/__init__.py
+hlpl_photographer/__main__.py
+hlpl_photographer/setup.cfg
+hlpl_photographer.egg-info/PKG-INFO
+hlpl_photographer.egg-info/SOURCES.txt
+hlpl_photographer.egg-info/dependency_links.txt
+hlpl_photographer.egg-info/entry_points.txt
+hlpl_photographer.egg-info/top_level.txt

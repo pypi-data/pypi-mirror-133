@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_photographer = hlpl_photographer.__main__:main
+
