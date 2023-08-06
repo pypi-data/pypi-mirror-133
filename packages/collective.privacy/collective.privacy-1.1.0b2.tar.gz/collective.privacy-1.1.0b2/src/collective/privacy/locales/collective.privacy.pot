@@ -1,0 +1,216 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2021-07-27 09:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.privacy\n"
+
+#: ../browser/templates/consent_banner.pt:21
+msgid "Allow"
+msgstr ""
+
+#: ../profiles/default/registry.xml
+msgid "Allow logged in users to edit the privacy settings associated with the email address in their profile"
+msgstr ""
+
+#: ../plone_core/configure.zcml:17
+msgid "Allow other users to send content links"
+msgstr ""
+
+#: ../browser/consent.py:41
+msgid "Allowed"
+msgstr ""
+
+#: ../zcml.py:33
+msgid "An object that provides IIdentifierFactory"
+msgstr ""
+
+#: ../zcml.py:39
+msgid "An object that provides IOptInOptOutStorage"
+msgstr ""
+
+#: ../plone_core/configure.zcml:28
+msgid "Analytics that are used to improve the website without                  directly tracking users"
+msgstr ""
+
+#: ../browser/consent.py:42
+msgid "Blocked"
+msgstr ""
+
+#: ../browser/consent.py:182
+msgid "Cancel"
+msgstr ""
+
+#: ../browser/consent.py:58
+msgid "Choose to opt in or out of various pieces of functionality"
+msgstr ""
+
+#: ../zcml.py:70
+msgid "Cookies names"
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "Cookies to record your privacy preferences"
+msgstr ""
+
+#: ../zcml.py:50
+msgid "Description"
+msgstr ""
+
+#: ../profiles/default/registry.xml
+msgid "Display a banner soliciting consent for all items that require consent that the user hasn't already answered"
+msgstr ""
+
+#: ../profiles/default/registry.xml
+msgid "Display consent banner"
+msgstr ""
+
+#: ../zcml.py:32
+msgid "How users will be identified"
+msgstr ""
+
+#: ../processing_reason.py:42
+msgid "In order to comply with Data Protection laws, we cannot offer the ability to opt out of this."
+msgstr ""
+
+#: ../configure.zcml:40
+msgid "Installs the collective.privacy add-on."
+msgstr ""
+
+#: ../zcml.py:57
+msgid "Is this used for marketing purposes?"
+msgstr ""
+
+#: ../zcml.py:64
+msgid "Is this used for tracking purposes?"
+msgstr ""
+
+#: ../zcml.py:26
+msgid "Legal basis"
+msgstr ""
+
+#: ../zcml.py:71
+msgid "List of cookies for this use : separeted by ',', wildcard (*) accepted"
+msgstr ""
+
+#: ../browser/templates/consent_banner.pt:26
+msgid "Manage privacy settings"
+msgstr ""
+
+#: ../zcml.py:56
+msgid "Marketing"
+msgstr ""
+
+#: ../zcml.py:22
+msgid "Name"
+msgstr ""
+
+#: ../browser/consent.py:165
+msgid "Ok"
+msgstr ""
+
+#: ../plone_core/configure.zcml:17
+msgid "Other users of the site can choose to share content through                  email. You may object to this processing of your email address                  to prevent these emails being sent to you by other users."
+msgstr ""
+
+#: ../browser/overrides/Products.CMFPlone.skins.plone_form_scripts.validate_sendto.vpy:42
+msgid "Please correct the indicated errors."
+msgstr ""
+
+#: ../browser/overrides/Products.CMFPlone.skins.plone_form_scripts.validate_sendto.vpy:27
+msgid "Please submit a valid email address."
+msgstr ""
+
+#: ../browser/overrides/Products.CMFPlone.skins.plone_form_scripts.validate_sendto.vpy:16
+msgid "Please submit an email address."
+msgstr ""
+
+#: ../browser/consent.py:57
+msgid "Privacy settings"
+msgstr ""
+
+#: ../browser/templates/consent_banner.pt:22
+msgid "Refuse"
+msgstr ""
+
+#: ../zcml.py:38
+msgid "Storage for this data"
+msgstr ""
+
+#: ../zcml.py:51
+msgid "The end-user visible description of this processing"
+msgstr ""
+
+#: ../zcml.py:45
+msgid "The end-user visible title for this processing"
+msgstr ""
+
+#: ../zcml.py:22
+msgid "The id used for this category."
+msgstr ""
+
+#: ../zcml.py:27
+msgid "The identifier of a legal basis that is used here"
+msgstr ""
+
+#: ../processing_reason.py:38
+msgid "The preference you set here will be stored on your computer."
+msgstr ""
+
+#: ../configure.zcml:30
+msgid "These store if you've given consent or objected to various                  uses of your data. We need to store these to comply with data                  protection law."
+msgstr ""
+
+#: ../browser/overrides/Products.CMFPlone.skins.plone_form_scripts.validate_sendto.vpy:21
+msgid "This person does not want to receive our emails"
+msgstr ""
+
+#: ../zcml.py:44
+msgid "Title"
+msgstr ""
+
+#: ../zcml.py:63
+msgid "Tracking"
+msgstr ""
+
+#: ../profiles/default/registry.xml
+msgid "Trust member emails"
+msgstr ""
+
+#: ../configure.zcml:49
+msgid "Uninstalls the collective.privacy add-on."
+msgstr ""
+
+#: ../plone_core/configure.zcml:28
+msgid "Unintrusive analytics"
+msgstr ""
+
+#: ../browser/consent.py:180
+msgid "Your preferences have been saved."
+msgstr ""
+
+#: ../configure.zcml:40
+msgid "collective.privacy"
+msgstr ""
+
+#: ../configure.zcml:49
+msgid "collective.privacy (uninstall)"
+msgstr ""
+
+#. Default: "If you would prefer not to receive these emails you can adjust your privacy settings on ${portal_title} by visiting ${consent_url}"
+#: ../browser/overrides/Products.CMFPlone.browser.templates.sendto_template.pt:34
+#: ../browser/overrides/Products.CMFPlone.skins.plone_templates.sendto_template.pt:34
+msgid "email_privacy_info"
+msgstr ""
