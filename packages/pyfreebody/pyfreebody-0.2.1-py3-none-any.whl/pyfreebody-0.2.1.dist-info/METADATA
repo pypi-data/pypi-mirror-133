@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyfreebody
+Version: 0.2.1
+Summary: Pyfreebody is an easy tool to create free-body diagrams. See how to use at https://github.com/danalves24com/pyfreebody/blob/main/docs.org
+Home-page: https://github.com/danalves24com/pyfreebody
+Author: Daniel Rosel
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: Pillow
+
+UNKNOWN
+
