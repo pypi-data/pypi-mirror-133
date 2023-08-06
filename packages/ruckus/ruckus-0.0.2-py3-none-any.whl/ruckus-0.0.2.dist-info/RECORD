@@ -1,0 +1,13 @@
+ruckus/__init__.py,sha256=NyG8lLXvWDHQ5pkIPCDuMTTVvS2pTV_ESisnOrHd0hI,415
+ruckus/base.py,sha256=YRVA52nQJUzb8GUSjepNDyw48T2MA1LYrlBpqc8yz78,35017
+ruckus/convolution.py,sha256=vdrHXNKiH0RPMf5ImQ2PQuLnXdm3ekFsEw1Rtk4ScJI,6689
+ruckus/cv_wrappers.py,sha256=J2OAgWsnd6xnfd9_Q_8CimA6iXnV7lImHFZVfCp3p_g,4730
+ruckus/embedding.py,sha256=bunJh2tfjVhlg9y8b3gOOBKQTdeMjWYLTrnbDHDRa4s,29371
+ruckus/sampling.py,sha256=a6LWY-Y62_bN9px1qyAgShG4wPt-_3Xw_86WVwHJLHk,2586
+ruckus/scoring.py,sha256=CS_FzPGefuwcO8ZAtX0P4bwzRKrnk85ODxEE5Lp5uAI,4355
+ruckus/utils.py,sha256=lswiM0HO2pyQbpZqiNm3KQ1SpoxE6pOa6cxvGCHAR-s,474
+ruckus-0.0.2.dist-info/LICENSE,sha256=RcsetKiI9X6nzgG2OEuCTYIzRXBhs3DFTgzv3vx23m8,1072
+ruckus-0.0.2.dist-info/METADATA,sha256=cl1iztFuJLGhji284J87aD1pM8j2PmP8tL3mr_OCkLE,9168
+ruckus-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ruckus-0.0.2.dist-info/top_level.txt,sha256=k7wWZVviTWfrjJSr8jcqZXLTrJ35zIkfOwGasr1ZKuk,7
+ruckus-0.0.2.dist-info/RECORD,,
