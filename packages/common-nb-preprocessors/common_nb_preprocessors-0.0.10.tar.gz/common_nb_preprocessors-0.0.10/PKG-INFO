@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: common-nb-preprocessors
+Version: 0.0.10
+Summary: Inject metadata directly into jupyter notebook cells via _magic_ comments.
+Home-page: https://github.com/kai-tub/common_nb_preprocessors
+License: Apache-2.0
+Keywords: jupyter,notebook,nbconvert,preprocessor,tags
+Author: Kai Norman Clasen
+Author-email: snakemap_navigation@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: nbconvert (>=6.1,<7.0)
+Project-URL: Repository, https://github.com/kai-tub/common_nb_preprocessors
+Description-Content-Type: text/markdown
+
+# Common Jupyter Notebook Preprocessors
+
+This repository contains a personal collection of common notebook preprocessors.
+As of writing, the most relevant function is probably:
+`common_nb_preprocessors.metadata_injector.jupyter_book_metadata_injector`
+
+This function can be used to automatically inject [JupyterBook](https://jupyterbook.org/intro.html) specific tags into code-cells by using _magical_ comments.
+Set the function in the [nb_custom_formats](https://jupyterbook.org/file-types/jupytext.html) entry:
+
+```yaml
+sphinx:
+  config:
+    nb_custom_formats:
+        .ipynb:
+            - common_nb_preprocessors.metadata_injector.jupyter_book_metadata_injector
+```
+
