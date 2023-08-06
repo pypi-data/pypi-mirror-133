@@ -1,0 +1,1 @@
+PYFACEIT_API_KEY = '3b5a9d07-4b77-4be4-bf5d-f9ff3d6cb7b6'
