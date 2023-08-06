@@ -1,0 +1,544 @@
+{
+	"languages":
+	[ 
+		{
+			"name": "Python",
+			"model_types": [
+				{
+					"name": "Artificial Neural Network/ Deep Learning",
+					"libraries": [
+						"sklearn.neural_network",
+						"torch.nn",
+						"tensorflow",
+						"tensorflow.keras",
+						"neurolab",
+						"lasagne",
+						"theano",
+						"caffe",
+						"mxnet"
+					]
+				},				
+				{
+					"name": "Audio",
+					"libraries": [
+						"torchaudio",
+						"librosa",
+						"madmom",
+						"pyaudioanalysis"
+					]
+				},
+				{
+					"name": "Forecasting",
+					"libraries":[
+						"statsmodels.tsa",
+						"statsmodels.api",
+						"fbprophet",
+						"hts",
+						"pmdarima",
+						"pyramid-arima"
+					]
+				},
+				{
+					"name": "Geospatial Data / Terrain Models",
+					"libraries": [
+						"osgeo",
+						"gdal",
+						"ogr",
+						"osr",
+						"gdalnumeric",
+						"gdalconst",
+						"rasterio",
+						"cartopy",
+						"h3",
+						"geopandas"
+					]
+				},
+				{
+					"name": "Images/Video",
+					"libraries": [
+						"pil", 
+						"timm",
+						"torchvision",
+						"scipy.ndimage",
+						"tensorflow.keras.preprocessing.image",
+						"cv",
+						"simplecv"
+					]
+				},
+				{
+					"name": "Natural Language Processing (NLP)",
+					"libraries": [
+						"transformers",
+						"nltk",
+						"pynlpl",
+						"spacy",
+						"stanza",
+						"stanfordcorenlp",
+						"pycorenlp",
+						"corenlp_pywrap",
+						"corenlp",
+						"pattern"
+					]
+				},
+				{
+					"name": "Network / Graph Analysis",
+					"libraries":[
+						"networkx",
+						"pyunicorn"
+					]
+				},
+				{
+					"name": "Integration / Ordinary Differential Equations (ODE)",
+					"libraries": [
+						"scipy.integrate",
+						"odespy",
+						"ode",
+						"diffeqpy",
+						"hamSolver"
+					]
+				},
+				{
+					"name": "Reinforcement Learning (RL)",
+					"libraries": [
+						"gym",
+						"pyqlearning",
+						"rl",
+						"tensorforce",
+						"mametoolkit",
+						"mushroom_rl",
+						"chainerrl"
+					]
+				},		
+				{
+					"name": "Signal Processing",
+					"libraries": [
+						"scipy.signal"
+					]
+				},
+				{
+					"name": "Simulation / Uncertainty Quantification",
+					"libraries": [
+						"chaospy",
+						"easyvvuq",				
+						"scipy.interpolate",
+						"uqp",
+						"uqpy",
+						"simpy"
+					]
+				},
+				{
+					"name": "Supervised Learning",
+					"libraries": [
+						"sklearn.linear_model",
+						"sklearn.discriminant_analysis",
+						"sklearn.kernel_ridge",
+						"sklearn.svm",
+						"sklearn.gaussian_process",
+						"sklearn.tree"
+					]
+				},
+				{
+					"name": "Text",
+					"libraries": [
+						"torchtext",
+						"tensorflow.keras.layers.experimental.preprocessing.textvectorization",
+						"tensorflow.keras.layers.embedding"
+					]
+				},
+				{
+					"name": "Unsupervised Learning",
+					"libraries": [
+						"sklearn.cluster",
+						"sklearn.mixture",
+						"sklearn.manifold",
+						"sklearn.decomposition",
+						"sklearn.covariance",
+						"sompy"						
+					]
+				}			
+			]
+		},
+		{
+			"name": "R",
+			"model_types": [
+				{
+					"name": "Artificial Neural Network/ Deep Learning",
+					"libraries": [
+						"fastai",
+						"torch",
+						"nnlib2Rcpp",
+						"rtorch",
+						"deepnn",
+						"ruta",
+						"keras",
+						"kerasr",
+						"tensorflow",
+						"neuralnet",
+						"rsnns",
+						"fcnn4r",
+						"darch",
+						"deeplearning",
+						"deepnet",
+						"rnn",
+						"rcppdl",
+						"pnn",
+						"qrnn",
+						"monmlp",
+						"nnet",
+						"darch",
+						"deepr",
+						"rnn",
+						"fcnn4r"
+					]
+				},				
+				{
+					"name": "Audio",
+					"libraries": [
+						"audio",
+						"av",
+						"readr",
+						"tuner",
+						"wrassp"
+					]
+				},
+				{
+					"name": "General Regression Neural Network",
+					"libraries": [
+						"yager"
+					]
+				},
+				{
+					"name": "Geospatial Data / Terrain Models",
+					"libraries": [
+						"sp",
+						"raster",
+						"maptools",
+						"rgeos",
+						"dismo",
+						"rgooglemaps",
+						"googlevis",
+						"rworldmap",
+						"spatial",
+						"ecespa",
+						"geor",
+						"spdep",
+						"spgrass6",
+						"rpygeo",
+						"rsaga",
+						"spsextante",
+						"rangemapper",
+						"rgdal",
+						"spgdal",
+						"chloroplethr",
+						"chloroplethrmaps"
+					]
+				},
+				{
+					"name": "Images/Video",
+					"libraries": [
+						"torchvision",
+						"magick",
+						"zeallot",
+						"platypus",
+						"av"
+					]
+				},
+				{
+					"name": "Natural Language Processing (NLP)",
+					"libraries": [
+						"softmaxreg",
+						"tidytext",
+						"topicmodels",
+						"korpus",
+						"lsa",
+						"opennlp",
+						"quanteda",
+						"spacyr",
+						"text2vec",
+						"tm",
+						"nlp"
+					]
+				},
+				{
+					"name": "Network / Graph Analysis",
+					"libraries":[
+						"igraph",
+						"netrankr",
+						"tnet"
+					]
+				},
+				{
+					"name": "Integration / Ordinary Differential Equations (ODE)",
+					"libraries": [
+						"desolve",
+						"reactran",
+						"bvpsolve",
+						"rootsolve",
+						"pbsddesolve",
+						"sde",
+						"pomp",
+						"calculus",
+						"rxode"
+					]
+				},
+				{
+					"name": "Reinforcement Learning (RL)",
+					"libraries": [
+						"reinforcementlearning",
+						"mdptoolbox",
+						"rlr"
+					]
+				},		
+				{
+					"name": "Signal Processing",
+					"libraries": [
+						"signal"
+					]
+				},
+				{
+					"name": "Simulation / Uncertainty Quantification",
+					"libraries": [
+						"gmdh",
+						"ipred",
+						"simulator",
+						"simmer",
+						"parsim"
+					]
+				},
+				{
+					"name": "Supervised Learning",
+					"libraries": [
+						"randomforest",
+						"e1071",
+						"rpart",
+						"caret",
+						"klar",
+						"rpart",
+						"kernlab"
+					]
+				},
+				{
+					"name": "Text",
+					"libraries": [
+						"tm"
+					]
+				},
+				{
+					"name": "Unsupervised Learning",
+					"libraries": [
+						"cluster",
+						"clusterr"
+						
+					]
+				}
+			]
+		},
+		{
+			"name": "Julia",
+			"model_types": [
+				{
+					"name": "Artificial Neural Network/ Deep Learning",
+					"libraries": [
+						"nerualpde",
+						"geometricflux",
+						"mocha",
+						"knet",
+						"mljmodels",
+						"mlj",
+						"scikitlearn",
+						"strada",
+						"merlin",
+						"tensorflow",
+						"mxnet",
+						"machinelearning",
+						"ann",
+						"recurrentnn",
+						"neuralnets",
+						"fann",
+						"rnn"
+					]
+				},				
+				{
+					"name": "Audio",
+					"libraries": [
+						"musicprocessing",
+						"sound",
+						"mp3",
+						"world"
+					]
+				},
+				{
+					"name": "Forecasting",
+					"libraries":[
+						"timeseries",
+						"kernaldensity",
+						"temporal",
+						"causemap"
+					]
+				},
+				{
+					"name": "Geospatial Data / Terrain Models",
+					"libraries": [
+						"geodesy",
+						"gdal",
+						"geointerface",
+						"geojson",
+						"shapefile",
+						"gadm",
+						"libgeos",
+						"proj4",
+						"gmt",
+						"openstreetmapx",
+						"geostats"
+					]
+				},
+				{
+					"name": "Images/Video",
+					"libraries": [
+						"metalhead",
+						"images"
+					]
+				},
+				{
+					"name": "Natural Language Processing (NLP)",
+					"libraries": [
+						"transformers",
+						"word2vec"
+					]
+				},
+				{
+					"name": "Network / Graph Analysis",
+					"libraries":[
+						"lightgraphs",
+						"graphs"
+					]
+				},
+				{
+					"name": "Integration / Ordinary Differential Equations (ODE)",
+					"libraries": [
+						"diffeqflux",
+						"differentialequations",
+						"diffeqbayes"
+					]
+				},
+				{
+					"name": "Reinforcement Learning (RL)",
+					"libraries": [						
+						"deepqlearning"
+					]
+				},		
+				{
+					"name": "Signal Processing",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Simulation / Uncertainty Quantification",
+					"libraries": [
+						"sims",
+						"uncertaintyquantification",
+						"interpolations"
+					]
+				},
+				{
+					"name": "Supervised Learning",
+					"libraries": [
+						"decisiontree",
+						"supervisedlearning",
+						"gurls",
+						"svm"
+					]
+				},
+				{
+					"name": "Text",
+					"libraries": [
+						"textanalysis",
+						"text"
+					]
+				},
+				{
+					"name": "Unsupervised Learning",
+					"libraries": [			
+						"clustering",
+						"multivariateanalysis"
+					]
+				}			
+			]
+		},
+		{
+			"name": "",
+			"model_types": [
+				{
+					"name": "Artificial Neural Network/ Deep Learning",
+					"libraries": [
+					]
+				},				
+				{
+					"name": "Audio",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Forecasting",
+					"libraries":[
+					]
+				},
+				{
+					"name": "Geospatial Data / Terrain Models",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Images/Video",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Natural Language Processing (NLP)",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Network / Graph Analysis",
+					"libraries":[
+					]
+				},
+				{
+					"name": "Integration / Ordinary Differential Equations (ODE)",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Reinforcement Learning (RL)",
+					"libraries": [
+					]
+				},		
+				{
+					"name": "Signal Processing",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Simulation / Uncertainty Quantification",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Supervised Learning",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Text",
+					"libraries": [
+					]
+				},
+				{
+					"name": "Unsupervised Learning",
+					"libraries": [			
+					]
+				}			
+			]
+		}
+	]
+}
