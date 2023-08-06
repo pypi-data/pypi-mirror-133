@@ -1,0 +1,17 @@
+dmit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmit/datetools.py,sha256=g8NPxpFb4yssapxdLS4lf9IWSVcT9YOMTMWCCE3wnSM,9260
+dmit/geotools.py,sha256=wgM003big9k0OS8BaISw13Sep9nVoqTVj79MHp-5Mgw,4385
+dmit/ostools.py,sha256=tUKL-Nl0PGr6Ywkt8KmD-9xXHLbXpnRoZaonbpxEmL8,3462
+dmit/regrot.py,sha256=AsbrTAUgFIZ-Umlkfj4hRVJtf_SVfQx8ZQ2vSiPSAq8,4049
+dmit/calc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmit/calc/pressure.py,sha256=D2y53QyKkCT4Eake41caARX8AOo2hZ9AkWucfSqzZPI,3361
+dmit/calc/sun.py,sha256=I6EVk8OXkWn--ruTgeMONeT6xc-rC-V2cmU_xMEf5YQ,3709
+dmit/calc/vanulden.py,sha256=biYJW3i89BhBWCXbkMRDMra-Wp6V9_YsS52B-z28s3U,8597
+dmit/dmitio/__init__.py,sha256=B1sjNPuYo374_XhSo_HqEhXX5AtNc8xEzuWCqNCZPT0,9053
+dmit/stats/__init__.py,sha256=pTD5uwin4sIqQ4W_7HYD1muVWXO_uueuB3A3MSI3TvM,1705
+dmit/stats/fss.py,sha256=r6tnl3Fy8MLRqdwbv-bQpEfhXZFopGDWrFaqp24JtKw,3037
+dmit-0.5.1.dist-info/LICENSE,sha256=ED03QsM4XBkC4KJiLoXnb_ecYzlw6A2O4lh9tttpEKE,1047
+dmit-0.5.1.dist-info/METADATA,sha256=YHh9x9NLkRw7-E3uh2FlSyMcDzqozwQ4xbYOCo4emOI,952
+dmit-0.5.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dmit-0.5.1.dist-info/top_level.txt,sha256=1b3y11A-OATBMdHkRA7tEYv3yXQ47rCrb7fzKgDmVqY,5
+dmit-0.5.1.dist-info/RECORD,,
