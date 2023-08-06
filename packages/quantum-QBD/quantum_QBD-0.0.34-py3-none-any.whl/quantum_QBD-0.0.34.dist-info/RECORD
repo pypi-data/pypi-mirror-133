@@ -1,0 +1,10 @@
+quantum_QBD/__init__.py,sha256=x9pHP1-44xKU943AOBbeey3TPyVstrefcSm8vhLo8AQ,122
+quantum_QBD/dos.py,sha256=7LxndFSCY_xrYPGqTeuP4VaCay8URGlHezb_KEZBrwA,23702
+quantum_QBD/ldos.py,sha256=syF9L0imJvvWJ7A2dZ2DgYqyCixNxrEl2z1socXA4es,28443
+quantum_QBD/shroodinger__equation.py,sha256=02SAObCrfIJ7zJdXnUs0C2xgFbgIVhT737nJQtHv-6M,5011
+quantum_QBD/tools.py,sha256=jgfdakH7vNAYJo-B_axYX3a9aCn46W-SPdBt6owJmH4,2514
+quantum_QBD-0.0.34.dist-info/LICENSE,sha256=yviUpHetktEsoL4WCmrPbqfr7OIO3xJFFkQvSgV2tkk,35820
+quantum_QBD-0.0.34.dist-info/METADATA,sha256=oGKkZybtyz0N2MP564W3tSQjDGBw03NLnjl0iNtsrkc,1050
+quantum_QBD-0.0.34.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+quantum_QBD-0.0.34.dist-info/top_level.txt,sha256=0KVVL_uhAmw1fwvNbeHzDpdG6Kjsatq5n4rsU5KybQY,12
+quantum_QBD-0.0.34.dist-info/RECORD,,
