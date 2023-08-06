@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+bin/cryptoprice_deserialize
+src/cryptoprice_serialization/__init__.py
+src/cryptoprice_serialization.egg-info/PKG-INFO
+src/cryptoprice_serialization.egg-info/SOURCES.txt
+src/cryptoprice_serialization.egg-info/dependency_links.txt
+src/cryptoprice_serialization.egg-info/top_level.txt
+src/cryptoprice_serialization/business_logic/__init__.py
+src/cryptoprice_serialization/business_logic/instrument_definition.py
+src/cryptoprice_serialization/business_logic/prices.py
+src/cryptoprice_serialization/serializer/__init__.py
+src/cryptoprice_serialization/serializer/serialize.py
+src/cryptoprice_serialization/serializer/serialization/__init__.py
+src/cryptoprice_serialization/serializer/serialization/message_pb2.py
