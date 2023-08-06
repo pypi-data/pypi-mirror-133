@@ -1,0 +1,65 @@
+====={{{ "=" * project.name|length }}}
+Odoo {{{ project.name|capitalize }}}
+====={{{ "=" * project.name|length }}}
+
+.. contents::
+
+Development environment howto
+=============================
+
+Initialize virtualenv
+---------------------
+
+- create and activate virtualenv, using python 3's standard `python -m venv` or possibly with virtualenvwrapper's
+  ``mkvirtualenv odoo-{{{ project.name }}} -a . --python=$(which {{{ python_version }}})``
+- make sure acsoo [#]_ and pip-deepfreeze [#]_ are installed and in your PATH
+- to save some time it is recommended to configure git-autoshare [#]_.
+
+Install everything
+------------------
+
+In an activated {{{ python_version }}} virtualenv, run::
+
+   pip-df sync
+
+When dependencies change, use ``pip-df sync`` again, possibly with
+``--update``. Add unmerged VCS dependencies in ``requirements.txt.in``. See the
+pip-deepfreeze documentation for more information.
+
+Run
+---
+
+Copy ``odoo.cfg.template`` to ``odoo.cfg`` and update it as needed, then run::
+
+{{% if odoo.series in ['8.0', '9.0'] %}}
+   odoo-autodiscover.py -c odoo.cfg
+{{% else %}}
+   odoo -c odoo.cfg
+{{% endif %}}
+
+
+Develop
+-------
+
+This project uses Black [#]_ and other code formatters.
+To make sure local coding convention are respected before
+you commit, install pre-commit [#]_ and
+run ``pre-commit install`` after cloning the repository.
+
+Release
+-------
+
+First make sure you have been testing using the correct dependencies by
+running ``pip-df sync`` and checking there is no change in ``requirements.txt``.
+
+To release using gitlab-ci
+..........................
+
+- run acsoo tag, the deploy to the test environment will be automatic, and
+  gitlab will show a button on the pipeline to deploy to production.
+
+.. [#] https://pypi.python.org/pypi/acsoo/#installation
+.. [#] https://pypi.python.org/pypi/pip-deepfreeze
+.. [#] https://pypi.python.org/pypi/git-autoshare
+.. [#] https://github.com/ambv/black
+.. [#] https://github.com/pre-commit/pre-commit
