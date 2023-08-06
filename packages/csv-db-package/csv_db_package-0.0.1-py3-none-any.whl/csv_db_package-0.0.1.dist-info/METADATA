@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: csv-db-package
+Version: 0.0.1
+Summary: This package is found useful for those who wants to modify their CSV file without using database.It creates a local server that having a functionality of uploading a csv file and then perform crud operations through browser itself.
+Home-page: https://github.com/ankitaliya/csv_db_package
+Author: Ankita Liya
+Author-email: saatwikmehta@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ankitaliya/csv_db_package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mysql-connector-python
+Requires-Dist: Jinja2
+Requires-Dist: pandas
+
+# Upload CSV file and perform CRUD operations on it.
+Upload a csv file, it shows the table formation for that file in browser.
+You can perform CRUD operations over there using different buttons, it will connect the table with db.
+
+## Installation
+pip install csv_db_package
+
+## License 
+© 2022 Ankita Liya
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
+
