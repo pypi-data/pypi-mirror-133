@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aleph_utils/__init__.py
+src/aleph_utils/make_ids.py
+src/aleph_utils/nombre_en_francais.py
+src/aleph_utils/store_utils.py
+src/aleph_utils.egg-info/PKG-INFO
+src/aleph_utils.egg-info/SOURCES.txt
+src/aleph_utils.egg-info/dependency_links.txt
+src/aleph_utils.egg-info/top_level.txt
