@@ -1,0 +1,68 @@
+{# Define variables #}
+{# (1) Convert strings #}
+{% set height = float(data['height']) %}
+{% set font_size = int(data['font_size']) %}
+{% set roundness = float(data['roundness']) %}
+{% set x_spacing = float(data['x_spacing']) %}
+
+{# (2) Render text paths & extract their properties #}
+{% set rendered_text_left = render_text(data['text_left'], data['font_left'], font_size) %}
+{% set rendered_text_right = render_text(data['text_right'], data['font_right'], font_size) %}
+
+{# (3) Determine font metrics #}
+{% set metrics_font_left = font_metrics(data['font_left'], font_size) %}
+{% set metrics_font_right = font_metrics(data['font_right'], font_size) %}
+
+{# (4) Calculate lengths & distances #}
+{% set width_left = rendered_text_left['width'] + 2 * x_spacing %}
+{% set width_right = rendered_text_right['width'] + 2 * x_spacing %}
+{% set width_total = width_left + width_right %}
+{% set bottom_text_left = (height + metrics_font_left['height']) / 2 %}
+{% set bottom_text_right = (height + metrics_font_right['height']) / 2 %}
+{% set x_text_left = x_spacing / (width_left / rendered_text_left['width']) %}
+{% set y_text_left = bottom_text_left - metrics_font_left['descent'] %}
+{% set x_text_right = width_left + x_spacing %}
+{% set y_text_right = bottom_text_right - metrics_font_right['descent'] %}
+
+{# Build SVG elements #}
+<svg xmlns="http://www.w3.org/2000/svg" width="{{ width_total }}" height="{{ height }}" viewBox="0 0 {{ width_total }} {{ height }}">
+    {# (1) Create clipping for rounded corners (optional) #}
+    {% if roundness > 0 %}
+    <defs>
+        <clipPath id="rounded_corners">
+            <rect width="{{ width_total }}" height="{{ height }}" x="0" y="0" rx="{{ roundness }}" ry="{{ data['roundness'] }}" />
+        </clipPath>
+    </defs>
+    {% endif %}
+
+    {# (2) Draw rectangles #}
+    {% if roundness > 0 %}
+    <g clip-path="url(#rounded_corners)">
+    {% endif %}
+    <rect width="{{ width_left }}" height="{{ height }}" x="0" y="0" fill="{% if data['swap_colors'] %}{{ data['bg_right'] }}{% else %}{{ data['bg_left'] }}{% endif %}" />
+    <rect width="{{ width_right }}" height="{{ height }}" x="{{ width_left }}" y="0" fill="{% if data['swap_colors'] %}{{ data['bg_left'] }}{% else %}{{ data['bg_right'] }}{% endif %}" />
+    {% if roundness > 0 %}
+    </g>
+    {% endif %}
+
+    {# (3) Draw text paths (shadows are optional) #}
+    {# (a) Left side #}
+    {% if data['has_shadow'] %}
+    <g transform="translate({{ x_text_left }}, {{ y_text_left + 1 }})" fill="{% if data['swap_colors'] %}{{ data['shadow_right'] }}{% else %}{{ data['shadow_left'] }}{% endif %}">
+        {{ rendered_text_left['path'] }}
+    </g>
+    {% endif %}
+    <g transform="translate({{ x_text_left }}, {{ y_text_left }})" fill="{% if data['swap_colors'] %}{{ data['color_right'] }}{% else %}{{ data['color_left'] }}{% endif %}">
+        {{ rendered_text_left['path'] }}
+    </g>
+
+    {# (b) Right side #}
+    {% if data['has_shadow'] %}
+    <g transform="translate({{ x_text_right }}, {{ y_text_right + 1 }})" fill="{% if data['swap_colors'] %}{{ data['shadow_left'] }}{% else %}{{ data['shadow_right'] }}{% endif %}">
+        {{ rendered_text_right['path'] }}
+    </g>
+    {% endif %}
+    <g transform="translate({{ x_text_right }}, {{ y_text_right }})" fill="{% if data['swap_colors'] %}{{ data['color_left'] }}{% else %}{{ data['color_right'] }}{% endif %}">
+        {{ rendered_text_right['path'] }}
+    </g>
+</svg>

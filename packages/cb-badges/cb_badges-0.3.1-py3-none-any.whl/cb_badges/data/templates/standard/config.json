@@ -1,0 +1,13 @@
+{
+    "height": 25,
+    "font_size": 16,
+    "roundness": 4,
+    "x_spacing": 7.5,
+    "has_shadow": false,
+    "swap_colors": false,
+    "font_left": "inter-regular",
+    "font_right": "inter-bold",
+    "theme": "blue",
+    "text_left": "hello",
+    "text_right": "codeberg"
+}
