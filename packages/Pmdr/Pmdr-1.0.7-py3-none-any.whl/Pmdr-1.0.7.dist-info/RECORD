@@ -1,0 +1,17 @@
+timer.py,sha256=GL9PPG8prw5z04JyoPxfiBAhcT3rmciryxTlhaAVnZ4,1751
+Pmdr-1.0.7.data/data/pmdr/endalarm.mp3,sha256=prTjl5Uq8ebFINrVwtPhCt1Q6_XM6r1xeA_xXkjjfII,27622
+Pmdr-1.0.7.data/data/pmdr/sbalarm.mp3,sha256=elyk6x2LETkQvHOyTNhf7MOrwuCwGIh9eV8l89zuA3Y,30184
+Pmdr-1.0.7.data/data/pmdr/stalarm.mp3,sha256=oWRh8XoA7doaU0elHyLrpxe2sx6rNZF3x7awO7YZnHI,34207
+pmdr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pmdr/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pmdr/application.py,sha256=4mWsuJ5RdiMzR-eYLOG-QzyjCTKzyQN_ziqxOWWm3KQ,1131
+pmdr/endalarm.mp3,sha256=prTjl5Uq8ebFINrVwtPhCt1Q6_XM6r1xeA_xXkjjfII,27622
+pmdr/sbalarm.mp3,sha256=elyk6x2LETkQvHOyTNhf7MOrwuCwGIh9eV8l89zuA3Y,30184
+pmdr/stalarm.mp3,sha256=oWRh8XoA7doaU0elHyLrpxe2sx6rNZF3x7awO7YZnHI,34207
+pmdr/timer.py,sha256=tQnF1W-wB0iX99py9rd_7fwdbym0O8QDivetbd_XePc,866
+Pmdr-1.0.7.dist-info/LICENSE,sha256=O-PUUVG3HUMuGZ0tTAhfCcKqbGJGfxbhkAdhP7NvdY4,1074
+Pmdr-1.0.7.dist-info/METADATA,sha256=lpnO5zVztN1WYYrKDlww7g2Nu4Dpu-DAfBUPBupvSys,2563
+Pmdr-1.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Pmdr-1.0.7.dist-info/entry_points.txt,sha256=D1J1fY98Vh0UQ-yiV5VpDFR0L4UU_vXISM2BlnOxRwA,54
+Pmdr-1.0.7.dist-info/top_level.txt,sha256=ev6t49yshDhJ52noj5h7AbUjO9nhAWBHS3sCcTJvUTg,11
+Pmdr-1.0.7.dist-info/RECORD,,
