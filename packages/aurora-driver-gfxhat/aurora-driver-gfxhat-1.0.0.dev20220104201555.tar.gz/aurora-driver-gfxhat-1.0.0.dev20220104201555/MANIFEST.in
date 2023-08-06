@@ -1,0 +1,3 @@
+include README.md LICENSE
+recursive-include res *.bdf *.ttf *.pil
+recursive-exclude res *.bdf.pbm *.bdf.pil
