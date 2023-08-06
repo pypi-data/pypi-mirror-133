@@ -1,0 +1,13 @@
+pytextnow/TNAPI.py,sha256=OYSJ2nL7zKpk2lQSUUt2DkGdBgdkrgxw3IreuGi2W28,12853
+pytextnow/__init__.py,sha256=533MGGb3WlolUZSOFfz1DR67Z7JKsYyEXe4ZoM1BO9U,29
+pytextnow/error.py,sha256=vUHBn7VosUyKB1NIlf5VFde2AQlbg9zcZxzazZijjGk,1458
+pytextnow/login.py,sha256=zdM4xZOJFo0kziT4duvm5WmnC9wgjIMhSbTC4yMBER0,368
+pytextnow/message.py,sha256=UUJ7OGbfXe0o2I0LkXvv71GjMJtWLmm0aNCti0Yri_I,5558
+pytextnow/message_container.py,sha256=aAOBvp_uuZc2EZXMR3mnsXzrcwl6kyibicWh3mHODQQ,710
+pytextnow/multi_media_message.py,sha256=9fnaCeK8o4LtHbcpmUgrywzm3EB5E-Hm_AAXBmhGpOs,748
+pytextnow/user_cookies.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+PyTextNow-1.2.0.dist-info/LICENSE,sha256=qXB4NIerCsv9Nrfpb4o5heNcAbafJUKUV0fyXjrabzY,1087
+PyTextNow-1.2.0.dist-info/METADATA,sha256=Hme-5OWHiL8Nu7QKqTgYwO9R7tHjZdn7hkXmmb4OPtA,8699
+PyTextNow-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyTextNow-1.2.0.dist-info/top_level.txt,sha256=TNljQsCV3LzQBRtNWdRFTswvdR-1AV6L4ZR0bdFoJsU,10
+PyTextNow-1.2.0.dist-info/RECORD,,
