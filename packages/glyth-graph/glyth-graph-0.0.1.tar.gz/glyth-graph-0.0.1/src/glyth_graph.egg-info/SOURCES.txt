@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/glyth-graph/__init__.py
+src/glyth-graph/glyth_graph.py
+src/glyth_graph.egg-info/PKG-INFO
+src/glyth_graph.egg-info/SOURCES.txt
+src/glyth_graph.egg-info/dependency_links.txt
+src/glyth_graph.egg-info/top_level.txt
