@@ -1,0 +1,7 @@
+LICENCE.txt
+README.txt
+setup.py
+InfoMarketClientApp.egg-info/PKG-INFO
+InfoMarketClientApp.egg-info/SOURCES.txt
+InfoMarketClientApp.egg-info/dependency_links.txt
+InfoMarketClientApp.egg-info/top_level.txt
