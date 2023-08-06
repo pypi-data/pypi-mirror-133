@@ -1,0 +1,15 @@
+CHANGELOG.md
+CODEOWNERS
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+allianceauth_celeryanalytics_housekeeping.egg-info/PKG-INFO
+allianceauth_celeryanalytics_housekeeping.egg-info/SOURCES.txt
+allianceauth_celeryanalytics_housekeeping.egg-info/dependency_links.txt
+allianceauth_celeryanalytics_housekeeping.egg-info/requires.txt
+allianceauth_celeryanalytics_housekeeping.egg-info/top_level.txt
+celeryanalytics_housekeeping/__init__.py
+celeryanalytics_housekeeping/app_settings.py
+celeryanalytics_housekeeping/apps.py
+celeryanalytics_housekeeping/tasks.py
