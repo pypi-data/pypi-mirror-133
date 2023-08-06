@@ -1,0 +1,3 @@
+[console_scripts]
+Table2XSV = table2xsv.bin:execute_from_command_line
+
