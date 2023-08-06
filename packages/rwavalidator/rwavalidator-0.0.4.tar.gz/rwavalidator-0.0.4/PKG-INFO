@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: rwavalidator
+Version: 0.0.4
+Summary: A fast minimal package to validate Rwandan National Ids and Phone Numbers(all carriers) using Regular Expressions.
+Home-page: UNKNOWN
+Author: Igwaneza Bruce
+Author-email: knowbeeinc@gmail.com
+License: MIT
+Keywords: rwanda,validator,rwavalidator,validate,id
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rwavalidator
+
+[![Downloads](https://pepy.tech/badge/rwavalidator)](https://pepy.tech/project/rwavalidator)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+
+A fast minimal package to validate Rwandan National Ids and Phone Numbers(all carriers) using Regular Expressions.
+
+## Installation
+
+The distribution is hosted on pypi at: https://pypi.org/project/rwavalidator/. To directly install the package from pypi, run from your terminal::
+
+    $ pip install rwavalidator
+
+Usage
+
+---
+
+# Validating Phone Numbers
+
+```py
+
+from rwavalidator import (isPhoneNumber, isNationalId)
+
+isPhoneNumber("0788854444"); # true
+isPhoneNumber("0778854444"); # false
+
+```
+
+# Validating National ID
+
+```py
+
+isNationalId("1199672222000040"); # true
+isNationalId("1201772222000040"); # false
+```
+
+
