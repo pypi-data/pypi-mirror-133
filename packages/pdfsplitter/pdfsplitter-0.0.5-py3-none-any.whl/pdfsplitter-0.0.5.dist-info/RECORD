@@ -1,0 +1,11 @@
+pdfsplitter/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+pdfsplitter/_nbdev.py,sha256=Ns3ymJUUMEc9tl5mgxmVf_qDnO-WSJ1XliusnxRPCn8,1080
+pdfsplitter/core.py,sha256=2rzPo6aMsBjrnAqd8x_gGaSAhFNH2yDnC7WuYhZOnlY,1696
+pdfsplitter/scraper.py,sha256=1JkCasnQjJhiX4P5epzPDi-TR8S9D-k1aTT_i_Jdp2g,1843
+pdfsplitter/stats.py,sha256=1o5wXQBvOd3QMTgwlbn689bQ3E150Pg5QHadmBky-gE,4279
+pdfsplitter-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pdfsplitter-0.0.5.dist-info/METADATA,sha256=i7JbTaG9bZmM6xC90YYa4BS2bS64ksoW4QuIgOj-1YA,17103
+pdfsplitter-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pdfsplitter-0.0.5.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+pdfsplitter-0.0.5.dist-info/top_level.txt,sha256=qrZiYpxyW5r5ZZ6mMDlwtDI5P6CaDqmKT_A0FNhqB0w,12
+pdfsplitter-0.0.5.dist-info/RECORD,,
