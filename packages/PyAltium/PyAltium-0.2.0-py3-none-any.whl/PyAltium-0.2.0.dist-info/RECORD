@@ -1,0 +1,15 @@
+pyaltium/__init__.py,sha256=i6CPKLmK-x14mo77wQAklMN_vEnBZZbQ6dhwTBK0848,136
+pyaltium/base.py,sha256=C24DLA83zPBSXoa6lqZCIuzH_psiMmOQv6wwtOxqpMg,4050
+pyaltium/drawinghelpers.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyaltium/exceptions.py,sha256=d1x-QNnvbNiYrXg92WP0fhocOaerd7yz_i88d_LL_w8,129
+pyaltium/helpers.py,sha256=mq3iHx-8N17o_O9S8f6oRUK_y_Ts6-GzfjJfHd6CBLA,2589
+pyaltium/magicstrings.py,sha256=ZmdyUATOrJVaDVkyD8zi3uCO8-6W-fgHHzsmlVG13Bg,1426
+pyaltium/pcblib.py,sha256=5r85-FVE3EIs4TRxJuaeNX1gjmj8GuqMKhrfMabc7TM,3769
+pyaltium/schematichelpers.py,sha256=RLSjYOogUDuw8YHZuS1mF4U3Z0xfnpvOzTKNCU-q0oQ,2669
+pyaltium/schlib.py,sha256=OaAgC6L5EoMNk3imY3GmRaVglXQYvM3aG0zlbgIjj64,7969
+pyaltium/types.py,sha256=8oRWZgeIq8Gi2Qvt6UmLUJjZlDXE5x4ZYxgRgFfXywI,7265
+PyAltium-0.2.0.dist-info/LICENSE,sha256=oavAGAEKm5cLeR1955feRlXsWItASOxRWlN756Cdqhw,1069
+PyAltium-0.2.0.dist-info/METADATA,sha256=zj0Z3u4GobtpvDgDRXFn9yZWpaRlaF9cwkeoVx675HQ,1676
+PyAltium-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PyAltium-0.2.0.dist-info/top_level.txt,sha256=1JU__StyfgMVDE87a6_BacZy2_p7koKIiHTzMBZv0Xc,9
+PyAltium-0.2.0.dist-info/RECORD,,
