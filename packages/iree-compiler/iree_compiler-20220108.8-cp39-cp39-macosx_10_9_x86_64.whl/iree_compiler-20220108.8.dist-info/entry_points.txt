@@ -1,0 +1,4 @@
+[console_scripts]
+iree-translate = iree.compiler.tools.scripts.ireec.__main__:main
+ireec = iree.compiler.tools.scripts.ireec.__main__:main
+
