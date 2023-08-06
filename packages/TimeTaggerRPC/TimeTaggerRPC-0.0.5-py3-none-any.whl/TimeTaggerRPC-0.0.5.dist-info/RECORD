@@ -1,0 +1,9 @@
+TimeTaggerRPC/__init__.py,sha256=OTaXB8R5diFsU56w88j_8H7v9NNaS9ve6WtP3jnEVaA,102
+TimeTaggerRPC/client.py,sha256=sC4GpPb5o0ucpG4kCOQMGRt-O6T7G-gIFBkrAKD9uW8,1093
+TimeTaggerRPC/helper.py,sha256=ojpCyZEscHy5l0OD5waf9aW7rS4em3l63TEy-xJHc6o,1148
+TimeTaggerRPC/server.py,sha256=aMwWZsV5ldXcdEOCY_QTyw7FQN1C608x1gxljHAiqHk,18442
+TimeTaggerRPC-0.0.5.dist-info/entry_points.txt,sha256=ip9AX29rI-MlFBo7ZnHyfH1I0r3s1ZcuxC44m4-QlgE,66
+TimeTaggerRPC-0.0.5.dist-info/LICENSE.txt,sha256=ygO-C0HkhCiOfPy8yvLe-NMpEu-XLoujbmlL1GBKDK0,1508
+TimeTaggerRPC-0.0.5.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+TimeTaggerRPC-0.0.5.dist-info/METADATA,sha256=cfSB5jx56_ES62NcnkjllsV3xY4ZHh35l64DsjIaT34,3140
+TimeTaggerRPC-0.0.5.dist-info/RECORD,,
