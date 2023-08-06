@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+streamlit_gov_uk_components.py
+streamlit_gov_uk_components.egg-info/PKG-INFO
+streamlit_gov_uk_components.egg-info/SOURCES.txt
+streamlit_gov_uk_components.egg-info/dependency_links.txt
+streamlit_gov_uk_components.egg-info/top_level.txt
