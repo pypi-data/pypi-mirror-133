@@ -1,0 +1,96 @@
+from typing import Any, Dict
+
+import httpx
+
+from ...client import Client
+from ...models.remove_group_participant_request import RemoveGroupParticipantRequest
+from ...types import Response
+
+
+def _get_kwargs(
+    group_id: str,
+    *,
+    client: Client,
+    json_body: RemoveGroupParticipantRequest,
+) -> Dict[str, Any]:
+    url = "{}/groups/{GroupId}/participants".format(client.base_url, GroupId=group_id)
+
+    headers: Dict[str, Any] = client.get_headers()
+    cookies: Dict[str, Any] = client.get_cookies()
+
+    json_json_body = json_body.to_dict()
+
+    return {
+        "url": url,
+        "headers": headers,
+        "cookies": cookies,
+        "timeout": client.get_timeout(),
+        "json": json_json_body,
+    }
+
+
+def _build_response(*, response: httpx.Response) -> Response[Any]:
+    return Response(
+        status_code=response.status_code,
+        content=response.content,
+        headers=response.headers,
+        parsed=None,
+    )
+
+
+def sync_detailed(
+    group_id: str,
+    *,
+    client: Client,
+    json_body: RemoveGroupParticipantRequest,
+) -> Response[Any]:
+    """Remove-Group-Participant
+
+    Args:
+        group_id (str):
+        json_body (RemoveGroupParticipantRequest):  Example: {'wa_ids': ['{{Recipient-WA-ID}}']}.
+
+    Returns:
+        Response[Any]
+    """
+
+    kwargs = _get_kwargs(
+        group_id=group_id,
+        client=client,
+        json_body=json_body,
+    )
+
+    response = httpx.delete(
+        verify=client.verify_ssl,
+        **kwargs,
+    )
+
+    return _build_response(response=response)
+
+
+async def asyncio_detailed(
+    group_id: str,
+    *,
+    client: Client,
+    json_body: RemoveGroupParticipantRequest,
+) -> Response[Any]:
+    """Remove-Group-Participant
+
+    Args:
+        group_id (str):
+        json_body (RemoveGroupParticipantRequest):  Example: {'wa_ids': ['{{Recipient-WA-ID}}']}.
+
+    Returns:
+        Response[Any]
+    """
+
+    kwargs = _get_kwargs(
+        group_id=group_id,
+        client=client,
+        json_body=json_body,
+    )
+
+    async with httpx.AsyncClient(verify=client.verify_ssl) as _client:
+        response = await _client.delete(**kwargs)
+
+    return _build_response(response=response)
