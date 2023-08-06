@@ -1,0 +1,6 @@
+[console_scripts]
+sphinx_rtd_theme_github_versions = sphinx_rtd_theme_github_versions.__main__:main
+
+[sphinx.html_themes]
+sphinx_rtd_theme_github_versions = sphinx_rtd_theme_github_versions
+
