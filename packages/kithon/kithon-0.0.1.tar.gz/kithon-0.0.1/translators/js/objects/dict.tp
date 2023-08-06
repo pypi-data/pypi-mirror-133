@@ -1,0 +1,3 @@
+dict[any]any.get:
+  code: "{{obj}}.get({{args[0]}}){%if args|length == 2 %}|| {{args[1]}}{%endif%}"
+  ret_type: "obj.val_type"

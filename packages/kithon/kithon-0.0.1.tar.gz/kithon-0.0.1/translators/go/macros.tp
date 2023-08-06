@@ -1,0 +1,17 @@
+print:
+  code: |-
+    {{-env.use('mod_fmt')-}}
+    fmt.Println({{args|join(', ')}})
+  ret_type: "None"
+
+str:
+  code: |-
+    {{-env.use('mod_fmt')-}}
+    fmt.Sprintf("%v", {{args[0]}})
+  ret_type: "str"
+
+main:
+  code: ""
+
+len:
+  ret_type: int

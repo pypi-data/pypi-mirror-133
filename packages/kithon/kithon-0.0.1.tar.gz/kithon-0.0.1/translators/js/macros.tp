@@ -1,0 +1,56 @@
+min:
+  alt_name: "Math.min"
+  type: float
+
+max:
+  alt_name: "Math.max"
+  type: float
+
+round:
+  args: [num, ndigits]
+  code: "+{{num}}.toFixed({{ndigits}})"
+
+print:
+  alt_name: "console.log"
+  ret_type: "None"
+
+input:
+  alt_name: "prompt"
+  type: "func"
+  ret_type: "str"
+
+len:
+  code: "{{args[0]}}.length"
+  ret_type: int
+
+interval:
+  alt_name: "setInterval"
+  type: "Func"
+  ret_type: "None"
+
+any.//.any:
+  code: "Math.floor({{left}}/{{right}})"
+  type: "int"
+
+setattr:
+  args: ["obj", "name", "val"]
+  code: |-
+    {%-if parent.name == 'expr'-%}
+      {{obj}}[{{name}}] = {{val}}
+    {%-else-%}
+      (()=>{{obj}}[{{name}}] = {{val}})
+    {%-endif-%}
+
+int:
+  alt_name: 'Number'
+  ret_type: int
+
+str:
+  code: '({{args[0]}}).toString()'
+  ret_type: str
+
+map:
+  code: "{{args[1]}}.map({{args[0]}})"
+
+filter:
+  code: "{{args[1]}}.filter({{args[0]}})"
