@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Gtdata/Gt.py
+src/Gtdata/__init__.py
+src/Gtdata.egg-info/PKG-INFO
+src/Gtdata.egg-info/SOURCES.txt
+src/Gtdata.egg-info/dependency_links.txt
+src/Gtdata.egg-info/top_level.txt
