@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+delaunay.egg-info/PKG-INFO
+delaunay.egg-info/SOURCES.txt
+delaunay.egg-info/dependency_links.txt
+delaunay.egg-info/top_level.txt
