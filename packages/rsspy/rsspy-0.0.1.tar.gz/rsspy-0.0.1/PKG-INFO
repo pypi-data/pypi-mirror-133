@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: rsspy
+Version: 0.0.1
+Summary: Simple site summary generator
+Home-page: https://github.com/GaoangLiu/rss
+Author: GaoangLiu
+Author-email: GaoangLau@gmail.com
+License: UNKNOWN
+Description: 
+        A simple (blogs, news) site summary generator. 
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
