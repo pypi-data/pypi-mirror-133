@@ -1,0 +1,6 @@
+pyobs_aravis/__init__.py,sha256=9sTVir1nj_KfMxDd4jvk6VYVT8Fkdf2-UxPRqrEV9oY,68
+pyobs_aravis/aravis.py,sha256=IeTy4WPWv7pjeAlWILg5eOGN34hFsdENAGPPclfl4I0,10724
+pyobs_aravis/araviscamera.py,sha256=MCZ_HrxqQIagqpeaBJRZ3MvxrItqlcCK8rpNW6jX1lY,4752
+pyobs_aravis-0.15.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyobs_aravis-0.15.3.dist-info/METADATA,sha256=6Ri5yuEcFe45TbzQADFhGD1EkbQ1XDbOaZlBq0k1XZU,480
+pyobs_aravis-0.15.3.dist-info/RECORD,,
