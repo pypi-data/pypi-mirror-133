@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xgboost-ray
+Version: 0.1.6
+Summary: A Ray backend for distributed XGBoost
+Home-page: https://github.com/ray-project/xgboost_ray
+Author: Ray Team
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+A distributed backend for XGBoost built on top of distributed computing framework Ray.
+

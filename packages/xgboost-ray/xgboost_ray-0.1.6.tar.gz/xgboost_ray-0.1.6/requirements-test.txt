@@ -1,0 +1,14 @@
+flake8==3.7.7
+flake8-comprehensions
+flake8-quotes==2.0.0
+yapf==0.23.0
+petastorm
+pytest
+pyarrow
+ray[tune]
+scikit-learn
+modin
+dask
+
+#workaround for now
+tensorboardX==2.2
