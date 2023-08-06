@@ -1,0 +1,10 @@
+scikit-misc
+scanpy>=1.8.1
+scvi-tools==0.14.1
+rpy2==3.4.5
+
+[dev]
+pre-commit==2.15.0
+toml==0.10.2
+pytest==6.2.5
+jupyterlab==3.2.0
