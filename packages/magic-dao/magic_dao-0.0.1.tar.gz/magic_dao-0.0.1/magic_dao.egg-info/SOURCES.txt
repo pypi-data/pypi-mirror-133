@@ -1,0 +1,9 @@
+README.md
+setup.py
+magic_dao/__init__.py
+magic_dao/magic.py
+magic_dao/setup.py
+magic_dao.egg-info/PKG-INFO
+magic_dao.egg-info/SOURCES.txt
+magic_dao.egg-info/dependency_links.txt
+magic_dao.egg-info/top_level.txt
