@@ -1,0 +1,3 @@
+[console_scripts]
+dankbot = dankbot.dankcli:run_bot
+
