@@ -1,0 +1,3 @@
+[console_scripts]
+monkeypaint = monkeypaint.__main__:main
+
