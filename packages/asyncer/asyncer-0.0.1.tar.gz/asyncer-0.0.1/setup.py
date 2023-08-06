@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['asyncer']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['anyio>=3.4.0,<4.0.0']
+
+setup_kwargs = {
+    'name': 'asyncer',
+    'version': '0.0.1',
+    'description': 'Asyncer, async and await, focused on developer experience.',
+    'long_description': '<p align="center">\n  <a href="https://asyncer.tiangolo.com"><img src="https://asyncer.tiangolo.com/img/logo-margin/logo-margin-vector.svg" alt="Asyncer"></a>\n</p>\n<p align="center">\n    <em>Asyncer, async and await, focused on developer experience.</em>\n</p>\n<p align="center">\n<a href="https://github.com/tiangolo/asyncer/actions?query=workflow%3ATest" target="_blank">\n    <img src="https://github.com/tiangolo/asyncer/workflows/Test/badge.svg" alt="Test">\n</a>\n<a href="https://github.com/tiangolo/asyncer/actions?query=workflow%3APublish" target="_blank">\n    <img src="https://github.com/tiangolo/asyncer/workflows/Publish/badge.svg" alt="Publish">\n</a>\n<a href="https://codecov.io/gh/tiangolo/asyncer" target="_blank">\n    <img src="https://img.shields.io/codecov/c/github/tiangolo/asyncer?color=%2334D058" alt="Coverage">\n</a>\n<a href="https://pypi.org/project/asyncer" target="_blank">\n    <img src="https://img.shields.io/pypi/v/asyncer?color=%2334D058&label=pypi%20package" alt="Package version">\n</a>\n</p>\n\n---\n\n**Documentation**: <a href="https://asyncer.tiangolo.com" target="_blank">https://asyncer.tiangolo.com</a>\n\n**Source Code**: <a href="https://github.com/tiangolo/asyncer" target="_blank">https://github.com/tiangolo/asyncer</a>\n\n---\n\n**Asyncer** is a small library built on top of <a href="https://anyio.readthedocs.io/en/stable/" class="external-link" target="_blank">AnyIO</a>.\n\n**Asyncer** has a small number of utility functions that allow working with `async`, `await`, and concurrent code in a more convenient way under my (<a href="" class="external-link" target="_blank">@tiangolo - Sebastián Ramírez</a>) very opinionated and subjective point of view.\n\nThe main goal of **Asyncer** is to improve **developer experience** by providing better support for **autocompletion** and **inline errors** in the editor, and **more certainty** that the code is **bug-free** by providing better support for type checking tools like **mypy**.\n\n**Asyncer** also tries to improve **convenience** and simplicity when working with **async** code **mixed** with regular <abbr title="synchronous code, code that is not async">**blocking code**</abbr>, allowing to use them together in a simpler way... again, under my very **subjective** point of view.\n\n## 🚨 Warning\n\nThis small library only exists to be able to use these **utility functions** until (and if) they are integrated into **AnyIO**.\n\nIt will probably take some time for that to happen (or to be decided if it will be included or not).\n\nSo I made this to be able to use these ideas right now. 🤓\n\n## Can I Use It?\n\nYes 🎉 (but continue reading).\n\nYou can use this and evaluate the **library API design** I\'m proposing. It will probably be useful to know if it works and is useful for you (I hope so).\n\nBut still, consider this lab material, expect it to change a bit. 🧪\n\nIf you use it, **pin the exact Asyncer version** for your project, to make sure it all works.\n\nHave **tests** for your project (as you should, anyway). And **upgrade the version** once you know that the new version continues to work correctly.\n\nStill, it\'s **just 4 functions**, so there\'s not much to change, if you had to refactor your code to update something it would not be much.\n\nAnd if you don\'t want to add `asyncer` as a dependency to your project, you can also just copy the main file and try out those functions, it\'s quite small (but in that case you won\'t get updates easily).\n\n## Requirements\n\nAs **Asyncer** is based on **AnyIO** it will be also installed automatically when you install **Asyncer**.\n\n## Installation\n\n<div class="termy">\n\n```console\n$ pip install asyncer\n---> 100%\nSuccessfully installed asyncer anyio\n```\n\n</div>\n\n## How to Use\n\nYou can read more about each of the use cases and utility functions in **Asyncer** in the <a href="https://asyncer.tiangolo.com/tutorial/" class="external-link" target="_blank">tutorial</a>.\n\nAs a sneak preview of one of the utilities, you can **call sync code from async code** using `asyncify()`:\n\n```Python\nimport time\n\nimport anyio\nfrom asyncer import asyncify\n\n\ndef do_sync_work(name: str):\n    time.sleep(1)\n    return f"Hello, {name}"\n\n\nasync def main():\n    message = await asyncify(do_sync_work)(name="World")\n    print(message)\n\n\nanyio.run(main)\n```\n\n**Asyncer**\'s `asyncify()` will use AnyIO underneath to do *the smart thing*, avoid blocking the main **async** event loop, and run the **sync**/blocking function in a **worker thread**.\n\n### Editor Support\n\nEverything in **Asyncer** is designed to get the best **developer experience** possible, with the best editor support.\n\n* **Autocompletion** for function arguments:\n\n<img class="shadow" src="https://asyncer.tiangolo.com/img/tutorial/asyncify/image01.png">\n\n* **Autocompletion** for return values:\n\n<img class="shadow" src="https://asyncer.tiangolo.com/img/tutorial/asyncify/image02.png">\n\n* **Inline errors** in editor:\n\n<img class="shadow" src="https://asyncer.tiangolo.com/img/tutorial/soonify/image02.png">\n\n* Support for tools like **mypy**, that can help you verify that your **code is correct**, and prevent many bugs.\n\n## License\n\nThis project is licensed under the terms of the [MIT license](https://github.com/tiangolo/asyncer/blob/main/LICENSE).\n',
+    'author': 'Sebastián Ramírez',
+    'author_email': 'tiangolo@gmail.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/tiangolo/asyncer',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.6.2,<4.0.0',
+}
+
+
+setup(**setup_kwargs)
