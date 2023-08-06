@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_honey.py
+setup.py
+pytest_honey.egg-info/PKG-INFO
+pytest_honey.egg-info/SOURCES.txt
+pytest_honey.egg-info/dependency_links.txt
+pytest_honey.egg-info/entry_points.txt
+pytest_honey.egg-info/requires.txt
+pytest_honey.egg-info/top_level.txt
