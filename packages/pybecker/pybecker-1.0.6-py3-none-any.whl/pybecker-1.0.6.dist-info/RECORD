@@ -1,0 +1,11 @@
+pybecker/__init__.py,sha256=z1IXFEyT3XF6e-7cMcwm9U4zR9ivnJ_5fgW45iQbVig,78
+pybecker/__main__.py,sha256=LgDhsnsRxQh-PB84d1no3JSE_OAu-XU8vHUwpJKPl7I,1006
+pybecker/becker.py,sha256=I-yCDth9qCIWxnIFhdtHLyRqubO413bN2ydxxHSfH48,8865
+pybecker/becker_helper.py,sha256=ORQU8vB5-ZkcFHTAIuoRHgneo9lYPX8pw-Jp1Umbb_A,1556
+pybecker/database.py,sha256=OZXva35HJa583BW8tX2uk7yQ_scTSKd2EHD5Qqsl9J0,5429
+pybecker-1.0.6.dist-info/AUTHORS,sha256=tA_pl1nILkv_0xlSNl_lVF9MllPjqVVxy0zO5ZAGrRk,137
+pybecker-1.0.6.dist-info/LICENSE,sha256=xqKlcY2oSN3ZyyYjj3394q9UGPUWHb_RJe20aVcgYkI,1071
+pybecker-1.0.6.dist-info/METADATA,sha256=WAjMsrOio1DJlbG_8GPPUlYwJ9mKRxYIOzZO-95deOw,2250
+pybecker-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pybecker-1.0.6.dist-info/top_level.txt,sha256=GVD6Bn3RTmIO4-iGPXDhDDGNmfbHdUqYE9U6oNidOBA,9
+pybecker-1.0.6.dist-info/RECORD,,
