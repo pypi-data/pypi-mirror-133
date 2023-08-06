@@ -1,0 +1,4 @@
+cffi>=1.13.0
+islenska>=0.4.2
+tokenizer>=3.3.2
+typing_extensions
