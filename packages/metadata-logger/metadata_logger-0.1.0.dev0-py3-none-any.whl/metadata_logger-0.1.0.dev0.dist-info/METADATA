@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: metadata-logger
+Version: 0.1.0.dev0
+Summary: Logging utilites for ml-metadata
+Home-page: UNKNOWN
+Author: Hicham Randrianarivo
+Author-email: hicham+github@randrianarivo.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: attrs
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: jupyter-book ; extra == 'doc'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+
+===============
+metadata_logger
+===============
+
+
+.. image:: https://readthedocs.org/projects/metadata-logger/badge/?version=latest
+        :target: https://metadata-logger.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+Logging utilites for ml-metadata
+
+
+* Free software: MIT license
+* Documentation: https://metadata-logger.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
