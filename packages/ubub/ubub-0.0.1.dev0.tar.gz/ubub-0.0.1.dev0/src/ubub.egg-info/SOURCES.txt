@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/ubub.py
+src/ubub.egg-info/PKG-INFO
+src/ubub.egg-info/SOURCES.txt
+src/ubub.egg-info/dependency_links.txt
+src/ubub.egg-info/not-zip-safe
+src/ubub.egg-info/top_level.txt
