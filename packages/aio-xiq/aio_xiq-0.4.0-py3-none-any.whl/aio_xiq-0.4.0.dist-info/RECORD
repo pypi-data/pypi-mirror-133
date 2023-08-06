@@ -1,0 +1,10 @@
+aioxiq/__init__.py,sha256=GTqAisi5g76YzvOxCdaUjIAyA6gBX9GLuIgxMD2lWh0,32
+aioxiq/v2/__init__.py,sha256=QgGj_w0ydOUcvoFeWpe4VfwB8I9o67qwkL6RJ95ZmdU,94
+aioxiq/v2/auth.py,sha256=QPttuhCup5s54Q9GotCOK0bOr293L1G3LeBum1eYvSs,4367
+aioxiq/v2/client.py,sha256=Jq9wZb0yrxCE-5yGwJWnEF8c1y3JkKXZychw9bAZ0Vk,6259
+aioxiq/v2/devices.py,sha256=X1Y9Np0R9AtRASUatcGihpe6rVpIVOrt7MgMESdEoIA,733
+aioxiq/v2/locations.py,sha256=9hlrN5fuckyxALex0RO4WVZDiAY9Jkj-BLZP6QeEJSk,5814
+aioxiq/v2/xiq_client.py,sha256=e19eIdcWN2QhtbXE1CG9Qy6sUaGIFfzJH1MLv1eFvVM,239
+aio_xiq-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aio_xiq-0.4.0.dist-info/METADATA,sha256=End9s5LfGU06cekxhg1_u0vpZm9i0ZXYWxbFS2cZ0yw,2770
+aio_xiq-0.4.0.dist-info/RECORD,,
