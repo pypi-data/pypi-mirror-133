@@ -1,0 +1,13 @@
+matplotlib
+numpy>=1.16.0
+pandas
+Pint
+scipy>=1.1.0
+sympy
+dataclasses
+cached-property
+pydantic
+tabulate
+termcolor
+pytest
+sphinx==4.3.0
