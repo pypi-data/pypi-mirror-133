@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pandas-plotly
+Version: 0.1
+Summary: Pandas & plotly wrapper for data wrangling & vizualization
+Home-page: https://github.com/mdawso04/pandas-plotly
+Author: Michael Dawson
+Author-email: mdawso04@gmail.com
+License: MIT
+Download-URL: https://github.com/mdawso04/pandas-plotly/archive/refs/tags/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: pandas,plotly,vizualization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
