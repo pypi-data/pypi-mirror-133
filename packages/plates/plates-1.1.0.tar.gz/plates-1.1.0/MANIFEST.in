@@ -1,0 +1,4 @@
+include *.txt
+include tox.ini
+recursive-include plates *.json
+recursive-include plates *.typed
