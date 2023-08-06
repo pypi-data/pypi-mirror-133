@@ -1,0 +1,14 @@
+numpy
+scikit-learn
+pandas
+torch>=1.0.0
+diskcache
+dill
+selfies>=2.0.0
+upfp
+SmilesPE>=0.0.3
+pyfaidx
+pubchempy
+importlib_resources
+Unidecode
+rdkit-pypi>=2021.9.3
