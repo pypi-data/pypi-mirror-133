@@ -1,0 +1,26 @@
+tbcp_devops/__init__.py,sha256=L-pXlINkLd78sISXEyUoY0Gd8iFlYI3kgKeu4U1vs5k,123
+tbcp_devops/files/file_dir.py,sha256=Q36_e9WwqUQSvo-wP0RgWcxMWJ3towGd_AwguvuJUtk,758
+tbcp_devops/git/__init__.py,sha256=A7Uvr2uhx4d8oy0cvM3WOpLNhxlS-l-n2O0OMHkoaI4,348
+tbcp_devops/git/branches.py,sha256=GLaYT_FXUdq7_PvjjCmjneJL0Vn7YNzG2kRdE3hjnjo,1793
+tbcp_devops/git/commits.py,sha256=iiU_lCglN7v85xLiryiLkJXzqdFffUOAY4UbjDVnugQ,3395
+tbcp_devops/git/config.py,sha256=jNAgS5RW5KXclcTXwfPGINaHx1j9dyxZaEltgqzr3Ww,1082
+tbcp_devops/git/files.py,sha256=8M43WLjeIb4IXYfwlEe8DHafj6JvQqlEhoiCTTXWoG8,1634
+tbcp_devops/git/heads.py,sha256=LmS8KxOsWiHA9enyrRPGRyHNhiXTEeC5bplnVXd21Ck,925
+tbcp_devops/git/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tbcp_devops/git/helpers/_defaults.py,sha256=_A2ekKAJPZtbtjqtC2ylOQYmJV206TY1xfZYhol7O6w,135
+tbcp_devops/git/index.py,sha256=6HgXW6Sv9zBuwCKrlxtS78HJXIUShseKHwwERTsmPGo,524
+tbcp_devops/git/references.py,sha256=sLVjTBXOMSW7fBZqu7Hn5JV6Nf5HCUBB4eO8ws1FlKw,951
+tbcp_devops/git/repository.py,sha256=vUtH0SUGpKX5puepPa8BtTJDAIg7JMqyaicEAqDi1_o,7362
+tbcp_devops/git/submodule.py,sha256=BuLcySvYgxccoZjfzZAqWKQnyOSKVzSgQiYdcZlcSdI,623
+tbcp_devops/git/tags.py,sha256=eFVcw4Efxts93SWSv5TVvT_-YQxagOJ2DIZ7Az-AxtI,1113
+tbcp_devops/git/tree.py,sha256=xkMISnxBn7889YZnpARfxpSvoJFFfvvc1V2VkKGtsYk,1165
+tbcp_devops/python/README.md,sha256=Uy6qvZV0iA2_drm4zACDLCCm7BE9aCKZVQ16bg80XiU,4
+tbcp_devops/python/create_setuppy.py,sha256=eT-hGw1PK4-KoUGzeiXAZsVhDecksauX5drrMybpn_o,8980
+tbcp_devops/python/pyproject.toml,sha256=5rCaEeQBrF3A4fX3M2nWN7pfNa6wR6KR13maF-vF-WU,1365
+tbcp_devops/versioning/__init__ .py,sha256=5sfzymSGW5-v_ugBFi874nmFhblx_UckcTtCsBackzI,78
+tbcp_devops/versioning/bump.py,sha256=i_IEZhboZOg26P8QrQVhhYBY4nPG38GHb2VW35n0lyI,841
+tbcp_devops/workspace/indicator.py,sha256=ol2aKIqX9FWm-V_xOF0If97o7FPwSgdVASvbWl_1GzA,2247
+tbcp_devops-1.0.0.dist-info/LICENSE,sha256=t4VkBT6s_BnWZW5OZwkEmSz4P12qM3usYBfCzmRDDrE,1078
+tbcp_devops-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tbcp_devops-1.0.0.dist-info/METADATA,sha256=CXSxKNCBWt1_Won3PDD9vOBw4pusD2Aj8ooc4A8UyMs,8461
+tbcp_devops-1.0.0.dist-info/RECORD,,

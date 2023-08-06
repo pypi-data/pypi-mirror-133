@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "companion"
+description = "The Bootcamp Project Companion - DevOps Project Workflow CLI Tool"
+version = "1.0.1"
+license = "AGPL-3.0"
+readme = "README.md"
+authors = ["Bootcamp contributors <contributors@bootcamp-project.com>"]
+maintainers = [
+    "Bootcamp contributors <contributors@bootcamp-project.com>",
+    "John Ollhorn <john@ollhorn.de> (https://ollhorn.de)"
+]
+homepage = "https://companion.bootcamp-project.com"
+repository = "https://gitlab.com/the-bootcamp-project/companion.git"
+documentation = "https://gitlab.com/the-bootcamp-project/companion"
+keywords = ["Git", "Python"]
+classifiers = [
+    "Topic :: Software Development :: Build Tools"
+]
+exclude = ["tests",".vscode",".gitlab-ci.yml","makefile","setup.py"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://gitlab.com/the-bootcamp-project/companion/-/issues"
+"Repository" = "https://gitlab.com/the-bootcamp-project/companion.git"
+"Homepage" = "https://gitlab.com/the-bootcamp-project/companion"
+"Bootcamp" = "https://bootcamp-project.com"
+
+[tool.poetry.scripts]
+companion = "companion:cli"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+tbcp-gitpy = "^1.0.0"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+bandit = "^1.7.1"
+mypy = "^0.930"
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
