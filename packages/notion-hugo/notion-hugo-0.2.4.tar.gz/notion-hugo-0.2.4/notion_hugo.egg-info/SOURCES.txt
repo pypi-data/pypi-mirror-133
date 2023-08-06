@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+tox.ini
+notion/__init__.py
+notion/id_worker.py
+notion/markdown.py
+notion/processor.py
+notion_hugo.egg-info/PKG-INFO
+notion_hugo.egg-info/SOURCES.txt
+notion_hugo.egg-info/dependency_links.txt
+notion_hugo.egg-info/requires.txt
+notion_hugo.egg-info/top_level.txt
