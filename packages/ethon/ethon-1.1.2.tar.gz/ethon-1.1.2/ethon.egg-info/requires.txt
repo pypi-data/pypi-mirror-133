@@ -1,0 +1,6 @@
+python-decouple
+telethon
+aiofiles
+aiohttp
+opencv-python-headless
+youtube_dl

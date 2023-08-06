@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ethon
+Version: 1.1.2
+Summary: Package containing basic functions to build telegram bots.
+Home-page: https://github.com/vasusen-code/ethon
+Author: vasusen-code
+License: GNU AFFERO GENERAL PUBLIC LICENSE (v3)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+ethon
+=====
+
+• Telegram_
+• Github_
+
+install
+=======
+
+.. code:: python
+    
+    pip install ethon
+
+``ethon.pyutils``
+
+.. code:: python
+
+    from ethon.pyutils import rename, file_extension, youtube
+    
+    #rename files
+    file = 'name of your file'
+    path = 'new name for your file'
+    rename(file, path) 
+    
+    #get file extension using path of file
+    path = 'path of your file'
+    extension = file_extension(path)
+    
+    #Download videos from youtube
+    filename = youtube(url)
+
+``ethon.pyfunc``
+
+.. code:: python
+
+    from ethon.pyfunc import bash, total_frames, video_metadata
+    
+    #handy subprocess
+    o, e = bash(cmd)
+    
+    #get total number of frames in a video
+    tf = total_frames(file)
+    
+    #get basic metadata of video
+    data = video_metadata(file)
+    height = data["height"]
+    width = data["width"]
+    duration = data["duration"]
+
+.. _Telegram: https://t.me/MaheshChauhan
+.. _Github : https://Github.com/Vasusen-code
+
+
