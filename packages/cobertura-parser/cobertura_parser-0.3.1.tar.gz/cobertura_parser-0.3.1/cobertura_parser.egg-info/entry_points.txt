@@ -1,0 +1,3 @@
+[console_scripts]
+cobertura_parser = cobertura_parser.cli:main
+
