@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+physconsts/__init__.py
+physconsts.egg-info/PKG-INFO
+physconsts.egg-info/SOURCES.txt
+physconsts.egg-info/dependency_links.txt
+physconsts.egg-info/top_level.txt
