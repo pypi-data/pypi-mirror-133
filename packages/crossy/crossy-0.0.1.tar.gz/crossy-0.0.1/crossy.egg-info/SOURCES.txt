@@ -1,0 +1,11 @@
+README.md
+setup.py
+crossy/__init__.py
+crossy/analyze.py
+crossy/classes.py
+crossy.egg-info/PKG-INFO
+crossy.egg-info/SOURCES.txt
+crossy.egg-info/dependency_links.txt
+crossy.egg-info/entry_points.txt
+crossy.egg-info/requires.txt
+crossy.egg-info/top_level.txt

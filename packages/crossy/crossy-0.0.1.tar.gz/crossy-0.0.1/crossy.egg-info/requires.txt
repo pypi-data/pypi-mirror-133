@@ -1,0 +1,7 @@
+pandas
+
+[dev]
+pylint
+autopep8
+isort
+black
