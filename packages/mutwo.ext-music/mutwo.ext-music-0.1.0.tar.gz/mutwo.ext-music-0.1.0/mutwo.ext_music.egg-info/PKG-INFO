@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mutwo.ext-music
+Version: 0.1.0
+Summary: music extension for event based framework for generative art
+Home-page: https://github.com/mutwo-org/mutwo.ext-music
+Author: Levin Eric Zimmermann
+Author-email: levin.eric.zimmermann@posteo.eu
+License: GPL
+Project-URL: Documentation, https://mutwo.readthedocs.io/en/latest/
+Platform: UNKNOWN
+Requires-Python: >=3.9, <4
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# mutwo.ext-music
+
+[Mutwo](https://github.com/mutwo-org/mutwo) extension for music.
+
+This extension implements:
+
+- mutwo.ext.events.music
+
+
