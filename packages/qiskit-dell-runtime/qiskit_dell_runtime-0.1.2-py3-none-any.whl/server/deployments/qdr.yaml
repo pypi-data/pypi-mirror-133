@@ -1,0 +1,158 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ${QDR_NS}
+
+---
+
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: qdrorch
+  namespace: ${QDR_NS}
+
+---
+
+#TODO: figure out if there's an easy way to refresh DB passwords weekly (?)
+
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: ${QDR_NS}
+  name: root-pw
+  annotations:
+    secret-generator.v1.mittwald.de/autogenerate: password
+
+---
+
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: ${QDR_NS}
+  name: user-pw
+  annotations:
+    secret-generator.v1.mittwald.de/autogenerate: password
+
+---
+
+#TODO: Remove before open-sourcing
+
+apiVersion: v1
+kind: Secret
+metadata:
+  namespace: ${QDR_NS}
+  name: certs
+type: Opaque
+data:
+  qdrcerts.crt: QDRCERTS
+
+---
+
+#TODO: make more restrictive before open sourcing
+
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: ${QDR_NS}
+  name: qdrorch
+rules:
+- apiGroups: ["*"]
+  resources: ["*"]
+  verbs: ["*"]
+
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: qdrorch_binding
+  namespace: ${QDR_NS}
+subjects:
+- kind: ServiceAccount
+  name: qdrorch
+  apiGroup: ""
+roleRef:
+  kind: Role
+  name: qdrorch
+  apiGroup: ""
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ${DB_TYPE}-pvc
+  namespace: ${QDR_NS}
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 256Mi
+
+#TODO: export storage size to env var for config
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: ${DB_TYPE}
+  namespace: ${QDR_NS}
+spec:
+  ports:
+  - port: ${DB_PORT}
+  selector:
+    app: ${DB_TYPE}
+  clusterIP: None
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ${DB_TYPE}
+  namespace: ${QDR_NS}
+spec:
+  selector:
+    matchLabels:
+      app: ${DB_TYPE}
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: ${DB_TYPE}
+    spec:
+      containers:
+      # update if you are using a mysql image outside the one in dellemctrigr (mysql:5.6)
+      - image: ${DOCKER_REPO}/${DB_IMAGE}
+        name: ${DB_TYPE}
+        env:
+          # Use secret in real usage
+        - name: ${DB_UPPER}_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: root-pw
+              key: password
+        - name: "${DB_UPPER}_DB"
+          value: ${DB_DATABASE}
+        - name: "${DB_UPPER}_DATABASE"
+          value: ${DB_DATABASE}
+        - name: "${DB_UPPER}_USER"
+          value: ${DB_USER}
+        - name: "${DB_UPPER}_PASSWORD"
+          valueFrom:
+            secretKeyRef:
+              name: user-pw
+              key: password
+        ports:
+        - containerPort: ${DB_PORT}
+          name: ${DB_TYPE}
+        volumeMounts:
+        - name: ${DB_TYPE}-persistent-storage
+          mountPath: /var/lib/${DB_TYPE}
+      volumes:
+      - name: ${DB_TYPE}-persistent-storage
+        persistentVolumeClaim:
+          claimName: ${DB_TYPE}-pvc
