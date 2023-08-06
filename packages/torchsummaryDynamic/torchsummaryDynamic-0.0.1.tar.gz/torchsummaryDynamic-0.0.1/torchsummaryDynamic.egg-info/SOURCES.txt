@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+test/test.py
+torchsummaryDynamic/__init__.py
+torchsummaryDynamic/torchsummaryDynamic.py
+torchsummaryDynamic.egg-info/PKG-INFO
+torchsummaryDynamic.egg-info/SOURCES.txt
+torchsummaryDynamic.egg-info/dependency_links.txt
+torchsummaryDynamic.egg-info/requires.txt
+torchsummaryDynamic.egg-info/top_level.txt

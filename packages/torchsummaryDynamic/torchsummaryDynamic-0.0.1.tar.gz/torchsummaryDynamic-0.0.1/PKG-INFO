@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: torchsummaryDynamic
+Version: 0.0.1
+Summary: Improved real/dynamic FLOPs calculation tool of torchsummaryX.
+Home-page: https://github.com/chenbong/torchsummaryDynamic
+Author: chenbong
+Author-email: bhchen@stu.xmu.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
