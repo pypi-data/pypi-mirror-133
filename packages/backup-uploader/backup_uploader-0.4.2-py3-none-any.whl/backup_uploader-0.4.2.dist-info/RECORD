@@ -1,0 +1,16 @@
+backup_uploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backup_uploader/chain.py,sha256=Z9mSa-NtFp3ngvGtxz7gn1-ulo27-VudE3v2S_NIFow,1888
+backup_uploader/cli.py,sha256=83khE_TYmZmmkwA8C_pytn-4Xky0WOnvBTKih7aQeGk,1755
+backup_uploader/directories.py,sha256=e0P7u_IdVbZNs5cl-PX3H4DFgnzrjvK3FJe-gFlYTUM,3328
+backup_uploader/parser.py,sha256=e8pV4cYbBga47g1hENnxYUxnT1sifxKKBTsaOGMUGjA,3857
+backup_uploader/clients/__init__.py,sha256=9pIQnc7H3xgVNpi7n3I18hg04S4IkX5mnAfl9cv7RBE,19
+backup_uploader/clients/base.py,sha256=Zu_ASvRjPtnVr-Flr3CO4iSo5Da_Iz5p6nyIAbR63UE,947
+backup_uploader/clients/dropbox.py,sha256=E9_F8K093vZ0NOhGfC2toP9HHQJJ_MvH2yBywyWEx9E,3084
+backup_uploader/clients/exceptions.py,sha256=FB5-ii7KMiCHeR-3ToK7NpLPP8YFUBFgAAxUGzIpvjQ,445
+backup_uploader/clients/mega.py,sha256=marnS6NZpR7TREMO_q7uhYlCIy-rheJCPesvEeWnf7Y,2543
+backup_uploader-0.4.2.dist-info/LICENSE,sha256=nRDBnItwICrvMBD7I52rD3IgrE1czxJIsAbksF1V2Es,1066
+backup_uploader-0.4.2.dist-info/METADATA,sha256=PcTx9tPiQkRZp4oH1iu8deoBm9PGzYhRgPWy6PUt9qY,6462
+backup_uploader-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+backup_uploader-0.4.2.dist-info/entry_points.txt,sha256=RAqxfZKzq7c60fNvwWjDfJzBcRHcng3mwuR2urK2G40,72
+backup_uploader-0.4.2.dist-info/top_level.txt,sha256=Bfpr-UXd5C-pyB7sPZ8Ak_8R1dzQdEUC8tiW7UFmjuk,16
+backup_uploader-0.4.2.dist-info/RECORD,,
