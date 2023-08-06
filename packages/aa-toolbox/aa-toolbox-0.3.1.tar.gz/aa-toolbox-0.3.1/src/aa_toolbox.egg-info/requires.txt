@@ -1,0 +1,9 @@
+geopandas
+hdx-python-api>=5.4.9
+numpy
+pydantic
+requests
+pyyaml
+rioxarray
+typing-extensions
+xarray
