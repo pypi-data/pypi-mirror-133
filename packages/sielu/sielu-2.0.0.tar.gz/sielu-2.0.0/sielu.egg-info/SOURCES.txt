@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sielu/__init__.py
+sielu.egg-info/PKG-INFO
+sielu.egg-info/SOURCES.txt
+sielu.egg-info/dependency_links.txt
+sielu.egg-info/top_level.txt
