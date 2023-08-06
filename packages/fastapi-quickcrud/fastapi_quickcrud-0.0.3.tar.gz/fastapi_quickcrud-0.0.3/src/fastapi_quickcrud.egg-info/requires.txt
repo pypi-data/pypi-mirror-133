@@ -1,0 +1,9 @@
+fastapi==
+starlette==0.14.2
+pydantic
+SQLAlchemy>=1.4
+StrEnum
+psycopg2
+asyncpg
+aiosqlite
+uvicorn
