@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: corona-app
+Version: 0.0.3
+Summary: Python Library for CORONA APP
+Home-page: https://github.com/yuyatinnefeld/corona-app
+Author: yuya tinnefeld
+Author-email: yuyatinnefeld@gmail.com
+License: Copyright (c) 2022 Yuya Tinnefeld
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (==2.26.0)
+
+# CORONA APP
+You can use this package to see the number of Corona virus stats (cases, deaths and critical cases, ect.).
+
+
+## Installation
+```bash
+python -m pip install corona-app
+```
+## Getting Started
+Directly after the installation you can use this package. You will need Python Release 3.7.0 or older.
+
+### Open the python console and use the package
+
+```bash
+python
+>>> from corona import show
+>>> show()
+Rank World                               Total Cases  New Cases ▲ Total Deaths New Deaths ▲ Recovered   Active     Critical Cases / 1M pop
+1    USA (US)                              59,564,116                  855,843               42,089,198 16,619,075   21,467        178,368
+2    India (IN)                            35,226,386                  483,178               34,371,845    371,363    8,944         25,152
+3    Brazil (BR)                           22,395,322                  619,730               21,567,845    207,747    8,318        104,239
+4    UK (GB)                               14,015,065                  149,515               10,620,728  3,244,822      875        204,822
+5    France (FR)                           11,183,238                  125,013                8,393,827  2,664,398    3,333        170,757
+6    Russia (RU)                           10,601,300                  313,817                9,623,677    663,806    2,300         72,597
+7    Turkey (TR)                            9,787,274                   83,231                9,217,669    486,374    1,128        114,188
+8    Germany (DE)                           7,399,003                  114,207                6,664,800    619,996    4,636         87,885
+9    Italy (IT)                             6,975,465                  138,474                5,243,412  1,593,579    1,467        115,627
+10   Spain (ES)                             6,922,466                   89,837                5,124,221  1,708,408    2,005        147,972
+
+# You can give an argument "country code" (e.g. de, jp, uk) and receive the numbers of the country.
+>>> from corona import get
+>>> get("de")
+Rank Country      Total Cases  New Cases ▲ Total Deaths New Deaths ▲ Recovered   Active     Critical Cases / 1M pop
+1    Germany (DE)    7,399,003                  114,207                6,664,800    619,996    4,636         87,885
+     World         300,882,620   180,374 ▲    5,490,390        558 ▲ 255,844,511 39,547,719   92,918      38,604.39
+
+>>> get("jp")
+Rank Country    Total Cases  New Cases ▲ Total Deaths New Deaths ▲ Recovered   Active     Critical Cases / 1M pop
+1    Japan (JP)    1,743,547     4,194 ▲       18,398                1,713,567     11,582       91         13,850
+     World       300,882,620   180,374 ▲    5,490,390        558 ▲ 255,844,511 39,547,719   92,918      38,604.39
+
+>>> get("uk")
+Rank Country Total Cases  New Cases ▲ Total Deaths New Deaths ▲ Recovered   Active     Critical Cases / 1M pop
+1    UK (GB)   14,015,065                  149,515               10,620,728  3,244,822      875        204,822
+     World    300,882,620   180,374 ▲    5,490,390        558 ▲ 255,844,511 39,547,719   92,918      38,604.39
+```
+
