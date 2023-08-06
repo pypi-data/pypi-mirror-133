@@ -1,0 +1,8 @@
+CHANGELOG.rst,sha256=Mh8xqO9b4zKZ1f41m0cIOPQt2YSxw74PLHB8nHP9jYQ,2808
+tvdb_api_client/__init__.py,sha256=7I6g05zZRI3IgcY7gYUfiIEFjAO4snggR-oWF4CkEzI,72
+tvdb_api_client/client.py,sha256=jRLT1ZQ7569tTq5k7slFHsLR9FY3bO6LCHYXsF_xcMY,6729
+tvdb_api_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tvdb_api_client-0.5.0.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+tvdb_api_client-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tvdb_api_client-0.5.0.dist-info/METADATA,sha256=v5Fv1saU1QfNCQl8P5PMkCjaYozrKYKTdiHA70vmZa4,2971
+tvdb_api_client-0.5.0.dist-info/RECORD,,
