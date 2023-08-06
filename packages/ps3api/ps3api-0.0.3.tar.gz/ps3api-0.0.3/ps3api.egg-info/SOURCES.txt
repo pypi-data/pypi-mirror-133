@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+./ps3api/__init__.py
+./ps3api/api.py
+./ps3api/ccapi.py
+./ps3api/common.py
+./ps3api/memutils.py
+./ps3api/rpc.py
+./ps3api/syscalls.py
+./ps3api/tmapi.py
+ps3api.egg-info/PKG-INFO
+ps3api.egg-info/SOURCES.txt
+ps3api.egg-info/dependency_links.txt
+ps3api.egg-info/top_level.txt
