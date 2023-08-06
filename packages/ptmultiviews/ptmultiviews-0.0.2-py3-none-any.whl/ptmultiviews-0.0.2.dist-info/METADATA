@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: ptmultiviews
+Version: 0.0.2
+Summary: Apache Multiviews Detection & Enumeration Tool
+Home-page: https://www.penterep.com/
+Author: Penterep
+Author-email: info@penterep.com
+License: GPLv3+
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ptlibs
+Requires-Dist: ptthreads
+Requires-Dist: requests
+
+![penterepTools](https://www.penterep.com/external/penterepToolsLogo.png)
+
+# PTMULTIVIEWS
+> Apache Multiviews Detection & Enumeration Tool
+
+ptmultiviews is a tool that detects if supplied web source is vulnerable to Apache Multiviews. If so, script enumerates all alternatives for accessed file.
+
+Script allows loading a list of files for mass enumeration.
+
+## Installation
+
+```
+pip install ptmultiviews
+```
+
+### Add to PATH
+If you cannot invoke the script in your terminal, its probably because its not in your PATH. Fix it by running commands below.
+
+```bash
+echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
+source ~/.bashrc
+```
+
+## Usage examples
+
+```
+ptmultiviews -u https://www.example.com/                          # Test single URL for MultiViews vulnerability and retrieve alternatives
+ptmultiviews -u https://www.example.com/ -co                      # Test single URL for MultiViews vulnerability without enumeration
+ptmultiviews -u https://www.example.com/index.php -o output.txt   # Saves enumerated files to output.txt
+ptmultiviews -f urlList.txt                                       # Enumerate all files from urlList
+```
+
+
+### Options:
+
+```
+-u   --url                 <url>           Connect to URL
+-d   --domain              <domain>        Domain to test, (use with --file argument)
+-f   --file                <file>          Load list of URLs from file
+-o   --output              <output>        Save output to file
+-co  --check-only                          Check for multiviews without enumerating
+-a   --all                                 Return all sources, including sources specified in [--file, --url]
+-wd  --without-domain                      Enumerated files will be printed without domain
+-we  --without-extensions                  Removes all extensions from tested file
+-r   --redirects                           Follow redirects (default False)
+-t   --threads             <threads>       Set number of threads (default 20)
+-p   --proxy               <proxy>         Set proxy (e.g. http://127.0.0.1:8080)
+-ua  --user-agent          <ua>            Set User-Agent header
+-c   --cookie              <cookie>        Set cookie
+-H   --headers             <header:value>  Set custom header(s)
+-j   --json                                Output in JSON format
+-v   --version                             Show script version and exit
+-h   --help                                Show this help message and exit
+```
+
+## Dependencies
+
+```
+requests
+ptlibs
+ptthreads
+```
+
+## Version History
+- 0.0.2
+    * **--all** parameter added
+    * **--without-requested-url** parameter removed
+- 0.0.1
+    * Alpha release
+
+## License
+
+Copyright (c) 2020 HACKER Consulting s.r.o.
+
+ptmultiviews is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+ptmultiviews is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with ptmultiviews. If not, see https://www.gnu.org/licenses/.
+
+## Warning
+
+You are only allowed to run the tool against the websites which
+you have been given permission to pentest. We do not accept any
+responsibility for any damage/harm that this application causes to your
+computer, or your network. Penterep is not responsible for any illegal
+or malicious use of this code. Be Ethical!
+
+
