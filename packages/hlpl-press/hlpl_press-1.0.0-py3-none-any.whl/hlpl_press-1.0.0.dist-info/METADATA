@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hlpl-press
+Version: 1.0.0
+Summary: Text Transcriber
+Home-page: https://press.hlpl.net
+Author: Ahmida Bendjoudi
+Author-email: email@hlpl.net
+License: MIT
+Download-URL: https://press.hlpl.net/download/
+Project-URL: hlpl, https://hlpl.net
+Project-URL: hlpl_press-docs, https://docs.hlpl.net
+Project-URL: hlpl_press-forum, https://forum.hlpl.net
+Project-URL: hlpl_press-resource, https://resource.hlpl.net
+Project-URL: hlpl_press-github, https://github.com/hlpl/press
+Keywords: hlpl_press,hlpl press,hlpl-press,web designer,website,hlpl
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Requires-Python: >=3, <=3.9
+Description-Content-Type: text/markdown
+
+
+### hlpl_press 
+<p style="font-size:14px;">hlpl_press is a web designer (or site duilder) using python as core engine.</p>
+
+<p style="font-size:21px;color:red;text-align:center;text-shadow: 0 0 1.5px #ff0000, 0 0 5px #0000ff;">hlpl_press under developement, it will be released next versions of HLPL</p>
+
+

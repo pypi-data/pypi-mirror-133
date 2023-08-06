@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_press = hlpl_press.__main__:main
+
