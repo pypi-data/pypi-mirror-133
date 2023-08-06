@@ -1,0 +1,115 @@
+{
+  "name": "eodag-labextension",
+  "version": "3.2.5",
+  "description": "Searching remote sensed imagery from various image providers",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/CS-SI/eodag-labextension",
+  "bugs": {
+    "url": "https://github.com/CS-SI/eodag-labextension/issues"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "CS Group",
+    "email": "admin@geostorm.eu"
+  },
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,eot,gif,html,jpg,json,png,svg,woff2,ttf}",
+    "schema/*.json",
+    "node_modules/leaflet/dist/**/*.{css,png}",
+    "style/index.js"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CS-SI/eodag-labextension.git"
+  },
+  "scripts": {
+    "build": "jlpm run build:lib && jlpm run build:labextension:dev",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "build:lib": "tsc",
+    "build:prod": "jlpm run build:lib && jlpm run build:labextension",
+    "clean": "jlpm run clean:lib",
+    "clean:all": "jlpm run clean:lib && jlpm run clean:labextension",
+    "clean:labextension": "rimraf eodag_labextension/labextension",
+    "clean:lib": "rimraf lib tsconfig.tsbuildinfo",
+    "eslint": "eslint . --ext .ts,.tsx --fix",
+    "eslint:check": "eslint . --ext .ts,.tsx",
+    "install:extension": "jupyter labextension develop --overwrite .",
+    "prepare": "jlpm run clean && jlpm run build:prod",
+    "watch": "run-p watch:src watch:labextension",
+    "watch:labextension": "jupyter labextension watch .",
+    "watch:src": "tsc -w"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@jupyterlab/application": "^3.1.13",
+    "@jupyterlab/apputils": "^3.1.13",
+    "@jupyterlab/cells": "^3.1.13",
+    "@jupyterlab/notebook": "^3.1.13",
+    "@terraformer/wkt": "^2.0.7",
+    "isomorphic-fetch": "^3.0.0",
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
+    "lodash": "^4.17.15",
+    "react": "^17.0.2",
+    "react-datepicker": "^4.2.1",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.16.2",
+    "react-leaflet": "~2.8.0",
+    "react-leaflet-draw": "0.19.0",
+    "react-modal": "^3.14.3",
+    "react-select": "^4.3.1",
+    "react-tooltip": "~4.2.21",
+    "react-virtualized": "^9.22.3"
+  },
+  "devDependencies": {
+    "@jupyterlab/builder": "^3.1.14",
+    "@types/classnames": "^2.3.1",
+    "@types/isomorphic-fetch": "^0.0.35",
+    "@types/leaflet": "^1.7.5",
+    "@types/leaflet-draw": "^1.0.5",
+    "@types/lodash": "^4.14.175",
+    "@types/luxon": "^1.26.5",
+    "@types/react": "^17.0.26",
+    "@types/react-datepicker": "^4.1.7",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-leaflet": "^2.8.2",
+    "@types/react-modal": "^3.12.1",
+    "@types/react-select": "^4.0.18",
+    "@types/react-virtualized": "^9.21.13",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mkdirp": "^1.0.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.1",
+    "rimraf": "^3.0.2",
+    "typescript": "4.2.4"
+  },
+  "resolutions": {
+    "**/@types/react": "~17.0.26",
+    "**/@types/react-dom": "~17.0.9"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "schemaDir": "schema",
+    "outputDir": "eodag_labextension/labextension",
+    "_build": {
+      "load": "static/remoteEntry.bafd70c6825c22e14952.js",
+      "extension": "./extension",
+      "style": "./style"
+    }
+  },
+  "styleModule": "style/index.js"
+}
