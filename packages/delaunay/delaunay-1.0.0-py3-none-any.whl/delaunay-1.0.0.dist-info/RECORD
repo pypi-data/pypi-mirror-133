@@ -1,0 +1,12 @@
+delaunay/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delaunay/delaunay.py,sha256=2AXKO--PQJyZ4uM18KL67qxrFk-THtlVs4oLaNWqPgI,5737
+delaunay/quadEdge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delaunay/quadEdge/edge.py,sha256=eoM5gzOtZ_iZMSGVej7QbsFy7QQ94ehC-horMs-1LaU,1047
+delaunay/quadEdge/mesh.py,sha256=sN3ZWcG_tfMrYn-OKi1MgwIZ9BI2bdUW9A_dUHNOJJM,1354
+delaunay/quadEdge/point.py,sha256=8pd8tWjUTlPfAlaRwvETTbhS8TPZvQa4GA11Lp8Nei4,401
+delaunay/quadEdge/primitives.py,sha256=I_JHPECwZ1zVVPXVxbkLZohmN0FralI_X2KtJ-RClBY,2784
+delaunay-1.0.0.dist-info/LICENSE,sha256=Urf-ZDDnO19XVKWtZG_RLmpyuZICnPDVJNqP98LP1T4,1050
+delaunay-1.0.0.dist-info/METADATA,sha256=SfymXaj5VsMPwJU-m6BEte-KlJIBZXFNwYZj5eMmDds,2354
+delaunay-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+delaunay-1.0.0.dist-info/top_level.txt,sha256=wJ3Egd3u29ipu2otgcwQsIp6fE5ugGDTBBH63w3jdO8,9
+delaunay-1.0.0.dist-info/RECORD,,
