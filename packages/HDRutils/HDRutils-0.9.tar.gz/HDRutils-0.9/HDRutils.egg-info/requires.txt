@@ -1,0 +1,10 @@
+numpy
+imageio
+rawpy
+exifread
+tqdm
+colour-demosaicing
+matplotlib
+opencv_python
+scipy
+scikit-image
