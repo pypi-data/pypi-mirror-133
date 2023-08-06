@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pysapets
+Version: 0.0.1
+Summary: A framework to simulate Super Auto Pets battles
+Home-page: https://github.com/cfginn/sap-simulation-package
+Author: Caleb Ginn
+Author-email: caleb.ginn@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cfginn/sap-simulation-package/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sap-simulation-package
+
+Creating a python package to simulate games of super auto pets
+
+Using this to practice TDD, developing and distributing a python package to pypi, and eventually developing a bot for the game
+
+
