@@ -1,0 +1,6 @@
+Django>=3.2
+FeinCMS>=22.0
+
+[tests]
+coverage
+factory-boy
