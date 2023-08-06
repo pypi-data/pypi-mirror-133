@@ -1,0 +1,16 @@
+omnipose/__init__.py,sha256=4hlvHXd6z-30Zul1OW2met-GTukonVBcgVDHtAZqYGM,38
+omnipose/core.py,sha256=DHObd5O6BSd8eO-DMnJVdif4OdbP95lEPqM_S7CJVb8,22081
+omnipose/utils.py,sha256=03E7y5ZzC1BFu-LYaVLdWwHEcJZI6-N6IsdokGds9zQ,5072
+omnipose/.ipynb_checkpoints/__init__-checkpoint.py,sha256=4hlvHXd6z-30Zul1OW2met-GTukonVBcgVDHtAZqYGM,38
+omnipose/.ipynb_checkpoints/core-checkpoint.py,sha256=DHObd5O6BSd8eO-DMnJVdif4OdbP95lEPqM_S7CJVb8,22081
+omnipose/.ipynb_checkpoints/utils-checkpoint.py,sha256=03E7y5ZzC1BFu-LYaVLdWwHEcJZI6-N6IsdokGds9zQ,5072
+omnipose/__pycache__/__init__.cpython-38.pyc,sha256=ciUw6XeKt_tvKzEvrEGgkUgEYSZNA7ve75EAI6rWBhg,201
+omnipose/__pycache__/core.cpython-38.pyc,sha256=psvO6385aXRbSjulzJXgr0dGMqBh1lWZqqwRrNm9HlE,13594
+omnipose/__pycache__/core.cpython-39.pyc,sha256=Cr_YuRTNhr4b0WI0HMmRR3yeJka7WCfjZmoQv40cIa8,13554
+omnipose/__pycache__/utils.cpython-38.pyc,sha256=a0_4BxwENt67bL--g32eANeOEFBwqxE8UTZZAQ45cp8,4343
+omnipose/__pycache__/utils.cpython-39.pyc,sha256=aJ_kJ0DjHkHyb2N80qwfQ5OBZ79kyITyN4Oo1OENK8M,4231
+omnipose-0.1.1.dist-info/LICENSE,sha256=KLAfzmmlUv72A18IRVmeSlPIDf3c9dJ1NgVl_g19gZw,1798
+omnipose-0.1.1.dist-info/METADATA,sha256=cXb9d73oqGBP2Av1JyzLf1laWX1_ajGiCtvuwXUdK7M,3502
+omnipose-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+omnipose-0.1.1.dist-info/top_level.txt,sha256=wrw3LHkcgwxMk82P82hcLZvNfmF1w7tU8c25mnKPr8M,9
+omnipose-0.1.1.dist-info/RECORD,,
