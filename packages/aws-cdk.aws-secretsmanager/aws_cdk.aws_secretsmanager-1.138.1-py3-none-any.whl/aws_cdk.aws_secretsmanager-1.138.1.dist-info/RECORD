@@ -1,0 +1,10 @@
+aws_cdk/aws_secretsmanager/__init__.py,sha256=ULIaVFW4D0wrjwGgpz5EvTefFgKLiLJpejqI9-CI62c,271461
+aws_cdk/aws_secretsmanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_secretsmanager/_jsii/__init__.py,sha256=L_kGvKi8CO-MTJ0ZBHhAqPArbk1cgcjIL_tfuut-cX0,576
+aws_cdk/aws_secretsmanager/_jsii/aws-secretsmanager@1.138.1.jsii.tgz,sha256=3SgiVkIDSYotdCyeWGdL0k9QmW0SosqQLuPhyWMqNq0,132002
+aws_cdk.aws_secretsmanager-1.138.1.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_secretsmanager-1.138.1.dist-info/METADATA,sha256=i6qzLJmxGah11aHoqB0chta_4k7Sy7syJP5w6V-4MYQ,10199
+aws_cdk.aws_secretsmanager-1.138.1.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_secretsmanager-1.138.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_secretsmanager-1.138.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_secretsmanager-1.138.1.dist-info/RECORD,,
