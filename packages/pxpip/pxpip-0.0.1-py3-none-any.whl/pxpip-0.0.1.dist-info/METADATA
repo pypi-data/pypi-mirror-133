@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pxpip
+Version: 0.0.1
+Summary: A Proxy wrapper around pip to enable cloud interfaces without the need for pipy
+Home-page: https://github.com/claytonbezuidenhout/pxpip
+Author: claytonbezuidenhout
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: boto3 (==1.20.26)
+
+# pxpip
+A wrapper around PIP to facilitate installs from non supported file protocols
+
+
