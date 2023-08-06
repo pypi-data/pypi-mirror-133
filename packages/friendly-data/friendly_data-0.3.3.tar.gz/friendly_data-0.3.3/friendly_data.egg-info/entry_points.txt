@@ -1,0 +1,4 @@
+[console_scripts]
+friendly-data = friendly_data.cli:main
+friendly_data = friendly_data.cli:main
+
