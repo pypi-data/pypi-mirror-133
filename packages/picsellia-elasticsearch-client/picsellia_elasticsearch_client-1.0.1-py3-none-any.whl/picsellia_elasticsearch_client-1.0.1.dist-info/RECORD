@@ -1,0 +1,11 @@
+picsellia_elasticsearch_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picsellia_elasticsearch_client/abstract_client.py,sha256=mPpZuO1KB0t7xmBS-vMvNTDQ029wMrUI7_HrR1RZaLo,836
+picsellia_elasticsearch_client/client.py,sha256=SLsHo1-NfuIVOW3EoR_QTrLsuhKb5QiNXOnhRTA3It0,1016
+picsellia_elasticsearch_client/elastic_document.py,sha256=ZiDSS1HaRJWVcSudmGfPYIzWxVBKeO1j3tVkKnFnYY0,788
+picsellia_elasticsearch_client/error.py,sha256=OW_Z1OgMkVLfMZNQuarJT6brvcdjuWCW33SIIspcyMY,211
+picsellia_elasticsearch_client/metric.py,sha256=3FUXCelj8Lct3AWhpxOU64mS9_j_7FvuO-AdiqoDS_s,213
+picsellia_elasticsearch_client-1.0.1.dist-info/LICENSE,sha256=0LUd79YSYRMoESGroJfpcm_XBztiqaWwiYPHqvz4zCE,1069
+picsellia_elasticsearch_client-1.0.1.dist-info/METADATA,sha256=cMhJsqgCjSPlynaR3M8yuLOZnTijWFcXZITXgXyDGi4,1523
+picsellia_elasticsearch_client-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+picsellia_elasticsearch_client-1.0.1.dist-info/top_level.txt,sha256=BnCN-XQLG0dIk44k0zXYqbcFqO8DDjndbnmrcRORh5o,31
+picsellia_elasticsearch_client-1.0.1.dist-info/RECORD,,
