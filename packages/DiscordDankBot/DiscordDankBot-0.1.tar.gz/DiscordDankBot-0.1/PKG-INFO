@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DiscordDankBot
+Version: 0.1
+Summary: All in one bot to manage your dankmemer account. Easy automaton for grinding money and collectables.
+Home-page: https://github.com/NarayanAdithya/Dankbot
+Author: Adithya Narayan
+Author-email: narayanadithya1234@gmail.com
+License: MIT
+Download-URL: https://github.com/NarayanAdithya/Dankbot/archive/refs/tags/v_0.1-beta.tar.gz
+Keywords: Discord,Automation,DankBot,Dank Memer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
