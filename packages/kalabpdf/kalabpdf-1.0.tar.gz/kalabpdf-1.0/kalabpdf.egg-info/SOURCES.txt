@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kalabpdf/__init__.py
+kalabpdf/pdf2text.py
+kalabpdf.egg-info/PKG-INFO
+kalabpdf.egg-info/SOURCES.txt
+kalabpdf.egg-info/dependency_links.txt
+kalabpdf.egg-info/top_level.txt
