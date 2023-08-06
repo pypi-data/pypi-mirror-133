@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pysigview
+Version: 0.0.0b4
+Summary: Package for viewing signals using VisPy
+Home-page: https://github.com/ICRC-BME/PySigView
+Author: Jan Cimbalnik
+Author-email: jan.cimbalnik@fnusa.cz,jan.cimbalnik@mayo.edu
+License: Apache 2.0
+Keywords: PyQt5 vispy signal
+Platform: Linux
+Platform: MacOS
+Platform: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+License-File: LICENSE.txt
+
+UNKNOWN
+

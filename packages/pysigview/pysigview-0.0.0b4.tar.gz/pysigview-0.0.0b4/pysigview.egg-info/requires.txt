@@ -1,0 +1,14 @@
+pyqt5==5.15.1
+numpy
+vispy
+pyopengl
+pandas
+scipy
+sqlalchemy
+pymysql
+pysigview_cs
+pillow
+jupyter
+pymef
+pydread
+h5py
