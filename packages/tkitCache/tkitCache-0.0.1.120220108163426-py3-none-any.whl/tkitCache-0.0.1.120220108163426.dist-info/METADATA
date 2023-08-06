@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tkitCache
+Version: 0.0.1.120220108163426
+Summary: Terry toolkit tkitCache
+Home-page: https://github.com/napoler/tkitCache/
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: cacheout (==0.13.1)
+
+
+
+这里是说明
+
+cache操作。
+
+
+https://github.com/napoler/tkitCache/
+
+
+
