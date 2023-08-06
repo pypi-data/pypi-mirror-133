@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+src/financials.egg-info/PKG-INFO
+src/financials.egg-info/SOURCES.txt
+src/financials.egg-info/dependency_links.txt
+src/financials.egg-info/top_level.txt
+src/getstock/__init__.py
+src/getstock/__main__.py
+src/getstock/scraper/__init__.py
+src/getstock/scraper/scraper.py
+src/getstock/tools/__init__.py
+src/getstock/tools/dates.py
+src/getstock/tools/saver.py
+src/getstock/uikit/__init__.py
+src/getstock/uikit/event_loop.py
