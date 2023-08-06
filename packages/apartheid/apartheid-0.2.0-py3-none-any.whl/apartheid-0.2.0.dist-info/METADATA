@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: apartheid
+Version: 0.2.0
+Summary: A simple parser (e.g. to parse a C file)
+Home-page: https://github.com/shawwn/apartheid
+License: MIT
+Author: Shawn Presser
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Plexer (>=1.1,<2.0)
+Project-URL: @theshawwn on Twitter, https://www.twitter.com/theshawwn
+Project-URL: Shawn's Website, https://www.shawwn.com
+Project-URL: Support me on Patreon, https://www.patreon.com/shawwn
+Project-URL: sillysaurusx on Hacker News, https://news.ycombinator.com/threads?id=sillysaurusx
+Description-Content-Type: text/markdown
+
+
