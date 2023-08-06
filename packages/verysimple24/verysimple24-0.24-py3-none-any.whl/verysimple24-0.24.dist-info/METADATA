@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: verysimple24
+Version: 0.24
+Summary: My first Python package1
+Home-page: UNKNOWN
+Author: Pooja Singla
+Author-email: pooja_singla@persistent.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+My first Python package1 with a slightly longer description
+
