@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: stitchwell
+Version: 2.1
+Summary: ND2 Stitcher
+Home-page: UNKNOWN
+Author: William Niu
+Author-email: <wniu721@gmail.com>
+License: UNKNOWN
+Keywords: python,ND2,stitch
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nd2reader
+Requires-Dist: numpy
+Requires-Dist: tifffile
+Requires-Dist: tqdm
+
+A pure Python implementation for bulk stitching ND2 files.
+
