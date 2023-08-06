@@ -1,0 +1,11 @@
+src/api.py,sha256=i2OfgDv3rF8T6CV3Wh4f4Ym7GMt8ZM19PvQv8dlMOjk,11416
+src/cli.py,sha256=BxxA8vHknjXHjSVl8kj3QYHz8vsMdx8xFRTh2FKTfXo,4202
+src/constants.py,sha256=hVFtgmX4CIQ79svH6xiNzDtQ6g3J-HvdamFlancaU3c,79
+src/deployment.py,sha256=cMp2gp2Ivf2s7QNP4BXDImGzrZLQfsRqmuvuuM_G1y0,530
+src/utils.py,sha256=ZccrIsAyeENOXaL4Gr7NqLL2MxEi_z6iM_yH3iS9_zg,69
+glide_cli-0.1.1.dist-info/LICENSE,sha256=sQkWQTkKyJAgYxRv9ykWwPVvxHGq0NfK1GZvdbM_X60,1055
+glide_cli-0.1.1.dist-info/METADATA,sha256=fStpVbob92FdpMsLQYDmqbVxiLzerH-TuiOti7P-c9I,201
+glide_cli-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+glide_cli-0.1.1.dist-info/entry_points.txt,sha256=Pe8UBv3XOzH58wL1zlwn_OPyioPE2Ingb4dNRpwtrmQ,57
+glide_cli-0.1.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+glide_cli-0.1.1.dist-info/RECORD,,
