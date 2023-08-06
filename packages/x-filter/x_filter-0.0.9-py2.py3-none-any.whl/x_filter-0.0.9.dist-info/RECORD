@@ -1,0 +1,11 @@
+x_filter/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+x_filter/__main__.py,sha256=ZWTEswwV6xQZZKSP3IfWJJgyhpyC1NWs1kxkvSSLIDg,7766
+x_filter/_version.py,sha256=ZUJj-ibuCHsXpoKNFmkibFaUDMGfFBXik2veRBd-O-k,497
+x_filter/filter.py,sha256=YZmmLpEWjCNBXlNqF--HO0OeyAZ3-41HO0ezb1TLbrk,11818
+x_filter/utils.py,sha256=ubZ-4OPBQest2MM7kZJ1pRJHd1I6RKjcgheSeg1AdQQ,10222
+x_filter-0.0.9.dist-info/LICENSE,sha256=Wrb-Q4jPT0wXv6EeX8jbHTttRyICbx5tNmhZCogJy3Q,1591
+x_filter-0.0.9.dist-info/METADATA,sha256=PcbHm0_WyQmMyLVcQtNXcIextRgR8woHJlyNJ_Gnevk,692
+x_filter-0.0.9.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+x_filter-0.0.9.dist-info/entry_points.txt,sha256=PQBJHaxQVopF_sSabtPzEzkIsus09f2hg2H8EhoaqI4,52
+x_filter-0.0.9.dist-info/top_level.txt,sha256=kjOLBJiG0lYDr7Up6HyfK7FLZpQdYF4alyGk2HuxsoY,9
+x_filter-0.0.9.dist-info/RECORD,,
