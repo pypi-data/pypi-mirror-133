@@ -1,0 +1,6 @@
+README.md
+lambda_zipper.egg-info/PKG-INFO
+lambda_zipper.egg-info/SOURCES.txt
+lambda_zipper.egg-info/dependency_links.txt
+lambda_zipper.egg-info/top_level.txt
+lambda_zipper.egg-info/zip-safe
