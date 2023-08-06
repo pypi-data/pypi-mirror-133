@@ -1,0 +1,8 @@
+td_connect/__init__.py,sha256=hYW5iuY1IBxufnaBhKOdeJmFO8luR8rLuwPnOS6rIFc,37
+td_connect/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+td_connect/examples/cli.py,sha256=tpA9ZX-o9-Qw4csAwAs9LtyNwemBJAc9ftu2KlLZYH4,2183
+td_connect/examples/streaming.py,sha256=rKRuAodWkMjVj7Y2oWfBg8a3JITodD6OnuX6lGlwUO0,819
+td_connect/tdauth.py,sha256=HeD2RZ6gNxWx-LuAaqrkGCkS6FMQQcE7ImZ3VjOaMno,9122
+td_connect-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+td_connect-0.1.0.dist-info/METADATA,sha256=gh6gxCKVmE_-oMyCdC3e8ee7VX1fFfY7KgDsRqvhR-s,642
+td_connect-0.1.0.dist-info/RECORD,,
