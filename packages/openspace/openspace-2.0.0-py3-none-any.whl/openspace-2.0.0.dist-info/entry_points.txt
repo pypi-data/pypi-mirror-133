@@ -1,0 +1,6 @@
+[console_scripts]
+joystick = openspace.examples.joystick:run
+openspace = openspace.examples.geoplanner:run
+reach_demo = openspace.examples.reach_demo:run
+sda_demo = openspace.examples.sda_demo:run
+
