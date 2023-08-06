@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: allianceauth-celeryanalytics-housekeeping
+Version: 0.0.1a4
+Summary: Housekeeping for Allianceauth Celery Analytics
+Home-page: https://github.com/ppfeufer/allianceauth-celeryanalytics-housekeeping
+Author: Peter Pfeufer
+Author-email: development@ppfeufer.de
+License: GPLv3
+Project-URL: Issue / Bug Reports, https://github.com/ppfeufer/allianceauth-celeryanalytics-housekeeping/issues
+Project-URL: Changelog, https://github.com/ppfeufer/allianceauth-celeryanalytics-housekeeping/blob/master/CHANGELOG.md
+Project-URL: Release Notes, https://github.com/ppfeufer/allianceauth-celeryanalytics-housekeeping/releases/tag/v0.0.1-alpha.4
+Project-URL: Git Repository, https://github.com/ppfeufer/allianceauth-celeryanalytics-housekeeping
+Description: # Alliance Auth Celery Analytics Housekeeping
+        Housekeeping for Alliance Auth Celery Analytics
+        
+        ```shell
+        pip install allianceauth-celeryanalytics-housekeeping
+        ```
+        
+        In `local.py` add `celeryanalytics_housekeeping` to your `INSTALLED_APPS`.
+        
+        Also add the following:
+        
+        ```python
+        ## AA Celery Analytics Housekeeping
+        if (
+            "celeryanalytics" in INSTALLED_APPS
+            and "celeryanalytics_housekeeping" in INSTALLED_APPS
+        ):
+            # Keep 10 days (default)
+            CELERYANALYTICS_HOUSEKEEPING_DB_BACKLOG = 10
+        
+            # Run every hour
+            CELERYBEAT_SCHEDULE["celeryanalytics_housekeeping.tasks.run_housekeeping"] = {
+                "task": "celeryanalytics_housekeeping.tasks.run_housekeeping",
+                "schedule": crontab(minute=0, hour=0),
+            }
+        ```
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
