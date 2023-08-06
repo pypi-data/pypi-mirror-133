@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: dewloosh.core
+Version: 0.0.dev6
+Summary: Common developer utilities and base classes to support other dewloosh packages.
+Home-page: https://github.com/dewloosh/dewloosh-core
+Author: dewloosh
+Author-email: dewloosh@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/dewloosh/dewloosh-core/archive/refs/tags/0.0.dev6.zip
+Description: # dewloosh.core
+        
+        This package contains common developer utilities to support other `dewloosh` packages, such as
+        
+        * Classes `DictCollection` and `OrderedDictCollection` providing facilities to deal with nested dictionaries, allowing us to create and manipulate hierarchical data objects. 
+        
+        * A `Library` class, that takes `OrderedDictCollection` to the next level.
+        
+        * A set of abstract base classes for metaprogramming.
+        
+        * A base class for array types.
+        
+        * Various decorators, wrappers and other handy developer tools.
+        
+        * Some other tools for educational refrencing.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
