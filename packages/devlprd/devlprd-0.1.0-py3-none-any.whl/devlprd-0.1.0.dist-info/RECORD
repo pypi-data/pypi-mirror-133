@@ -1,0 +1,10 @@
+devlprd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devlprd/daemon.py,sha256=NcrrinPLYAzMRfWlH78Z7PjAqhqniGn_u3P6wTMEkys,2252
+devlprd/DaemonState.py,sha256=nyFo9w3kxm4VGAKuzhQJnajrpGjRtxjEPiXiEEi3qbI,5184
+devlprd/filtering.py,sha256=7b5YDlAmw6cofQ-vpwb2KyaAmlgfXH1h1zSxzV7opF8,8448
+devlprd/protocol.py,sha256=_66BoRnF4ELU3Kq7PzakCvh2AZw0dXyAI6BS-IBhTCo,2136
+devlprd/serif.py,sha256=OFNjdwEsjHOl1ujUxBxLozAcq6vb-_UxG9a2lts1cJ0,3516
+devlprd-0.1.0.dist-info/LICENSE,sha256=MqipwhMA8b3CdqPi78LZX4Lp08Yw6jSoq4AxOH6V3_M,1062
+devlprd-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+devlprd-0.1.0.dist-info/METADATA,sha256=aUoJGUnQZqOZumAVIBy2HwzEG5zyxykq83ofb1xECdY,556
+devlprd-0.1.0.dist-info/RECORD,,
