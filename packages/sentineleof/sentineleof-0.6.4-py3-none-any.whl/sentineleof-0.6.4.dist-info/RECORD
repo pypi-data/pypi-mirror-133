@@ -1,0 +1,16 @@
+eof/__init__.py,sha256=cHXr3Efc7z26106OgRoocKlhvZ-Kz-qOvwGywU68x6o,45
+eof/__main__.py,sha256=I47eDJPpNER_0RKDnyAT2Tu9oZdMs0_Ge3i041r_YUo,76
+eof/cli.py,sha256=5hTbxVoTyHRtw08mZxjk8axM9nvHaZGxp0avPZEDlv4,1900
+eof/download.py,sha256=T7PigwYHF3xgi2hv6BuiowpRmaLUAWIMH-VWlei0R0c,8720
+eof/log.py,sha256=WwXzP-1YsT1u680lu8hR16Ds0PyetPRKgMfV0HtsJhg,426
+eof/parsing.py,sha256=PJlFnCZk26k-5HDv-P0hQ8kG8QxiYgDwo3MFWoAuNZU,3519
+eof/products.py,sha256=ggHwM5fxwp0slmlHej625NYELYL2p5Di54v29FtVU3M,14181
+eof/scihubclient.py,sha256=M5ZWXZufQppps2bVdcxXtxf-NM5cWqIDMr05WbXE4HY,11312
+eof/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eof/tests/test_eof.py,sha256=9PARqRClxldjhxlPQY5OK6iLqnswurUQdTAy36gsahQ,6602
+sentineleof-0.6.4.dist-info/LICENSE.txt,sha256=btzorukjMu4zkpKByBfDN3ufGpCRMzrGaJVjMR0YkKw,1079
+sentineleof-0.6.4.dist-info/METADATA,sha256=JSNHrOMmyOUwHUObPZVWzq-7bI3yTcSTQv2pbEMWxzw,3227
+sentineleof-0.6.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sentineleof-0.6.4.dist-info/entry_points.txt,sha256=LV4yLl3pmoKApFVQC7Wxe0_418l118FhNmSPsCd_Uoo,37
+sentineleof-0.6.4.dist-info/top_level.txt,sha256=9GzNEzQ0FNznuaVFjlDFm0f_7e5EGHjkpddujcB5qqY,4
+sentineleof-0.6.4.dist-info/RECORD,,
