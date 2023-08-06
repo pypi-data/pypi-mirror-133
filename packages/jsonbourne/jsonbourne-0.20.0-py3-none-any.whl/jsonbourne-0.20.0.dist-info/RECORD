@@ -1,0 +1,16 @@
+david_webb.py,sha256=rasLoFy0XUTLB2ZlF_cgYu75ILd5y2AQ-GPNDuTqq44,94
+JSON.py,sha256=LBM0MlB_HIGIeyoR6CosUrmInyUK_bRNKFMnGa9FAqg,1189
+jsonbourne/__init__.py,sha256=h3hGPJtJhfLh_db2S85xLQBhaRdwXPvuLR-XcUMHX7Y,817
+jsonbourne/_meta.py,sha256=hAIF9P_Im4gNE0CtkSdrnz_tRpZbJvz0MdZ_v03t0f8,131
+jsonbourne/core.py,sha256=la7a492vXpK7Nn7aJ9K9Lv8cAebsdf4pfxnVrabnu7s,33620
+jsonbourne/datacls.py,sha256=9xTmmT9juKihz4lIFmYSEOs6Dc-E3cFtYnJotqk0gNw,691
+jsonbourne/fastapi.py,sha256=EvxUeUM8UDCnry25bK-sJa_HJQVsdMR3haDjwzX4NgM,712
+jsonbourne/helpers.py,sha256=132YCCYDY_g1F08SfCWFwjSBDILybNxfSeIqZcntdDk,1151
+jsonbourne/httpx.py,sha256=SQxt90Kq5XjYRp7y_vQMBWnwet-kC-jVxMvwWt507cw,411
+jsonbourne/jsonlib.py,sha256=V8odQZu9RTGsDJRR7Ho0skXIfIFMFKdLgFIQIRAWw4w,14381
+jsonbourne/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonbourne/pydantic.py,sha256=y5m8INCPYTo8YzkI0d-udBNRp2akh3rnfYvinB0CBC4,10012
+jsonbourne-0.20.0.dist-info/LICENSE,sha256=PufEtkm3g2iPEYbJqg2lDjMQJ1FMm_oUPyeYPiN4PHE,1056
+jsonbourne-0.20.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jsonbourne-0.20.0.dist-info/METADATA,sha256=EXSge6p4Vqum6jDQHMqI-9RIeUyBUsPl_3PgmPIJonU,1359
+jsonbourne-0.20.0.dist-info/RECORD,,
