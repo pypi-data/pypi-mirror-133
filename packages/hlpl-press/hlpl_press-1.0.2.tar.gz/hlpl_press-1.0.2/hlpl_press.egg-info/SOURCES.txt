@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hlpl_press/__init__.py
+hlpl_press/__main__.py
+hlpl_press/setup.cfg
+hlpl_press/uc.png
+hlpl_press.egg-info/PKG-INFO
+hlpl_press.egg-info/SOURCES.txt
+hlpl_press.egg-info/dependency_links.txt
+hlpl_press.egg-info/entry_points.txt
+hlpl_press.egg-info/top_level.txt
