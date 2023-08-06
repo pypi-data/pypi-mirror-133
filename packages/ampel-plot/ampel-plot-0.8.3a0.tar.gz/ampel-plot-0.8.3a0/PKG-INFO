@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ampel-plot
+Version: 0.8.3a0
+Summary: Plotting add-on for the Ampel system
+License: BSD-3-Clause
+Author: Valery Brinnel
+Requires-Python: >=3.10,<3.11
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: CairoSVG (>=2.5.2,<3.0.0)
+Requires-Dist: ampel-core (>=0.8.3-alpha.2,<0.9.0)
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: svgutils (==0.3.0)
