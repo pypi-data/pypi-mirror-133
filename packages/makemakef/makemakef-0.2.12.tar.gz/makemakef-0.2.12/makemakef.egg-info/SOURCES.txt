@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+makemakef/__init__.py
+makemakef/main.py
+makemakef.egg-info/PKG-INFO
+makemakef.egg-info/SOURCES.txt
+makemakef.egg-info/dependency_links.txt
+makemakef.egg-info/entry_points.txt
+makemakef.egg-info/top_level.txt
