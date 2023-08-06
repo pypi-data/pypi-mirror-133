@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "apartheid"
+version = "0.2.0"
+readme = "README.md"
+homepage = "https://github.com/shawwn/apartheid"
+description = "A simple parser (e.g. to parse a C file)"
+authors = ["Shawn Presser"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+Plexer = "^1.1"
+
+[tool.poetry.urls]
+"Shawn's Website" = "https://www.shawwn.com"
+"Support me on Patreon" = "https://www.patreon.com/shawwn"
+"@theshawwn on Twitter" = "https://www.twitter.com/theshawwn"
+"sillysaurusx on Hacker News" = "https://news.ycombinator.com/threads?id=sillysaurusx"
