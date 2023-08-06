@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: susc
+Version: 0.2.0
+Summary: AMOGUS SUS description language compiler
+Home-page: https://github.com/amogus-api/susc
+Author: portasynthinca3
+Author-email: portasynthinca3@gmail.com
+License: BSD 3-Clause
+Keywords: api,protocol
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# SUS compiler
+This repository contains the compiler for the SUS description language. Install it with:
+```
+pip3 install susc
+```
+
+## Usage
+```
+susc --help
+# OR
+python3 -m susc --help
+```
+
