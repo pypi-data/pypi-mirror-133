@@ -1,0 +1,21 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "great_ape_safe"
+authors = [{name = "Gosuto B.V.", email = "mail@gosuto.ai"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+dynamic = ["version", "description"]
+dependencies = [
+    "ape-safe",
+    "eth-brownie==1.17.0",
+    "pandas",
+    "rich",
+    "tqdm",
+]
+
+[project.urls]
+Home = "https://github.com/gosuto-ai/great-ape-safe"
