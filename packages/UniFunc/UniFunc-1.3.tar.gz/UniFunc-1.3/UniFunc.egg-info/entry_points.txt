@@ -1,0 +1,3 @@
+[console_scripts]
+unifunc = unifunc.__main__:main
+
