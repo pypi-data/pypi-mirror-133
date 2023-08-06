@@ -1,0 +1,6 @@
+levenshtein
+requests
+colorama
+future
+urlextract
+blockcypher
