@@ -1,0 +1,17 @@
+rooms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rooms/admin.py,sha256=RkRVvpVoIj79oTavyrO_v8uAzQ8qEC5s2H19f_kv6rk,85
+rooms/apps.py,sha256=Ra4JTshHEvX9MinrOZjm7M93sxNxrpk79jdyZ4M1VyE,151
+rooms/models.py,sha256=5cXldUsv70A4aWFDPRuQH6vSQ4mLVipQjhuvkvG7xow,592
+rooms/serializers.py,sha256=Z_qOuF0ZGX0m1JoLnDydt1VQxJ7iLs3TjP77bZrTqWE,218
+rooms/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+rooms/urls.py,sha256=tODktjuySccSmb2kbVy_N4xUnyuNqX84IeLonp5viOI,978
+rooms/utils.py,sha256=6TQOkT8cxDleFV6k1WbPnlaut-XyXiak5xMOvGperYw,1616
+rooms/views.py,sha256=PRyXk-hsGV6idpeplCSYfUTg7M6Hu3JeWYQYmn5Cs6I,5316
+rooms/migrations/0001_initial.py,sha256=zqkjGQchpTlQyOwxC9gFHpb1UpIFklrQPB5grHi1aKo,852
+rooms/migrations/0002_intentsilo.py,sha256=9--UtIXA2zsq4cncPcaSkGmQEbuRmxKqfjlpnZ_iddY,640
+rooms/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uscalt_drf-0.1.1.dist-info/LICENSE,sha256=GeehNEjA5Ehn4-ZDFmBc4N7Ab0H9BumHybQEWyEgzZs,1461
+uscalt_drf-0.1.1.dist-info/METADATA,sha256=wb16PQTrkSXFkf6YT6MrxkUeFZmZ_vXNkNq-iRWmMjA,2835
+uscalt_drf-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uscalt_drf-0.1.1.dist-info/top_level.txt,sha256=F0r4ICSz1vC20e5uBs6_krNo3PGHv_fYTi9pTKxqn3I,6
+uscalt_drf-0.1.1.dist-info/RECORD,,
