@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: fastapi-depends
+Version: 0.1.1
+Summary: Use your FastAPI dependencies in plain python code
+Home-page: https://github.com/troyan-dy/fastapi-depends
+License: MIT
+Author: troyan-dy
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: fastapi (>=0.70.1,<0.71.0)
+Project-URL: Documentation, https://github.com/troyan-dy/fastapi-depends#readme
+Project-URL: Repository, https://github.com/troyan-dy/fastapi-depends
