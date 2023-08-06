@@ -1,0 +1,6 @@
+pyarrow<6.1,>=6
+pymongo<5,>=3.11
+
+[test]
+pandas
+pytz
