@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+rest_api_client/__init__.py
+rest_api_client/modules.py
+rest_api_client/rest_api_client.py
+rest_http_client.egg-info/PKG-INFO
+rest_http_client.egg-info/SOURCES.txt
+rest_http_client.egg-info/dependency_links.txt
+rest_http_client.egg-info/requires.txt
+rest_http_client.egg-info/top_level.txt
