@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: vc-filter
+Version: 1.0.8
+Summary: VC Filter is a new edge detection algorithm based on the Visual Cortex study
+Home-page: https://boriskravtsov.com/
+Author: Boris Kravtsov
+Author-email: boriskravtsov.contacts@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+
+## VC FILTER
+VC Filter is a new edge detection algorithm based on the Visual Cortex study.
+
+### Installation
+```
+pip install vc-filter
+```
+### About VC Filter
+
+<p align="center"><img src="https://boriskravtsov.com/images/hello_demo.png"/>
+
+The primitive Sobel Filter below is "tuned" to detect horizontal edges. As the deviation from the 
+horizontal increases, the filter's sensitivity falls, and as a result, the vertical edges become 
+invisible (image in the center).
+
+<div align="center">
+
+```Python
+-1, -2, -1
+ 0,  0,  0
+ 1,  2,  1
+```
+</div>
+
+Sobel filtering can be done in both Spatial Domain and Frequency Domain:
+1. Filtering in Spatial Domain uses convolution, **cv2.Sobel(image, cv.CV_64F, 0, 1, ksize=3)**.
+2. Filtering in Frequency Domain is implemented by multiplying the image Fourier Transform, **FFT{image}**, 
+with the filter Fourier Transform, **FFT{filter}**. And finally, we proceed with the Inverse Fourier Transform 
+of the resulting product, **IFFT{FFT{image} x FFT{filter}}**.
+
+We use the second option because this allows a preliminary tune of the original Sobel Filter to any angle 
+by rotating **FFT{filter}** in Frequency Domain. So, let's create a set of Sobel filters adjusted to 
+0 degrees, 12 degrees, 24 degrees, etc. Summing up the filtering results of each of the filters in our set, 
+we will get perfect edges (image on the right).
+
+Where else can we find edge detectors tuned to different angles? Such detectors (orientation-selective neurons) 
+were discovered in the visual cortex more than 50 years ago, but their role is still unclear. It is logical to 
+assume that these neurons compose a high-quality contour image of the visible object in the same way as the set 
+of Sobel Filters in our method. Essentially, the proposed VC filter is some visual cortex work simulation.
+
+### How to use:
+```Python
+import cv2 as cv
+from vc_filter import vc_filter
+
+image = cv.imread(path, cv.IMREAD_GRAYSCALE)
+
+response, image_edges = vc_filter(image, 0.5)
+
+if response == 'OK':
+    cv.setWindowProperty('VC FILTER', cv.WND_PROP_TOPMOST, 1)
+    cv.imshow('VC FILTER', image_edges)
+
+cv.waitKey(0)
+```
+
+
