@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: sphinxcontrib-zopeext
+Version: 0.3.2
+Summary: Provides sphinxcontrib.zopeext.autointerface for documenting Zope interfaces.
+License: BSD-2-Clause
+Author: Michael McNeil Forbes
+Author-email: mforbes@alum.mit.edu
+Requires-Python: >=3.6.2,<4
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: Sphinx (>=3.4.2,<5.0.0)
+Requires-Dist: importlib-metadata (>=4.8.1,<5.0.0)
+Requires-Dist: sphinx-book-theme (>=0.1.7,<0.2.0); extra == "docs"
+Requires-Dist: zope.interface (>=5.2.0,<6.0.0)
+Project-URL: Bug Reports, https://github.com/sphinx-contrib/zopeext/issues
+Project-URL: Documentation, https://zopeext.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/sphinx-contrib/zopeext
+Project-URL: Sphinx, https://www.sphinx-doc.org/
+Project-URL: Sphinx Autodoc, https://www.sphinx-doc.org/en/master/usage/extensions/autodoc.html
+Project-URL: Zope Interface, https://github.com/zopefoundation/zope.interface
+Description-Content-Type: text/x-rst
+
+.. -*- rst -*- -*- restructuredtext -*-
+.. Note: this file is simplified without text roles so it displays on PyPI. See
+.. doc/README.rst for the correct information.
+   
+==================
+zopeext for Sphinx
+==================
+
+:author: Michael McNeil Forbes <mforbes@alum.mit.edu>
+
+This extension provides an `autointerface` directive for `Zope interfaces`_.
+
+Requirements
+============
+
+* Sphinx_: ``pip install sphinx``
+* zope.interface_: ``pip install zope.interface``
+* sphinxcontrib.zopeext_: ``pip install sphinxcontrib-zopeext``
+
+Usage
+=====
+
+In the `build configuration file`_ (the ``conf.py`` in your Sphinx_
+documentation directory) add `sphinxcontrib.zopeext.autointerface` to your
+``extensions`` list::
+
+   extensions = [..., 'sphinxcontrib.zopeext.autointerface', ...]
+
+
+Then, in your documentation, use `autointerface` as you would use
+`autoclass`.  You can refer to the interface with the ``:py:interface:`` role
+`example.IMyInterface` as you would use the ``:py:class:`` role to refer
+to the implementation `example.MyImplementation`:
+
+.. code-block:: ReST
+
+    .. automodule:: example
+       :show-inheritance:
+       :inherited-members:
+     
+One can also limit which members are displayed, just as you would with ``.. autoclass``:
+
+.. code-block:: ReST
+
+    .. autointerface:: example.IMyInterface
+       :members: x, equals
+    .. autoclass:: example.MyImplementation
+       :members: x, equals
+
+.. _Sphinx: http://sphinx.pocoo.org/
+.. _build configuration file: http://sphinx.pocoo.org/config.html
+.. _Zope interfaces: http://docs.zope.org/zope.interface/README.html
+.. _zope.interface: http://pypi.python.org/pypi/zope.interface/
+.. _sphinxcontrib.zopeext: http://pypi.python.org/pypi/sphinxcontrib-zopeext/
+
+
+..
+   """
+   Documentation: http://packages.python.org/sphinxcontrib-zopeext
+
+   Install with ``pip install sphinxcontrib-zopeext``.
+
+   To use this extension, include `'sphinxcontrib.zopeext.autointerface'` in your
+   `extensions` list in the `conf.py` file for your documentation.
+
+   This provides some support for Zope interfaces by providing an `autointerface`
+   directive that acts like `autoclass` except uses the Zope interface methods for
+   attribute and method lookup (the interface mechanism hides the attributes and
+   method so the usual `autoclass` directive fails.)  Interfaces are intended
+   to be very different beasts than regular python classes, and as a result
+   require customized access to documentation, signatures etc.
+
+   tests_require = [
+       'Sphinx>=3.3.0',
+       'sphinx-testing',
+       'pytest>=2.8.1',
+       'pytest-cov>=2.2.0',
+       'pytest-flake8',
+       'coverage',
+       'flake8',
+       'pep8',
+
+   """
+
