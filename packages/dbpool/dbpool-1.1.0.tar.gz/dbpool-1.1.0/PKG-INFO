@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dbpool
+Version: 1.1.0
+Summary: Enhance mysql-connector-python pooling
+Home-page: https://github.com/hungrybirder/dbpool-python
+License: MIT
+Author: liyong
+Author-email: hungrybirder@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: mysql-connector-python (>=8.0.27,<9.0.0)
