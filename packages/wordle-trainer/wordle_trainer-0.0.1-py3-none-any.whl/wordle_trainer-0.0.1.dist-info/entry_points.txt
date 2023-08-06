@@ -1,0 +1,3 @@
+[console_scripts]
+wordle-trainer=wordle_trainer.wordle:app
+

@@ -1,0 +1,11 @@
+poetry.lock,sha256=fKxl9lRWJNo_l1F0XultGibDCQz5PN6IN9T9Sh6t-Zw,72267
+wordle_trainer/__init__.py,sha256=KhVzVGaNw2PHo3_ZjQdwPbMHuOuZYgj2Cg5HqAMRD6M,61
+wordle_trainer/wordle.py,sha256=-pc0S206au3F4qGHVsOQmqNsUOmTHBxFdm8PBdcTVeI,10505
+wordle_trainer/wordle_dictionary.py,sha256=nebT1eY5_IxSNh3DDVR8zqqPRNCArxDWpC24E33HIJU,220666
+wordle_trainer/wordle_test.py,sha256=Ca8DidzlJcy24I65WHcTxQWI0gx0sbwds2YssaEFM1Y,155
+wordle_trainer/words_dictionary.json,sha256=Myt5N0Q286-YpxISHwED0lzUPrGBOqVhbjAe6PCZ8sE,6825598
+wordle_trainer-0.0.1.dist-info/entry_points.txt,sha256=UkqHzRyPwFsq_WXNunVPUPgy0XVgqoDvSKC91188Cvw,60
+wordle_trainer-0.0.1.dist-info/LICENSE.txt,sha256=-UC1XrbktnI0u3kkcW9VuSvBm0yzqgIvHRCPVDliIi4,1083
+wordle_trainer-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wordle_trainer-0.0.1.dist-info/METADATA,sha256=PImgB1dXt5gxkv2okU0htDExgZoHJCX7NKnRambGBr0,4777
+wordle_trainer-0.0.1.dist-info/RECORD,,
