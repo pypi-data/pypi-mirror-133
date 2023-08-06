@@ -1,0 +1,3 @@
+python-docx==0.8.10
+PyVCF==0.6.8
+pyfaidx

@@ -1,0 +1,8 @@
+README.md
+gtf2seq.py
+setup.py
+gtf2seq.egg-info/PKG-INFO
+gtf2seq.egg-info/SOURCES.txt
+gtf2seq.egg-info/dependency_links.txt
+gtf2seq.egg-info/requires.txt
+gtf2seq.egg-info/top_level.txt
