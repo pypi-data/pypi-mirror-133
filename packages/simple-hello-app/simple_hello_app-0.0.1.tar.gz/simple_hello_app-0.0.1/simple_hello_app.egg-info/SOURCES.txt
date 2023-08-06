@@ -1,0 +1,6 @@
+README.txt
+setup.py
+simple_hello_app.egg-info/PKG-INFO
+simple_hello_app.egg-info/SOURCES.txt
+simple_hello_app.egg-info/dependency_links.txt
+simple_hello_app.egg-info/top_level.txt

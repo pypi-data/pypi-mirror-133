@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: simple-hello-app
+Version: 0.0.1
+Summary: hello_app
+Home-page: UNKNOWN
+Author: moti ksir
+Author-email: motiksir@gmail.com
+License: MIT
+Description: this is simple hello world app for testing
+        
+        CHANGE LOG
+        ______________________
+        
+        0.0.1 (6/1/21)
+        
+        -first release
+        
+        
+Keywords: simple_hello_app
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
