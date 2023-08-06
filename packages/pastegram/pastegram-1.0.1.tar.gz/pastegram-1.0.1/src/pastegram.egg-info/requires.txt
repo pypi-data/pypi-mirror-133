@@ -1,0 +1,2 @@
+pycryptodomex==3.10.1
+requests==2.26.0
