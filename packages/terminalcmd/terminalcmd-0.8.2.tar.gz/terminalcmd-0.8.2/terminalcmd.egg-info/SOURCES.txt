@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+terminalcmd/__init__.py
+terminalcmd/builder.py
+terminalcmd/builtin.py
+terminalcmd/color_console.py
+terminalcmd.egg-info/PKG-INFO
+terminalcmd.egg-info/SOURCES.txt
+terminalcmd.egg-info/dependency_links.txt
+terminalcmd.egg-info/top_level.txt

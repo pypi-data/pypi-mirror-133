@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: terminalcmd
+Version: 0.8.2
+Summary: 
+
+Home-page: https://github.com/DarkJoij/terminalcmd
+Author: Dallas
+Author-email: aleksey.c5@yandex.ru
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
