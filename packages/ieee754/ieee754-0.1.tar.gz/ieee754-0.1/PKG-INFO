@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: ieee754
+Version: 0.1
+Summary: A Python library which converts floating points numbers into IEEE-754 representation.
+Home-page: https://github.com/canbula/ieee754
+Author: Bora Canbula
+Author-email: bora.canbula@cbu.edu.tr
+License: MIT
+Download-URL: https://github.com/canbula/ieee754/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: IEEE-754,binary,floating-points,binary-representation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
