@@ -1,0 +1,17 @@
+openplm/__init__.py,sha256=Dni2UZYTra-_65_h19IC5Pi8jRbuQ-M_rZTGL3ouR3c,106
+openplm/constant.py,sha256=E3vfLQ70ZAiWjn1o_HTqkybeheklkZXvhaSMxH0wUbQ,86
+openplm/apis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openplm/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openplm/metrics/rouge.py,sha256=IPxA8mSNzwmR2-UUIN5kYsDhObyRkyOI3YRHnwr-p7g,16279
+openplm/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openplm/models/modeling_outputs.py,sha256=siARFtmMYCS_suaH4ZPEP8YPKB_--dTzEjG0E-_WeW4,524
+openplm/models/bertsum/__init__.py,sha256=grmse1qNLw6Zcb4OrYXFXk_Ryzmd4nVyUaqPkXUVE5w,145
+openplm/models/bertsum/configuration_bertsum.py,sha256=YDjzEKvRSZhchFJ6_GfJn5B_Fxye7Oyw0LuapMdQukI,5999
+openplm/models/bertsum/modeling_bertsum.py,sha256=mvvJN2QGZPUSEAapL1HiFPiS_vU4rEOrOlI1WsiL7TQ,12478
+openplm/models/bertsum/tokenization_bertsum.py,sha256=fUdZ_E7XFDCA0vXgpz3wbWskQtxuU-e2AzmnI8xlRYk,8867
+openplm/utils/__init__.py,sha256=LjMX178on8GFfU8RNo88rJY8XB5GsQXK2-EMB1s1QHs,37
+openplm-0.1.0.dist-info/LICENSE,sha256=qZ_dp0aMyYfXDvn-cood_fa806rcGu_MCxmf9a15qI0,1067
+openplm-0.1.0.dist-info/METADATA,sha256=3kdD-TOp8YyMxcFoMH7d1lHZ-BiAvWi53eiPm1bYAdQ,1332
+openplm-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+openplm-0.1.0.dist-info/top_level.txt,sha256=1tt0nCy4DcEpipQ_h28TyM0r9LWJdqlpmKnggk-O_j4,8
+openplm-0.1.0.dist-info/RECORD,,
