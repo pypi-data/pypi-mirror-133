@@ -1,0 +1,7 @@
+pysimplegui
+numpy
+opencv-python
+imageio
+gym
+stable-baselines3
+pyglet
