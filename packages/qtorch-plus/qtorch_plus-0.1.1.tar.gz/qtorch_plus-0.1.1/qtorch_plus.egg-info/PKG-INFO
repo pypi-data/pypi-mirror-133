@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: qtorch-plus
+Version: 0.1.1
+Summary: Low-Precision Arithmetic Simulation in Pytorch - Extension for Posit and customized number formats
+Home-page: UNKNOWN
+Author: Extension: Minh Ho, Himeshi, Original qtorch team: Tianyi Zhang, Zhiqiu Lin, Guandao Yang, Christopher De Sa,
+Author-email: minhhn@comp.nus.edu.sg
+License: MIT
+Project-URL: Documentation, https://qpytorch.readthedocs.io
+Project-URL: Source, https://github.com/minhhn2910/QPyTorch
+Description: # QPytorch+: Extending Qpytorch for Posit format and more
+        #### Author: minhhn2910@github, himeshi@github
+        ---
+        ### Install 
+        #### Install in developer mode: 
+        ```bash
+        git clone https://github.com/minhhn2910/QPyTorch.git
+        cd QPyTorch
+        pip install -e ./
+        ```
+        Simple test if c-extension is working correctly : 
+        ```
+        python test.py
+        ```
+        Important: if there are errors when running test.py, please export the environment variables indicating build directory and/or CUDA_HOME, otherwise we will have permission problem in multi-user-server.
+        ```
+        export TORCH_EXTENSIONS_DIR=/[your-home-folder]/torch_extension
+        export CUDA_HOME=/[your cuda instalation directory e.g. /usr/local/cuda-10.2] 
+        python test.py
+        ```
+        ---
+        ### Functionality: 
+        * Support [Posit Format](https://posithub.org/) with round to nearest mode. 
+        * Scaling of value before & after conversion to/from posit is supported (Exponent bias when the scale is a  power of 2).   
+        For example: `value x -> x*scale -> Posit(x*scale) -> x`
+        * Support Tanh approximation with Posit and correction of error:  
+        When `x` is in a posit format with es = 0 => `Sigmoid(x) = (x XOR 0x8000) >> 2 => PositTanh(x) = 2 · Sigmoid(2x) − 1 `
+        * More number formats (Table lookup, log2 system ...,  and new rounding modes will be supported on new versions).
+        #### Currently under development and update to support more number formats and schemes.
+        ---
+        ### Demo and tutorial: 
+        * Approximate Tanh Function with Posit is presented at `examples/tutorial/test_posit_func.ipynb`
+        * Most functionalities can be tested by using the notebooks in posit tutorials: ./examples/tutorial/
+        * Notebook demo training Cifar10 with vanilla Posit 8 bit: `examples/tutorial/CIFAR10_Posit_Training_Example.ipynb`
+        * Demo of DCGAN Cifar10 training with Posit 8 bit: [Google Colab Link](https://colab.research.google.com/drive/10kquzBx5tY8B5LYaxHab3HnR2lBwhwSl?usp=sharing)
+        * Demo of DCGAN Lsun inference using Posit 6 bit and Approximate Tanh : [Google Colab Link](https://colab.research.google.com/drive/1jNjpRTXffF1cLhV22Zzhd7LdgaZ8K_aP?usp=sharing)
+        * Demo of applying posit 6 bits & 8 bits to [ALBERT](https://huggingface.co/ktrapeznikov/albert-xlarge-v2-squad-v2) for Question Answering Task: [GoogleColab Demo](https://colab.research.google.com/drive/1t2bsoQb4oI-Lind_ORzroyv8X2H78cdn?usp=sharing)  
+        
+        If you find this repo useful, please cite our paper(s) listed below. The below also explain the terms and usage of Posit's enhancements (exponent bias and tanh function).
+        ```
+        @inproceedings{ho2021posit,
+          title={Posit Arithmetic for the Training and Deployment of Generative Adversarial Networks},
+          author={Ho, Nhut-Minh and Nguyen, Duy-Thanh and De Silva, Himeshi and Gustafson, John L and Wong, Weng-Fai and Chang, Ik Joon},
+          booktitle={2021 Design, Automation \& Test in Europe Conference \& Exhibition (DATE)},
+          pages={1350--1355},
+          year={2021},
+          organization={IEEE}
+        }
+        
+        ```
+        
+        ---------------------------------
+        ### The original Qpytorch package which supports floating point and fixed point:
+        
+        The original README file is in REAME.original.md
+        
+        Credit to the Qpytorch team and their original publication 
+        
+        ```
+        @misc{zhang2019qpytorch,
+            title={QPyTorch: A Low-Precision Arithmetic Simulation Framework},
+            author={Tianyi Zhang and Zhiqiu Lin and Guandao Yang and Christopher De Sa},
+            year={2019},
+            eprint={1910.04540},
+            archivePrefix={arXiv},
+            primaryClass={cs.LG}
+        }
+        ```
+        
+        ##### Qpytorch Team
+        * [Tianyi Zhang](https://scholar.google.com/citations?user=OI0HSa0AAAAJ&hl=en)
+        * Zhiqiu Lin
+        * [Guandao Yang](http://www.guandaoyang.com/)
+        * [Christopher De Sa](http://www.cs.cornell.edu/~cdesa/)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
