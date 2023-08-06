@@ -1,0 +1,12 @@
+fpinpy/__init__.py,sha256=lIA4UaSmseE9rRKEgFgtb9eQdOHWS0prk0KG7utROjo,1246
+fpinpy/collections/__init__.py,sha256=0L4mT10dRRRabItQMp8eg_IakAGSuq_WlzalOKpWBrE,1149
+fpinpy/collections/map.py,sha256=a_ub5wsTv-z2XMz8xmdF0RkuHGGYSFU2n5bMnx2cgHo,1637
+fpinpy/readers/__init__.py,sha256=9WCyzatKi_FVyOciXBiTzq_MaaJb8490m0StGVUf7F4,1158
+fpinpy/readers/iniconfig.py,sha256=NE-sPtNO9dCQ4sdjuKjZyNxaYFY2BNkHtF6EwZY9Qrg,2057
+fpinpy/result/__init__.py,sha256=NJ7QqZ9dRYX3zbEvXzq575BrGCz2Rp_dwTuRM6ZPRcA,1200
+fpinpy/result/result_using_bool_distinguisher.py,sha256=zGYhR40YvYp0BWwzwPY59swp-pw7yWnyAM9KUlEg9Ak,5507
+fpinpy/result/result_using_subclass_distinguisher.py,sha256=UNRjVATA0sBqgX42wCgbigoqMIzIWpBd2FlQ6sUIaXQ,13817
+fpinpy-1.0.1.dist-info/METADATA,sha256=4iPYZkiq5Ytedo9aXthY-QfaEDQFd5cu1ywIimzbmWY,868
+fpinpy-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fpinpy-1.0.1.dist-info/top_level.txt,sha256=625L5XeV2tMhNiwOLwZOqGdXkszd1UAa1cOtOSxpS20,7
+fpinpy-1.0.1.dist-info/RECORD,,
