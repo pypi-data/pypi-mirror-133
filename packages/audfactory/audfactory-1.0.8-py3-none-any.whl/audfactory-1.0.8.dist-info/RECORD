@@ -1,0 +1,9 @@
+audfactory/__init__.py,sha256=X3chrV6reA4i12BjRw8kKrYEJW2DHN-Xn28dhHx0WLs,557
+audfactory/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audfactory/core/api.py,sha256=-XiIRMWVQoCLDw491rNpg4WI7EmIVdfPqV9GxylajHo,12055
+audfactory/core/lookup.py,sha256=mQqgQohA4MLAg-NNa3VSXUq50mh4xLqbcJoZeL2GvTA,21968
+audfactory-1.0.8.dist-info/LICENSE,sha256=DYw-hxXA0cn_1mOkHRN3coALI9y6I7g7foQ64Sbt-OY,1143
+audfactory-1.0.8.dist-info/METADATA,sha256=1pNZuoEb3G7CUFs0Ejdxm1FgOM0ukvl35Ge2yNsQ3ok,10035
+audfactory-1.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+audfactory-1.0.8.dist-info/top_level.txt,sha256=GClvSPoYm8foQHrNip8PIzFzi7iDHcR-H1FP8YRbuew,11
+audfactory-1.0.8.dist-info/RECORD,,
