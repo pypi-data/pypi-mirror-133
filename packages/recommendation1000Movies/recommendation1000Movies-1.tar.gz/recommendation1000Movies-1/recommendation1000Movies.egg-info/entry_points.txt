@@ -1,0 +1,3 @@
+[console_scripts]
+recommendation1000Movies = recommending_movies.movie_recommendations:main
+

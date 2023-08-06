@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+recommendation1000Movies.egg-info/PKG-INFO
+recommendation1000Movies.egg-info/SOURCES.txt
+recommendation1000Movies.egg-info/dependency_links.txt
+recommendation1000Movies.egg-info/entry_points.txt
+recommendation1000Movies.egg-info/requires.txt
+recommendation1000Movies.egg-info/top_level.txt
+recommending_movies/__init__.py
+recommending_movies/movie_recommendations.py
+recommending_movies/data/movie_summaries.json
+recommending_movies/data/movie_vectors.json

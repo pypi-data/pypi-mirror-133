@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: recommendation1000Movies
+Version: 1
+Summary: Recommending movies based on text synopsis using DistilBERT
+Home-page: https://github.com/tanouch/recommending_movies
+Author: Ugo Tanielian
+Author-email: firstname.lastname@outluuk.fr
+License: MIT
+Keywords: NLP,movies
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE
+
+UNKNOWN
+
