@@ -1,0 +1,5 @@
+dewloosh.core
+scipy
+awkward
+networkx
+sympy
