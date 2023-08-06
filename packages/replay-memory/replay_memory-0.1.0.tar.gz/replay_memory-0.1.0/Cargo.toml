@@ -1,0 +1,16 @@
+[package]
+name = "replay-memory"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "replay_memory"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.15.1"
+rand = "0.8.4"
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
