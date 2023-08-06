@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: semanticlayertools
+Version: 0.0.3
+Summary: Create semantic layers using different methods for word linking.
+Home-page: https://gitlab.gwdg.de/modelsen/semanticlayertools
+Author: Malte Vogl
+Author-email: mvogl@mpiwg-berlin.mpg.de
+License: UNKNOWN
+Project-URL: Project Home, https://modelsen.mpiwg-berlin.mpg.de
+Project-URL: Bug Tracker, https://gitlab.gwdg.de/modelsen/semanticlayertools/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: spacy
+Requires-Dist: textacy
+Requires-Dist: pandas
+Requires-Dist: infomap
+Requires-Dist: igraph
+Requires-Dist: leidenalg
+Provides-Extra: all
+Requires-Dist: torch ; extra == 'all'
+Requires-Dist: umap-learn ; extra == 'all'
+Requires-Dist: hdbscan ; extra == 'all'
+Requires-Dist: sentence-transformers ; extra == 'all'
+Requires-Dist: plotly ; extra == 'all'
+Requires-Dist: sphinx ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: tox ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: embeddml
+Requires-Dist: torch ; extra == 'embeddml'
+Requires-Dist: umap-learn ; extra == 'embeddml'
+Requires-Dist: hdbscan ; extra == 'embeddml'
+Requires-Dist: sentence-transformers ; extra == 'embeddml'
+Requires-Dist: plotly ; extra == 'embeddml'
+Provides-Extra: test
+Requires-Dist: tox ; extra == 'test'
+
+# SemanticLayerTools
+
+Collects tools to create semantic layers in the socio-epistemic networks framework. Source material can be any structured corpus with metadata of authors, time, and at least one text column.
+
