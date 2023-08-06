@@ -1,0 +1,14 @@
+slug_preview/__init__.py,sha256=Lpvxa2EzBqwThZACgq033bC6wru52vQWa15RuVqvUZU,41
+slug_preview/forms.py,sha256=UqjgFlIQybHpuxIzHWuxnmpsTjO2K3u4VHqHMOeSzb0,3047
+slug_preview/models.py,sha256=ljMJmsgE0h5h6WCTnhfkDg4jhhyKG6iEzGijHAXkX0o,2746
+slug_preview/slugify.py,sha256=jSj8sdFpy1XOqGEXDZcHIMF4hbJdol3qC4vRd1kqYJo,226
+slug_preview/validators.py,sha256=yBzHEDj_H8sEY60yuxrzSvZ0w0dxPdsdzY_tNcZDzGI,923
+slug_preview/widgets.py,sha256=okBtJHuQqw9sPAp7UGBeLXroGwqO5vlJeXeSOc4F3Lo,1877
+slug_preview/static/slug_preview/css/slug_preview.css,sha256=1l0GtYUIhR8EEoaFeJNSp29gsufum4pZZKxpK-YsHl0,128
+slug_preview/static/slug_preview/js/slug_preview.js,sha256=UWL3aQ_2REZqcEnp2ZeOsKpGEZ3vVqs1jYWHxRIgJgI,765
+django_slug_preview-2.0.1.dist-info/AUTHORS,sha256=_8tOydTr5JF-dBINNg1hE9AxJSiPZo2dSf1vssQ-ShI,43
+django_slug_preview-2.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+django_slug_preview-2.0.1.dist-info/METADATA,sha256=Eqz1t26f2L5ryw6SIG7ViqeHTvD5m6AKDX5SHPGGjKY,5255
+django_slug_preview-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_slug_preview-2.0.1.dist-info/top_level.txt,sha256=MGOd2LpbparT06UJI0jJhfQalXRU6rrP6FGce6tNFHk,13
+django_slug_preview-2.0.1.dist-info/RECORD,,
