@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pandocx
+Version: 0.0.1
+Summary: Docx Workflow for Pandoc Academic Writing
+Home-page: https://github.com/liao961120/pandocx
+Author: Yongfu Liao
+Author-email: liao961120@gmail.com
+License: UNKNOWN
+Description: # Pandocx
+        
+        Docx workflow for Pandoc academic writing
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

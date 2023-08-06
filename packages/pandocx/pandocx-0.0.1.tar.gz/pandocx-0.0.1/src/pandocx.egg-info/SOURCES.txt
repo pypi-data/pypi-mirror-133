@@ -1,0 +1,15 @@
+README.md
+setup.py
+src/pandocx/__init__.py
+src/pandocx/data_reader.py
+src/pandocx/pandoc.py
+src/pandocx/process.py
+src/pandocx/utils.py
+src/pandocx.egg-info/PKG-INFO
+src/pandocx.egg-info/SOURCES.txt
+src/pandocx.egg-info/dependency_links.txt
+src/pandocx.egg-info/requires.txt
+src/pandocx.egg-info/top_level.txt
+src/pandocx/data/code.md
+src/pandocx/data/insertTables.lua
+src/pandocx/data/pandoc-ling.lua
