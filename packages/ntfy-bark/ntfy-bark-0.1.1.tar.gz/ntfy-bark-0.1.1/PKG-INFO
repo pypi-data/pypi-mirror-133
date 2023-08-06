@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ntfy-bark
+Version: 0.1.1
+Summary: Bark backend for ntfy
+Home-page: https://github.com/Cologler/ntfy-bark-python
+License: MIT
+Author: Cologler
+Author-email: skyoflw@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.27.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# ntfy-bark
+
+[Bark](https://github.com/Finb/bark) backend for ntfy.
+
+## Installation
+
+``` cmd
+pip install ntfy-bark
+```
+
+## Usage
+
+Add following lines to your `ntfy.yml`:
+
+``` yaml
+ntfy_bark:
+    push_url: https://api.day.app/...
+```
+
+Finally, send message to your devices with `ntfy -b ntfy_bark send MSG`.
+
