@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: base-calc
+Version: 0.0.1
+Summary: A demo project
+Home-page: UNKNOWN
+Author: Ayan Khan
+Author-email: programing.ninja0@gmail.com
+License: MIT
+Keywords: maths
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a basic calculator by programmingninjas
+
+Change Log
+==========
+
+0.0.1 (4/01/2022)
+-------------------
+- First Release
+
