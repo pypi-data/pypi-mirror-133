@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+tkcefview/__init__.py
+tkcefview/core.py
+tkcefview.egg-info/PKG-INFO
+tkcefview.egg-info/SOURCES.txt
+tkcefview.egg-info/dependency_links.txt
+tkcefview.egg-info/not-zip-safe
+tkcefview.egg-info/requires.txt
+tkcefview.egg-info/top_level.txt
+tkcefview/__pycache__/__init__.cpython-37.pyc
+tkcefview/__pycache__/core.cpython-37.pyc
+tkcefview/assets/__init__.py
+tkcefview/assets/tkcefview.js
+tkcefview/assets/tkcefview.png
+tkcefview/assets/__pycache__/__init__.cpython-37.pyc

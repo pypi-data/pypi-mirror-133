@@ -1,0 +1,4 @@
+cefpython3==66.0
+
+[:sys_platform == "darwin"]
+pyobjc==7.3
