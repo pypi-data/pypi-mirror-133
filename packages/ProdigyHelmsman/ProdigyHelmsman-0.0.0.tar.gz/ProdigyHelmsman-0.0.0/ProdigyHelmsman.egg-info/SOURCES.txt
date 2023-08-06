@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+requirements.txt
+setup.cfg
+ProdigyHelmsman.egg-info/PKG-INFO
+ProdigyHelmsman.egg-info/SOURCES.txt
+ProdigyHelmsman.egg-info/dependency_links.txt
+ProdigyHelmsman.egg-info/requires.txt
+ProdigyHelmsman.egg-info/top_level.txt
+prodigyhelmsman/ProdigyHelmsman.ini
+prodigyhelmsman/__init__.py
+prodigyhelmsman/prodigyhelmsman.py
