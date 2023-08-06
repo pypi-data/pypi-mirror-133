@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: python-gitlab-api
+Version: 0.2.27
+Summary: Programmatic REST Client for GitLab
+Home-page: https://gitlab.com/labs.kalfa.dev/python-gitlab-api/
+License: MIT
+Author: Cosimo Alfarano
+Author-email: cosimo@alfarano.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=2.11.3,<3.0.0)
+Requires-Dist: PyYAML (>=5.4.1,<6.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: dataclasses (>=0.8,<0.9); python_version >= "3.6" and python_version < "3.7"
+Requires-Dist: jsonpath-ng (>=1.5.2,<2.0.0)
+Requires-Dist: packaging (>=20.9,<21.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: url-normalize (>=1.4.3,<2.0.0)
+Project-URL: Repository, https://gitlab.com/labs.kalfa.dev/python-gitlab-api/
+Description-Content-Type: text/markdown
+
+# python-gitlab-api
+
+A simple python class based implementation of the GitLab v4 API.
+
+See the [ARCHITECTURE file](ARCHITECTURE.md)
+
+
+Starting using the module is pretty easy:
+- specify the endpoint, which is URL + authorization token (or anon access)
+- use a resouce among the ones provided in gitlab.resource
+- use a CRUD operation, among the ones supported for the resource
+- pass paramters to the operation to filter the results
+
+
+In this case it is used a predefined GitLab.com endpoint, with no token paramter passed.
+The Projects resource used with a Read operation  will list some/all projects.
+```
+from gitlab.utils import ppjson
+from gitlab.resources import Projects
+from gitlab.endpoints import GitLabDotCom 
+
+ppjson(Projects(GitLabDotCom()).read())
+```
+
+In this case it is used a predefined GitLab.com endpoint, with a token.
+The Projects resource used with a Read operation  will list some/all projects.
+```
+from gitlab.utils import ppjson
+from gitlab.resources import Projects
+from gitlab.endpoints import GitLabDotCom 
+
+ppjson(Projects(GitLabDotCom(token='SOME TOKEN')).read({'owned':True}))
+```
+
+
+## Tokens
+
+Currently only [personal access](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token) tokens are supported.
+
+Feel free to suggest ways to introduce the support for OAuth2 contacting the author and then proposing a change with a merge request.
+
+## Contributions
+
+All contribution are welcome, in the best open source tradition.
+
+Before adding missing features, please contact the author first to discuss best ways to do it.
+
+New resources can be added via merge requests directly, as they are supposed to be really easy to add.
+
