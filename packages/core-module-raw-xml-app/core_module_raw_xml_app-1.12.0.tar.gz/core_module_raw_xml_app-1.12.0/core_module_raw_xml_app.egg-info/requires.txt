@@ -1,0 +1,3 @@
+Django
+core-module-text-area-app==1.18.*
+xml-utils==1.16.*
