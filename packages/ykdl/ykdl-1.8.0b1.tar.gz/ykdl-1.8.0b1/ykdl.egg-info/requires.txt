@@ -1,0 +1,45 @@
+m3u8
+jsengine
+
+[all]
+ExtProxy
+urllib3
+
+[all-js]
+ExtProxy
+urllib3
+
+[all-js:os_name == "nt"]
+colorama
+
+[all:os_name != "nt"]
+QuickJS
+
+[all:os_name == "nt"]
+colorama
+
+[all:os_name == "nt" and platform_release < "8"]
+PyChakra>=2.2.0
+
+[color]
+
+[color:os_name == "nt"]
+colorama
+
+[js]
+
+[js:os_name != "nt"]
+QuickJS
+
+[js:os_name == "nt" and platform_release < "8"]
+PyChakra>=2.2.0
+
+[net]
+ExtProxy
+urllib3
+
+[proxy]
+ExtProxy
+
+[rangefetch]
+urllib3
