@@ -1,0 +1,10 @@
+permission_check/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+permission_check/permission_check.py,sha256=m-MvTrfk2xULCTIKiEhVGVuWnWJBE9nyBptXSYKt4qM,423
+permission_check/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+permission_check/tests/test_permission_check.py,sha256=PiElBNzdwrDZ1k9eNQzSf-GXnUqmzO_5p-pUYeOML0M,4291
+permission_check/utils/__init__.py,sha256=iCzG7bXbOaUhVAAVwZN6mv8yHsYzM0HXSfYRLAGGW4Q,589
+permission_check-0.0.2.dist-info/LICENSE,sha256=SbMXnvBlLPOs4zGigbDKdPlcRpwaws-6Laxp4UqKES4,1069
+permission_check-0.0.2.dist-info/METADATA,sha256=jfB8Y3r6yUj-tWgnY3ECkTj1YtUg8zNu3PxLsib7V60,1539
+permission_check-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+permission_check-0.0.2.dist-info/top_level.txt,sha256=M-CD_bD4cmNF4Y8coQbHicyB4fv2TDRdj89O8dqFZSQ,17
+permission_check-0.0.2.dist-info/RECORD,,
