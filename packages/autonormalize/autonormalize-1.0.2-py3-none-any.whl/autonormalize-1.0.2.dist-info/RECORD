@@ -1,0 +1,17 @@
+autonormalize/__init__.py,sha256=Jf81ezXP_BrctL0l5wQZQ8TWZdgbNpC4uXZROfIkAjw,101
+autonormalize/autonormalize.py,sha256=zjkdOnC4eZKytzovHescqs4Ar3EDyktplGKKtm74304,5870
+autonormalize/classes.py,sha256=1zQzM6wMNHf_Qm0xOM0PYaP7bluLAOGQz0TBslMryc8,23816
+autonormalize/dfd.py,sha256=rZoM3ycDwV8KUaqDk00zC-RNIrBLv0H6ygMJhF2by24,14064
+autonormalize/normalize.py,sha256=lx8WF5tPvQMBZNy9KSTdcUJpD8yZzmjrYIcDrVBpvm0,12191
+autonormalize/examples/example_3,sha256=pNnU00b2b9ntAxcFpYc6Z3fFpohvkDTyDU2-xHRG7W0,2776695
+autonormalize/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autonormalize/tests/test_classes.py,sha256=W9Yp34lNjzPAfMTfhGsO27EP5RUL7fhR8aIICQAaDkY,8151
+autonormalize/tests/test_dfd.py,sha256=BdugfdjnU0arZFo_lg3t02OFGu2PDxGV2Q0_QgEj2fQ,4317
+autonormalize/tests/test_example.py,sha256=qGuMLwnTQihh8oIuCJBTCE5Vd21CR96pHEFVaZwKn7c,1277
+autonormalize/tests/test_normalize.py,sha256=AQF4H303xxXiZwpn47-IQbc2lkirN5v9RaUGTJcVk00,8010
+autonormalize-1.0.2.dist-info/LICENSE,sha256=gNpy6tsOQ5KtPYp6WAu0vp5uu4aE1RjrxCoH6dJYz-Y,1518
+autonormalize-1.0.2.dist-info/METADATA,sha256=O_kqMq60D-0Mh88_S2sctN0lSphsyJ7V5MS31ijuONE,4657
+autonormalize-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+autonormalize-1.0.2.dist-info/entry_points.txt,sha256=SNAZCzbpNYsbjNy6xXRKvkUSvX5FvUiStPop6DBx584,53
+autonormalize-1.0.2.dist-info/top_level.txt,sha256=L3v5AqBlSS323PiUK8XkVtRRtbz3VKKZvRMaDHYIJs0,14
+autonormalize-1.0.2.dist-info/RECORD,,
