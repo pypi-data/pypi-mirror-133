@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/crypthon/__init__.py
+src/crypthon/crypthon.py
+src/crypthon/obsfus.py
+src/crypthon/setup.py
+src/crypthon.egg-info/PKG-INFO
+src/crypthon.egg-info/SOURCES.txt
+src/crypthon.egg-info/dependency_links.txt
+src/crypthon.egg-info/top_level.txt
