@@ -1,0 +1,16 @@
+ms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms/base.py,sha256=WtmEjgA7NfbCdIxF1UZKVLjUiy9LCc0FVHMj0WBvNuw,3351
+ms/generate_proto_file.py,sha256=P4FQXn6ahrMgyyXLFILxL0DSMYqR1xw65JLLh6Prca8,1943
+ms/ms-plugin.py,sha256=g4EVfWB-Aq-KEs6u_oiLqyHfImgfFkeItBpguxEKSYY,2811
+ms/protocol_pb2.py,sha256=xUlB9EO3qPGnGkSOziX8Z7G7DGPC0ttNa69k3SMWyB8,1686913
+ms/rpc.py,sha256=qgjpxmm0QgRnb2qDlLspQkmu9tu3pPS6P6pl4gkUFLA,56726
+ms_tournament/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms_tournament/base.py,sha256=LsKSFxFYku6dM4MU1EudlsfsanFNkA_4hu1kd5TLKSU,3368
+ms_tournament/generate_proto_file.py,sha256=Zii3caMH9H9mA6CiWDkoa42TP82P9MqH9X0e3XWgsQA,1955
+ms_tournament/ms-admin-plugin.py,sha256=u1LNhnTYvz9UmCDN-Hi3-o2pEbYO-lmTQBnBpbwex84,2839
+ms_tournament/protocol_admin_pb2.py,sha256=bXd495zRjG0xOuf-NIUoa8Sp_C_JKCL3JLRJXNNzkvc,750315
+ms_tournament/rpc.py,sha256=K5o58xJz341uM2txgifhb3d0HeNM6cuLf9oZ0nuA8j0,9371
+ms_api-0.10.1.3.dist-info/METADATA,sha256=L9TCsaSmQHlImmRoUUIINpkIx7lOHugLoXzeqx5wwI4,758
+ms_api-0.10.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ms_api-0.10.1.3.dist-info/top_level.txt,sha256=cFEc-pVPE6D7vlOkGzlyb1HiaITcJF1ERfCMN4iNgUI,17
+ms_api-0.10.1.3.dist-info/RECORD,,
