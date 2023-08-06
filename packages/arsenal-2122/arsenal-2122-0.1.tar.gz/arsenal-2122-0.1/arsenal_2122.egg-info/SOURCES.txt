@@ -1,0 +1,8 @@
+README.md
+setup.py
+arsenal_2122/__init__.py
+arsenal_2122/arsenal.py
+arsenal_2122.egg-info/PKG-INFO
+arsenal_2122.egg-info/SOURCES.txt
+arsenal_2122.egg-info/dependency_links.txt
+arsenal_2122.egg-info/top_level.txt
