@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+drwnt/__init__.py
+drwnt.egg-info/PKG-INFO
+drwnt.egg-info/SOURCES.txt
+drwnt.egg-info/dependency_links.txt
+drwnt.egg-info/requires.txt
+drwnt.egg-info/top_level.txt

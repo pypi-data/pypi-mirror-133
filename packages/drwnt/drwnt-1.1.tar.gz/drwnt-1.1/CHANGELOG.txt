@@ -1,0 +1,10 @@
+Change Log
+==========
+
+1.0
+----
+Official Release
+
+1.1
+----
+Small changes in the description
