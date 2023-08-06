@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: pygitstats
+Version: 0.0.0
+Summary: "A Python wrapper for the Git API"
+Home-page: https://github.com/DillonB07/pygitapi
+Author: Dillon Barnes
+Author-email: dillonbarnes07@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://github.com/DillonB07/pygitapi
+Project-URL: Source Code, https://github.com/DillonB07/pygitapi
+Project-URL: Bug Tracker, https://github.com/DillonB07/pygitapi/issues
+Project-URL: Discussions, https://github.com/DillonB07/pygitapi/discussions
+Keywords: dillonb07,utils
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyGitApi
+
+![PyPI](https://img.shields.io/pypi/v/pygitapi?color=blue&label=PyPi&logo=pypi&logoColor=yellow)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pygitapi?color=blue&label=Downloads&logo=pypi&logoColor=yellow)
+![PyPI - Format](https://img.shields.io/pypi/format/pygitapi?color=blue&&label=Format&logo=pypi&logoColor=yellow)
+![PyPI - Status](https://img.shields.io/pypi/status/pygitapi?color=blue&label=Status&logo=pypi&logoColor=yellow)
+![PyPI - License](https://img.shields.io/pypi/l/pygitapi?color=blue&label=License&logo=pypi&logoColor=yellow)
+
+PyGitApi is a package that allows you to use the GitHub GraphQL API with ease in your Python programs.
+
+## Installation
+
+Anyone can use this package by installing it from PyPi via one of the following commands:
+
+### Pip
+
+```zsh
+pip install pygitapi
+```
+
+```zsh
+pip3 install pygitapi
+```
+
+```zsh
+python -m pip install pygitapi
+```
+
+```zsh
+python3 -m pip install pygitapi
+```
+
+### Poetry
+
+```zsh
+poetry install pygitapi
+```
+
+### Conda
+
+```zsh
+conda install pygitapi
+```
+
+### Pipenv
+
+```zsh
+pipenv install pygitapi
+```
+
+## Usage
+
+Just import the modules you need and get started!
+
+## License
+
+This project is licensed under the LGPLv3 license.
+
+

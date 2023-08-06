@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pygitstats.egg-info/PKG-INFO
+src/pygitstats.egg-info/SOURCES.txt
+src/pygitstats.egg-info/dependency_links.txt
+src/pygitstats.egg-info/top_level.txt
