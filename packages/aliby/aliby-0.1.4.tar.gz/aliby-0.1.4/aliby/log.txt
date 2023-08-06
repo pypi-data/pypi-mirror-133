@@ -1,0 +1,1512 @@
+>>> Searching OMERO
+2021-12-20 12:33:39.843345: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-12-20 12:33:39.846261: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.846538: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 SUPER computeCapability: 7.5
+coreClock: 1.845GHz coreCount: 48 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 462.00GiB/s
+2021-12-20 12:33:39.846690: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-12-20 12:33:39.847736: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-12-20 12:33:39.848745: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2021-12-20 12:33:39.848929: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2021-12-20 12:33:39.850121: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2021-12-20 12:33:39.850903: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2021-12-20 12:33:39.853529: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-20 12:33:39.853657: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.853992: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.854233: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2021-12-20 12:33:39.854496: I tensorflow/core/platform/cpu_feature_guard.cc:143] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-12-20 12:33:39.878705: I tensorflow/core/platform/profile_utils/cpu_utils.cc:102] CPU Frequency: 3199980000 Hz
+2021-12-20 12:33:39.879038: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7fa878000b20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-12-20 12:33:39.879052: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-12-20 12:33:39.983177: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.983530: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x555d383ed590 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-12-20 12:33:39.983545: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2080 SUPER, Compute Capability 7.5
+2021-12-20 12:33:39.983734: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.983992: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1561] Found device 0 with properties:
+pciBusID: 0000:01:00.0 name: GeForce RTX 2080 SUPER computeCapability: 7.5
+coreClock: 1.845GHz coreCount: 48 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 462.00GiB/s
+2021-12-20 12:33:39.984045: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-12-20 12:33:39.984066: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2021-12-20 12:33:39.984082: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2021-12-20 12:33:39.984099: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2021-12-20 12:33:39.984115: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2021-12-20 12:33:39.984131: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2021-12-20 12:33:39.984147: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-20 12:33:39.984202: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.984483: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.984721: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1703] Adding visible gpu devices: 0
+2021-12-20 12:33:39.984752: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2021-12-20 12:33:39.985848: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-12-20 12:33:39.985858: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1108]      0
+2021-12-20 12:33:39.985863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1121] 0:   N
+2021-12-20 12:33:39.985941: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.986227: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-12-20 12:33:39.986486: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1247] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6905 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2080 SUPER, pci bus id: 0000:01:00.0, compute capability: 7.5)
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+2021-12-20 12:33:41.841624: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-12-20 12:33:42.710738: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+URA8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+URA8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.82s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 150.89it/s]
+Experiment 18573 works.
+Failed experiment 18602. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 18604. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+Ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+Ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  5.19s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 140.10it/s]
+Experiment 18608 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+Ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+Ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.82s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 150.55it/s]
+Experiment 18616 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+pHluorin_001:   0%|                                                                             | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+pHluorin_001: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.02s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 157.64it/s]
+Experiment 18617 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+mig1gfp_msn2_mcherry015:   0%|                                                                  | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+mig1gfp_msn2_mcherry015:   0%|                                                                  | 0/2 [00:06<?, ?it/s]
+Caught exception in worker thread (x = mig1gfp_msn2_mcherry015):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19129. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+mig1_msn2_012:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+mig1_msn2_012:  50%|██████████████████████████████████                                  | 1/2 [00:05<00:05,  5.85s/it]
+Caught exception in worker thread (x = mig1_msn2_012):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19132. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+mig1_msn2_012:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+mig1_msn2_012:  50%|██████████████████████████████████                                  | 1/2 [00:05<00:05,  5.63s/it]
+Caught exception in worker thread (x = mig1_msn2_012):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19133. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+mig1_msn2_012:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+mig1_msn2_012:  50%|██████████████████████████████████                                  | 1/2 [00:05<00:05,  5.58s/it]
+Caught exception in worker thread (x = mig1_msn2_012):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19134. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+mig1gfp_msn2_mcherry015:   0%|                                                                  | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+mig1gfp_msn2_mcherry015:   0%|                                                                  | 0/2 [00:06<?, ?it/s]
+Caught exception in worker thread (x = mig1gfp_msn2_mcherry015):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19144. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+mig1_msn2_012:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+mig1_msn2_012: 100%|████████████████████████████████████████████████████████████████████| 2/2 [00:15<00:00,  7.78s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.14it/s]
+Experiment 19146 works.
+Failed experiment 19161. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_mig1_021:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_mig1_021:   0%|                                                                        | 0/2 [00:06<?, ?it/s]
+Caught exception in worker thread (x = phluorin_mig1_021):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19168. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_mig1_021:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_mig1_021:   0%|                                                                        | 0/2 [00:06<?, ?it/s]
+Caught exception in worker thread (x = phluorin_mig1_021):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19169. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_mig1_021:   0%|                                                                        | 0/2 [00:00<?, ?it/s]
+Caught exception in worker thread (x = phluorin_mig1_021):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 306, in run_tp
+    self._initialise_traps(self.tile_size)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 233, in _initialise_traps
+    trap_locs = segment_traps(initial_image, tile_size)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/traps.py", line 35, in segment_traps
+    entropy_image = entropy(img, disk(disk_radius))
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/skimage/_shared/utils.py", line 232, in fixed_func
+    return func(*args, **kwargs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/skimage/filters/rank/generic.py", line 1263, in entropy
+    shift_z=shift_z, out_dtype=np.double)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/skimage/filters/rank/generic.py", line 277, in _apply_scalar_per_pixel_3D
+    image, footprint, out, mask, out_dtype
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/skimage/filters/rank/generic.py", line 187, in _handle_input_3D
+    check_nD(image, 3)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/skimage/_shared/utils.py", line 600, in check_nD
+    msg_incorrect_dim % (arg_name, '-or-'.join([str(n) for n in ndim]))
+ValueError: The parameter `image` must be a 3-dimensional array
+
+Failed experiment 19190. Error: The parameter `image` must be a 3-dimensional array
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+ura8_018:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_018: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.41s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 153.76it/s]
+Experiment 19199 works.
+Failed experiment 19200. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_018:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_018: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.00s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 154.52it/s]
+Experiment 19202 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.60s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 156.83it/s]
+Experiment 19203 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.38s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 158.56it/s]
+Experiment 19207 works.
+Failed experiment 19208. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_mig1_020:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_mig1_020: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:17<00:00,  8.60s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.75it/s]
+Experiment 19232 works.
+Searching OMERO
+Caught exception in worker thread (x = phluorin_glt1009):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 182, in create_pipeline
+    meta.run()
+  File "/home/alan/Documents/dev/libs/aliby/aliby/experiment.py", line 118, in run
+    metadata_writer.write(path="/", meta=metadata_dict, overwrite=False)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 338, in write
+    self.write_meta(f, path, attr, data=metadata)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 353, in write_meta
+    obj.attrs[attr] = data
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 100, in __setitem__
+    self.create(name, data=value)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 184, in create
+    htype = h5t.py_create(original_dtype, logical=True)
+  File "h5py/h5t.pyx", line 1634, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1656, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1711, in h5py.h5t.py_create
+TypeError: Object dtype dtype('O') has no native HDF5 equivalent
+
+Failed experiment 19246. Error: Object dtype dtype('O') has no native HDF5 equivalent
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  5.44s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.58it/s]
+Experiment 19247 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+pab1_009:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+pab1_009:   0%|                                                                                 | 0/2 [00:06<?, ?it/s]
+Caught exception in worker thread (x = pab1_009):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19248. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_glt1_001:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_glt1_001: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:15<00:00,  7.58s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 153.33it/s]
+Experiment 19249 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_maf1_001:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_maf1_001: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.16s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 156.31it/s]
+Experiment 19299 works.
+Searching OMERO
+Caught exception in worker thread (x = phluorin_glt1_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 182, in create_pipeline
+    meta.run()
+  File "/home/alan/Documents/dev/libs/aliby/aliby/experiment.py", line 118, in run
+    metadata_writer.write(path="/", meta=metadata_dict, overwrite=False)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 338, in write
+    self.write_meta(f, path, attr, data=metadata)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 353, in write_meta
+    obj.attrs[attr] = data
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 100, in __setitem__
+    self.create(name, data=value)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 184, in create
+    htype = h5t.py_create(original_dtype, logical=True)
+  File "h5py/h5t.pyx", line 1634, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1656, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1711, in h5py.h5t.py_create
+TypeError: Object dtype dtype('O') has no native HDF5 equivalent
+
+Failed experiment 19300. Error: Object dtype dtype('O') has no native HDF5 equivalent
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_dot6_001:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_dot6_001: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.18s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.60it/s]
+Experiment 19307 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_glt1_001:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_glt1_001: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:13<00:00,  6.82s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 156.46it/s]
+Experiment 19310 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_glt1_001:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_glt1_001: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.59s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 161.35it/s]
+Experiment 19311 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phluorin_glt1_001:   0%|                                                                        | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phluorin_glt1_001: 100%|████████████████████████████████████████████████████████████████| 2/2 [00:14<00:00,  7.32s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.98it/s]
+Experiment 19328 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  4.00s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 163.83it/s]
+Experiment 19329 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura7_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura7_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.81s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 161.96it/s]
+Experiment 19333 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  3.98s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 156.33it/s]
+Experiment 19334 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura7_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura7_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:07<00:00,  3.91s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 157.11it/s]
+Experiment 19335 works.
+Failed experiment 19336. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura7_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura7_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.43s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 159.56it/s]
+Experiment 19371 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.27s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 162.71it/s]
+Experiment 19381 works.
+Searching OMERO
+Caught exception in worker thread (x = phluorin_ura8_005):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 182, in create_pipeline
+    meta.run()
+  File "/home/alan/Documents/dev/libs/aliby/aliby/experiment.py", line 118, in run
+    metadata_writer.write(path="/", meta=metadata_dict, overwrite=False)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 338, in write
+    self.write_meta(f, path, attr, data=metadata)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 353, in write_meta
+    obj.attrs[attr] = data
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 100, in __setitem__
+    self.create(name, data=value)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 184, in create
+    htype = h5t.py_create(original_dtype, logical=True)
+  File "h5py/h5t.pyx", line 1634, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1656, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1711, in h5py.h5t.py_create
+TypeError: Object dtype dtype('O') has no native HDF5 equivalent
+
+Failed experiment 19431. Error: Object dtype dtype('O') has no native HDF5 equivalent
+Searching OMERO
+Caught exception in worker thread (x = phluorin_ura8_005):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 182, in create_pipeline
+    meta.run()
+  File "/home/alan/Documents/dev/libs/aliby/aliby/experiment.py", line 118, in run
+    metadata_writer.write(path="/", meta=metadata_dict, overwrite=False)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 338, in write
+    self.write_meta(f, path, attr, data=metadata)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 353, in write_meta
+    obj.attrs[attr] = data
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 100, in __setitem__
+    self.create(name, data=value)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 184, in create
+    htype = h5t.py_create(original_dtype, logical=True)
+  File "h5py/h5t.pyx", line 1634, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1656, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1711, in h5py.h5t.py_create
+TypeError: Object dtype dtype('O') has no native HDF5 equivalent
+
+Failed experiment 19433. Error: Object dtype dtype('O') has no native HDF5 equivalent
+Failed experiment 19440. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19441. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19442. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19443. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19444. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ura8_007:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ura8_007: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.33s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 154.52it/s]
+Experiment 19445 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+gcd6_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+gcd6_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.00s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 154.15it/s]
+Experiment 19446 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+gcd2_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+gcd2_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.81s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.34it/s]
+Experiment 19447 works.
+Failed experiment 19448. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+Caught exception in worker thread (x = phluorin_ura8_005):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 182, in create_pipeline
+    meta.run()
+  File "/home/alan/Documents/dev/libs/aliby/aliby/experiment.py", line 118, in run
+    metadata_writer.write(path="/", meta=metadata_dict, overwrite=False)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 338, in write
+    self.write_meta(f, path, attr, data=metadata)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/io/writer.py", line 353, in write_meta
+    obj.attrs[attr] = data
+  File "h5py/_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 100, in __setitem__
+    self.create(name, data=value)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/h5py/_hl/attrs.py", line 184, in create
+    htype = h5t.py_create(original_dtype, logical=True)
+  File "h5py/h5t.pyx", line 1634, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1656, in h5py.h5t.py_create
+  File "h5py/h5t.pyx", line 1711, in h5py.h5t.py_create
+TypeError: Object dtype dtype('O') has no native HDF5 equivalent
+
+Failed experiment 19453. Error: Object dtype dtype('O') has no native HDF5 equivalent
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+glt1_ura7_001:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+glt1_ura7_001:   0%|                                                                            | 0/2 [00:07<?, ?it/s]
+Caught exception in worker thread (x = glt1_ura7_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19454. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+glt1_ura7_001:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+glt1_ura7_001:   0%|                                                                            | 0/2 [00:08<?, ?it/s]
+Caught exception in worker thread (x = glt1_ura7_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 328, in get_traps_timepoint
+    val = self.get_tp_data(tp, c)[:, z]  # Only return requested z
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 259, in get_tp_data
+    return np.stack(traps)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19455. Error: all input arrays must have the same shape
+Failed experiment 19483. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19484. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19487. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19489. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19490. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19491. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19492. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19493. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19494. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19495. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19496. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19497. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19535. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19703. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19768. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19770. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19771. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19772. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19774. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19775. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19776. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19777. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19778. Error: Exception:Metadata: Experiment has no annotation files.
+Failed experiment 19779. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_msn2_002:   0%|                                                                             | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_msn2_002: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:24<00:00, 12.25s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 157.35it/s]
+Experiment 19781 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+hxt1_002:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+hxt1_002: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:14<00:00,  7.41s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 158.31it/s]
+Experiment 19782 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+hxt1_002:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+hxt1_002:   0%|                                                                                 | 0/2 [00:04<?, ?it/s]
+Caught exception in worker thread (x = hxt1_002):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19783. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+hxt1_002:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+hxt1_002:  50%|████████████████████████████████████▌                                    | 1/2 [00:05<00:05,  5.18s/it]
+Caught exception in worker thread (x = hxt1_002):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19784. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_mig1_001:   0%|                                                                             | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_mig1_001: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:20<00:00, 10.03s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 156.35it/s]
+Experiment 19786 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_msn2_bf_001:   0%|                                                                          | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_msn2_bf_001:   0%|                                                                          | 0/2 [00:05<?, ?it/s]
+Caught exception in worker thread (x = phl_msn2_bf_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 351, in extract_tp
+    red_metrics=red_metrics, traps=img, masks=masks, labels=labels, **kwargs
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 285, in reduce_extract
+    for red_fun, metrics in red_metrics.items()
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 285, in <dictcomp>
+    for red_fun, metrics in red_metrics.items()
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 257, in extract_funs
+    for metric in metrics
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 257, in <dictcomp>
+    for metric in metrics
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 236, in extract_traps
+    result = self._all_funs[metric](mask_set, trap)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/loaders.py", line 36, in <lambda>
+    return lambda m, img: trap_apply(f, m, img)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/distributors.py", line 16, in trap_apply
+    return [cell_fun(cell_masks[..., i], trap_image, **kwargs) for i in cells_iter]
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/distributors.py", line 16, in <listcomp>
+    return [cell_fun(cell_masks[..., i], trap_image, **kwargs) for i in cells_iter]
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/cell.py", line 26, in mean
+    return np.mean(trap_image[np.where(cell_mask)], dtype=float)
+IndexError: index 67 is out of bounds for axis 0 with size 0
+
+Failed experiment 19810. Error: index 67 is out of bounds for axis 0 with size 0
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_msn2_bf_001:   0%|                                                                          | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_msn2_bf_001:   0%|                                                                          | 0/2 [00:04<?, ?it/s]
+Caught exception in worker thread (x = phl_msn2_bf_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 351, in extract_tp
+    red_metrics=red_metrics, traps=img, masks=masks, labels=labels, **kwargs
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 285, in reduce_extract
+    for red_fun, metrics in red_metrics.items()
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 285, in <dictcomp>
+    for red_fun, metrics in red_metrics.items()
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 257, in extract_funs
+    for metric in metrics
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 257, in <dictcomp>
+    for metric in metrics
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 236, in extract_traps
+    result = self._all_funs[metric](mask_set, trap)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/loaders.py", line 36, in <lambda>
+    return lambda m, img: trap_apply(f, m, img)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/distributors.py", line 16, in trap_apply
+    return [cell_fun(cell_masks[..., i], trap_image, **kwargs) for i in cells_iter]
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/distributors.py", line 16, in <listcomp>
+    return [cell_fun(cell_masks[..., i], trap_image, **kwargs) for i in cells_iter]
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/functions/cell.py", line 26, in mean
+    return np.mean(trap_image[np.where(cell_mask)], dtype=float)
+IndexError: index 33 is out of bounds for axis 0 with size 0
+
+Failed experiment 19811. Error: index 33 is out of bounds for axis 0 with size 0
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+gcd2_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+gcd2_001:   0%|                                                                                 | 0/2 [00:05<?, ?it/s]
+Caught exception in worker thread (x = gcd2_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19812. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_mig1_001:   0%|                                                                             | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_mig1_001: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.47s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 153.91it/s]
+Experiment 19813 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+gcd2_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+gcd2_001:   0%|                                                                                 | 0/2 [00:04<?, ?it/s]
+Caught exception in worker thread (x = gcd2_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19825. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+gcd2_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+gcd2_001:   0%|                                                                                 | 0/2 [00:04<?, ?it/s]
+Caught exception in worker thread (x = gcd2_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19826. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_ura8_bfmch_011:   0%|                                                                       | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_ura8_bfmch_011:   0%|                                                                       | 0/2 [00:04<?, ?it/s]
+Caught exception in worker thread (x = phl_ura8_bfmch_011):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19829. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_ura8__bfphlmch_016:   0%|                                                                   | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_ura8__bfphlmch_016: 100%|███████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.59s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 150.77it/s]
+Experiment 19830 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_ura8_001:   0%|                                                                             | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_ura8_001: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:13<00:00,  6.72s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 156.27it/s]
+Experiment 19831 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+myo1_whi5_001:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+myo1_whi5_001: 100%|████████████████████████████████████████████████████████████████████| 2/2 [00:13<00:00,  6.55s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 159.12it/s]
+Experiment 19853 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+myo1_whi5_001:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+myo1_whi5_001: 100%|████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  5.38s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.01it/s]
+Experiment 19854 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+myo1_whi5_001:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+myo1_whi5_001: 100%|████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.23s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.67it/s]
+Experiment 19855 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+myo1_whi5_001:   0%|                                                                            | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+myo1_whi5_001: 100%|████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.92s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 155.00it/s]
+Experiment 19856 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+gcd2_001:   0%|                                                                                 | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+gcd2_001: 100%|█████████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.58s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 155.97it/s]
+Experiment 19858 works.
+Failed experiment 19911. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_001:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_001:  50%|███████████████████████████████████                                   | 1/2 [00:07<00:07,  7.63s/it]
+Caught exception in worker thread (x = ph_5_29_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19912. Error: Index 1 is out of bounds for axis 0 with size 1
+Failed experiment 19915. Error: Exception:Metadata: Experiment has no annotation files.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025: 100%|██████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.53s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 153.79it/s]
+Experiment 19916 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025: 100%|██████████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.40s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 161.96it/s]
+Experiment 19917 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025:  50%|███████████████████████████████████                                   | 1/2 [00:04<00:04,  4.66s/it]
+Caught exception in worker thread (x = ph_5_29_025):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19918. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025:  50%|███████████████████████████████████                                   | 1/2 [00:04<00:04,  4.60s/it]
+Caught exception in worker thread (x = ph_5_29_025):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19919. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025:  50%|███████████████████████████████████                                   | 1/2 [00:04<00:04,  4.63s/it]
+Caught exception in worker thread (x = ph_5_29_025):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19920. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025:  50%|███████████████████████████████████                                   | 1/2 [00:04<00:04,  4.60s/it]
+Caught exception in worker thread (x = ph_5_29_025):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19921. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_29_025:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_29_025:  50%|███████████████████████████████████                                   | 1/2 [00:04<00:04,  4.71s/it]
+Caught exception in worker thread (x = ph_5_29_025):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 19922. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+pos001:   0%|                                                                                   | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+pos001: 100%|███████████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  5.05s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 160.90it/s]
+Experiment 19993 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+phl_ura8_001:   0%|                                                                             | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+phl_ura8_001: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.32s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 158.20it/s]
+Experiment 19995 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+ph_5_04_001:   0%|                                                                              | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+ph_5_04_001: 100%|██████████████████████████████████████████████████████████████████████| 2/2 [00:09<00:00,  4.55s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 154.66it/s]
+Experiment 19996 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+by4741_001:   0%|                                                                               | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+by4741_001:   0%|                                                                               | 0/2 [00:04<?, ?it/s]
+Caught exception in worker thread (x = by4741_001):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 230, in create_pipeline
+    tmp = ext.run(tps=[i])
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 425, in run
+    self.extract_tp(tp=tp, tree=tree, **kwargs),
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 331, in extract_tp
+    traps = self.get_traps(tp, tile_size=tile_size, channels=tree_chs)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/extraction/core/extractor.py", line 198, in get_traps
+    if channel_ids
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 335, in get_traps_timepoint
+    return np.stack(res, axis=1)
+  File "<__array_function__ internals>", line 6, in stack
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/numpy/core/shape_base.py", line 426, in stack
+    raise ValueError('all input arrays must have the same shape')
+ValueError: all input arrays must have the same shape
+
+Failed experiment 19997. Error: all input arrays must have the same shape
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+087_001:   0%|                                                                                  | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+087_001: 100%|██████████████████████████████████████████████████████████████████████████| 2/2 [00:06<00:00,  3.31s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 145.32it/s]
+Experiment 20392 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+glu005_007:   0%|                                                                               | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+glu005_007: 100%|███████████████████████████████████████████████████████████████████████| 2/2 [00:13<00:00,  6.51s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 155.44it/s]
+Experiment 20419 works.
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+pos1:   0%|                                                                                     | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+pos1:  50%|██████████████████████████████████████▌                                      | 1/2 [00:05<00:05,  5.21s/it]
+Caught exception in worker thread (x = pos1):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 20420. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+pos1:   0%|                                                                                     | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+pos1:  50%|██████████████████████████████████████▌                                      | 1/2 [00:05<00:05,  5.96s/it]
+Caught exception in worker thread (x = pos1):
+Traceback (most recent call last):
+  File "/home/alan/Documents/dev/libs/aliby/aliby/pipeline.py", line 214, in create_pipeline
+    trap_info = tiler.run_tp(i)
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 307, in run_tp
+    self.find_drift(tp)  # Get drift
+  File "/home/alan/Documents/dev/libs/aliby/aliby/segment.py", line 247, in find_drift
+    self.image[tp, self.ref_channel, self.ref_z],
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/core.py", line 1832, in __getitem__
+    index2 = normalize_index(index, self.shape)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 917, in normalize_index
+    check_index(axis, i, d)
+  File "/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/dask/array/slicing.py", line 990, in check_index
+    f"Index {ind} is out of bounds for axis {axis} with size {dimension}"
+IndexError: Index 1 is out of bounds for axis 0 with size 1
+
+Failed experiment 20421. Error: Index 1 is out of bounds for axis 0 with size 1
+Searching OMERO
+1 Physical GPUs, 1 Logical GPUs
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/alan/.pyenv/versions/stoa/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.22.2 when using version 0.22.2.post1. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+glu_01_013:   0%|                                                                               | 0/2 [00:00<?, ?it/s]/home/alan/Documents/dev/libs/aliby/aliby/traps.py:35: UserWarning: Possible precision loss converting image of type float64 to uint8 as required by rank filters. Convert manually using skimage.util.img_as_ubyte to silence this warning.
+  entropy_image = entropy(img, disk(disk_radius))
+glu_01_013: 100%|███████████████████████████████████████████████████████████████████████| 2/2 [00:14<00:00,  7.06s/it]
+Warning:Picker: No mother-daughters assigned
+100%|██████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 153.48it/s]
+Experiment 20422 works.
+>>>
+>>>
+0__dummy_completion__  1__dummy_completion__
+
+0__dummy_completion__  1__dummy_completion__
+
+0__dummy_completion__  1__dummy_completion__
