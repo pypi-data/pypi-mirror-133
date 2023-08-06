@@ -1,0 +1,12 @@
+README.md
+setup.py
+opentele/__init__.py
+opentele/authkey.py
+opentele/exception.py
+opentele/storage.py
+opentele/tdesktop.py
+opentele.egg-info/PKG-INFO
+opentele.egg-info/SOURCES.txt
+opentele.egg-info/dependency_links.txt
+opentele.egg-info/requires.txt
+opentele.egg-info/top_level.txt
