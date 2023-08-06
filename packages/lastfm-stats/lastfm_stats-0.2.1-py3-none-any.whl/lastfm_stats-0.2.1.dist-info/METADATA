@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lastfm-stats
+Version: 0.2.1
+Summary: A package to create statistics from a users last.fm
+Home-page: https://github.com/JackLidge/Lastfm-Stats
+Author: Jack Lidgley
+License: MIT
+Download-URL: https://github.com/JackLidge/lastfm_stats/archive/v0.2.1.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+License-File: LICENSE.md
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+UNKNOWN
+
