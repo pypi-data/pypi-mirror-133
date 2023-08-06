@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+io.github.epiccakeking.RpmOstreeGui.desktop
+pyproject.toml
+setup.cfg
+rpm-ostree-gui/DeploymentInfoPage.ui
+rpm-ostree-gui/MainWindow.ui
+rpm-ostree-gui/PackageListItem.ui
+rpm-ostree-gui/__main__.py
+rpm_ostree_gui.egg-info/PKG-INFO
+rpm_ostree_gui.egg-info/SOURCES.txt
+rpm_ostree_gui.egg-info/dependency_links.txt
+rpm_ostree_gui.egg-info/top_level.txt
