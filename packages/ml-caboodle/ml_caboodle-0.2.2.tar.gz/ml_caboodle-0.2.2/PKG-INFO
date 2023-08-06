@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: ml-caboodle
+Version: 0.2.2
+Summary: All the stuff that doesn't have another home
+Home-page: https://github.com/mariushelf/ml_caboodle
+License: MIT
+Author: Marius Helf
+Author-email: helfsmarius@gmail.com
+Requires-Python: >=3.7.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.18,<2.0)
+Requires-Dist: pandas (>=1.1.0,<2.0.0)
+Requires-Dist: scikit-learn (>=1.0.0,<2.0.0)
+Requires-Dist: tqdm (>=4.41,<5.0)
+Project-URL: Documentation, https://github.com/mariushelf/ml_caboodle
+Project-URL: Repository, https://github.com/mariushelf/ml_caboodle
+Description-Content-Type: text/markdown
+
+# ML Caboodle
+
+* Author: Marius Helf 
+  ([helfsmarius@gmail.com](mailto:helfsmarius@gmail.com))
+
+All the stuff that doesn't have another home
+
+# Changelog
+
+## 0.2.2
+* chore: bump scikit-learn dependency to 1.0.0
+
+## 0.2.1
+* fix: speculative rounds not removed when out of candidates
+
+## 0.2.0
+* feature: BackwardFeatureElimination
+* various bugfixes
+
+## 0.1.1
+* fix: ForwardFeatureSelection: return correct features when stopping
+  after speculative rounds.
+* improve logging output
+
+
+## 0.1.0
+
+* Initial release
+
+# License
+
+[MIT](https://choosealicense.com/licenses/mit)
+
+
+

@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ml_caboodle"
+version = "0.2.2"
+description = "All the stuff that doesn't have another home"
+authors = ["Marius Helf <helfsmarius@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/mariushelf/ml_caboodle"
+repository = "https://github.com/mariushelf/ml_caboodle"
+documentation = "https://github.com/mariushelf/ml_caboodle"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7.1,<4"
+numpy = "^1.18"
+scikit-learn = "^1.0.0"
+tqdm = "^4.41"
+pandas = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+pre-commit = "^2.0"
+tox = "^3.24.1"
+twine = "^3.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0"]
+build-backend = "poetry.core.masonry.api"
+
