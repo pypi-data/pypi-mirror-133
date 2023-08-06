@@ -1,0 +1,3 @@
+[console_scripts]
+nembis = nembis.cmd.nembis:main
+
