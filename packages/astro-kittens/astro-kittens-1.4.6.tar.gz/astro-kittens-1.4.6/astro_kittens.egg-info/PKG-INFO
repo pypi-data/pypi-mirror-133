@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: astro-kittens
+Version: 1.4.6
+Summary: Collection of Python utility functions for purr, tigger, meqtrees and others
+Home-page: https://github.com/ska-sa/kittens
+Author: Oleg Smirnov
+Author-email: Oleg Smirnov <osmirnov@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0.0
+License-File: LICENSE
+
+UNKNOWN
+
