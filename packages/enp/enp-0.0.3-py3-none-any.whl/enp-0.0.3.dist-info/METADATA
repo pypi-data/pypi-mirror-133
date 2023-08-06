@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: enp
+Version: 0.0.3
+Summary: Implementation of methods of ML and algorithms and data structures to fully understand them
+Home-page: https://github.com/shlyapin/enp
+Author: Alexander Shlyapin
+Author-email: al.shlyapin@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/shlyapin/enp/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# enp
+
+enp (stands for Everything in NumPy) provides implementation of deep learning, machine learning, and math algorithms in
+NumPy or pure Python.
+
+## Installation
+
+You can install the library using pip:
+
+    pip install enp
+
+## Description
+
+The library consists of 3 main parts:
+
+- deep learning (examples of usage can be found in examples/nn folder)
+- machine learning (examples of usage are in examples/ml folder)
+- linear algebra (examples of usage are in tests/test_linear_algebra.py)
+
+
+
+
