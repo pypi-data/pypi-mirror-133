@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: goldilox
+Version: 0.0.1a6
+Summary: A tool for deploying machine learning
+Home-page: https://github.com/xdssio/goldilox
+Author: Yonatan Alexander
+Author-email: jonathan@xdss.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: sklearn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: cloudpickle
+Requires-Dist: gunicorn
+
+UNKNOWN
+
+
