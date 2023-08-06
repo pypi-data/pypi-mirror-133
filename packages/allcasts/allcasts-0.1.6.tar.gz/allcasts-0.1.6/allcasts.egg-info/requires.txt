@@ -1,0 +1,4 @@
+PyInputPlus
+wget
+xmltodict
+colorama
