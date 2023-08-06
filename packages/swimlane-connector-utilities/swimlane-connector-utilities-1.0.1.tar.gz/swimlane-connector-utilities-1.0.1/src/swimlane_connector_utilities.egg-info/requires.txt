@@ -1,0 +1,3 @@
+swimlane_connector_exceptions<2,>=1.0.1
+datetime_parser<2
+requests<3,>=2
