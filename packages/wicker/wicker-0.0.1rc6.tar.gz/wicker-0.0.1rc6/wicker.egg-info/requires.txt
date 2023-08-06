@@ -1,0 +1,12 @@
+numpy
+pyarrow
+boto3
+
+[dynamodb]
+pynamodb
+
+[flyte]
+flytekit
+
+[spark]
+pyspark
