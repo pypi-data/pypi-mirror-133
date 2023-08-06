@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+.github/workflows/pypi_release.yml
+anngtf/__init__.py
+anngtf.egg-info/PKG-INFO
+anngtf.egg-info/SOURCES.txt
+anngtf.egg-info/dependency_links.txt
+anngtf.egg-info/requires.txt
+anngtf.egg-info/top_level.txt
