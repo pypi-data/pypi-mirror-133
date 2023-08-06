@@ -1,0 +1,12 @@
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/web_scraper.py,sha256=U_MTKth13p1Qhtz2VyXyYuyc5YJmtmHsEd_jnvGQNRA,634
+data/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/io/loader.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/io/writer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/miner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+superstocks-0.0.1.dist-info/LICENSE,sha256=sV4aypai1wNVPVj-1OFkbVjgbi6xlrrir033z8agfco,979
+superstocks-0.0.1.dist-info/METADATA,sha256=9nntAz-754EWQX8EcAtklOs40FZOH41qF82nYVfZCwQ,1127
+superstocks-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+superstocks-0.0.1.dist-info/top_level.txt,sha256=R1kBFQXnbeBeYcrQ-65Wd8UIhIYb4wMdM-QVgofCHHE,11
+superstocks-0.0.1.dist-info/RECORD,,
