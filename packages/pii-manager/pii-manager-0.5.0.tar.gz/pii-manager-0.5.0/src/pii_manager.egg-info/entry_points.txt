@@ -1,0 +1,4 @@
+[console_scripts]
+pii-manage = pii_manager.app.manage:main
+pii-task-info = pii_manager.app.task_info:main
+
