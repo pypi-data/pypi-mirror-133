@@ -1,0 +1,14 @@
+fetch-latest-file/__init__.py,sha256=89A6V8myv4ofevVrYQ6bVMA2IxtYDuQLMd_O1x4Rmhs,662
+fetch-latest-file/config.py,sha256=yiOObH-zwkYDG369Qd5a4hAfkoexv-jeySktIdYt9kQ,871
+fetch-latest-file/default_command.py,sha256=ctmU8d6ZfWvX_A7ptg8EOf2e882RW7mE-f8xx9vPcYc,1050
+fetch-latest-file/fetch_latest_file.py,sha256=26OZOXSqGv9EsLWBo0Pi3KiHors8WGtXhXdPonqFmMs,2226
+fetch_latest_file/__init__.py,sha256=ltgtUVBaTfoK_DYcFmcQNH3q1Qyx6Lbbp16yACwYtF0,1506
+fetch_latest_file/config.py,sha256=dhc1C4MJIVKFJLuh13VGXiL6Ui2jFW0KFlSXz5asLqI,2488
+fetch_latest_file/default_command.py,sha256=QOEYgX2Fp2flH91vjZC1M4TV04TBhm2JAWEemvulcd0,1064
+fetch_latest_file/fetch_latest_file.py,sha256=poCsogeISOBzWgM_IWbMlZEJaFql_WhLvPmWW98k4bU,2504
+fetch_latest_file1-0.1.8.dist-info/LICENSE,sha256=jET_1L9gEBrnYCFPN9Q0XAOpApIkMEeDgUY7w1JPbNY,1068
+fetch_latest_file1-0.1.8.dist-info/METADATA,sha256=mJpHTOceKu0j-tU8NIa_o9ItxdOqOkVHm86_tXuQlDk,937
+fetch_latest_file1-0.1.8.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+fetch_latest_file1-0.1.8.dist-info/entry_points.txt,sha256=WGO00yTHMDKmw1DaUzAymzK_n-PSonYSMOEXi3n1Wus,49
+fetch_latest_file1-0.1.8.dist-info/top_level.txt,sha256=hzj9Txx2DxWXgk49K6fXrrBFEQvyOKiByKKQNBGcifk,18
+fetch_latest_file1-0.1.8.dist-info/RECORD,,
