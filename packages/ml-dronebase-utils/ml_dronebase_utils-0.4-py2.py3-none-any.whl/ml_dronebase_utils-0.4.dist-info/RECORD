@@ -1,0 +1,9 @@
+ml_dronebase_utils/__init__.py,sha256=-OL5euYV0QDxcJ_iMEDLYD6Gr0NElffKF1rpxxBxXyY,93
+ml_dronebase_utils/pascal_voc.py,sha256=o5zZWN9h67BahC9LgErngFC4LoeUxpr64JN4Ay8JOEA,1967
+ml_dronebase_utils/s3.py,sha256=Yjx9F-1VQbKuRLnWNoHwyVWZPb_PcTVuO1qFqVugg4w,2777
+ml_dronebase_utils/templates/annotation.xml,sha256=sAbtGVtG1-nOHFFqtJ1uiyk5iK1kjqNkcbgw8hRay2k,878
+ml_dronebase_utils-0.4.dist-info/LICENSE,sha256=2aGx4w1jPVcy6hjjy6lTjSk-vFPhqeTparc54MXE8cs,1140
+ml_dronebase_utils-0.4.dist-info/METADATA,sha256=6W50qWCRI0yTA-4Q_ceY7OgkwslPLvfdI11o6rCsOuc,1355
+ml_dronebase_utils-0.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+ml_dronebase_utils-0.4.dist-info/top_level.txt,sha256=L-3rTggLBeDnRIXrNujVAok1R-vbaooF3n93ZFoTd4w,19
+ml_dronebase_utils-0.4.dist-info/RECORD,,
