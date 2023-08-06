@@ -1,0 +1,17 @@
+pruina/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pruina/socket/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pruina/socket/client.py,sha256=rdoqfof_3_ady6BlyI8C0MXCkGhphK9AfnGSKL8fxr0,2222
+pruina/socket/server.py,sha256=XKWvokxyfXw3SaUQ37DvHck3tZN8GEuAEkHo1Og3eBc,2255
+pruina/socket/handler/GeneralHandler.py,sha256=nbhUuTTbEbrBu4yMJMqrLUlmK0sgq_ampBbiLxc3_wI,1488
+pruina/socket/handler/MessageHookRequestHandler.py,sha256=nBY0SqTRC6PAjlxecXcmly4_y-1y0S8KaaiZU9tkBm8,2024
+pruina/socket/handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pruina/socket/handler/proto/PruinaSocketServer_pb2.py,sha256=E3ILn_qfYKt6wRx9t_oVsFlVXc2dLnuwth4AlgRJnYw,3243
+pruina/socket/handler/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pruina/socket/handler/util/General.py,sha256=ABbZZ_IdwerdkP3TUticT-SpWmtsHJK9-MqP9lmmlyk,5963
+pruina/socket/handler/util/Util.py,sha256=YGH_KbVT0kTwuqGLINuPwPLH3Jx5F6MPs_il0DtFaZs,1266
+pruina/socket/handler/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Pruina_Socket-0.0.2.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+Pruina_Socket-0.0.2.dist-info/METADATA,sha256=Hjf5YLqzMybd9Uw4DksZI3d96oB5nzvDWB_WEm5oZDg,9785
+Pruina_Socket-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Pruina_Socket-0.0.2.dist-info/top_level.txt,sha256=YjCaDQWrDji8Ix7fmPTB2T7lrj5Nl1QPpdKiJm6IXSY,7
+Pruina_Socket-0.0.2.dist-info/RECORD,,
