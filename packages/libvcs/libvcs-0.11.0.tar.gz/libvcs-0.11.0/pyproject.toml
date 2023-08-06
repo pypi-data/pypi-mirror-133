@@ -1,0 +1,79 @@
+[tool.black]
+skip-string-normalization = true
+
+[tool.poetry]
+name = "libvcs"
+version = "0.11.0"
+description = "vcs abstraction layer"
+license = "MIT"
+authors = ["Tony Narlock <tony@git-pull.com>"]
+keywords = ["libvcs", "git", "mercurial", "hg", "svn"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Operating System :: POSIX",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Utilities",
+  "Topic :: System :: Shells"
+]
+homepage = "http://github.com/vcs-python/libvcs/"
+readme = "README.md"
+packages = [
+    { include = "libvcs" }
+]
+include = [
+    { path = "tests", format = "sdist" }
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/vcs-python/libvcs/issues"
+Documentation = "https://libvcs.git-pull.com"
+Repository = "https://github.com/vcs-python/libvcs"
+Changes = "https://github.com/vcs-python/libvcs/blob/master/CHANGES"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+### Docs ###
+sphinx = "*"
+alagitpull = "~0.1.0"
+sphinx-autodoc-typehints = "~1.14.1"
+myst_parser = "~0.16.1"
+
+### Testing ###
+pytest = "*"
+pytest-rerunfailures = "*"
+pytest-mock = "*"
+
+### Coverage ###
+codecov = "*"
+coverage = "*"
+pytest-cov = "*"
+
+### Format ###
+black = "==21.12b0"
+isort = "*"
+
+### Lint ###
+flake8 = "*"
+
+[tool.poetry.extras]
+docs = ["sphinx", "myst_parser", "alagitpull", "sphinx-autodoc-typehints"]
+test = ["pytest", "pytest-rerunfailures", "pytest-mock"]
+coverage = ["codecov", "coverage", "pytest-cov"]
+format = ["black", "isort"]
+lint = ["flake8"]
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
