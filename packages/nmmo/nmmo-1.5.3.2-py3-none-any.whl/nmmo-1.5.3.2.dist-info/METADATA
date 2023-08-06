@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: nmmo
+Version: 1.5.3.2
+Summary: Neural MMO is a platform for multiagent intelligence research inspired by Massively Multiplayer Online (MMO) role-playing games. Documentation hosted at neuralmmo.github.io.
+Home-page: https://github.com/neuralmmo/environment
+Author: Joseph Suarez
+Author-email: jsuarez@mit.edu
+License: MIT
+Keywords: Neural MMO,MMO
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pytest-benchmark
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: setproctitle (==1.1.10)
+Requires-Dist: autobahn (==19.3.3)
+Requires-Dist: Twisted (==19.2.0)
+Requires-Dist: gym (==0.17.2)
+Requires-Dist: vec-noise (==1.1.4)
+Requires-Dist: imageio (==2.8.0)
+Requires-Dist: tqdm (==4.61.1)
+Requires-Dist: pettingzoo (==1.14.0)
+Requires-Dist: numpy
+Provides-Extra: docs
+Requires-Dist: sphinx-rtd-theme (==0.5.1) ; extra == 'docs'
+Provides-Extra: rllib
+Requires-Dist: ray[default] (==1.5.2) ; extra == 'rllib'
+Requires-Dist: tensorflow (==2.7.0) ; extra == 'rllib'
+Requires-Dist: grpcio (==1.32.0) ; extra == 'rllib'
+Requires-Dist: six (==1.15.0) ; extra == 'rllib'
+Requires-Dist: dm-tree (==0.1.5) ; extra == 'rllib'
+Requires-Dist: aiohttp (==3.7) ; extra == 'rllib'
+Requires-Dist: pandas ; extra == 'rllib'
+Requires-Dist: wandb ; extra == 'rllib'
+Requires-Dist: trueskill ; extra == 'rllib'
+Requires-Dist: torch ; extra == 'rllib'
+
+UNKNOWN
+
+
