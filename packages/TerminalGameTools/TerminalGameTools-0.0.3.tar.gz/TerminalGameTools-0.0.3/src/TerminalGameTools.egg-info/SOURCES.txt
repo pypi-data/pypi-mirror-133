@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/TerminalGameTools.py
+src/TerminalGameTools.egg-info/PKG-INFO
+src/TerminalGameTools.egg-info/SOURCES.txt
+src/TerminalGameTools.egg-info/dependency_links.txt
+src/TerminalGameTools.egg-info/requires.txt
+src/TerminalGameTools.egg-info/top_level.txt
