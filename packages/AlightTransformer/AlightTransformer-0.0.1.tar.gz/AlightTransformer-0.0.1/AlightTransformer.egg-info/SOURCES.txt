@@ -1,0 +1,5 @@
+setup.py
+AlightTransformer.egg-info/PKG-INFO
+AlightTransformer.egg-info/SOURCES.txt
+AlightTransformer.egg-info/dependency_links.txt
+AlightTransformer.egg-info/top_level.txt
