@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nAIme-test
+Version: 0.1.25
+Summary: name suggestion python package
+Home-page: UNKNOWN
+Author: Me
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: turicreate
+Requires-Dist: jellyfish
+Requires-Dist: pandas
+Requires-Dist: editdistance
+Requires-Dist: importlib-resources
+Requires-Dist: pydub
+Requires-Dist: pyAudioAnalysis
+Requires-Dist: tqdm
+Requires-Dist: gtts
+Requires-Dist: requests
+Requires-Dist: networkx
+Requires-Dist: phonetics
+Requires-Dist: pyunpack
+Requires-Dist: patool
+Requires-Dist: matplotlib
+Requires-Dist: eyed3
+Requires-Dist: py7zr
+
+UNKNOWN
+
