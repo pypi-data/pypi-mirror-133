@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: verbose_print
+Version: 0.0.1
+Summary: Verbose printing utility library
+Home-page: https://github.com/ZachElkins/verbose_print
+Author: Zachary Elkins
+Author-email: zach.elkins@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ZachElkins/verbose_print
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+License-File: LICENSE
+
+# VPrint
+
+![Tests](https://github.com/ZachElkins/VPrint/actions/workflows/tests.yml/badge.svg)
+
+Verbose printing utility for python.
+
+
