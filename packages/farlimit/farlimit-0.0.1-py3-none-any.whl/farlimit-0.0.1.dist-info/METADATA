@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: farlimit
+Version: 0.0.1
+Summary: FastAPIRateLimit
+Home-page: https://github.com/omidekz/farlimit
+Author: Omid Karimzade
+Author-email: omidekz@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/omidekz/farlimit/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
