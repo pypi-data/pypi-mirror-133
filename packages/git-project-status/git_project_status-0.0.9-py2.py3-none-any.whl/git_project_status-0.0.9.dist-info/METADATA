@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: git_project_status
+Version: 0.0.9
+Summary: Scans the local directory for sub-directories that have
+Keywords: git
+Author-email: James Hodgkinson <james@terminaloutcomes.com>
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: GitPython
+Requires-Dist: loguru
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pylint ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: flit ; extra == "dev"
+Project-URL: Home, https://github.com/yaleman/git_project_status
+Provides-Extra: dev
+
+# git_project_status
+
+Real simple, just iterates through the first-level subdirectories and does the equivalent of git status, only uglier.
+
+If you want more logs, set an environment variable of `LOGURU_LOG_LEVEL=DEBUG`.
+
+Installation: `pip install git-project-status`
+
+Which will create a console script `git_project_status`.
+
+## Changelog
+
+ * 0.0.6 - Fixed handling detached heads.
+ * 0.0.7 - 2022-01-08 - Updated build tooling, broke the script name. Whoops! Pulled.
+ * 0.0.8 - 2022-01-08 - Fixed the script name. Whoops! Pulled.
+ * 0.0.9 - 2022-01-08 - Fixed the script config.
