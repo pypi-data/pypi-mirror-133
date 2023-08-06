@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aspect-ratio
+Version: 0.5.0
+Summary: Finds the aspect ratio of image
+Home-page: https://github.com/mcvarer/poetry-aspect-ratio
+License: MIT
+Author: M.C.V
+Author-email: murat@visiosoft.com.tr
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.22.0,<2.0.0)
+Requires-Dist: setuptools (>=60.3.1,<61.0.0)
+Project-URL: Repository, https://github.com/mcvarer/poetry-aspect-ratio
+Project-URL: issues, https://github.com/mcvarer/poetry-aspect-ratio/issues
+Description-Content-Type: text/markdown
+
+# poetry-aspect-ratio
+
+## Property
+1. Calculate aspect ratio from the given height and width.
