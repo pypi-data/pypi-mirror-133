@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aliby-parser"
+version = "0.1.1"
+description = "Log files parser for aliby pipeline."
+authors = ["Alán Muñoz <amuoz@ed.ac.uk>"]
+license = "MIT"
+packages = [
+    { include = "logfile_parser" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+Sphinx = "^4.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
