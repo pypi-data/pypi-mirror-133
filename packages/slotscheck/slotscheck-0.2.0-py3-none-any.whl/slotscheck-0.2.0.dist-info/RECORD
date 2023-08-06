@@ -1,0 +1,10 @@
+CHANGELOG.rst,sha256=dgkTDfWAts7WurQeFcBB89cyAwNRNn4IS4-MkFNyW7s,399
+README.rst,sha256=E0_KIcnGL2wY97ZhJ36So_Jk1e3c13OPC1LECbgdtR4,3534
+slotscheck/__init__.py,sha256=dk4LArdgRs1xhR6QmZ8YkOxUWFP1h9XDC6k5ljPWXEM,325
+slotscheck/__main__.py,sha256=cHjd7K7EGElDLppVV1Mitec3KN26Y7LB0EM-YzPs4Ic,62
+slotscheck/common.py,sha256=CXU2wNYMGj7Vvm1VRw67Q3KBdlr0h5REFHLb7ooTOvs,4622
+slotscheck/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slotscheck-0.2.0.dist-info/entry_points.txt,sha256=yd0oHuJNFPqGhnVGu61T_tMewV69owNO3P5xjuuo1Fg,52
+slotscheck-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+slotscheck-0.2.0.dist-info/METADATA,sha256=ixlT0idkavifNaUQKP8iAYzYcj64kaefLAi8DYthtnw,4460
+slotscheck-0.2.0.dist-info/RECORD,,
