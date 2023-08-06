@@ -1,0 +1,5 @@
+click
+click_option_group
+enlighten
+plexapi
+more_itertools>=7.1.0
