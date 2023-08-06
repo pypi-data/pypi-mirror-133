@@ -1,0 +1,10 @@
+pysherplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysherplus/authentication.py,sha256=ZycVadSp_UJ1GSYItvpFp2XnqQ4_M0IYidpOqnC3BkQ,2176
+pysherplus/channel.py,sha256=Z1gN60PA4FMbRudkdialxl8jNsugt0yXgXp4zgm8WDc,3446
+pysherplus/connection.py,sha256=4QHi87B6kojkD3gIbnUVLGvWVzIEjcPv6qeSp975GS0,13518
+pysherplus/pusher.py,sha256=GDjaMZJXhc_guKuequ8YlVhEljHthGUvzh-g2pRKb3s,3721
+PysherPlus-2.0.1.dist-info/LICENSE,sha256=ibBQPbBLSDpjdOsdgVym7plEDB3zFXbjOGJkX18N4wM,1054
+PysherPlus-2.0.1.dist-info/METADATA,sha256=zAqC_6kiNsjsqCQOWOqWSX3rOii80s0h2Keq4mvIz2c,3406
+PysherPlus-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PysherPlus-2.0.1.dist-info/top_level.txt,sha256=LAbdxWwVMhToUm6PamHaTQjYvN8O7speFwzJxEl5m8k,11
+PysherPlus-2.0.1.dist-info/RECORD,,
