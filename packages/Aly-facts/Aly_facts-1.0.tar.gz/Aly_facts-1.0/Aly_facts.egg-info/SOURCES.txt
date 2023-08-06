@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+Aly_facts/__init__.py
+Aly_facts/aly_facts.py
+Aly_facts/assets.py
+Aly_facts.egg-info/PKG-INFO
+Aly_facts.egg-info/SOURCES.txt
+Aly_facts.egg-info/dependency_links.txt
+Aly_facts.egg-info/top_level.txt
