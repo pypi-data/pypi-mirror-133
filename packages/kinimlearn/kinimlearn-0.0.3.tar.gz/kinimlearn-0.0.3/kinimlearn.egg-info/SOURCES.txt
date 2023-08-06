@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+kinimlearn.egg-info/PKG-INFO
+kinimlearn.egg-info/SOURCES.txt
+kinimlearn.egg-info/dependency_links.txt
+kinimlearn.egg-info/requires.txt
+kinimlearn.egg-info/top_level.txt
+lib/DT_Classifier.py
+lib/__init__.py
