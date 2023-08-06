@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: cbpa
+Version: 0.1.0
+Summary: cbpa
+Author-email: Anthony Corletti <anthcor@gmail.com>
+Requires-Python: >=3.9.6
+Description-Content-Type: text/markdown
+Requires-Dist: typer==0.4.0
+Requires-Dist: fastapi==0.70.1
+Requires-Dist: uvicorn==0.16.0
+Requires-Dist: gunicorn==20.1.0
+Requires-Dist: pydantic==1.9.0
+Requires-Dist: coinbasepro==0.3.0
+Requires-Dist: PyYaml==6.0
+Requires-Dist: discord==1.7.3
+Requires-Dist: google-cloud-secret-manager==2.8.0
+Requires-Dist: flake8==3.9.2 ; extra == "dev"
+Requires-Dist: black==21.10b0 ; extra == "dev"
+Requires-Dist: isort==5.9.3 ; extra == "dev"
+Requires-Dist: autoflake==1.4 ; extra == "dev"
+Requires-Dist: flake8-docstrings==1.6.0 ; extra == "dev"
+Requires-Dist: types-PyYAML==6.0 ; extra == "dev"
+Requires-Dist: pytest==6.2.5 ; extra == "test"
+Requires-Dist: mypy==0.910 ; extra == "test"
+Requires-Dist: coverage==6.1.1 ; extra == "test"
+Requires-Dist: pytest-cov==3.0.0 ; extra == "test"
+Project-URL: Documentation, https://www.github.com/anthonycorletti/cbpa
+Provides-Extra: dev
+Provides-Extra: test
+
+# cbpa
+
+Coinbase Pro Automation for making buy orders from a default bank account.
+
+## Quickstart
+
+1. Install with pip
+
+    ```sh
+    pip install cbpa
+    ```
+
+1. [Create a Coinbase API Key](https://help.coinbase.com/en/pro/other-topics/api/how-do-i-create-an-api-key-for-coinbase-pro), you will need to select all fields of access.
+
+1. (Optional). [Create a Discord webhook](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks).
+
+1. Make your config file. See the [examples](./examples) for more.
+
+    ```yaml
+    ---
+    api:
+        key: "myKey"
+        secret: "mySecret"
+        passphrase: "myPassphrase"
+        url: "https://api.pro.coinbase.com"
+    discord:
+        webhook: https://discord.com/api/webhooks/123/abc
+    account:
+        auto_funding_limit: 20
+        fiat_currency: USD
+    buys:
+        - send_currency: USD
+            send_amount: 2
+            receive_currency: BTC
+        - send_currency: USD
+            send_amount: 2
+            receive_currency: ETH
+        - send_currency: USD
+            send_amount: 2
+            receive_currency: DOGE
+    ```
+
+1. Make your orders!
+
+    ```sh
+    cbpa run -f my-buys.yaml
+    ```
+
+## Running `cbpa` in Google Cloud Run
+
+You can run `cbpa` as a server in Google Cloud Run, which can called by Google Cloud Scheduler to automatically place buys for you each day, or on any cron schedule you like.
+
+These steps assume you have installed and configured `gcloud` already.
+
+1. Store your buy order file as a secret in GCP.
+
+    ```sh
+    gcloud secrets versions add my_buys --data-file=my-buys.yaml
+    ```
+
+1. Build and push your docker container to Google Cloud, and then deploy your container.
+
+    ```sh
+    ./scripts/docker-build.sh && ./scripts/docker-push.sh; SECRET_ID=my_buys ./scripts/gcloud-run-deploy.sh
+    ```
+
+1. [Create an authenticated scheduler](https://cloud.google.com/scheduler/docs/http-target-auth#using-the-console) that uses an http target to hit the `buy` endpoint.
+
