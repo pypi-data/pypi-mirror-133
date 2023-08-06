@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: discord.ext.cli
+Version: 3.0.1
+Summary: A CLI to talk through console.
+Home-page: https://github.com/FrostiiWeeb/discord-ext-cli
+Author: Alex Hutz
+Author-email: frostiiweeb@gmail.com
+License: MIT
+Project-URL: Issue Tracker, https://github.com/FrostiiWeeb/discord-ext-cli/issues
+Keywords: discord
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp (>=3.7.3)
+Requires-Dist: discord.py (>=1.7.3)
+Requires-Dist: waiting
+
+# discord.ext.cli
+
+A basic CLI to talk to a channel with terminal.
+
+Example:
+```py
+from discord.ext.cli import CLI
+
+bot = CLI(command_prefix="$", channel_id=381383689470984003)
+
+bot.run("Nzg0KTIyMDYxMjE5OTU0LzA4.X8kskw.bqfFDZGfNPv41jUqJ9DF8TFxq1w")
+```
+
