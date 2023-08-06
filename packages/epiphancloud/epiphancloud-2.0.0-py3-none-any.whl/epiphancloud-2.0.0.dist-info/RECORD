@@ -1,0 +1,9 @@
+models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/desired_state.py,sha256=PwIVP4C9auTXbL1F-tFFNjnzUdHtXCPKmRI-Q4xNHo0,698
+models/device.py,sha256=X_oT-lJOg9sQpO1AMaXqLsftmXiz256HgiNkZOhMwcw,11144
+models/settings.py,sha256=PVKbX6ASjQvnxC-2F3kDhlJm1TQ2FYbvdIiTop2bAE0,336
+epiphancloud-2.0.0.dist-info/LICENSE.txt,sha256=hWnaK4Ukzlji88MjbkwczxXHvCUNSL6WFS6E9oCFIgE,1071
+epiphancloud-2.0.0.dist-info/METADATA,sha256=1q4n9-uSI0Ia4qvbaBIA1gjKLWyMMIYoxptsgepqepM,1923
+epiphancloud-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+epiphancloud-2.0.0.dist-info/top_level.txt,sha256=vH5ByFtkqB2bXlXOuK5zaaM_1GFEE9six0KgGIdPaU0,7
+epiphancloud-2.0.0.dist-info/RECORD,,
