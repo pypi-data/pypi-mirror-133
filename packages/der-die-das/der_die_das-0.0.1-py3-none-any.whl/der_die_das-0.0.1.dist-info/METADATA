@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: der-die-das
+Version: 0.0.1
+Summary: Python Library for DER DIE DAS APP
+Home-page: https://github.com/yuyatinnefeld/der_die_das
+Author: yuya tinnefeld
+Author-email: yuyatinnefeld@gmail.com
+License: Copyright (c) 2022 Yuya Tinnefeld
+Project-URL: Bug Tracker, https://github.com/yuyatinnefeld/der_die_das/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 (==4.10.0)
+Requires-Dist: requests (==2.26.0)
+
+# DER DIE DAS CHECKER (WIP)
+You can use this package to check the articles for German nouns (Der, Die, Das).
+I am very happy if the package makes your life as a non-native German speaker easier.
+
+## Installation
+```bash
+python -m pip install der-die-das
+```
+## Getting Started
+Directly after the installation you can use this package. You will need Python Release 3.7.0 or older.
+
+### Open the python console and use the package
+
+```bash
+python
+>>> from der_die_das import check
+>>> check("Burger")
+searched : Burger
+answer: DER Burger
+
+>>> check("Kerzenleuchter")
+searched : Kerzenleuchter
+answer: DER Kerzenleuchter
+```
+
