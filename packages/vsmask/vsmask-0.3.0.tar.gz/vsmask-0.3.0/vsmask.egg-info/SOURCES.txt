@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+vsmask/__init__.py
+vsmask/_metadata.py
+vsmask/better_vsutil.py
+vsmask/edge.py
+vsmask/py.typed
+vsmask/types.py
+vsmask/util.py
+vsmask.egg-info/PKG-INFO
+vsmask.egg-info/SOURCES.txt
+vsmask.egg-info/dependency_links.txt
+vsmask.egg-info/not-zip-safe
+vsmask.egg-info/requires.txt
+vsmask.egg-info/top_level.txt
