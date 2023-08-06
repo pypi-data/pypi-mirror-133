@@ -1,0 +1,3 @@
+[console_scripts]
+rgb565-converter = rgb565_converter.converter:main
+
