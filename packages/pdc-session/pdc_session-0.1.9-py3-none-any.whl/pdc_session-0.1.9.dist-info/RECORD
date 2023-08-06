@@ -1,0 +1,13 @@
+pdc_session/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdc_session/api/client.py,sha256=2JLMWI3remDf7YQ_Y3_oSdZdGT8w3TybB00u1in4eNo,1100
+pdc_session/api/session.py,sha256=bHJ8A1SxX2183B2jE1ur77Cq007tDMKU-Tt5C2AMdOY,882
+pdc_session/helpers/logger.py,sha256=tK_m4fogeRXcHK4Jqt1QpJQf76W06OAztEV36Sbrkw8,1829
+pdc_session/helpers/singleton.py,sha256=VKTjFItcF0gq5oJqZbBFnuc7v-8vic8HVAxVR3VVnGM,242
+pdc_session/session_config.py,sha256=df5zKHZHxS6nDGQA8DW1snQdwYzdFKoQqrb8e5QNzy0,681
+pdc_session/session_persist.py,sha256=VUo3zmPXsaYInKxEHPrF4ZQd6cCrgH4EgGfRBpJPQRk,3699
+pdc_session/types/client.py,sha256=DfZYI3FUPfroki15Qv7_g0kwLBzm123LOLdAoquF90s,144
+pdc_session/types/session.py,sha256=p7alKzAUjSCxRkJND-7JpxsgLKB-KH8HIQvY3yhP7ow,26
+pdc_session/types/session_exception.py,sha256=eRh0C7_4vNjvJppOzLDvpZoKY-X_78N_dcO183lt4I0,174
+pdc_session-0.1.9.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pdc_session-0.1.9.dist-info/METADATA,sha256=QBcdRuGXjwQNtMHv-6Bi3PW70WNMR6Gzk1N-1ripQmw,2414
+pdc_session-0.1.9.dist-info/RECORD,,
