@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+data/hg19_chrom_sizes.txt
+hmmCNV/__init__.py
+hmmCNV/em_utilities.py
+hmmCNV/hmmCNV.py
+hmmCNV/hmm_utilities.py
+hmmCNV.egg-info/PKG-INFO
+hmmCNV.egg-info/SOURCES.txt
+hmmCNV.egg-info/dependency_links.txt
+hmmCNV.egg-info/not-zip-safe
+hmmCNV.egg-info/requires.txt
+hmmCNV.egg-info/top_level.txt
+hmmCNV/hmm/__init__.py
+hmmCNV/hmm/hmm.c
