@@ -1,0 +1,31 @@
+[build-system]
+requires = [
+     # pin NumPy version used in the build
+     "numpy>=1.20.3",
+     "setuptools>=43.0.0",
+     "Cython>=0.29.23"
+]
+build-backend = "setuptools.build_meta"
+
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
