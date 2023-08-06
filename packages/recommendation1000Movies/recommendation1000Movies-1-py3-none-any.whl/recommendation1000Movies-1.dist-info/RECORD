@@ -1,0 +1,12 @@
+recommendation1000Movies-1.data/data/movie_summaries.json,sha256=QcUdF3agOkP5rUqNDAjf9WFZOEKDETLGC-_Thjemfro,1049816
+recommendation1000Movies-1.data/data/movie_vectors.json,sha256=g8_lYmWyE9MEe-9N4KJqvWI_hhUpw3AO3JG1BOdV4Qo,16089081
+recommending_movies/__init__.py,sha256=CkVj3H9gmTxK6eaxv4GZ3moCaOhwN0b_xb8c_4NNJ6w,93
+recommending_movies/movie_recommendations.py,sha256=gckatj9Bw9aUMJ8ijooEXcCHHl7RiG-rjmQMhpt38xQ,4223
+recommending_movies/data/movie_summaries.json,sha256=QcUdF3agOkP5rUqNDAjf9WFZOEKDETLGC-_Thjemfro,1049816
+recommending_movies/data/movie_vectors.json,sha256=g8_lYmWyE9MEe-9N4KJqvWI_hhUpw3AO3JG1BOdV4Qo,16089081
+recommendation1000Movies-1.dist-info/LICENSE,sha256=tTJRSLiG-iq8A5ssFaMvRpCbDq3K_2OQDghIFrjEt_U,1071
+recommendation1000Movies-1.dist-info/METADATA,sha256=JHwydpxuBYuS_oGjoQUJZWGxD_BbT2uRz7boGAox79E,736
+recommendation1000Movies-1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+recommendation1000Movies-1.dist-info/entry_points.txt,sha256=QiN25ORjzroU5yVTNcUvA1vjsBs1qydBfETdCWEH914,93
+recommendation1000Movies-1.dist-info/top_level.txt,sha256=MATslIGIsZoVICprpjcf1lvnMD-HGr-bKUoWASvgkp4,20
+recommendation1000Movies-1.dist-info/RECORD,,
