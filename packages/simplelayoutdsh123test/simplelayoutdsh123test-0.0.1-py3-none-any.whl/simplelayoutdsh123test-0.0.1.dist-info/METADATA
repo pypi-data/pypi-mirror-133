@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simplelayoutdsh123test
+Version: 0.0.1
+Summary: A small study package
+Home-page: UNKNOWN
+Author: piglet94
+Author-email: 715654107@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Requires-Dist: numpy
+Requires-Dist: argparse
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+UNKNOWN
+
