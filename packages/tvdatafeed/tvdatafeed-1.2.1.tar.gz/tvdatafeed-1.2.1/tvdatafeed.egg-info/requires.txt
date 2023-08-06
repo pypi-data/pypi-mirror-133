@@ -1,0 +1,5 @@
+setuptools
+pandas
+selenium
+websocket-client
+chromedriver-autoinstaller
