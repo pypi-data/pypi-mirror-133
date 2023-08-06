@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: machine-signals
+Version: 0.0.3
+Summary: A simple signals package to create and distort harmonic signals
+Home-page: https://github.com/camilorey/signals_package
+Author: Camilo Rey-Torres
+Author-email: camilorey@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/camilorey/signals_package/issues
+Description: # Signal Creator
+        
+        This is the signal creator Package developed by Camilo Rey, to 
+        create periodic signals that are _flavored_ by stochastic noise and
+        _perturbations_ following a deceptively simple mathematical model. 
+        
+        There are two main components in this package (i.e. sub-packages). The 
+        *functions* package where the basic signal functions are located 
+        (i.e. periodic functions and gaussian noise) to create signals that
+        can be sampled (automatically to 100 points), and the *perturbation* 
+        subpackage that allows us to extend a base class _Perturbation_ to 
+        mess basic harmonic signals. 
+        
+        
+        
+        This readme was created using the 
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
