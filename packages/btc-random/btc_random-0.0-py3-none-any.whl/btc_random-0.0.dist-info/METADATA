@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: btc-random
+Version: 0.0
+Summary: Use the current variations of the BTC price to generate a random number
+Home-page: https://github.com/pypa/sampleproject
+Author: Elvyn
+Author-email: elvyn.contact@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/leelvyn/crypto_random/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Uses the randomness of the bitcoin to generate a random number
+
+Illustrates the randomness of the bitcoin. 
+
+Yes this is a satire / half joke
+
+To use : 
+```py
+from btc_random import btc
+
+print(btc.random())
+```
+
+This will fetch the current rate of the bitcoin and return a random number between 0 and 1 using the rate as the seed.
+
