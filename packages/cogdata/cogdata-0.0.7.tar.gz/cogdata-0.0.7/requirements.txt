@@ -1,0 +1,6 @@
+numpy
+torch
+pytest
+unrar
+tqdm
+icetk
