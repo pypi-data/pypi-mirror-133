@@ -1,0 +1,9 @@
+libqc/__init__.py,sha256=yUtboXKq3A0DZgKZNxNr9yXJdtaXNABM7UM9XnH7odU,948
+libqc/counts.py,sha256=1whZa6dgYuS5pSGi0JBR9OerDrFVI7fldaNax7Qdex0,2302
+libqc/library.py,sha256=39hBIsULbFfxzAtvGyaKZg2aqs5-8TzpFaYf8v51Cus,1694
+libqc/lib/brunello.csv,sha256=kLjtAXE-NZk8m0yIYBUCib8N5E9LPc762ci3zivTL3U,4407123
+libqc/lib/brunello.fa,sha256=nvqs5WgKv1sFYXEFLGTlBE5MciqtEN6Qfyk9SOP6-xQ,4484601
+libqc-0.0.1.dist-info/METADATA,sha256=dtQ-ybUy7lpR6nCJUszLsCVLJXzGKgCc53CY-hcJ3xY,169
+libqc-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+libqc-0.0.1.dist-info/top_level.txt,sha256=y_ujLeczslfwQqy0FQ4ELHWc6zdn-bkaqDiLCLwWIic,6
+libqc-0.0.1.dist-info/RECORD,,
