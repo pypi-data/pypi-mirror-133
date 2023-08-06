@@ -1,0 +1,8 @@
+picsellia_elasticsearch_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+picsellia_elasticsearch_client/abstract_client.py,sha256=esDwLl9o5LPdEjxsyq3-cz95Pu7Om6ERHL6ch6pf5k4,842
+picsellia_elasticsearch_client/client.py,sha256=wJawMg-z3YwgzQEhFC7717elX5d1baBgLRgsKYZZcO4,1022
+picsellia_elasticsearch_client-1.0.0.dist-info/LICENSE,sha256=0LUd79YSYRMoESGroJfpcm_XBztiqaWwiYPHqvz4zCE,1069
+picsellia_elasticsearch_client-1.0.0.dist-info/METADATA,sha256=RSLq4hiBKUCJHe6LG8p1RgTfc3xEEVCP6uKvK8m0sY0,1523
+picsellia_elasticsearch_client-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+picsellia_elasticsearch_client-1.0.0.dist-info/top_level.txt,sha256=BnCN-XQLG0dIk44k0zXYqbcFqO8DDjndbnmrcRORh5o,31
+picsellia_elasticsearch_client-1.0.0.dist-info/RECORD,,
