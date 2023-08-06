@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+ann_gsea.egg-info/PKG-INFO
+ann_gsea.egg-info/SOURCES.txt
+ann_gsea.egg-info/dependency_links.txt
+ann_gsea.egg-info/requires.txt
+ann_gsea.egg-info/top_level.txt

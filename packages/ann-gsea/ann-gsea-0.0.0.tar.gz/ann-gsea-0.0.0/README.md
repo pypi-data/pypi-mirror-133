@@ -1,0 +1,47 @@
+# annsig
+An API for annotating single-cell AnnData with Molecular Signatures from [MSigDB](https://www.gsea-msigdb.org/gsea/msigdb/)
+
+To use: 
+
+### Step 1. Install
+
+To install with the latest release from **PYPI**:
+```BASH
+pip install annsig
+```
+
+alternatively, install the development version:
+```BASH
+git clone https://github.com/mvinyard/annsig
+
+cd annsig; pip install -e .
+```
+
+### Step 2. Register and download MSigDB
+
+[link](http://www.gsea-msigdb.org/gsea/downloads.jsp#msigdb)
+Developed with: `"msigdb.v7.4.symbols.gmt"` (Currently the latest version)
+
+### Step 3. Example usage
+
+```python
+import ann_gsea as gsea
+
+db = gsea.MSigDB()
+db.load()
+```
+
+```python
+db.search()
+```
+
+```python
+db.fetch()
+```
+
+[link](http://www.gsea-msigdb.org/gsea/downloads.jsp#msigdb)
+Developed with: `"msigdb.v7.4.symbols.gmt"` (Currently the latest version)
+
+**Instructions from the MSigDB website on how to cite their resource**:
+
+>To cite your use of the Molecular Signatures Database (MSigDB), a joint project of UC San Diego and Broad Institute, please reference Subramanian, Tamayo, et al. (2005, PNAS) and one or more of the following as appropriate: Liberzon, et al. (2011, Bioinformatics), Liberzon, et al. (2015, Cell Systems), and also the source for the gene set as listed on the gene set page.
