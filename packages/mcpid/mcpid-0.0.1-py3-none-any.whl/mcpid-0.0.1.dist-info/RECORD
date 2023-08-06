@@ -1,0 +1,10 @@
+mcpid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpid/_mcpid.csv,sha256=8cj3xK54o9nBrOVN3Sk72jbJU1mgZN_TMSZAJCs8siw,55205
+mcpid/_version.py,sha256=Tjb_poy6EuGRi7TlrksJa9Qpx1MXOCO3p3F6tJ8xa5o,142
+mcpid/lookup.py,sha256=2LWd4oMV2tHrskdFdoR34yYCePInxNiRiM2OAWJ2r04,3388
+mcpid-0.0.1.dist-info/LICENSE-DATA.txt,sha256=SwXWY4VLsEkGUHL4UNWO6Re6p_rkwQgYyeZdPVoVw4A,1554
+mcpid-0.0.1.dist-info/LICENSE.txt,sha256=pV5iKkksyMN2q2fkJwO6tZzXqnmPKKhdLz58cAf8wO8,1523
+mcpid-0.0.1.dist-info/METADATA,sha256=F0VpJf_zD--VylewCcFQh1Y3vS9Ld_lqZ6MN-tSrmN4,230
+mcpid-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mcpid-0.0.1.dist-info/top_level.txt,sha256=9piP7NZHOU0vkDsivm8qi78DqBJ4yPKgIuiQaExaHgQ,6
+mcpid-0.0.1.dist-info/RECORD,,
