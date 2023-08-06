@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: mhb_math
+Version: 0.1.9
+Summary: mhb-math is a simple python package for useful mathematical functions
+Home-page: https://github.com/Mouhib-Khemiri/mhb_math
+Author: Mouhib Khemiri
+Author-email: khemiri.mouhib43@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Mouhib-Khemiri/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mhb_Math
+
+mhb-math is a simple python package for useful mathematical functions.
+
+## Equations
+This module provides access to the mathematical functions about equations. To use these functions you have to import the module using 
+> import equations 
+
+## Functions
+This module provides access to the basic mathematical functions. To use these functions you have to import the module using 
+> import functions 
+

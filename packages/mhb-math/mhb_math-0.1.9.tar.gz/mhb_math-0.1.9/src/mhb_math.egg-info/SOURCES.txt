@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/mhb_math/__init__.py
+src/mhb_math/equations.py
+src/mhb_math/functions.py
+src/mhb_math.egg-info/PKG-INFO
+src/mhb_math.egg-info/SOURCES.txt
+src/mhb_math.egg-info/dependency_links.txt
+src/mhb_math.egg-info/top_level.txt
