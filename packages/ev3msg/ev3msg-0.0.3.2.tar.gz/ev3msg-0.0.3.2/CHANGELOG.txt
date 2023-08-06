@@ -1,0 +1,6 @@
+Change Log
+==========
+
+0.0.3.2 (07/01/2022)
+-------------------
+- Receiving Message Bug Fixed
