@@ -1,0 +1,32 @@
+{% load i18n fb_tags %}
+<thead>
+    <tr>
+    <!-- SELECT -->
+    {% if query.pop == '1' %}{% if results_var.select_total %}<th></th>{% endif %}{% endif %}
+    {% if query.pop == '2' %}{% if results_var.select_total %}<th></th>{% endif %}{% endif %}
+    {% if query.pop == '3' %}{% if results_var.select_total %}<th></th>{% endif %}{% endif %}
+    {% if query.pop == '4' %}{% if results_var.select_total %}<th></th>{% endif %}{% endif %}
+    {% if query.pop == '5' %}{% if results_var.select_total %}<th></th>{% endif %}{% endif %}
+    <!-- FILETYPE -->
+    {% if query.o == 'filetype' %}<th class="sorted {{ query.ot }}ending"><a href="{% query_string "" "o,ot,p" %}&amp;ot={% if query.ot == 'desc' %}asc{% else %}desc{% endif %}&amp;o=filetype"></a></th>{% endif %}
+    {% if query.o != 'filetype' %}<th><a href="{% query_string "" "o,ot,p" %}&amp;ot=asc&amp;o=filetype">&nbsp;</a></th>{% endif %}
+    <!-- THUMB -->
+    {% if results_var.images_total %}<th>&nbsp;</th>{% endif %}
+    <!-- FILENAME / DIMENSIONS  -->
+    {% if query.o == 'filename_lower' %}<th class="sorted {{ query.ot }}ending"><a href="{% query_string "" "o,ot,p" %}&amp;ot={% if query.ot == 'desc' %}asc{% else %}desc{% endif %}&amp;o=filename_lower">{% trans 'Filename' %}</a></th>{% endif %}
+    {% if query.o != 'filename_lower' %}<th><a href="{% query_string "" "o,ot,p" %}&amp;ot=asc&amp;o=filename_lower">{% trans 'Filename' %}</a></th>{% endif %}
+    <!-- RENAME -->
+    {% if query.pop != '4' %}
+    <th>&nbsp;</th>
+    {% endif %}
+    <!-- SIZE -->
+    {% if query.o == 'filesize' %}<th class="sorted {{ query.ot }}ending"><a href="{% query_string "" "o,ot,p" %}&amp;ot={% if query.ot == 'desc' %}asc{% else %}desc{% endif %}&amp;o=filesize">{% trans 'Size' %}</a></th>{% endif %}
+    {% if query.o != 'filesize' %}<th><a href="{% query_string "" "o,ot,p" %}&amp;ot=asc&amp;o=filesize">{% trans 'Size' %}</a></th>{% endif %}
+    <!-- DATE -->
+    {% if query.o == 'date' %}<th class="sorted {{ query.ot }}ending"><a href="{% query_string "" "o,ot,p" %}&amp;ot={% if query.ot == 'desc' %}asc{% else %}desc{% endif %}&amp;o=date">{% trans 'Date' %}</a></th>{% endif %}
+    {% if query.o != 'date' %}<th><a href="{% query_string "" "o,ot,p" %}&amp;ot=asc&amp;o=date">{% trans 'Date' %}</a></th>{% endif %}
+    <!-- DELETE -->
+    <th>&nbsp;</th>
+    {% if settings_var.DEBUG %}<th>Debug</th>{% endif %}
+    </tr>
+</thead>
