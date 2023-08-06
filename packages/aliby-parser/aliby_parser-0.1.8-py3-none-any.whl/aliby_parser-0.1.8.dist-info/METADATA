@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aliby-parser
+Version: 0.1.8
+Summary: Log files parser for aliby pipeline.
+License: MIT
+Author: Julian Pietsch
+Author-email: jpietsch@ed.ac.uk
+Requires-Python: >=3.7.1,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
