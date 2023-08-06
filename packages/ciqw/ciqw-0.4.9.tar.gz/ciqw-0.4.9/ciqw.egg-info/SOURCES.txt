@@ -1,0 +1,15 @@
+COPYING
+setup.py
+ciqw/__init__.py
+ciqw/auth.py
+ciqw/config.py
+ciqw/fonts_and_devices.py
+ciqw/misc.py
+ciqw/run.py
+ciqw/sdks.py
+ciqw.egg-info/PKG-INFO
+ciqw.egg-info/SOURCES.txt
+ciqw.egg-info/dependency_links.txt
+ciqw.egg-info/entry_points.txt
+ciqw.egg-info/requires.txt
+ciqw.egg-info/top_level.txt
