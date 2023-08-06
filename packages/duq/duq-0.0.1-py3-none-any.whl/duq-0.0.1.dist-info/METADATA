@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: duq
+Version: 0.0.1
+Summary: DUQ provides tools for working with physical Dimensions, Units and Quantities, such as dimensional analysis and unit conversion.
+Home-page: https://github.com/Armin-Ariamajd/duq
+Author: Armin Ariamajd
+Author-email: a.ariamajd@gmail.com
+License: GNU Affero General Public License v3
+Project-URL: Bug Tracker, https://github.com/Armin-Ariamajd/duq/issues
+Keywords: physical quantity,quantity,physical unit,unit,unit conversion,physical dimension,dimension,dimensional analysis
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.17)
+
+# Dimensions, Units, Quantities (DUQ)
+DUQ offers tools for working with physical dimensions, units, and quantities.   
+
+

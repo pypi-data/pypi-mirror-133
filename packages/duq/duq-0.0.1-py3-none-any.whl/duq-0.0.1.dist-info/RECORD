@@ -1,0 +1,15 @@
+duq/__init__.py,sha256=S2vNawA6dQaj7mSvYGjPVPOB6IB4t7MYZwmDbZOMduA,255
+duq/dimension.py,sha256=26KLVyvzdon171CP2r6ekwhiGhK9nMMI3u5hZpbSUBg,20665
+duq/helpers.py,sha256=8LmLN-_XPj8o6oUrJWVq-RuqN6zKY1sRu8oGeNH0ZUs,4102
+duq/quantity.py,sha256=4CdHPgGEJCoMhviP6YU0tkUuC3xrXnO83Lw65qERAqk,12559
+duq/unit.py,sha256=D74enQL4eQj_NcntV70sgycMZ07WiP-MYPJ9mIbToFg,26293
+duq/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duq/data/dimensions_units.py,sha256=vChsZySAZJhCdT6jTYLom95OSy0oC2ZD0YZ5NaZYwS4,13279
+duq/data/metric_prefixes.py,sha256=RJN4-JUPaTYaIhjOXHRg2Dsd97vbSsQhe6KaD46fikk,1894
+duq/data/physical_constants.py,sha256=xveH1RwuBhVrAcs1v517wxQoO0I7KwNWsryguZy-eJs,364
+duq/data/unicode_chars.py,sha256=gdE2O1mWgUhEQN1scwx3YcNz8sbharjfrw5cM2o3b4M,289
+duq-0.0.1.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+duq-0.0.1.dist-info/METADATA,sha256=nlYoFNV7FyOG6ojCVTtu9WZdrH2YAAik0GvvmB7bAyo,1346
+duq-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+duq-0.0.1.dist-info/top_level.txt,sha256=UJThKxLp__act7bWu09-1jGWCyqgUIX4zZ0vGUHD1Kc,4
+duq-0.0.1.dist-info/RECORD,,
