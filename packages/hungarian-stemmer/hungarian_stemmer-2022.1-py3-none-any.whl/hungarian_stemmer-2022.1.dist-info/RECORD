@@ -1,0 +1,8 @@
+hungarian_stemmer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hungarian_stemmer/hungarian_stemmer.py,sha256=sqAKslB8TjbvgBafYtlFBD4TgMXp5QoGq6E8HujMuqg,825
+hungarian_stemmer/resources/hu_HU.aff,sha256=sxFF0lGT7DCXifMZ-dwY6bB3iSgEXnsYHxs9DQLtdi8,2106341
+hungarian_stemmer/resources/hu_HU.dic,sha256=NmQ-me6ZITsGGm7Nn052sZ4LOFfMB2snWCH8dDM60rw,1653155
+hungarian_stemmer-2022.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+hungarian_stemmer-2022.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hungarian_stemmer-2022.1.dist-info/METADATA,sha256=vkGZATu8LbA6R9S9g7iZx68z2Rsck8Hp7ZnE0i7hxFM,653
+hungarian_stemmer-2022.1.dist-info/RECORD,,
