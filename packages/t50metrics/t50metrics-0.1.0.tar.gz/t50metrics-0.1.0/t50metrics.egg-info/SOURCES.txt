@@ -1,0 +1,9 @@
+LICENSE
+README.rst
+setup.py
+t50metrics/__init__.py
+t50metrics.egg-info/PKG-INFO
+t50metrics.egg-info/SOURCES.txt
+t50metrics.egg-info/dependency_links.txt
+t50metrics.egg-info/requires.txt
+t50metrics.egg-info/top_level.txt
