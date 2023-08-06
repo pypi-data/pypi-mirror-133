@@ -1,0 +1,8 @@
+calculate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculate/calc.py,sha256=njDi_K1QqkZv8eZato1XCWdVVxFRYbLni-bjls4oVFE,1007
+calculate/unit_tests.py,sha256=QpxpeVe7W5zXVuC02H7bZGGz7yGKP7VgxebWYPMMMEM,1464
+example_pkg_AsifEng-1.0.data/scripts/calc.py,sha256=njDi_K1QqkZv8eZato1XCWdVVxFRYbLni-bjls4oVFE,1007
+example_pkg_AsifEng-1.0.dist-info/METADATA,sha256=djxRL-PFZKQh60nKel4MZ4l_8Ak8F0icT9o5usdh5u4,276
+example_pkg_AsifEng-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+example_pkg_AsifEng-1.0.dist-info/top_level.txt,sha256=6ZTAowwBxlSEDS1GfMtlGDijN6BfDLe_m73jRe_oxrY,10
+example_pkg_AsifEng-1.0.dist-info/RECORD,,
