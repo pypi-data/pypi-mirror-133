@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/pytLoc/__init__.py
+src/pytLoc/pytLoc.py
+src/pytLoc.egg-info/PKG-INFO
+src/pytLoc.egg-info/SOURCES.txt
+src/pytLoc.egg-info/dependency_links.txt
+src/pytLoc.egg-info/top_level.txt
