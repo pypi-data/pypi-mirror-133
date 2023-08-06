@@ -1,0 +1,16 @@
+nonebot/adapters/onebot/__init__.py,sha256=Vy5tm0yRFuMXcR9MibiDx6B7KWnh735laOaIMtw5lLY,197
+nonebot/adapters/onebot/v11/__init__.py,sha256=gGiOuQRtgP0OMnDBDjTJsgc0s17XkSnd6BYaJCJBfkY,730
+nonebot/adapters/onebot/v11/adapter.py,sha256=84d75-iYSLqzOpAjf1s3xKT6u7rAPyQo6OtvoczO_4A,15532
+nonebot/adapters/onebot/v11/bot.py,sha256=rkXzzUVRA7ZsGJsX_TjXSlxoAK3j3A1XhJ3ZqsiRqSA,7378
+nonebot/adapters/onebot/v11/bot.pyi,sha256=3bDFy1kdfO49IEKAFzmcRfZvaKQZzJIqivTSIL1fQZA,13748
+nonebot/adapters/onebot/v11/config.py,sha256=AGNU2J5bI70V_YwZH_EulSdRaxctMxz_LqLS0XPHrOg,823
+nonebot/adapters/onebot/v11/event.py,sha256=nuPggRwvskI-IvsoKtE0_Zw2gnU5PDyKWlmBmSWMeJs,14788
+nonebot/adapters/onebot/v11/exception.py,sha256=k_YDwaJBHSH2I2WxtN3OM-teiUAQZKywS2PtT9Aq6hI,1517
+nonebot/adapters/onebot/v11/helpers.py,sha256=HjA9aqpuMx8mxrWsXxVXwKEIs4aAV1W9q3OznyfWMsY,5095
+nonebot/adapters/onebot/v11/message.py,sha256=uSiFxUPCUrN1dwJ5I0ogXuQRosKuj41acW4WmTQXsB4,10285
+nonebot/adapters/onebot/v11/permission.py,sha256=1eYonC0UOtcbOxccSFK8af3CnTG1qhxDyYlFUAUDR_4,1954
+nonebot/adapters/onebot/v11/utils.py,sha256=wMdmNFm508DbSUX7W78dWVR4c7T9jCNLRtzav8aExvA,2818
+nonebot_adapter_onebot-2.0.0b1.dist-info/LICENSE,sha256=4EZBnkZPQYBvtO2KFGaUQHTO8nZ26pGeaCFchdBq_AE,1064
+nonebot_adapter_onebot-2.0.0b1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nonebot_adapter_onebot-2.0.0b1.dist-info/METADATA,sha256=Dv2yUETPjot6My3bsoYQbs9CFXRIRgPwIVtOIW8P4cI,1255
+nonebot_adapter_onebot-2.0.0b1.dist-info/RECORD,,
