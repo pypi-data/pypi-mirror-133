@@ -1,0 +1,26 @@
+AUTHORS
+BUGS
+CHANGELOG
+COPYING
+MANIFEST.in
+README.md
+TODO
+setup.py
+man/pysplitcue.1.gz
+pysplitcue/__init__.py
+pysplitcue/datastrings.py
+pysplitcue/exceptions.py
+pysplitcue/main.py
+pysplitcue/splitcue.py
+pysplitcue/str_utils.py
+pysplitcue.egg-info/PKG-INFO
+pysplitcue.egg-info/SOURCES.txt
+pysplitcue.egg-info/dependency_links.txt
+pysplitcue.egg-info/entry_points.txt
+pysplitcue.egg-info/not-zip-safe
+pysplitcue.egg-info/requires.txt
+pysplitcue.egg-info/top_level.txt
+tests/Three Samples.flac
+tests/Three Samples_ASCII.cue
+tests/Three Samples_ISO-8859-1.cue
+tests/test.py

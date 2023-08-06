@@ -1,0 +1,3 @@
+[console_scripts]
+pysplitcue = pysplitcue.main:main
+
