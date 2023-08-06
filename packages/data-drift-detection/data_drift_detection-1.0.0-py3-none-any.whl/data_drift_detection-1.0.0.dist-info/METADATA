@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: data-drift-detection
+Version: 1.0.0
+Summary: Data Drift Detection - MLOps project, Reichman University 2022 
+Home-page: https://github.com/guyfreund/data_drift_detector/
+Author: Guy Freund, Danielle Ben-Bashat, Elad Prager
+Author-email: guyfreund@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.12
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: cython (==0.29.26)
+Requires-Dist: distlib (==0.3.4)
+Requires-Dist: easydict (==1.9)
+Requires-Dist: filelock (==3.4.2)
+Requires-Dist: fonttools (==4.28.5)
+Requires-Dist: imbalanced-learn (==0.8.1)
+Requires-Dist: imblearn (==0.0)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: kiwisolver (==1.3.2)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.3.5)
+Requires-Dist: pillow (==8.4.0)
+Requires-Dist: pipenv (==2021.11.23)
+Requires-Dist: platformdirs (==2.4.1)
+Requires-Dist: pyparsing (==3.0.6)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: pyyaml (==6.0)
+Requires-Dist: ruamel.yaml.clib (==0.2.6)
+Requires-Dist: ruamel.yaml (==0.17.19)
+Requires-Dist: scikit-learn (==1.0.2)
+Requires-Dist: scipy (==1.7.3)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: setuptools (==60.2.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sortedcontainers (==2.4.0)
+Requires-Dist: threadpoolctl (==3.0.0)
+Requires-Dist: virtualenv-clone (==0.5.7)
+Requires-Dist: virtualenv (==20.12.0)
+Requires-Dist: xgboost (==1.5.1)
+
+Implementation of a Machine Learning Operations pipeline, which consists of: model training, data drift detection & data generation to generate data drift.
+Databases being used are: 
+- https://archive.ics.uci.edu/ml/datasets/bank+marketing
+- https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)
+
+
