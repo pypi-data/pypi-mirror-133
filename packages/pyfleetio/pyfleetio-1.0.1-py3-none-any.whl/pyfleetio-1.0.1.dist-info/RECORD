@@ -1,0 +1,16 @@
+fleetio/__init__.py,sha256=SbMfR4X0drWK_MVl2Lq5RTVuJW_CQgfLe7CaBlmUqfU,336
+fleetio/_meta.py,sha256=bMIenWosteoeUs51RbaWVZetIuzRhWymuyy-n0rfK0I,21
+fleetio/config.py,sha256=25yNxMY6hf2X-7E18kemKXtB-YT4A_A-9OoK5XBb7vo,245
+fleetio/endpoint.py,sha256=KXT3gtVtm2B-DG1KYP6SdQqcazlPSV5S8Nl6lRMYF-c,3603
+fleetio/error.py,sha256=pHOr_zcf704lUdMNyUbMdPQkEfhBA5VL82mxipJOTw8,1067
+fleetio/fleetio.py,sha256=WvamBNS6rR6goGzqjD2PTlUbf7Q9EfcW1Z5f-jGc8Cc,9295
+fleetio/request.py,sha256=UqGeXj7I8UzKH-z6hYMKeU2Cb1QkCoA8s9uihCmcYos,9127
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_endpoint.py,sha256=MPBz9N_ME9NXUMzHaDCM5c6R_iSSOXB3JVmEZO0ud8E,1787
+tests/test_fleetio.py,sha256=uuLQAQl9Q2U710pHW6ZVT-t_hMg7hLk6TyF3EM7IP90,4958
+tests/test_request.py,sha256=CG7P7OO6a6dPvpupc34cPMn2S-3ipzVn4rhTzxERsk4,6301
+pyfleetio-1.0.1.dist-info/LICENSE,sha256=H4Eex15YvXbU9hDNiyec0itHQqHT7CwPjeXmUA-2C_Q,1083
+pyfleetio-1.0.1.dist-info/METADATA,sha256=2Mlz4PNL2bnFYH2yRUDsen6F-o4765v1kbIh3YdTF7g,2937
+pyfleetio-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyfleetio-1.0.1.dist-info/top_level.txt,sha256=SpHJZfEP_J2NZ-VcjXeRaelAzDxXsBykStcQUwU_wJc,14
+pyfleetio-1.0.1.dist-info/RECORD,,
