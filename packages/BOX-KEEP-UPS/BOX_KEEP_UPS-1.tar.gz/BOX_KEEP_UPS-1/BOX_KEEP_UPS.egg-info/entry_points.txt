@@ -1,0 +1,3 @@
+[console_scripts]
+BOX_KEEP_UPS = BOX_KEEP_UPS.BoxKeepUps:main
+

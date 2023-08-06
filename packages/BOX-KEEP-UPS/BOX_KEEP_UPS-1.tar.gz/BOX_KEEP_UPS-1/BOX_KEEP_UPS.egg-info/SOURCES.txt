@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+BOX_KEEP_UPS/BoxKeepUps.py
+BOX_KEEP_UPS.egg-info/PKG-INFO
+BOX_KEEP_UPS.egg-info/SOURCES.txt
+BOX_KEEP_UPS.egg-info/dependency_links.txt
+BOX_KEEP_UPS.egg-info/entry_points.txt
+BOX_KEEP_UPS.egg-info/top_level.txt
