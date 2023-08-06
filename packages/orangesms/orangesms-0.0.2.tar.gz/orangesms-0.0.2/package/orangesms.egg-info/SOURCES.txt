@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+package/orangesms.egg-info/PKG-INFO
+package/orangesms.egg-info/SOURCES.txt
+package/orangesms.egg-info/dependency_links.txt
+package/orangesms.egg-info/top_level.txt
