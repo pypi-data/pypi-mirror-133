@@ -1,0 +1,3 @@
+setuptools>=28
+cmake>=3.4
+networkx>2
