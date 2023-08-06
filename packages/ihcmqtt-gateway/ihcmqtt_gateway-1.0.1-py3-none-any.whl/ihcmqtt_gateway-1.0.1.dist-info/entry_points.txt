@@ -1,0 +1,3 @@
+[console_scripts]
+ihcqmtt-gateway = ihcmqtt.gateway:main
+
