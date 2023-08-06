@@ -1,0 +1,3 @@
+[console_scripts]
+pocs = panoptes.pocs.utils.cli.main:app
+

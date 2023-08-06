@@ -1,0 +1,54 @@
+# Temporary and binary files
+*~
+*.so
+*.cfg
+!.isort.cfg
+!setup.cfg
+*.orig
+*.pot
+**/*.py[cod]
+**/*.log
+**/__pycache__/*
+.cache/*
+.*.swp
+*/.ipynb_checkpoints/*
+.DS_Store
+
+# Project files
+.ropeproject
+.project
+.pydevproject
+.settings
+.idea
+tags
+
+# Package files
+*.egg
+*.eggs
+.installed.cfg
+*.egg-info
+
+# Unittest and coverage
+htmlcov
+.tox
+junit.xml
+coverage.xml
+.coverage*
+.pytest_cache
+cover
+
+# Build and docs folder/files
+build
+dist
+sdist
+docs/api
+docs/_rst
+docs/_build
+MANIFEST
+
+# Per-project virtualenvs
+.venv*
+.ipynb_checkpoints
+
+logs
+conf_files/*_local.yaml
