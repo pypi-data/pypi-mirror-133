@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "minicord"
+version = "0.0.0a0"
+description = ""
+authors = ["aru <genericusername414@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
