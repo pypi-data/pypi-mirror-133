@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: January
+Version: 0.3
+Summary: a design of experiments platform based on an active learning method with artificial neural networks
+Home-page: https://github.com/Acpnohc/January
+Author: Jiacheng Huang
+Author-email: chonpcaacpnohc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+Requires-Dist: torch (==1.9.1)
+Requires-Dist: numpy (==1.18.5)
+Requires-Dist: scikit-opt (==0.6.5)
+Requires-Dist: scikit-learn (==0.24.1)
+
+# January
+a design of experiments platform based on an active learning method with artificial neural networks
+
+
