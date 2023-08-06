@@ -1,0 +1,8 @@
+biopython
+marshmallow
+numpy
+pyaml
+PyYAML
+requests
+openpyxl
+wheel
