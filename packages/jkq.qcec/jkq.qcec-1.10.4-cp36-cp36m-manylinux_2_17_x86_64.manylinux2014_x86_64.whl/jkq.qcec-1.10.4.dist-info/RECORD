@@ -1,0 +1,7 @@
+jkq.qcec-1.10.4.dist-info/METADATA,sha256=eady6qVFdhBCDlcSn6RkDXNkv_REKEV4E3uzGc8wv3k,16526
+jkq.qcec-1.10.4.dist-info/WHEEL,sha256=YVAXCacQXnznQ-_lMj8Nvqrs7YPtMP1pHRCw9EcyWRQ,150
+jkq.qcec-1.10.4.dist-info/RECORD,,
+jkq.qcec-1.10.4.dist-info/LICENSE,sha256=wqrok2jUnEfhaxfKQDPzX8TX_xbB_KhQjNJm8AVH0eo,1087
+jkq.qcec-1.10.4.dist-info/top_level.txt,sha256=nB1xwAtwXKBSsnrBFmeN1TAtqdvHHkKqLb9XGsogMTs,11
+jkq/qcec/__init__.py,sha256=txjy69OSYD4Y3tuDcR9IHhopH0B0FKKH3ACD0GstYz4,286
+jkq/qcec/pyqcec.cpython-36m-x86_64-linux-gnu.so,sha256=vSvRRHCBX2menDP_Ii5pHRqYVLUvCjGPe8fjSwkbsu4,1499024
