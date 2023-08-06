@@ -1,0 +1,3 @@
+[console_scripts]
+svgsprite = svgsprite:svgsprite.main
+
