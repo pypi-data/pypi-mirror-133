@@ -1,0 +1,10 @@
+aws_cdk/aws_finspace/__init__.py,sha256=O3q2UkrWiltR2RqDpDuYaWp3nneL3WWue9vy_uN8RV8,34864
+aws_cdk/aws_finspace/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_finspace/_jsii/__init__.py,sha256=e-ammLfSUl0YakUzpEpdFLJ4q3RFcRzqNYrfOfUZB4o,351
+aws_cdk/aws_finspace/_jsii/aws-finspace@1.138.0.jsii.tgz,sha256=WGi0kvws4Kge9Cpmeyuxubmoelh7HVGs38xhBlW2MEg,27356
+aws_cdk.aws_finspace-1.138.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_finspace-1.138.0.dist-info/METADATA,sha256=hwT2iZr1l-c2riKRzfbkDTjFZx0uES_Hte43atNoI0Y,2444
+aws_cdk.aws_finspace-1.138.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_finspace-1.138.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_finspace-1.138.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_finspace-1.138.0.dist-info/RECORD,,
