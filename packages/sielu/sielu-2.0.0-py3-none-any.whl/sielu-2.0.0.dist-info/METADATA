@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sielu
+Version: 2.0.0
+Summary: An activation function
+Home-page: UNKNOWN
+Author: Bulbul Ahmed, Dr. M A Iquebal, Dr. Sarika
+Author-email: ahmedbulbul52@gmail.com, jiqubal@gmail.com , aijaiswal@gmail.com
+License: MIT
+Keywords: Activation Function
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is an activation function can be used in deep learning model development.
+
+
+Change Log
+==========
+
+0.0.1 (04/1/2022)
+-------------------
+- First Release
+
+
