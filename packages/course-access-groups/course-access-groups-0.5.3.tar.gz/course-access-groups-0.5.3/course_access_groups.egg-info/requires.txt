@@ -1,0 +1,6 @@
+XBlock
+django-filter
+Django
+edx-organizations
+edx-opaque-keys
+django-model-utils
