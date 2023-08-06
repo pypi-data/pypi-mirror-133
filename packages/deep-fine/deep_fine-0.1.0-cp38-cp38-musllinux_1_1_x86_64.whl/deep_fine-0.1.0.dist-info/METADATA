@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: deep-fine
+Version: 0.1.0
+Summary: an artificial neural network framework built from scratch using just Python and Numpy
+Home-page: https://github.com/haidousm/fine
+Author: Moussa Haidous
+Author-email: haidous.m@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: cython
+Requires-Dist: opencv-python
+Requires-Dist: requests
+Requires-Dist: tqdm
+
+UNKNOWN
+
