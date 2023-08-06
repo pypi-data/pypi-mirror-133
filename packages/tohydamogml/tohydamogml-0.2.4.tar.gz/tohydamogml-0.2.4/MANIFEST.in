@@ -1,0 +1,6 @@
+recursive-include docs *
+recursive-include scripts *
+recursive-exclude output *
+include environment.yml
+recursive-include examples *
+recursive-include src *
