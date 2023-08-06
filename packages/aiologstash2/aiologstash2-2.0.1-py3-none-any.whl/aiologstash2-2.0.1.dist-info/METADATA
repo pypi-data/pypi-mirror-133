@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: aiologstash2
+Version: 2.0.1
+Summary: 
+Home-page: https://github.com/aviramha/aiologstash2
+License: MIT
+Author: Aviram Hassan
+Author-email: aviramyhassan@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: async-timeout (>=4.0.2,<5.0.0)
+Requires-Dist: python-logstash (>=0.4.6,<0.5.0)
+Project-URL: Repository, https://github.com/aviramha/aiologstash2
+Description-Content-Type: text/markdown
+
+# aiologstash2
+
+[![image](https://travis-ci.org/aio-libs/aiologstash.svg?branch=master)](https://travis-ci.org/aio-libs/aiologstash)
+
+[![image](https://codecov.io/gh/aio-libs/aiologstash/branch/master/graph/badge.svg)](https://codecov.io/gh/aio-libs/aiologstash)
+
+[![image](https://badge.fury.io/py/aiologstash.svg)](https://badge.fury.io/py/aiologstash)
+
+asyncio logging handler for logstash.
+
+# Installation
+
+``` shell
+pip install aiologstash2
+```
+
+# Usage
+
+``` python
+import logging
+from aiologstash2 import create_tcp_handler
+
+async def init_logger():
+     handler = await create_tcp_handler('127.0.0.1', 5000)
+     root = logging.getLogger()
+     root.setLevel(logging.DEBUG)
+     root.addHandler(handler)
+```
+
+# Thanks
+
+This is an actively maintained fork of [aio-libs'
+aiologstash](https://github.com/aio-libs/aiologstash)
+
+The library was donated by [Ocean S.A.](https://ocean.io/)
+
+Thanks to the company for contribution.
+
