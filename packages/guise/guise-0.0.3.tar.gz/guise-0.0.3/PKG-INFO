@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: guise
+Version: 0.0.3
+Summary: Semantic fingerprinting
+Home-page: https://github.com/thorwhalen/guise
+Author: Thor Whalen
+License: apache-2.0
+Description: 
+        # guise
+        Semantic fingerprinting
+        
+        
+        To install:	```pip install guise```
+        
+Platform: any
+Description-Content-Type: text/markdown
