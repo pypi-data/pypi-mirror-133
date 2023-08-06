@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tornado-swagger
+Version: 1.4.0
+Summary: Swagger API Documentation builder for tornado server
+Home-page: https://github.com/mrk-andreev/tornado-swagger
+Author: Mark Andreev
+Author-email: mark.andreev@gmail.com
+License: MIT License
+Download-URL: https://pypi.org/project/tornado-swagger/#files
+Platform: UNKNOWN
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+
