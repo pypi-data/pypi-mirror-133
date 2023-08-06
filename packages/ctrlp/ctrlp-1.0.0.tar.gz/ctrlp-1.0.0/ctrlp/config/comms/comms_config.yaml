@@ -1,0 +1,2 @@
+hardware: "dynamixel"
+devnames: ["COM7"]
