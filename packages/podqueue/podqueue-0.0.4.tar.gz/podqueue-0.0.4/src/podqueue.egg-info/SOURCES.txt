@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/config.ini
+src/podqueue.egg-info/PKG-INFO
+src/podqueue.egg-info/SOURCES.txt
+src/podqueue.egg-info/dependency_links.txt
+src/podqueue.egg-info/top_level.txt
