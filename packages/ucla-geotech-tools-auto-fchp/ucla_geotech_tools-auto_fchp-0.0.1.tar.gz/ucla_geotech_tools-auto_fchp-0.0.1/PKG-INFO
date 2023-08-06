@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ucla_geotech_tools-auto_fchp
+Version: 0.0.1
+Summary: Python package for automatically selecting high-pass filter corner frequency.
+Home-page: UNKNOWN
+Author: Scott J. Brandenberg
+Author-email: sjbrandenberg@ucla.edu
+License: UNKNOWN
+Description: # Welcome to ucla_geotech_tools.auto_fchp
+        
+        auto_fchp selects a high pass corner frequency for ground motion selection using the following approach
+        
+        1. subtract the mean and apply a Tukey window (shape parameter = 0.2) to the time series
+        2. compute the Fourier transform of the input acceleration record
+        3. apply a Butterworth filter of the specified fchp_min and order
+        4. integrate the filtered acceleration twice to obtain displacement
+        5. fit a 6th order polynomial to the displacement record
+        6. check the ratio of the amplitude of the polynomial fit to the amplitude of the displacement record. If the ratio is less than the target, return fchp = fchp_min
+        7. apply a Butterworth filter of the specified fchp_max and order
+        8. integrate the filtered acceleration twice to obtain displacement
+        9. fit a 6th order polynomial to the displacement record
+        10. check the ratio of the amplitude of the polynomial fit to the amplitude of the displacement record. If the ratio is greater than the target, return fchp = -1, indicating that a suitable filter corner frequency could not be identified
+        11. use Ridders method to iterate on fchp until |fit/disp - target| < tol
+        12. return fchp  
+        
+        ## Installation  
+        ```bash
+        pip install ucla_geotech_tools.response_spectrum
+        ```
+        
+        ## Command
+        ```bash
+        get_response_spectrum(double dt, double[:] acc, double target, double tol, double order, double maxiter, double fchp_min, double fchp_max)
+        ```
+        
+        ## Input parameters.
+        ```python
+        dt = time step
+        acc = array of acceleration values
+        target = desired ratio of polynomial fit to displacement record
+        tol = convergence tolerance
+        order = Butterworth filter order
+        maxiter = maximum number of iterations to perform
+        fchp_min = minimum value of fchp. If the displacement is stable when filtered using fchp_min, then fchp = fchp_min.
+        fchp_max = maximum value of fchp. Records will be rejected if the displacement is unstable when filtered using fchp_max.
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
