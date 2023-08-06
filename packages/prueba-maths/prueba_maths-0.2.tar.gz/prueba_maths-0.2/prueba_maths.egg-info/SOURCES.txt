@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+maths/__init__.py
+maths/ops.py
+prueba_maths.egg-info/PKG-INFO
+prueba_maths.egg-info/SOURCES.txt
+prueba_maths.egg-info/dependency_links.txt
+prueba_maths.egg-info/requires.txt
+prueba_maths.egg-info/top_level.txt
