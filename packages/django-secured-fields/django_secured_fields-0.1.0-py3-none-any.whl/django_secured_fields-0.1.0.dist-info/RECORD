@@ -1,0 +1,12 @@
+secured_fields/__init__.py,sha256=DpR_KCoaoK1HKu_kiSBNNM2_Pdxpigi6xoK0hdhKZ1Y,44
+secured_fields/apps.py,sha256=s_ofREUzavLAtJfbFHA2kT2bv7Vzwc76pcfDOswdj2E,138
+secured_fields/fernet.py,sha256=A8gwC1cYl39fEfnDjrVuO2x6ZzzazR4zZIpO4fZKlec,461
+secured_fields/fields/__init__.py,sha256=VcR5dsXU5cXgbGQcc002i4_Qd6Mxn-__PO0vyLrdGCU,1424
+secured_fields/fields/files.py,sha256=AY6lFqIqvd_L35drnlUp3xz1UEaYbOphzohQ9nvUog8,982
+secured_fields/management/commands/generate_key.py,sha256=qHnSuXF0nxBh1l0mKY34ijFfAFIS_JvzXIuU8ERC1To,288
+secured_fields/mixins.py,sha256=fzHRbfH4ecMMPeZjFDPyw31aL06hz2nBhpET1_o4bXE,2937
+secured_fields/storage.py,sha256=RjroD6m2kAWlDrtAli6Hyk9tmdabYABvmE0PtoD586o,172
+django_secured_fields-0.1.0.dist-info/LICENSE,sha256=v-C8qQAALZ9jCP3a3Q-nKRho0diJGv7KHAfusleNt_E,1182
+django_secured_fields-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_secured_fields-0.1.0.dist-info/METADATA,sha256=Peu6NhbgJpiFNjByZc4Hs8kkFb8IAxIgixcHJ9_uOzs,1821
+django_secured_fields-0.1.0.dist-info/RECORD,,
