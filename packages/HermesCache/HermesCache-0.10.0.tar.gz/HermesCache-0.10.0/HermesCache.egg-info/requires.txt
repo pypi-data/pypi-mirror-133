@@ -1,0 +1,10 @@
+
+[memcached]
+pymemcache
+
+[redis]
+redis
+
+[redis-ext]
+redis
+hiredis
