@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+kozip/KoZIP.py
+kozip/__init__.py
+kozip.egg-info/PKG-INFO
+kozip.egg-info/SOURCES.txt
+kozip.egg-info/dependency_links.txt
+kozip.egg-info/not-zip-safe
+kozip.egg-info/top_level.txt
