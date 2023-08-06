@@ -1,0 +1,10 @@
+genespeak/__init__.py,sha256=Ui674Csn-7J6wb3JoCNoXztaL1Fa6XMHXcRatomtGeA,479
+genespeak/converter.py,sha256=t-06zY1e9DuM_xyI7d9qYo9WdOBU1snwYPISbZF3xgg,8215
+genespeak/core.py,sha256=fAlxNGlmP61wK220T7jb89sM4s2wC48-qxj8Es0Ht0Q,1650
+genespeak/text_strategies.py,sha256=EgGVutIi7MUOIODhbYo4t-kRnsbmeNYgy_99quKzsTQ,1293
+genespeak/utils.py,sha256=gNom_BAttWqPJvrzju9UQBr_hep7WWmw33XBKdazqsY,992
+genespeak-0.0.4.dist-info/LICENSE,sha256=weSMggCvKNlLRJf71P3f6VSZdbN3PlJN_47ONo9PmAk,1067
+genespeak-0.0.4.dist-info/METADATA,sha256=3QNDnD9YdxpMXLJtMQhZL23rVQcIsrZfL-9xcIEcmnI,3777
+genespeak-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+genespeak-0.0.4.dist-info/top_level.txt,sha256=d3wm_pDcEY2jJtn2SBo0kRwNl260ImJBI2K9RDkHiF0,10
+genespeak-0.0.4.dist-info/RECORD,,
