@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: openai-slim
+Version: 0.11.6
+Summary: Python client library for the OpenAI API
+Home-page: https://github.com/PeterMitrano/openai-python-slim
+Author: OpenAI
+Author-email: mitranopeter@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.1
+License-File: LICENSE
+Requires-Dist: requests (>=2.20)
+Provides-Extra: dev
+Requires-Dist: black (~=21.6b0) ; extra == 'dev'
+Requires-Dist: pytest (==6.*) ; extra == 'dev'
+
+UNKNOWN
+
