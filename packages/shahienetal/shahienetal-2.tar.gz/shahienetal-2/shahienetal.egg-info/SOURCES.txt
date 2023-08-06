@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+shahienetal/BeegsAndBrell.py
+shahienetal/DepthSurvey.py
+shahienetal/FluidProperties.py
+shahienetal/Solving_Intersections.py
+shahienetal/TraverseCurve.py
+shahienetal/Vogel.py
+shahienetal/WaterProps.py
+shahienetal/__init__.py
+shahienetal.egg-info/PKG-INFO
+shahienetal.egg-info/SOURCES.txt
+shahienetal.egg-info/dependency_links.txt
+shahienetal.egg-info/requires.txt
+shahienetal.egg-info/top_level.txt
