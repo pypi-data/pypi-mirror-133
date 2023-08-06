@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: modxlib23
+Version: 0.2.1
+Summary: Package of utilities for CTPS Model Data Explorer for TDM23
+Home-page: https://github.com/CTPSSTAFF/modxlib23
+Author: Ben Krepp
+Author-email: bkrepp@ctps.org
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/CTPSSTAFF/modxlib23/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# modxlib23
+
+__modxlib23__ is a package of common functions, data, and classes used in the CTPS Model Data Explorer.  
+
+See https://github.com/CTPSSTAFF/modxlib23 for documentation.
+
+
