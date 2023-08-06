@@ -1,0 +1,17 @@
+pulse3D/__init__.py,sha256=BpG5AoUmGldaWJyAxTwN-UN_3hlhfiC2fNtlva95uRE,102
+pulse3D/compression_cy.cpython-37m-darwin.so,sha256=GH-jbnprBAAVgput0NKq2tRn5_SvETXiltRmUnxACFA,206624
+pulse3D/compression_cy.pyx,sha256=cUhllhDxhD72i_HkHc5O1jbwrAi6lHihyBNa0BXiJZw,4200
+pulse3D/constants.py,sha256=wnqKWM8Ieu3uMgCPjL6QGTzS-OUikPAfdJQOQCCrn0k,16929
+pulse3D/excel_writer.py,sha256=RwI916AQErXg_tWq5I4LbymXkr6gmYbUx_Zdj58D4wQ,24909
+pulse3D/exceptions.py,sha256=xRzE0Ea1NZ_inqn8zgaQEU5p5Mdfk16S7MCU01FEJQc,1456
+pulse3D/magnet_finding.py,sha256=qaHPGg597uxqing8rqBhS5eayk1Y5FdTWq3j4i9_nkM,10873
+pulse3D/metrics.py,sha256=6F-_WdyNRWuTX0AjA3co5hrPcXVKsQz_NE-VExXPBOo,41298
+pulse3D/peak_detection.py,sha256=Li6YUJ04203nAsqM7Mq8IKyv3eFVchlyCbfOE_D3DvA,12951
+pulse3D/plate_recording.py,sha256=2nR8gp12sLrEzKLJmISjkMGNKM89M_ZbvR9K8jqYn2I,21843
+pulse3D/transforms.py,sha256=VQxwhFEIWM5p3zI3GAua83VZCF0XTR6hl2xULFB1Irc,10769
+pulse3D/utils.py,sha256=aQnlDcBse_u3P7SDML8OjBlIBv8f-ooasrUpiRvRTFQ,10365
+Pulse3D-0.20.0.dist-info/LICENSE,sha256=dRvw8RqoD0To6-52uMxrdIxe6mgSUiLVSaENxvdHY8M,1065
+Pulse3D-0.20.0.dist-info/METADATA,sha256=CoPYoM5K40VpelMbA5rYt4sYCadpsbHlob1es_vcIqQ,1287
+Pulse3D-0.20.0.dist-info/WHEEL,sha256=JoRoAcGcB07oxwVUj_ocWLs1R-8Timenr03_jU7LVfc,111
+Pulse3D-0.20.0.dist-info/top_level.txt,sha256=DeZmlbR8XgR7GacL6BxmKWXXs6KD9HBbbXnX70C9CTs,8
+Pulse3D-0.20.0.dist-info/RECORD,,
