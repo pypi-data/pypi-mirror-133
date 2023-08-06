@@ -1,0 +1,17 @@
+exact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exact/admin.py,sha256=bMnq8cyLGtfdtbCs4XzrCFnhYgdymmdDy9QtuG-2sAs,698
+exact/api.py,sha256=8dUJDwMHA_USXVNTGQA-oXSJQNrbzw2bfYl0cNkzur4,11197
+exact/app.py,sha256=0sPTOzxsUDPQNqUmTnPEA-uBlMR2fa201C6GtcT0CGs,214
+exact/models.py,sha256=VwEkemOzHXeSy_IH4r0iuoY0TAd911ihOzIE-hFsiVU,2099
+exact/signals.py,sha256=pHO9KOrqqdOsIdfMvXuY_6ziyM5iWtIwYKbH1LBknrA,1195
+exact/storage.py,sha256=v3g_BbweqPsSOxde7V3FbMFq30WOelm0-828Wjro3Y0,1491
+exact/urls.py,sha256=-uC1s605bMhkCLfZHaPCxWgxZ0AuBHoHN70hH9k4U6k,291
+exact/views.py,sha256=xbPTgHAw8qrrdBZPMOfKjyax2H4mmTWScKHkGpW5Nx8,2552
+exact/migrations/0001_initial.py,sha256=bJ-WleZzePlQUWOdZfLae8nGdEhbh5tk3j7pM64uryA,2415
+exact/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+exact/templates/exact/status.html,sha256=y36gjJLKjVQ7p8KCi3n7YfHeK-d_n091tNQU_X-vNUk,772
+django_exact-0.4.0.dist-info/LICENSE.txt,sha256=s6tsJFwoGPMEu6WgLYfP_-ks18dZ-p6kfBygd5oZz24,1085
+django_exact-0.4.0.dist-info/METADATA,sha256=nV4peZUkT4rhVjoLDH1qARKPXyOSH4ExZUXgA4z9HDY,394
+django_exact-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_exact-0.4.0.dist-info/top_level.txt,sha256=jiZvQmZ5iJav0Cn9BQLXztORxhLaYASF_2j6BMmEtjA,6
+django_exact-0.4.0.dist-info/RECORD,,
