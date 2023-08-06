@@ -1,0 +1,1 @@
+swimlane_connector_exceptions<2,>=1.0.1
