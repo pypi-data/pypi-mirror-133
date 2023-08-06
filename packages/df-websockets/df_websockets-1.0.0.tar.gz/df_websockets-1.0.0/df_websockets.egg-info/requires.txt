@@ -1,0 +1,7 @@
+asgiref
+channels
+channels_redis
+django
+hiredis<2.0
+pyasn1>=0.4.8
+redis
