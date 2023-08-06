@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+anarchychess.egg-info/PKG-INFO
+anarchychess.egg-info/SOURCES.txt
+anarchychess.egg-info/dependency_links.txt
+anarchychess.egg-info/top_level.txt

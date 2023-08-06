@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: anarchychess
+Version: 0.0.1
+Summary: A Python chess package
+Home-page: https://github.com/JLpython-py/AnarchyChess
+Author: Jacob Lee
+Author-email: JLpython@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Games/Entertainment :: Turn Based Strategy
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AnarchyChess
+
+
