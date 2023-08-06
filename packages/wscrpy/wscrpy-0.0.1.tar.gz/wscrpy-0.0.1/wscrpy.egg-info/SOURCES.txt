@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+wscrpy/__init__.py
+wscrpy.egg-info/PKG-INFO
+wscrpy.egg-info/SOURCES.txt
+wscrpy.egg-info/dependency_links.txt
+wscrpy.egg-info/requires.txt
+wscrpy.egg-info/top_level.txt
