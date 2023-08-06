@@ -1,0 +1,3 @@
+[console_scripts]
+list=notion_cli_list_manager.main:app
+
