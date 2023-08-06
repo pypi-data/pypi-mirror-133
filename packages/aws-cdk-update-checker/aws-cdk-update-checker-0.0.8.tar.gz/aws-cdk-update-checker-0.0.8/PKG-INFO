@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aws-cdk-update-checker
+Version: 0.0.8
+Summary: This script fetches latest version of AWS CDK.
+Home-page: https://github.com/morning-code/aws-cdk-update-checker
+License: MIT
+Author: otajisan
+Author-email: dev@morningcode.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Documentation, https://github.com/morning-code/aws-cdk-update-checker
+Project-URL: Repository, https://github.com/morning-code/aws-cdk-update-checker
