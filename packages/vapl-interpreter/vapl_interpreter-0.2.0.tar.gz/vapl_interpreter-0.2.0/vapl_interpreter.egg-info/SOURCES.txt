@@ -1,0 +1,9 @@
+README.md
+setup.py
+vapl_interpreter/__init__.py
+vapl_interpreter/errors.py
+vapl_interpreter.egg-info/PKG-INFO
+vapl_interpreter.egg-info/SOURCES.txt
+vapl_interpreter.egg-info/dependency_links.txt
+vapl_interpreter.egg-info/not-zip-safe
+vapl_interpreter.egg-info/top_level.txt
