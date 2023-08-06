@@ -1,0 +1,11 @@
+LorisBallsBasedModel/__init__.py,sha256=Ed8j2Y6t-S_sdjbKgnMJJx-6H1iWq2WZkHrxjyCEJhg,101
+LorisBallsBasedModel/Layers/BoundedParaboloids.py,sha256=CGUKGDratSuOJXkz-eCNVfjevEjhKuRL1_JMSTgqyZg,7335
+LorisBallsBasedModel/Layers/Processing.py,sha256=eITPX6mEZYf7SBLRBfe_EMfGuoaoyJI1jOjKrko150g,2765
+LorisBallsBasedModel/Layers/__init__.py,sha256=XaQJdE6AHL2R96EhIoFJfVJt65WUEuvMAvCPoWwwVGE,211
+LorisBallsBasedModel/Models/Models.py,sha256=H_8OAtW6Fbf9VbFT6dtfvkj46Dx6uWw8PYth3BXZP1s,3235
+LorisBallsBasedModel/Models/__init__.py,sha256=NC9aTw4QpmO_uHBVd6Sr77KROSDAj5U65MXLFQKBqJ4,112
+LorisBallsBasedModel-0.0.1.dist-info/LICENSE,sha256=DQAoPPre8nyZ4HY57FDFlEyEgisrSs2z4lJyxUXiJlY,1085
+LorisBallsBasedModel-0.0.1.dist-info/METADATA,sha256=iZp6NODu-DYamid2pJtiT1nbmCqwgDVjv-YPWAHtvhI,683
+LorisBallsBasedModel-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LorisBallsBasedModel-0.0.1.dist-info/top_level.txt,sha256=nMuwW_DFZNLYitribQdei_LyPPUO6QrjgmxIt73aW4c,21
+LorisBallsBasedModel-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: LorisBallsBasedModel
+Version: 0.0.1
+Summary: A package that allows to build neural networks models using my balls.
+Home-page: UNKNOWN
+Author: Loris Pilotto
+Author-email: loris.pilotto.pm@gmail.com
+License: UNKNOWN
+Keywords: python,neural network,tensorflow,LorisBallsBasedModel,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: tensorflow
+
+UNKNOWN
+
