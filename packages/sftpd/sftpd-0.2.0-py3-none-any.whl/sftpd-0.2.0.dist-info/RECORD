@@ -1,0 +1,11 @@
+sftpd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sftpd/application.py,sha256=iXpEMWIJdImqVWdKUIGRApc4D1IdCYZn87XYBnCx3aM,555
+sftpd/server.py,sha256=mIvqDtKXO26CDHVLFC7cVv4gzKqjXWK3QbETy03prnc,2221
+sftpd/simple.py,sha256=uqMdzJUse1Bvy-xHrFYY_IKFRhYUJh-b16zYYscjhzU,8523
+sftpd/utils.py,sha256=UGWjQ6Fn_GJ0N9J4xcvsIzc6rNYhb-5fW9Lhr1j-mUs,1072
+sftpd-0.2.0.dist-info/LICENSE,sha256=XO4ia4ZQeQVVd06OxmRLbROjHPNiMbpzFnSYVPNAdhY,1067
+sftpd-0.2.0.dist-info/METADATA,sha256=73sALvgoiwQStH4dN3hFrHeEP4wLrTb73VR-pzcehUE,4123
+sftpd-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sftpd-0.2.0.dist-info/entry_points.txt,sha256=7-P846BYteZbgOjM7yyD9rN5jGuJrPm7bDbxpS4dBAY,50
+sftpd-0.2.0.dist-info/top_level.txt,sha256=jEM8b9VmlDqGljziZdUhKTOB_J8Qflgh8i2b7eBQl9Y,6
+sftpd-0.2.0.dist-info/RECORD,,

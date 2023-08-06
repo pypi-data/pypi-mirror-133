@@ -1,0 +1,160 @@
+Metadata-Version: 2.1
+Name: sftpd
+Version: 0.2.0
+Summary: A simple multi-thread sftp server.
+Home-page: UNKNOWN
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Keywords: sftpd
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: paramiko
+Requires-Dist: pyyaml
+Requires-Dist: dictop
+Requires-Dist: appserver
+
+# sftpd
+
+A simple multi-thread sftp server.
+
+
+## Install
+
+```
+pip install sftpd
+```
+
+## Usage
+
+```
+C:\workspace\sftpd>sftpd --help
+Usage: sftpd [OPTIONS] COMMAND [ARGS]...
+
+Options:
+-c, --config FILENAME  Config file path, use yaml format.
+--help                 Show this message and exit.
+
+Commands:
+reload  Reload application server.
+start   Start application server.
+stop    Stop application server.
+```
+
+##Example start
+
+```
+D:\sftpd>dir
+
+D:\sftpd 
+
+2018/05/18  20:51    <DIR>          .
+2018/05/18  20:51    <DIR>          ..
+2018/05/18  20:39             1,036 sftpd.yml
+2018/05/18  20:06                36 users.yml
+            2 files          1,072 bytes
+            2 folders 289,594,834,944 bytes
+
+e:\sftpd>sftpd start
+2018-05-18 20:39:30,548 DEBUG   sftp server starting with config = {'application': {'daemon': False, 'main': 'sftpd.server.sftp_server'}, 'server': {'binding': '0.0.0.0', 'port': 2222, 'backlog': 32}, 'sftpd': {'root': 'e:/sftpd', 'keyfile': '~/.ssh/id_rsa', 'users': 'users.yml'}, 'logging': {'version': 1, 'disable_existing_loggers': False, 'formatters': {'simple': {'format': '%(asctime)-15s\t%(levelname)s\t%(message)s'}}, 'handlers': {'console': {'class': 'logging.StreamHandler', 'level': 'DEBUG', 'formatter': 'simple'}, 'file': {'class': 'logging.handlers.TimedRotatingFileHandler', 'level': 'DEBUG', 'formatter': 'simple', 'filename': 'server.log', 'backupCount': 30, 'when': 'D', 'interval': 1, 'encoding': 'utf-8'}}, 'loggers': {'sftpd': {'level': 'DEBUG', 'handlers': ['file', 'console'], 'propagate': False}}, 'root': {'level': 'DEBUG', 'handlers': ['file', 'console']}}}.
+2018-05-18 20:39:30,548 DEBUG   sftp server start socket listening: binding=0.0.0.0, port=2222, backlog=32.
+2018-05-18 20:39:30,564 DEBUG   sftp server wating connection...
+
+```
+
+## Example config
+
+```
+application:
+    daemon: true
+    pidfile: sftpd.pid
+
+server:
+    binding: 0.0.0.0
+    port: 2222
+    backlog: 32
+
+sftpd:
+    root: e:/sftpd
+    keyfile: ~/.ssh/id_rsa
+    users: users.yml
+
+logging:
+    version: 1
+    disable_existing_loggers: false
+    formatters:
+        simple:
+            format: "%(asctime)-15s\t%(levelname)s\t%(message)s"
+    handlers:
+        console:
+            class: logging.StreamHandler
+            level: DEBUG
+            formatter: simple
+        file:
+            class: logging.handlers.TimedRotatingFileHandler
+            level: DEBUG
+            formatter: simple
+            filename: server.log
+            backupCount: 30
+            when: D
+            interval: 1
+            encoding: utf-8
+    loggers:
+        sftpd:
+            level: DEBUG
+            handlers:
+                - file
+                - console
+            propagate: no
+    root:
+        level: DEBUG
+        handlers:
+            - file
+            - console
+```
+
+Note:
+
+1. sftpd.root defaults to os.getcwd().
+1. sftpd.keyfile defaults to ~/.ssh/id_rsa.
+2. You can use ssh-keygen to generate server key.
+3. sftpd.users defaults to users.yml, it is yaml format config file contains users and users' password.
+
+
+## Example users
+
+```
+user01:
+    password: user01's-password
+user02:
+    password: user02's-password
+```
+
+Note:
+
+1. sftpd will always reload data from users.yml while doing authentication.
+
+## Releases
+
+### v0.1.0 2018/03/18
+
+- First release.
+
+### v0.1.1 2018/03/18
+### v0.1.2 2018/03/21
+
+- Update.
+
+### v0.2.0 2022/01/08
+
+- Fix license file missing problem.
+
+
