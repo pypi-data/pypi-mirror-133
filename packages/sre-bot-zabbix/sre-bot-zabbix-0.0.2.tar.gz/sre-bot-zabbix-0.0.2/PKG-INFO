@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sre-bot-zabbix
+Version: 0.0.2
+Summary: SRE Bot for zabbix communication
+Home-page: https://github.com/marcwimmer/sre-bot-zabbix
+Author: Marc-Christian Wimmer
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# sre-bot-zabbix
+
+Uses zabbix-sender protocol to send values (char, int, float)
+to trapped zabbix-items.
+Automatically sets hosts in zabbix and adds trapped items, that can be filled.
+
+
+# Configuration
+
+```bash
+
+``
+
+# How to upload new version
+  * increase version in setup.py
+  * one time: pipenv install twine --dev
+  * pipenv shell
+  * python3 setup.py upload
+
+# install directly
+
+pip3 install git+https://github.com/marcwimmer/sre-bot`
+
