@@ -1,0 +1,12 @@
+pyllelic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyllelic/__version__.py,sha256=Do_DLrCt4hwq8Qcemn_iXTIljTHhnDXSCuuHSZhJ-bI,356
+pyllelic/config.py,sha256=BwbwHDJh33LA4pZ8YAMjWgzcM6VyVPI57AW634P3uR4,588
+pyllelic/process.py,sha256=WszROJGz_y8z2bOcoIZVscavwhZiMbprBNxF6wYVxas,6511
+pyllelic/pyllelic.py,sha256=ekIsUZYWifTBjKJZkln-XmQoY-FU1vI6hl0zr9AdbDo,31436
+pyllelic/quma.py,sha256=j0tvNqXKT6gKBTq39F4uRwO_0apg-t9pRtFjAtjgk5c,20499
+pyllelic/visualization.py,sha256=cdn1oKWNYZVL-gesePJZnG7pCefFLqgUMYiALwuocw8,10890
+pyllelic-0.3.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyllelic-0.3.2.dist-info/METADATA,sha256=20EYr3jEU7in_nyXAWc_6E351-YSz0tVmeyWj_J_3oM,7315
+pyllelic-0.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyllelic-0.3.2.dist-info/top_level.txt,sha256=gMITZgZ1xjevFwYNOxtvgoTEl8rC0W1uQuHX6vwOfoE,9
+pyllelic-0.3.2.dist-info/RECORD,,
