@@ -1,0 +1,13 @@
+telegram_reminder_bot/__init__.py,sha256=2jIkMBJb_gTsOkmcIjoADzj7g6-41_PuF1pqPJxoG5E,103
+telegram_reminder_bot/bot.py,sha256=kAz08Els_TWmw4_6dIBWLgvNaQjLBHWXOJXOjAPjLzQ,26189
+telegram_reminder_bot/config.example.ini,sha256=UkIp3A1bW6w6AP943FFL9jYNESMBHZSdwE3RSA1xbrw,958
+telegram_reminder_bot/config.ini,sha256=DEVf-w8m6ajEykdM0oIeL4VLDIRwiVvX9YKyXrigvOg,460
+telegram_reminder_bot/entrypoint.py,sha256=jfOgBijmEIJGzHxbhM-g05j_Of1YSZ-yKbTfv46Jr4I,4422
+telegram_reminder_bot/models.py,sha256=KiaaLJwMuXj-qMGOuosL5CEFUGTujCYSnKVWSjYSExA,6982
+telegram_reminder_bot/telegram_reminder_bot.db,sha256=d8yoh_Wl4sTZpxO0htHI5-rdvHdVuefXfJ2cK4tcxhA,8192
+telegram_reminder_bot/test.db,sha256=myj7hz3fZOKb0KZnpH_jlMr-toVWtrrW7w6MP6DMGkw,8192
+telegram_reminder_bot-0.1.0.dist-info/entry_points.txt,sha256=Yb7clQvpbBH76BVGLYIzq8KhqtdyVvwM3PGia7dj2oo,79
+telegram_reminder_bot-0.1.0.dist-info/LICENSE,sha256=H-wMCuCJZ1aRasRVOdy8q2f6MCV_cLkmCdPk4Y24FFI,1070
+telegram_reminder_bot-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+telegram_reminder_bot-0.1.0.dist-info/METADATA,sha256=kniFINihQx0Trn6-Nr1BDB_FtZAUXXBIJyTuEGqyCzs,643
+telegram_reminder_bot-0.1.0.dist-info/RECORD,,
