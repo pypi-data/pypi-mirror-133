@@ -1,0 +1,15 @@
+signals/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signals/signal.py,sha256=NvgUtZcnIKhw7zbQLChOd1rZ4CRy_9SHK3XI8uAM_Q8,6565
+signals/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signals/functions/baseline.py,sha256=CAw4c0SeudC9ziIMC-p1ndJ_p9PYtMKAadSNcGDfPTQ,4251
+signals/functions/function.py,sha256=5ZBSYp8wKDyj9F0_SpD1YoO3tA8c4NNHoZmJKy9FNBM,3408
+signals/functions/noise.py,sha256=aPV1GBYCfZy6SV2IRzJnmh9mFJJfyV5eFPttspTROS4,2168
+signals/perturbations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+signals/perturbations/perturbation.py,sha256=onQY9aentpD8lNbw-UfuyNy-uqynCijeQAVNhgOIGaA,3561
+signals/perturbations/spike_perturbation.py,sha256=mCj3ulzMOIYyozdplmEyr7rXpcHUfokOKz_2cuJ4lgc,2107
+signals/perturbations/step_perturbation.py,sha256=P5nyqsoSeX18ViTGhBJoHms36IulL0G25bRxm8CdXt0,2113
+machine_signals-0.0.3.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+machine_signals-0.0.3.dist-info/METADATA,sha256=MFuGnEHTz9ZeigHIbcnT8q3qK8ZZ17o1Z56qydtMJt0,1287
+machine_signals-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+machine_signals-0.0.3.dist-info/top_level.txt,sha256=daEt7ReHIT-KzT4vjruSnPUgzx0CP8ISf4ePOttyzik,8
+machine_signals-0.0.3.dist-info/RECORD,,
