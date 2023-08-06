@@ -1,0 +1,3 @@
+[console_scripts]
+veq = veq.__main__:main
+
