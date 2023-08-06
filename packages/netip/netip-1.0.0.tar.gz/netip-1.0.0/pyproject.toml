@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "netip"
+version = "1.0.0"
+description = "Print a user ipv4 in youre code."
+authors = ["OwoNicoo <86409467+DiscordBotML@users.noreply.github.com>"]
+license = "GNU-v3"
+
+[tool.poetry.dependencies]
+python = "^3.9.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
