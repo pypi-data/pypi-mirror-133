@@ -1,0 +1,11 @@
+spatial_math_mini/SE3.py,sha256=Gd_dFx8zO2pZmlofni4WhpD-0qWkcFrl0lXO8JndoXA,6357
+spatial_math_mini/SO3.py,sha256=fXfWIGgAtYSeKykne0iylQCIN8hlHLLPNLux5XQx9Fs,4570
+spatial_math_mini/__init__.py,sha256=dAcIqJ0owVML35sALh-mRJZgvld_CI97YTsp-SZiN6g,181
+spatial_math_mini/base.py,sha256=Gr7NVKPGYORO1zBL9mLUsZWniWXm6cgVj2N5t9Gf41A,11588
+spatial_math_mini/visualize.py,sha256=m6bFp8S7RyDsuvNxjwDgMMQ7K0Di7QOBQxgPvXxCkc4,3123
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=pN2rz7rz6f4A7s7OkR861Ys542a4knoBK_36aIq2bj8,4422
+spatial_math_mini-0.1.3.dist-info/METADATA,sha256=UQLCwBwQh1aovw1ellD3Ka-aeCPDMuJV0UTdp9tABMY,421
+spatial_math_mini-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spatial_math_mini-0.1.3.dist-info/top_level.txt,sha256=wUjRq9IrmifJYrMwHUaH7CdakIDAW9ugYUO340zDM4M,24
+spatial_math_mini-0.1.3.dist-info/RECORD,,
