@@ -1,0 +1,15 @@
+nlerosion/ErosioNL.py,sha256=DnmtTzuSYFnZEUDgGjxQ9RXtwqB1fDEcmulKoedXmPo,13185
+nlerosion/__init__.py,sha256=Twh12QROfthIU7F1uc0WEKgwJz62z-W-uc95N3UL8w8,20
+nlerosion/advance_time.py,sha256=7N-Q4_YxonF2O_GLpAwZbbPQoxk1JU8GwKGBX7MGqio,10144
+nlerosion/create_synth_landform.py,sha256=u9uzhUYRHTPHpdz4ghS2ra9PGu8mzfN_b6RhKk-cFO0,2249
+nlerosion/make_plot.py,sha256=c6tf9R5Zkq4ww9QMPqtuwBxHEDhtDJOb2GC79u83sp8,4835
+nlerosion/nonlinear_function.py,sha256=5IR2Af04U4yEIJEftHQtRnI3O6m3c4kqmqWjMFKZ1xw,1055
+nlerosion/numerical_fluxes.py,sha256=rdVaicanPJ_P1iO1sR5HY-r9emzuAHxp_zn5lAaZxr0,771
+nlerosion/read_asc.py,sha256=PQWvkLzR4jMDz15Y-B-3gA66VfOnrWU3SCgtNecuOvg,1043
+nlerosion/relative_coeff.py,sha256=sfXuQ-UmCbYtB6RL48OPRuxVVR8EaNo5tk0sFUHxkkg,480
+nlerosion/run_code_simple.py,sha256=YfVMRHNfFeFJWInM6DiXXX2Ml5_qc9lND-yEDMsWCBs,6472
+nlerosion-1.0.0.dist-info/LICENSE,sha256=LVnrSCWkmspfOL_g2s9hdGImHoE_X64mRVA9Nlm4AxA,1071
+nlerosion-1.0.0.dist-info/METADATA,sha256=VM7ir8IDvvHEywJN_8OOZTzjoaBLczpqdfj_VWc0D-4,635
+nlerosion-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nlerosion-1.0.0.dist-info/top_level.txt,sha256=5R4prX_pDcZRY025Ma9uTu5WUM8TFhjEaPsT_amSjgM,10
+nlerosion-1.0.0.dist-info/RECORD,,
