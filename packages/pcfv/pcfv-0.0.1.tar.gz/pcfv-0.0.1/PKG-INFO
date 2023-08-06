@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: pcfv
+Version: 0.0.1
+Summary: The common used function with pytorch for vision taks
+Home-page: https://github.com/jiayangshi/pcf
+Author: Jiayang Shi
+Author-email: j.shi@liacs.leidenuniv.nl
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
