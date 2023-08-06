@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pxpip/__init__.py
+pxpip/__main__.py
+pxpip/classes.py
+pxpip/common.py
+pxpip/logger.py
+pxpip/parser.py
+pxpip/s3_facade.py
+pxpip.egg-info/PKG-INFO
+pxpip.egg-info/SOURCES.txt
+pxpip.egg-info/dependency_links.txt
+pxpip.egg-info/requires.txt
+pxpip.egg-info/top_level.txt
