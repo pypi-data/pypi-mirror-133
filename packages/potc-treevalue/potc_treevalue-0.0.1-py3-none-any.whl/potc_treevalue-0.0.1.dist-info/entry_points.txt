@@ -1,0 +1,3 @@
+[potc_plugin]
+potc_treevalue = potc_treevalue.plugin:__rules__
+
