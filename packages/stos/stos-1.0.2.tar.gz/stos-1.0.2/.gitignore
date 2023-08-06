@@ -1,0 +1,5 @@
+archive/*
+**/.ipy*
+**/venv/*
+**/.idea/*
+**/__pycache__/*
