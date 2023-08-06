@@ -1,0 +1,2 @@
+octodns>=0.9.14
+ns1_python>=0.17.1
