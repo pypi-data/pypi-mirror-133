@@ -1,0 +1,7 @@
+requests
+pyjwt
+pandas
+python-dateutil
+bs4
+tzlocal
+holidays
