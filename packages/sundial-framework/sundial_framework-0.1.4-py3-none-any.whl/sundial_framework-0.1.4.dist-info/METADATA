@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sundial-framework
+Version: 0.1.4
+Summary: The Sundial timeseries model data framework.
+License: Apache-2.0
+Author: Gavin Bell
+Author-email: gavin.bell@optimeering.com
+Requires-Python: >=3.7.1,<4
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.4.3,<4.0.0)
+Requires-Dist: numpy
+Requires-Dist: pandas (>=1.2.5,<2.0.0)
+Requires-Dist: plotly (>=5.2.2,<6.0.0)
+Requires-Dist: scikit-learn (>=0.24.2,<0.25.0)
+Requires-Dist: tensorflow (>=2.6.0,<3.0.0)
