@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: xtssort
+Version: 0.0.6
+Summary: sort
+Home-page: UNKNOWN
+Author: xiongtianshuo
+Author-email: seoul1k@163.com
+Maintainer: xiontianshuo
+Maintainer-email: seoul1k@163.com
+License: BSD License
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# xtssort
+##### This is the ten method of list sorting.
+
+>install
+>>```sheel
+>>pip install xtssort
+>>```
+
+```python
+from xtssort import *
+
+# Bubble_sorting
+Bubble_sorting(lt=list,Positive_or_reverse_order=2 or 1)
+# selectionSort
+selectionSort(arr=list)
+# insertionSort
+insertionSort(arr=list)
+# shellSort
+shellSort(arr=list)
+# mergeSort
+mergeSort(arr=list)
+# quickSort
+quickSort(arr=list,left=,right=)
+# heapSort
+heapSort(arr=list)
+# countingSort
+countingSort(arr=list,maxValue=)
+# bucket_sort
+bucket_sort(arr=list,max_num=)
+# radix_sort
+radix_sort(data=list)
+```
+
