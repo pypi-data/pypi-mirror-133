@@ -1,0 +1,8 @@
+GitPython==3.1.24
+click
+regex
+
+[dev]
+GitPython>=3.1.24
+click
+regex
