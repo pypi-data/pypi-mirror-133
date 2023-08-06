@@ -1,0 +1,5 @@
+setup.py
+jupyterlite_sphinx.egg-info/PKG-INFO
+jupyterlite_sphinx.egg-info/SOURCES.txt
+jupyterlite_sphinx.egg-info/dependency_links.txt
+jupyterlite_sphinx.egg-info/top_level.txt
