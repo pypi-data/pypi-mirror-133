@@ -1,0 +1,3 @@
+[console_scripts]
+har2case2 = har2case2.cli:main
+
