@@ -1,0 +1,12 @@
+linkedin_scraper_db/__init__.py,sha256=1zjwhB4JoC_Pfbuu7_UeCxW4fG85XCIU4_KdpmoIHnw,494
+linkedin_scraper_db/clean_html.py,sha256=dpAoaVKmELz0TG-vcsv4zEOX2gGTayyTizAwolU8n60,2396
+linkedin_scraper_db/excel_db.py,sha256=y4yBm0OwETMGyKL-2OfU0JKdyGk2KRJBSWWpWPphnSM,1398
+linkedin_scraper_db/helper.py,sha256=M-Wr3_v6ea_hETD1vn6c53kbL3qA4N26p4rkbsNwjxI,278
+linkedin_scraper_db/keys.py,sha256=USBy2z2Pj6bn3XTlZV55sK9ZEQir8PdVQrAISAfcovM,610
+linkedin_scraper_db/main.py,sha256=Thr34IELFSoS3l6Dp6C039vMQ5BZ-ERM93Z8mO1j21c,1503
+linkedin_scraper_db/prompt.py,sha256=R0fpYGYqiawg5EO-DKRYCsfzU8_jcJuaxmAriDvr83Y,220
+linkedin_scraper_db/structure_html.py,sha256=2I2U20msXKBjoB_d62nYN3ex63CX0SSkhIs397JlwRs,4057
+linkedin_scraper_db-1.0.0.dist-info/METADATA,sha256=ZOVZgFeYJngR0PvC8jzAYEXE6dvucOhwbaDB6e0ct6k,510
+linkedin_scraper_db-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+linkedin_scraper_db-1.0.0.dist-info/top_level.txt,sha256=3hgF0_k2TPi1Txz1jKdcW2SUzC_8KQ2JeSwYm6PpY0I,20
+linkedin_scraper_db-1.0.0.dist-info/RECORD,,
