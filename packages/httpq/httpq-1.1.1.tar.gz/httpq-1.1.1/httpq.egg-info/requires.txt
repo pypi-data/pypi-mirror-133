@@ -1,0 +1,10 @@
+toolbox
+
+[dev]
+pytest
+pytest-cov
+coveralls
+sphinx
+sphinx-copybutton
+sphinx-autobuild
+furo
