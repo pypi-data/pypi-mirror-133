@@ -1,0 +1,10 @@
+expenvelope<1.0.0,>=0.6.5
+primesieve<3.0.0,>=2.0.0
+numpy<2.00,>=1.18
+scipy<2.0.0,>=1.4.1
+natsort<6.0.0,>=5.3.3
+python-ranges<1.0.0,>=0.2.0
+
+[testing]
+nose
+pillow<9.0.0,>=8.2.0
