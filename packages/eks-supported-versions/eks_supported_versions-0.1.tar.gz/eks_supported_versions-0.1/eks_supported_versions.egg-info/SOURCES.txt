@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+eks_supported_versions/__init__.py
+eks_supported_versions/eks_supported_versions.py
+eks_supported_versions.egg-info/PKG-INFO
+eks_supported_versions.egg-info/SOURCES.txt
+eks_supported_versions.egg-info/dependency_links.txt
+eks_supported_versions.egg-info/not-zip-safe
+eks_supported_versions.egg-info/top_level.txt
