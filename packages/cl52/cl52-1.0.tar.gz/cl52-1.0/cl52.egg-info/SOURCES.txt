@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cl52/__init__.py
+cl52/a.py
+cl52/logo.py
+cl52.egg-info/PKG-INFO
+cl52.egg-info/SOURCES.txt
+cl52.egg-info/dependency_links.txt
+cl52.egg-info/top_level.txt
