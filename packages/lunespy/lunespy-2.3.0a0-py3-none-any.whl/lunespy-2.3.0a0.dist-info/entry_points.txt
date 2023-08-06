@@ -1,0 +1,4 @@
+[console_scripts]
+log=lunespy.utils:changelog
+semver=lunespy.utils:semantic_version
+
