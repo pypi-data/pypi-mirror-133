@@ -1,0 +1,10 @@
+vcoin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vcoin/admin.py,sha256=myMzGb-ZZdRT87Xiis5cS67-i0dRPNj-Hv0J_t-Y07A,236
+vcoin/apps.py,sha256=Io0YiYAieYCm_Lzo4pzEWKlvAyFS1LUvt8ymF4pqNtA,85
+vcoin/models.py,sha256=LGCKKsEHXm-LGhVDtRp0oeLNSqJ3IIJozhAQiKbB_Xs,4154
+vcoin/views.py,sha256=lBfR-JeQIG9QLoVebaVATE672hbkQY7tcajUCsBw_aA,6216
+vcoin-0.1.1.5.dist-info/LICENSE,sha256=giTqF4qu3Je4KMdQSM7My1Peh386CMm0ZWjp3dvL_xA,1076
+vcoin-0.1.1.5.dist-info/METADATA,sha256=JW7qJ9ulWhX6PPGC35svar48nW6qQjCHUg2woWfrUGo,2256
+vcoin-0.1.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vcoin-0.1.1.5.dist-info/top_level.txt,sha256=VMLuzdafogpLSj396_Q1-KAw0fBQaYgHZvDjWMFTj_Q,6
+vcoin-0.1.1.5.dist-info/RECORD,,
