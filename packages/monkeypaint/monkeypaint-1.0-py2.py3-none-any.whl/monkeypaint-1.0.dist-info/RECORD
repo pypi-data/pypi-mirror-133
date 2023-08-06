@@ -1,0 +1,10 @@
+monkeypaint/__init__.py,sha256=DvAzEsoJimMOn5pr_KmPhCwHnofGsoNkHsECJU04Xus,9343
+monkeypaint/__main__.py,sha256=KbpfWC773LPLrF0Urwnx91HtmPl1rVAfr0u14P14c90,11627
+monkeypaint/colorapi.py,sha256=2vN0mcokyGpjUfiuECWCrld0v23Oq6CZaw78QP-utcY,1417
+monkeypaint/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monkeypaint-1.0.dist-info/LICENSE.txt,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+monkeypaint-1.0.dist-info/METADATA,sha256=HrhVwQ7YOabYZKfqBQfKaAiVFk7ZKYQRvZPZiUi4B1I,8945
+monkeypaint-1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+monkeypaint-1.0.dist-info/entry_points.txt,sha256=sA8k77LHd-bjgEHuBJqIbhWU_4zO8PpV2Zec8AE392c,59
+monkeypaint-1.0.dist-info/top_level.txt,sha256=wAdVIKaqDyVHoXbVTXlAX1twmAoDcT7VfNSRAX1XPRw,12
+monkeypaint-1.0.dist-info/RECORD,,
