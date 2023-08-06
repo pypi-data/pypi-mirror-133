@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/plotly_gif/__init__.py
+src/plotly_gif/format_.py
+src/plotly_gif/gif.py
+src/plotly_gif/three_d_plots.py
+src/plotly_gif/two_d_plots.py
+src/plotly_gif.egg-info/PKG-INFO
+src/plotly_gif.egg-info/SOURCES.txt
+src/plotly_gif.egg-info/dependency_links.txt
+src/plotly_gif.egg-info/not-zip-safe
+src/plotly_gif.egg-info/requires.txt
+src/plotly_gif.egg-info/top_level.txt
