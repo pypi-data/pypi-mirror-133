@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: SubFoldersProject
+Version: 1.0.0
+Summary: A small example Sub Folders package
+Home-page: https://www.randy.ru
+Author: Andy931
+Author-email: andy@randy.ru
+License: UNKNOWN
+Project-URL: Docs, https://docs.randy.ru
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: pygame (>=2.0.0)
+
+# Образец пакета PyPi
+
+This is a simple exercise to publish a package onto PyPi.
+
