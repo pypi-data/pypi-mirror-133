@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: setup-teardown
+Version: 0.0.4
+Summary: A setup/teardown context manager decorator for unit tests
+Home-page: https://github.com/ahonnecke/setup-teardown-context-decorator
+Author: Ashton Honnecke
+Author-email: ashton@pixelstub.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/ahonnecke/setup-teardown-context-decorator/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Setup Teardown Content Decorator
+
+This is a simple package that aims to make adding setup and teardown to pytest flavored tests quick and painless.
+
+# Installation
+```
+python3 -m pip install setup-teardown
+```
+
+# Decorator Usage
+
+## Custom Database Class
+```
+from setup_teardown import SetupTeardown
+
+class PgSetupTeardown(SetupTeardown):
+    def setup(self):
+        # Perform test setup
+        self.session = db.session.new_session()
+        self.session.query(self.table).delete()
+        return self
+
+    def teardown(self, typ, val, traceback):
+        # Perform test teardown
+        self.session.query(self.table).delete()
+```
+
+## Example test with decorator usage
+```
+class TestHandlerDatabaseRequired:
+    @PgSetupTeardown(table="table_name")
+    def test_handler_success(self, mock_datetime):
+        """
+        Example of using the SetupTeardown ContextDecorator with arbitrary setup and teardown
+        """
+        assert 1 == 1
+        # Effect the database test that may leave db in dirty state
+```
+
+## Example test with context manager usage
+
+```
+    def setup(self):
+        db.session.new_session().query(self.table).delete()
+
+    def teardown(self):
+        db.session.new_session().query(self.table).delete()
+
+
+    # context manager application example
+    with PgSetupTeardown(setup=setup, teardown=teardown):
+        assert 1 == 1
+        # Effect the database test that may leave db in dirty state
+```
+
+
