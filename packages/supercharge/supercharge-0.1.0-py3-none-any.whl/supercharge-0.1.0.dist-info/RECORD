@@ -1,0 +1,11 @@
+supercharge/__init__.py,sha256=cZbsH8mDysjg0tjnRk0_pYJywy4HfohiRqb1s216Qfg,125
+supercharge/base.py,sha256=GCro1mz4rF4HOe3DBg-ltTQ7Y1aJgenk2MdofgSevHw,780
+supercharge/charge.py,sha256=szTSv0rigwMi4qycA_BYhdGwPcCxcmlaX8LgLrHd_KI,4050
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_base.py,sha256=JPUub5waSiFqIm-6WHdlHByuDzEzXvWNyo8Urwmljpo,1974
+tests/test_charge.py,sha256=ipVdh-wUBoiqHHLHTsJO7QrnELHCWIvbfNnDcWV3TYQ,4070
+supercharge-0.1.0.dist-info/LICENSE,sha256=jDSfgHZNBkjmRfQe8jdypwyZWgkktSNfc19KPQnfEnw,14197
+supercharge-0.1.0.dist-info/METADATA,sha256=H_o2Sg2JFaJQBaDY5VRi3pKM__HpAoYTBb-b6kd_JEA,3853
+supercharge-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+supercharge-0.1.0.dist-info/top_level.txt,sha256=DEexhZXKFbB2darJN8K-uWZC6ammqiRuAEUI8fIP6qA,18
+supercharge-0.1.0.dist-info/RECORD,,
