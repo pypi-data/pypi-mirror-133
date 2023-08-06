@@ -1,0 +1,6 @@
+fastapi
+flanautils
+playwright
+TikTokApi
+ujson
+uvicorn
