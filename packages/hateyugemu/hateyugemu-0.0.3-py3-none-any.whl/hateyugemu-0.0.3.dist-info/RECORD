@@ -1,0 +1,13 @@
+hateyugemu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hateyugemu/__main__.py,sha256=m4kvnDDHYZjL6AWgkRqvObh3yirtXbaxn89ZroPv5eM,954
+hateyugemu/main.py,sha256=Vu1qk49N6iOZUjnFjshicrJufXKtv-Z-wTGDwphOxnY,3218
+hateyugemu/notify.py,sha256=9IkhTG-nVQM-IKYU9jB1d53i9nFsHRBb4elToupq_Ec,296
+hateyugemu/settings.py,sha256=fLKv6O7NX7ZYMr_Ek6IqVoceHxEyZ9gduU9ZKpSdzyg,993
+hateyugemu/utils.py,sha256=Gj0xFlLM84muMIAX23SnCdS08Bj84K8-RDeTej_CCwU,1721
+hateyugemu/data/tokens.txt,sha256=Uq__tqs8cxUZ6GANh3KoHM-AS9cRgBlOYjlQNCmIKyo,95
+hateyugemu/data/topics.csv,sha256=qOe0s3emBZF1woPvKugG4S1QnzaroO19dSkBBEcLa7Y,37
+hateyugemu-0.0.3.dist-info/LICENSE,sha256=DVcgV_RAmSyyXUPkPEHtq1d4BBfX7kCZPHFERCoD9PU,1064
+hateyugemu-0.0.3.dist-info/METADATA,sha256=LG59IgPuT8Lj0JGke0UYaGfdVy_1fUYlZeOc4y11fPg,2700
+hateyugemu-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hateyugemu-0.0.3.dist-info/top_level.txt,sha256=hN9NY4APnZgTUWNZbMkC4cILermT1mN3YoJ2dZfNhN4,11
+hateyugemu-0.0.3.dist-info/RECORD,,
