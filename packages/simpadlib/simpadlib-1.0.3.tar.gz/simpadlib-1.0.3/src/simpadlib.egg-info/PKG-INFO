@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: simpadlib
+Version: 1.0.3
+Summary: A library that allows users to custom-configure their SimPad real-time
+Home-page: https://github.com/malevtuber/simpadlib
+Author: Ashe Muller
+Author-email: contact.notashe@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/malevtuber/simpadlib/issues
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SimpadLib v1.1
+
+### Example Usages
+```py
+from simpad.lib import SimPad
+
+sim = SimPad() # Initialize the SimPad class
+sim.changeRGB("#FF000", "all") # Change all keys to color "#FF0000"
+sim.changeRGB("#00FF00", "left") # Change the left key's color to "#00FF00"
+```
+
+```py
+from simpad.lib import SimPad
+
+sim = SimPad()
+sim.changeMode("rainbow") # Change mode to rainbow
+sim.changeMode("on-off") # Change mode to on-off
+sim.changeMode("off") # Turns lights off completely. If you are clearing colors, use sim.clear() instead.
+```
+
+
