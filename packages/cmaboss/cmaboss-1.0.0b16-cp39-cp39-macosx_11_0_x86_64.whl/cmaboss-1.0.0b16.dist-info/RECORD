@@ -1,0 +1,15 @@
+cmaboss_128n/cmaboss_128n.cpython-39-darwin.so,sha256=1hbFWlXwwOmOOmRFbo2w14KLTML04x7ExEWd5FVcb4g,578960
+cmaboss_128n/__init__.py,sha256=pe27nB1Xae9NdG1RikXDfIvkAGphWi_dZjGkaw58eZA,27
+cmaboss_512n/cmaboss_512n.cpython-39-darwin.so,sha256=97Vvvx1AJWqxgAFxNIa0kJuyrFPartz266A8wBLZvO8,597360
+cmaboss_512n/__init__.py,sha256=7WxEdH-roPpggcsWehkJ29he6dVqJbVIXrVBtP3Xmjw,27
+cmaboss-1.0.0b16.dist-info/RECORD,,
+cmaboss-1.0.0b16.dist-info/WHEEL,sha256=FJuHhoVUZj62yWAYw46S3u8syVVmWwUzAGz6OK32Q1A,109
+cmaboss-1.0.0b16.dist-info/top_level.txt,sha256=oUuQG0b1-reTV9ejkYAp8slOETSZgRZ-GkQoSnM4eOk,61
+cmaboss-1.0.0b16.dist-info/METADATA,sha256=pO2WQkYCwokJtknqwXEy4lufWY7YoqL0zyEQvzTItGM,203
+cmaboss/cmaboss.cpython-39-darwin.so,sha256=i2RmNqgKno2OTRbND-0Bf-3Dd1uGfOv8mWzp3HXlK0c,573680
+cmaboss/__init__.py,sha256=lSRM7ZeYwGrcLht9LNI_Y3LsThi3Aupf4vkibRqiCKQ,22
+cmaboss/.dylibs/libsbml.5.dylib,sha256=ntq9O5IemN9TIcW4_j0y00gPd_f_ZoqUGrOY91-tg6s,8134432
+cmaboss_256n/cmaboss_256n.cpython-39-darwin.so,sha256=SeLpgG0iYyfZ2pFs9ytTbJcblUYi3Y0y0j29G60XMbU,580848
+cmaboss_256n/__init__.py,sha256=EYsWWs-pksQW9u9iBiAEAuWz-62kYfhOXWZw7dS1xpg,27
+cmaboss_1024n/__init__.py,sha256=jfA5cCfqNuvD1DJTimkFugawONGSjxTb6WmOc8WUSF0,28
+cmaboss_1024n/cmaboss_1024n.cpython-39-darwin.so,sha256=OoQIFYn3RD-nyhZIm8S-42pmTlyAUGkV9Lz056rO7-8,597680
