@@ -1,0 +1,7 @@
+bytesparse>=0.0.4
+
+[scripts]
+Cython
+
+[testing]
+pytest
