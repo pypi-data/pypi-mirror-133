@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: physt
+Version: 0.5.3
+Summary: P(i/y)thon h(i/y)stograms.
+Home-page: https://github.com/janpipek/physt
+Author: Jan Pipek
+Author-email: jan.pipek@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.7
+License-File: LICENSE
+Requires-Dist: numpy (>=1.20)
+Requires-Dist: packaging
+Requires-Dist: typing-extensions
+Provides-Extra: all
+Requires-Dist: dask[array] ; extra == 'all'
+Requires-Dist: pandas ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: folium ; extra == 'all'
+Requires-Dist: vega3 ; extra == 'all'
+Requires-Dist: xarray ; extra == 'all'
+Requires-Dist: plotly ; extra == 'all'
+Requires-Dist: uproot3 ; extra == 'all'
+Requires-Dist: xtermcolor ; extra == 'all'
+Provides-Extra: full
+Requires-Dist: dask[array] ; extra == 'full'
+Requires-Dist: xarray ; extra == 'full'
+Requires-Dist: xtermcolor ; extra == 'full'
+Requires-Dist: folium ; extra == 'full'
+Requires-Dist: uproot3 ; extra == 'full'
+Requires-Dist: vega3 ; extra == 'full'
+Requires-Dist: pandas ; extra == 'full'
+Requires-Dist: plotly ; extra == 'full'
+Requires-Dist: matplotlib ; extra == 'full'
+
+physt
+=====
+
+P(i/y)thon h(i/y)stograms. Inspired (and based on) numpy.histogram, but designed for humans(TM) on steroids(TM).
+
+The goal is to unify different concepts of histograms as occurring in numpy, pandas, matplotlib, ROOT, etc.
+and to create one representation that is easily manipulated with from the data point of view and at the same
+time provides nice integration into IPython notebook and various plotting options.
+
+In short, whatever you want to do with histograms, physt aims to be on your side.
+
+P.S. I am looking for anyone interested in using / developing physt. You can contribute by reporting errors,
+implementing missing features and suggest new one.
+
