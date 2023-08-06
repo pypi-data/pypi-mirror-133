@@ -1,0 +1,16 @@
+dsh/__init__.py,sha256=3fTebKX1Hzngz6DhdaI44Wa-B5HsN-cLo5bZk3lVrqg,34
+dsh/ans.py,sha256=NFrSeHrV_W1d-KqWcElFpPldvrDAN8kunG66iQraWt4,2149
+dsh/api.py,sha256=SpG93KBBAjdLCMBkQvJM3XVPXRkIi7y9CnB-t59iErs,5032
+dsh/evaluators.py,sha256=jUbcPlAd8RoR900j-FB2JfsVdL2Mcy98fBCfg7bsCF4,2790
+dsh/executors.py,sha256=BG_wS0R8qj1iu5jnYV6r9mAYAuLYg1UaRNkzMrPK4Vw,4839
+dsh/main.py,sha256=f5g-WU7jH8lN8DWaPGx6IM_JBd6LO6K8aspt6ERYx0Q,11117
+dsh/matchers.py,sha256=_Aml7nhM_lTFJeRthi09JBzrJvXCd-u9GRhaf82XRyM,2586
+dsh/node.py,sha256=CY0Uv5nmPWJ7JFp9NUWhGoYbkBXjxHxnx2K6qY9KEek,19784
+dsh/shell.py,sha256=FHgETXSJQLPR-xlwYtxo3yuR2CWoGtO8KAVJUjP_Nx0,4889
+dsh/data/schema.yml,sha256=QS8afGs29u2NXcj4MhSvfpkpoQkn3WQPz1C1mNGOfUo,2641
+dsh-2.2.0.dist-info/LICENSE.txt,sha256=s10CbMesqdWFmgLrh933o4aiTJhoOGUb0fKD-U4AMyc,1056
+dsh-2.2.0.dist-info/METADATA,sha256=-mqDb7Z8Sq5SmvlHVjFUKfT5ojopp3JCVbsJIddSDdw,2720
+dsh-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dsh-2.2.0.dist-info/entry_points.txt,sha256=2AJ8zpSH6XoAryFEQAPwx_oQ7oyn-GhE-Cj6vPiPqz0,56
+dsh-2.2.0.dist-info/top_level.txt,sha256=stB2QzYSwu5_QNlfz683R7ebI7cwOGC0yUNfIP40kNo,4
+dsh-2.2.0.dist-info/RECORD,,
