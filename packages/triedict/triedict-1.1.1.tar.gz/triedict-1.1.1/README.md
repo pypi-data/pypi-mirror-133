@@ -1,0 +1,43 @@
+# Chinese Desc
+### 基于字典树的匹配
+##### 安装
+* `pip install triedict`
+##### github demo 
+* github官网链接: [https://github.com/vegaviazhang/triedict](https://github.com/vegaviazhang/triedict)
+
+##### 过程
+* 先初始化需要匹配的term，再进行匹配
+  * term可以逐步增加
+
+##### 优点
+* 利用空间换取时间，效率高
+* term输入可以为一个tuple或list
+  * 第一个元素为term本身，第二个元素为term的补充信息，可以为python的数据类型\[str, tuple, dict, list, ...]
+* 返回位置索引
+##### 其他
+* 有任何想法请添加issues
+* 好用的话请给GitHub项目星星哦
+
+
+
+# English Desc
+### Trie Based Matching
+##### install
+* `pip install triedict`
+##### Github url: 
+* Github Url: [https://github.com/vegaviazhang/triedict](https://github.com/vegaviazhang/triedict)
+
+##### Process
+* First initialize the terms to be matched, then matching.
+  * term can step to add.
+
+##### Advantages
+* Using space for time, High efficiency.
+* Input of term can be tuple or list
+  * First element is term exactly, second is the supplementary information of the term
+  * The type of the second can be str, tuple, dict, list, ... and so on.
+* return the index of the word
+
+##### Other
+Please add issues if you have any ideas.
+Please give the GitHub project stars if it works well!

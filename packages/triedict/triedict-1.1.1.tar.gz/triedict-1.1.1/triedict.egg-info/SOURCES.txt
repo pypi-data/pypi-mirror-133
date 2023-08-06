@@ -1,0 +1,13 @@
+README.md
+setup.py
+triedict/__init__.py
+triedict/trie.py
+triedict.egg-info/PKG-INFO
+triedict.egg-info/SOURCES.txt
+triedict.egg-info/dependency_links.txt
+triedict.egg-info/top_level.txt
+triedict/projects/__init__.py
+triedict/projects/utils/__init__.py
+triedict/projects/utils/chinese_character_handler.py
+triedict/projects/utils/utils_chinese.py
+triedict/projects/utils/utils_universal.py
