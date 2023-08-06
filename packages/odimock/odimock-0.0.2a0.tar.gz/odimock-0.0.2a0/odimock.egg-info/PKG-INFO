@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: odimock
+Version: 0.0.2a0
+Summary: OpenBytes Dataset Index - Python SDK
+Home-page: UNKNOWN
+Author: Graviti
+License: MIT
+Description: # OpenBytes Dataset Index - Python SDK
+        
+        ## Installation
+        
+        ```console
+        pip3 install tensorbay
+        ```
+Keywords: openbytes,odi,dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
