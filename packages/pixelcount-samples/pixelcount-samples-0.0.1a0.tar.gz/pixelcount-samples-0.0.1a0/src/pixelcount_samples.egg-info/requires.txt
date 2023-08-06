@@ -1,0 +1,4 @@
+opencv-python>=4.4.0
+ipywidgets>=7.6.3
+numpy>=1.19
+voila>=0.3.0
