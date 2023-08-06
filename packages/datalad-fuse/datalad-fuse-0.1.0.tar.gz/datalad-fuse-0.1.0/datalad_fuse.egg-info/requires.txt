@@ -1,0 +1,2 @@
+datalad>=0.13.0
+fsspec[fuse,http]>=2021.10.1
