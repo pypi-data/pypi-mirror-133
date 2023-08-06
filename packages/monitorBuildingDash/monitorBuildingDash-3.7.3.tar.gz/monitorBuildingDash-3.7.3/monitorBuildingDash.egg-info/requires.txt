@@ -1,0 +1,2 @@
+dorianUtilsModulaire==3.13.10
+odfpy==1.4.1
