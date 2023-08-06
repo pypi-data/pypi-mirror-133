@@ -1,0 +1,11 @@
+tohydamogml/__init__.py,sha256=7gzVlRra9_Rw_BwwvTVkmeb8YRAoBO0p3L3WmYNNPOE,225
+tohydamogml/config.py,sha256=YuR1ORhfkKw00ld0nMhDV481QKIV5tU4EMzhcPQQkO4,623
+tohydamogml/domeinen_damo_1_4.py,sha256=jWrD4ep3IXVbkVVqiUfFbFUSXwNMix_Z8MqkP1TYewE,2068
+tohydamogml/gml.py,sha256=lLJOq1IwDEMhVJOeqQoqt60wGKoB-kbjcHCzfOdfphw,11843
+tohydamogml/hydamo_table.py,sha256=zLPzXbBw-bjITeFojKRk69ObW9bwGALiv6AGcHQ1_R4,19097
+tohydamogml/read_database.py,sha256=wawPSSN49LB9nTmOBdBNTKawPZS8O4w5uw_YzI91W_w,4768
+tohydamogml-0.2.0.dist-info/LICENSE,sha256=M0dOq6g72DYezE-Ott60EttexShx_m0azCHstFbf6F8,1095
+tohydamogml-0.2.0.dist-info/METADATA,sha256=V1ejqYnibp5Nu8QOEG1zNicwl9Mfw36EEwJVebF5CSA,2061
+tohydamogml-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tohydamogml-0.2.0.dist-info/top_level.txt,sha256=E9HEK4L_Ts5v5YZBsI2TRqWSraoVUM06AU-BPurR844,12
+tohydamogml-0.2.0.dist-info/RECORD,,
