@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+xtssort/__init__.py
+xtssort.egg-info/PKG-INFO
+xtssort.egg-info/SOURCES.txt
+xtssort.egg-info/dependency_links.txt
+xtssort.egg-info/top_level.txt
