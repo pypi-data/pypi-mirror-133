@@ -1,0 +1,12 @@
+CHANGES.md
+CONTRIBUTORS.md
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+timehash/__init__.py
+timehash.egg-info/PKG-INFO
+timehash.egg-info/SOURCES.txt
+timehash.egg-info/dependency_links.txt
+timehash.egg-info/top_level.txt
