@@ -1,0 +1,13 @@
+ecmind_blue_client_objdef/__init__.py,sha256=gbJGSY7f-K1wIx-biVvfgdp4CDtg-Mu_3lhuME8jxww,292
+ecmind_blue_client_objdef/cabinet.py,sha256=-R8Jk8js9sy4chzQjHXMet5smun0yFL_KT4pPZHYAoA,393
+ecmind_blue_client_objdef/field.py,sha256=Krtp2dIGC1KMTDMNX43yvWLBMxp5yEXtKNH0GeiJTGM,778
+ecmind_blue_client_objdef/field_types.py,sha256=lYPKbSLqJxJPz-WdtscbTuGbupafduzqXhnhvwUtXR8,262
+ecmind_blue_client_objdef/object.py,sha256=SuYoFs_EEJs79e-DMm7GKV3HhLA3Dlvj6LF796-C3f0,429
+ecmind_blue_client_objdef/object_definition.py,sha256=dJ9PPPDBkFuL-Cju7efFrIGy3FWB82CH0qwqIUxOe6w,6904
+ecmind_blue_client_objdef/table_column.py,sha256=LqxZwTzGIqDR_WTyZX7Q_B-3TPSp7ouilHcXYja36_0,653
+ecmind_blue_client_objdef/table_field.py,sha256=3jFBaKYo6c5OC4uaA1uHj3hMTf8WD8Q9FGvvoGwx9q0,607
+ecmind_blue_client_objdef-0.0.3.dist-info/LICENSE,sha256=aiS0H6yNMchEuWywifTJutao22J4FLCcbymY-jmYvs0,1069
+ecmind_blue_client_objdef-0.0.3.dist-info/METADATA,sha256=SukPtY77Ub0svC532FsjJ4YqnrBknz-0VktYLhINAcQ,1314
+ecmind_blue_client_objdef-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ecmind_blue_client_objdef-0.0.3.dist-info/top_level.txt,sha256=biRqsz_P03O7-45gx0HEhaVTUl1SPy6COOeleqX3J5c,26
+ecmind_blue_client_objdef-0.0.3.dist-info/RECORD,,
