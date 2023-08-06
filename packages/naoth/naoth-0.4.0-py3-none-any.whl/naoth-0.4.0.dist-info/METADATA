@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: naoth
+Version: 0.4.0
+Summary: Python utils for the NaoTH toolchain
+Home-page: UNKNOWN
+Author: NaoTH Berlin United
+Author-email: nao-team@informatik.hu-berlin.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.9
+Requires-Dist: protobuf
+Requires-Dist: numpy
+
+UNKNOWN
+
