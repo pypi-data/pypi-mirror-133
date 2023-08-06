@@ -1,0 +1,10 @@
+cli_args_system/__init__.py,sha256=7dlAAtIvkVawFrNmJTr8g20EIvGDwNtETdNK6V_68S0,92
+cli_args_system/args.py,sha256=o2uYDYk-5soxjFJEPLfSsLvAFTIi8luoBM1wa3Vilyk,5752
+cli_args_system/extras.py,sha256=UIvZS7D4_iCKeHiuolDfGibthEYqzZ_96_BdWSRqZgo,5522
+cli_args_system/flags_content.py,sha256=YTG0m3sBi9ohSmEghfezx6uwziZKcUZFmeJSx6s2Muc,1573
+cli_args_system/list_args.py,sha256=YnTvzB4c2MRPi55-TJwzwRXjznCDuxSmik7B7ra0cHA,1953
+cli_args_system-1.1.dist-info/LICENSE.txt,sha256=yioUjJG2y93nJ3_EfGkFGFkQwTXQHySogSrA4uV4nkQ,1080
+cli_args_system-1.1.dist-info/METADATA,sha256=zA_b0qbnIZMYc4MiMk6b82lyx-I8BH3KHfUEieP4kP0,3469
+cli_args_system-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cli_args_system-1.1.dist-info/top_level.txt,sha256=J9e4lO_IUBIU5w4cxKn-oYdrphJY0QEfWyhTSsyFEdg,16
+cli_args_system-1.1.dist-info/RECORD,,
