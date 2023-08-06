@@ -1,0 +1,10 @@
+epub_image_optimizer/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+epub_image_optimizer/__main__.py,sha256=iDnjygupfsHYdjf3oU5yQbzUxNiJYnS0yXBQmgy93E0,68
+epub_image_optimizer/cli.py,sha256=6ez5rSI2vLegxJ0goJAb0053MC2RkC2Ve1DrasiQ__E,7459
+epub_image_optimizer/image_optimizer.py,sha256=-NC7kVRT_WwT-CTfL10jMAfY7VNCL-UOAkO_LIwRHAA,8785
+LICENSE,sha256=FaNosVj5hDCmp5cXsgeI6LCoRv58CHlgs0dTdOSOIHw,1091
+epub_image_optimizer-1.0.0.dist-info/entry_points.txt,sha256=ypxZ-Zd53uRk_DMw8CIlkRBWFvJw8udXSQv3f_IoOuM,70
+epub_image_optimizer-1.0.0.dist-info/LICENSE,sha256=FaNosVj5hDCmp5cXsgeI6LCoRv58CHlgs0dTdOSOIHw,1091
+epub_image_optimizer-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+epub_image_optimizer-1.0.0.dist-info/METADATA,sha256=eivqj7YKjDCPk6NzFp1ZqbU-u0scOWPOp8GMlecRhCs,4475
+epub_image_optimizer-1.0.0.dist-info/RECORD,,
