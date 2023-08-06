@@ -1,0 +1,12 @@
+userspacefs/__init__.py,sha256=K4HCJNdNI9Fw3O1XyHquWbis2V_qTEkUePu4DoJod2M,13926
+userspacefs/fuse_adapter.py,sha256=lYcBA6RoObL6kmdy16xWuWDevzoJ6q7xM7_luM82Tjo,7796
+userspacefs/macos_path_conversion.py,sha256=juVmOsyYJ2QUKk44VIeI3OcDKe_AjfVAsnEn4vgfDOU,2286
+userspacefs/memoryfs.py,sha256=CnSbu2dErtPkIzEOe90plpMmXPSrl2-8OD5Pcjlc7ig,17867
+userspacefs/path_common.py,sha256=ferLzkdYa9g0SwAHCpD2zTn5llR06mzf0FJX8RaPuyk,2511
+userspacefs/smbserver.py,sha256=v9g9QRZ3erCUHRJLWuaha3ZAWCAnJNKUuY6nsdqJ7DE,116741
+userspacefs/util_dumpster.py,sha256=PV4880Oky3rGn-ZKPRv76rktKv1IVwHNCCFIyoR5tqQ,2240
+userspacefs-2.0.5.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+userspacefs-2.0.5.dist-info/METADATA,sha256=ili3Oa-SwYzXy9zj12YQe_4d9d_9lZJ6vPxjCI5yeAU,994
+userspacefs-2.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+userspacefs-2.0.5.dist-info/top_level.txt,sha256=N4r6kuzG71krMbtZPZXJejIdGRkLi5etZtYhjCMK-zQ,12
+userspacefs-2.0.5.dist-info/RECORD,,
