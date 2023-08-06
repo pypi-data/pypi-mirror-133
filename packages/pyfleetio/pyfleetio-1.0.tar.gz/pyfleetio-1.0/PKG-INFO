@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyfleetio
+Version: 1.0
+Summary: Fleetio's Python API Wrapper Package
+Home-page: https://github.com/AlexBelanger/pyfleetio
+Author: Alexandre Bélanger
+Author-email: a.belanger89@gmail.com
+License: LICENSE
+Project-URL: Bug Tracker, https://github.com/AlexBelanger/pyfleetio/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyfleetio
+Fleetio Python API Wrapper
+
+### Throttling
+Rate limiting is enforced by the API with a threshold of 20 requests per minute. Learn more about it [here](https://developer.fleetio.com/docs/response-codes).
+
+## Special Mention
+This library was developed with the fundamentals adapted from this API Wrapper [pyonfleet](https://github.com/onfleet/pyonfleet)
+
