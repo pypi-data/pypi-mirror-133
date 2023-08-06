@@ -1,0 +1,12 @@
+BoxJellyfish-2.10.data/data/bjf/static/data.csv,sha256=od4qnVON3FHBckWJjHYUU-vxUNQXMMXv17AbQDCzonM,20
+bjf/BJFModel.py,sha256=MN7gQNPcixGkN32LxZoOZcflEdygHgsYJCog6wcdj5M,1669
+bjf/Build.py,sha256=KHjk9RLLWwY4S_tPtCL7TB9s9F6dWXJSyHe1g7Hds3w,852
+bjf/__init__.py,sha256=PLtt-LcZa7vNE-ppHq4lu3_OanvikXnhRrGS9K-GR4g,203
+bjf/data.csv,sha256=od4qnVON3FHBckWJjHYUU-vxUNQXMMXv17AbQDCzonM,20
+bjf/utils.py,sha256=-IQBhshQ5q_r8_FRjENMc6pb8e4QvtRZN-fzooQ26YA,1004
+bjf/web.py,sha256=bOXJpbvZJGkElj1_zrmX2ui8wTS20kksUd9861jNMcs,1309
+BoxJellyfish-2.10.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+BoxJellyfish-2.10.dist-info/METADATA,sha256=iRbvXT8vY81eCC69NkODPSFjdKvkykx4Sw949zKraU8,275
+BoxJellyfish-2.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+BoxJellyfish-2.10.dist-info/top_level.txt,sha256=xffUKs2aqrfbaznLvr8xlByo1h73Dq67_NFomVO-OqY,4
+BoxJellyfish-2.10.dist-info/RECORD,,
