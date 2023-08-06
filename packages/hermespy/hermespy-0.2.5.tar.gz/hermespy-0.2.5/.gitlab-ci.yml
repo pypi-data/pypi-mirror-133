@@ -1,0 +1,37 @@
+image: python:3.9
+
+stages:
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  before_script:
+    - apt update
+    - apt-get install -y build-essential
+    - pip install -r requirements.txt
+    - pip install -e .
+  script:
+    - python -m unittest discover tests/unit_tests
+
+wheel-linux:
+  stage: build
+  before_script:
+    - apt update
+    - apt-get install -y build-essential
+    - mkdir wheel/
+  script:
+    - pip wheel -v . --wheel-dir wheel/
+
+pages:
+  stage: deploy
+  only:
+    - master
+  before_script:
+    - pip install -r requirements_doc.txt
+  script:
+    - python -m setup build_sphinx
+  artifacts:
+    paths:
+      - documentation/html
