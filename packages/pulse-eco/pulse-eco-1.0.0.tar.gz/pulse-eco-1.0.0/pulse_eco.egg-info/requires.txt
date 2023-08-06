@@ -1,0 +1,4 @@
+requests>=2.26.0
+
+[test]
+pytest>=6.0
