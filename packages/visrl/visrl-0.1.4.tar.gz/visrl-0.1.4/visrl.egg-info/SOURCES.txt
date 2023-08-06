@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+visrl/__init__.py
+visrl/visrl.py
+visrl.egg-info/PKG-INFO
+visrl.egg-info/SOURCES.txt
+visrl.egg-info/dependency_links.txt
+visrl.egg-info/requires.txt
+visrl.egg-info/top_level.txt
