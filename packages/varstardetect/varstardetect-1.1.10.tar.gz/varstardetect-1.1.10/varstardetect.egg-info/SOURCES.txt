@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+varstardetect/Star.py
+varstardetect/__init__.py
+varstardetect.egg-info/PKG-INFO
+varstardetect.egg-info/SOURCES.txt
+varstardetect.egg-info/dependency_links.txt
+varstardetect.egg-info/requires.txt
+varstardetect.egg-info/top_level.txt
+varstardetect/Targets/sector_1.csv
