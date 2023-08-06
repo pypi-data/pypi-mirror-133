@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fs/azblob/__init__.py
+fs/azblob/blob_file.py
+fs/azblob/blob_fs.py
+fs/azblob/const.py
+fs/azblob/error_tools.py
+fs/opener/blob_fs.py
+fs_azureblob.egg-info/PKG-INFO
+fs_azureblob.egg-info/SOURCES.txt
+fs_azureblob.egg-info/dependency_links.txt
+fs_azureblob.egg-info/entry_points.txt
+fs_azureblob.egg-info/requires.txt
+fs_azureblob.egg-info/top_level.txt

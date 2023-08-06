@@ -1,0 +1,3 @@
+[fs.opener]
+azblob = fs.opener.blob_fs:BlobFSOpener
+
