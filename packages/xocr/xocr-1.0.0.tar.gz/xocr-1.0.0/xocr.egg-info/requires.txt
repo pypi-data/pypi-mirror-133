@@ -1,0 +1,3 @@
+wheel
+python-opencv
+ddddocr>=1.3.0
