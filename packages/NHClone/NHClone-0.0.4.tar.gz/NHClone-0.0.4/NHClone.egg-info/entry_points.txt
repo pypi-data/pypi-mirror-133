@@ -1,0 +1,3 @@
+[console_scripts]
+NH-Clone = NHClone.Noob:menu
+

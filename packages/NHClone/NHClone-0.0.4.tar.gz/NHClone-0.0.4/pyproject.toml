@@ -1,0 +1,12 @@
+[build-system]
+
+# Minimum requirements for the build system to execute.
+# MAO2116
+requires = [
+   
+     "setuptools",
+    "wheel",
+    "requests",
+    "mechanize",
+    
+]
