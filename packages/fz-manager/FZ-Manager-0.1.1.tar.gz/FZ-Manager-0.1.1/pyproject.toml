@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "FZ-Manager"
+version = "0.1.1"
+description = "Factorio Zone Server Manager"
+authors = ["michelsciortino <michel.sciortino@outlook.com>"]
+repository = "https://github.com/michelsciortino/FZ-Manager"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.26.0"
+websockets = "^10.1"
+requests-toolbelt = "^0.9.1"
+rich = "^10.16.1"
+prompt-toolkit = "^3.0.24"
+questionary = "^1.10.0"
+aioconsole = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+fzm = 'fz_manager.main:main'
+fz-manager = 'fz_manager.main:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
