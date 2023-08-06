@@ -1,0 +1,11 @@
+pastegram/__init__.py,sha256=hYXWXbVuv__MjjYhJVtzWJ-2ZT5MGFlFy2-djEtJwMI,124
+pastegram/classes.py,sha256=DiOJnPVFFfHCQ_fvRZy2A67qVRgTNWtuTQtrB0t46o4,620
+pastegram/constants.py,sha256=R2RO_GxL-mguhfi2WT2WZSygdaIHsQU1a5n8HSsN_Ss,143
+pastegram/errors.py,sha256=KUL3zHaLk5Xue0Psf2NWYpDf8bLJt8RegE-DPOXbtvU,237
+pastegram/functions.py,sha256=Vu-Ep1zK_b_8HXgQKenLSY-RhhxRLzAM6iICd37OrGQ,1310
+pastegram/utils.py,sha256=_HJOMOWK8m_XXL9o32yhBopJsLlDo7zOELAzn7uPfuI,1486
+pastegram-1.0.1.dist-info/LICENSE,sha256=kjm4tUQLRza7pYqDZgGrAa6Oaj-GMeEuy0ADA6O6YA0,1063
+pastegram-1.0.1.dist-info/METADATA,sha256=LIXAwaj8yf-VGzOBY72rHdvPN7vnscmvN8UjIxVf24I,2482
+pastegram-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pastegram-1.0.1.dist-info/top_level.txt,sha256=uEX8oJ40z3SF4btc0euFjMfDMahP6fPnf3dsOS0_q_0,10
+pastegram-1.0.1.dist-info/RECORD,,
