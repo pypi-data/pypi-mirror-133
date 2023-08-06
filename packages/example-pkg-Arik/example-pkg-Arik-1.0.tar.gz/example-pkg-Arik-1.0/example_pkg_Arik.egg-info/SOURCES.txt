@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+calculate/__init__.py
+calculate/calc.py
+calculate/unittest.py
+example_pkg_Arik.egg-info/PKG-INFO
+example_pkg_Arik.egg-info/SOURCES.txt
+example_pkg_Arik.egg-info/dependency_links.txt
+example_pkg_Arik.egg-info/top_level.txt
