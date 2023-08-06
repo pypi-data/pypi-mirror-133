@@ -1,0 +1,10 @@
+utils_jlg/DL.py,sha256=_Lthnz3H5gxv9IS8wndV87TdQuvy0QEfBHhwIoVOGEU,15581
+utils_jlg/DL_pdes.py,sha256=rH-WVGNqQUKeSuwGC7-dbwKRLJaDRc1RcGCJUIkQ4F0,6628
+utils_jlg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils_jlg/fenics.py,sha256=YtpnSjji2FaB8hcr1oP258bYhH5WdZIYav27IzUkmjo,8989
+utils_jlg/video_image.py,sha256=odg4rsetIRBoiprsA3gnMfUqUTCbjcbTnmDFO7RBkHo,5206
+utils_jlg-1.0.1.dist-info/LICENSE,sha256=slfLIF8kOE68Ld7oDl4fMUMnxMICn_8JjSKWIo_lNNs,1073
+utils_jlg-1.0.1.dist-info/METADATA,sha256=kvCKGydQQmaMhd7A3XF61O65VEx14dTLg2n3MhgTWmY,156
+utils_jlg-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+utils_jlg-1.0.1.dist-info/top_level.txt,sha256=g0IemPbiRzp37A3bs7i3Cr7u88-yzf67VZuYl5O4e_g,10
+utils_jlg-1.0.1.dist-info/RECORD,,
