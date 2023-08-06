@@ -1,0 +1,6 @@
+include pyproject.toml
+include LICENSE.txt
+include CHANGELOG.rst
+include README.rst
+include MANIFEST.in
+include Makefile
