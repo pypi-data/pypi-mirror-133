@@ -1,0 +1,14 @@
+valuequant/ModelSets.py,sha256=S7z37jNkLBd-0TaP-CfQ0QGIWzc4hWm6A5tN2EJ-31k,8746
+valuequant/Models.py,sha256=m_BHMymmQCIginKzMDvjW6hqD8h7Fnc4QSX5x_Cytdc,8103
+valuequant/StockFrameSets.py,sha256=RB8uvBWcJk-eQOlN9lR80BDILEovZRyOOldICwOeodc,4169
+valuequant/StockModelSets.py,sha256=HqFtvc5C32pbX3-uoicY7_SnM4A8F42BYfXxCRqVnGc,11340
+valuequant/StockModels.py,sha256=EP-GOJn7QurD8sqr6-rGQUiUcFpX70kXmMbkNvRufLU,10299
+valuequant/VQconnect.py,sha256=M2P4FJVPo0x8cg_4uqsjzjkC-E7aBOP00z9c02z2dq0,2643
+valuequant/__init__.py,sha256=uOEcYNwcS2A5JJ76mw9q6lYypR0oiYtw5SFql7O_1OA,476
+valuequant/commonform.py,sha256=BY0DM41-uo50XWivOZNTQaT3OnNSJbW2RO0jqE0MCH8,7271
+valuequant/companyform.py,sha256=IwMJUO95ni10SP9G0cVlBQMpHFq8hltn9z9NMHCsp2s,5217
+valuequant-1.0.0.dist-info/LICENSE.txt,sha256=IxV5_7qITh-qUdIdR_vqddP81NHOkSgaT3Oo-KyoymA,1086
+valuequant-1.0.0.dist-info/METADATA,sha256=ksauh8KCdrwgUI16VoviUh-dbPb8iG4G8Q8CucschAI,860
+valuequant-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+valuequant-1.0.0.dist-info/top_level.txt,sha256=cF-XY56HmSc7gJtjEIMUT6dWrOMSMtm7LBUjUzdjF4I,11
+valuequant-1.0.0.dist-info/RECORD,,
