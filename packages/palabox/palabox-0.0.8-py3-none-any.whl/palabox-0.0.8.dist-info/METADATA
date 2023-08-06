@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: palabox
+Version: 0.0.8
+Summary: Toolbox of useful functions, with focus on Text Analysis and Stats
+Home-page: https://github.com/marcoboucas/palabox
+Author: Marco Boucas
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: beautifulsoup4 (==4.10.0)
+Requires-Dist: dacite (==1.6.0)
+Requires-Dist: colorlog (==6.5.0)
+
+# Palabox
+
+A series of functions, classes et code parts that can be used for different projects
+
+
