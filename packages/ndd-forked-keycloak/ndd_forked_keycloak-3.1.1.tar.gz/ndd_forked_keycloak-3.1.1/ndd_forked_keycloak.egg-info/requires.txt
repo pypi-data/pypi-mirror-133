@@ -1,0 +1,7 @@
+Django
+Flask
+starlette
+httpx
+requests
+python-jose
+pytest
