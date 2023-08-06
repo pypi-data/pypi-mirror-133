@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+setup.py
+tarpy/__init__.py
+tarpy/config.py
+tarpy/filters.py
+tarpy/logger.py
+tarpy/tarhandler.py
+tarpy/utils.py
+tarpy.egg-info/PKG-INFO
+tarpy.egg-info/SOURCES.txt
+tarpy.egg-info/dependency_links.txt
+tarpy.egg-info/entry_points.txt
+tarpy.egg-info/top_level.txt
+tarpy/cli/__init__.py
+tarpy/cli/run.py
