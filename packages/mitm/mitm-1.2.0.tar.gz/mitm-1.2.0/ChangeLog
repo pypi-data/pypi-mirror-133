@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v1.2.0
+------
+
+* Updated CoroutineClass pattern, and removed callback
