@@ -1,0 +1,304 @@
+feature_names,sample,qsampled,random_sample
+HRS1,c,,d
+wrkslf,self-employed,someone else,self-employed
+wrkgovt,private,,government
+OCC10,c,c,b
+PRESTG10,c,,a
+INDUS10,c,,b
+divorce,no,,no
+COHRS2,e,,e
+SPOCC10,e,,c
+SPPRES105PLUS,e,,c
+pawrkslf,self-employed,,someone else
+PAOCC10,d,b,e
+MAPRES10,c,b,b
+MAPRES105PLUS,c,,e
+MAIND10,offices of physicians,,plastics product manufacturing
+agekdbrn,b,,c
+educ,b,,a
+paeduc,c,,c
+maeduc,c,,b
+coeduc,e,,a
+madeg,high school,,high school
+sex,female,,female
+REG16,middle atlantic,e. nor. central,w. nor. central
+born,yes,yes,no
+granborn,e,c,e
+babies,c,,c
+teens,c,,c
+earnrs,c,,c
+rincome,$1000 to 2999,,$5000 to 5999
+INCOME16,$5 000 to 5 999,,$170000 or over
+RINCOM16,$1 000 to 2 999,,$8 000 to 9 999
+region,middle atlantic,mountain,w. sou. central
+xnorcsiz,"city,50-250000",,"city,10-49999"
+PRES12,obama,obama,other candidate (specify)
+VOTE16,did not vote,,did not vote
+PRES16,iap,,clinton
+polviews,moderate,moderate,conservative
+natspac,too much,,about right
+natenvir,about right,too little,too much
+natheal,too little,,about right
+natcity,too little,,too little
+natcrime,too little,about right,too much
+natdrug,too little,,too little
+nateduc,too little,,too much
+natrace,too little,,too much
+natfare,too little,about right,too little
+natroad,too much,,about right
+natpark,too little,too little,too much
+natchld,too little,,about right
+natenrgy,about right,,too little
+eqwlth,c,,c
+cappun,favor,oppose,oppose
+relig,none,,christian
+fund,liberal,liberal,liberal
+attend,never,,once a year
+postlife,yes,,yes
+pray,several times a week,,several times a day
+DENOM16,methodist-dk which,,luth ch in america
+bible,word of god,,word of god
+helpful,lookout for self,helpful,lookout for self
+trust,can't be too careful,can't be too careful,can't be too careful
+confinan,only some,,hardly any
+conbus,only some,,a great deal
+confed,only some,,only some
+conlabor,only some,,only some
+contv,hardly any,hardly any,a great deal
+workhard,most important,,most important
+helpoth,2nd important,3rd important,4th important
+socrel,once a year,,almost daily
+socbar,never,,never
+weekswrk,e,,b
+joblose,not too likely,,fairly likely
+jobfind,not easy,,very easy
+satjob,mod. satisfied,,mod. satisfied
+class,lower class,lower class,working class
+rank,e,c,c
+WKSUB1,no,,yes
+wksup,no,,yes
+unemp,no,,yes
+union,neither belongs,,spouse belongs
+UNION1,neither belongs,,spouse or partner belongs
+parsol,much worse,,somewhat worse
+fepol,disagree,,disagree
+chldidel,c,,d
+divlaw,easier,,stay same
+LETDIE1,yes,,no
+SUICIDE1,yes,,no
+SUICIDE2,no,no,no
+SUICIDE3,no,,yes
+polescap,yes,,yes
+tvhours,c,,c
+phone,cellphone,,phone in home
+coop,"friendly,interested",,"friendly,interested"
+form,standard <x>,,standard <x>
+fechld,disagree,agree,strongly agree
+RACDIF1,yes,no,yes
+RACDIF2,no,,no
+helppoor,b,,d
+god,believe but doubts,know god exists,dont believe
+numcong,e,c,d
+wlthwhts,c,,c
+wlthblks,c,c,e
+workwhts,c,c,e
+intlwhts,c,c,c
+intlhsps,c,,e
+fejobaff,strongly for,strongly against,for
+vigversn,e,c,d
+CLOSETO2,e,e,b
+CLOSETO3,e,,b
+CLOSETO5,e,,c
+SEETALK1,e,,d
+SEETALK3,e,,d
+MYPROBS2,e,,c
+MYPROBS3,e,,c
+MYPROBS5,e,,c
+SEVERE2,e,e,b
+SEVERE3,e,e,e
+SEVERE5,e,,b
+DANGOTH2,e,e,d
+DANGOTH4,e,,c
+DANGSLF2,e,e,c
+DANGSLF4,e,,d
+sprtprsn,modeate spirtual,,very spiritual
+emailhr,c,,e
+wwwhr,c,,e
+wwwmin,c,,e
+huclean,dirty,clean,so-so
+waypaid,c,,c
+wrksched,day shift,,irregular shift/on-call
+mustwork,no,,no
+wrkhome,worker works mainly at home,,about once a week
+hrsrelax,b,,b
+learnnew,disagree,,strongly agree
+workdiff,agree,,strongly agree
+respect,agree,agree,disagree
+teamsafe,agree,,disagree
+safehlth,agree,agree,disagree
+prodctiv,agree,strongly agree,agree
+trdunion,agree,,strongly agree
+wkdecide,never,sometimes,often
+promteok,very true,not too true,somewhat true
+fringeok,not at all true,,somewhat true
+cowrkint,very true,,not at all true
+jobsecok,not too true,very true,somewhat true
+hvylift,yes,,yes
+rincblls,no,,no
+laidoff,no,,yes
+wkracism,no,,yes
+wkharsex,no,no,yes
+physhlth,e,c,d
+hlthdays,e,c,d
+usedup,very often,,often
+backpain,yes,no,no
+hurtatwk,c,c,c
+slpprblm,often,sometimes,often
+SATJOB1,somewhat satisfied,,very satisfied
+arthrtis,yes,yes,yes
+weight,e,c,b
+ntwkhard,c,d,d
+lifenow,a,c,d
+LIFEIN5,e,,b
+hlthphys,fair,,fair
+hlthmntl,fair,good,excellent
+satsoc,fair,,fair
+actssoc,good,,excellent
+physacts,a little,,a little
+emoprobs,d,,d
+fatigue,severe,,moderate
+ratepain,e,,c
+abmoral,it depends,,morally opposed
+ABSTATE1,very easy,,neither easy nor hard
+ABHELP1,yes,,yes
+ABHELP2,yes,,yes
+abinspay,people should be able,,people should be able
+numpets,e,,c
+WORKFOR1,non-profit or not-for-profit organization,for-profit company,for-profit company
+stockval,e,,d
+extrapay,no,,yes
+extrayr,e,,b
+numemps,c,,e
+wrkslffam,no,,no
+newsfrom,tv,,other
+scifrom,the internet,,books other printed material
+seeksci,the internet,the internet,the internet
+toofast,disagree,,strongly agree
+astrosci,not at all scientific,,sort of scientific
+scistudy,little understanding,,clear understanding
+expdesgn,500 get the drug 500 dont,,all 1000 get the drug
+ODDS1,no,,yes
+hotcore,False,,False
+radioact,False,,False
+BIGBANG1,True,True,False
+condrift,True,,True
+solarrev,one year,,one year
+intintl,moderately interested,very interested,not at all interested
+intfarm,moderately interested,moderately interested,very interested
+intsci,moderately interested,very interested,very interested
+intecon,not at all interested,,moderately interested
+inttech,very interested,very interested,very interested
+intmed,very interested,,very interested
+intspace,moderately interested,very interested,not at all interested
+intenvir,moderately interested,moderately interested,not at all interested
+intmil,moderately interested,,moderately interested
+visnhist,c,,d
+viszoo,c,,c
+vissci,c,,e
+SCINEWS3,online newspapers,,science site
+scientgo,agree,,strongly agree
+scienthe,disagree,,agree
+scientod,disagree,disagree,disagree
+buyvalue,e,e,c
+numorg,c,,c
+buyesop,i would be neither more nor less likely to buy from an employee-owned company,i would be neither more nor less likely to buy from an employee-owned company,i would be more likely to buy from an employee-owned company
+company,a company whose stock is owned by the employees who appoint the management to run the company's operations,,a company in which the government owns the stock and appoints the management to run the company's operations
+ratetone,e,c,e
+posslq,no steady partner,,married with partner
+trbigbus,e,e,d
+intcntct,e,,c
+healthissp,fair,fair,good
+goodlife,disagree,,agree
+SATFAM7,completely satisfied,,completely satisfied
+hapunhap,fairly happy,,not at all happy
+concourt,no confidence at all,,a great deal of confidence
+fatalism,disagree,disagree,neither agree nor disagree
+nihilism,disagree,disagree,agree
+parelkid,hinduism,,protestant
+ATTEND12,every week,,several times a week
+feelrel,very religious,,extreme non-rel
+religint,not agree/dsagre,not agree/dsagre,disagree
+relmarry,definitely accept,,definitely not accept
+RELEXT1,definitely not,,probably
+difrel,disagree,,agree
+christns,somewhat positive,,somewhat positive
+jews,somewhat positive,,somewhat positive
+LETIN1A,"reduced a lot, or",reduced a little,increased a lot
+nummen,c,,c
+PARTNRS5,3 partners,,more than 100 partners
+SEXSEX5,exclusively male,exclusively male,both male and female
+evpaidsx,no,,yes
+evstray,no,,never married
+relatsex,"no, no relationship","yes, in relationship","yes, in relationship"
+HIVTEST2,private doctor or hmo office,,hospital
+sexbirth,female,female,male
+sexnow,women,women,transgender
+GENEGOO2,e,,e
+realrinc,c,,d
+coninc,b,,d
+yearsusa,e,,d
+mnthsusa,e,e,b
+vetyears,none,more than 4 yrs,less than 2 yrs
+dwelown,pays rent,,other
+DWELOWN16,paid rent,owned or was buying,owned or was buying
+worda,correct,,incorrect
+wordf,correct,,incorrect
+wordi,correct,,correct
+wordj,incorrect,,correct
+GENDER1,female,female,male
+MAR1,widowed,never married,divorced
+OLD2,e,,b
+OLD3,e,e,e
+OLD5,e,e,c
+OLD7,e,,b
+OLD8,e,e,c
+OLD9,e,,d
+OLD10,e,e,c
+hhrace,white,,white
+hhtype,"1adlt,0kids",,"3adlts,2mar,rel,1+kids"
+famgen,1 gen,1 gen,"3 gens, grandchldrn"
+visitors,no visitors,,1 visitor
+dateintv,505,,714
+ISCO88,c,,e
+SPISCO88,e,c,d
+ISCO08,child care workers,,personal services workers not elsewhere classified
+PAISCO08,"supply, distribution and related managers",,contact centre information clerks
+SEI10,b,,e
+SEI10EDUC,c,c,c
+SEI10INC,b,,e
+PASEI10,c,,e
+MASEI10INC,c,,c
+SPSEI10,e,,c
+SPSEI10EDUC,e,,b
+COSEI10,e,,e
+COSEI10EDUC,e,,c
+WHOELSE1,no,yes,no
+WHOELSE2,yes,,yes
+WHOELSE6,no,,yes
+intid,101,87,135
+feeused,"yes, money",,no
+feelevel,b,,d
+lngthinv,159,,169
+intage,46,,85
+intethn,white,white,black
+mode,in-person,,over the phone
+ballot,ballot b,,ballot c
+version,2,,3
+issp,did issp,,didnt do issp
+spaneng,english,english,english
+respond,low,low,high
+neisafe,very unsafe,,very safe
+rgroomed,very poorly groomed,,very well groomed
+rhlthend,poor,,good
+wtssall,c,,d
+vstrat,3301,3376,3364
