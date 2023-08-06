@@ -1,0 +1,3 @@
+[console_scripts]
+blpdecode=blpdecode:cli
+
