@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fz-manager
+Version: 0.1.1
+Summary: Factorio Zone Server Manager
+Home-page: https://github.com/michelsciortino/FZ-Manager
+Author: michelsciortino
+Author-email: michel.sciortino@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aioconsole (>=0.3.3,<0.4.0)
+Requires-Dist: prompt-toolkit (>=3.0.24,<4.0.0)
+Requires-Dist: questionary (>=1.10.0,<2.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: requests-toolbelt (>=0.9.1,<0.10.0)
+Requires-Dist: rich (>=10.16.1,<11.0.0)
+Requires-Dist: websockets (>=10.1,<11.0)
+Project-URL: Repository, https://github.com/michelsciortino/FZ-Manager

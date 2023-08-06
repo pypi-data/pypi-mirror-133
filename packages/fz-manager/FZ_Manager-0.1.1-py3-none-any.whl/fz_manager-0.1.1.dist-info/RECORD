@@ -1,0 +1,13 @@
+fz_manager/__init__.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+fz_manager/factorio_zone_api.py,sha256=sVCZPJIsSxFFxT19ymspo5MhQ1w4-Ir0bs51x5pLCDc,11240
+fz_manager/main.py,sha256=Nrqb0WjJRJmZ7Cmya4uFD5xX-1ImS9ARgwHsmwLvaZo,17804
+fz_manager/menu.py,sha256=7IgQOvlSYYcsTxOmIJqh87SnKzjRtUnGfBXRFZRDF_g,7304
+fz_manager/shell.py,sha256=AuA5JVTje9junJcUooAoCqG5mGLnLavRFI0PcgGCfDo,4023
+fz_manager/storage.py,sha256=TN0AzABtbN8N-JuzSXXKjieQd9OaY8F8Tk2YppGYy8Y,2112
+fz_manager/titlebar.py,sha256=G_B4ut7rPhikbOBgSb-tsxkTKytNtaNs4G8CtTLYzd0,1322
+fz_manager/utils.py,sha256=yGQgf1SJiaqSES5UnYfIsfmFOXfkDpFfHfPx8kjYQoI,3122
+fz_manager-0.1.1.dist-info/entry_points.txt,sha256=3zXNRHX-B4-yiQUHSP26Od8KdHgRQ0tWPKabNTrzfp8,76
+fz_manager-0.1.1.dist-info/LICENSE,sha256=GpHP8AFUweNuQt_-i_x07Q09GKkEAi0t94lr7b7CivM,1094
+fz_manager-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fz_manager-0.1.1.dist-info/METADATA,sha256=KYhbPxJubUIn1QcC0iLeFgkNioZ46TrR-OfFqTv2YPA,725
+fz_manager-0.1.1.dist-info/RECORD,,

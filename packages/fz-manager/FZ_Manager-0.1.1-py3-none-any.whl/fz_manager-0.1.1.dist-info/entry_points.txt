@@ -1,0 +1,4 @@
+[console_scripts]
+fz-manager=fz_manager.main:main
+fzm=fz_manager.main:main
+
