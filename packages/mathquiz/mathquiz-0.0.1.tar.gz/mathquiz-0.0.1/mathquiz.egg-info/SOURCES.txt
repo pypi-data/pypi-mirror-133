@@ -1,0 +1,5 @@
+README.md
+mathquiz.egg-info/PKG-INFO
+mathquiz.egg-info/SOURCES.txt
+mathquiz.egg-info/dependency_links.txt
+mathquiz.egg-info/top_level.txt
