@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: atags
+Version: 0.0.1
+Summary: Yet another tagging system
+Home-page: https://github.com/skt041959/atags
+Author: skt041959
+Author-email: skt041959@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+

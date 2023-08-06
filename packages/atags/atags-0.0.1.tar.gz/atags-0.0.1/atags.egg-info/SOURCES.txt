@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+atags/__init__.py
+atags/atags.py
+atags/profile.py
+atags.egg-info/PKG-INFO
+atags.egg-info/SOURCES.txt
+atags.egg-info/dependency_links.txt
+atags.egg-info/entry_points.txt
+atags.egg-info/requires.txt
+atags.egg-info/top_level.txt
