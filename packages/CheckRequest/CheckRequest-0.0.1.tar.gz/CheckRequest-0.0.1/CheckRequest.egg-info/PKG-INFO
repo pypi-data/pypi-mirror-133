@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: CheckRequest
+Version: 0.0.1
+Summary: A connection checker
+Home-page: UNKNOWN
+Author: Algrow
+Author-email: nobody@needsit.com
+License: MIT
+Description: This is a connection request check library..
+        
+        
+        Change Log
+        ===========
+        
+        
+        0.0.1 (08/01/2022)
+        
+        
+        -------------------
+        
+        -First Release
+        
+Keywords: connection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
