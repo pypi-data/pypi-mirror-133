@@ -1,0 +1,3 @@
+recursive-include ngsfragments *.c *.h *.pxd *.pyx
+recursive-include htslib  *.c *.h
+include cy_build.py
