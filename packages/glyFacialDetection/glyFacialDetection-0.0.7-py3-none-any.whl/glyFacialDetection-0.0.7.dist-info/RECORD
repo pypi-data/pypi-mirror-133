@@ -1,0 +1,15 @@
+glyFacialDetection/DetectedArea.py,sha256=PVp-ooEM95JrBILygUiU22-AusEMXYBpkBugnezXbco,8419
+glyFacialDetection/DetectedFace.py,sha256=fCqt19b9KOFVA4jEatOSLWGosAxRAyNHZM9q-wTFj8I,1584
+glyFacialDetection/HelperFunctions.py,sha256=lmCVOq2MuE3b2dCfvV1FNL504etlxmflCOVFh-k02X8,9682
+glyFacialDetection/ImageManager.py,sha256=9fF8KgGPVGqq-GwP-ZkrJhy6djNAS8pTk9nL1DoHI5k,31095
+glyFacialDetection/Point.py,sha256=DdJ2KPJgtODZgm_bP5bpdEiVEgNbAlPcJQXtACg1g4Y,5537
+glyFacialDetection/VideoManager.py,sha256=HMjQ1SkLPbpC93qNMEDp3SDB1uUIk556YQoICxXVqhY,63909
+glyFacialDetection/VideoManagerForServer.py,sha256=i23Y4TadQ6OIYtPDbK8dFVJcmdWnW0k1tbUnDHF-SpI,1918
+glyFacialDetection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glyFacialDetection/example.py,sha256=X4bE2aofVJAbmacOI_Ny0Oc7m2Ru4ShxUscmJqVps1Q,43
+glyFacialDetection/setup.py,sha256=UtMHV2Mdg83rTKsa8zYrqk30Bk83MkX2U9puU1d5j4Q,2146
+glyFacialDetection-0.0.7.dist-info/LICENSE.txt,sha256=C7zxMgRY4M8z8Sr5UNe9MHSXgzSFJsr5kgCARIQ63q8,1059
+glyFacialDetection-0.0.7.dist-info/METADATA,sha256=rAhUns4LcM-TATS1pFVVgvHlBr9l4ostarNmdftcBHc,666
+glyFacialDetection-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+glyFacialDetection-0.0.7.dist-info/top_level.txt,sha256=zkWwq33am6JzXquSHyBWfFyU1opN8K8fKAr_fdGzlo4,19
+glyFacialDetection-0.0.7.dist-info/RECORD,,
