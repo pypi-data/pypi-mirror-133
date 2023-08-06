@@ -1,0 +1,78 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2018-03-16 08:26+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.rating\n"
+
+#: ./behaviors/configure.zcml:13
+msgid "Adds possibility to rate content type"
+msgstr ""
+
+#: ./browser/settings.py:30
+msgid "Cancel"
+msgstr ""
+
+#: ./configure.zcml:29
+msgid "Installs the collective.rating add-on."
+msgstr ""
+
+#: ./behaviors/configure.zcml:13
+msgid "Rating Behaviors"
+msgstr ""
+
+#: ./profiles/default/controlpanel.xml
+msgid "Rating settings"
+msgstr ""
+
+#: ./behaviors/rating.py:26
+msgid "Rating's field"
+msgstr ""
+
+#: ./browser/settings.py:34
+msgid "Save"
+msgstr ""
+
+#: ./configure.zcml:38
+msgid "Uninstalls the collective.rating add-on."
+msgstr ""
+
+#. Default: "Rating is active"
+#: ./behaviors/rating.py:34
+msgid "active_rating_title"
+msgstr ""
+
+#: ./configure.zcml:29
+msgid "collective.rating"
+msgstr ""
+
+#: ./configure.zcml:38
+msgid "collective.rating (uninstall)"
+msgstr ""
+
+#. Default: "Default stars number"
+#: ./browser/settings.py:13
+msgid "default_stars_title"
+msgstr ""
+
+#. Default: "Num of stars"
+#: ./behaviors/rating.py:40
+msgid "max_rating_title"
+msgstr ""
+
+#. Default: "Rating Settings"
+#: ./browser/settings.py:22
+msgid "rating_schema"
+msgstr ""
