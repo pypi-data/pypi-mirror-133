@@ -1,0 +1,8 @@
+README.md
+setup.py
+octodns_cloudflare/__init__.py
+octodns_cloudflare.egg-info/PKG-INFO
+octodns_cloudflare.egg-info/SOURCES.txt
+octodns_cloudflare.egg-info/dependency_links.txt
+octodns_cloudflare.egg-info/requires.txt
+octodns_cloudflare.egg-info/top_level.txt
