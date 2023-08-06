@@ -1,0 +1,16 @@
+airflow/providers/yandex/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/yandex/get_provider_info.py,sha256=4Wx_8KN03S2fk8OgvJ-23FKy2u_j-MHu_MHe8XJDHHE,2866
+airflow/providers/yandex/example_dags/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/yandex/example_dags/example_yandexcloud_dataproc.py,sha256=DVTAKvJPECObpF6gIfMaHWjCCzobwqQtYXHrpfYAnbg,5945
+airflow/providers/yandex/hooks/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/yandex/hooks/yandex.py,sha256=jR4WHwHtXOApkthETrHS2qYELlQMcCDyZ5fUDbeKm0g,6869
+airflow/providers/yandex/hooks/yandexcloud_dataproc.py,sha256=tRF_1uAIwxj2-ILhu81j-vK_5olbe4OCEaAfNjnqIUs,1376
+airflow/providers/yandex/operators/__init__.py,sha256=9hdXHABrVpkbpjZgUft39kOFL2xSGeG4GEua0Hmelus,785
+airflow/providers/yandex/operators/yandexcloud_dataproc.py,sha256=8HCqcoD4BrB3H-PIhG7cZSfK6dNTmiIbd2t_Y85UmaQ,26926
+apache_airflow_providers_yandex-2.2.0.dist-info/LICENSE,sha256=gXPVwptPlW1TJ4HSuG5OMPg-a3h43OGMkZRR1rpwfJA,10850
+apache_airflow_providers_yandex-2.2.0.dist-info/METADATA,sha256=YczWmdWNxoaNkrfmOAnGd4TeXbqPRKzE3bCU61EDkbM,7056
+apache_airflow_providers_yandex-2.2.0.dist-info/NOTICE,sha256=m-6s2XynUxVSUIxO4rVablAZCvFq-wmLrqV91DotRBw,240
+apache_airflow_providers_yandex-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_providers_yandex-2.2.0.dist-info/entry_points.txt,sha256=A0WGixebsSO7vLnje5wks41ZJXpBmfmi36Uic5y-o8E,104
+apache_airflow_providers_yandex-2.2.0.dist-info/top_level.txt,sha256=OeMVH5md7fr2QQWpnZoOWWxWO-0WH1IP70lpTVwopPg,8
+apache_airflow_providers_yandex-2.2.0.dist-info/RECORD,,
