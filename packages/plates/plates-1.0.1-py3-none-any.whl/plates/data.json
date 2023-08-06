@@ -1,0 +1,45 @@
+{
+    "License Plates": {
+        "Programme Info": {
+            "Programme Usage": "python -m plates [-v | --version] [-h | --help] [-lf | --list-functions] <args> [kwargs ...]",
+            "Programme Description": "License Plates Toolbox provides functions to work with custom or standard license plate patterns",
+            "Programme Epilog": "The logic behind this programme asummes that registering of license plates is done in the corresponding order. If this is not the case, then results may not be the ones expected"
+        },
+        "Std Plate Patterns": {
+            "A": "CDDDCC",
+            "AD": "CDDDD",
+            "AR-1": "CCCDDD",
+            "AR-2": "CCDDDCC",
+            "BE": "DCCCDDD",
+            "BR-1": "CCCDDDD",
+            "BR-2": "CCCDCDD",
+            "D": "CCCCDDD",
+            "DK": "CCDDDDD",
+            "E": "DDDDCCC",
+            "F": "CCDDDCC",
+            "FIN": "CCCDDD",
+            "GB": "CCDDCCC",
+            "GR": "CCCDDDD",
+            "HR": "CCDDDCC",
+            "IT": "CCDDDCC",
+            "N": "CCDDDDD",
+            "NL": "CCDDDC",
+            "P": "DDDDCC",
+            "S": "CCCDDD",
+            "US-CA": "DCCCDDD",
+            "US-FL": "CCCCDD",
+            "US-ILL": "DDCCCCC",
+            "US-MA": "DDDD",
+            "US-MS": "CCCDDD",
+            "US-NJ": "CDDCCC",
+            "US-NV": "DDDCDD",
+            "US-NY": "CCCDDDD",
+            "US-OH": "CCCDDDD",
+            "US-OR": "DDDCCC",
+            "US-PA": "CCCDDDD",
+            "US-TX": "CCCDDDD",
+            "US-VA": "CCCDDDD",
+            "US-WA": "CCCDDDD"
+        }
+    }
+}
