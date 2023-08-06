@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: semanticlayertools
+Version: 0.0.1
+Summary: Create semantic layers using different methods for word linking.
+Home-page: https://gitlab.gwdg.de/modelsen/semanticlayertools
+Author: Malte Vogl
+Author-email: mvogl@mpiwg-berlin.mpg.de
+License: UNKNOWN
+Project-URL: Project Home, https://modelsen.mpiwg-berlin.mpg.de
+Project-URL: Bug Tracker, https://gitlab.gwdg.de/modelsen/semanticlayertools/-/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: nltk
+Requires-Dist: numpy
+
+# SemanticLayerTools
+
+Collects tools to create semantic layers in the socio-epistemic networks framework. Source material can be any structured corpus with metadata of authors, time, and at least one text column.
+

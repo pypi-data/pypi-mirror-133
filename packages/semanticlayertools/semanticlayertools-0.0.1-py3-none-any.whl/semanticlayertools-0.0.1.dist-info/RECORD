@@ -1,0 +1,9 @@
+semanticlayertools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semanticlayertools/cleaning/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semanticlayertools/linkage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+semanticlayertools/linkage/wordscore.py,sha256=EUbdtsvGsPfdcYeynZGlWWtHEC5eDsaQA9uHFcwxj0g,3598
+semanticlayertools-0.0.1.dist-info/LICENSE,sha256=3jH3AP1wnbA2AgV1jydFOKOi3x-K5emBYamrVfMyVGc,1086
+semanticlayertools-0.0.1.dist-info/METADATA,sha256=P17otMYD8nze9wZ-PWBvI8QVx1eeFL01Nji_x796pnQ,949
+semanticlayertools-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+semanticlayertools-0.0.1.dist-info/top_level.txt,sha256=O7-x7oap9bdX5lD5yaPQXizq-Bjac1R_mghN0lOBQXQ,19
+semanticlayertools-0.0.1.dist-info/RECORD,,
