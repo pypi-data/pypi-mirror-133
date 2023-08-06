@@ -1,0 +1,6 @@
+rpy2
+scikit-learn
+uuid
+pandas
+matplotlib
+numpy
