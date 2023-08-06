@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+urdf2casadi/__init__.py
+urdf2casadi/urdfparser.py
+urdf2casadi.egg-info/PKG-INFO
+urdf2casadi.egg-info/SOURCES.txt
+urdf2casadi.egg-info/dependency_links.txt
+urdf2casadi.egg-info/requires.txt
+urdf2casadi.egg-info/top_level.txt
+urdf2casadi/geometry/__init__.py
+urdf2casadi/geometry/dual_quaternion.py
+urdf2casadi/geometry/plucker.py
+urdf2casadi/geometry/quaternion.py
+urdf2casadi/geometry/transformation_matrix.py
