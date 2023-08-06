@@ -1,0 +1,11 @@
+fmriprepgr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmriprepgr/_html_snippets.py,sha256=EhFEpT0pWBA08dMMfAiG1Qke-OvkwHlCX7k-s5RLIuk,5797
+fmriprepgr/reports.py,sha256=a0sMPgKrSM0v_vdtH6EMJRSuGF3pOtVcU9AYslosTmE,8333
+fmriprepgr/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmriprepgr/test/test_reports.py,sha256=XLBDAOG_AXukHIzuslLjPbLjzUbdApwL6asiuaE1Qms,4784
+fmriprep_group_report-0.0.2.dist-info/LICENSE,sha256=VTfU0Qt2uBtujf2LZESApLHvozL7sM22ESbFvnge97Q,6554
+fmriprep_group_report-0.0.2.dist-info/METADATA,sha256=YYI9PsV5ipt9D_MlUWhFYDlFAcpjYbpDI92JybFpZo4,536
+fmriprep_group_report-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fmriprep_group_report-0.0.2.dist-info/entry_points.txt,sha256=9j8GTaNGtelTwFjRph6ptfjuh4HgM9szSI9PwlFvA2E,63
+fmriprep_group_report-0.0.2.dist-info/top_level.txt,sha256=igEOvdN6g2F1rfF5hoZx8IXJP2dtoLzCRee11fkEOVo,11
+fmriprep_group_report-0.0.2.dist-info/RECORD,,
