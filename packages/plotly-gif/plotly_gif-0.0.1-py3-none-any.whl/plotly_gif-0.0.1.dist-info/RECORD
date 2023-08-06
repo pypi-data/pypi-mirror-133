@@ -1,0 +1,10 @@
+plotly_gif/__init__.py,sha256=osaJtg3uL5L56RCgvQKHBBQw5urq5oUZ8kxJZKchmoM,689
+plotly_gif/_format.py,sha256=njtemMZKGnISiu0Z1cPMYqbJklbFRzepEsGV90tp7YI,955
+plotly_gif/gif.py,sha256=4AxpjklyRSDJQrLk6RlZcNmv2L6Wsnx_4_90SEGtrNE,4410
+plotly_gif/three_d_plots.py,sha256=OxXAIhLYC_aGh9yIKtwyTu4yfLc1zYVwsZpr9skSwHo,6056
+plotly_gif/two_d_plots.py,sha256=x371q9sVewiUL62Bi9D5LtcZrAa0KCm97aZ5xTbzvNI,781
+plotly_gif-0.0.1.dist-info/LICENSE.txt,sha256=DYqvcTCe1xR3HRzWFA7u1Y7H8rpE3683Egt1107HL4o,1564
+plotly_gif-0.0.1.dist-info/METADATA,sha256=GKRnoseW2YcHyX3ICABjNo-D5IBkhNsLSKbcQq98JTM,2071
+plotly_gif-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plotly_gif-0.0.1.dist-info/top_level.txt,sha256=-4at2LfR_TE74CY2_z9sutXRqe-hIGw9LkPUG4RuHCg,11
+plotly_gif-0.0.1.dist-info/RECORD,,
