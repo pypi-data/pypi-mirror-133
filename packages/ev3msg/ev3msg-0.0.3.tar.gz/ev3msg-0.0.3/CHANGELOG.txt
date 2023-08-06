@@ -1,0 +1,7 @@
+Change Log
+==========
+
+0.0.3 (07/01/2022)
+-------------------
+- Various Changes in the Documentation
+- Source Code Linting
