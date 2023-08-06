@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+advanced_sqlalchemy_manager.egg-info/PKG-INFO
+advanced_sqlalchemy_manager.egg-info/SOURCES.txt
+advanced_sqlalchemy_manager.egg-info/dependency_links.txt
+advanced_sqlalchemy_manager.egg-info/requires.txt
+advanced_sqlalchemy_manager.egg-info/top_level.txt
+alchmanager/__init__.py
+alchmanager/alchmanager.py
