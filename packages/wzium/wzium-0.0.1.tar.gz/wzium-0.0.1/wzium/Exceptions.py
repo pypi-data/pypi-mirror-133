@@ -1,0 +1,3 @@
+
+class WziumNotFound(Exception):
+    pass
