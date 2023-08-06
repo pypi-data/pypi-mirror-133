@@ -1,0 +1,2 @@
+from gbsoft.HandTrackingModule import  HandDetector
+from gbsoft.FaceDetectionModule import FaceDetector
