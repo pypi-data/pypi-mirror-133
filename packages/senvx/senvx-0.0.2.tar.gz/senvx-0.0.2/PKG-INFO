@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: senvx
+Version: 0.0.2
+Summary: Package installer and consumer for Senv (Super Environment), a tool to simplify dependency management, packaging, distribution, and consumption of your applications and libraries.
+Home-page: https://JorgeGarciaIrazabal.github.io/senv
+Author: Jorge
+Author-email: jorge.girazabal@gmail.com
+Requires-Python: >3.7.0,<3.10.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: ensureconda (>=1.4.0,<2.0.0)
+Requires-Dist: pydantic (>=1.7.3,<2.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+# senvx
+Python Package installer with standalone environments.
+
