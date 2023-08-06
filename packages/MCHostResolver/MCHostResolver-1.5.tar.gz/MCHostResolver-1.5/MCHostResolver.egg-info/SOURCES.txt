@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+MCHostResolver/MCHostResolver.py
+MCHostResolver/__init__.py
+MCHostResolver.egg-info/PKG-INFO
+MCHostResolver.egg-info/SOURCES.txt
+MCHostResolver.egg-info/dependency_links.txt
+MCHostResolver.egg-info/requires.txt
+MCHostResolver.egg-info/top_level.txt
