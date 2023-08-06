@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: PyMysqlTools
+Version: 0.1
+Summary: A library that makes MySQL operation more convenient.
+Home-page: https://gitee.com/uraurara/MysqlUtils
+Author: ulala
+Author-email: 2713389652@qq.com
+License: MIT
+Keywords: mysql,client,mysqluitls,PyMysqlTools
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.10
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
