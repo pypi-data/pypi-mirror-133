@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/pisht30/__init__.py
+src/pisht30/pisht30.py
+src/pisht30.egg-info/PKG-INFO
+src/pisht30.egg-info/SOURCES.txt
+src/pisht30.egg-info/dependency_links.txt
+src/pisht30.egg-info/requires.txt
+src/pisht30.egg-info/top_level.txt
