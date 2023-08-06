@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: navi pro - mysql
+Version: 1.0.1
+Summary: A command-line interface to Tenable.io
+Home-page: UNKNOWN
+Author: Steve Proud
+Author-email: sproud22@gmail.com
+License: GNUv3
+Keywords: tenable tenable_io navi tio,lumin,navi pro,tio cli,tenable io cli,automation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Navimysql - The Tenable.io Swiss Army Knife with MySQL Database
+
+    *** This tool is not an officially supported Tenable project ***
+    
+    *** Use of this tool is subject to the terms and conditions identified below,
+     and is not subject to any license agreement you may have with Tenable ***
+
+
