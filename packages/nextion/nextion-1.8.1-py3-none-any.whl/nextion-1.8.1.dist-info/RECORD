@@ -1,0 +1,15 @@
+nextion/__init__.py,sha256=U1cJFAwBe3UvXh247QO0uwHOwI9PmiXBO4lmTZl3pOs,202
+nextion/client.py,sha256=LGFdjiNMA_5RTdLgzJQFlXvPZYMfYPC1lykhP436aok,15036
+nextion/constants.py,sha256=RbnZhnjTsyc1f47qP7hXkZ5L-_MmUrTcqe8ETAZN4gs,189
+nextion/exceptions.py,sha256=NCkoShxbsIo_DNC5ZIi5g9ugUl21ZRJ8oX9oA1l6g5Y,1078
+nextion/console_scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nextion/console_scripts/upload_firmware.py,sha256=ZCkq9Gu5EIMA0iqD4j5Rd52soTIyafyAzExCXkbIVSA,1318
+nextion/protocol/__init__.py,sha256=nQA8jQVg1viEdijQ4MqvF36ajX__325OSDr2sBX-5NU,171
+nextion/protocol/base.py,sha256=UH-mSyuerJ7asz4k-_wI8JV4haqLC1afZJRA2i-MT2E,1541
+nextion/protocol/nextion.py,sha256=9r7kabqU9XxpJzooeytDkbwu_zrOkJWKM1Ik9dMIsKU,3670
+nextion-1.8.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+nextion-1.8.1.dist-info/METADATA,sha256=V9CnQiMpptlSWhrQlKXOwP32eYDSFcI2b19XZpXZRao,5452
+nextion-1.8.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nextion-1.8.1.dist-info/entry_points.txt,sha256=T93x7pdHAKfL7mElGpxhpM5B4BG-N2YIeTGGLv8bTkQ,84
+nextion-1.8.1.dist-info/top_level.txt,sha256=5nT9pttazv8Ew-szAsGVn4kl7Ii55dE7H2NUileAZp8,8
+nextion-1.8.1.dist-info/RECORD,,
