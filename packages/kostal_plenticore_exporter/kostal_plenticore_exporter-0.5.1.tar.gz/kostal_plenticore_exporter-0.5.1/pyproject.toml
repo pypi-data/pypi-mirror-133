@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "kostal_plenticore_exporter"
+description-file = "README.rst"
+author = "Matthias Bach"
+author-email = "<marix@marix.org>"
+license = "AGPL-3.0-or-later"
+home-page = "https://codeberg.org/Marix/kostal-plenticore-exporter"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: No Input/Output (Daemon)",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Monitoring",
+]
+requires-python='>=3.6,<4'
+requires = [
+    "prometheus-client >= 0.7",
+    "kostalplenticore >= 0.3",
+    "click >= 7.0",
+]
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest >=3.10"
+]
+
+[tool.flit.scripts]
+kostal-plenticore-exporter = 'kostal_plenticore_exporter.cli:cli'
+
+[tool.isort]
+profile = "hug"
+line_length = 120
