@@ -1,0 +1,6 @@
+beautifulsoup4
+types-beautifulsoup4
+lxml
+lxml-stubs
+requests
+types-requests
