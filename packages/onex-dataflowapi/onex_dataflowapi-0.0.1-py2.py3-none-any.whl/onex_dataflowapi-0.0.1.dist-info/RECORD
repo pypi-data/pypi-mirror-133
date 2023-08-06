@@ -1,0 +1,8 @@
+onex_dataflowapi/__init__.py,sha256=fITGtIy8JDDB5ugA2hYVduf_Zro-RsUtsPRxSHJGJjI,1316
+onex_dataflowapi/onex_dataflowapi.py,sha256=q_nua8HLh7yedXLLLajz0KnuFnCdjwXONx_XGGHEvAw,71550
+onex_dataflowapi/onexdataflowapi_pb2.py,sha256=2kN9HpVFbgtYXMePBMJt1-3-dQ6H0wt72_-YGl-BZgU,124529
+onex_dataflowapi/onexdataflowapi_pb2_grpc.py,sha256=zfFg5pTZzhfpU7NG-IXdw-pxhh9v1W5DNjvolYC0Z8M,4055
+onex_dataflowapi-0.0.1.dist-info/METADATA,sha256=NH1IgoxpxeCsTcTz55uhcHtO-lGVdIbonUUgJ5X1iFU,734
+onex_dataflowapi-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+onex_dataflowapi-0.0.1.dist-info/top_level.txt,sha256=5exG95wBIZPPB08VgbmZfdVcU3lF04a8NOB9MgDiv2E,17
+onex_dataflowapi-0.0.1.dist-info/RECORD,,
