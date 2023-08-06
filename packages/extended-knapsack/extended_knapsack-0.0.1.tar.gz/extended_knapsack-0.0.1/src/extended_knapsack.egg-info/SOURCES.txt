@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/extended_knapsack/__init__.py
+src/extended_knapsack/knapsack.py
+src/extended_knapsack.egg-info/PKG-INFO
+src/extended_knapsack.egg-info/SOURCES.txt
+src/extended_knapsack.egg-info/dependency_links.txt
+src/extended_knapsack.egg-info/top_level.txt

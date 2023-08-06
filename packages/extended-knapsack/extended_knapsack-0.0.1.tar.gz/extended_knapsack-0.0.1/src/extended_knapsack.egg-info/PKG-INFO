@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: extended-knapsack
+Version: 0.0.1
+Summary: 0-1 knapsack with an additional constraint of maximum number of items used.
+Home-page: https://github.com/lionralfs/extended_knapsack
+Author: Lion Ralfs
+Author-email: lion.ralfs@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/lionralfs/extended_knapsack/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# extended_knapsack
+
+0-1 knapsack with an additional constraint of maximum number of items used.
+
+## Usage
+
+`pip3 install extended_knapsack`
+
+```python
+from extended_knapsack.knapsack import solve
+
+items = [
+    {'weight': 4, 'value': 5, 'my-custom-field': 1},
+    {'weight': 3, 'value': 4, 'my-custom-field': 2},
+    {'weight': 2, 'value': 3, 'my-custom-field': 3},
+    {'weight': 1, 'value': 2, 'my-custom-field': 4},
+]
+
+result_value, result_items = knapsack(items, 6, 2)
+print(result_value)
+# 8
+print(result_items)
+# [
+#   {'weight': 4, 'value': 5, 'my-custom-field': 1},
+#   {'weight': 2, 'value': 3, 'my-custom-field': 3}
+# ]
+```
+
+
