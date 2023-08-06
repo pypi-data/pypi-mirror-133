@@ -1,0 +1,9 @@
+extviews/__init__.py,sha256=DGXX5IzaRpFLMOUkocNhDAkHYLUSlTOCYtuMMp9jF7Y,402
+extviews/connections.py,sha256=Ix5YZ2CZCAp9cw7582wTaRDSSpStF8mM2WkyFsjcg4w,1820
+extviews/crudset.py,sha256=ErJkIjoob3GdxCGw5whnuK4Y8zSLs8v2e7Cq6uhsOzU,4061
+extviews/depends.py,sha256=FAgXdQH43lOCwrTR1hnkUtu93IrXC7PRlVhG1FFEclo,1209
+extviews/viewset.py,sha256=KkTmFQQbDVbBQD6YJym8kCvqNZH8nUh_JT_SWaBu3S0,7043
+fastapi_extviews-0.1.0.dist-info/LICENSE,sha256=o30xzkw7TqwGmYSx6-_dCgRLvEatdI07v1pSyhSKXnM,1092
+fastapi_extviews-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fastapi_extviews-0.1.0.dist-info/METADATA,sha256=bSS2Z3X2BVMQTh5YhnhmaMK4s5xAfwpQHJ0g-g-Cj6E,834
+fastapi_extviews-0.1.0.dist-info/RECORD,,
