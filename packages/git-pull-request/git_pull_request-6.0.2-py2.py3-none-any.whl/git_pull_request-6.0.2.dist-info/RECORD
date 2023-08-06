@@ -1,0 +1,12 @@
+git_pull_request/__init__.py,sha256=hicGPdzbuQcwuQ5KXd_GrUO2IyT955dYQ82njS-CJQM,27509
+git_pull_request/pagure.py,sha256=msKX96bJtvr4Gt6wshlkhVqf7T--Owkynl3SJQW-kHo,7363
+git_pull_request/textparse.py,sha256=f9CXmawANbePPVIAwLiL2CIpw7hQn_EldTwJr_7g2zI,1172
+git_pull_request/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_pull_request/tests/test_gpr.py,sha256=v3UIuxHzG6hrdJWt7J9PeeHal79eZwOAIyr7ZwxlWdI,14717
+git_pull_request/tests/test_textparse.py,sha256=57UjA8yYm5wKsLy9Lq1y_vR6Y2uzPaOEGbAipwSJZOU,1119
+git_pull_request-6.0.2.dist-info/LICENSE,sha256=A5Us1Px42BYFaGmOeyCWvJ-nnclrl1gn_onKr6FcvDo,11348
+git_pull_request-6.0.2.dist-info/METADATA,sha256=JkXceO2XqgG7ob5AcQOyHwtWz_mdXhx9J_BUp7Dsz-s,5177
+git_pull_request-6.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+git_pull_request-6.0.2.dist-info/entry_points.txt,sha256=VMK20t2OveGHJXecUZ_nzna7XrF9Fo5o--mqvXZtFeU,60
+git_pull_request-6.0.2.dist-info/top_level.txt,sha256=LdfXEWZSE07yzac9hc_NnsBv0w1a7S3ZH4JK8SXh6ew,17
+git_pull_request-6.0.2.dist-info/RECORD,,
