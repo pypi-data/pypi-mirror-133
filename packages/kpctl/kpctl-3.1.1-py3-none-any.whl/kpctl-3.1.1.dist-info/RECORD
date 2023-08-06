@@ -1,0 +1,11 @@
+kpctl/__init__.py,sha256=pONr-B_0pwLRM517IPDbam1CBZRKhRmZA1xyzJdyr7I,809
+kpctl/__main__.py,sha256=EFHmUX4D5GxSRERUD39bcrnKr8jnW3wQsgbYg8By7E4,883
+kpctl/kp.py,sha256=0-Ur1-cXo0kIPnBr5BW8k2xIMS0WsP3mt-ufNtWBvGU,4228
+kpctl/kpctl.py,sha256=UxU3C2uN-h1sMD7XEujoCA_bMEWQXLRTDerYlyMS6Oo,42900
+kpctl/requirements.txt,sha256=kqVigI_ta61cP-7_TbrYzElE8K30LIKHTHKYopsMYus,47
+kpctl-3.1.1.dist-info/LICENSE,sha256=yVuuHRzgI17MzTVgt3LsHvuX80innw--CmNPDCzO_iw,11358
+kpctl-3.1.1.dist-info/METADATA,sha256=LuOSSQg3ghvbrFPXJW8VKLgh5eGk0l521mzrIlHAM_s,1309
+kpctl-3.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kpctl-3.1.1.dist-info/entry_points.txt,sha256=OutE4BJXmy-5noHnHn-S91JjrgUceInvI4AQewp-2Cw,47
+kpctl-3.1.1.dist-info/top_level.txt,sha256=8WAsMX0As6QoZ9zexgkM74q463hxMBPNKeBuKS9PCU8,6
+kpctl-3.1.1.dist-info/RECORD,,
