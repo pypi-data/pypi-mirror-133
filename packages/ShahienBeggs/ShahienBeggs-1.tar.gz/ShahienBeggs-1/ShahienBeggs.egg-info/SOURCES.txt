@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+ShahienBeggs/BeegsAndBrell.py
+ShahienBeggs/FluidProperties.py
+ShahienBeggs/Solving_Intersections.py
+ShahienBeggs/Vogel.py
+ShahienBeggs/WaterProps.py
+ShahienBeggs/__init__.py
+ShahienBeggs.egg-info/PKG-INFO
+ShahienBeggs.egg-info/SOURCES.txt
+ShahienBeggs.egg-info/dependency_links.txt
+ShahienBeggs.egg-info/requires.txt
+ShahienBeggs.egg-info/top_level.txt
