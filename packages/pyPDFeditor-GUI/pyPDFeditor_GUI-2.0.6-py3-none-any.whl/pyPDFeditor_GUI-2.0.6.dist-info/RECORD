@@ -1,0 +1,15 @@
+pyPDFeditor_GUI-2.0.6.data/scripts/pdfEditor,sha256=v-aNODrKGp_s0SfymnFcPjPFHa3SPWC0DiqAjmsgzLM,227
+pyPDFeditor_GUI-2.0.6.data/scripts/pdfEditor.py,sha256=hFxeqLRZaMba6Rdkijm7BJmKDIB8Ap5wDxuL6SBZRSM,228
+pypdfeditor_core/__init__.py,sha256=4T-hP1gexDjsWE-_l-xjjo8CmM95ETSn8aXBz0DWYa0,858
+pypdfeditor_core/application.py,sha256=DxUlpNNO5EUIUE8yKLoIOdM-SI-LLkXAtfgokGGoOaw,26989
+pypdfeditor_core/functions.py,sha256=kUoBrO5w1sV-mROmhZB0ZGiAIl9y30Di5VUfoxQJd-I,25369
+pypdfeditor_core/icon_contents.py,sha256=pQ6KGegQ51XyGlCztSx3Zp3yY_JCdDo0g4smwRDTY7A,42670
+pypdfeditor_core/language.py,sha256=c6YMHEg_thxyza-rI_yjTZ5BwgQC5NbwpQbGom2Dndg,8056
+pypdfeditor_core/style_sheets.py,sha256=yrlMdRaLvF_bWLuxG7XyoTkIGntO4mL3s1oe_y4-Cxc,8288
+pypdfeditor_core/window_effect.py,sha256=2JlrR3zUbSZnCSNEXIlLXje0XEi9kWKp44N_tpYXfF0,2739
+pypdfeditor_core/windows.py,sha256=zhvkJ8PZyBFwy7Vhy7nWfWX5AwykrQ0_T4QsZTjG2t0,48066
+pyPDFeditor_GUI-2.0.6.dist-info/LICENSE,sha256=l5dloq4-yWZb2bI5udF6J5uZpso1zC8rK6vFFq-mFxc,1091
+pyPDFeditor_GUI-2.0.6.dist-info/METADATA,sha256=opTSoMC-5daz0azdAMd6tUORTOnscVR8w2rWXf4n7Jo,3802
+pyPDFeditor_GUI-2.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyPDFeditor_GUI-2.0.6.dist-info/top_level.txt,sha256=Ee4JcruED1h4oBB35kA49p5LrwAXpkeN0PCjW5k5mOg,17
+pyPDFeditor_GUI-2.0.6.dist-info/RECORD,,
