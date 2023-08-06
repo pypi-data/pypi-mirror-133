@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/old_norse_alphabet/__init__.py
+src/old_norse_alphabet/alphabet.py
+src/old_norse_alphabet/sort.py
+src/old_norse_alphabet.egg-info/PKG-INFO
+src/old_norse_alphabet.egg-info/SOURCES.txt
+src/old_norse_alphabet.egg-info/dependency_links.txt
+src/old_norse_alphabet.egg-info/top_level.txt
