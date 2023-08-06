@@ -1,0 +1,5 @@
+ciecplib
+
+[test]
+pytest
+pytest-cov
