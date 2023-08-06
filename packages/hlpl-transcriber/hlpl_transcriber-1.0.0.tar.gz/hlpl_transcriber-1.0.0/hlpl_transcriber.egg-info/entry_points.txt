@@ -1,0 +1,3 @@
+[console_scripts]
+hlpl_transcriber = hlpl_transcriber.__main__:main
+
