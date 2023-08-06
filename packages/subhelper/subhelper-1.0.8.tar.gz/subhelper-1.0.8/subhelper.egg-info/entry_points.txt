@@ -1,0 +1,4 @@
+[console_scripts]
+enahelper = enahelper.enasub:cli
+gisaidhelper = gisaidhelper.gisaidsub:cli
+
