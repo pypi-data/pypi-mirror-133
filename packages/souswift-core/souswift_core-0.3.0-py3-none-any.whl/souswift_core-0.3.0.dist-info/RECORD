@@ -1,0 +1,11 @@
+souswift_core/__init__.py,sha256=IxRziYLHfUlFvDJxYZFnhMwd1ZqrkjHMBYjEAj4qRXo,23
+souswift_core/providers/__init__.py,sha256=2pVTSdRHjdAxqtVziwnOGZHAdAlJXGbbjw3-wNG3_ug,86
+souswift_core/providers/config.py,sha256=Ix0sjk5-jJ5tR9MQ8y-qJ0kFp5diPMfg6CJeXED1iYE,2793
+souswift_core/providers/database/__init__.py,sha256=oVf0B9Nzr8U8naC7qPuyt1YIA8BV-Q6Zlae5mAzComk,288
+souswift_core/providers/database/base.py,sha256=Wf_jxs_kydtSzUDINwzdGAZAP5wClUfzXsxOJ9hMPko,1308
+souswift_core/providers/database/connection.py,sha256=VGoiKYL_YSR_Ma0bVhHeoG_rXZpxRbtZrqRmB5TbwfI,955
+souswift_core/providers/database/context.py,sha256=akVeXJWTnx5jPLhM0yqNawQyEtFQhyV3_aK5BH6K6TY,568
+souswift_core/providers/database/session.py,sha256=RB-5HdPlmBgeIoc8UJJj3JJk_2HsGt2NerESBEzyXcA,1188
+souswift_core-0.3.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+souswift_core-0.3.0.dist-info/METADATA,sha256=eSHXmfiXXymeHIrnEPUdg1crOz5HNlb19k7ig7eSXNg,489
+souswift_core-0.3.0.dist-info/RECORD,,
