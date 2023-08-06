@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+calculate/__init__.py
+calculate/calc.py
+calculate/unit_tests.py
+izzyXYZ.egg-info/PKG-INFO
+izzyXYZ.egg-info/SOURCES.txt
+izzyXYZ.egg-info/dependency_links.txt
+izzyXYZ.egg-info/requires.txt
+izzyXYZ.egg-info/top_level.txt
