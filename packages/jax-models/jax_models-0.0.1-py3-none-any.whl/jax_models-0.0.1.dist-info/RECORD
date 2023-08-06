@@ -1,0 +1,17 @@
+jax_models/__init__.py,sha256=zdM3gWtDTpNbvr7qKRWMwU74sJZdUOs6KJTQsfwEwrg,71
+jax_models/activations/__init__.py,sha256=vudv6KGGyfoca624tzymfZ4dWIfSHdLMSganpwn5Ibg,55
+jax_models/activations/activations.py,sha256=xLg99XwB3sHB9k6LIviTnAPwS2CmxxKguEOwLhUALXU,814
+jax_models/layers/__init__.py,sha256=vPuXoPJ-VfN3mEs2kPgyszPdMWLwSoQzR7W90wwHrk0,109
+jax_models/layers/depthwise_separable_conv.py,sha256=crjVA2fejA3ccobv7xUexcZ9OQ8uuMtMUw7E6rmc5yE,2681
+jax_models/layers/drop.py,sha256=WSwobiUN0kpHtcc3bkqhal1Iggz_z3_IuNWqbiMS5SA,917
+jax_models/layers/squeeze_and_excite_layer.py,sha256=cwLiOVmZch0hG55wBHROPPv-fmd2yxao3RmzC8dHllk,696
+jax_models/models/__init__.py,sha256=IEVzcG3PAhr376w333r-PdbQYOMj6pyxMk68J_9bdg8,116
+jax_models/models/model_registry.py,sha256=Uq9TazeY36hwh-uaxfv6d-NNMmVu3gzW9UEmU5D4dTg,1174
+jax_models/models/mpvit.py,sha256=btMZuAlB5nuzgFbHnS4vg2zPcPNRwbyvUwA_StR7Oas,13535
+jax_models/models/patchconvnet.py,sha256=I8luLNHvcH3BYsI1x6ud6lvY7L7w-NEGgNG-Fb1xZfc,7047
+jax_models/models/poolformer.py,sha256=QGqCdFBTDm8alVTLItac3yLV2WKeLAgqqkq6X9Lcs5I,6944
+jax_models-0.0.1.dist-info/LICENSE,sha256=mIss5rXpPuoTTN6McpTgDcUOXnmOl5lopcYvmLMI9oY,11523
+jax_models-0.0.1.dist-info/METADATA,sha256=YNa3xFCh8xgn4-N6uKpa0fEj1fSSC68izfDX9SJKO3g,5785
+jax_models-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jax_models-0.0.1.dist-info/top_level.txt,sha256=cTqzsx7qgt4gVLo9BGf2JADv7toYhA1cLXqBtXAUTpw,11
+jax_models-0.0.1.dist-info/RECORD,,
