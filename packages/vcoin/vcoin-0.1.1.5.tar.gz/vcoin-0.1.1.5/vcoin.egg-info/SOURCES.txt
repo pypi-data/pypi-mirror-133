@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+vcoin/__init__.py
+vcoin/admin.py
+vcoin/apps.py
+vcoin/models.py
+vcoin/views.py
+vcoin.egg-info/PKG-INFO
+vcoin.egg-info/SOURCES.txt
+vcoin.egg-info/dependency_links.txt
+vcoin.egg-info/requires.txt
+vcoin.egg-info/top_level.txt
