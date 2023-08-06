@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+PyTTFontToScratch.egg-info/PKG-INFO
+PyTTFontToScratch.egg-info/SOURCES.txt
+PyTTFontToScratch.egg-info/dependency_links.txt
+PyTTFontToScratch.egg-info/top_level.txt
+TTFtoScratch/__init__.py

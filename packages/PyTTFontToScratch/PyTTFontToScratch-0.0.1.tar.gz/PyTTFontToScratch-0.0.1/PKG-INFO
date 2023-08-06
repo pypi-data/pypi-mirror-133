@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PyTTFontToScratch
+Version: 0.0.1
+Summary: Converts ttf to scratch formats
+Home-page: UNKNOWN
+Author: Ancoder
+Author-email: main@ancoder.ml
+License: UNKNOWN
+Description: Usage
+        ----------------------
+        from TTFtoScratch import createSprite, inject
+        
+        createSprite("pathToTTF", "CHARS TO COPY", OutputBytes?)
+        
+        inject("pathToSB3", "pathToTTF", "Chars to copy", OutputBytes?)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
