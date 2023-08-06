@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+autodc/__init__.py
+autodc/data_augmentation.py
+autodc/data_processing.py
+autodc/edge_case_selection.py
+autodc/outlier_detection.py
+autodc/setup.py
+autodc.egg-info/PKG-INFO
+autodc.egg-info/SOURCES.txt
+autodc.egg-info/dependency_links.txt
+autodc.egg-info/top_level.txt
