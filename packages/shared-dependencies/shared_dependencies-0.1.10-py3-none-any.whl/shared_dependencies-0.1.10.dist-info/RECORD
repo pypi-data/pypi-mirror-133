@@ -1,0 +1,6 @@
+shared_dependencies/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+shared_dependencies/client.py,sha256=jcVFJXOLA-ZG0vgOa3hpciA596tXzX9CIfhqXSAP_yg,1855
+shared_dependencies/sentry.py,sha256=XOh5GNDNaXj4R14W5W9lREJmHpuC6yy5F1JZIlfxs6I,1126
+shared_dependencies-0.1.10.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+shared_dependencies-0.1.10.dist-info/METADATA,sha256=heWlKAoQJwxPqBw0YErgKTn1EqVGcmVLbnc_rPJ-Wjw,623
+shared_dependencies-0.1.10.dist-info/RECORD,,
