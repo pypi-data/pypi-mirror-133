@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+calculator/__init__.py
+calculator/calc.py
+calculator/unit_tests.py
+olgamrl_project_p1.egg-info/PKG-INFO
+olgamrl_project_p1.egg-info/SOURCES.txt
+olgamrl_project_p1.egg-info/dependency_links.txt
+olgamrl_project_p1.egg-info/requires.txt
+olgamrl_project_p1.egg-info/top_level.txt
