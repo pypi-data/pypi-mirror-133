@@ -1,0 +1,11 @@
+muldoon/__init__.py,sha256=17hW1_i2IfB3jLjwrlznTSTgZLqK6cLRASD2ZgHXsYk,296
+muldoon/met_timeseries.py,sha256=yyLFM5wcKHONZZ4PP7hyCLWRZOsknJLAavZu7njH94w,22887
+muldoon/read_data.py,sha256=k4nH2IqMVuATF-TVo9X0-1MsVHBi29hfyrJ0D0BXwls,1984
+muldoon/utils.py,sha256=9pkxvA5p1rnjCUusajmQPGpLA0hk-tQZ2sybOxG_TaQ,6925
+tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+tests/test_muldoon.py,sha256=HyY3i0_w-os0j_K_DsjQjjiOU_yk0u8Mx4IOWr5XdWg,2665
+muldoon-1.0.1.dist-info/LICENSE,sha256=mOWZpkH4qDq_J7ordd43WPHYwKJJpQtWYnT90pceBJs,1086
+muldoon-1.0.1.dist-info/METADATA,sha256=dE_-MWQWjg6fi5mrFBGni9ZLiKC6OhKC-vzFREHHNnI,1257
+muldoon-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+muldoon-1.0.1.dist-info/top_level.txt,sha256=ELfazdkkVxPVCPNHdLxUspOGC1mpUITJF8IXq-7JycI,14
+muldoon-1.0.1.dist-info/RECORD,,
