@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tuxpy/__init__.py
+src/tuxpy/client.py
+src/tuxpy/collection.py
+src/tuxpy/database.py
+src/tuxpy.egg-info/PKG-INFO
+src/tuxpy.egg-info/SOURCES.txt
+src/tuxpy.egg-info/dependency_links.txt
+src/tuxpy.egg-info/requires.txt
+src/tuxpy.egg-info/top_level.txt
