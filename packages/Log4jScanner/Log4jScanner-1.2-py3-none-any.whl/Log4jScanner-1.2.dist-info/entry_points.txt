@@ -1,0 +1,3 @@
+[console_scripts]
+log4jscanner = log4jscanner.Log4jScanner:main
+
