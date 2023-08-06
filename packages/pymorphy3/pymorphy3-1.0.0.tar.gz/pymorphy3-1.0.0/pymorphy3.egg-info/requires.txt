@@ -1,0 +1,5 @@
+dawg-python>=0.7.1
+docopt>=0.6
+
+[fast]
+DAWG>=0.8
