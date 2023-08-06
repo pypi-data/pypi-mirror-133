@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: data_drift_detection
+Version: 1.0.0
+Summary: Data Drift Detection - MLOps project, Reichman University 2022 
+Home-page: https://github.com/guyfreund/data_drift_detector/
+Author: Guy Freund, Danielle Ben-Bashat, Elad Prager
+Author-email: guyfreund@gmail.com
+License: UNKNOWN
+Description: Implementation of a Machine Learning Operations pipeline, which consists of: model training, data drift detection & data generation to generate data drift.
+        Databases being used are: 
+        - https://archive.ics.uci.edu/ml/datasets/bank+marketing
+        - https://archive.ics.uci.edu/ml/datasets/statlog+(german+credit+data)
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.12
