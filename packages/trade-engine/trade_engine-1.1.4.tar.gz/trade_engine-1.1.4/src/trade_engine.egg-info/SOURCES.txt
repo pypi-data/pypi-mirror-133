@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/trade_engine/__init__.py
+src/trade_engine/operations.py
+src/trade_engine/trade_engine.py
+src/trade_engine.egg-info/PKG-INFO
+src/trade_engine.egg-info/SOURCES.txt
+src/trade_engine.egg-info/dependency_links.txt
+src/trade_engine.egg-info/requires.txt
+src/trade_engine.egg-info/top_level.txt
