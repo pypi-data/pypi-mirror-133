@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cloudpss
+Version: 3.0.0
+Summary: cloudpss sdk
+Home-page: https://www.cloudpss.net
+Author: cloudpss
+Author-email: zhangdaming@cloudpss.net
+License: MIT Licence
+Keywords: cloudpss,cloudpss-sdk
+Platform: any
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cffi
+Requires-Dist: cryptography
+Requires-Dist: cycler
+Requires-Dist: pycparser
+Requires-Dist: PyJWT
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+Requires-Dist: requests
+Requires-Dist: websocket-client
+Requires-Dist: pytz
+
+CloudPSS SDK
+----------------------------------------------------------------
+
+
