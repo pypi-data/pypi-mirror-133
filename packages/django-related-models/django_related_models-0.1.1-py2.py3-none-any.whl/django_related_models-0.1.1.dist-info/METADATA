@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: django-related-models
+Version: 0.1.1
+Summary: A library designed such that, when provided with a model instance it will return a QuerySet for the rows that are associated with that model instance.
+Home-page: https://github.com/roverdotcom/django-related-models
+Author: Marius Mucenicu
+Author-email: marius_mucenicu@rover.com
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Dist: django (>=1.11)
+
+========
+Overview
+========
+
+
+
+A library designed such that, when provided with a model instance it will return a QuerySet for the rows that are
+associated with that model instance. It also works well with ``GenericForeignKey`` objects.
+
+.. code:: python
+
+    >>> eminem = Artist.objects.filter(stage_name='Eminem').first()
+    >>> list(get_related_objects(eminem))
+    [<Albums: Kamikaze>, <Awards: Grammy>, <Cars: Audi R8 Spyder>]
+
+    >>> get_related_objects_mapping(eminem)
+    {<django.db.models.fields.related.ForeignKey: artist>: set([<Albums: Kamikaze>]),
+    <django.db.models.fields.related.ForeignKey: artist>: set([<Awards: grammy>]),
+    <django.contrib.contenttypes.fields.GenericForeignKey object at 0x106ff1f50>: set([<Cars: Audi R8 Spyder>])}
+
+
+Installation
+============
+
+::
+
+    pip install django-related-models
+
+Documentation
+=============
+
+https://django-related-models.readthedocs.io/
+
+Development
+===========
+
+The tests are run via **tox**, which you would need to install (if you don't already have it).
+
+* To get tox just::
+
+    pip install tox
+
+* To run the all tests run::
+
+    tox
+
+Changelog
+=========
+
+0.1.1 (2020-05-01)
+------------------
+
+* Updated tests for latest versions of Django and Python.
+
+0.1.0 (2018-08-28)
+------------------
+
+* First release on PyPI.
+
+
