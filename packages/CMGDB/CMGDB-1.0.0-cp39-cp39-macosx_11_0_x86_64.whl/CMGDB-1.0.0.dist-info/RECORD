@@ -1,0 +1,12 @@
+CMGDB/ComputeBoxMap.py,sha256=1j7ALj88kaZDthYfZ9X3Fy9-E1hE27ocFzU1x3rUYz4,1907
+CMGDB/LoadMorseSetFile.py,sha256=4tPQiHGr1T0En51a_3Ijl3pIhhprJUIAumYjij3KI_U,303
+CMGDB/PlotMorseGraph.py,sha256=NcXuGmamoSdMHNpJ-yxUUzesm_6CeLYIEKLQLqwdPmg,1842
+CMGDB/PlotMorseSets.py,sha256=AntWvU1aF28QBd78VaNRGcS7nAaraD0TZ3gMh_9OhdI,5363
+CMGDB/SaveMorseData.py,sha256=9jYTHNmjjUxNtflClszL0VzuETlKLSb9KphnqPql5LU,454
+CMGDB/__init__.py,sha256=_8jN6QJY0fXwX62EPLClpLSwwkA-wlS1BoreY_eYtRc,218
+CMGDB/_cmgdb.cpython-39-darwin.so,sha256=eDq20QkALj93KnLrSIUtq8o67uij1_bLlKhjzIAQy6w,1076928
+CMGDB-1.0.0.dist-info/LICENSE,sha256=v1oTLkzG3tQMOpkAmz7Glcpjy9uGvWE4NNuOZ5k8SN0,1071
+CMGDB-1.0.0.dist-info/METADATA,sha256=_7hE6AEIKL2YzqvB-3FwvxcIEU5HgjQFi4TtbRKmmAY,290
+CMGDB-1.0.0.dist-info/WHEEL,sha256=FJuHhoVUZj62yWAYw46S3u8syVVmWwUzAGz6OK32Q1A,109
+CMGDB-1.0.0.dist-info/top_level.txt,sha256=386d-QuzI1IT7nxWVWxUSwx0TLcIZ8psavuzlrM4NyM,13
+CMGDB-1.0.0.dist-info/RECORD,,
