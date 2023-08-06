@@ -1,0 +1,10 @@
+bitorchinfo/__init__.py,sha256=LA9UehT-NyL0Z9fKCGcwlUVuWLlg0qMNAfL05RyCuTQ,267
+bitorchinfo/formatting.py,sha256=MEIMQjeauxAve7EXHVuotwsdEPLOlYInLRues7U4H2Q,6406
+bitorchinfo/layer_info.py,sha256=Cq33tBJtNiaamvZX5vF8IIlE8SJgfyG47eSRPcnp3Xw,8272
+bitorchinfo/model_statistics.py,sha256=YTNmJ9y-16hPDN0YFYfaNhAmMtlCXseN2wRZecUZgwI,5353
+bitorchinfo/torchinfo.py,sha256=h_iRxkg6yLA1Ri2NWJzztV8FQbgaulLJHKngfVjO_lo,18610
+bitorchinfo-0.1.0.dist-info/LICENSE,sha256=yD6Hu4wE4dXjqTX5tH0Hk1ek6osumR-D-xLcjW4gbCQ,1065
+bitorchinfo-0.1.0.dist-info/METADATA,sha256=OusPIt_UkuNFFRp0ca_wx3ZVsCaQUjnAgQl2bG86bZY,2131
+bitorchinfo-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bitorchinfo-0.1.0.dist-info/top_level.txt,sha256=yBPCM1fOUlqr2ZLvCQBOzRPciJNJEivV55bDKJ932Fo,12
+bitorchinfo-0.1.0.dist-info/RECORD,,
