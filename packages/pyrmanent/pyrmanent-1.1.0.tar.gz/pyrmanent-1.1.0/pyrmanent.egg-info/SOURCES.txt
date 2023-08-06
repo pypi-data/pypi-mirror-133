@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pyrmanent/__init__.py
+pyrmanent/pyrmanent_class.py
+pyrmanent.egg-info/PKG-INFO
+pyrmanent.egg-info/SOURCES.txt
+pyrmanent.egg-info/dependency_links.txt
+pyrmanent.egg-info/top_level.txt
+tests/__init__.py
+tests/test_attributes.py
+tests/test_files.py
+tests/test_name.py
+tests/test_persistency.py
+tests/test_reset.py
