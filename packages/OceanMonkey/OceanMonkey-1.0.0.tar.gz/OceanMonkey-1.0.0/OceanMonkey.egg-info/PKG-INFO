@@ -1,0 +1,64 @@
+Metadata-Version: 1.2
+Name: OceanMonkey
+Version: 1.0.0
+Summary: A High-Level Distributed Web Crawling and Web Scraping framework
+Home-page: https://github.com/chipscoco/OceanMonkey
+Author: 薯条老师
+Author-email: haokaixin@chipscoco.com
+License: BSD
+Description: .. image:: https://raw.githubusercontent.com/chipscoco/OceanMonkey/main/artwork/logo.jpg
+        
+        Overview
+        ========
+        
+        OceanMonkey is a High-Level Distributed Web Crawling and Web Scraping framework, used to
+        crawl websites and extract structured data from their pages. It can be used for
+        a wide range of purposes, from data mining to monitoring and automated testing.
+        
+        OceanMonkey was brought to life and is maintained by chenzhengqiang(wechat:Pretty-Style, blog:http://www.chipscoco.com) while teaching the python's web scraping in 2021.
+        
+        Requirements
+        ============
+        
+        * Python 3.5+
+        * Works on Linux, Windows, macOS, BSD
+        
+        Install
+        =======
+        
+        The quick way:
+            pip install oceanmonkey
+        
+        
+        Quick start
+        =============
+        Firstly execute **monkeys startproject** in command line to create a OceanMonkey Project like the following:
+            monkeys startproject BeBe
+        
+        Then write your crawling logic in gibbons.py under the monkeys' directory and write your storing logic in orangutans.py.
+        
+        Execute the **monkeys run** command under the project's directory finally when you finish your coding work:
+        
+            cd BeBe
+        
+            monkeys run
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
