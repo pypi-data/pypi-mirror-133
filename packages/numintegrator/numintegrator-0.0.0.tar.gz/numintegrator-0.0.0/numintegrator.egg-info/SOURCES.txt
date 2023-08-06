@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+./numintegrator/__init__.py
+./numintegrator/__main__.py
+./numintegrator/_integrators(old).py
+./numintegrator/helpers.py
+./numintegrator/integrators.py
+numintegrator.egg-info/PKG-INFO
+numintegrator.egg-info/SOURCES.txt
+numintegrator.egg-info/dependency_links.txt
+numintegrator.egg-info/requires.txt
+numintegrator.egg-info/top_level.txt
