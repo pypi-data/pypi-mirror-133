@@ -1,0 +1,3 @@
+[console_scripts]
+DxfStructure = dxfstructure.DxfStructure:main
+

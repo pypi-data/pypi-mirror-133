@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: dxfstructure
+Version: 0.4.7
+Summary: Structural engineering dxf drawing system
+Home-page: https://bitbucket.org/lukaszlaba/dxfstructure
+Author: Lukasz Laba
+Author-email: lukaszlaba@gmail.com
+License: GNU General Public License (GPL)
+Keywords: civil engineering,structural engineering,concrete structures,steel structures
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.5, <4
+
+DxfStructure - structural engineering dxf drawing system
+--------------------------------------------------------
+
+DxfStructure is an structural engineering software that help making detailing drawing of steel and reinforced concrete structure. DxfStructure idea is based on DXF drawing format. DxfStrcture is a dxf file processor that analyze dxf file content and complete some additional data like mark and quantity of elements and material schedule.
+DxfStructure is free software. All you need is any dxf file editor, it can be commercial software like AutoCad but also freeware like NanoCad or even free software like LibreCad.
+
+Changelog
+-----------
+0.4.7(beta)
+ - port to python3 and PyQt5, python 2 dropped
+ - full backward compatibility
+
+0.3.4(beta)
+ - DS_CBAR_UNPLOT layer added
+ - full backward compatibility
+
+0.3.3(beta)
+ - hot fix - centre ignore for in meter bars
+ - full backward compatibility
+
+0.3.2(beta)
+ - range pline endmark trick
+ - range and bar pline intersection detection fixed
+ - app window layout improved
+ - full backward compatibility
+
+0.3.1(beta)
+ - check for quite similar bars number option added
+ - color system updated
+ - bar schedule format updated - shape column added
+ - language version option added
+ - in meter length element and bar available
+ - possibility to define bar quantity as expression e.g 2*2#12-[4]
+ - bar with forced straight shape in schedule
+ - full backward compatibility
+
+0.2.4(alpha)
+ - updated to ezdxf 0.8.8
+ - full backward compatibility
+
+0.2.3(alpha)
+ - profil anotation syntax changed to  4x(1)-IPE 300-1200-S235
+ - full backward compatibility
+
+0.2.2(alpha)
+ - bar shape anotation changed to look like e.g. [1] - #12 L=2120
+ - steel setion database list updated
+
+0.2.1(alpha)
+ - main features for steel implemented
+ - command feature added
+
+0.1(alpha)
+ - main features for concrete implemented
+
+0.0.2 (alpha)
+ - first PyPI version
+
+Prerequisites
+-------------
+
+1. Python 3.9
+2. Non-standard Python libraries needed
+
+ - ezdxf (https://pypi.python.org/pypi/ezdxf)
+ - pyqt5 (https://www.riverbankcomputing.com/software/pyqt)
+ - strupy (https://pypi.python.org/pypi/strupy)
+ - tabulate (https://pypi.python.org/pypi/tabulate)
+ - mistune (https://pypi.python.org/pypi/mistune)
+
+Installation
+------------
+
+Use pip to install dxfstructure and needed non-standard libraries: ::
+
+	pip install dxfstructure
+
+Run method
+----------
+
+To run dxfstructure you can:
+
+1 - find Python installation root directory and execute DxfStructure.py
+from ..\Python3\Lib\site-packages\dxfstructure
+
+2 - find Python installation root directory and execute  DxfStructure.exe
+from ..\Python3\Scripts (it is for Windiws)
+
+3 - use command prompt and type: ::
+
+	DxfStructure
+
+There is also available binary release for Windows. Check project website for more details.
+
+OS system
+---------
+
+Windows (7,10) and Linux (xubuntu) tested.
+
+License
+-------
+
+Copyright (C) 2017-2022 Lukasz Laba
+
+Dxfstructure is distributed under the terms of GNU General Public License
+
+The full license can be found in 'license.txt'
+
+
+Other information
+-----------------
+
+Project website: https://bitbucket.org/lukaszlaba/dxfstructure/wiki/Home
+
+E-mail : lukaszlaba@gmail.com
+
