@@ -1,0 +1,9 @@
+npd_cat_corr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+npd_cat_corr/client.py,sha256=k5odJd5NRivD5T4JK_1lSPHgiQ3CgTiykVD3ogwwBME,9253
+npd_cat_corr/main.py,sha256=E03G67-Tl0Rs-I_Uuf15i4eWAwuzi3CGmDFX47fScrc,1751
+npd_cat_corr/tasks.py,sha256=2js5puZ58eL2f6BI06UpfT7ahzbWIB3zmH63_0EpPBM,22482
+npd_category_correlation-0.0.8.dist-info/METADATA,sha256=yIP-YRhuWyQifEyk8uFYJc7J-yJBPE3D0kFBMUb59A0,1300
+npd_category_correlation-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+npd_category_correlation-0.0.8.dist-info/entry_points.txt,sha256=rQTh6dTC6m1DzvNRyIVywm95QqyyuVB0GGGoId2TmLM,68
+npd_category_correlation-0.0.8.dist-info/top_level.txt,sha256=_psPpixY8GojjpoGsfHlkcFJN_EXUkL-ctpVxnf2fzM,13
+npd_category_correlation-0.0.8.dist-info/RECORD,,
