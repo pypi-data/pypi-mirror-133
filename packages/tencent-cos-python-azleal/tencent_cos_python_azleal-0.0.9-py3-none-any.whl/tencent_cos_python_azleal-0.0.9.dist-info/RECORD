@@ -1,0 +1,10 @@
+tencent_cos_python/__init__.py,sha256=e8vWi9UMxkH_eF-jHcSgvvmCaaGt9nK8q16KZ86r3-E,28
+tencent_cos_python/cos_client_factory.py,sha256=sGqXg23rcOZRCw4ImFlDIhhJEA_agzZko7gbfBQcBMo,1846
+tencent_cos_python/cos_object.py,sha256=qL_p_X7pCGazjHLwOhxVGej5De5B8mQLSZU6iz1Gdms,2128
+tencent_cos_python/logger.py,sha256=sdGGnCtEL4IiFKUGRCnQlSoLYtmmMkNP-_3kMxZ9nCM,613
+tencent_cos_python/util.py,sha256=CP1DacJLG-g0o6lLoB5tzBRXEVHYWN0-Iem9CVKitdc,1218
+tencent_cos_python_azleal-0.0.9.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+tencent_cos_python_azleal-0.0.9.dist-info/METADATA,sha256=Z882tg-RyfCSSnUyxLwQ-CNNCddDySKkmccIXAx-guI,563
+tencent_cos_python_azleal-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tencent_cos_python_azleal-0.0.9.dist-info/top_level.txt,sha256=WwAC5rKNZQt6cpkwBnCuajR9n0I2nOmNM78cxVa-Gvw,19
+tencent_cos_python_azleal-0.0.9.dist-info/RECORD,,
