@@ -1,0 +1,10 @@
+from setuptools import setup
+
+setup(
+   install_requires=[
+       "requests",
+        "dateutil",
+        "openpyxl",
+        "tk"
+    ]
+)
