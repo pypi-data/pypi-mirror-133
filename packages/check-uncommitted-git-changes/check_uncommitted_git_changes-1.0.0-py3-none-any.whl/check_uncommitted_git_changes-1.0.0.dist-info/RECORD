@@ -1,0 +1,7 @@
+check_uncommitted_git_changes/__init__.py,sha256=wuI2VWgnMYFd33IIfAb6evzWZlfO84kmQxUeGk7dfRw,185
+check_uncommitted_git_changes/main.py,sha256=ZxOx97Oqu5WjrU0vjLMiicnJcyGkNZBAS5W5ZCgQyfI,1338
+check_uncommitted_git_changes-1.0.0.dist-info/entry_points.txt,sha256=a3XRwygnkM_nkQSJD2_68fhyAk9l-w1eg1HEcsF03k4,89
+check_uncommitted_git_changes-1.0.0.dist-info/LICENSE.txt,sha256=kmThmneGGgu9v4R7ZvhAkY_bIr1XNRB-I696Ny1EAr8,1483
+check_uncommitted_git_changes-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+check_uncommitted_git_changes-1.0.0.dist-info/METADATA,sha256=dBDl58EL3uzX6flP33IZARCHV5e0a07HEdbr1WHzTk0,4280
+check_uncommitted_git_changes-1.0.0.dist-info/RECORD,,

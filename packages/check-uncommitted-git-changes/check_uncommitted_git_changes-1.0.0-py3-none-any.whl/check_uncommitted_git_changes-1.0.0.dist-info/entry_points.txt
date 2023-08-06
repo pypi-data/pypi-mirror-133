@@ -1,0 +1,3 @@
+[console_scripts]
+check_uncommitted_git_changes=check_uncommitted_git_changes.main:main
+
