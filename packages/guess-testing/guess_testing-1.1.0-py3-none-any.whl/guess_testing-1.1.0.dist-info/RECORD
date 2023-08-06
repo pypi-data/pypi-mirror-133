@@ -1,0 +1,9 @@
+guess_testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+guess_testing/_version.py,sha256=eTr4KHKayKlZjhBYjthQ1M3DVCAfqqZzvb4d4xIHBH0,18456
+guess_testing/generators.py,sha256=Efnlv39DWsAcJpQiAdJ45VZsxcTq0kU_6H86N8P40UY,18909
+guess_testing/guess.py,sha256=8QvYKtxFnyItyLJladXeDpxDwHWyb4vpWRjkg42kV6M,14119
+guess_testing/tracing.py,sha256=oPF28cdR3AQ9yNYetEPeOqJsBCehv9jmCAHYmrTFnAc,3290
+guess_testing-1.1.0.dist-info/METADATA,sha256=35gmFM0R7C8VH9twjCgQxytCdt6FmUYAy67_rCL7uUw,12074
+guess_testing-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+guess_testing-1.1.0.dist-info/top_level.txt,sha256=TIR17D12cMGfbwuLoKVITgvK-wH0fKN2yhsGD4Z3Sdc,14
+guess_testing-1.1.0.dist-info/RECORD,,
