@@ -1,0 +1,16 @@
+fincheck/__init__.py,sha256=MM8DOK4Mtf9FTgKXOSdF1iJx03RdW3MoHYa59mXn6Io,2554
+fincheck/checksum.py,sha256=6T6fkQeJE6RfkVg5HvTV4sAUaKyaWUfgFLzVmqJyH48,2379
+fincheck/data.py,sha256=tSNLbk-uw_mtwHiKEw9WAAt4to5-JAtrL5fAeNLzutQ,4917
+fincheck/extract.py,sha256=qbQVJ4raiXCbGZJdYFBUoZsonQaXExcvcdDCaPo-zik,3894
+fincheck/utils.py,sha256=OJ-ILGFT1kOff3YXvRjevKBMgCWWmmefvabYMhGHxpE,2843
+fincheck/validate.py,sha256=PDDzub19t5hJTHaNQvm9_ZfHuAw_RHb_SkoebjgXyAg,2564
+fincheck/refdata/.DS_Store,sha256=_vtGBidQK3CJpgR24NB3TXI2MpOpBL2h2QcmohdFsB4,6148
+fincheck/refdata/cusip/.DS_Store,sha256=mXTaTqpukP6ReqBzakNxl0t0u482tfwX6ls9RVVwpws,6148
+fincheck/refdata/cusip/cusip_list.csv,sha256=0S-UlwUZ-t4faZoFhwUKGfldbSfDQcBC_ulDMfBdVKA,926905
+fincheck/refdata/cusip/cusip_ticker_map.csv,sha256=LGm6QxyMAe1w6bAiDNFMg01e9IZ1la7qK7HoS6OpQ5Y,246188
+fincheck/refdata/isin/country_codes.csv,sha256=C-iPBlMZx9XNwFXpP_LhYsd0QII3us6kB6PU1FmqIl8,4138
+fincheck-0.0.5.dist-info/LICENSE,sha256=-nEOJXDEtGRO8ApIApMZ-fa7bfyOwJgChdG3mXg4fTI,1070
+fincheck-0.0.5.dist-info/METADATA,sha256=BINqheaNxS8Oz2HmwVHgn5f2yHWZ8Awyc1klw8e7dJA,4067
+fincheck-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fincheck-0.0.5.dist-info/top_level.txt,sha256=WEcyVjzH_2d0fzF_X9CNgo9c7t-RwU5Q9xVlVOmcHtY,9
+fincheck-0.0.5.dist-info/RECORD,,
