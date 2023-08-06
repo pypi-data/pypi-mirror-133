@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simpadlib
+Version: 1.0.5
+Summary: A library that allows users to custom-configure their SimPad real-time
+Home-page: https://github.com/malevtuber/simpadlib
+Author: Ashe Muller
+Author-email: contact.notashe@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/malevtuber/simpadlib/issues
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pywinusb (>=0.4.2)
+
+UNKNOWN
+
