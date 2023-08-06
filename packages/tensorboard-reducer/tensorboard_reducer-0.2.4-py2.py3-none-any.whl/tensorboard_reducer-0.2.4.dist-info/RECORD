@@ -1,0 +1,11 @@
+tensorboard_reducer/__init__.py,sha256=kjJJYYjzuZvGsN_kLtk7tcSuTJ1_Jabg0OW6NOTicMU,117
+tensorboard_reducer/event_loader.py,sha256=E5pxtxfSA_PBQV4kiW7oabnFoNXDhs_Gp6VBCfOEwCo,5331
+tensorboard_reducer/load.py,sha256=wX3FIpyp8d_y2muaXoS33F2aUFGN2_fMiY8nM67wuNc,7928
+tensorboard_reducer/main.py,sha256=KiF5wcdPEonP1lxUvu0kOATO-8i-Szk_7R5kK0IROCM,6322
+tensorboard_reducer/write.py,sha256=f94JBxJgB-Cfs4PNPFlpFO0fKX8wplRpcgu3wEOBoHY,4980
+tensorboard_reducer-0.2.4.dist-info/METADATA,sha256=3IJdZM0QuNkOUyYCiQZB_S7DYfIzvVNEJBJI_dntie8,7487
+tensorboard_reducer-0.2.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tensorboard_reducer-0.2.4.dist-info/entry_points.txt,sha256=zvsAiw5Le9BsQW1mIBefh2sSZ_kcWpT6OWZ6lhd8-NI,57
+tensorboard_reducer-0.2.4.dist-info/license,sha256=9RnRVdftkL0Ojj7ipmm3DZrZ8D-lMuAIsbOXdp8fF1s,1073
+tensorboard_reducer-0.2.4.dist-info/top_level.txt,sha256=FVTH40GdRqbNWX031XesXn4w-qOdQZL1ibKjKPHY2DY,20
+tensorboard_reducer-0.2.4.dist-info/RECORD,,
