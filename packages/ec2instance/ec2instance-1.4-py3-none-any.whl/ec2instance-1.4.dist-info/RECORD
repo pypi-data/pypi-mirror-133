@@ -1,0 +1,8 @@
+ec2instance/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ec2instance/main.py,sha256=qH8iAVGVIASfQsdcCWejvo-T3Lo6xnR1ifVroZ8xj4E,19057
+ec2instance-1.4.dist-info/LICENSE,sha256=G3EsTbRq610pYAEvvM2qwyz4Z5XFaDBWl-88b59la0Q,1070
+ec2instance-1.4.dist-info/METADATA,sha256=_G5MlnZrEN_p9E9zbfV5UOX_O2AFlG07Iq1SU0XcltY,3688
+ec2instance-1.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ec2instance-1.4.dist-info/entry_points.txt,sha256=F1alCa30ygtJQfCAFLnxmLB8uXNrkcgYI3Dnx9DyrmE,55
+ec2instance-1.4.dist-info/top_level.txt,sha256=htFI8vmD8fbpKAC6yaWv7RNUDhu3Mxapw6PUt29j3sU,12
+ec2instance-1.4.dist-info/RECORD,,
