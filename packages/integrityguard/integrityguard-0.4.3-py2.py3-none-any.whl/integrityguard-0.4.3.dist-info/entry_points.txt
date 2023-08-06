@@ -1,0 +1,3 @@
+[console_scripts]
+integrityguard = integrityguard.cli:main
+
