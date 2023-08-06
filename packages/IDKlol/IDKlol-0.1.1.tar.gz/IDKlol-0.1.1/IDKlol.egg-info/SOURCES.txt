@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+IDKLOL/__init__.py
+IDKlol.egg-info/PKG-INFO
+IDKlol.egg-info/SOURCES.txt
+IDKlol.egg-info/dependency_links.txt
+IDKlol.egg-info/requires.txt
+IDKlol.egg-info/top_level.txt
