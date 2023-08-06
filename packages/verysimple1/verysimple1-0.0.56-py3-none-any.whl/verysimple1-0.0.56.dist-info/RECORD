@@ -1,0 +1,14 @@
+verysimple/__init__.py,sha256=_ylWgmLQtDeowucY7jwjNjCwfn0chcc3bKodIx_ZAfI,44
+verysimple/add.py,sha256=O6gYGa2cGrp4au8WxPg1MPFFfonLJdi4rZKJhG9rX_w,60
+verysimple/minus.py,sha256=F5ZGvXNs3w9gZN5OEHaTZ0IaCAxNQ-8LKmuKEl6YJQo,64
+verysimple/extras/__init__.py,sha256=LWnj7YOEnCvU7AjcD-Aat_6-cJlODt6L5NnfN46zsKk,29
+verysimple/extras/multiply.py,sha256=1Ae3flzK1g7pRGL3HnDrTWHkpnzdSnOPIVLBOJmuya0,70
+verysimple1/__init__.py,sha256=_ylWgmLQtDeowucY7jwjNjCwfn0chcc3bKodIx_ZAfI,44
+verysimple1/add.py,sha256=O6gYGa2cGrp4au8WxPg1MPFFfonLJdi4rZKJhG9rX_w,60
+verysimple1/minus.py,sha256=F5ZGvXNs3w9gZN5OEHaTZ0IaCAxNQ-8LKmuKEl6YJQo,64
+verysimple1/extras/__init__.py,sha256=LWnj7YOEnCvU7AjcD-Aat_6-cJlODt6L5NnfN46zsKk,29
+verysimple1/extras/multiply.py,sha256=1Ae3flzK1g7pRGL3HnDrTWHkpnzdSnOPIVLBOJmuya0,70
+verysimple1-0.0.56.dist-info/METADATA,sha256=qZtI4U07uvsMSuity9on0d5BLIduR1b8hO3Gg0RFH7s,583
+verysimple1-0.0.56.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+verysimple1-0.0.56.dist-info/top_level.txt,sha256=9QsBne0rHnFTiBBtnFoReFzg1qCmzjGRUR23bvvgONo,12
+verysimple1-0.0.56.dist-info/RECORD,,
