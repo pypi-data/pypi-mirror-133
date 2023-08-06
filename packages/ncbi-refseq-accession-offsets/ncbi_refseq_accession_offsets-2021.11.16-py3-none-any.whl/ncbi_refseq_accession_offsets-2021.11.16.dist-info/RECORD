@@ -1,0 +1,7 @@
+ncbi_refseq_accession_offsets/__init__.py,sha256=EyYcRqDUd03rKlo4S9aBRr7iNIi5mCEO_V9rrAoUWe0,104
+ncbi_refseq_accession_offsets/db.marisa,sha256=9ELbMdVMJS5ntydKDeBASqdviGKGHK82cNAS8LWGMpU,113320552
+ncbi_refseq_accession_offsets/version.py,sha256=BE90Ui_H7QWcXs22doCGGNZxSs_FqZRTEQtal5dJT-w,36
+ncbi_refseq_accession_offsets-2021.11.16.dist-info/METADATA,sha256=vsF8qzh5NIE8RN7pPheeNu-f_WrGipxQ0AVOg_vGawM,765
+ncbi_refseq_accession_offsets-2021.11.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ncbi_refseq_accession_offsets-2021.11.16.dist-info/top_level.txt,sha256=rNiw68YsEqXKfGVet55LxbwQ9vi-iyKHu3S12t0X11Y,30
+ncbi_refseq_accession_offsets-2021.11.16.dist-info/RECORD,,
