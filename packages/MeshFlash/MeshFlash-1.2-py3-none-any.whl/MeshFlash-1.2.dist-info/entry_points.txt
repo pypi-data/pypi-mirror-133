@@ -1,0 +1,3 @@
+[console_scripts]
+MeshFlash = MeshFlash.__main__:main
+
