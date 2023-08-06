@@ -1,0 +1,15 @@
+#############################
+# Build System Requirements #
+#############################
+
+[build-system]
+requires = [
+  "setuptools >= 52.0.0",
+  "wheel >= 0.36.2",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.isort]
+profile = "black"
+line_length = 79
+multi_line_output = 3
