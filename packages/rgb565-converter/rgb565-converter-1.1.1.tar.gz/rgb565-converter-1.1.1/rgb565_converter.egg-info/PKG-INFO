@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: rgb565-converter
+Version: 1.1.1
+Summary: Convert a file from png to rgb565 (cpp) and vice versa.
+Home-page: https://github.com/CommanderRedYT/rgb565-converter
+Author: CommanderRedYT
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rgb565-converter
+
+A simple script to help converting png files to rgb565 (used in [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI))
+
+## Requirements
+  - ImageMagick
+
+## Install
+```bash
+# Install imagemagick
+
+# Ubuntu
+apt install imagemagick
+
+# Arch
+pacman -S imagemagick 
+
+# Then, install the package
+pip install rgb565-converter
+# or
+pip3 install rgb565-converter
+```
+
+
