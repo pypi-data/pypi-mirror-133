@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+sql_view/__init__.py
+sqlite3View.egg-info/PKG-INFO
+sqlite3View.egg-info/SOURCES.txt
+sqlite3View.egg-info/dependency_links.txt
+sqlite3View.egg-info/top_level.txt
