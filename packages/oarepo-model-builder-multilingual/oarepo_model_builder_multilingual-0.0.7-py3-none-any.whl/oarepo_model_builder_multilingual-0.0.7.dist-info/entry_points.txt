@@ -1,0 +1,9 @@
+[oarepo_model_builder.builders]
+360-invenio_record_multilingual_dumper=oarepo_model_builder_multilingual.invenio.invenio_record_dumper_multilingual:InvenioRecordMultilingualDumperBuilder
+
+[oarepo_model_builder.model_preprocessors]
+30-multilingual=oarepo_model_builder_multilingual.model_preprocessors.multilingual:MultilingualModelPreprocessor
+
+[oarepo_model_builder.property_preprocessors]
+700-multilingual=oarepo_model_builder_multilingual.property_preprocessors.multilingual:MultilangPreprocessor
+
