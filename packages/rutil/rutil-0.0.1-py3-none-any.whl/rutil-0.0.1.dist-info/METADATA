@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: rutil
+Version: 0.0.1
+Summary: R original utilities now in python
+Home-page: UNKNOWN
+Author: Ismael Cabral
+License: UNKNOWN
+Keywords: R language,R,str(),pandas,struture
+Platform: UNKNOWN
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: python-dateutil (>=2)
+Provides-Extra: dev
+Requires-Dist: black (>=21.9b0) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.15.0) ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.1) ; extra == 'dev'
+Requires-Dist: pylint (>=2.7.4) ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+
+
+    The idea of this package is to translate useful R functions into python
+    The first implementation is the R str() function to show the structure of pandas dataframes
+
+    
+
