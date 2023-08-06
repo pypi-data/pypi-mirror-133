@@ -1,0 +1,4 @@
+[nbconvert.exporters]
+html-offline = nb_offline_convert:OfflineHTMLExporter
+webpdf-offline = nb_offline_convert:OfflineWebPDFExporter
+
