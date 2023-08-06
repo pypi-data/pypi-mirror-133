@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pastegram/__init__.py
+src/pastegram/classes.py
+src/pastegram/constants.py
+src/pastegram/errors.py
+src/pastegram/functions.py
+src/pastegram/utils.py
+src/pastegram.egg-info/PKG-INFO
+src/pastegram.egg-info/SOURCES.txt
+src/pastegram.egg-info/dependency_links.txt
+src/pastegram.egg-info/requires.txt
+src/pastegram.egg-info/top_level.txt
