@@ -1,0 +1,3 @@
+[console_scripts]
+cylinderize = cylinderize.__main__:main
+
