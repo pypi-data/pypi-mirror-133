@@ -1,0 +1,9 @@
+CHANGELOG.rst,sha256=dSRHeOYom90EA8cw9p4Fo5THjU182MCY11k_FXI02J4,2159
+pickle_secure/__init__.py,sha256=jaS-NzA_-94aNUOAST9zSRFGJdhfWUMNT8JTWvsX-FQ,482
+pickle_secure/pickle_secure.py,sha256=Gc1BF09Odx-RnfNfj9SEjVM1siWzBVLz_WtwXAkaP2E,2012
+pickle_secure/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pickle_secure/utils.py,sha256=7LvDKD-TpUmvR7ig4zidMMBFqIF3JXZWW2CL0ZWHo94,1278
+pickle_secure-0.9.99.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+pickle_secure-0.9.99.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pickle_secure-0.9.99.dist-info/METADATA,sha256=0de6TUJ5mJkkC0uoGoZhpcaBCozL2m_G0NfbtzeWh3E,2495
+pickle_secure-0.9.99.dist-info/RECORD,,
