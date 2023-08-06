@@ -1,0 +1,61 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install black==21.10b0 numpy pylorentz pytest pytest-cov
+    - name: Lint with black
+      run: |
+        black --check fourbody/**
+        black --check test/**
+    - name: Unit Test
+      run: |
+        pytest test/ut/ --cov=./ --cov-report=xml:ut.xml
+    - name: Integration Test
+      run: |
+        pip install phasespace
+        pytest test/it/ --cov=./ --cov-report=xml:it.xml
+    - name: Validation
+      run: |
+        pip install matplotlib
+        pytest test/script/ -W error::UserWarning --cov=./ --cov-report=xml:validation.xml
+    - name: Upload coverage
+      uses: codecov/codecov-action@v1
+      with:
+        fail_ci_if_error: true
+        files: ut.xml,it.xml,validation.xml
+    - name: Check out my other private repo
+      uses: actions/checkout@v2
+      with:
+        path: other_repo
+        ref: validation_plots
+    - name: Cache plots
+    # Checkout my plot storage branch, amend the commit on it to contain the lastest plots, push
+    # Amend commit then gc to prevent the repo from growing out of control
+      run: |
+        cd other_repo
+        mv ../helicity_phsp.png ../sin_cos.png ../boosts.png ../correlations.png .
+        git config user.name "Automated Commit"
+        git config user.email "none@none.com"
+        git add helicity_phsp.png sin_cos.png boosts.png correlations.png
+        git commit --amend -m "Plots cached on: `date`"
+        git push -f origin validation_plots
+        git gc
