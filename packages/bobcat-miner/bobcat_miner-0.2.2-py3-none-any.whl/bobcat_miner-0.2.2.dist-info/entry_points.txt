@@ -1,0 +1,3 @@
+[console_scripts]
+bobcat-autopilot=bobcat_miner.cli:main
+
