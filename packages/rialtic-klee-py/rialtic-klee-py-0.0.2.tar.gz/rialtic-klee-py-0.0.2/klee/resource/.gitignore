@@ -1,0 +1,12 @@
+# WARNING: Any changes made to this file will be overwritten.
+
+json/
+json_test_cases/
+json_cases/
+
+.klee-internal/
+history/
+
+klee-*
+_klee.*
+*.klee
