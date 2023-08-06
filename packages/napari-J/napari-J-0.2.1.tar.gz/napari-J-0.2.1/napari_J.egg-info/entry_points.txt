@@ -1,0 +1,3 @@
+[napari.plugin]
+naparij = napari_j
+
