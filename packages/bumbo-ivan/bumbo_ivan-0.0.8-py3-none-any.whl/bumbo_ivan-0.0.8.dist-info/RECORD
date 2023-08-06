@@ -1,0 +1,9 @@
+bumbo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bumbo/api.py,sha256=3Dt-GbzQzPHfh_hSLGT12UB57A27bWTLj_pxXonJRQU,3975
+bumbo/middleware.py,sha256=w41ouCv1kHflmP15Gem2CqV96f25FXpXV56aR5lgcpk,675
+bumbo/orm.py,sha256=BjEf-9O6-M8qtTmr-0XErKtYYC2TQNjeLrTfhnKfmaM,6787
+bumbo/response.py,sha256=-ucT9UhIy3O-3ucP1NQsE2POGnSskWEwWA1vAwRMZwg,1071
+bumbo_ivan-0.0.8.dist-info/METADATA,sha256=9n25C1xO42aY42Herw702OsmKVnFmiMcFyNG-3w-arY,5129
+bumbo_ivan-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bumbo_ivan-0.0.8.dist-info/top_level.txt,sha256=QAWBB54JFlhBB6tTq9NIdCBjT86UJzgOeoYYXgWpbZ4,6
+bumbo_ivan-0.0.8.dist-info/RECORD,,
