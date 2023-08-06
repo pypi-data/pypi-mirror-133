@@ -1,0 +1,10 @@
+rpm-ostree-gui/DeploymentInfoPage.ui,sha256=4fw9Yn_0eCVQLDUW4Yfde31FWmMz_-sU9E1TV8IfZmA,967
+rpm-ostree-gui/MainWindow.ui,sha256=iEFRNhvkzAk1YQjPo6FwuIkV7nZ97hxKfEnh5ljiHBg,2797
+rpm-ostree-gui/PackageListItem.ui,sha256=g1t5ExyV21MiYl8vplGwqHm9An1Rr_j4-ZwN9o_J7OI,927
+rpm-ostree-gui/__main__.py,sha256=9JscuZOQT9qfNOc6_uoduMP-Jh7AlRfr98IV4A8X6B4,4823
+rpm_ostree_gui-0.0.1.data/data/share/applications/io.github.epiccakeking.RpmOstreeGui.desktop,sha256=JjyPHPnFvTsWD-a2DcbEEZ0alqCUGkkR7vnHqAmFibs,149
+rpm_ostree_gui-0.0.1.dist-info/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+rpm_ostree_gui-0.0.1.dist-info/METADATA,sha256=Lw159iCBwB9J3B0KLpxTCYKyvFusmHKb3D7mW1IYUCU,889
+rpm_ostree_gui-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rpm_ostree_gui-0.0.1.dist-info/top_level.txt,sha256=X3BORxeu2q6r3c9aXLTItvpNgSmWE06FXvAKbYUDkec,15
+rpm_ostree_gui-0.0.1.dist-info/RECORD,,
