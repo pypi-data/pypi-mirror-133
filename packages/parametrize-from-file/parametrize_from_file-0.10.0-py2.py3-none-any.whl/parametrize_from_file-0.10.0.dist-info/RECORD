@@ -1,0 +1,11 @@
+parametrize_from_file/__init__.py,sha256=-owlYwID42beFHfPI08HDeiQ0TxddFG2L4xi3KoNTr8,1651
+parametrize_from_file/errors.py,sha256=13-Aw1Sg6mrOG_nQvzPGhe4k-DNiezUgUhARoiLqlfA,162
+parametrize_from_file/loaders.py,sha256=KHVxMcZhfnQKQujiwYJeAcOJadn2yosQOlZRlTz2SIs,1547
+parametrize_from_file/namespace.py,sha256=E-fgawfsUm_CqR50Zsel6MK45s2_KVRzkm7r0CYldds,18931
+parametrize_from_file/parameters.py,sha256=qjgJyL-u39Ej9TvhPOKhvzHXqZCBARwz5mS-ykcwMSQ,20784
+parametrize_from_file/utils.py,sha256=Rk-Jmlhbw3nQkIRXuZW3dNeXqQZatf2l2KEfhXbOj-A,1033
+parametrize_from_file/voluptuous.py,sha256=7GokYNgmJFdPHnja79q277fMbCFpWCmpzg26mgSxoXo,7981
+parametrize_from_file-0.10.0.dist-info/LICENSE.txt,sha256=hV5oaBI3HIjUi61UYZf8laH_cqtaEsuXV60GtWt5Cog,1079
+parametrize_from_file-0.10.0.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+parametrize_from_file-0.10.0.dist-info/METADATA,sha256=-IPJktkW1NQstzAh3Nu9wOgp1TyVm_js43U2As6SLaI,4070
+parametrize_from_file-0.10.0.dist-info/RECORD,,
