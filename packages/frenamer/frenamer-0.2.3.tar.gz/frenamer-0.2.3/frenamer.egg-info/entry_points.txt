@@ -1,0 +1,3 @@
+[console_scripts]
+frenamer = frenamer.__main__:app
+
