@@ -1,0 +1,5 @@
+docopt
+docutils
+inform>=1.26
+quantiphy>=2.17
+requests
