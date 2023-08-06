@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: perspective.py
+Version: 0.1.0
+Summary: An easy-to-use API wrapper for Perspective API written in Python.
+Home-page: https://github.com/Yilmaz4/perspective.py/
+Author: Yilmaz04
+Author-email: ymzymz2007@gmail.com
+License: MIT
+Download-URL: https://github.com/Yilmaz4/perspective.py/archive/refs/tags/v0.1.0.tar.gz
+Keywords: perspective-api,api-wrapper,python,api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+Requires-Dist: google-api-python-client
+Requires-Dist: pycountry
+Requires-Dist: httplib2
+Requires-Dist: typing
+
+UNKNOWN
+
