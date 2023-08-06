@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyuuidapikey/__init__.py
+pyuuidapikey/main.py
+pyuuidapikey.egg-info/PKG-INFO
+pyuuidapikey.egg-info/SOURCES.txt
+pyuuidapikey.egg-info/dependency_links.txt
+pyuuidapikey.egg-info/requires.txt
+pyuuidapikey.egg-info/top_level.txt
