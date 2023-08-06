@@ -1,0 +1,2 @@
+include src/fincheck/refdata/cusip/*
+include src/fincheck/refdata/isin/*
