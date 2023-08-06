@@ -1,0 +1,4 @@
+[console_scripts]
+cebusd-analysis=coshed_ebusd.cli:analysis_cli
+cebusd-configuration-server=coshed_ebusd.cli:configuration_server_cli
+
