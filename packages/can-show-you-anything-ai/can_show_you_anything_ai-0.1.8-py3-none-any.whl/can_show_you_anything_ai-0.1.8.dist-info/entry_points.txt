@@ -1,0 +1,5 @@
+[console_scripts]
+show_me_a=show_anything:cli
+showme=show_anything:cli
+showmea=show_anything:cli
+
