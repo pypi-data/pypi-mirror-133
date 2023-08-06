@@ -1,0 +1,10 @@
+LICENSE.py
+README.md
+pyproject.toml
+setup.cfg
+src/DataBender/DataBender.py
+src/DataBender/__init__.py
+src/DataBender.egg-info/PKG-INFO
+src/DataBender.egg-info/SOURCES.txt
+src/DataBender.egg-info/dependency_links.txt
+src/DataBender.egg-info/top_level.txt
