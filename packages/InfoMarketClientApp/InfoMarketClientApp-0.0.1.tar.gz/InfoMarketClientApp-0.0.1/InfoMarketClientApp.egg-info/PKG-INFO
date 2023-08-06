@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: InfoMarketClientApp
+Version: 0.0.1
+Summary: Information Market client application
+Home-page: UNKNOWN
+Author: Ricardo Martins
+Author-email: ricas.martins767@gmail.com
+License: MIT
+Keywords: InformationMarket
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+Information Market client application to request data from the Information Market servers
+
