@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: PF-Flask-Swagger
+Version: 1.0.0
+Summary: Flask Swagger Documentation by Problem Fighter Library
+Home-page: https://github.com/problemfighter/pf-flask-swagger
+Author: Problem Fighter
+Author-email: problemfighter.com@gmail.com
+License: Apache 2.0
+Description: ### In the name of God, the Most Gracious, the Most Merciful.
+        
+        # PF-Flask-Swagger
+        
+        
+        
+        <br/><br/><br/>
+        ## Documentation
+        Install and update using [pip](https://pip.pypa.io/en/stable/getting-started/):
+        ```bash
+        pip install -U PF-Flask-Swagger
+        ```
+        
+        **Please find [the Documentation]() with example from [hmtmcse.com]()**
+        
+        
+        <br/><br/><br/>
+        ## Donate
+        [Problem Fighter](https://www.problemfighter.com/) develops and supports PF-Flask-Swagger and the libraries it uses. In order to grow
+        the community of contributors and users, and allow the maintainers to devote more time to the projects.
+        
+        
+        <br/><br/><br/>
+        ## Contributing
+        For guidance on setting up a development environment and how to make a contribution to PF-Flask-Swagger, see the contributing guidelines.
+        
+        
+        <br/><br/><br/>
+        ## Links
+        * **Changes :** [https://opensource.problemfighter.org/flask/pf-flask-swagger](https://opensource.problemfighter.org/flask/pf-flask-swagger)
+        * **PyPI Releases :** [https://pypi.org/project/pf-flask-swagger](https://pypi.org/project/pf-flask-swagger)
+        * **Source Code :** [https://github.com/problemfighter/pf-flask-swagger](https://github.com/problemfighter/pf-flask-swagger)
+        * **Issue Tracker :** [https://github.com/problemfighter/pf-flask-swagger/issues](https://github.com/problemfighter/pf-flask-swagger/issues)
+        * **Website :** [https://www.problemfighter.com/open-source](https://www.problemfighter.com/open-source)
+        
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
