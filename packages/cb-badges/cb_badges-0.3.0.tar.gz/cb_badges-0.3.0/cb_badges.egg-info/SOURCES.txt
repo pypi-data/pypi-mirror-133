@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+cb_badges/__init__.py
+cb_badges/cli.py
+cb_badges.egg-info/PKG-INFO
+cb_badges.egg-info/SOURCES.txt
+cb_badges.egg-info/dependency_links.txt
+cb_badges.egg-info/entry_points.txt
+cb_badges.egg-info/requires.txt
+cb_badges.egg-info/top_level.txt
+cb_badges/utils/__init__.py
+cb_badges/utils/cairo.py
+cb_badges/utils/svg.py
+cb_badges/utils/xml.py
