@@ -1,0 +1,3 @@
+[console_scripts]
+webing = webing.clitools.cli:main
+

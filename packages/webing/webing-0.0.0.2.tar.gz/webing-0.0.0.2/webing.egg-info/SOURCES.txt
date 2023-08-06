@@ -1,0 +1,10 @@
+README.md
+webing/__init__.py
+webing.egg-info/PKG-INFO
+webing.egg-info/SOURCES.txt
+webing.egg-info/dependency_links.txt
+webing.egg-info/entry_points.txt
+webing.egg-info/requires.txt
+webing.egg-info/top_level.txt
+webing/clitools/__init__.py
+webing/clitools/cli.py
