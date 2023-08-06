@@ -1,0 +1,9 @@
+tablefill/__init__.py,sha256=7zr4ZtVYA2ahQp5hWrpqEQPVkT9LYEDCq4ptS_PRsd4,150
+tablefill/cli.py,sha256=F9MAo_jAC5rNECvp0HM_A6MLxxvZqakBr5VqIjmcSOg,1586
+tablefill/server.py,sha256=TDiRzFQnjYagYuF8eyVTXDrinCD_pEzePFG3WIkIwrU,163
+tablefill/src.py,sha256=oyDuNQb7u-5Jjm634Ovt9aN5llUnrDyCaonbAMLTWmI,3741
+tablefill-0.2.0.dist-info/entry_points.txt,sha256=Qnbth4wccZVhPRIV4Dt6Q9oeR2YkNN5azOKY7IoT110,42
+tablefill-0.2.0.dist-info/LICENSE,sha256=HgfNS0gdiU4JmGDZU1fDyCzg2FFpFu5MkWlMhcKUYNQ,1084
+tablefill-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tablefill-0.2.0.dist-info/METADATA,sha256=szrigpEXTwFOgoblS1Kyg4vI3vHsQ8pG9khTV2ouK2w,2791
+tablefill-0.2.0.dist-info/RECORD,,
