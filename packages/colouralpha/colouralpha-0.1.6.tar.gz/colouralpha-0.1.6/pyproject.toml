@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "colouralpha"
+version = "0.1.6"
+description = "Python color representations manipulation library (RGB, HSL, web, ...)"
+authors = ["Marcin Serwin <marcin.serwin0@protonmail.com>", "Valentin LAB <valentin.lab@kalysto.org>"]
+license = "BSD-3-Clause"
+readme="README.rst"
+packages = [
+    { include = "colour" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+mypy = "^0.930"
+flake8-import-order = "^0.18.1"
+flake8-blind-except = "^0.2.0"
+flake8-builtins = "^1.5.3"
+flake8-docstrings = "^1.6.0"
+flake8-rst-docstrings = "^0.2.5"
+Sphinx = "^4.3.2"
+furo = ">=2022.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
