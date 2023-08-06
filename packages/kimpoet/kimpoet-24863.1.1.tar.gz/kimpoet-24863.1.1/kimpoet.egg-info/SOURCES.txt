@@ -1,0 +1,5 @@
+setup.py
+kimpoet.egg-info/PKG-INFO
+kimpoet.egg-info/SOURCES.txt
+kimpoet.egg-info/dependency_links.txt
+kimpoet.egg-info/top_level.txt
