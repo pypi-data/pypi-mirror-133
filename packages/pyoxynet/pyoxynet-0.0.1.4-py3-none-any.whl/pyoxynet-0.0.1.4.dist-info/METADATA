@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyoxynet
+Version: 0.0.1.4
+Summary: Python package of the Oxynet project (visit www.oxynet.net)
+Home-page: UNKNOWN
+Author: Andrea Zignoli
+Author-email: andrea.zignoli@unitn.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This is a short version of the [https://github.com/andreazignoli/pyoxynet](repository) README file.  
+
