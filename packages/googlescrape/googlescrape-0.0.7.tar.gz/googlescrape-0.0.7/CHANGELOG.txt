@@ -1,0 +1,9 @@
+Change Log
+==========
+
+0.0.7 (06/01/2022)
+-------------------
+- Seventh release , renamed googlescrape(function) -> jsonsearch(function)
+- Fixes to import errors
+
+
