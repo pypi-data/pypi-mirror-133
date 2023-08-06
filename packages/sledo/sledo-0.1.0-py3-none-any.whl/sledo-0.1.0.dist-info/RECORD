@@ -1,0 +1,16 @@
+sledo/__init__.py,sha256=3X5jl21fQ3oRZCNHbaA9ZJg2_28BNOPR4EjpBPm61EE,84
+sledo/main.py,sha256=UNen1fWJgDeXkPxIv3lQJlntTmH0wGuSfaPQGFRyVDs,1009
+sledo/generate/__init__.py,sha256=4VsSC3bnegjcfRNvSEKkrmWwgxBksyoCgon10gVbaQ8,3720
+sledo/generate/config.py,sha256=-hl6idGo65ml-MQHUAv0Y4f9X4M1fnp8uGS00OClFGk,4921
+sledo/generate/field_generators/__init__.py,sha256=8vDAyTPluRy72ovV2tqayyEtr6E9VPq7EzxRDX5NhwM,521
+sledo/generate/field_generators/base.py,sha256=c5CmdweubrAotPstAhNl6U9pbXudVYDGMvP5Ddu4Ph8,1126
+sledo/generate/field_generators/date.py,sha256=-bJVl3KVOnh9HGa7HZLrabZpLvEnOCelaUS4sAS2oN4,919
+sledo/generate/field_generators/number.py,sha256=aVUjpp73W_it9Y-S0TYOX4MqnBdKByy-fOozWXR_RvQ,1027
+sledo/generate/field_generators/reference.py,sha256=x_c5pkDQSeOaoor-m0xOxhLaODklGMY4HaXRBOKVdxc,646
+sledo/generate/field_generators/schema.py,sha256=vXKT9g_XsYIUpZzAMRWzQzITcUQy39O5ZIw5AuY6sY0,472
+sledo-0.1.0.dist-info/LICENSE,sha256=pOi9TlBZlWhka8WoXIE4KPL-7TeOtw8NGbKZjwwtHlY,1165
+sledo-0.1.0.dist-info/METADATA,sha256=gUUJi435gVHM9rZQd30-wUJ5FobzLa_WDQWHTdr7Afw,1728
+sledo-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sledo-0.1.0.dist-info/entry_points.txt,sha256=BsLz_EBfsGJfjz_HfW3vamY11Ey2v8mrXzYV4r0or4I,37
+sledo-0.1.0.dist-info/top_level.txt,sha256=Kn8bMMS0kExfEEDkNMocsT55sen38Bk5LUaUErJ0SVg,6
+sledo-0.1.0.dist-info/RECORD,,
