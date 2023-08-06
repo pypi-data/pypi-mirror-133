@@ -1,0 +1,1 @@
+from django-arg-path import arg_path

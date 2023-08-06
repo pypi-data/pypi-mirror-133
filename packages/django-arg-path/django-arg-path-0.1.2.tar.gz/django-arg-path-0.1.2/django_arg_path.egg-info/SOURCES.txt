@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+django-arg-path/__init__.py
+django-arg-path/django-arg-path.py
+django_arg_path.egg-info/PKG-INFO
+django_arg_path.egg-info/SOURCES.txt
+django_arg_path.egg-info/dependency_links.txt
+django_arg_path.egg-info/requires.txt
+django_arg_path.egg-info/top_level.txt
