@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: quicfire
+Version: 1.0.1
+Summary: Python SDK for the QUIC-Fire API
+Home-page: UNKNOWN
+Author: Anthony Marcozzi and Lucas Wells, Holtz
+Author-email: anthony@holtztds.com
+License: Proprietary
+Keywords: fire model,simulation,wildfire
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# QUIC-Fire Python SDK
+
+

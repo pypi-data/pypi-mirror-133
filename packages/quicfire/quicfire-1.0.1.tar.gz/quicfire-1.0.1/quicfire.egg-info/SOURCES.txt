@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+quicfire/__init__.py
+quicfire/main.py
+quicfire/schema.py
+quicfire.egg-info/PKG-INFO
+quicfire.egg-info/SOURCES.txt
+quicfire.egg-info/dependency_links.txt
+quicfire.egg-info/requires.txt
+quicfire.egg-info/top_level.txt
