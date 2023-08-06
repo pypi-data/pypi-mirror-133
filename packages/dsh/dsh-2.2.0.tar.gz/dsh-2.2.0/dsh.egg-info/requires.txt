@@ -1,0 +1,4 @@
+flange>=1.0.0
+prompt_toolkit>3.0
+pygments
+Click
