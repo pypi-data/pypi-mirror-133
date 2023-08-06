@@ -1,0 +1,8 @@
+optical_flow_frame_utils/__init__.py,sha256=SQOyoQe5kquBfy-XMUh30UeF3ynof8x-avK8KC8dx4Q,86
+optical_flow_frame_utils/__main__.py,sha256=CuUhwKkjCyts_snQgmAClbQAA_AoNVBJ9xL8lPyK7ec,111
+optical_flow_frame_utils/frame_utils.py,sha256=7zshQFTlgXAEUSFacrtP7SAliMjWZIPJAkkSe2MF2dA,4024
+optical_flow_frame_utils-0.0.1.dist-info/METADATA,sha256=2GuJ480JWBuIctno41DY-WHI_tk67P7exAOGlu8R050,834
+optical_flow_frame_utils-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+optical_flow_frame_utils-0.0.1.dist-info/entry_points.txt,sha256=ScoDW7q7A1Ke0iLsj9S4IaWCu-6m7kCt4ehwL6JPKo4,85
+optical_flow_frame_utils-0.0.1.dist-info/top_level.txt,sha256=iilfLp7g7Guave2XC0gyTJkotpq6eK6hdMJFGWzTs4A,25
+optical_flow_frame_utils-0.0.1.dist-info/RECORD,,
