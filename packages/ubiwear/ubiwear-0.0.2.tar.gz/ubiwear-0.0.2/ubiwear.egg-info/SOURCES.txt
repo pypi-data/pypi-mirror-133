@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ubiwear/__init__.py
+ubiwear/dataset.py
+ubiwear/processor.py
+ubiwear/window.py
+ubiwear.egg-info/PKG-INFO
+ubiwear.egg-info/SOURCES.txt
+ubiwear.egg-info/dependency_links.txt
+ubiwear.egg-info/requires.txt
+ubiwear.egg-info/top_level.txt
