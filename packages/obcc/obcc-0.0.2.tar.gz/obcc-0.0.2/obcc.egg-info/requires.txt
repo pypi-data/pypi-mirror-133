@@ -1,0 +1,4 @@
+dbutils
+loguru
+mysql-connector-python
+protobuf

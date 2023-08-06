@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: obcc
+Version: 0.0.2
+Summary: ocean base data consistency check.
+Home-page: https://github.com/zetatez/obcc
+Author: Lorenzo
+Author-email: zetatez@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.1
+License-File: LICENSE
+
+UNKNOWN
+

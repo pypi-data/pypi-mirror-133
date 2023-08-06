@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+obcc.egg-info/PKG-INFO
+obcc.egg-info/SOURCES.txt
+obcc.egg-info/dependency_links.txt
+obcc.egg-info/requires.txt
+obcc.egg-info/top_level.txt
