@@ -1,0 +1,3 @@
+[console_scripts]
+graphviz-overlay=graphviz_overlay.graph:run
+
