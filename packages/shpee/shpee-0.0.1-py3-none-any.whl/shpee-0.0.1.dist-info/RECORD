@@ -1,0 +1,8 @@
+shpee/__init__.py,sha256=cJDOWaSlW_O7jQFpPik-z_cvUE8k7_41v0U3azSePW4,36
+shpee/auth.py,sha256=Sf7uDXOADzJGbk8w5B-rDJ1KTPtxhVl7wjbxo0oVfVE,592
+shpee/client.py,sha256=m08hRqMdd1eQ7HpTkhVANQI9t24s7iTm2wls3XhHLDE,1207
+shpee/shortlink.py,sha256=L0LwcCCmIyjFaf5zQOrF5UEUhDPFcxqaEzURlFp-p3M,758
+shpee-0.0.1.dist-info/LICENSE.md,sha256=xl5MdzlYAAYjHIABtpzYCWist0_n5LS6RaGXLSQtCqI,1071
+shpee-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+shpee-0.0.1.dist-info/METADATA,sha256=6p4bZlcgL9YGIHYbQ8mwXSUcDItrJIfvn5oXNXsKNGY,429
+shpee-0.0.1.dist-info/RECORD,,
