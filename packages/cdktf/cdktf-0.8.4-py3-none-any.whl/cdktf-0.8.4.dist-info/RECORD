@@ -1,0 +1,10 @@
+cdktf/__init__.py,sha256=h6yuKXh2jrBg2btFQF2wkvw_xwobf_RMSgTJ1ozV43g,504900
+cdktf/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdktf/_jsii/__init__.py,sha256=znw_N75xFwGUYvPDHEgfrt3-BSRKMHwfzka6VFFlfJ0,322
+cdktf/_jsii/cdktf@0.8.4.jsii.tgz,sha256=46ao7nVL5EU0qUGQRB2QwAS44pGv-jd_ywOkAYwSbPg,714060
+cdktf/testing_matchers/__init__.py,sha256=xK1ynr5JJ3OpYK14k-bckqg-AznqWcGotY4Zz66geVU,1385
+cdktf-0.8.4.dist-info/LICENSE,sha256=0WMvvtyoCxu0Kp9OeyQnUAaR0CToaw_nfeqBL_XenTE,15176
+cdktf-0.8.4.dist-info/METADATA,sha256=lLfBTOkPVEdvBQ2meo6saIP9LsGA8YiZ1G-VmB8ix70,1280
+cdktf-0.8.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdktf-0.8.4.dist-info/top_level.txt,sha256=JWkWfsLZvmx6Ni1AHc-c2XiksQIc4U54segLCWXXtpc,6
+cdktf-0.8.4.dist-info/RECORD,,
