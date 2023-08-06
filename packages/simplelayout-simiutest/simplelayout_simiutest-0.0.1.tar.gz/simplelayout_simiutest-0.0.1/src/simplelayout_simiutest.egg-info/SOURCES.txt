@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/simplelayout_simiutest.egg-info/PKG-INFO
+src/simplelayout_simiutest.egg-info/SOURCES.txt
+src/simplelayout_simiutest.egg-info/dependency_links.txt
+src/simplelayout_simiutest.egg-info/entry_points.txt
+src/simplelayout_simiutest.egg-info/requires.txt
+src/simplelayout_simiutest.egg-info/top_level.txt
