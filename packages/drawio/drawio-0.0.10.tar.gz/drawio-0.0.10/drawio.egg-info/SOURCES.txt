@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+drawio/__init__.py
+drawio/drawio.py
+drawio.egg-info/PKG-INFO
+drawio.egg-info/SOURCES.txt
+drawio.egg-info/dependency_links.txt
+drawio.egg-info/requires.txt
+drawio.egg-info/top_level.txt
