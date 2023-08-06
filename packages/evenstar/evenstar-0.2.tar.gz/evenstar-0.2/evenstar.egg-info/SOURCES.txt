@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+evenstar/__init__.py
+evenstar/types.py
+evenstar.egg-info/PKG-INFO
+evenstar.egg-info/SOURCES.txt
+evenstar.egg-info/dependency_links.txt
+evenstar.egg-info/not-zip-safe
+evenstar.egg-info/top_level.txt
