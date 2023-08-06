@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wrtc
+Version: 0.0.0.dev1
+Summary: UNKNOWN
+Home-page: https://github.com/MarshalX/python-webrtc
+Author: Il`ya Semyonov
+Author-email: ilya@marshal.dev
+License: UNKNOWN
+Project-URL: Author, https://github.com/MarshalX
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+
+## Work in progress (2022)
+
+
