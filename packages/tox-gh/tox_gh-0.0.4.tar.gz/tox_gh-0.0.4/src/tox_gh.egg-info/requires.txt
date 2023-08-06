@@ -1,0 +1,7 @@
+tox>=4.0.0a10
+
+[test]
+covdefaults>=2.2
+pytest>=6.2
+pytest-cov>=3
+pytest-mock>=3.6
