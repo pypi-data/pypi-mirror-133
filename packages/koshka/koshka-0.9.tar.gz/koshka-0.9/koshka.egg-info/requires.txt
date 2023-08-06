@@ -1,0 +1,2 @@
+argcomplete
+smart_open[http,s3]
