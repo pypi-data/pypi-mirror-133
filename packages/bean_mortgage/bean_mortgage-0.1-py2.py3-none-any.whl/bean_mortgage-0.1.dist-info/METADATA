@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: bean_mortgage
+Version: 0.1
+Summary: A small utility to create mortgage schedules for beancount.
+Author-email: Gerry Agbobada <pypi@gagbo.net>
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: python-dateutil >= 2.8

@@ -1,0 +1,3 @@
+[console_scripts]
+bean-mortgage=bean_mortgage:main
+
