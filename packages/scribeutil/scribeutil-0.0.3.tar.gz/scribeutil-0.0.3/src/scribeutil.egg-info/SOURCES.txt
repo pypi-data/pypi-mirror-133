@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/scribeutil/__init__.py
+src/scribeutil/datatool.py
+src/scribeutil/errors.py
+src/scribeutil/logtracker.py
+src/scribeutil.egg-info/PKG-INFO
+src/scribeutil.egg-info/SOURCES.txt
+src/scribeutil.egg-info/dependency_links.txt
+src/scribeutil.egg-info/top_level.txt
