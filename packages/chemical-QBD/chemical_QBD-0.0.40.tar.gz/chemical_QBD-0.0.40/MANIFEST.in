@@ -1,0 +1,4 @@
+include body/chemical_QBD/elementary__data.json
+include LICENSE
+include *.toml
+include requirements.txt
