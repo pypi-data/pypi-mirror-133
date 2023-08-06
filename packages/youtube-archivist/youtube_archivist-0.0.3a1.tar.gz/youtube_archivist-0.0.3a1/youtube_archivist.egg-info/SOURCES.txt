@@ -1,0 +1,11 @@
+setup.py
+youtube_archivist/__init__.py
+youtube_archivist/base.py
+youtube_archivist/exceptions.py
+youtube_archivist/ia.py
+youtube_archivist/youtube.py
+youtube_archivist.egg-info/PKG-INFO
+youtube_archivist.egg-info/SOURCES.txt
+youtube_archivist.egg-info/dependency_links.txt
+youtube_archivist.egg-info/requires.txt
+youtube_archivist.egg-info/top_level.txt
