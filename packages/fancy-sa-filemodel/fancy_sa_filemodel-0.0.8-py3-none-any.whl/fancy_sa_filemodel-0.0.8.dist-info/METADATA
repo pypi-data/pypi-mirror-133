@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fancy-sa-filemodel
+Version: 0.0.8
+Summary: A sqlalchemy extension to store files to various storage and maintain the data integrity.
+Home-page: https://github.com/susautw/fancy-sa-filemodel
+Author: su-rin
+Author-email: susautw@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/susautw/fancy-sa-filemodel/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SQLAlchemy (>=1.4.*)
+
+# fancy-sa-filemodel
+A sqlalchemy extension to store files to various storage and maintain the data integrity.
+
+
+# About Data Integrity
+Revert operations (New, Rename, Delete) when transaction was roll-back.
+
+
+# Getting Start
+```python
+
+```
+
+## Allow Nested Session
+

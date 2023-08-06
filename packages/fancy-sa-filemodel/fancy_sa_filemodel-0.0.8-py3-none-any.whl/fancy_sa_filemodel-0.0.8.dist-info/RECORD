@@ -1,0 +1,12 @@
+fancy/sa/filemodel/__init__.py,sha256=0Jm0dqQOj9LAAyyhscDolDAUcmwLLULAXCqZaJEi0_c,224
+fancy/sa/filemodel/file.py,sha256=Te5QHk7yQjfm2rRcVsHK1as-ilvSYVudf5ERCehdsQw,996
+fancy/sa/filemodel/file_model.py,sha256=Bsi9AdEYvbnbyuZgR3qtA9PDQNoap1D2ybSl_b37yF4,1413
+fancy/sa/filemodel/operation.py,sha256=qUGJPv66uMYorDbqVPml2RzKT7gRoJkOS22-PThTQZ4,1491
+fancy/sa/filemodel/operation_context.py,sha256=HFvVjv9wKHkI0coTCLKASsiWQujgF7Q1XS7sL2vc_0g,896
+fancy/sa/filemodel/storage.py,sha256=bGoCFwz6UauMUDtnGGUyLWf23B0abAC8Zed1MnRIogM,5882
+fancy/sa/filemodel/storage_manager.py,sha256=oa1MT9iAxQE7o_gSheJ2Rmu7CKGgHRBvPQuGoRxXzPo,4134
+fancy_sa_filemodel-0.0.8.dist-info/LICENSE,sha256=tCmqa6KTCpO7NLP4eqWD-CycEyqFQzkKZKSC5SzkYM0,1064
+fancy_sa_filemodel-0.0.8.dist-info/METADATA,sha256=esFwt8vR_RBgzPTTDFZ5egDhJfhlqD3HLaMiC9pWmec,914
+fancy_sa_filemodel-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fancy_sa_filemodel-0.0.8.dist-info/top_level.txt,sha256=SW-yrrF_c8KlserorMw54inhLjZ3_YIuLz7fYT4f8ao,6
+fancy_sa_filemodel-0.0.8.dist-info/RECORD,,
