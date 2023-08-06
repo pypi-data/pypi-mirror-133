@@ -1,0 +1,4 @@
+[console_scripts]
+dijkprofile_annotator = dijkprofile_annotator.__main__:main
+dijkprofile_annotator-gui = dijkprofile_annotator.app:run
+
