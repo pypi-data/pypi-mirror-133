@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/autoroc.egg-info/PKG-INFO
+src/autoroc.egg-info/SOURCES.txt
+src/autoroc.egg-info/dependency_links.txt
+src/autoroc.egg-info/top_level.txt
+src/autoroc_rupakbob/__init__.py
+src/autoroc_rupakbob/autoroc.py
