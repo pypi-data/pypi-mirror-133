@@ -1,0 +1,9 @@
+recursive-include ngsfragments *.c *.h *.pxd *.pyx
+recursive-include htslib  *.c *.h *.5 *.1 *.7 *.mk *.ac *.in *.status *.m4 *.sh
+recursive-include htslib *.5
+include cy_build.py
+include htslib/configure
+include htslib/Makefile
+recursive-include data/*.txt
+recursive-include data/*.h5 
+recursive-include data/*.bed.gz
