@@ -1,0 +1,14 @@
+_diffcp.cp36-win_amd64.pyd,sha256=VjsA10L6lvOcn1mxbUBk6PAAES5VMeTFvPw4Ixd4x5Y,397312
+diffcp/__init__.py,sha256=mBc7JnxnYfSj2Pf2J7XMrIHiTQ-5V9nEp_Zo3Vo1nng,243
+diffcp/cone_program.py,sha256=NDi112kZA0mqQuXpb3D3zFA2MMiIVSMQNMamtpw1x1U,18765
+diffcp/cones.py,sha256=3Kk6pd_sfdLGBDF-eUBckYQXFK-kJrdI4G4ufKKWCgY,4436
+diffcp/utils.py,sha256=Knrm6KPVpV_XOmmVD58CRzmta0UIoiSkSYIx40zrYSs,1324
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cone_prog_diff.py,sha256=Y_WLlqQ2Vtff_Ox0N403_g1zNOXPMhLcqf9Q-rZPD8M,12414
+tests/test_ecos.py,sha256=KGb9qwByMvqiCcUCdfQqXMGKsLa4YyPzmSey06MVOF4,2207
+tests/test_scs.py,sha256=G6BQx4DBuMgKwaJpkNP46l9OYpm8ZNvx6bxf2QCy5qQ,3647
+diffcp-1.0.19.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+diffcp-1.0.19.dist-info/METADATA,sha256=M3C3YEBEy11n8hgo5mgYYBDUU5NvhkIY6fpyVSBeO0E,7258
+diffcp-1.0.19.dist-info/WHEEL,sha256=zukbZftcRdNfJ55Q_RYV9JZ3uVyqWKyq-wDJbmszs_U,101
+diffcp-1.0.19.dist-info/top_level.txt,sha256=JJQlhFrUfVJt9Gss7q0KCe41glpWmbK4wL82i3vtmfs,21
+diffcp-1.0.19.dist-info/RECORD,,
