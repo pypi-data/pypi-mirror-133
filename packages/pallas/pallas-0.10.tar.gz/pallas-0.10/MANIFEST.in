@@ -1,0 +1,20 @@
+
+include *.rst
+include *.ini
+include .flake8
+include .isort.cfg
+include LICENSE
+include MANIFEST.in
+include NOTICE
+include setup.py
+
+recursive-include src *.py
+include src/pallas/py.typed
+recursive-include tests *.py
+
+include README.rst CHANGELOG.rst
+recursive-include docs *.gitkeep
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs *.txt
+recursive-include docs Makefile
