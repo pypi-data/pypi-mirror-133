@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/Pytools_kit.egg-info/PKG-INFO
+src/Pytools_kit.egg-info/SOURCES.txt
+src/Pytools_kit.egg-info/dependency_links.txt
+src/Pytools_kit.egg-info/top_level.txt
