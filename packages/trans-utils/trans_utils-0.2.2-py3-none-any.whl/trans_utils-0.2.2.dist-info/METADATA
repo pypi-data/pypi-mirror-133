@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: trans-utils
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Curliq
+Author-email: transcendentsiki@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: termcolor
+Requires-Dist: einops
+Requires-Dist: torch (>=1.6)
+Requires-Dist: torchvision
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: yamlloader
+Requires-Dist: SimpleITK
+Requires-Dist: h5py
+Requires-Dist: xlwt
+Requires-Dist: openpyxl
+
+UNKNOWN
+
+
