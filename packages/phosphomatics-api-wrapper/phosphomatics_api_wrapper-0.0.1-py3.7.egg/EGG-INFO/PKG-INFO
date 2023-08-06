@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: phosphomatics-api-wrapper
+Version: 0.0.1
+Summary: A python wrapper for the phosphomatics API
+Home-page: https://github.com/mgleeming/phosphomatics-api-wrapper.git
+Author: Michael Leeming
+Author-email: leemingm@unimelb.edu.au
+License: BSD
+Description: # phosphomatics-api-wrapper
+        
+        A python wrapper that allows easy programmatic access to the [phosphomatics](https://www.phosphomatics.com/) serice for analysis of quantitative phosphoproteomics data. Documentation and usage examples can be found [here](https://phosphomatics-api-wrapper.readthedocs.io/en/latest/index.html)
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

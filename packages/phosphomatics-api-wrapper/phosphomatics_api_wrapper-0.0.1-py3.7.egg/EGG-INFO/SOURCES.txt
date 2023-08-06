@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+phosphomatics/__init__.py
+phosphomatics/phosphomatics.py
+phosphomatics_api_wrapper.egg-info/PKG-INFO
+phosphomatics_api_wrapper.egg-info/SOURCES.txt
+phosphomatics_api_wrapper.egg-info/dependency_links.txt
+phosphomatics_api_wrapper.egg-info/requires.txt
+phosphomatics_api_wrapper.egg-info/top_level.txt
