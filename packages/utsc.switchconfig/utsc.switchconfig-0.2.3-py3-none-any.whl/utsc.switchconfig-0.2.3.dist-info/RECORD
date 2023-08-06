@@ -1,0 +1,12 @@
+utsc/switchconfig/__init__.py,sha256=Wp8SfArROj2P0jn6yiXnacYGtyteMV8oz-zmGe3TKnQ,2089
+utsc/switchconfig/__main__.py,sha256=kovEySG404291Dvh4cz3hAyDiBSKaco6jswMDmFbPXU,9489
+utsc/switchconfig/deploy.py,sha256=od2u9KKEX5DQaa0In0tycmXr1f-7PBsolxNf6hDzCF4,5750
+utsc/switchconfig/example_template_dir/__init__.py,sha256=Oh91GPqBO1g9JheQ_LxMRGJea1aOcQGLcbdge9i_DpY,4334
+utsc/switchconfig/example_template_dir/comment-block-schema-example.j2,sha256=aOY2aItJfsobCTunxfdSw8rq4NaYTJqXMC6Yn2T9Skc,1537
+utsc/switchconfig/example_template_dir/data-model-example.j2,sha256=8_5DuZILcWtPpvfpQPf4ojeVevuXn0LGcLFqjcHvGwk,533
+utsc/switchconfig/generate.py,sha256=1kFmJdu4-puzTYLaxfo5q0WAbdzyhfl0eaLz-k4Wr2w,5670
+utsc/switchconfig/util.py,sha256=e_8Kd-wNziTWbhrfYGXuMgTcywHjhrub3KJmB5o5S3k,10707
+utsc.switchconfig-0.2.3.dist-info/entry_points.txt,sha256=z6GtXullo04yh3SA0U_6C9wEcj7_1PdlZKScXa0waRY,68
+utsc.switchconfig-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+utsc.switchconfig-0.2.3.dist-info/METADATA,sha256=FfGz3AWEZIvq3Z404pWm05XyPxa1LUdTIpHnMvedgHA,777
+utsc.switchconfig-0.2.3.dist-info/RECORD,,
