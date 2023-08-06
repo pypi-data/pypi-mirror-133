@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cpplinthook/__init__.py
+cpplinthook/cpplint.py
+cpplinthook/formatters.py
+cpplinthook.egg-info/PKG-INFO
+cpplinthook.egg-info/SOURCES.txt
+cpplinthook.egg-info/dependency_links.txt
+cpplinthook.egg-info/entry_points.txt
+cpplinthook.egg-info/requires.txt
+cpplinthook.egg-info/top_level.txt
