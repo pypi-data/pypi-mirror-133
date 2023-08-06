@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qns
+Version: 0.1.0
+Summary: A discrete time scheduler designed for the quantum network
+Home-page: UNKNOWN
+Author: elliot
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+
+UNKNOWN
+
+
