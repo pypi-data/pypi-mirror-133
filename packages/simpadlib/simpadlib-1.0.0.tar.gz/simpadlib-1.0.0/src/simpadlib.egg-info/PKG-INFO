@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: simpadlib
+Version: 1.0.0
+Summary: A library that allows users to custom-configure their SimPad real-time
+Home-page: https://github.com/malevtuber/simpadlib
+Author: Ashe Muller
+Author-email: contact.notashe@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/malevtuber/simpadlib/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SimpadLib v1
+
+## What is this?
+- This is a python library programmed by Ashe Muller that allows users to interface directly with their SimPad devices, and control
+RGB values pragmatically.
+- It includes comprehensive research of all of the different functions for the SimPad.
+
+## What tf is a SimPad?
+- Small, usually 2-key keypad used for osu! and similar 2-key rhythm games
+
+# Roadmap
+- NodeJS port by the end of January
+- That's it. I fucking hate C langs. You're only getting Python and JS out of me lmao
+
