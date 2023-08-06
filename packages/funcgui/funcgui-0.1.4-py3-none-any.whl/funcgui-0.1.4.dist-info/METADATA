@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: funcgui
+Version: 0.1.4
+Summary: functions.
+Home-page: https://github.com/seoul2k/funcgui
+Author: xiongtianshuo
+Author-email: Mr_Xiongts@163.com
+Maintainer: xiongtianshuo
+Maintainer-email: seoul1k@163.com
+License: BSD License
+Project-URL: Bug Tracker, https://github.com/seoul2k/funcgui/issues
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# funcgui
+
+##### this is a functions aggregate
+
+## Installation
+
+```shell
+pip install funcgui
+```
+
+or
+
+```shell
+pip install funcgui==0.1.2
+```
+
+
+
+```python
+import funcgui
+
+# createPyGui
+funcgui.createPyGui(name=)
+
+# create
+funcgui.create(name=)
+
+# echo
+funcgui.echo(name=, value=)
+
+# createPy
+funcgui.createPy(name=, value=)
+```
+
+
