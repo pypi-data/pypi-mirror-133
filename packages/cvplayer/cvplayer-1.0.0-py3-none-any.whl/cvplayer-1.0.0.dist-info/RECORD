@@ -1,0 +1,9 @@
+video_player/__init__.py,sha256=2t31SG6TgGQQRL-_nk0GpbZiKHUvjzWp8Xoub2qzW7Q,31
+video_player/__main__.py,sha256=2t31SG6TgGQQRL-_nk0GpbZiKHUvjzWp8Xoub2qzW7Q,31
+video_player/player.py,sha256=HeXFlDEVe7g64YKV-qle3PvqcEgXM2hsrVavfILshl4,4993
+cvplayer-1.0.0.dist-info/LICENSE,sha256=DMT2Blngcj4Eg-m93kgFxbetjn8JI5q0ZnWmAlZFkXo,1081
+cvplayer-1.0.0.dist-info/METADATA,sha256=8BCWDznBxXZVGQGX462caCUfnE6KKnyDdRyvtXeCp-4,649
+cvplayer-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cvplayer-1.0.0.dist-info/entry_points.txt,sha256=NlYPJgagBJ9X-TgpI4jTmK7uJLSkFlUQUnOMyZdExSk,60
+cvplayer-1.0.0.dist-info/top_level.txt,sha256=MHJUXzp4oovTo-cJlztsY7u1tx5muegbVLz2TCTZtDw,13
+cvplayer-1.0.0.dist-info/RECORD,,
