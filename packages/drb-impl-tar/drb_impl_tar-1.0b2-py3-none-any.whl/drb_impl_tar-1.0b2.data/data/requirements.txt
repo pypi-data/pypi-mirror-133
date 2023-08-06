@@ -1,0 +1,4 @@
+drb==1.0b3
+drb-impl-file==1.0b4
+versioneer>=0.20
+
