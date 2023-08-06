@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: python-vimeo
+Version: 0.1.0
+Summary: A Python wrapper for Vimeos API
+Home-page: https://github.com/arbington/python-vimeo
+Keywords: vimeo,python,api
+Author: Kalob Taulien
+Author-email: kalob.taulien@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyVimeo (>=1.1.0,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.10.0,<5.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Project-URL: Repository, https://github.com/arbington/python-vimeo
+Description-Content-Type: text/x-rst
+
+############
+python-vimeo
+############
+
+Package setup, installation and examples available at https://github.com/arbington/python-vimeo
+
