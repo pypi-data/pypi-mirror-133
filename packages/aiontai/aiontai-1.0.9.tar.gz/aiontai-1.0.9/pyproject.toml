@@ -1,0 +1,114 @@
+[tool.poetry]
+name = "aiontai"
+version = "1.0.9"
+description = "Async wrapper for nhentai API"
+authors = ["LEv145"]
+license = "MIT"
+readme = "README.rst"
+homepage = "https://github.com/LEv145/aiontai"
+documentation = "https://aiontai.readthedocs.io/en/latest/"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiohttp = "^3.8.1"
+injector = "^0.19.0"
+dataclasses-json = "^0.5.6"
+darglint = "^1.8.1"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.930"
+mkinit = "^0.3.4"
+black = "^21.12b0"
+coverage = {extras = ["toml"], version = "^6.2"}
+attrs = "^21.4.0"
+pydocstyle = {extras = ["toml"], version = "^6.1.1"}
+flake8-commas = {git = "https://github.com/LEv145/flake8-commas"}
+flake9 = "^3.8.3"
+poethepoet = "^0.11.0"
+Sphinx = "^4.3.2"
+sphinx-rtd-theme = "^1.0.0"
+isort = "^5.10.1"
+tox = "^3.24.5"
+
+[tool.mypy]
+ignore_missing_imports = true
+strict_optional = true
+implicit_reexport = true
+warn_unused_ignores = false
+
+[tool.isort]
+include_trailing_comma = true
+multi_line_output = 3
+force_grid_wrap = 2
+lines_after_imports = 2
+src_paths = ["aiontai", "tests"]
+
+[tool.flake8]
+max-line-length = 99
+docstring_style="google"
+
+[tool.coverage.run]
+branch = true
+command_line = "-m unittest discover tests"
+
+[tool.coverage.report]
+exclude_lines = [
+    "def __repr__",
+    "def __str__",
+    "if __name__ == .__main__.:",
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "\\.\\.\\.",
+    "pass",
+]
+
+[tool.poe.tasks]
+mkinit = "mkinit aiontai -w --black --nomods --relative --recursive"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist =
+    linters,
+    coverage,
+    3.8,
+    3.9,
+    3.10,
+
+
+isolated_build = true
+
+
+[gh-actions]
+python =
+    3.8: py38, linters, coverage
+    3.9: py39
+    3.10: py310
+
+[testenv]
+deps = coverage
+
+commands =
+    python3 -m unittest discover tests "test_*"
+
+
+[testenv:linters]
+deps =
+    mypy
+
+commands =
+    mypy aiontai/
+
+
+[testenv:coverage]
+deps = coverage[toml]
+
+commands =
+    coverage run
+    coverage report -m
+"""
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
