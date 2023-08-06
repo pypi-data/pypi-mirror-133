@@ -1,0 +1,14 @@
+setup.py
+ppdes/__init__.py
+ppdes/base.py
+ppdes/data.py
+ppdes/diffsolve.py
+ppdes/err.py
+ppdes/fztest.py
+ppdes/ode_main.py
+ppdes/pde_solver.py
+ppdes/solver.py
+ppdes.egg-info/PKG-INFO
+ppdes.egg-info/SOURCES.txt
+ppdes.egg-info/dependency_links.txt
+ppdes.egg-info/top_level.txt
