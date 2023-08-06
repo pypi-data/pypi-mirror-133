@@ -1,0 +1,3 @@
+[console_scripts]
+MAGOT = MAGOT2.__main__:entry_point
+
