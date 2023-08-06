@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bitorchinfo/__init__.py
+bitorchinfo/formatting.py
+bitorchinfo/layer_info.py
+bitorchinfo/model_statistics.py
+bitorchinfo/torchinfo.py
+bitorchinfo.egg-info/PKG-INFO
+bitorchinfo.egg-info/SOURCES.txt
+bitorchinfo.egg-info/dependency_links.txt
+bitorchinfo.egg-info/top_level.txt
