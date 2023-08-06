@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: lipycense
+Version: 0.2
+Summary: Helps you find out how your project's dependencies are licensed.
+Home-page: https://github.com/aiman-al-masoud/lipycense
+Author: Aiman Al Masoud
+Author-email: luxlunarislabs@gmail.com
+License: GPL-3.0
+Download-URL: https://github.com/aiman-al-masoud/lipycense/archive/refs/tags/v_02.tar.gz
+Description: UNKNOWN
+Keywords: license,python,packages
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3.8
