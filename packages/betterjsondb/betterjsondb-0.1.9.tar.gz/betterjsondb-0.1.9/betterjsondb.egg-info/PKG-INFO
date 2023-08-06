@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: betterjsondb
+Version: 0.1.9
+Summary: A useful library for simplifying work with .json files.
+Home-page: https://github.com/DarkJoij/betterjsondb
+Author: Dallas
+Author-email: aleksey.c5@yandex.ru
+License: UNKNOWN
+Description: # Betterjson
+        [Library](https://github.com/DarkJoij/betterjsondb) for easier working with JSON files in Python.
+        
+        # Quick example
+        ```json
+        {"names": ["Alex", "Allan"]}
+        ```
+        ```py
+        import betterjsondb
+        
+        db = betterjsondb.connect(file="tests.json", prefix="~")                  # Name of file and prefix can be custom
+        
+        print(                                                                    # In concole you'll see:
+            db.get("all"),                                                        # {'names': ['Alex', 'Allan']}
+            db.push("cars", {"BMW": "car", "Tosiba": "not_car"}, callback=True),  # True
+            db.update("cars", "=", {"BMW": "car"}, callback=True),                # True
+            db.delete("names", callback=True),                                    # True
+            db.get("all")                                                         # {'cars': {'BMW': 'car'}}
+        )
+        ```
+        
+        # Important information
+        27.12.2021 library updated using [Python 3.10](https://www.python.org/downloads/release/python-3100/). So now its strictly requere it on your PC.
+        
+        # Changelog:
+        #### v. 0.1.8:
+        
+        After connect file if its not exists library will create it.
+        Added warning to not existing file.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
