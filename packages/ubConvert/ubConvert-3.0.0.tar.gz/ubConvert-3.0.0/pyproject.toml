@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ubConvert"
+version = "3.0"
+description = "Time, Temperature, Speed, Distance, Volume, and Weight conversion module"
+packages = [
+    {include = "ubConvert.py"},
+    {include = "readme.md"},
+]
+
+authors = ["ZennDogg, Utility_Belt Designs, Tacoma, WA"]
+license = "MIT"
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
