@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: KeyGen-Python
+Version: 0.0.1
+Summary: PyKey-Gen Is Key Generator , That Expired Within Minute
+Home-page: https://github.com/prajwalkedari/PyKey-Gen
+Author: Prajwal Kedari
+License: UNKNOWN
+Keywords: pythonkey_gen,pykey_gen,PyKey-Gen,Key,Gen,Secure,Generator,key Generator,key generate,prajwalkedari,Prajwal,kedari
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.x
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
