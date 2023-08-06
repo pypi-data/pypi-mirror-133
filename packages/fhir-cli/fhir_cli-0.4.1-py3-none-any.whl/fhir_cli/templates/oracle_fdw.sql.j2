@@ -1,0 +1,22 @@
+BEGIN;
+
+CREATE SERVER IF NOT EXISTS {{ source_db }}_server
+    FOREIGN DATA WRAPPER oracle_fdw
+    OPTIONS (dbserver '//{{ source_host }}:{{ source_port }}/{{ source_db }}');
+
+GRANT USAGE ON FOREIGN SERVER {{ source_db }}_server TO {{ project_db }};
+
+CREATE USER MAPPING IF NOT EXISTS FOR PUBLIC
+    SERVER {{ source_db }}_server
+    OPTIONS (user '{{ source_user }}', password '{{ source_password }}');
+
+CREATE SCHEMA "{{ target_schema }}";
+GRANT USAGE ON SCHEMA "{{ target_schema }}" TO {{ project_db }};
+
+IMPORT FOREIGN SCHEMA "{{ source_schema }}"
+    FROM SERVER {{ source_db }}_server INTO "{{ target_schema }}"
+    OPTIONS (prefetch '10240');
+
+GRANT SELECT ON ALL TABLES IN SCHEMA "{{ target_schema }}" TO {{ project_db }};
+
+COMMIT;

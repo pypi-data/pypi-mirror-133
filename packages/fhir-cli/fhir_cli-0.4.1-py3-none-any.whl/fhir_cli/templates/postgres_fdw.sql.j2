@@ -1,0 +1,21 @@
+BEGIN;
+
+CREATE SERVER IF NOT EXISTS {{ source_db }}_server
+    FOREIGN DATA WRAPPER postgres_fdw
+    OPTIONS (host '{{ source_host }}', port '{{ source_port }}', dbname '{{ source_db }}', fetch_size '50000');
+
+GRANT USAGE ON FOREIGN SERVER {{ source_db }}_server TO {{ project_db }};
+
+CREATE USER MAPPING IF NOT EXISTS FOR PUBLIC
+    SERVER {{ source_db }}_server
+    OPTIONS (user '{{ source_user }}', password '{{ source_password }}');
+
+CREATE SCHEMA "{{ target_schema }}";
+GRANT USAGE ON SCHEMA "{{ target_schema }}" TO {{ project_db }};
+
+IMPORT FOREIGN SCHEMA "{{ source_schema }}"
+FROM SERVER {{ source_db }}_server INTO "{{ target_schema }}";
+
+GRANT SELECT ON ALL TABLES IN SCHEMA "{{ target_schema }}" TO {{ project_db }};
+
+COMMIT;
