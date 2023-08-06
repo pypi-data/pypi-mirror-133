@@ -1,0 +1,12 @@
+recyclebin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recyclebin/apps.py,sha256=5tdDG7w9fqyJXKy_o9a2phHenVw-Kl-4Pm_-a8gsT_E,158
+recyclebin/functions.py,sha256=vfAggfUaI9zD4MnN6GpnqWCZrnkqoqSiQyielBzkmZI,708
+recyclebin/models.py,sha256=8U1WqREHr-WedSh0U1YLvDzv7IYUVhNS3zSjdzjqKYs,1247
+recyclebin/serializers.py,sha256=1Lm1oL7veKz9drFtIazSlpC_xqoCKaeSiadug7pcp7o,1128
+recyclebin/utils.py,sha256=ho1eXmFZ1rAYy6mfmvJ__YX5VNewydCwbKejOce_l0I,965
+recyclebin/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_recyclebin-0.1.dist-info/LICENSE,sha256=tm1-PtSsDe4n1SBSWDrhNxifmdSJ707Qyh7jKIXSCMc,1086
+django_recyclebin-0.1.dist-info/METADATA,sha256=95yqBuOHpIFhaAVT1nCRBc7oe0QaAarwyhGFkijip90,2517
+django_recyclebin-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_recyclebin-0.1.dist-info/top_level.txt,sha256=lKmuixJFgHfH7xhZNLCObZBBNEDUCT-8-YOqBCgBQDg,11
+django_recyclebin-0.1.dist-info/RECORD,,
