@@ -1,0 +1,3 @@
+click
+pyzipper>=0.3.5
+
