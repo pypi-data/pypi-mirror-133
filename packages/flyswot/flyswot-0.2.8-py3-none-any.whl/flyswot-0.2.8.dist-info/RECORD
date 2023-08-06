@@ -1,0 +1,15 @@
+flyswot/__init__.py,sha256=oVLjMTM29NlBNXVHUYXa1ZddlP67lZBzOFecUIK4tcg,15
+flyswot/__main__.py,sha256=XN2VjUbC3yKwIEx0LQCv2hGV53MGySHGUl1UXJodXgY,204
+flyswot/cli.py,sha256=ZiPRydbMQh7WA_kkhmLVvIl6TN1ICeOKIB8JUOrH9EQ,281
+flyswot/config.py,sha256=5c0Cqu_qUooeFUNDDuz9cfyjENBvab_fFNSIpmzGUR8,90
+flyswot/console.py,sha256=LW2S96cgGtgGafsl5-qOPIPFm9i6ZDn8MCDUamjcE-s,68
+flyswot/core.py,sha256=3SGDCgtQ2dJKFTr1FxLtfzC97o1w5dydljrwGU60E_Y,2252
+flyswot/inference.py,sha256=mOqVlVo0HOYg4TY7Gh9eQXmK_SVqmPE1qGIn-dN8Khc,18122
+flyswot/logo.py,sha256=w-Kno5jSRP84F9y5aaHHMwchsADKEK5u1DGaq2XWVEA,371
+flyswot/models.py,sha256=lwSSJvIPgf3dzcZhivvci-YmzHv7QbcR3xuMFTBfWc8,5456
+flyswot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flyswot-0.2.8.dist-info/entry_points.txt,sha256=t9gsI0NFU8yyLNUcJXI3Q1MZH8xdZmx8EiSU76nkdqw,44
+flyswot-0.2.8.dist-info/LICENSE.rst,sha256=HUTSxr57aD6OI2EkhdKR5zVV60inFEqmh6jfzBmLGxY,1094
+flyswot-0.2.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+flyswot-0.2.8.dist-info/METADATA,sha256=u0tIv8hDVGQ2j46DQunmMdECpUq4rVVSbGFUj0fFXKU,13204
+flyswot-0.2.8.dist-info/RECORD,,
