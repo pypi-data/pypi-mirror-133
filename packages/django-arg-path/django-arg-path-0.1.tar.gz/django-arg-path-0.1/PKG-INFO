@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: django-arg-path
+Version: 0.1
+Summary: We like writing short codes but we don"t want to think about logic. Here with django-arg-path package you can write short and clean code easily
+Home-page: https://github.com/user/reponame
+Author: Nuru Hasanov
+Author-email: nurhesen@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: django,path,static,urls
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
