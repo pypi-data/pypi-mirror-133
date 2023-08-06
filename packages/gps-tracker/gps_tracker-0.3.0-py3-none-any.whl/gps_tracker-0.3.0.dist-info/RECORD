@@ -1,0 +1,15 @@
+gps_tracker/__init__.py,sha256=ej48e6g9iUQbE7Rz1nLxEfxnwdENCdKKZw-y-OCYKb4,584
+gps_tracker/_version.py,sha256=YNd1dEdZGzG2MvXfaTQdmMYCLOQm-rV09_xmC5Hxu5Y,142
+gps_tracker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gps_tracker/client/__init__.py,sha256=_L5bGIkmkvhzMDcsjGKS4Zfr5NRWsj3BaOPAY1cHL3c,274
+gps_tracker/client/asynchronous.py,sha256=UDxFvvvsilbth1cdJ6D7K0W8wC45O7Nv_9RAy5x9qxo,7339
+gps_tracker/client/config.py,sha256=Q-KMVHXk9hOyo-tpoyIcYr4sBy376bdDR5R6YA8myUk,1260
+gps_tracker/client/datatypes.py,sha256=uvY63ajpVjjNHtIAuDB5K7-ZXaZCHVl9mVJwm5yYws4,8984
+gps_tracker/client/exceptions.py,sha256=EPq_3X-9yl-BVMlQXrHH_1q18qrT9dapFJvHZ8vp4YU,3092
+gps_tracker/client/synchronous.py,sha256=PnjIpuSal4GR4bFd6QMWe312jXK9KlrQt53m65avflA,6335
+gps_tracker/client/url_provider.py,sha256=Pr6vDHKOUP0XRJr6Ma_kNWTPIsaMxwWUQ3aCRQUUrQY,3144
+gps_tracker-0.3.0.dist-info/LICENSE.txt,sha256=m2ClB78gySIdg0HSUOI9usHCOFR1nqmzBSg3Uh6Y9nw,1078
+gps_tracker-0.3.0.dist-info/METADATA,sha256=n2VCU4RzDZ0uzTGzCv7iKS6q6A6inh7ZI1FMhMnog6s,3906
+gps_tracker-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gps_tracker-0.3.0.dist-info/top_level.txt,sha256=cFgkGkz4RJcba926TCHuXD2BeUoRIPBy4W6Vn2NKfkg,12
+gps_tracker-0.3.0.dist-info/RECORD,,
