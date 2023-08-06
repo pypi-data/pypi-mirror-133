@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: linearcli
+Version: 1.0.0
+Summary: Simple CLI interface for linear task manager (https://linear.app)
+Home-page: https://github.com/frenchie4111/linearcli
+Author: Mike Lyons
+Author-email: mdl0394@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
