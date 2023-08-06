@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/ddOperApi/__init__.py
+src/ddOperApi.egg-info/PKG-INFO
+src/ddOperApi.egg-info/SOURCES.txt
+src/ddOperApi.egg-info/dependency_links.txt
+src/ddOperApi.egg-info/requires.txt
+src/ddOperApi.egg-info/top_level.txt
