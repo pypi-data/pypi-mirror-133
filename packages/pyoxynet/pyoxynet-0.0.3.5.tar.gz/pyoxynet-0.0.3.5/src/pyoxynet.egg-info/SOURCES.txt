@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/pyoxynet.egg-info/PKG-INFO
+src/pyoxynet.egg-info/SOURCES.txt
+src/pyoxynet.egg-info/dependency_links.txt
+src/pyoxynet.egg-info/requires.txt
+src/pyoxynet.egg-info/top_level.txt
+test/testing.py
