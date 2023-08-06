@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mangekyo.egg-info/PKG-INFO
+mangekyo.egg-info/SOURCES.txt
+mangekyo.egg-info/dependency_links.txt
+mangekyo.egg-info/requires.txt
+mangekyo.egg-info/top_level.txt

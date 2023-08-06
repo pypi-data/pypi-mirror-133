@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: mangekyo
+Version: 0.0.1
+Summary: Kaleidoscope package
+Home-page: https://github.com/isaotoyama/kaleidoscope
+Author: Isao Toyama
+Author-email: isaotv@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/isaotoyama/kaleidoscope/issues
+Keywords: ComputerVision,HandTracking,FaceTracking,PoseEstimation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+Utilization of CV package
+
+## Installation
+
+You can simply use pip to install the latest version .
+
+`pip install `
+
+<hr>
+
+
