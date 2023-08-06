@@ -1,0 +1,4 @@
+setuptools
+hop-client==0.5.0
+confluent-kafka==1.7.0
+safe-netrc
