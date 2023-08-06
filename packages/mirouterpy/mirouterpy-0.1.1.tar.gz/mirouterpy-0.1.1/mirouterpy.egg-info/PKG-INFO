@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mirouterpy
+Version: 0.1.1
+Summary: API for xiaomi Mi routers
+Home-page: https://github.com/AliDjango/mirouterpy
+Author: AliDjango
+Author-email: contact@alishadanpour.ir
+License: GNU Affero General Public License v3.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6<4
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+UNKNOWN
+
