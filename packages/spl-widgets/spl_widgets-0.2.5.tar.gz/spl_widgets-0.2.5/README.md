@@ -1,0 +1,42 @@
+
+<h1>
+    spl_widgets <sub><sup><small>  by CTSF  </sup></sub></small>
+</h1>
+
+<hr>
+<span><i>widgets created for the Barnard Speech Perception Laboratory</i></span>
+
+<h2>Changelog</h2>
+
+<table name="Changelog">
+  <body>
+    <tr name="Headings">
+      <th>Version</th>
+      <th>Summary of Changes</th>
+    </tr>
+    <tr name="v0.2.5">
+      <td name="version_name">
+        <h3><a href="https://pypi.org/project/spl-widgets/0.2.5/"> v0.2.5</a></h3>
+      </td>
+      <td name="changes">
+        <ul>
+          <li>Changed README.md formatting to be compatible with PyPi's Markdown renderer and converted it to HTML in its entirety.</li>
+        </ul>
+      </td>
+    </tr>
+    <tr name="v0.2.4">
+      <td name="version_name" valign="top">
+        <h3><a href="https://pypi.org/project/spl-widgets/0.2.4/">v0.2.4</a></h3>
+      </td>
+      <td name="changes">
+        <ul>
+          <li> Added changelog. No previous versions have any such documentation. documentation for this module and its individual widgets will increase with time.</li>
+          <li>Fixed a typo in tuner.py's <i>tuneWithData</i> function that caused subprocess.run to return an error while attempting to open outputted tuned file.</li>
+          <li>Made changes to stk_swx.py to allow for dynamic detection of the number of active formants present within the user's file.</li>
+          <li>Added type-hinting to misc_util.py, tune_freq.py and stk_swx.py for clarity.</li>
+          <li>Removed ridiculous over-commenting in tune_freq.py and refactored its main function, no changes to functionality made</li>
+        </ul>
+      </td>
+    </tr> 
+</body>
+</table>
