@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: drinkingbird
+Version: 0.2.1
+Summary: Program to keep your browser/computer active
+Home-page: https://github.com/Dih5/drinkingbird
+Author: Dih5
+Author-email: dihedralfive@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pynput
+Requires-Dist: click
+Provides-Extra: docs
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: IPython ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# drinkingbird
+
+Program to keep your browser/computer active.
+
+![Homer's drinking bird](https://media.giphy.com/media/l41lUJ1YoZB1lHVPG/giphy.gif)
+
+## Installation
+
+Assuming you have a [Python3](https://www.python.org/) distribution
+with [pip](https://pip.pypa.io/en/stable/installing/):
+
+```
+pip3 install drinkingbird
+```
+
+## Usage
+
+To run, open some relevant tabs in a browser in the foreground and execute:
+
+```
+drinkingbird
+```
+
+Return the focus to the browser if needed.
+
+This will cycle tabs each 10 s.
+
+To stop it, just press Esc or close the drinkingbird window.
+
+For more options see
+
+```
+drinkingbird --help
+```
+
+## Tips and tricks
+
+To keep using your computer while drinkingbird is working, run it in a virtual machine. This also helps if you want to
+lock your computer.
+
+
