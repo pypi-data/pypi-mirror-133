@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+UALFparser/Parser.py
+UALFparser/__init__.py
+parseUALF.egg-info/PKG-INFO
+parseUALF.egg-info/SOURCES.txt
+parseUALF.egg-info/dependency_links.txt
+parseUALF.egg-info/requires.txt
+parseUALF.egg-info/top_level.txt
