@@ -1,0 +1,11 @@
+bposd/LICENSE,sha256=kTdl5OdwmY2hKzrOLOjnddwrjhM4MzZuYyf4FZEu7F8,1070
+bposd/README.md,sha256=JY4J-PyaC8kOnMWsea20PumGgMYFljUu9tboJFbmR2c,5055
+bposd/VERSION,sha256=IH6W8IQtZPN5RILfd7EwM2pGvH2SP6hM5CNtTeyUrV4,4
+bposd/__init__.py,sha256=9u6BnQYV4HJtZJVRkXbgRphbN0XCSCJ9ji4BVKsug9k,208
+bposd/css.py,sha256=ZndOEjlyAC2Y1a3Iw2W91G7I6jdt0kRG4se5rFSVIBY,5523
+bposd/hgp.py,sha256=EAb68ELHjqFonL5uHKXwoHS5EiooL1dcF7r6GSGLEPE,2158
+bposd-0.21.dist-info/LICENSE,sha256=kTdl5OdwmY2hKzrOLOjnddwrjhM4MzZuYyf4FZEu7F8,1070
+bposd-0.21.dist-info/METADATA,sha256=IKiOOaqFev1GWhZyCgbXFx6PTptM2oRHuDMbeUGN44Y,5373
+bposd-0.21.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bposd-0.21.dist-info/top_level.txt,sha256=IzKZg-D9zKmC7ciShuYEYGyZVnEjyVHSwQoJ6vYwzTU,6
+bposd-0.21.dist-info/RECORD,,
