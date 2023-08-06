@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: prlsnapshotter
+Version: 0.0.6
+Summary: Snapshotting parallels on command line and create machine by template.
+Home-page: https://github.com/marcwimmer/prlsnapshotter
+Author: Marc-Christian Wimmer
+Author-email: marc@itewimmer.de
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+# Parallels Snapshotter
+
+Snapshots of parallels per command line; quick create by template
+
+
+## Installation
+
+```bash
+pip3 install prlsnapshotter
+```
+
+Create a template parallel machine. Then make a shortcut for it:
+
+```bash
+prl-snap -t <template-machine> -p <machine_prefix> shortcut <path>
+prl-snap -t postgres_template -p postgres_ shortcut pgsnap
+```
+

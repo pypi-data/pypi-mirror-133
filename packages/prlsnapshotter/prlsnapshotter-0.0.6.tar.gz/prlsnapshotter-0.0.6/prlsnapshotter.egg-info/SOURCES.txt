@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+prlsnapshotter/__init__.py
+prlsnapshotter/config.py
+prlsnapshotter/prlsnapshotter.py
+prlsnapshotter.egg-info/PKG-INFO
+prlsnapshotter.egg-info/SOURCES.txt
+prlsnapshotter.egg-info/dependency_links.txt
+prlsnapshotter.egg-info/entry_points.txt
+prlsnapshotter.egg-info/requires.txt
+prlsnapshotter.egg-info/top_level.txt
