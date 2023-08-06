@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: hlpl-photographer
+Version: 1.0.0
+Summary: hlpl_photographer simulates nature
+Home-page: https://photographer.hlpl.net
+Author: Ahmida Bendjoudi
+Author-email: email@hlpl.net
+License: MIT
+Download-URL: https://photographer.hlpl.net/download/
+Project-URL: hlpl, https://hlpl.net
+Project-URL: hlpl_photographer-docs, https://docs.hlpl.net
+Project-URL: hlpl_photographer-forum, https://forum.hlpl.net
+Project-URL: hlpl_photographer-resource, https://resource.hlpl.net
+Project-URL: hlpl_photographer-github, https://github.com/hlpl/photographer
+Keywords: hlpl_photographer,hlpl photographer,hlpl-photographer,nature simulator,NLP,hlpl
+Platform: UNKNOWN
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Framework :: Robot Framework :: Tool
+Classifier: Natural Language :: Arabic
+Classifier: Natural Language :: English
+Requires-Python: >=3, <=3.9
+Description-Content-Type: text/markdown
+
+
+### hlpl_photographer 
+<p style="font-size:14px;">hlpl_photographer is a software simulates nature</p>
+
+![hlpl_photographer status](https://hlpl.net/public_files/photographer-uc.png)
+
+
