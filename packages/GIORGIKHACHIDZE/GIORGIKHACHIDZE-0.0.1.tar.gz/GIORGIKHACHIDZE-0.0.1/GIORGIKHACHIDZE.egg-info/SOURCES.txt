@@ -1,0 +1,6 @@
+README.txt
+setup.py
+GIORGIKHACHIDZE.egg-info/PKG-INFO
+GIORGIKHACHIDZE.egg-info/SOURCES.txt
+GIORGIKHACHIDZE.egg-info/dependency_links.txt
+GIORGIKHACHIDZE.egg-info/top_level.txt
