@@ -1,0 +1,34 @@
+{
+  "name": "fact_explorer",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o ../app/frontend/static/",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --loglevel warn --write ."
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.8.5",
+    "@humanwhocodes/momoa": "^2.0.2",
+    "@monaco-editor/react": "^4.3.1",
+    "monaco-editor": "^0.31.1",
+    "next": "12.0.7",
+    "query-string": "^7.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.22.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.2",
+    "@types/react": "17.0.37",
+    "autoprefixer": "^10.4.0",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.7",
+    "typescript": "4.5.4"
+  }
+}
