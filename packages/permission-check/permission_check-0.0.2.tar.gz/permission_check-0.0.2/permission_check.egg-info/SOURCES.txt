@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+permission_check/__init__.py
+permission_check/permission_check.py
+permission_check.egg-info/PKG-INFO
+permission_check.egg-info/SOURCES.txt
+permission_check.egg-info/dependency_links.txt
+permission_check.egg-info/top_level.txt
+permission_check/tests/__init__.py
+permission_check/tests/test_permission_check.py
+permission_check/utils/__init__.py
