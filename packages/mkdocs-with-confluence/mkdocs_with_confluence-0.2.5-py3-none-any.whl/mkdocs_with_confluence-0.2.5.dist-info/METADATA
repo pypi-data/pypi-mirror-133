@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mkdocs-with-confluence
+Version: 0.2.5
+Summary: MkDocs plugin for uploading markdown documentation to Confluence via Confluence REST API
+Home-page: https://github.com/pawelsikora/mkdocs-with-confluence/
+Author: Pawel Sikora
+Author-email: sikor6@gmail.com
+License: MIT
+Keywords: mkdocs markdown confluence documentation rest python
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: mkdocs (>=1.1)
+Requires-Dist: jinja2
+
+UNKNOWN
+
