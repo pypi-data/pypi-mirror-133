@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: integrityguard
+Version: 0.4.1
+Summary: Multiplatform agent for file integrity monitoring. Monitors, generate logs, and notify.
+Home-page: https://github.com/bruno-canada/integrityguard
+Author: Bruno Bueno
+Author-email: integrityguard@fastmail.com
+License: MIT license
+Keywords: integrityguard
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+==============
+IntegrityGuard
+==============
+
+.. image:: https://img.shields.io/pypi/v/integrityguard.svg
+        :target: https://pypi.python.org/pypi/integrityguard
+
+.. image:: https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg
+     :target: code_of_conduct.md
+     :alt: Contributor Covenant
+
+Multiplatform agent for file integrity monitoring (FIM).
+
+The main motivation for this project is to offer all the minimum features required for a reliable FIM that is independent of any other big monitoring platform.
+
+**IMPORTANT**: This project is currently an ALPHA release. Not suitable for production environment, it is still a work in progress.
+
+Features highlight
+--------------------
+
+* Simple and centralized configuration YAML file (``config.yml``)
+* Generate logs of any changes in real-time for future auditing
+* Push notifications to an API endpoint
+* Send email alerts
+* Supported hashing methods: "md5", "sha1", "sha224", "sha256", "sha384", "sha512"
+
+How to use it
+----------------------
+
+1. To install, run ``pip install integrityguard``
+2. Edit/provide the configuration file (``integrityguard.conf``)
+
+   - To copy the original .conf file, run ``integrityguard --task copy_config --destination <full_path>``
+   - To provide the new .conf file path use ``--config <full_path>``
+
+3. Generate the reference hashes, run ``integrityguard --task generate_hashes``
+
+   - To provide the target path via command, run ``integrityguard --task generate_hashes --target <full_path>``
+
+4. Start the monitoring, run ``integrityguard --task monitor``
+
+   - To provide the target path via command, run ``integrityguard --task monitor --target <full_path>``
+
+**IMPORTANT**: By providing configurations via command line anything defined via .conf file will be overwritten.
+
+For more information, run ``integrityguard --help``
+
+Call for contributors
+----------------------
+
+This project is just at the begining of its development. We're currently looking for engaged and energized people to colaborate and make it awesome.
+
+
+
+
+=======
+History
+=======
+
+0.4.1 (2022-01-05)
+------------------
+
+* Fixed CLI issues with Click requirement and preload of config #20 
+
+0.4.0 (2022-01-02)
+------------------
+
+* Added copy config option to CLI #13
+* Adjusted hash report JSON indentation #14
+* Added CLI feature to define the conf file path #15
+* Added --save-to CLI option #16
+* Updated README and HISTORY files #17
+
+0.3.2 (2022-01-01)
+------------------
+
+* Fixed issue of hash report not being created #12
+
+0.3.1 (2022-01-01)
+------------------
+
+* Fixed copy config to user issue #11
+
+0.3.0 (2022-01-01)
+------------------
+
+* Replaced setuptools data_files feature with copy_config() method #7
+* Added new feature to CLI to show paths for the system #8
+* Adjusted versioning to 0.3.0 #10
+
+0.2.1 (2021-12-29)
+------------------
+
+* Fix version and release history
+
+0.2.0 (2021-12-29)
+------------------
+
+* Added support for conf file and multiplataform paths #3
+* Adjusted project basic directory structure #4
+* Added CLI support #5
+
+0.1.1 (2021-12-28)
+------------------
+
+* Adjusted README file.
+
+0.1.0 (2021-12-28)
+------------------
+
+* Alpha release on PyPI.
+
+
