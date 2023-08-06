@@ -1,0 +1,8 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+clonnotate.egg-info/PKG-INFO
+clonnotate.egg-info/SOURCES.txt
+clonnotate.egg-info/dependency_links.txt
+clonnotate.egg-info/top_level.txt
