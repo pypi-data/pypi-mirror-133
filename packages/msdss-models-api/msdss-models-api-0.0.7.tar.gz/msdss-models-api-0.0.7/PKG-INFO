@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: msdss-models-api
+Version: 0.0.7
+Summary: Model management API for the Modular Spatial Decision Support Systems (MSDSS) framework
+Home-page: https://github.com/rrwen/msdss-models-api
+Author: Richard Wen
+Author-email: rrwen.dev@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rrwen/msdss-models-api/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: users-postgresql
+Provides-Extra: users-mysql
+Provides-Extra: users-sqlite
+Provides-Extra: postgresql
+Provides-Extra: mysql
+Provides-Extra: sqlite
+License-File: LICENSE
+
+# msdss-models-api
+
+[![pypi package](https://badge.fury.io/py/msdss-models-api.svg)](https://pypi.org/project/msdss-models-api)
+[![Github](https://img.shields.io/badge/Github-rrwen%2Fmsdss--models--api-brightgreen?logo=Github)](https://github.com/rrwen/msdss-models-api)
+[![downloads](https://img.shields.io/pypi/dm/msdss-models-api.svg)](https://pypistats.org/packages/msdss-models-api)
+[![GitHub stars](https://img.shields.io/github/stars/rrwen/msdss-models-api.svg)](https://github.com/rrwen/msdss-models-api/stargazers)
+[![GitHub](https://img.shields.io/github/license/rrwen/msdss-models-api.svg)](https://github.com/rrwen/msdss-models-api/blob/main/LICENSE)
+  
+Model management API for the Modular Spatial Decision Support Systems (MSDSS) framework.
+
+* [Documentation](https://rrwen.github.io/msdss-models-api/)
+* [Developer Notes](https://github.com/rrwen/msdss-models-api/blob/main/DEVELOPER.md)
+
+## Contact
+
+Richard Wen rrwen.dev@gmail.com
+
+
