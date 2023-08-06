@@ -1,0 +1,3 @@
+[console_scripts]
+digitalguide = digitalguide.bot:bot
+
