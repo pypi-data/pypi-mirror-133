@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: AlbertUnruhUtils
+Version: 2022.1.8.2
+Summary: A collection of utils written in Python.
+Home-page: https://github.com/AlbertUnruh/AlbertUnruhUtils.py
+Author: AlbertUnruh
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Code Style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Tokei.rs](https://tokei.rs/b1/github/AlbertUnruh/AlbertUnruhUtils.py?category=code)](https://tokei.rs)
+[![Tokei.rs](https://tokei.rs/b1/github/AlbertUnruh/AlbertUnruhUtils.py?category=lines)](https://tokei.rs)
+[![Tokei.rs](https://tokei.rs/b1/github/AlbertUnruh/AlbertUnruhUtils.py?category=files)](https://tokei.rs)
+
+
+# AlbertUnruhUtils.py
+A collection of utils written in Python
+
+
+# Docs
+coming soon...
+
+
