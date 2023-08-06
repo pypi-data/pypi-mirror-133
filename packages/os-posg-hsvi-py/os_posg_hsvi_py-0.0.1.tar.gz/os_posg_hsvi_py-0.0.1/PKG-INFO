@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: os_posg_hsvi_py
+Version: 0.0.1
+Summary: Implementation of HSVI for OS-POSGs in python
+Home-page: https://github.com/Limmen/os_posg_hsvi_py
+Author: Kim Hammar
+Author-email: hammar.kim@gmail.com
+License: Creative Commons Attribution-ShareAlike 4.0 International
+Download-URL: https://github.com/Limmen/os_posg_hsvi_py/archive/0.0.1.tar.gz
+Keywords: Stochastic-games OS-POSG partially-observed-stochastic-games hsvi
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE.md
+
+UNKNOWN
+

@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+os_posg_hsvi_py.egg-info/PKG-INFO
+os_posg_hsvi_py.egg-info/SOURCES.txt
+os_posg_hsvi_py.egg-info/dependency_links.txt
+os_posg_hsvi_py.egg-info/requires.txt
+os_posg_hsvi_py.egg-info/top_level.txt
