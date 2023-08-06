@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+This file is part of the authentication_totp Tryton module.
+Please see the COPYRIGHT and README.rst files at the top level of this
+package for full copyright notices, license terms and support information.
+-->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="user_view_form">
+            <field name="model">res.user</field>
+            <field name="inherit" ref="res.user_view_form"/>
+            <field name="name">user_form</field>
+        </record>
+        <record model="ir.ui.view" id="user_view_form_preferences">
+            <field name="model">res.user</field>
+            <field name="inherit" ref="res.user_view_form_preferences"/>
+            <field name="name">user_form_preferences</field>
+        </record>
+
+        <record model="ir.model.button" id="update_totp_secret_button">
+            <field name="name">update_totp_secret</field>
+            <field name="string">Update Secret</field>
+            <field name="help">Update the TOTP secret and enable TOTP two-factor authentication.</field>
+            <field name="model" search="[('model', '=', 'res.user')]"/>
+        </record>
+    </data>
+</tryton>
