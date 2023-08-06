@@ -1,0 +1,3 @@
+[console_scripts]
+videoplayer = video_player.__main__:main
+

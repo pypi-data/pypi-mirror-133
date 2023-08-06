@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: cvplayer
+Version: 1.1.0
+Summary: a simple video player written in python using ffpyplayer and OpenCV
+Home-page: https://github.com/addyett/cvplayer
+Author: addyett
+Author-email: g.aditya2048@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Video Player
+
+cvplayer is a minimal wrapper around the ffpyplayer.MediaPlayer class for playing videos through 
+* interactive (direct access to the player through keymaps) or 
+* scripts (getting a VideoPlayer instance and doing whatever the user wants to)
+
+audio playback and supplying frames is handles by ffpyplayer and OpenCV is used to display the frames
+
+this makes it useful for simple interactable video playback as well for integrating video playback in programs
+
+## Scripted access
+---
+
+cvplayer provides the VideoPlayer class which is the main wrapper around the ffpyplayer. \
+Initializing a VideoPlayer instance will start playing the video according to the options specified while initializing. The Playback can be controlled from within the script as well as using keymaps.
+
+### the VideoPlayer class
+
+this class initiates playback and provide methods to control/access the state of the player.
+
+#### parameters: 
+&emsp;&emsp;&emsp;_filename_: str \
+&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;the filename of the media to be played
+
+Here's and example to play a video 
+```py 
+from cvplayer import VideoPlayer
+
+player = VideoPlayer(filename)
+
+duration = int(player.get_metadata()['duration'])
+while player.state != 'eof':
+    print(player.get_pts())
+    time.sleep(1)
+```
+
+
+
