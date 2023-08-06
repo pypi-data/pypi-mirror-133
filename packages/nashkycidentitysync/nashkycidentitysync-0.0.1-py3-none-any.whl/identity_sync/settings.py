@@ -1,0 +1,1 @@
+SAMPLE_DATA_FILE = "identity_sync/sample_data/"
