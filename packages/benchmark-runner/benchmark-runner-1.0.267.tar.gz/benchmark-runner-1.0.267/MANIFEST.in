@@ -1,0 +1,25 @@
+# Add yamls files to benchmark-runner package
+
+# common templates
+include benchmark_runner/templates/common.yaml
+
+# benchmark operator templates
+include benchmark_runner/templates/hammerdb/*.yaml
+include benchmark_runner/templates/hammerdb/internal_data/*.yaml
+include benchmark_runner/templates/stressng/*.yaml
+include benchmark_runner/templates/stressng/internal_data/*.yaml
+include benchmark_runner/templates/uperf/*.yaml
+include benchmark_runner/templates/uperf/internal_data/*.yaml
+
+# benchmark runner templates (custom workloads)
+include benchmark_runner/templates/vdbench/*.yaml
+include benchmark_runner/templates/vdbench/internal_data/*.yaml
+
+# ocp resource
+include benchmark_runner/common/ocp_resources/cnv/template/*.yaml
+include benchmark_runner/common/ocp_resources/kata/template/*.sh
+include benchmark_runner/common/ocp_resources/kata/template/*.yaml
+include benchmark_runner/common/ocp_resources/local_storage/template/*.yaml
+include benchmark_runner/common/ocp_resources/ocs/template/*.sh
+include benchmark_runner/common/ocp_resources/ocs/template/*.yaml
+
