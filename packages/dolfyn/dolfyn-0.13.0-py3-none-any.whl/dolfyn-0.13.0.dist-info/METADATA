@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dolfyn
+Version: 0.13.0
+Summary: Doppler Ocean Library for pYthoN.
+Home-page: http://github.com/lkilcher/dolfyn
+Author: DOLfYN Developers
+Author-email: james.mcvey@pnnl.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Provides: dolfyn
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: xarray
+Requires-Dist: netcdf4
+
+UNKNOWN
+
