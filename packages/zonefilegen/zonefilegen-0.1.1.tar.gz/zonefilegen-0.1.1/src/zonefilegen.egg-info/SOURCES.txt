@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/zonefilegen/__init__.py
+src/zonefilegen/cli.py
+src/zonefilegen/core.py
+src/zonefilegen/generation.py
+src/zonefilegen/parsing.py
+src/zonefilegen.egg-info/PKG-INFO
+src/zonefilegen.egg-info/SOURCES.txt
+src/zonefilegen.egg-info/dependency_links.txt
+src/zonefilegen.egg-info/entry_points.txt
+src/zonefilegen.egg-info/requires.txt
+src/zonefilegen.egg-info/top_level.txt
