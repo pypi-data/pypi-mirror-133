@@ -1,0 +1,12 @@
+README.md
+README.rst
+setup.py
+osada/__init__.py
+osada/arrayFunc.py
+osada/colorPrint.py
+osada/mathFunc.py
+osada/versionFunc.py
+osada.egg-info/PKG-INFO
+osada.egg-info/SOURCES.txt
+osada.egg-info/dependency_links.txt
+osada.egg-info/top_level.txt
