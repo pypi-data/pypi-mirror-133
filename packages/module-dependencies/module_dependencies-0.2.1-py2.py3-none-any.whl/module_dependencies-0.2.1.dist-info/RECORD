@@ -1,0 +1,14 @@
+module_dependencies/__init__.py,sha256=ZDX0Kbrim2MZAY4r9EvNsfZrn1olVBKhEOsHtmBz2hA,5199
+module_dependencies/module/__init__.py,sha256=t1PYS1JsdSdTPu8EMKYwgy1JVISEqJN9800ibxSoHGc,5219
+module_dependencies/module/module.py,sha256=A8zQ4lTXOla6zvjsuAdmxCT0F56Xn2y9L8KO0FWG2f0,23727
+module_dependencies/module/session.py,sha256=dHwfmyr6fxFihYx2zmQkOr015cSt9_r-jKYQV00icHs,10871
+module_dependencies/source/__init__.py,sha256=d0v6BEmjZ5eCi_kLQU9N34mrT_ne_4zXBvk6ko140I8,1350
+module_dependencies/source/api.py,sha256=c0K0u_yiMl3AAd2I8Xu2CiRDn-gZkIBkl5rZR8oM81c,5302
+module_dependencies/source/factory.py,sha256=IO5Y5kpaOf7Cgd6p5dBoP3bEzYuUGH-seU3eIzQHvpA,2436
+module_dependencies/source/source.py,sha256=0IErl3ZzPs-uwdy-PuMHvfEyfi7VoYl00tGH2TWB9VA,8438
+module_dependencies/source/visitor.py,sha256=o-yfkU33foBgih3Mm6RkF2bVW92n0G-wrQXbDPCwlq4,11989
+module_dependencies-0.2.1.dist-info/LICENSE,sha256=wX1otATqQglJ35KpKGXIkCgiOXZ1mNqK1LWgvHX1uec,1088
+module_dependencies-0.2.1.dist-info/METADATA,sha256=ESUJbtBloQzSOo_yGfAmuWDbuiMsJQ_PMfpYAoDP2Uk,6175
+module_dependencies-0.2.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+module_dependencies-0.2.1.dist-info/top_level.txt,sha256=L_zvyH3N9DAnSkcUmlu_rj-Rx9QzG2IYTkXDFyMPHqs,20
+module_dependencies-0.2.1.dist-info/RECORD,,
