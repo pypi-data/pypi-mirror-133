@@ -1,0 +1,11 @@
+[console_scripts]
+bobcat-autopilot=bobcat_miner.cli:autopilot
+bobcat-dig=bobcat_miner.cli:dig
+bobcat-fastsync=bobcat_miner.cli:fastsync
+bobcat-miner=bobcat_miner.cli:miner
+bobcat-reboot=bobcat_miner.cli:reboot
+bobcat-reset=bobcat_miner.cli:reset
+bobcat-resync=bobcat_miner.cli:resync
+bobcat-speed=bobcat_miner.cli:speed
+bobcat-status=bobcat_miner.cli:status
+
