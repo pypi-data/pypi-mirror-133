@@ -1,0 +1,7 @@
+requests>=2.26.0
+
+[pandas]
+pandas>=1.0.0
+
+[test]
+pytest>=6.0
