@@ -1,0 +1,3 @@
+[console_scripts]
+ecceran=ecceran.__main__:main
+
