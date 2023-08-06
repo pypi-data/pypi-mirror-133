@@ -1,0 +1,182 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+	<style>
+		p {
+			width: 80%;
+			margin: 20px 10%;
+		}
+		html {
+			background-color: #99a;
+		}
+		body {
+			margin-left: 7%;
+			background-color: #ccc;
+			width: 70%;
+			border-radius: 10px;
+			padding: 10px 20px;
+			border: solid black 1px;
+		}
+	</style>
+	<body>
+		<h2>Welcome to the Help Documentation</h2>
+		<p>
+			This is the user guide for nscalc, the following sections
+			will quide you through the various components of the application
+		</p>
+		<p>
+			for a more indepth guide to things like installation and contributing
+			see the README.md from <a href="https://github.com/Krayfighter/nscalc.git/README.md">the github page</a>
+		</p>
+		<h4>Jump to a Section ↓</h4>
+		<ul>
+			<li><a href="#ui">User Interface and Design</a></li>
+			<li><a href="#inputs">Inputs Methods</a></li>
+			<li><a href="#dialogs">Other Dialogs</a></li>
+			<li><a href="#advanced">Advanced Usage</a></li>
+			<li><a href="#extensions">Extending nscalc</a></li>
+		</ul>
+		<h3><a name="ui">The UI</a></h3>
+		<p>
+			One of the goals of nscalc if for a simple,
+			and practicle user inter (UI) one of the few
+			ui elements that may need explaining is the
+			View -> Loaded Functions menu. what it does
+			it it programatically displays the functions,
+			and constants (like tan, and sin, or pi, and e).
+		</p>
+		<h4>special buttons</h4>
+		<p>
+			there are several button, particularly at
+			the bottom of the calculator. the buttons
+			are labeled by &#187;, &#171;, and &#8592;
+		</p>
+		<p>
+			&#8592;is used for deleting the right-most
+			character from the current equation.
+		</p>
+		<p>
+			The &#171;, and &#187; are for loading the
+			previous inputs to the calculator. for instance
+			if you were to mistype a command, and it returns
+			and error, you can use the &#171; to bring it back
+			and fix it, or if you go too far back, you
+			can come back forward with &#187;
+		</p>
+		<h4>The File Menu</h4>
+		<p>
+			Under the File menu, there are currently three actions, or options to click
+			the actions are Help, Exit, and Update, and they will be covered by the following
+			paragraphs
+		</p>
+		<h5>Help</h5>
+		<p>
+			This action opens this document in a new browser tab, and is pretty self
+			explanatory.
+		</p>
+		<h5>Exit</h5>
+		<p>
+			Again, pretty self explanatory, this action exits the program peacefully
+		</p>
+		<h5>Update</h5>
+		<p>
+			This action opens a dialog, or popup that displays text saying that it is attempting
+			to update, and a loading gif. When it is done downloading the update, it will exit
+			peacefully, leaving the calculator open. To see the effect of the update, just restart
+			the calculator
+		</p>
+		<h3><a name="inputs">Input Methods</a></h3>
+		<p>
+			nscalc has two distinct methods for entering
+			equations into the calculator. The first is 
+			clicking the buttons in the UI (the graphics)
+			The second method is to type characters using 
+			the keyboard. I have worked to make these input
+			methods work seemlessly together
+		</p>
+		<h3><a name="dialogs">Other Dialogs</a></h3>
+		<p>
+			If you have gotten to this point, you probably
+			have found the File -> Help menu. If you did not
+			know already, that opened up this dialog or secondary
+			window. there are others though, and they have some
+			unique functionalities that will be documented in this
+			section of the documentation.
+		</p>
+		<h4>View -> Loaded Functions</h4>
+		<p>
+			This menu option opens up a dialog with only one
+			feature, a list of functions. these functions can
+			be used to perform specific mathematic operations
+			and if you click on them, it will copy the function
+			into your current equation.
+		</p>
+		<h3><a name="advanced">Advanced Usage</a></h3>
+		<p>
+			This section of the article explains advanced
+			topics such as large numbers, and ratios that
+			are listed below.
+		</p>
+		<ul>
+			<li>very large numbers</li>
+			<li>ratios</li>
+		</ul>
+		<f4>Large Numbers</f4>
+		<p>
+			This section covers unreasonably large numbers,
+			for example, the mass of the earth 5.9722×10²⁴ kg.
+			This number would not fit into a normal python Integer
+			so there are ways around that. nscalc uses E
+			notation for such numbers, which you can learn about
+			<a href="https://en.wikipedia.org/wiki/Scientific_notation#E_notation">here</a>.
+			The function for this is in nscalc is called <code>enotation</code>, and it takes
+			a number inside of quotes like this -> enotation('5.9722e24')
+		</p>
+		<f4>Ratios</f4>
+		<p>
+			*-* Not Yet Implemented
+		</p>
+		<h3><a name="extensions">Extending nscalc</a></h3>
+		<p>
+			<b>* waring * for advanced users only, use at your own risk.</b> this will also
+			require a previous knowledge of the python programming language, but is
+			otherwise intended to be straight-forward enough for one to learn just
+			enough of the language and still be able to write extensions.
+		</p>
+		<p>
+			If you do not know python and would like to learn, visit the official webiste at
+			<a href="https://www.python.org/" target="_blank">their website</a>
+		</p>
+		<h4>Creating a new extension</h4>
+		<p>
+			All extensions in nscalc are stored in the extensions folder inside of the nscalc
+			source code. If you cannot find it, then post a problem on the github, and i will
+			add a way to help you 
+		</p>
+		<p>
+			Now that you are in the extensions folder, create a new python file inside of it.
+			the name of this file will be the name of your extension
+		</p>
+		<h4>Add code to your extension</h4>
+		<p>
+			in the extensions folder, there will be 2 files before you even get there, they
+			are `__init__.py` (<b>do not touch this one</b>), and examples.py. in your favorite
+			text editor/ide, open example.py, and the python file that you created.
+		</p>
+		<p>
+			If you look inside the examples file, it is pretty simple, as I tried to make
+			extending nscalc simple, and all you have to do is define a function as you would
+			normally * note * try to make sure that the function name you are using does not already
+			exist, as it can override other functions, or be overriden by pre-existing functions.
+		</p>
+		<h4>Using your extension</h4>
+		<p>
+			Now you can restart nscalc, and under the View -> Loaded Functions dialog find
+			your extension. If it is not there, or something has gone wrong, please try
+			re-reading, and troubleshooting, and afterwards wether you find an answer or not
+			post a problem, and/or a solution under the github page.
+		</p>
+	</body>
+</html>
