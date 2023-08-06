@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+tinycomp/__init__.py
+tinycomp/tinycomp.py
+tinycomp.egg-info/PKG-INFO
+tinycomp.egg-info/SOURCES.txt
+tinycomp.egg-info/dependency_links.txt
+tinycomp.egg-info/requires.txt
+tinycomp.egg-info/top_level.txt

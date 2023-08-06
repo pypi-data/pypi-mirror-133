@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tinycomp
+Version: 0.1.0
+Summary:  A Python library for doing computations on small subsets of a DataFrame too large to fit in memory.
+Home-page: https://github.com/jlehrer1/tinycomp
+Author: Julian Lehrer
+Author-email: jmlehrer@ucsc.edu
+License: MIT license
+Description: TinyComp is a Python library for doing computations on small subsets of a numeric .csv data file too large to fit entirely in memory. The library follows similarly to the Pandas API. Originally developed for my research at the UCSC Genomics Insitute with massive single-cell datasets, this library serves to be a minimal and quick tool for analysis on large datasets.
+Keywords: tinycomp
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
