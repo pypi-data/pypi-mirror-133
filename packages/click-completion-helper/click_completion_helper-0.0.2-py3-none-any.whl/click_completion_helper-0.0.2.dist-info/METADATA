@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: click-completion-helper
+Version: 0.0.2
+Summary: Setups click completion after install.
+Home-page: https://github.com/marcwimmer/click-completion-helper
+Author: Marc-Christian Wimmer
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pathlib
+Requires-Dist: shellingham
+
+
+# Click Completion Installer
+
+Helps setting up click-completion when a pip package with click is installed.
+Supports
+
+* bash
+* fish
+* zsh
+
+
+## installing 
+
+* append as requirement to your setup.py
+
+```python
+click-completion-helper <NAME>
+```
+
