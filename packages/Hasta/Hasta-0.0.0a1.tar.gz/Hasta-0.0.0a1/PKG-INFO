@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: Hasta
+Version: 0.0.0a1
+Summary: A simple WSGI Server, implemented in CPython 3.9.9 .
+Home-page: UNKNOWN
+Author: Anoki Youssou
+Author-email: anoki.youssou@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+<div style="display : flex ; justify-content : center ;" align="center">
+
+# Hasta
+
+</div>
+
+----------------------------------------------------
+
+<div style="display : flex ; justify-content : center ;" align="center">
+
+<!-- License -->
+<a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/License-MIT-%23117a1a?style=for-the-badge&logo=opensourceinitiative" />
+</a>
+
+<!-- Python -->
+<a href="https://www.python.org/downloads/release/python-399/">
+    <img src="https://img.shields.io/badge/Python-3.9.9-blue?style=for-the-badge&logo=python" />
+</a>
+
+<!--Code Size-->
+<a>
+    <img src="https://img.shields.io/github/languages/code-size/anokidev/hasta?color=lightblue&logo=codesandbox&style=for-the-badge" />
+</a>
+
+<!--Downloads-->
+<a>
+    <img src="https://img.shields.io/github/downloads/anokidev/hasta/total?color=green&logo=github&style=for-the-badge" />
+</a>
+
+<!--Version-->
+<a>
+    <img src="" />
+
+</div>
+
+----------------------------------------------------
+
+**General :**
+
+A simple WSGI Server, implemented in CPython 3.9.9 .
+
+----------------------------------------------------
+
+**Functions :**
+
+This software can :
+
+- Handles HTTP request, one at a time.
+- Fullfills Python WSGI specification.
+- Supports Python web framework.
+
+----------------------------------------------------
+
+**Installation :**
+
+Hasta is not available via PIP yet.
+
+----------------------------------------------------
+
+**Compabillity :**
+
+- Supports Python 3.9.9 .
+- Doesn't support PyPy .
+
+----------------------------------------------------
+
+**Version :**
+
+- Current stable version : None.
+- Current beta release : None.
+- Current alpha release : None.
+- Current pre-alpha release : v0.0.0 Pre - Alpha 2 ( SHORT NAME : v0.0.0-pa2 ) - [ BRANCH NAME : v0.0.0/pa2/r ] .
+
+----------------------------------------------------
+
+If you want to see the task list, or if you want to contribute, visit our [github repo](htts://www.github.com/anokidev/hasta) and then find the file CONTRIBUTING.md, TASKS.md, and a lot more goodies you might like in the .github folder.
+
