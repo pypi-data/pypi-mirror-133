@@ -1,0 +1,12 @@
+songbird_py-0.1.1.dist-info/METADATA,sha256=PMhsCdYgB9O_UtmV_n_gsx54kGGobBSIcTaJRsarm_Y,3617
+songbird_py-0.1.1.dist-info/WHEEL,sha256=blwfyJHRYNHPNKnQGj6DWcLF-PgDyVpkwAPXlLRodzY,95
+songbird/helpers.py,sha256=mPb1l02HAOaKyocm28Z5s1r_b8W-oX36XrbzCLc81po,320
+songbird/hikari.py,sha256=TkVXZoDBAzhJjDEcCVtyGynYbCMZPq9UYKtJ4dvcj_k,2783
+songbird/pincer.py,sha256=jdXH653P3zaHLF6MK8RHeNRIW7jmKeKuVtZFkKo-Ylg,1973
+songbird/playlist.py,sha256=AxLqPa6TEwBUDNMF1akuGGgbxEEcsx2rVUBpWSAlBoM,1045
+songbird/queue.py,sha256=ancTP55ePtYUWiODsTQSdr5gRofobSF0YcsW5UuywgY,4841
+songbird/songbird.pyi,sha256=EtyrFqOXKtB9OP2sbVHrhWBG8fYyeYxgHmgFdg2CaZE,6632
+songbird/voicebox_base.py,sha256=64R578zHuu2rc2ZXIJe0Civn0cpGxXufNSXkad39geA,1815
+songbird/__init__.py,sha256=HTGmCxGxyRTk7OnQf_yUlqtYC616u68U60c2y1xPzlg,160
+songbird/songbird.cp38-win_amd64.pyd,sha256=ag8j2_xZv9rtNsO7uaAVrzUb8vtSxVrV5wYFU9R7gLQ,6544384
+songbird_py-0.1.1.dist-info/RECORD,,
