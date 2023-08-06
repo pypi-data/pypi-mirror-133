@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: example-pkg-amuyal1-2
+Version: 1.2
+Summary: A small example package
+Home-page: https://github.com/naturalett/getting-started
+Author: Foo Bar
+Author-email: amuya@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.9
+
+UNKNOWN
+
