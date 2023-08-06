@@ -1,0 +1,8 @@
+README.md
+setup.py
+xlsxwriter_tables/__init__.py
+xlsxwriter_tables/xlsxwriter_tables.py
+xlsxwriter_tables.egg-info/PKG-INFO
+xlsxwriter_tables.egg-info/SOURCES.txt
+xlsxwriter_tables.egg-info/dependency_links.txt
+xlsxwriter_tables.egg-info/top_level.txt
