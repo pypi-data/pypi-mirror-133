@@ -1,0 +1,15 @@
+itables/__init__.py,sha256=4yVJTTEXtBKE0jA0J9Jy-FK6jTZb2xh74_MDN384178,139
+itables/datatables_template.html,sha256=pdN9A694ynEwU_yKbhsKjNxDn1M1hTpvX12l16Erc4Q,1493
+itables/downsample.py,sha256=ewAxV47a_p4xd-0iNXocxsLLc9xSENCO7r61pFUuX7E,2631
+itables/interactive.py,sha256=6ylD-SpBvwJLfgiMrux7pGJT5fSitlMX42DfXgPuNu8,503
+itables/javascript.py,sha256=YNkUDOCzNpOWkbss2PHOV1t1Zw-Tq6ESSHNdrU_ZFQQ,6515
+itables/options.py,sha256=qhYzRNgSbDmY8dSPbQcW2nnGqfijreNjhOXLUUmf7bM,559
+itables/sample.py,sha256=I0KExW1SPmXr8zAb6axDBtHdUbD6JhY-OMflWtNx6l8,1083
+itables/version.py,sha256=GijerTvbtidU8_uQO1NaNIoQwK63DyoUlyy3_ZFLO-U,53
+itables/javascript/eval_functions.js,sha256=M972kKZ4hZ4k9e2_NJvOrFP28bkGVqCpTNAFJoN9cIE,2579
+itables/javascript/load_datatables_connected.js,sha256=o1V4xeaspv3QPoyYIsntALv0LLraz0OGYagfDXtIC_Y,242
+itables-0.4.1.dist-info/LICENSE,sha256=lwu5D_v0l6fBrKNImJUlneM2kGZ3FOYsWOjvsD-ngTc,1067
+itables-0.4.1.dist-info/METADATA,sha256=JcSuYZP_r6vHF4gTRHc6Rz5qNK8V8GN1Prf4bFI_pSw,9964
+itables-0.4.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+itables-0.4.1.dist-info/top_level.txt,sha256=dviOuLHwHohKRIvH3X4KDFUEYSBx3pdNvoD0fOK1fqI,8
+itables-0.4.1.dist-info/RECORD,,
