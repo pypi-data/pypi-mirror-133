@@ -1,0 +1,3 @@
+[console_scripts]
+glx = goldilox.app.cli:main
+
