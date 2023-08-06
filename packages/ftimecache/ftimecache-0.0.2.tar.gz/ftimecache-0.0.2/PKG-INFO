@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ftimecache
+Version: 0.0.2
+Summary: Decorator to cache function return values based on time.
+Home-page: https://github.com/Dimfred/ftimecache
+Author: dimfred
+Author-email: dimfred.1337@web.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+# timecache
+
+Decorator to cache function return values based on time.
+
+## Install
+
+    pip3 install ftimecache
+
+## Usage
+
+    from ftimecache import ftimecache
+
+    @ftimecache(weeks=1, days=2, hours=3, minutes=4, seconds=5, milliseconds=6, microseconds=7)
+    def your_function(*args, **kwargs):
+        # do something
+
+    # OR
+    from datetime import timedelta
+
+    @ftimecache(timedelta=timedelta(weeks=1, ...))
+    def your_function(*args, **kwargs):
+        # do something
+
+
