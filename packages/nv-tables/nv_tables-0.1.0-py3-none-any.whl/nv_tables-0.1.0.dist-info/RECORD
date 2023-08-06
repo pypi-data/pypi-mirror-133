@@ -1,0 +1,15 @@
+LICENSE,sha256=rVjxecZw9138KGKEJKooDufTG9Lbp8BqXhmoZdRTtOE,1058
+README.md,sha256=6fGkmVT-DTRXfCqRkioMXGVf5aKyhsEgoIuDoRDJK2k,432
+nv/__init__.py,sha256=G-d438vPx7m_ks5e9XTtM3u7LDRO5dSSukibukWmyPM,56
+nv/tables/__init__.py,sha256=IHmQqn6PgJ6IlK65KdNQLH-O_LM9ESgZ3hmnagXfv4Y,304
+nv/tables/core.py,sha256=XGogBO-0wpSQ-wx0kksrzyAlYQLFnNnmeauq-MnAW6w,3200
+nv/tables/implementations/__init__.py,sha256=xCFpmsc0dd8X9UFq-Ojnug1LzqDzlXu9jaLzd9WRB1o,162
+nv/tables/implementations/csv.py,sha256=kSXG6cmqI-5JimeU2b2kxp1qYZaaouZfVf_DO2Xgqlw,7873
+nv/tables/implementations/xls.py,sha256=GBa4WYGGTDmytQ9oQks4U87Nqwd1p6QmlVHWeARu4Ls,6215
+nv/tables/implementations/xlsx.py,sha256=36lojE17xrC5XVD3D8Dn2eVfbqro6mg0Lh2SPt-QG3Q,4197
+nv/tables/spreadsheets.py,sha256=2jQTE_siHr0i5PZ7j3gf1PVtgC8FM86bDP5c2qPrTJA,11381
+nv/tables/typing.py,sha256=F4NUvuJiKQCLadulUpJr9QtYVfQLfDwvPC1dFKZAyA4,432
+nv_tables-0.1.0.dist-info/LICENSE,sha256=rVjxecZw9138KGKEJKooDufTG9Lbp8BqXhmoZdRTtOE,1058
+nv_tables-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nv_tables-0.1.0.dist-info/METADATA,sha256=DjOWIDkIIuMVVehpgHvVjwv1WK2rkatOMPUukn8pjDU,1513
+nv_tables-0.1.0.dist-info/RECORD,,
