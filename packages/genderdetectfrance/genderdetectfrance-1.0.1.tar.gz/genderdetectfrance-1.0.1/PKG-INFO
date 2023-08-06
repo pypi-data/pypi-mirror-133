@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: genderdetectfrance
+Version: 1.0.1
+Summary: Detect sex from german, french, italian first names
+Home-page: UNKNOWN
+Author: Marcel Mateescu
+License: UNKNOWN
+Description: Detect sex from first name. Supports French, German, Italian.
+        
+        from   genderdetectfrance import *
+        print('1st letter is sex, then name freq in our DB')
+        print('--------')
+        print(getPren('Lisa'))
+        print(getPren('Adrian'))
+        print(getPren('Hans'))
+        print(getPren('Angelo'))
+        print(getPren('Ancuta'))
+        print(getPren('Unknown'))
+        print(getPren('Léa'))
+        
+        built by Marcel Mateescu 2022
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
