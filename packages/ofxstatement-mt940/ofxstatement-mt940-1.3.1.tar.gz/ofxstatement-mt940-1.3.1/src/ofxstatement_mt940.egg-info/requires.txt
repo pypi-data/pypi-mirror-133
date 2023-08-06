@@ -1,0 +1,13 @@
+ofxstatement>0.6.4
+mt-940>=4.19.0
+
+[test]
+flake8
+mypy
+pytest
+pytest-cache
+pytest-cover
+pytest-flakes
+pytest-pep8
+pytest-pycodestyle
+pyyaml
