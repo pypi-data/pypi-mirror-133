@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pltflow
+Version: 0.0.1
+Summary: A matplotlib/seaborn wrapper to create beautiful plots with predefined styles using pipelines
+Home-page: UNKNOWN
+Author: Ismael Cabral
+License: UNKNOWN
+Keywords: matplotlib,seaborn,plt,plot,graphs,data,visualization,pandas
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: python-dateutil (>=2)
+Requires-Dist: seaborn (>0.10.0)
+Requires-Dist: rutil (>=0.0.1)
+Provides-Extra: dev
+Requires-Dist: black (>=21.9b0) ; extra == 'dev'
+Requires-Dist: pre-commit (>=2.15.0) ; extra == 'dev'
+Requires-Dist: pytest (>=6.2.1) ; extra == 'dev'
+Requires-Dist: pylint (>=2.7.4) ; extra == 'dev'
+Requires-Dist: jupyterlab ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# pltflow
+A matplotlib/seaborn wrapper to create beautiful plots with predefined styles using pipelines
+
+
