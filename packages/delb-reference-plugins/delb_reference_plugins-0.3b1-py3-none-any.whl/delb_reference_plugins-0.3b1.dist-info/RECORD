@@ -1,0 +1,7 @@
+delb_reference_plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+delb_reference_plugins/custom_loader.py,sha256=D-noz8SOhGzFdnpk3OGHjXJt0Ub7a0I3lhAdD-TxQOk,642
+delb_reference_plugins/tei_header_properties.py,sha256=XSu-8AKMw_ZU_T9r1XWW_9MOUpXz9_h7_Ka2u6F6svM,1416
+delb_reference_plugins-0.3b1.dist-info/entry_points.txt,sha256=FGDhoV4UkCcrgVI_iwJMHD-hqC5TRnqkLNzz2Skd70w,122
+delb_reference_plugins-0.3b1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+delb_reference_plugins-0.3b1.dist-info/METADATA,sha256=e2_JrKekeg0fwWqxIa5pr70e6QTnr3UWv1kzlpFklwE,627
+delb_reference_plugins-0.3b1.dist-info/RECORD,,
