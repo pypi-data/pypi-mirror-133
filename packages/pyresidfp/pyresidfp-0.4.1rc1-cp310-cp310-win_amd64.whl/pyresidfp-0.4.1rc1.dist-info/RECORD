@@ -1,0 +1,10 @@
+pyresidfp/__init__.py,sha256=nWqOkLaNEzpJh495LN9C9CMB1wjPz4To5c34W0KZIeA,1129
+pyresidfp/_pyresidfp.cp310-win_amd64.pyd,sha256=ejrsClxpv-C66_kCKTi6R8WEueZO_VBg-Chv_BmKC8I,262144
+pyresidfp/musical_scale.py,sha256=DETXjnkXncwifHwctT-KTeWWA49Gj3Tc-KKR22RO3Xc,4268
+pyresidfp/registers.py,sha256=hzUn5oyErsZgRdR3aBkF71SBjLZS7evI8t3HyWxOnsY,3264
+pyresidfp/sound_interface_device.py,sha256=DfQ3CDZtVm-aO9gLFVSgy6NnRFl2ZZaOQMdt0wdDEqU,11096
+pyresidfp-0.4.1rc1.dist-info/COPYING,sha256=GJsa-V1mEVHgVM6hDJGz11Tk3k0_7PsHTB-ylHb3Fns,18431
+pyresidfp-0.4.1rc1.dist-info/METADATA,sha256=s2RmZytn1aURU-VD31cPo4ImU_HHz2255PtaOX5OJfk,3091
+pyresidfp-0.4.1rc1.dist-info/WHEEL,sha256=pRGz7_LmMigsfLH_ZOF_nnUNyECqWKQEeb71kSwfuyQ,96
+pyresidfp-0.4.1rc1.dist-info/top_level.txt,sha256=y2oagN6clXhIgj7ts1xMc9BP6nzWBUHk8kD-PEgwfng,10
+pyresidfp-0.4.1rc1.dist-info/RECORD,,
