@@ -1,0 +1,6 @@
+pytest_param_files/__init__.py,sha256=18IO6KW-0-kC2NBLiRNGzBrNVQ6Um6l7_pgX9TrQEIk,135
+pytest_param_files/main.py,sha256=N1kdu7O3wT9GY05LK44lfZVPTTixOi2ivd3Mvd0aGhQ,2301
+pytest_param_files-0.1.0.dist-info/LICENSE,sha256=MIoxP93CKh576q4Znoil0dW6v4YYafh8HbVvwg98EbY,1069
+pytest_param_files-0.1.0.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+pytest_param_files-0.1.0.dist-info/METADATA,sha256=r7l89tncTL6LfjeHUt5Nci6ggEkfFHiHoeNVH2Uf4iA,1639
+pytest_param_files-0.1.0.dist-info/RECORD,,
