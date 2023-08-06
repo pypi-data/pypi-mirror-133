@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: sdss-tron
+Version: 5.0.0
+Summary: SDSS message passing system
+Home-page: https://github.com/sdss/tron
+Author: Unknown
+Maintainer: José Sánchez-Gallego
+Maintainer-email: gallegoj@uw.edu
+License: BSD 3-Clause License
+Project-URL: Repository, https://github.com/sdss/tron
+Keywords: astronomy,software
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE.md
+
+# tron
+
+> **WARNING:** this version is Python 3 only in preparation for SDSS-V. For SDSS-IV, use the ``python2`` branch.
+
+Central communications hub for operations software processes. Manages the flow of command and reply messages and authenticates users. The product itself is called "tron".
+
+

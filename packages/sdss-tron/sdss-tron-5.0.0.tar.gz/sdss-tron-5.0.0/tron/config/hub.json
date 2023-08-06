@@ -1,0 +1,4 @@
+{
+    "logDir": "$TRON_LOG_DIR",
+    "vocabulary": ["perms", "hub", "keys", "msg"]
+}

@@ -1,0 +1,36 @@
+{
+    "nubs": [
+        "client",
+        "nclient",
+        "apogeecal",
+        "apogee",
+        "apogeeql",
+        "apogeebpr",
+        "alerts",
+        "TUI"
+    ],
+    "actors": {
+        "alerts": {
+            "host": "sdss5-hub.lco.cl",
+            "port": 9995,
+            "actorName": "alertsActor"
+        },
+        "apogee": {
+            "host": "apogee-ics.lco.cl",
+            "port": 33221,
+            "actorName": "apogeeICC"
+        },
+        "apogeecal": {
+            "host": "apogee-ics.lco.cl",
+            "port": 33222,
+            "actorName": "apogeecalICC"
+        },
+        "apogeebpr": {
+            "host": "apogee-ics.lco.cl",
+            "port": 33223,
+            "actorName": "apogeeBPR"
+        }
+    },
+    "httpHost": "sdss5-hub.lco.cl",
+    "httpRoot": "/"
+}
