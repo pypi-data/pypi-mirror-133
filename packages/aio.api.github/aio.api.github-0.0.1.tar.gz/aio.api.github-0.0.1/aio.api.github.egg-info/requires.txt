@@ -1,0 +1,4 @@
+abstracts>=0.0.12
+aio.functional>=0.0.9
+gidgethub
+packaging
