@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+epiphancloud.egg-info/PKG-INFO
+epiphancloud.egg-info/SOURCES.txt
+epiphancloud.egg-info/dependency_links.txt
+epiphancloud.egg-info/requires.txt
+epiphancloud.egg-info/top_level.txt
+epiphancloud/epiphancloud.egg-info/PKG-INFO
+epiphancloud/epiphancloud.egg-info/SOURCES.txt
+epiphancloud/epiphancloud.egg-info/dependency_links.txt
+epiphancloud/epiphancloud.egg-info/top_level.txt
+epiphancloud/models/__init__.py
+epiphancloud/models/desired_state.py
+epiphancloud/models/device.py
+epiphancloud/models/settings.py
