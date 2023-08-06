@@ -1,0 +1,21 @@
+
+Two installer apk packages for android.
+ARM Processor devices and virtual devices.
+
+  -armeabi-v7a	for 95% of the phones and tablets (v8 devices are backward compatible)
+  -x86		for android studio virtual devices
+
+Copy arm version via Blutooth or USB and run setup. Accept the warning.
+That's it.
+
+
+Download and install Android Studio.
+Start Studio, on Welcome screen: 
+  click upper right corner three dots
+  More Actions
+  AVD Manager
+  create a device (use a lower or same resolution as your computer screen)
+  drag and drop x86 apk file on to the virtual device
+  (possible to use the arm version, but this will result in a warning and degraded performance)
+
+License used from the python package.

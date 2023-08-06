@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: eisenradio-apk
+Version: 0.8.21
+Summary: Eisenradio apk installer for Android mobiles
+Home-page: UNKNOWN
+Author: René Horn
+Author-email: rene_horn@gmx.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Eisenradio Installer for Android
+---
+
+* armeabi-v7a mobile processors (v8 are backward compatible)
+* x86 AMD/Intel processors virtual devices (Android Studio)
+* .apk is an Android setup file
+* App runs in foreground service mode, so it will not be killed at screen lock
+
+package is a wheel
+
+A python wheel is a Zip file, so you can extract it using any program that reads Zip files.
+
+
