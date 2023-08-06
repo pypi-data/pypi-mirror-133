@@ -1,0 +1,10 @@
+custom_package/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+custom_package/db_binding.py,sha256=NO0wvEakEdnMRFFy0NRlGts1qfzdQNxnAgRSC1o_9Kk,2097
+custom_package/db_config.py,sha256=8UYaCY6qn1hkBS78qTB1eYsofEZPGUhveeVC8BRqGms,314
+custom_package/db_handler.py,sha256=fbxiUw5vMNi5tRtsDx-wgnCvyANI57Fiq0gI7GOcXX0,439
+custom_package/models/__init__.py,sha256=kha9xmklzhuQAK8QEkNBn-mAHq8dUKbOM-3abaBpWmQ,71
+custom_package/models/customers.py,sha256=n0QRB92zd-h4IocOZaaJa_N4eoH83umg11C6VAfOUBk,395
+custom_package/my_func.py,sha256=iEmTVrLe4rsD_qUaOlwhGXSBhe7ppx0JocDSfB2ztrc,38
+custom_package-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+custom_package-0.1.0.dist-info/METADATA,sha256=ha7fMcdvVuKUbGKYIG_SvlWFht7VYgktCIns-RrJVHM,524
+custom_package-0.1.0.dist-info/RECORD,,
