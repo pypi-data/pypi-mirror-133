@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: SuperfacilityConnector
+Version: 0.0.0
+Summary: Connector API NERSC Superfacility
+Home-page: https://github.com/tylern4/superfacilityConnector
+Author: Nick Tyler
+Author-email: tylern@lbl.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Superfacility Connector
+
+Connectors to the SuperfaclityAPI in different languages.
+
+
