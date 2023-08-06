@@ -1,0 +1,88 @@
+{% block contents %}
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-header">
+      Change DB setting
+    </div>
+    <div class="card-body">
+      <form action="{% url 'dbmanager:setting' %}" method="POST">
+        {% csrf_token %}
+        <div class="row">
+          <div class="col-md mb-3">
+            <div class="input-group mb-3">
+              <span class="input-group-text">mongodb://</span>
+              <input type="text" class="form-control" value="{{ mongo.addr }}" aria-label="Db address" name="mongo_new_addr">
+              <span class="input-group-text">:27017</span>
+            </div>
+            <div class="form-check form-switch">
+              {% if mongo.activate %}
+                <input class="form-check-input" type="checkbox" role="switch" id="activateMongoSwitch" name="mongo_activate" checked>
+              {% else %}
+                <input class="form-check-input" type="checkbox" role="switch" id="activateMongoSwitch" name="mongo_activate">
+              {% endif %}
+              <label class="form-check-label" for="activateMongoSwitch">Activate Mongo DB</label>
+            </div>
+          </div>
+          <div class="col-md mb-3">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" value="{{ sqlite.addr }}" aria-label="Db address" name="sqlite_new_addr">
+            </div>
+            <div class="form-check form-switch">
+              {% if sqlite.activate %}
+                <input class="form-check-input" type="checkbox" role="switch" id="activateSqliteDbSwitch" name="sqlite_activate" checked>
+              {% else %}
+                <input class="form-check-input" type="checkbox" role="switch" id="activateSqliteDbSwitch" name="sqlite_activate">
+              {% endif %}
+              <label class="form-check-label" for="activateSqliteDbSwitch">Activate Sqlite DB</label>
+            </div>
+          </div>
+        </div>
+        {# For redirect to previous page #}
+        {# https://stackoverflow.com/questions/35796195/how-to-redirect-to-previous-page-in-django-after-post-request/35796330 #}
+        <input type="hidden" name="next" value="{{ request.path }}">
+        <button class="btn btn-primary float-end" type="submit">Sumbit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-header">
+      DB status
+    </div>
+    <div class="card-body">
+      <div class="accordion" id="accordionMongo">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Corps({{ all_corps_dbs|length }}) / <small>krx({{ len_krx }})</small>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionMongo">
+            <div class="accordion-body">
+              {% for corp_db in all_corps_dbs %}
+              <p>{{ corp_db }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              MI({{ all_mi_cols|length }})
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionMongo">
+            <div class="accordion-body">
+              {% for mi_col in all_mi_cols %}
+              <p>{{ mi_col }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
