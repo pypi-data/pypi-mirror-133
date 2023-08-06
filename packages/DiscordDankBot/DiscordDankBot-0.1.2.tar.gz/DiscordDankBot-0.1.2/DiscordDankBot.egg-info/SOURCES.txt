@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+DiscordDankBot/__init__.py
+DiscordDankBot/dankbot.py
+DiscordDankBot/dankcli.py
+DiscordDankBot.egg-info/PKG-INFO
+DiscordDankBot.egg-info/SOURCES.txt
+DiscordDankBot.egg-info/dependency_links.txt
+DiscordDankBot.egg-info/entry_points.txt
+DiscordDankBot.egg-info/requires.txt
+DiscordDankBot.egg-info/top_level.txt
