@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: coldsober-sure
+Version: 0.0.1
+Summary: check if a typed data in tkinter entry is a number in dynamic way
+Home-page: UNKNOWN
+Author: coldsober irene
+Author-email: coldsober3@gmail.com
+License: MIT
+Description: hey,
+        this is coldsober irene.
+        
+        this package is about checking or tracking if the data written in the tkinter entry widget is the whole or float number
+        not a string or else datatype.
+        
+        you only need to create a double var and use it to track the data as you type in the entry widget.
+        
+        this is my github repository, you can see the sample code 
+        https://github.com/coldsober-irene/tracknumber/tree/main
+        
+        
+        change log
+        ==========
+        
+        
+        0.0.1 (04/01/2022)
+        
+        first release
+Keywords: track
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

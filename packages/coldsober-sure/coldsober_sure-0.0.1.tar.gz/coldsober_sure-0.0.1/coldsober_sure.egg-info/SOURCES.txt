@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+coldsober_sure.egg-info/PKG-INFO
+coldsober_sure.egg-info/SOURCES.txt
+coldsober_sure.egg-info/dependency_links.txt
+coldsober_sure.egg-info/top_level.txt
