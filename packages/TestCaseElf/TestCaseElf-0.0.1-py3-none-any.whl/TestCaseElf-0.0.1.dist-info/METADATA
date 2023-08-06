@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: TestCaseElf
+Version: 0.0.1
+Summary: Tese cases generating helper tool.
+Home-page: https://github.com/panoslin/TestCaseElf
+Author: Panos Lin
+Author-email: lghpanos@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/panoslin/TestCaseElf/issues
+Keywords: test,testing,test case,unit test,test case generat
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas (==1.3.5)
+
+# TestCaseElf
+
+Tese cases generating helper tool
+
+## 1. Objective
+
+1. Specific the range of each field and output the product of the test case in a key-value fashion
+2. Ability to chain each combination (In a pipe)
+2. Out put the test cases in different format such as JSON/pandas.DataFrame/CSV
+
+## 2. Expected Behavior
+
+### Using pipeline:
+
+```PYTHON
+(
+    Field(region='Earthman')
+    * Field(lastname=['Jackson', 'Gadot'])
+    * Field(firstname=['Michael', 'Gal'])
+    + Field(age=10)
+) -> 
+[
+   {
+      "age":10,
+      "firstname":"Michael",
+      "lastname":"Jackson",
+      "region":"Earthman"
+   },
+   {
+      "age":10,
+      "firstname":"Gal",
+      "lastname":"Jackson",
+      "region":"Earthman"
+   },
+   {
+      "age":10,
+      "firstname":"Michael",
+      "lastname":"Gadot",
+      "region":"Earthman"
+   },
+   {
+      "age":10,
+      "firstname":"Gal",
+      "lastname":"Gadot",
+      "region":"Earthman"
+   }
+]
+```
+
+
+
