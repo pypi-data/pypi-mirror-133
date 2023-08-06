@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/csv_db_package/__init__.py
+src/csv_db_package/create_db.py
+src/csv_db_package/crud_operations.py
+src/csv_db_package/fileserver.py
+src/csv_db_package.egg-info/PKG-INFO
+src/csv_db_package.egg-info/SOURCES.txt
+src/csv_db_package.egg-info/dependency_links.txt
+src/csv_db_package.egg-info/requires.txt
+src/csv_db_package.egg-info/top_level.txt
