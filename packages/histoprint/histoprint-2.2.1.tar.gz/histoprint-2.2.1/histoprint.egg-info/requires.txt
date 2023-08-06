@@ -1,0 +1,9 @@
+click>=7.0.0
+numpy
+uhi>=0.2.1
+
+[boost]
+boost-histogram>=1.1
+
+[test]
+pytest>=6.0
