@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "coffeetime"
+version = "0.0.0"
+description = "Date/time API inspired by JavaScript Temporal"
+authors = ["Jeroen Schot <jeroenschot@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
