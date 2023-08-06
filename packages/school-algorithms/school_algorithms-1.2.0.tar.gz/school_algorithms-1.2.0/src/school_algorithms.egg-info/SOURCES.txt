@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/school_algorithms/__init__.py
+src/school_algorithms/school_algorithms.py
+src/school_algorithms.egg-info/PKG-INFO
+src/school_algorithms.egg-info/SOURCES.txt
+src/school_algorithms.egg-info/dependency_links.txt
+src/school_algorithms.egg-info/top_level.txt
