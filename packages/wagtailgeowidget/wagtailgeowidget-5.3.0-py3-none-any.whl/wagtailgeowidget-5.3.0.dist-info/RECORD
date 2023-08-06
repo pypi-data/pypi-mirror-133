@@ -1,0 +1,17 @@
+wagtailgeowidget/__init__.py,sha256=ENF950vv5h9ssmSbAcj3Ajl-JRvj0UvfYoljqMBv89U,310
+wagtailgeowidget/app_settings.py,sha256=MLl80nF9zss3NgWBlThd8CgU3bOcS-9sGM-fIMR3bL4,540
+wagtailgeowidget/apps.py,sha256=j8TxSxXKUr9CDjRDxiWPsAF_TMo0vSdbZ_MseVvguuY,107
+wagtailgeowidget/blocks.py,sha256=GGuP8vuGnc5n32nTkelviC0btNYTxes9DpyBIYJ4fZE,2360
+wagtailgeowidget/edit_handlers.py,sha256=JRQ43nz848BFUhXKo2i0Ll_3a8wjmbBuug8c3tTJPXo,1338
+wagtailgeowidget/helpers.py,sha256=vvVYMI10WR8j-_v5TqhHd9MC6eYNbDzOqEJOFkyXk4U,492
+wagtailgeowidget/widgets.py,sha256=Udkq7c8XIUdeXqk3riYBtWiOCQh1XZuY_IvhTprb4T0,5327
+wagtailgeowidget/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailgeowidget/static/wagtailgeowidget/css/geo-field.css,sha256=YuifckXQaJ7YALV0MqPFY8n6mnvO9vq2JKFeztdBe5E,203
+wagtailgeowidget/static/wagtailgeowidget/js/geo-field.js,sha256=q_IiY0uS3J9_2k_XKKeXrsoNbARIbF9lilm9Iat7HGE,11272
+wagtailgeowidget/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtailgeowidget/tests/test_geosgeometry_parser_helper.py,sha256=IhnhrssdmmX1jVzerb_xKrkvjxuPyWlIsbJov-gM4eQ,878
+wagtailgeowidget-5.3.0.dist-info/LICENSE,sha256=023zSfTsvExVy6F6Eq9z8fu8O_NLE4zUkWJCsRXQ6C4,1090
+wagtailgeowidget-5.3.0.dist-info/METADATA,sha256=jUs981n2OwhI-_gIWKq5FBs0hjpiKdsAAPXmLgOPpAQ,2851
+wagtailgeowidget-5.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wagtailgeowidget-5.3.0.dist-info/top_level.txt,sha256=HA0Q-smnIhGbReZ2ntiOe2EB4MhmSPZqFGxrrJ5rMAg,17
+wagtailgeowidget-5.3.0.dist-info/RECORD,,
