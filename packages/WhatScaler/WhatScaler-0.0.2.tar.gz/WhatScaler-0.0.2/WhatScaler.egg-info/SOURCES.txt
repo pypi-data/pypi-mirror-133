@@ -1,0 +1,7 @@
+setup.py
+WhatScaler/MinMaxScaler.py
+WhatScaler/__init__.py
+WhatScaler.egg-info/PKG-INFO
+WhatScaler.egg-info/SOURCES.txt
+WhatScaler.egg-info/dependency_links.txt
+WhatScaler.egg-info/top_level.txt
