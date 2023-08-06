@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/atlassian_marketplace_python_client/__init__.py
+src/atlassian_marketplace_python_client/atlassian_marketplace_api.py
+src/atlassian_marketplace_python_client/settings.py
+src/atlassian_marketplace_python_client.egg-info/PKG-INFO
+src/atlassian_marketplace_python_client.egg-info/SOURCES.txt
+src/atlassian_marketplace_python_client.egg-info/dependency_links.txt
+src/atlassian_marketplace_python_client.egg-info/requires.txt
+src/atlassian_marketplace_python_client.egg-info/top_level.txt
