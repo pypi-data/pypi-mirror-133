@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+oodf/__init__.py
+oodf/__lib__.py
+oodf.egg-info/PKG-INFO
+oodf.egg-info/SOURCES.txt
+oodf.egg-info/dependency_links.txt
+oodf.egg-info/not-zip-safe
+oodf.egg-info/top_level.txt
