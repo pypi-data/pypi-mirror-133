@@ -1,0 +1,1 @@
+This is a client aplication for the Information Market Application.
