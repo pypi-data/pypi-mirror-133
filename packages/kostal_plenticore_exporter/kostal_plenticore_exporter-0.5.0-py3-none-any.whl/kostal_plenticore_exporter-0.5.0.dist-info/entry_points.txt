@@ -1,0 +1,3 @@
+[console_scripts]
+kostal-plenticore-exporter=kostal_plenticore_exporter.cli:cli
+
