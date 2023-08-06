@@ -1,0 +1,8 @@
+pygitstats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygitstats/graphql/__init__.py,sha256=j8lCXbUDXaJMfbyIdbqgFcvklUKbubOFX9C1Q6zpMVY,31
+pygitstats/graphql/gitstats.py,sha256=HbbScIeRFaJNedYiFBBjdnC0YIqdtIU9zZ6_FfGv408,1944
+pygitstats-0.1.0.dist-info/LICENSE,sha256=g7qV_G0MwYUbOVasSgMOYPznHE5s6-Kv5_RfiqYvdb0,7641
+pygitstats-0.1.0.dist-info/METADATA,sha256=sLrXFw1-YMTD-pUXYabGUdM8lhhpBXv_hmaLlXnXym4,2101
+pygitstats-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygitstats-0.1.0.dist-info/top_level.txt,sha256=Itk2nvuoyHTybDyggHGiM42_9Gdi79R4EyOHszJOOP0,11
+pygitstats-0.1.0.dist-info/RECORD,,
