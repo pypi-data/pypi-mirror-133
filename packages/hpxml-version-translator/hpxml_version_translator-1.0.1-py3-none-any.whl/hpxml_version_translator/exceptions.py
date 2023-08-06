@@ -1,0 +1,2 @@
+class HpxmlTranslationError(Exception):
+    pass
