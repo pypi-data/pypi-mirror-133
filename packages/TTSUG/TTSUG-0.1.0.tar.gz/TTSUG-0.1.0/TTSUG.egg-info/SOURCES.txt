@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+TTSUG.egg-info/PKG-INFO
+TTSUG.egg-info/SOURCES.txt
+TTSUG.egg-info/dependency_links.txt
+TTSUG.egg-info/requires.txt
+TTSUG.egg-info/top_level.txt
+tts/__init__.py
+tts/tts.py

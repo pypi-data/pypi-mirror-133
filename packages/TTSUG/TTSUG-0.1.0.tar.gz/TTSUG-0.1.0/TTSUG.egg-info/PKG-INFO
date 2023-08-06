@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: TTSUG
+Version: 0.1.0
+Summary: A Python package for converting the text to speech
+Home-page: https://github.com/swadeshrd/tts
+Author: Swadesh Ranjan Dash
+Author-email: swadesh5dash@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+How to use the tts(text to speech class)
+========================================
+* TTSUG is used to convert the text to speech
+* maximum 100 character allowed
+* As per bellow example can use the package ::
+
+    import tts
+
+    print(tts.__version__)
+    print(tts.__author__)
+    tts.change_tts("Hello ! i am a bot. how may i help!")
+
