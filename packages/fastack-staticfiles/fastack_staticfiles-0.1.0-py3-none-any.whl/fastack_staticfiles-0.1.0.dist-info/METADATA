@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: fastack-staticfiles
+Version: 0.1.0
+Summary: Easy to add static files
+Home-page: https://github.com/fastack-dev/fastack-staticfiles
+License: MIT
+Author: aprilahijriyan
+Author-email: 37798612+aprilahijriyan@users.noreply.github.com
+Maintainer: aprilahijriyan
+Maintainer-email: 37798612+aprilahijriyan@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: fastack (>=3.0.0,<4.0.0)
+Project-URL: Bug Tracker, https://github.com/fastack-dev/fastack-staticfiles/issues
+Project-URL: Repository, https://github.com/fastack-dev/fastack-staticfiles
+Description-Content-Type: text/markdown
+
+# fastack-staticfiles
+
+Easy to add static files
+
+# Usage
+
+```
+pip install fastack-staticfiles
+```
+
+Add the plugin to your project configuration
+
+```py
+PLUGINS = [
+    "fastack_staticfiles",
+    ...
+]
+```
+
+Plugin configuration example
+
+```py
+STATICFILES = [
+    (
+        "/static",
+        "static",
+        {"directory": "assets", "packages": [], "html": False, "check_dir": True},
+    )
+]
+```
+
+Configuration format like this `(path: str, name: str, options: dict)`
+The `options` here will be passed to `starlette.staticfiles.StaticFiles`.
+
