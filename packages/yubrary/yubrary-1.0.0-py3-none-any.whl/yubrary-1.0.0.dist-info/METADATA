@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: yubrary
+Version: 1.0.0
+Summary: yuuta_library
+Home-page: https://github.com/funnelyuuta/yubrary
+License: MIT
+Author: YAMASHITA Yuta
+Author-email: proyuuta0618188188@gmail.com
+Maintainer: YAMASHITA Yuta
+Maintainer-email: proyuuta0618188188@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.27.0,<3.0.0)
+Project-URL: Documentation, https://github.com/funnelyuuta/yubrary
+Project-URL: Repository, https://github.com/funnelyuuta/yubrary
+Description-Content-Type: text/markdown
+
+# yubrary
+yu_requests()
+  入力
+  第一引数 URL 第二引数 cookie(なくてもいい)
+  出力
+  URLを投げるとBeautifulSoupに入れるテキスト
+  別のページに飛ばされていないかをbool型(True=飛ばされていない)
+  cookieを返す
+
+
+
