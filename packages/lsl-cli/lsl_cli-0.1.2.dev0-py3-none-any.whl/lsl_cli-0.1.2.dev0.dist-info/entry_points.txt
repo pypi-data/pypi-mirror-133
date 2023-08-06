@@ -1,0 +1,3 @@
+[console_scripts]
+lsl = lsl_cli.lsl:main
+
