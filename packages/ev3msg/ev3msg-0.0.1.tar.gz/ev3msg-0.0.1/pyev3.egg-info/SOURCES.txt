@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+test.py
+pyev3/__init__.py
+pyev3/ev3mailbox.py
+pyev3.egg-info/PKG-INFO
+pyev3.egg-info/SOURCES.txt
+pyev3.egg-info/dependency_links.txt
+pyev3.egg-info/top_level.txt
