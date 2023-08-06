@@ -1,0 +1,10 @@
+py_import_tree/__init__.py,sha256=gW5NUxwGdPsiQjn0cOuuQT11pfthByI5DITDg_HMhLQ,22
+py_import_tree/cohesion.py,sha256=7rg-S4Em6kyhXjOnOfwfXEKNCjx0S2tKCghfxgz20g4,8283
+py_import_tree/import_tracker.py,sha256=kK5D8DyCoYTDzQdNNQQPUxEk6zoWhENhGeS5Dg5iGS0,10185
+py_import_tree/schema.sql,sha256=sWH5NhnVLjUCLBxA0nvpQhU0m1dO19TqthUcTHP9ZmA,1147
+py_import_tree-0.1.6.data/data/schema/schema.sql,sha256=sWH5NhnVLjUCLBxA0nvpQhU0m1dO19TqthUcTHP9ZmA,1147
+py_import_tree-0.1.6.dist-info/LICENSE,sha256=xHIxMshPVIWVLeZtLe8-JxGCqG1xyxMknUxRYTwTSmI,1072
+py_import_tree-0.1.6.dist-info/METADATA,sha256=QojO3xEh5Bgf7N8BcwXkq7VA4KJaK1GMBE5tNrxlZPY,5221
+py_import_tree-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_import_tree-0.1.6.dist-info/top_level.txt,sha256=h-L9pmR5HAfmmYrBwrq7ujJk8HcsvIimrfbG3pdpB7Y,15
+py_import_tree-0.1.6.dist-info/RECORD,,
