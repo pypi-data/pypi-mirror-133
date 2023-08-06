@@ -1,0 +1,5 @@
+wasmer-1.1.0.dist-info/METADATA,sha256=PGhiUfafhXX01s3e7RE3vYVw3q5KSXGCoiY4PFXaUpE,12674
+wasmer-1.1.0.dist-info/WHEEL,sha256=blwfyJHRYNHPNKnQGj6DWcLF-PgDyVpkwAPXlLRodzY,95
+wasmer/__init__.py,sha256=OSH3Ur5wJyPwi_a6YM4jtkWyZbj0kcoHZy4BVLOHEKQ,48
+wasmer/wasmer.cp38-win_amd64.pyd,sha256=ENnN_3o0wQoM_6sBFM9l2Jz64kkTKoHGnphCqw6FOlk,4121600
+wasmer-1.1.0.dist-info/RECORD,,
