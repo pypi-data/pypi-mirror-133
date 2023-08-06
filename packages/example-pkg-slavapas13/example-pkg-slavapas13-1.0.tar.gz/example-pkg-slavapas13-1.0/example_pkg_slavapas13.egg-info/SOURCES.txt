@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+calc/__init__.py
+calc/calculator.py
+calc/unit_tests.py
+example_pkg_slavapas13.egg-info/PKG-INFO
+example_pkg_slavapas13.egg-info/SOURCES.txt
+example_pkg_slavapas13.egg-info/dependency_links.txt
+example_pkg_slavapas13.egg-info/top_level.txt
