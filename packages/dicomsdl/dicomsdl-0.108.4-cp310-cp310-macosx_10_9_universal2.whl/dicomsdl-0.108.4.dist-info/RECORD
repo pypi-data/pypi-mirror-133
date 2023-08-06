@@ -1,0 +1,12 @@
+dicomsdl/__init__.py,sha256=fPOeh3dMGWoWVFdpkDXc89Sl0GPl7_ZQ1a96vwPs9q4,5825
+dicomsdl/_dicomsdl.cpython-310-darwin.so,sha256=TLZFx_odGuGfcFFgLZ9R6IDNCpQ1MMY9_CI9uYGJ_pM,2636432
+dicomsdl/_util.cpython-310-darwin.so,sha256=mDju3OkGREp6vt93BlB0Y9NnswBJel4yvLRg4B1IuPE,131632
+dicomsdl/dump.py,sha256=UmMQnILHcDiPSRXoYZAxD2X_1aRpv8OdONPsbvtX03Q,574
+dicomsdl/show.py,sha256=EcWlWhkpV3U2YFmQoQ6awtoUDLFotpJBnWLuvwo8whA,458
+dicomsdl/util.py,sha256=snU_PwLneFchn8wVToq86YhOyefHTX459pnlQcQBn7g,126
+dicomsdl-0.108.4.dist-info/LICENSE,sha256=B1q0TXVUOR2hJ8MMXlePRhDrNElEpn-EF6T2jFKyXU0,9800
+dicomsdl-0.108.4.dist-info/METADATA,sha256=ZuKSZQfycf0-8gyNE-X7Jh4q2yVxl65DTptQK3rk8TA,5944
+dicomsdl-0.108.4.dist-info/WHEEL,sha256=K9uXIc6oIZviKXIosvLmJ-uuGuBRuat3blAiqiaC13M,115
+dicomsdl-0.108.4.dist-info/entry_points.txt,sha256=PSvjseq-iSUdrdl5CWdnqE6mIWbxhCJUx7LMKzxAKs4,81
+dicomsdl-0.108.4.dist-info/top_level.txt,sha256=5Aec8NM9UXIX27-GGPVCrS2mRpl8hgAHFaDkO_MiMWw,9
+dicomsdl-0.108.4.dist-info/RECORD,,
