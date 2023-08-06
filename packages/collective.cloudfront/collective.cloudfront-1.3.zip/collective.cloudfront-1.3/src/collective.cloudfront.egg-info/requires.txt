@@ -1,0 +1,10 @@
+boto3
+plone.app.caching
+Products.GenericSetup>=1.8.2
+setuptools
+
+[test]
+plone.app.testing
+plone.testing>=5.0.0
+plone.app.contenttypes
+plone.app.robotframework[debug]

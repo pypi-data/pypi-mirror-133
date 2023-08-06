@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: collective.cloudfront
+Version: 1.3
+Summary: AWS CloudFront support for plone.app.caching
+Home-page: https://pypi.python.org/pypi/collective.cloudfront
+Author: Six Feet Up
+Author-email: info@sixfeetup.com
+License: GPL version 2
+Description: .. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+           If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+           This text does not appear on pypi or github. It is a comment.
+        
+        ==============================================================================
+        collective.cloudfront
+        ==============================================================================
+        
+        AWS CloudFront support for plone.app.caching
+        
+        This add-on watches for Purge notifications from ``plone.app.caching`` and sends the corresponding invalidation requests to an instance of Amazon’s CloudFront.
+        
+        
+        Features
+        --------
+        
+        - Configurable in Site Setup (@@cloudfront-controlpanel)
+        
+        
+        Documentation
+        -------------
+        
+        You will need to create an access key in your AWS Console.
+        
+        Once you have the key’s ID and secret, you can provide them to your Plone site via Site Setup under “CloudFront Configuration”. You will also need to provide the ID for your CloudFront distribution.
+        
+        
+        Installation
+        ------------
+        
+        Install collective.cloudfront by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.cloudfront
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.cloudfront/issues
+        - Source Code: https://github.com/collective/collective.cloudfront
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - Six Feet Up, info@sixfeetup.com
+        
+        
+        Changelog
+        =========
+        
+        1.3 (2022-01-07)
+        ----------------
+        
+        - only run purging if add-on is installed
+        - check if purging is enabled in plone.app.caching
+          [abl123]
+        - Show the string representation of the exception
+          [skurfer]
+        - Set custom permissions for purging
+          [cdw9]
+        
+        
+        1.2 (2021-05-14)
+        ----------------
+        
+        - add button for invalidating cache
+          [cdw9]
+        
+        
+        1.0 (2017-07-17)
+        ----------------
+        
+        - Initial release.
+          [sixfeetup]
+        
+Keywords: Python Plone
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Framework :: Plone :: 5.1
+Classifier: Framework :: Plone :: 5.2
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Provides-Extra: test

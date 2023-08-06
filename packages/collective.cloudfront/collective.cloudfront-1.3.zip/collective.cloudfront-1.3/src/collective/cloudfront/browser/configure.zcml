@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="collective.cloudfront">
+
+  <!-- Publish static files -->
+  <plone:static
+      name="collective.cloudfront"
+      type="plone"
+      directory="static"
+      />
+
+  <browser:page
+     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+     name="cloudfront-controlpanel"
+     class=".controlpanel.CloudFrontControlPanel"
+     permission="cloudfront.managePurging"
+     />
+
+  <browser:page
+      name="purge-cloudfront"
+      for="*"
+      class=".controlpanel.PurgeCache"
+      permission="cloudfront.managePurging" />
+</configure>
