@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: moengage
+Version: 0.3.3
+Summary: Wrapper library for calling Moengage APIs in python
+Home-page: https://github.com/Deepanshu07/moengage
+Author: Deepanshu Gupta
+Author-email: deepanshu71095@gmail.com
+License: MIT
+Download-URL: https://github.com/Deepanshu07/moengage/archive/refs/tags/v0.3.3.tar.gz
+Description: # moengage
+        A wrapper library for calling Moengage APIs in python
+        
+Keywords: MOENGAGE,MOENGAGE WRAPPER
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
