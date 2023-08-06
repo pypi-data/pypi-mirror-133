@@ -1,0 +1,1 @@
+versionFromGradle='3.36.0',projectVersion='3.36.0.1',branch='rel-zorn',lastCommitHash='5f04a62f82dd385df27604a939ceae0ab4c22690',gitDescribe='jenkins-master-5680-5-g5f04a62',compiledOn='2021-12-29 12:46:43',compiledBy='jenkins'
