@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: UniFunc
+Version: 1.3
+Summary: Tool for similarity analysis of protein function annotations.
+Home-page: https://github.com/PedroMTQ/UniFunc
+Author: Pedro Queirós
+Author-email: pdqueiros@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/PedroMTQ/UniFunc/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: requests
+
+UniFunc is a text mining tool that processes and analysis text similarity between a pair of protein function annotations. It is mainly used as a cross-linking mechanism or redundancy elimination tool when processing annotations without any sort of database identifiers.
+
+
