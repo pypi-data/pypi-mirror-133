@@ -1,0 +1,7 @@
+calculate/calc.py,sha256=zcOmBtCXizx0L-G2jkm8y2HMD5RedtB00TQZLZd4fog,965
+calculate/unit_tests.py,sha256=rzXn717UrEEWOzd33cm1ktPNekgw91_lXe197zpHZZw,1409
+example_pkg_Hagay-0.0.0.data/scripts/calc.py,sha256=zcOmBtCXizx0L-G2jkm8y2HMD5RedtB00TQZLZd4fog,965
+example_pkg_Hagay-0.0.0.dist-info/METADATA,sha256=pI_i7cmPFtWYD36OVeRS-alWCD0EYf78uuqjnk2fz24,219
+example_pkg_Hagay-0.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+example_pkg_Hagay-0.0.0.dist-info/top_level.txt,sha256=6ZTAowwBxlSEDS1GfMtlGDijN6BfDLe_m73jRe_oxrY,10
+example_pkg_Hagay-0.0.0.dist-info/RECORD,,
