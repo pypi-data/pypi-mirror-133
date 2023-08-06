@@ -1,0 +1,8 @@
+README.md
+setup.py
+vapl_compiler/__init__.py
+vapl_compiler.egg-info/PKG-INFO
+vapl_compiler.egg-info/SOURCES.txt
+vapl_compiler.egg-info/dependency_links.txt
+vapl_compiler.egg-info/not-zip-safe
+vapl_compiler.egg-info/top_level.txt
