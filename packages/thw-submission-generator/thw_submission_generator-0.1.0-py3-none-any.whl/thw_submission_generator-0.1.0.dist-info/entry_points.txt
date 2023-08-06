@@ -1,0 +1,3 @@
+[console_scripts]
+thw-submission-generator=thw_submission_generator:main
+
