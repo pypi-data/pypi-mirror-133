@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ifatpdf/__init__.py
+ifatpdf/pdf2image.py
+ifatpdf/pdf2text.py
+mosfpdf.egg-info/PKG-INFO
+mosfpdf.egg-info/SOURCES.txt
+mosfpdf.egg-info/dependency_links.txt
+mosfpdf.egg-info/top_level.txt
