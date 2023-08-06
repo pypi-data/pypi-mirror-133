@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyrestoolbox
+Version: 1.0.1
+Summary: pyResToolbox - A collection of Reservoir Engineering Utilities
+Home-page: https://github.com/mwburgoyne/pyResToolbox
+Author: Mark W. Burgoyne
+Author-email: mark.w.burgoyne@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/mwburgoyne/pyResToolbox/archive/refs/tags/v1.0.0.tar.gz
+Keywords: restoolbox,petroleum,reservoir
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+C:\Users\vinom\OneDrive - Santos\Work in progress\ML Learning tidbits\0-ResEng\pyResToolbox\source_dir/README.rst
+
