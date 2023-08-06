@@ -1,0 +1,65 @@
+
+## description
+本工具支持两个字典一致性compare，可用于自动化断言，例如数据库实际落库数据与预期结果比较；
+
+## 支持场景
+1.落单条数据场景
+2.落多条数据场景
+## 注意事项
+使用本工具前注意事项：
+1.安装依赖库，texttable，参见requirements.txt
+2.需要将断言的字典值转化为string格式, 否则会报类型错误：
+例如TypeError: argument of type 'int' is not iterable
+
+## 例子
+1.AssertPy方法
+```commandline
+from AssertP import AssertPy
+
+act = {'user_id': '20210100002', 'pay_status': 'SUCCESS'}
+exp = {'user_id': '20210100002', 'pay_status': 'SUCCESS'}
+AssertPy("tName", act, exp)
+```
+执行结果
+```commandline
++------------+-----------+-----------+--------+
+|   tName    |  actual   |  expect   | result |
++============+===========+===========+========+
+| user_id    | 2.021e+10 | 2.021e+10 | true   |
++------------+-----------+-----------+--------+
+| pay_status |   SUCCESS |  SUCCESS  | true   |
++------------+-----------+-----------+--------+
+```
+2.AssertPy_multi方法
+```commandline
+from AssertP import AssertPy_multi
+
+tName = "TestTable"
+act = [{'order_id': '2022010818343700000003', 'user_id': '20210100001', 'pay_status': 'SUCCESS'},
+       {'order_id': '2022010818343700000003', 'user_id': '20210100001', 'pay_status': 'SUCCESS'}]
+exp = [{'order_id': '2022010818343700000003', 'user_id': '20210100002', 'pay_status': 'PAYING'},
+       {'order_id': '2022010818343700000003', 'user_id': '20210100001', 'pay_status': 'SUCCESS'}]
+AssertPy_multi(tName, act, exp)
+```
+执行结果
+```commandline
++------------+-----------+-----------+--------+
+| TestTable  |  actual   |  expect   | result |
++============+===========+===========+========+
+| user_id    | 2.021e+10 | 2.021e+10 | true   |
++------------+-----------+-----------+--------+
+| pay_status |   SUCCESS |  SUCCESS  | true   |
++------------+-----------+-----------+--------+
+| order_id   | 2.022e+21 | 2.022e+21 | true   |
++------------+-----------+-----------+--------+
+| user_id    | 2.021e+10 | 2.021e+10 | false  |
++------------+-----------+-----------+--------+
+| pay_status |   SUCCESS |  PAYING   | false  |
++------------+-----------+-----------+--------+
+| order_id   | 2.022e+21 | 2.022e+21 | true   |
++------------+-----------+-----------+--------+
+| user_id    | 2.021e+10 | 2.021e+10 | true   |
++------------+-----------+-----------+--------+
+| pay_status |   SUCCESS |  SUCCESS  | true   |
++------------+-----------+-----------+--------+
+```
