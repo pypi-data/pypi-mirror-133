@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/yooho_test_pkg.egg-info/PKG-INFO
+src/yooho_test_pkg.egg-info/SOURCES.txt
+src/yooho_test_pkg.egg-info/dependency_links.txt
+src/yooho_test_pkg.egg-info/top_level.txt
