@@ -1,0 +1,3 @@
+[console_scripts]
+setuptools-github-start-release = setuptools_github.start_release:main
+
