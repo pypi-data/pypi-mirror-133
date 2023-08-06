@@ -1,0 +1,8 @@
+fastapi_users_db_sqlalchemy/__init__.py,sha256=9roOxGNiLfoPrx3NO14YtFJsY2wo6cFQD17_JRhSq-Y,5376
+fastapi_users_db_sqlalchemy/access_token.py,sha256=3Jfo6ghAPvOFpnN-YHSA1qAIF-nVg39ai6ocIy1GVOs,2843
+fastapi_users_db_sqlalchemy/guid.py,sha256=oUAe4gEtzHzhzhi66BgNih_G5tC5RWynDVmtfuepr-E,1190
+fastapi_users_db_sqlalchemy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_users_db_sqlalchemy-2.0.4.dist-info/LICENSE,sha256=xeZkqqHpa9lkurYK7IUUcu311AWO4s0BDVC8V1U8-VM,1072
+fastapi_users_db_sqlalchemy-2.0.4.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+fastapi_users_db_sqlalchemy-2.0.4.dist-info/METADATA,sha256=bGIdjsFcUnBxNLsspJdFOacktfxC0pNRezvM6U_x3bA,3424
+fastapi_users_db_sqlalchemy-2.0.4.dist-info/RECORD,,
