@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: pyang-test
+Version: 2.5.2
+Summary: B
+Home-page: https://github.com/stonearest/pyang-test
+Author: stonearest
+Author-email: sgq0859@163.com
+License: BSD
+Description: A
+Keywords: YANG Test Tools
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
