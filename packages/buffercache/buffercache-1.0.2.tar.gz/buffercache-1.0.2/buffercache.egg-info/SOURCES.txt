@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+buffercache.py
+setup.py
+buffercache.egg-info/PKG-INFO
+buffercache.egg-info/SOURCES.txt
+buffercache.egg-info/dependency_links.txt
+buffercache.egg-info/top_level.txt
