@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/mercury_db/datastore.py
+src/mercury_db.egg-info/PKG-INFO
+src/mercury_db.egg-info/SOURCES.txt
+src/mercury_db.egg-info/dependency_links.txt
+src/mercury_db.egg-info/requires.txt
+src/mercury_db.egg-info/top_level.txt
