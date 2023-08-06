@@ -1,0 +1,14 @@
+onnxcli/__init__.py,sha256=Qjhso6Ry7xhg3R4fbd1XacdxMT8s_UVnCYQkq8UqYq8,95
+onnxcli/common.py,sha256=jk9RwcsiqEufrwgsm8Aa1qgVnRJ-GnAFp9akWR2FZlc,1345
+onnxcli/dispatcher.py,sha256=ft7hI7c8MN0I3E4JmmaOobcrv1MTLOYjYkCLY1wmnJc,834
+onnxcli/draw.py,sha256=7f_HT_X39-wAQtZbwOGF_2M_6wJfFknAdDJDPpZpTr8,3928
+onnxcli/extract.py,sha256=VOlN-FpKdUquMIWkgwe3nzxgmYZs00jmWeRajXEW8dI,5875
+onnxcli/infer_shape.py,sha256=_gab5x8qOFuw4YMBTwLpcl3RtiCJmJHKvMtUj94a2Cs,756
+onnxcli/inspect.py,sha256=ZEpmE6Dq_DwrPJ0VGteGyptJSpOcb-7suETArU3wG7E,7968
+onnxcli/optimize.py,sha256=U22Cl6B2Mniigp7qkI6RD2gt-K97QtqfxltG9zagCak,1403
+onnxcli-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+onnxcli-0.2.0.dist-info/METADATA,sha256=oi73wtN2yub0jtuQ29HVLGkTC7gxq1c4Y-3zPqn2b7c,7783
+onnxcli-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+onnxcli-0.2.0.dist-info/entry_points.txt,sha256=LN5bTg0As_TiB1ZUymq2W0hbuE0zIfwCZfolwian9ZU,92
+onnxcli-0.2.0.dist-info/top_level.txt,sha256=1a7RNU7lORJeOlIwokYoqmGhw1vbIdEKcek0gqQqypw,8
+onnxcli-0.2.0.dist-info/RECORD,,
