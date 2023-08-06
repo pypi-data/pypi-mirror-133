@@ -1,0 +1,10 @@
+taskimporter/__init__.py,sha256=0JerM249Po49sGsdxqsd8x0hszX_ptBG0W5tooGHNjM,3327
+taskimporter/const.py,sha256=gTy1Yvy2uRhlGYFZuQX0G5O_NWf-lUlGgg7ug2tOI9E,629
+taskimporter/omnifocus3_utils.py,sha256=A8QFEn6v95fUv7Tugtp3B0mfcYCV9vW5GvgoyianPLA,1524
+taskimporter/services/__init__.py,sha256=guBZ4JdPUVy105UChH17Cf1ilI_mCQviw5uPfNx0sHw,3214
+taskimporter/task.py,sha256=HV4gbl7LJ3QfdS8m6G9a4uytHss6QiHAUul1hzRke30,39
+taskimporter/things3_utils.py,sha256=E6TOSS8PIrvljFc3CX2Z8uJOwUW4GVWhbhq0t0_Ci0E,799
+taskimporter-0.1.5.dist-info/entry_points.txt,sha256=zF3RyuuBTGCGX3W_n3c_vovEVtWTVfN86y-7K8-8IXI,50
+taskimporter-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+taskimporter-0.1.5.dist-info/METADATA,sha256=gAwUpiPwTMcwk1PGiNx-KV5rGSRzjOfQyuWKxYpvYyo,529
+taskimporter-0.1.5.dist-info/RECORD,,
