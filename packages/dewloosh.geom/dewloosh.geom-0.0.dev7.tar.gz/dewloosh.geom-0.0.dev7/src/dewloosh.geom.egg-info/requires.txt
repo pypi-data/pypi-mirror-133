@@ -1,0 +1,3 @@
+dewloosh.math
+matplotlib
+pyvista
