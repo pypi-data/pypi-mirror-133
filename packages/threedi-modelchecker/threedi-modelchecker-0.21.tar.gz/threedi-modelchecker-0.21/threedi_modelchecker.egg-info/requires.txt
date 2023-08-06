@@ -1,0 +1,22 @@
+Click
+GeoAlchemy2>=0.9
+SQLAlchemy>=1.2
+alembic>=0.9
+
+[postgis]
+psycopg2
+
+[simulation_templates]
+threedi-api-client@ git+https://github.com/nens/threedi-api-client.git@master
+aiofiles
+aiohttp
+
+[test]
+factory_boy
+pytest
+mock
+pytest-cov
+threedi-api-client@ git+https://github.com/nens/threedi-api-client.git@master
+aiofiles
+aiohttp
+pytest-asyncio
