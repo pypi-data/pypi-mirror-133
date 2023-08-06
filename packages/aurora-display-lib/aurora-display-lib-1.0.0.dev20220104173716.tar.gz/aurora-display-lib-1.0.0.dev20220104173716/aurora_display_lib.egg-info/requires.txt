@@ -1,0 +1,9 @@
+Pillow>=8.4.0
+pygame>=2.1.2
+
+[deploy]
+bump2version
+
+[test]
+testfixtures>=1.2.0
+pytest>=3.4.0
