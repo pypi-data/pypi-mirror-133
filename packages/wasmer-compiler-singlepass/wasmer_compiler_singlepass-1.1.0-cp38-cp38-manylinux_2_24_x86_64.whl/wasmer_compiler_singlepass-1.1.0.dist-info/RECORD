@@ -1,0 +1,5 @@
+wasmer_compiler_singlepass-1.1.0.dist-info/METADATA,sha256=8M4h3HZ9FJsgJLzMTuuzDuSyGvYAbo7e0kzNQIv4xks,3432
+wasmer_compiler_singlepass-1.1.0.dist-info/WHEEL,sha256=g6JbH6vFc4qamOYVIWUVybUvZnfNqd0SAvhMFQCZvfw,107
+wasmer_compiler_singlepass/__init__.py,sha256=AiMaCsOn0E22dmDQsvwAza_YSEM9gfRGZ_piTBFpwwQ,88
+wasmer_compiler_singlepass/wasmer_compiler_singlepass.cpython-38-x86_64-linux-gnu.so,sha256=gEzcjkeO189YP8PySXKAKqyFDie1cQXOEH-7tuiyTR0,1890888
+wasmer_compiler_singlepass-1.1.0.dist-info/RECORD,,
