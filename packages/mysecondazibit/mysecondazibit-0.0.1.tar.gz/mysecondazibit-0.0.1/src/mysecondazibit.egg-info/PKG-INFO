@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mysecondazibit
+Version: 0.0.1
+Summary: My util methods for my python project
+Home-page: https://github.com/pypa/helperutils
+Author: Azeez Idris
+Author-email: abdulazeezidris28@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/animal-cognitive/pytorch-cifar/pulls
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# First Package
+
+This is my first Python package. 
+
+
