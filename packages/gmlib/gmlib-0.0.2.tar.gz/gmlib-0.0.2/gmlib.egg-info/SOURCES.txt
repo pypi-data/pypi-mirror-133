@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+gmlib/__init__.py
+gmlib/debug.py
+gmlib.egg-info/PKG-INFO
+gmlib.egg-info/SOURCES.txt
+gmlib.egg-info/dependency_links.txt
+gmlib.egg-info/top_level.txt
