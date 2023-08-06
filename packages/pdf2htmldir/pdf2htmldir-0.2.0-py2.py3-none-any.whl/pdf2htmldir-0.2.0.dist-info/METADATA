@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pdf2htmldir
+Version: 0.2.0
+Summary: convert pdf to html
+Author-email: nhannht <nhanclassroom@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
