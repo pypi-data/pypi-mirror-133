@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: kostal_plenticore_exporter
+Version: 0.5.0
+Summary: A Prometheus exporter for the Kostal Plenticore series of inverters.
+Home-page: https://codeberg.org/Marix/kostal-plenticore-exporter
+Author: Matthias Bach
+Author-email: <marix@marix.org>
