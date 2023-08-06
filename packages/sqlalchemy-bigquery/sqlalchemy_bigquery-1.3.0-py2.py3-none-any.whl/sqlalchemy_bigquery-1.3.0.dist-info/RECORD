@@ -1,0 +1,16 @@
+sqlalchemy_bigquery/__init__.py,sha256=Ar6pwE5HrBVj9k5vCxZ3t2xLdjkxDnfmvldQfWrxpJE,2220
+sqlalchemy_bigquery/_helpers.py,sha256=luJtOhGeYJwlRrDT7u8axTheBEvae-Wb6Son4sC8pJA,2253
+sqlalchemy_bigquery/_struct.py,sha256=CXz4wCmEzMoEH7Yzlj18srNqRcqlE0NM7lb9v_-nS20,5027
+sqlalchemy_bigquery/_types.py,sha256=E_ocH954A894SwYJaE0rau7B4gaMe6Lvl8ALbsxhoS0,4677
+sqlalchemy_bigquery/base.py,sha256=uyCpGDdPK3mYcRx3BRrilLQSW_jPQfMEwplzxbItFyI,37530
+sqlalchemy_bigquery/geography.py,sha256=rRS5P6_jv-fhaMpjQD3Bln2JmODJhNor609CIjEIwZU,8240
+sqlalchemy_bigquery/parse_url.py,sha256=gR-5sRMSD_GjfPObt4YGOluNvV-mkReCH3jxqgtNCuY,9309
+sqlalchemy_bigquery/requirements.py,sha256=PcqSWFkRmbd3ikmmGBk47H-vxLPm1a7ChzuMjSkmq_g,7361
+sqlalchemy_bigquery/version.py,sha256=MmMEAlEJUwefIKSU13es9tpX0YRHngCNAf37AisnMZ8,1131
+sqlalchemy_bigquery-1.3.0.dist-info/AUTHORS,sha256=Ch-SVInNNzMhwCB_2u_2F_IRWbtpdC8iBGJicG04ZXs,622
+sqlalchemy_bigquery-1.3.0.dist-info/LICENSE,sha256=qFx6vew4twGGX2m9qhNLIoGr8SznK1UWiRTYdCD95FY,1064
+sqlalchemy_bigquery-1.3.0.dist-info/METADATA,sha256=R4FNbVIdDa0vRL6fwpxMFwfMHtOtGUxiar1PCrzl-P0,10252
+sqlalchemy_bigquery-1.3.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sqlalchemy_bigquery-1.3.0.dist-info/entry_points.txt,sha256=dcKzeiBpitJk4SQcuJQtHOsFccOXf-Kg4i5FO77-zxk,70
+sqlalchemy_bigquery-1.3.0.dist-info/top_level.txt,sha256=8PyHRMIzFYGbGgpIXo35ShpB8nbea96cq6v_Afqwswc,20
+sqlalchemy_bigquery-1.3.0.dist-info/RECORD,,
