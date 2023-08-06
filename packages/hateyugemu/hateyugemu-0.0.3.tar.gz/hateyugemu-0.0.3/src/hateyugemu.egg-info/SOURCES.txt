@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/hateyugemu/__init__.py
+src/hateyugemu/__main__.py
+src/hateyugemu/main.py
+src/hateyugemu/notify.py
+src/hateyugemu/settings.py
+src/hateyugemu/utils.py
+src/hateyugemu.egg-info/PKG-INFO
+src/hateyugemu.egg-info/SOURCES.txt
+src/hateyugemu.egg-info/dependency_links.txt
+src/hateyugemu.egg-info/top_level.txt
+src/hateyugemu/data/tokens.txt
+src/hateyugemu/data/topics.csv
