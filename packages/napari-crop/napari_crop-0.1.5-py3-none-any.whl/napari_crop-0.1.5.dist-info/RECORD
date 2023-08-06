@@ -1,0 +1,10 @@
+napari_crop/__init__.py,sha256=spqSHmpK-0Qg9wCwCnLVlwixq0Tz25HJ___Jveaq60k,100
+napari_crop/_function.py,sha256=Ap0Bw4nVMsLYGLxN6qqSYQ3Mc-TqTVj2yXqtXRCnAOg,4167
+napari_crop/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_crop/_tests/test_function.py,sha256=eGhRu1dhvBV2OCzrySBJ1sFrxnZyDEatRckO_BnVyfo,4194
+napari_crop-0.1.5.dist-info/LICENSE,sha256=cywf4T7jXDRMB1XP5kjS1DROVWL-MYB4u-76B6ENEIk,1623
+napari_crop-0.1.5.dist-info/METADATA,sha256=w1eoOo3qjdfzNemqL4MCsQEIqHOydZEBj6gD3oIVbBg,4523
+napari_crop-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_crop-0.1.5.dist-info/entry_points.txt,sha256=BvwdMcIsA1BkBqHGCqckgFzq-o9eqiyOF1Kx2_Ds-FI,43
+napari_crop-0.1.5.dist-info/top_level.txt,sha256=2mVI5JUgpqFx3jJKEzYC5e0XDpXBvYP3ydT-g1l74Fk,12
+napari_crop-0.1.5.dist-info/RECORD,,
