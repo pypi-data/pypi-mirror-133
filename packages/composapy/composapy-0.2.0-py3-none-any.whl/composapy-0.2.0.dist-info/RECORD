@@ -1,0 +1,16 @@
+composapy/__init__.py,sha256=0z4k7_5Gb4Aqkkcn7IousSS_PMXLM9V1yWGawLR6OVo,51
+composapy/api.py,sha256=2YQulAmRWh3Y4pVGMpdsXhDSU5Xw56jYGqCdzlURUAU,217
+composapy/loader.py,sha256=_zi6LeCFpcfzvH4ncHD6sIKfLL5DwnlQgHUEW-46RFs,1634
+composapy/mixins.py,sha256=cG7iZkul8ILSeQqS2NZz-3w8Op0fa9Ik_mYKsTI8Mx4,3951
+composapy/session.py,sha256=PONZozYJRnFLqPhdwqxuFcpfg65xIEfk4cnHkl_1CPQ,2450
+composapy/stream.py,sha256=vvsH7nE9F8h_kymAyYiYawKV2AsCRFhWr5i4sE-QDLY,528
+composapy/dataflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+composapy/dataflow/api.py,sha256=JFdeBnZNWDsrRYtxkyYMuc5SSvbuSccfQUen6oq64Vk,3856
+composapy/dataflow/models.py,sha256=myHHXDiCKNMEq6s2gd0a1cS49T8FfIJk5D-mOcOKb30,9443
+composapy/queryview/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+composapy/queryview/api.py,sha256=pSWamg9mn7sPcB71Qd_q14Pes3hjD4mRKq6K-6WAgr4,3530
+composapy-0.2.0.dist-info/LICENSE,sha256=-vTVbc--Iu82vjP1wgs3fOTBwfOg_MfAsZD8SRnO-Fc,1098
+composapy-0.2.0.dist-info/METADATA,sha256=tl6fQuRYzxUaO_O2vvzAWqSwVWrbzU0oQQoGFbWx2q8,638
+composapy-0.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+composapy-0.2.0.dist-info/top_level.txt,sha256=eAm_r_v3n-X2uNeCxP74yqI7S1Yt97ZkTpnapGt7bZE,10
+composapy-0.2.0.dist-info/RECORD,,
