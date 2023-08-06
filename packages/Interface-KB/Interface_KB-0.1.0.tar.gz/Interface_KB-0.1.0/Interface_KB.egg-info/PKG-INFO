@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Interface-KB
+Version: 0.1.0
+Summary: Knowledge Base (KB) interface (API)
+Home-page: https://cosysgit.uantwerpen.be/bvanacker/knowledgebase-interface.git
+Author: Bert Van Acker
+Author-email: bert.vanacker@uantwerpen.be
+License: LICENSE.txt
+Platform: UNKNOWN
+
+# KnowledgeBase-interface
+
+Knowledge Base interface (API) developed within the PACo project
+
+
+
+
+
