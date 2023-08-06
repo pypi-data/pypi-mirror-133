@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+kamel_first_library/__init__.py
+kamel_first_library.egg-info/PKG-INFO
+kamel_first_library.egg-info/SOURCES.txt
+kamel_first_library.egg-info/dependency_links.txt
+kamel_first_library.egg-info/top_level.txt
