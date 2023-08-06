@@ -1,0 +1,2 @@
+django-model-utils>=2.0
+django-cities-legacy>=0.6.2
