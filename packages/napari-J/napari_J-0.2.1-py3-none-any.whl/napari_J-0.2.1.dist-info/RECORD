@@ -1,0 +1,16 @@
+ijpb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ijpb/func.py,sha256=BT-QJPBt3cWBTEtxoLwPVFEfn8_2hq8asuEGifOEWes,1288
+ijpb/fiji/IPythonProxy.py,sha256=mvRC1uILdOCBkgxWAw6LoQvLDwgqH1GxMJcP_wR6rMo,1899
+ijpb/fiji/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_j/__init__.py,sha256=83O_g_JijTHYUFwrSRm1nmYGALEROFgg2mm_kW406I0,174
+napari_j/_dock_widget.py,sha256=ZBD7o28pl-LG-T7xGKRc8rXdHRKr1OT6K6btVise3u0,18525
+napari_j/bridge.py,sha256=i1Dvlwnucqkl5B54yH9Vc2yOCmtYcVMcfaVt0wzurLc,10613
+napari_j/surfaces.py,sha256=idkt9tlm0x0ePecXDYZCX37jb2v4MNUpbbuCZTlfL_Q,725
+napari_j/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_j/_tests/test_dock_widget.py,sha256=28EHcr31WzN19Trenu8RC2SQW2nY_znbBKK0WuMtJnA,670
+napari_J-0.2.1.dist-info/LICENSE,sha256=_de7dDcTyHkrHWcVyiYXsYxnyw_fT5fflVA4aog9m34,1082
+napari_J-0.2.1.dist-info/METADATA,sha256=f0zaP3Z2SgXPEwdn2A29phdaHsksVoGlvKXDutfLFqA,4222
+napari_J-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_J-0.2.1.dist-info/entry_points.txt,sha256=TdzFzyxaq8iyjU2amWnvdfcPKRVI8R1BlVMR9hPq08Q,36
+napari_J-0.2.1.dist-info/top_level.txt,sha256=lQy9T76MJsrixdSZ48JduH4w4ZyjHfo1S0p8rVoi8Qk,14
+napari_J-0.2.1.dist-info/RECORD,,
