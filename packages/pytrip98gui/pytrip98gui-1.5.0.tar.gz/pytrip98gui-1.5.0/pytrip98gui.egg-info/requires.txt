@@ -1,0 +1,14 @@
+pytrip98[remote]~=3.7
+anytree~=2.8
+Events~=0.4
+
+[:python_version < "3.8"]
+PyQt5<5.10
+PyQtChart<5.10
+
+[:python_version >= "3.7"]
+matplotlib==3.4.3
+
+[:python_version >= "3.8"]
+PyQt5>=5.15
+PyQtChart>=5.15
