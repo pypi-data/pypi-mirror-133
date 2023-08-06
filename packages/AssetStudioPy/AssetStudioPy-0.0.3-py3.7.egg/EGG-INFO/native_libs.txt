@@ -1,0 +1,16 @@
+AssetStudioPy/AssetStudioUtility/AssetStudio.PInvoke.dll
+AssetStudioPy/AssetStudioUtility/AssetStudio.dll
+AssetStudioPy/AssetStudioUtility/AssetStudioFBXNative.dll
+AssetStudioPy/AssetStudioUtility/AssetStudioFBXWrapper.dll
+AssetStudioPy/AssetStudioUtility/AssetStudioUtility.dll
+AssetStudioPy/AssetStudioUtility/K4os.Compression.LZ4.dll
+AssetStudioPy/AssetStudioUtility/Mono.Cecil.Mdb.dll
+AssetStudioPy/AssetStudioUtility/Mono.Cecil.Pdb.dll
+AssetStudioPy/AssetStudioUtility/Mono.Cecil.Rocks.dll
+AssetStudioPy/AssetStudioUtility/Mono.Cecil.dll
+AssetStudioPy/AssetStudioUtility/SixLabors.Fonts.dll
+AssetStudioPy/AssetStudioUtility/SixLabors.ImageSharp.Drawing.dll
+AssetStudioPy/AssetStudioUtility/SixLabors.ImageSharp.dll
+AssetStudioPy/AssetStudioUtility/Texture2DDecoderNative.dll
+AssetStudioPy/AssetStudioUtility/Texture2DDecoderWrapper.dll
+AssetStudioPy/AssetStudioUtility/fmod.dll
