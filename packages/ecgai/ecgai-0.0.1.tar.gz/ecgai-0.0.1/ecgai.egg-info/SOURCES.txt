@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+ecgai.egg-info/PKG-INFO
+ecgai.egg-info/SOURCES.txt
+ecgai.egg-info/dependency_links.txt
+ecgai.egg-info/top_level.txt

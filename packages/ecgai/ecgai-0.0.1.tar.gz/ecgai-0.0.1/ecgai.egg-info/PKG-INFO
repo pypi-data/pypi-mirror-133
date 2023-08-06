@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ecgai
+Version: 0.0.1
+Summary: AI engine to analysis ECG's
+Home-page: https://github.com/Ecg-Ai-com/ecgai-training-data-physionet
+Author: Rob Clapham
+Author-email: 
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Ecg-Ai-com/ecgai-training-data-physionet/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# ECG-AI
+
+AI engine to analysis ECG's
+
+
