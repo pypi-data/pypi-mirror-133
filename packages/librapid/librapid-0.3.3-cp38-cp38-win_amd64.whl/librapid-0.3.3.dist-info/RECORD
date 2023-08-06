@@ -1,0 +1,8 @@
+librapid/__init__.py,sha256=fX0B8vJsdXpriFEXeOO1W5AKMXOXUtSmX3bAaZiZLw4,2091
+librapid/_librapid.cp38-win_amd64.pyd,sha256=UyMcEdojYUKKfmF2qw_5h4F1_eCIemmyMtUektTZQmE,2532864
+librapid-0.3.3.data/data/lib/site-packages/librapid/openblas.dll,sha256=lrag4ho25QA1C4vX2XorV-FgArBGUsii0PrqsN3ND7s,32344576
+librapid-0.3.3.dist-info/LICENSE,sha256=Gd-MHNgGWiZ2B7Vvq24LGpi3AtGRCct5d2vN1skhTwI,1086
+librapid-0.3.3.dist-info/METADATA,sha256=XFeYoIcDEEYY1o1XINFf7C2A4RvtckUSmBohkld8-fc,10368
+librapid-0.3.3.dist-info/WHEEL,sha256=gojHJ5NHNv248L7RMI6TvM8kAx1uPCwtAsLNeBRFtEI,94
+librapid-0.3.3.dist-info/top_level.txt,sha256=Zy1k91fqAOGCubeF3wqdeufpRPHuQFK3ZuchWqSrUTs,9
+librapid-0.3.3.dist-info/RECORD,,
