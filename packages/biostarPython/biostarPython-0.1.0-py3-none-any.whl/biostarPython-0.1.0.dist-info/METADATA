@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: biostarPython
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/biostar-dev/g-sdk/
+Author: SupremaUK
+Author-email: gcartlidge@supremainc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5.2
+License-File: LICENSE
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+
+UNKNOWN
+
