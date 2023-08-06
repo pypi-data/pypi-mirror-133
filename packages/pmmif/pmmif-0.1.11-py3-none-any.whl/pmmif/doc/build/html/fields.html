@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Field Descriptions &#8212; Predictive Modelling Metadata Interchange Format 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Data Description" href="data.html" />
+    <link rel="prev" title="Top-Level Structure" href="toplevel.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="data.html" title="Data Description"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="toplevel.html" title="Top-Level Structure"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Predictive Modelling Metadata Interchange Format 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="field-descriptions">
+<h1>Field Descriptions<a class="headerlink" href="#field-descriptions" title="Permalink to this headline">¶</a></h1>
+<p>Fields are described by a dictionary with some required and some optional keys. provision of all relevant keys is recommended, especially summary statistics
+such as min, man, nullcount, uniquevaluecount etc. is strongly recommnded.</p>
+<div class="section" id="required-keys-for-field-descriptions">
+<h2>Required Keys for Field Descriptions<a class="headerlink" href="#required-keys-for-field-descriptions" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p class="first"><code class="docutils literal"><span class="pre">name</span></code> (string): the name of the field.   PMMIF does not
+place any restrictions on the field names, but it is
+recommended that they always start with a letter and contain
+only letters, numbers and underscores for maximum cross-system
+usablity. Field Names are case sensitive, but it is recommended
+that multiple fields with names that differ only in capitalization
+are not used, again to maximize cross-system compatibility.</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">type</span></code> (string): the type of the field.
+PMMIF recognizes the following field types:</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">boolean</span></code> — values that are either <code class="docutils literal"><span class="pre">true</span></code> or <code class="docutils literal"><span class="pre">false</span></code></li>
+<li><code class="docutils literal"><span class="pre">integer</span></code> — integer values, possibly signed</li>
+<li><code class="docutils literal"><span class="pre">real</span></code> — floating-point values</li>
+<li><code class="docutils literal"><span class="pre">string</span></code> — string values, encoded as UTF-8</li>
+<li><code class="docutils literal"><span class="pre">datestamp</span></code> — a date-and-time stamp value, with or without a time zone, in  a format to be specified with another key, <code class="docutils literal"><span class="pre">format</span></code>, that is required when the type is <code class="docutils literal"><span class="pre">datestamp</span></code>.</li>
+</ul>
+</div></blockquote>
+<p>These strings are the only allowed values for field types.</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">role</span></code> (string): the role that the field plays in modelling.
+PMMIF requires that all fields be classified in one of the
+following ways to make clear its role in modelling:</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">independent</span></code> — a value that can be used in the model as an input for making predictions (also known as a <em>left-hand</em> or a <em>predictor</em> variable)</li>
+<li><code class="docutils literal"><span class="pre">dependent</span></code> — a value to be predicted by the model (also known as an <em>outcome</em>, an <em>objective</em>, a <em>target</em> or a <em>right-hand</em> variable).</li>
+<li><code class="docutils literal"><span class="pre">treatment</span></code> — a variable that describes which of a number of treatments a customer, patient or user (record) received. The values are not mandated, but it is recommended that one treatment be nominated as the control, using the <code class="docutils literal"><span class="pre">control</span></code> key.   Treatment fields may be integers, strings or booleans; if not specified, 0, False, “c”, “control” (in any case) will be preferred as control indicators.</li>
+<li><code class="docutils literal"><span class="pre">weight</span></code> — some kind of weight field, such as a case weight.</li>
+<li><code class="docutils literal"><span class="pre">validation</span></code> — an indicator of a fixed set of partitions of the data into different cross-validation segments.   No specific interpretation is put on the segments by PMMIF, though this can certainly be specified in notes.</li>
+<li><code class="docutils literal"><span class="pre">auxiliary</span></code> — some other kind of field to be used as none of the above, but perhaps to be used; for example, this might be a customer value field, in cases where this is to be used neither for prediction nor as an outcome, but might be used in ROI calculation, for example.</li>
+<li><code class="docutils literal"><span class="pre">ignore</span></code> – a field that should be discarded.</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="optional-keys-for-field-descriptions">
+<h2>Optional Keys for Field Descriptions<a class="headerlink" href="#optional-keys-for-field-descriptions" title="Permalink to this headline">¶</a></h2>
+<p>There are various kinds of option keys that we may distinguish:</p>
+<div class="section" id="clarification-keys">
+<h3>Clarification Keys<a class="headerlink" href="#clarification-keys" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><dl class="first docutils">
+<dt><code class="docutils literal"><span class="pre">tags</span></code>. Tags provide extra information afbout how to use or interpret the data in a field.   Recognized tag values are:</dt>
+<dd><ul class="first last">
+<li><code class="docutils literal"><span class="pre">categorical</span></code>: this applies to a string field or integer fields and indicates that the different values represent distinct categories that are not ordered but which can sensibly be used for analysis.</li>
+<li><code class="docutils literal"><span class="pre">ordinal</span></code>: for string fields, this indicates that the strings represent some kind of rank.   In this case, the <code class="docutils literal"><span class="pre">values</span></code> key should always be specified and should list the values in rank order, from low to high.</li>
+<li><code class="docutils literal"><span class="pre">unique</span></code>: this indicates that there are (should be) no duplicate values in the field</li>
+<li><code class="docutils literal"><span class="pre">maximize</span></code> or <code class="docutils literal"><span class="pre">minimize</span></code>: While the goal of predictive modelling is typically to fit the data, it is often the case that the records of interest are either the higher or lower values, and for reporting, it is often useful to know which.   A maximize tag means that the high values are of primary interest (e.g. for a response problem.   Correspondingly, <code class="docutils literal"><span class="pre">minimize</span></code> means that the low values are of more interest (e.g. for example, when customer attrition is marked as a 1).</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><code class="docutils literal"><span class="pre">values</span></code>.</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="summary-statistics">
+<h3>Summary Statistics<a class="headerlink" href="#summary-statistics" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">stats</span></code></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="annotations">
+<h3>Annotations<a class="headerlink" href="#annotations" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">longname</span></code></li>
+<li><code class="docutils literal"><span class="pre">description</span></code></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Field Descriptions</a><ul>
+<li><a class="reference internal" href="#required-keys-for-field-descriptions">Required Keys for Field Descriptions</a></li>
+<li><a class="reference internal" href="#optional-keys-for-field-descriptions">Optional Keys for Field Descriptions</a><ul>
+<li><a class="reference internal" href="#clarification-keys">Clarification Keys</a></li>
+<li><a class="reference internal" href="#summary-statistics">Summary Statistics</a></li>
+<li><a class="reference internal" href="#annotations">Annotations</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="toplevel.html"
+                        title="previous chapter">Top-Level Structure</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="data.html"
+                        title="next chapter">Data Description</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/fields.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="data.html" title="Data Description"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="toplevel.html" title="Top-Level Structure"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Predictive Modelling Metadata Interchange Format 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012, Nicholas J. Radcliffe.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>

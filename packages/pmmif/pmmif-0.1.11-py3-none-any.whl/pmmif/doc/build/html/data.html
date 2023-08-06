@@ -1,0 +1,185 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Data Description &#8212; Predictive Modelling Metadata Interchange Format 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Field Descriptions" href="fields.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="fields.html" title="Field Descriptions"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Predictive Modelling Metadata Interchange Format 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="data-description">
+<h1>Data Description<a class="headerlink" href="#data-description" title="Permalink to this headline">¶</a></h1>
+<p>PMM is primarily for describing metadata associated with datasets.
+However, it is also useful for it to be able to describe how data
+is stored. The data section allows this.</p>
+<div class="section" id="optional-key-flatfile">
+<h2>Optional key: <code class="docutils literal"><span class="pre">flatfile</span></code><a class="headerlink" href="#optional-key-flatfile" title="Permalink to this headline">¶</a></h2>
+<p>This describes data stored in a flat file (often referred to generically
+as “CSV” files, originally standing for <em>comma-separated file</em>, but now
+sometimes used even for files with other separators).</p>
+<div class="section" id="name">
+<h3>name<a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h3>
+<p>The name describes where to find the data on disk.
+It can be any string, and can be a full path
+(e.g. <code class="docutils literal"><span class="pre">&quot;/usr/local/data/hillstrom.txt&quot;</span></code>) or a relative path
+(such as (<code class="docutils literal"><span class="pre">&quot;hillstrom.txt&quot;</span></code>)).</p>
+</div>
+<div class="section" id="format">
+<h3>format<a class="headerlink" href="#format" title="Permalink to this headline">¶</a></h3>
+<p>This describes information about how the data is stored in the flat file.</p>
+<p>There are three mandatory keys:</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal"><span class="pre">encoding</span></code> (string): <code class="docutils literal"><span class="pre">&quot;UTF-8&quot;</span></code> is recommended.</li>
+<li><code class="docutils literal"><span class="pre">separator</span></code> (string): Usually a single character, often <code class="docutils literal"><span class="pre">&quot;,&quot;</span></code>.</li>
+<li><code class="docutils literal"><span class="pre">headerrowcount</span></code> (integer): number of rows in the flat file before the data (most commonly containing field names).</li>
+</ul>
+</div></blockquote>
+<p>There are also optional keys:</p>
+<blockquote>
+<div><ul>
+<li><dl class="first docutils">
+<dt><code class="docutils literal"><span class="pre">quote</span></code> (string): Usually empty (<code class="docutils literal"><span class="pre">&quot;&quot;</span></code>),</dt>
+<dd><p class="first last">a single quote (<code class="docutils literal"><span class="pre">&quot;'&quot;</span></code>) or a double quote (<code class="docutils literal"><span class="pre">&quot;\&quot;&quot;</span></code>).
+There is no provision for multiple quote characters at this stage.
+It is recommended that flat-file readers based on PMM interpret
+always accept unquoted strings even if a quote character is present.</p>
+</dd>
+</dl>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">escape</span></code> (string): Usually backslash (<code class="docutils literal"><span class="pre">&quot;\\&quot;</span></code>). The escape character
+is used primarily to all the quote character and itself to be
+included in strings by preceding them with the escape character.
+If set to the empty string, there is no escaping.</p>
+<p>Regardless of the setting of escape, flat file readers may choose to
+accept escape sequences for special characters, especially <code class="docutils literal"><span class="pre">\n</span></code>
+for newline.</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">nullmarker</span></code> (string): This is used to describe how nulls (missing
+values) are listed in the file. If not specifed at all, null values
+are not allowed in the file. Often set to the empty string (<code class="docutils literal"><span class="pre">&quot;&quot;</span></code>)
+or a marker such as <code class="docutils literal"><span class="pre">NULL</span></code>.</p>
+</li>
+<li><p class="first"><code class="docutils literal"><span class="pre">dateformat</span></code> (string): This describes the datestamp format used
+in the file. When writing data, it is normally preferable to
+use the same format for all datestamp fields. However, individual
+fields can also specify a date format, which will override this
+overall setting. This is necessary if a file already contains dates
+in mixed formats.</p>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="future-extensions">
+<h3>Future extensions<a class="headerlink" href="#future-extensions" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><ul class="simple">
+<li>End-of-line nulls (cf. excel)</li>
+<li>Bad encoding handling?</li>
+<li>Byte-order markers</li>
+<li>Strictness specifiers</li>
+<li>Literal newlines in files</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Data Description</a><ul>
+<li><a class="reference internal" href="#optional-key-flatfile">Optional key: <code class="docutils literal"><span class="pre">flatfile</span></code></a><ul>
+<li><a class="reference internal" href="#name">name</a></li>
+<li><a class="reference internal" href="#format">format</a></li>
+<li><a class="reference internal" href="#future-extensions">Future extensions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="fields.html"
+                        title="previous chapter">Field Descriptions</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/data.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="fields.html" title="Field Descriptions"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Predictive Modelling Metadata Interchange Format 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2012, Nicholas J. Radcliffe.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+    </div>
+  </body>
+</html>
