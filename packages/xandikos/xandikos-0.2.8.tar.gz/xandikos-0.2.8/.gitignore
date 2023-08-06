@@ -1,0 +1,16 @@
+*.pyc
+*~
+build/
+.testrepository/
+MANIFEST
+.tox/
+.*.sw?
+.coverage
+htmlcov/
+dist
+.pybuild
+*.egg*
+child.log
+debug.log
+.mypy_cache
+.stestr
