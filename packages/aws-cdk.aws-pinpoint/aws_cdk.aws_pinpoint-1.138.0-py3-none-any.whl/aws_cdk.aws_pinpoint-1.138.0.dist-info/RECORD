@@ -1,0 +1,10 @@
+aws_cdk/aws_pinpoint/__init__.py,sha256=1eZHOM4xkDk53Ike2gp-Y_eAv0njUmU7-NFV6BU7Chw,671292
+aws_cdk/aws_pinpoint/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_pinpoint/_jsii/__init__.py,sha256=68bPEF1i320wq1m31x1Al7jUfXi0W98lIbd9RHHTPTw,375
+aws_cdk/aws_pinpoint/_jsii/aws-pinpoint@1.138.0.jsii.tgz,sha256=F89aZOqdtOiNnG9Vl825C1Fs-4aWJr1YujDD2DfAhX4,223632
+aws_cdk.aws_pinpoint-1.138.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_pinpoint-1.138.0.dist-info/METADATA,sha256=Bd7KQ4TNfPxDba31W1RN8qcJ98wjo5Bk5lskpfH3CuU,2490
+aws_cdk.aws_pinpoint-1.138.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_pinpoint-1.138.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_pinpoint-1.138.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_pinpoint-1.138.0.dist-info/RECORD,,
