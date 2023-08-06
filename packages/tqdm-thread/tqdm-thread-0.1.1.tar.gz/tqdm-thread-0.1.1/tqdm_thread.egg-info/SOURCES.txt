@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+tqdm_thread/__init__.py
+tqdm_thread.egg-info/PKG-INFO
+tqdm_thread.egg-info/SOURCES.txt
+tqdm_thread.egg-info/dependency_links.txt
+tqdm_thread.egg-info/requires.txt
+tqdm_thread.egg-info/top_level.txt
