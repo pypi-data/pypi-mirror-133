@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: indis
+Version: 0.1.0
+Summary: indis - Icinga native director import service
+Home-page: https://github.com/opsdis/indis
+Author: thenodon
+Author-email: ahaal@redbridge.se
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+License-File: COPYING
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: redis (==4.1.0)
+
+UNKNOWN
+
