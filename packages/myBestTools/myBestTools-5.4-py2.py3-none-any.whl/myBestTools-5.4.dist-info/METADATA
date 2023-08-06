@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: myBestTools
+Version: 5.4
+Summary: my Tool
+Home-page: UNKNOWN
+Author: Du HongYu
+Author-email: 837058201@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pika
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: redis
+Requires-Dist: pymysql
+Requires-Dist: pymongo
+Requires-Dist: wrapt
+
+UNKNOWN
+
+
