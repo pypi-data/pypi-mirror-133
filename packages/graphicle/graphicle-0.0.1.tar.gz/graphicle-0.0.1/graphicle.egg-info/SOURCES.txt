@@ -1,0 +1,15 @@
+.gitignore
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/publish-to-pypi.yml
+graphicle/__init__.py
+graphicle/_version.py
+graphicle/matrices.py
+graphicle.egg-info/PKG-INFO
+graphicle.egg-info/SOURCES.txt
+graphicle.egg-info/dependency_links.txt
+graphicle.egg-info/requires.txt
+graphicle.egg-info/top_level.txt
