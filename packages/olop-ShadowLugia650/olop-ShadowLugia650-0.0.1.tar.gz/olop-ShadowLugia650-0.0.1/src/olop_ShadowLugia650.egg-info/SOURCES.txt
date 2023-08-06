@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/olop_ShadowLugia650.egg-info/PKG-INFO
+src/olop_ShadowLugia650.egg-info/SOURCES.txt
+src/olop_ShadowLugia650.egg-info/dependency_links.txt
+src/olop_ShadowLugia650.egg-info/top_level.txt
+src/olp/__init__.py
+src/olp/oldec.py
+src/olp/oldec_cmd.py
+src/olp/olp.py
