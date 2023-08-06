@@ -1,0 +1,8 @@
+aurora-display-lib>=1.0.0.dev20220104173716
+
+[deploy]
+bump2version
+
+[test]
+testfixtures>=1.2.0
+pytest>=3.4.0
