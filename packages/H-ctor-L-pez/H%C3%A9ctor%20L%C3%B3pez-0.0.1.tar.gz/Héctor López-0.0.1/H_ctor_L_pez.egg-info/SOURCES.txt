@@ -1,0 +1,4 @@
+H_ctor_L_pez.egg-info/PKG-INFO
+H_ctor_L_pez.egg-info/SOURCES.txt
+H_ctor_L_pez.egg-info/dependency_links.txt
+H_ctor_L_pez.egg-info/top_level.txt
