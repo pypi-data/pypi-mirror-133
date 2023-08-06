@@ -1,0 +1,3 @@
+[console_scripts]
+sde=snyk_depxtractor.cli:cli
+
