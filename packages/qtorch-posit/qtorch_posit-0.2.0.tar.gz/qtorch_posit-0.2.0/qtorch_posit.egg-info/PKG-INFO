@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: qtorch-posit
+Version: 0.2.0
+Summary: Low-Precision Arithmetic Simulation in Pytorch - Extension for Posit
+Home-page: UNKNOWN
+Author: Extension: Minh Ho, Himeshi, Original: Tianyi Zhang, Zhiqiu Lin, Guandao Yang, Christopher De Sa,
+Author-email: minhhn@comp.nus.edu.sg
+License: MIT
+Project-URL: Documentation, https://qpytorch.readthedocs.io
+Project-URL: Source, https://github.com/minhhn2910/QPyTorch
+Description: # Extended version of QPytorch
+        #### Author: minhhn2910@github, himeshi@github
+        ## Migration and change of package name
+        
+           We have developed multiple new funcionalities and have published the updated version under the new name: qtoch-plus. 
+           
+           The new version supports arbitrary number of bit for posit (instead of only 16,8,6,4 bitwidth are supported in this version). We also support crafting customized number format with no restriction on the number of bit and the generating rules. More details on our github and in the new pip page:  
+           
+           [https://pypi.org/project/qtorch-posit](https://pypi.org/project/qtorch-plus)
+        
+        
+        
+        #### This is developed based on the original QPyTorch package. The below is the original README file and acknowlegement 
+        ## Original Qpytorch:
+        [![Downloads](https://pepy.tech/badge/qtorch)](https://pepy.tech/project/qtorch) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+        
+        ## Original QPyTorch team
+        * [Tianyi Zhang](https://scholar.google.com/citations?user=OI0HSa0AAAAJ&hl=en)
+        * Zhiqiu Lin
+        * [Guandao Yang](http://www.guandaoyang.com/)
+        * [Christopher De Sa](http://www.cs.cornell.edu/~cdesa/)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
