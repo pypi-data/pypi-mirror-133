@@ -1,0 +1,11 @@
+devcontainers4all/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devcontainers4all/cli.py,sha256=udyDOGfXF887y4UqhstWV4az5U4euH7WOq3t0XyUA-Y,807
+devcontainers4all/docker.py,sha256=z9P0dtQctJ2_9wa57k-PM0gqwkUIKLocGYSuoU2Z3ok,3418
+devcontainers4all/factories.py,sha256=p3d9VL10OlVJ8Eqp-JbzbW-saPU3A-W8R7920pKBIUk,1128
+devcontainers4all/interfaces.py,sha256=rmr__rRvaPpshMsf5_ril6KOOactTlJLePn5mJ_WyVY,1025
+devcontainers4all/utils.py,sha256=ix3mU8V5OPDILT177a0Plveq8uErBfSlye3eEJF8qw4,532
+devcontainers4all/vsc.py,sha256=GwZL_pcbq4oS3KrlhOtKWPyD7yBlIAciMogfYhY9YWE,880
+devcontainers4all-0.1.0.dist-info/entry_points.txt,sha256=i2SK2_TSypKEbp3uILfMWv9u4tyqNOmh9JJ7XZVoe6c,48
+devcontainers4all-0.1.0.dist-info/WHEEL,sha256=FMw6u7Kp3jrdDDtJRZ3hkPV-9adLQT8pbM4iifKUGfw,85
+devcontainers4all-0.1.0.dist-info/METADATA,sha256=-RYeZB4kluKslvoz9pvZjxK_eZoLQgijxaY2qvq85dM,698
+devcontainers4all-0.1.0.dist-info/RECORD,,
