@@ -1,0 +1,4 @@
+blessings
+PyYAML
+requests
+xmltodict
