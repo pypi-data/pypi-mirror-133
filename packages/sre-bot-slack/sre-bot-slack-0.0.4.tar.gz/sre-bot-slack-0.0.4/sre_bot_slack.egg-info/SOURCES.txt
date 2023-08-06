@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sre_bot_slack/__init__.py
+sre_bot_slack/slack.py
+sre_bot_slack.egg-info/PKG-INFO
+sre_bot_slack.egg-info/SOURCES.txt
+sre_bot_slack.egg-info/dependency_links.txt
+sre_bot_slack.egg-info/requires.txt
+sre_bot_slack.egg-info/top_level.txt
