@@ -1,0 +1,10 @@
+setup.py
+zainy1453_distributions/Binomialdistribution_challenge.py
+zainy1453_distributions/Gaussiandistribution.py
+zainy1453_distributions/Generaldistribution.py
+zainy1453_distributions/__init__.py
+zainy1453_distributions.egg-info/PKG-INFO
+zainy1453_distributions.egg-info/SOURCES.txt
+zainy1453_distributions.egg-info/dependency_links.txt
+zainy1453_distributions.egg-info/not-zip-safe
+zainy1453_distributions.egg-info/top_level.txt
