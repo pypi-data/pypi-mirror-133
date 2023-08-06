@@ -1,0 +1,7 @@
+setup.py
+attributesDir/__init__.py
+attributesDir/attributesDir.py
+attributesDir.egg-info/PKG-INFO
+attributesDir.egg-info/SOURCES.txt
+attributesDir.egg-info/dependency_links.txt
+attributesDir.egg-info/top_level.txt

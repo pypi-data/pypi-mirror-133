@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: attributesDir
+Version: 1.0.3
+Summary: change type(attribute).__name__ == 'methos' to 'method' and delete entry_points in setup function
+Home-page: https://gitee.com/ld269440877/tools/blob/master/my_modules/dir_objectName.py
+Author: Dillon
+Author-email: aa269440877@outlook.com
+License: MIT Licence
+Keywords: dir,dir_object,classify,modules,function_or_method,class,functions,methods,constants,format_dir
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+
+Print and return an alphabetized list of names, which
+    have a number and background color if print them, comprising (some of)
+    the attributes of the given object, and of attributes reachable from it.
+    
+
