@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+opia/__init__.py
+opia.egg-info/PKG-INFO
+opia.egg-info/SOURCES.txt
+opia.egg-info/dependency_links.txt
+opia.egg-info/requires.txt
+opia.egg-info/top_level.txt
+opia/docs/__init__.py
+opia/geography/__init__.py
+opia/geography/distance.py
+opia/tests/__init__.py
