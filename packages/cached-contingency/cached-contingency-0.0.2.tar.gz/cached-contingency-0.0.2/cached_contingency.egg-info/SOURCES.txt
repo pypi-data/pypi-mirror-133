@@ -1,0 +1,13 @@
+LICENCE.md
+README.md
+setup.py
+cached_contingency/CachedBoschloo.py
+cached_contingency/CachedContingency.py
+cached_contingency/CachedFisher.py
+cached_contingency/CachedFunction.py
+cached_contingency/__init__.py
+cached_contingency.egg-info/PKG-INFO
+cached_contingency.egg-info/SOURCES.txt
+cached_contingency.egg-info/dependency_links.txt
+cached_contingency.egg-info/requires.txt
+cached_contingency.egg-info/top_level.txt
