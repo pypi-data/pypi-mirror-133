@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/first/__init__.py
+src/first/utils.py
+src/myfirstazibit.egg-info/PKG-INFO
+src/myfirstazibit.egg-info/SOURCES.txt
+src/myfirstazibit.egg-info/dependency_links.txt
+src/myfirstazibit.egg-info/top_level.txt
