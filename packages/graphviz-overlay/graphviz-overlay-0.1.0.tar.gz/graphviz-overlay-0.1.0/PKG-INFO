@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: graphviz-overlay
+Version: 0.1.0
+Summary: Generate templated graphviz source files from structured data
+License: MIT
+Author: Ronni Elken Lindsgaard
+Author-email: ronni.lindsgaard@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: graphviz (>=0.19.1,<0.20.0)
