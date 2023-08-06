@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: outputformat
+Version: 0.1.2
+Summary: Decorate and beautify output
+Home-page: https://github.com/delestro/outputformat
+Author: Felipe Delestro
+Author-email: delestro@gmail.com
+License: MIT
+Download-URL: https://github.com/delestro/outputformat/archive/refs/tags/v0.1.2.tar.gz
+Description: It is recommended to use ouf as shortcut for outputformat import outputformat as ouf
+        Main functions are:
+        * ouf.boxtitle
+        * ouf.linetitle
+        * ouf.bigtitle
+        * ouf.showlist
+        * ouf.bar
+        * ouf.barlist
+        By default, functions print the result
+        .You have the alternative to return a string instead, by passing the argument return_str=True
+        (nothing will be printed in this case).
+Keywords: output,print,decorate,format,string,beautify
+Platform: UNKNOWN
+Requires-Python: >=3.6
