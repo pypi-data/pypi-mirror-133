@@ -1,0 +1,4 @@
+[console_scripts]
+pd=pd_cli.main:app
+python-deploy=pd_cli.main:app
+

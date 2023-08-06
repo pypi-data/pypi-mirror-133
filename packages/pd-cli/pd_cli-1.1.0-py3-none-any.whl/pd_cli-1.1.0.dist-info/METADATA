@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: pd-cli
+Version: 1.1.0
+Summary: CLI for https://pythondeploy.co/.
+Home-page: https://github.com/pythondeploy/cli
+License: BSD-3-Clause
+Author: Federico Jaramillo Martínez
+Author-email: federicojaramillom@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boto3 (>=1.20.5,<2.0.0)
+Requires-Dist: docker (>=5.0.3,<6.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Description-Content-Type: text/x-rst
+
+=================
+Python Deploy CLI
+=================
+
+.. image:: https://badge.fury.io/py/pd-cli.svg
+    :target: https://badge.fury.io/py/pd-cli
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+    :target: https://github.com/ambv/black
+
+
+Usage
+-----
+
+1. Install `pd_cli` with `pipx`_.
+
+   .. code-block:: console
+
+    pipx install pd_cli
+
+2. Run `python-deploy --help` (or `pd --help`)
+
+`Python Deploy`_
+
+.. _Python Deploy: https://pythondeploy.co
+.. _pipx: https://pythondeploy.co
+
