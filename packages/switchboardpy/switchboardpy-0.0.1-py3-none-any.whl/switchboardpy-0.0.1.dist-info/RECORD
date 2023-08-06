@@ -1,0 +1,15 @@
+switchboardpy/__init__.py,sha256=bI8G9LHZ0yCjaW_1OqP8Borpx3vuQtyndx0o664fM1U,1284
+switchboardpy/aggregator.py,sha256=2MX8Pu3IowW08mDZ0t8YVItjXftP9CUuyhw1guiKHMw,27557
+switchboardpy/common.py,sha256=x39tb7Qp05ysBtHN3YD9sJoFxfiF2hJD-fxrlUmizaM,1900
+switchboardpy/compiled.py,sha256=N7w06fNECJ9GBaqT0E0VSBmJ9rsXcQrmecEhaqi1vQ4,16746
+switchboardpy/crank.py,sha256=bFn2u3E_fg5BgoAweBGiZNcY6unzV3gpu92A0Gvv58c,5381
+switchboardpy/job.py,sha256=81FzJHV0a-sit5UNIfsTzbslpE917u3AgrAhOkcHAd8,5176
+switchboardpy/lease.py,sha256=r0_Ns4VeMLG6pGXQ9mkc9EVWFUDs2d3EAiRgdZFgkH8,4038
+switchboardpy/oracle.py,sha256=AKRJWfzWnnuRFLo4y-s82U_XbsaA0XB7Qm359yNqu94,4347
+switchboardpy/oraclequeue.py,sha256=XGLm0Uggr2ehGMvpyUAOLFkJfvVPnsQ7Bw44-a0U3zk,3608
+switchboardpy/permission.py,sha256=Uh4VSlvbwdtByLxvq0Rvr1xHoKurxjZDhvxRLNcl_ls,5171
+switchboardpy/program.py,sha256=LFIztTLxXXddx_rwcGpdPJrKG4bl2q416jfSqXa1IYo,6507
+switchboardpy-0.0.1.dist-info/LICENSE,sha256=LO72cM7WU5_zDpPbmT6PxQJ_OhzsGDhP0zjgD_4E3mQ,1068
+switchboardpy-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+switchboardpy-0.0.1.dist-info/METADATA,sha256=Yks8Y1_0LRigYKDtz0yEbSe4M82H3vDFbCO8QnGKfPs,2183
+switchboardpy-0.0.1.dist-info/RECORD,,
