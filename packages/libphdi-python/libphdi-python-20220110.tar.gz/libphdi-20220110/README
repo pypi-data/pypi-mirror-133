@@ -1,0 +1,21 @@
+libphdi is a library to access the Parallels Hard Disk image (PHDI) format.
+
+Project information:
+
+* Status: experimental
+* Licence: LGPLv3+
+
+Read supported file formats:
+
+* Version 2
+
+PHDI format features not supported at the moment:
+
+* Version 1
+* Snapshots
+
+For more information see:
+
+* Project documentation: https://github.com/libyal/libphdi/wiki/Home
+* How to build from source: https://github.com/libyal/libphdi/wiki/Building
+
