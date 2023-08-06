@@ -1,0 +1,17 @@
+stos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stos/sign_to_speech/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stos/sign_to_speech/model.py,sha256=L5Ff6sM_5U-PySBqa4vUdzdbxpfljvTcI2335e_KnMM,7656
+stos/sign_to_speech/model_prepare.py,sha256=ClxY3tWsqd5foZlARx5Z9yBzSkv1RP-WwY6ukwMgeE8,627
+stos/sign_to_speech/parser.py,sha256=V9Y1hr0Fp1IRv0EJlskN5osPGSpK2IeKEcWF87ii1xI,1004
+stos/sign_to_speech/sign_to_speech.py,sha256=GdekbImEWoUfk64mEp68GvpU05-D2hVl8Rw0Fg1zeGI,3201
+stos/sign_to_speech/speak.py,sha256=OyJWCElFa5kMMHyDuqgSBnTOx3vzzOIsMhQ3_5P8p5U,1359
+stos/speech_to_sign/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stos/speech_to_sign/animate.py,sha256=Yhd1qLfK2WvaT_DAQ_AqId2grOHZ1zmSXNX5wYHD3X8,2851
+stos/speech_to_sign/audio_recording.py,sha256=Gyp1ErMKxZF6PTil34cXzu11o_1T87oTAOv0CNyw4lo,1205
+stos/speech_to_sign/speech_to_sign.py,sha256=Z5K4d_tr8dZi4AaPVlqB-oqR_J5MwdPCTh7D4_Waxio,2282
+stos/speech_to_sign/speech_to_text.py,sha256=sjAcp4ISQKgAzHXeQ0jNIE_rZo2UJsm-1cFKyJdUsKk,2042
+stos-1.0.2.dist-info/LICENCE,sha256=vhH2peYczf3xG6fR6FFem_hypCjWtJGYRh2-kheMq_M,1118
+stos-1.0.2.dist-info/METADATA,sha256=eFi-uDzS3vjYBgK-p2Wya4ko6rFuJ75zHeRaCKphQ1U,7020
+stos-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stos-1.0.2.dist-info/top_level.txt,sha256=6xsysUkyTxTyz0bR6RLdUi9I0kly4zFTBacG_FuFepA,5
+stos-1.0.2.dist-info/RECORD,,

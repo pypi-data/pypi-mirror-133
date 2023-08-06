@@ -1,0 +1,201 @@
+Metadata-Version: 2.1
+Name: stos
+Version: 1.0.2
+Summary: Converting the American sign language into speech or text, and vice versa.
+Home-page: https://github.com/azizmousa/sign_language_translator
+Author: azizmousa
+Author-email: azizmousa1010@gmail.com
+License: MIT
+Keywords: ASL translation
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: Keras-Preprocessing (==1.1.2)
+Requires-Dist: Markdown (==3.3.6)
+Requires-Dist: Pillow (==8.4.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: SpeechRecognition (==3.8.1)
+Requires-Dist: Werkzeug (==2.0.2)
+Requires-Dist: absl-py (==1.0.0)
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: aiosignal (==1.2.0)
+Requires-Dist: astunparse (==1.6.3)
+Requires-Dist: async-timeout (==4.0.2)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: cachetools (==4.2.4)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: cffi (==1.15.0)
+Requires-Dist: charset-normalizer (==2.0.9)
+Requires-Dist: click (==8.0.3)
+Requires-Dist: cycler (==0.11.0)
+Requires-Dist: datasets (==1.17.0)
+Requires-Dist: dill (==0.3.4)
+Requires-Dist: filelock (==3.4.1)
+Requires-Dist: flatbuffers (==2.0)
+Requires-Dist: fonttools (==4.28.1)
+Requires-Dist: frozenlist (==1.2.0)
+Requires-Dist: fsspec (==2021.11.1)
+Requires-Dist: gTTS (==2.2.3)
+Requires-Dist: gast (==0.4.0)
+Requires-Dist: google-auth-oauthlib (==0.4.6)
+Requires-Dist: google-auth (==2.3.3)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: grpcio (==1.43.0)
+Requires-Dist: h5py (==3.6.0)
+Requires-Dist: happytransformer (==2.4.0)
+Requires-Dist: huggingface-hub (==0.2.1)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.10.0)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: keras (==2.7.0)
+Requires-Dist: kiwisolver (==1.3.2)
+Requires-Dist: libclang (==12.0.0)
+Requires-Dist: matplotlib (==3.5.0)
+Requires-Dist: mediapipe (==0.8.9)
+Requires-Dist: multidict (==5.2.0)
+Requires-Dist: multiprocess (==0.70.12.2)
+Requires-Dist: nltk (==3.6.6)
+Requires-Dist: numpy (==1.21.4)
+Requires-Dist: oauthlib (==3.1.1)
+Requires-Dist: opencv-contrib-python (==4.5.4.58)
+Requires-Dist: opencv-python (==4.5.4.58)
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandas (==1.3.4)
+Requires-Dist: playsound (==1.3.0)
+Requires-Dist: protobuf (==3.19.1)
+Requires-Dist: pyarrow (==6.0.1)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pyparsing (==3.0.6)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: regex (==2021.11.10)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: rsa (==4.8)
+Requires-Dist: sacremoses (==0.0.46)
+Requires-Dist: sentencepiece (==0.1.96)
+Requires-Dist: setuptools-scm (==6.3.2)
+Requires-Dist: simplejson (==3.17.6)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sounddevice (==0.4.3)
+Requires-Dist: tensorboard-data-server (==0.6.1)
+Requires-Dist: tensorboard-plugin-wit (==1.8.0)
+Requires-Dist: tensorboard (==2.7.0)
+Requires-Dist: tensorflow-estimator (==2.7.0)
+Requires-Dist: tensorflow-io-gcs-filesystem (==0.23.1)
+Requires-Dist: tensorflow (==2.7.0)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: tokenizers (==0.10.3)
+Requires-Dist: tomli (==1.2.2)
+Requires-Dist: torch (==1.10.1)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: transformers (==4.15.0)
+Requires-Dist: typing-extensions (==4.0.1)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: wavio (==0.0.4)
+Requires-Dist: wrapt (==1.13.3)
+Requires-Dist: xxhash (==2.0.2)
+Requires-Dist: yarl (==1.7.2)
+Requires-Dist: zipp (==3.6.0)
+
+# **Sign to speech (StoS):**
+Converting the American sign language into speech, and vice versa.
+
+# **Project Description:**
+StoS is a python library, created by a team from the Egyptian information technology institute (ITI) as their graduation project.
+
+The main purpose of the library is converting the American sign language to speech, and vice versa, this is achieved by using deep learning, NLP, and computer vision. The first release of the project is limited only to the following 50 common English word:
+```
+[age, book, call, car, day, Egypt, English, enjoy, every, excuse, football, forget, fun, good, hate, have, hello, help, 
+holiday, I, am, love, meet, month, morning, my, NA, name, nice, no, not, number, okay, picture, play, read, ride, run, 
+sorry, speak, sport, take, thanks, time, today, understand, what, when, where, year, yes, you, your]
+```
+
+## **StoS is divided into two main pipelines:**
+>## **1. sign to speech:**
+>
+In sign to speech pipeline, the primary role is converting the streamed American sign language videos into a set of sentences, or voice, using NLP pipeline, after being predicated by our DL model.
+
+The output of that DL model is a list of words, so in order to construct a basic English sentences, these words will pass through NLP model for modification, and sentence construction and correction. As a result of the previous processes, we will have an English text, which is grammatically correct, and can be converted into audio clip up to the user preferences.  
+
+> 
+>## 2.	**speech to sign:**
+>
+>
+This pipeline controls the translation process of the streamed speech into American sign language video. 
+
+
+# Work Flow
+<p align="center"><img src="images/flow_chart.png" width="800"\></p>
+
+# Model Structure
+<p align="center"><img src="images/model.png" width="800"\></p>
+
+# Training Result
+<p align="center"><img src="images/training_acc.png" width="800"\></p>
+<p align="center"><img src="images/training_loss.png" width="800"\></p>
+
+# Prerequisites
+- python 3.8
+- OpenCV
+
+# Installation
+```bash
+pip install stos
+```
+
+# How to use
+#### **To Convert Sign to Speech**
+
+```python
+import os
+from cv2 import cv2
+from stos.sign_to_speech.sign_to_speech import SignToSpeech
+
+sts = SignToSpeech(1, 20, os.path.join('model', 'cv_model.hdf5'), os.path.join('model', 'names'),
+                   display_keypoint=True, display_window=False)
+for word, frame in sts.start_pipeline():
+    cv2.imshow('frame', frame)
+    key = cv2.waitKey(1)
+    if key == ord('q'):
+        exit(0)
+```
+
+#### **To Convert Speech to Sign**
+
+```python
+from cv2 import cv2
+from stos.speech_to_sign.speech_to_sign import SpeechToSign
+
+sts = SpeechToSign(10)
+for frame in sts.start_pipeline():
+    cv2.imshow('frame', frame)
+    key = cv2.waitKey(1)
+    if key == ord('q'):
+        exit(0)
+```
+
+# **Contributors:**
+
+- Abdelaziz Gamal Mousa
+- Amira Mohammed Abd Elmajeed
+- Habiba Khaled Ibrahim
+- Sara Hesham Hassan
+- Amal Abdalah Saad
+- Abdallah Gaber Ahmed Elsharawy
+- Ahmed Mohamed Ibrahem Sayed
+- Mohamed Hany Ahmed Abdelaty
+- Mostafa Gaber Aboelghit Abdou Elraghy
+- Muhammad Ayman Muhammad El-sawy
+- Ahmed Tarek Mansour Al Ashry
+
+# Licence
+[MIT Licence](https://github.com/azizmousa/sign_language_translator/blob/master/LICENCE)
+
+
