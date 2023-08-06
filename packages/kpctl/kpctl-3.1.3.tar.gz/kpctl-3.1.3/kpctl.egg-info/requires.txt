@@ -1,0 +1,4 @@
+cairosvg
+oauthlib
+requests
+requests_oauthlib
