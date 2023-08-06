@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tempfolderpy
+Version: 1.0.0
+Summary: For python, light-weight and cross-platform temporary folder manager
+Home-page: https://github.com/bilinenkisi/tempy
+Author: Mehmet Berkay Özbay
+Author-email: <berkayozbay64@gmail.com>
+License: UNKNOWN
+Keywords: python,tempfolderpy,TEMPFOLDERPY,tempfolder-python,tempfolder manager for python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: licence
+Requires-Dist: filelock (==3.4.2)
+
+UNKNOWN
+
