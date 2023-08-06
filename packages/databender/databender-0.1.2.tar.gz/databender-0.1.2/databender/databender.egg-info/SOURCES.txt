@@ -1,0 +1,8 @@
+LICENSE.py
+README.md
+pyproject.toml
+setup.cfg
+databender/databender.egg-info/PKG-INFO
+databender/databender.egg-info/SOURCES.txt
+databender/databender.egg-info/dependency_links.txt
+databender/databender.egg-info/top_level.txt
