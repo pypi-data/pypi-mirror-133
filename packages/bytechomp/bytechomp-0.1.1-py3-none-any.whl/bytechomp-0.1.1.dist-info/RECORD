@@ -1,0 +1,10 @@
+LICENSE,sha256=tFTn313rNJytSCOaghaSLPqvaC5bmkqYAH2OY_QV7Ic,1078
+bytechomp/__init__.py,sha256=qJvqUcHlaXyUFz-KteG4rwMD6kcmVHfJPYG3hfLR3-0,160
+bytechomp/data_descriptor.py,sha256=IXVlfq0obDxYUhAyDjJuRu1j7wRmGX0MlYPs7euNN9c,9210
+bytechomp/datatypes.py,sha256=fsJYpcUJ0iZSODxrxT7QMqI5MEWLlzL0uhlF34mTlWg,1826
+bytechomp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bytechomp/reader.py,sha256=XC7b_ViHR3LoAEoyzLvibTzetUUd3xa0QboYHsdpILc,4093
+bytechomp-0.1.1.dist-info/LICENSE,sha256=tFTn313rNJytSCOaghaSLPqvaC5bmkqYAH2OY_QV7Ic,1078
+bytechomp-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bytechomp-0.1.1.dist-info/METADATA,sha256=Uj2TcLxSr7p9Mi2StNaVCovaY-xnVblGvqLtp-Mu3yE,6299
+bytechomp-0.1.1.dist-info/RECORD,,
