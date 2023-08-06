@@ -1,0 +1,8 @@
+odoo/addons/project_timesheet_read_permission/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/project_timesheet_read_permission/__manifest__.py,sha256=9H8iP4uhW3jtv5kEdCs-y_xqGElDOGlvnlbqPSnNUSk,585
+odoo/addons/project_timesheet_read_permission/models/__init__.py,sha256=qwJgxxV6TYo8-90lptVpRiXV6qqrm0XyBxbq8yty8Y4,27
+odoo/addons/project_timesheet_read_permission/models/hr_timesheet.py,sha256=k2hS0bfYsYkYWsqiN67IHNQ1Ilp6mARMo8OOHLjj0tA,787
+odoo12_addon_project_timesheet_read_permission-12.0.0.0.5.99.dev2.dist-info/METADATA,sha256=rrpqD5n6xSGLjAMCbf3Co4-LN-ljkUYsfroRJephCyU,583
+odoo12_addon_project_timesheet_read_permission-12.0.0.0.5.99.dev2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+odoo12_addon_project_timesheet_read_permission-12.0.0.0.5.99.dev2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_project_timesheet_read_permission-12.0.0.0.5.99.dev2.dist-info/RECORD,,
