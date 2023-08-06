@@ -1,0 +1,3 @@
+[console_scripts]
+zsh2xonsh = zsh2xonsh.__main__:zsh2xonsh
+

@@ -1,0 +1,12 @@
+zsh2xonsh/__init__.py,sha256=Nf6KnapC5SSpotG79H7QPi6HUocsbBXEScDRLbf45pY,2344
+zsh2xonsh/__main__.py,sha256=oTT6ozQrjT83ucBvJqdfdKPy_AyuOh80L846xrsdI8o,1293
+zsh2xonsh/ast.py,sha256=_OBoL7RqCB2JkYFSRZCFvSpqFwA_GeB3GV7uJww0sBo,2966
+zsh2xonsh/parser.py,sha256=z-hVYARJ9I2aEh9iGE9Z7Vhn-xk6HGR33nT-5fqqnHQ,14153
+zsh2xonsh/runtime.py,sha256=-b9inmm5kO7BniGUnizo2auWk9ekntS0SXcMY0DKqpQ,3390
+zsh2xonsh/translate.py,sha256=5gLF47hPqzW27ysm1SnYosg2OHq6HuYARGpFBcD2hNM,560
+zsh2xonsh-0.1.0b1.dist-info/LICENSE.md,sha256=e6rnfqcIZUzqPpNnEdOWcoeavQWVqNgjDg2cohTc4FM,1087
+zsh2xonsh-0.1.0b1.dist-info/METADATA,sha256=NouL2mojVpfxAstwD6vWVAUIum1S1dqUq2CGThKvazQ,4383
+zsh2xonsh-0.1.0b1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+zsh2xonsh-0.1.0b1.dist-info/entry_points.txt,sha256=I98znikillXJGZmxKDKiQQ0RpsG8K6M58vEDEIyon_Q,60
+zsh2xonsh-0.1.0b1.dist-info/top_level.txt,sha256=sRQtllLwqa7pTFd07erEPuGeoF6meMYlIU44Ad7-4xc,10
+zsh2xonsh-0.1.0b1.dist-info/RECORD,,
