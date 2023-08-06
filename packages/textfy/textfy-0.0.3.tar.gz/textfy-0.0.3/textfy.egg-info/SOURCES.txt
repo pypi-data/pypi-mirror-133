@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+textfy.egg-info/PKG-INFO
+textfy.egg-info/SOURCES.txt
+textfy.egg-info/dependency_links.txt
+textfy.egg-info/requires.txt
+textfy.egg-info/top_level.txt
