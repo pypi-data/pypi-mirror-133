@@ -1,0 +1,15 @@
+progja/__init__.py,sha256=zhw7oI65rLvirnUFRtwuxM63JBHBv_AQ5B8DRli6Nvw,120
+progja/data.py,sha256=mLt0vzOBG-HAWSrgkAuxWuGoN2SlXyF2uNU3wL3cm7U,1213
+progja/decks.py,sha256=7oMATY2pkcsUVT_1fUhtq7hOisWRz-X4iCFnf2mOcE4,13117
+progja/entities.py,sha256=kvCa2up6gBJ-oxS35q_NcaMLaHiAUWFBWWowV7MTTLA,400
+progja/kanji.py,sha256=1h6f17O1Y1zqkQrQPnEmZwAHXVxZqDCV0JaNfRz0bBA,9351
+progja/logging.py,sha256=ZlZNrE9DOlHUqqQEAzUQIRvLlEHodgmLscBJuboqLzY,261
+progja/paths.py,sha256=yHyyBhPe0Z4Jz2gQsLhHt6ncYOK2xUxo6gTq9WXfQDs,603
+progja/sentences.py,sha256=sYg6qcW92zjukkjrLgHGhwVIzhDslJIcFtQZ9nioQCs,4595
+progja/tokenizer.py,sha256=wp4bEquEKew1qMYqZOjHt7ThNwuzVkr6ys5MkM5eEl0,1421
+progja/words.py,sha256=hij8wJ3MsTjGhL6HpVq7f-4gUUKqiad9tNk6mGcdr0Y,8601
+progja-0.1.0.dist-info/LICENSE,sha256=xjYlqAzDLlz1pSyyMK3rpYK4ChCWr4EI3FMex1KWTHE,1058
+progja-0.1.0.dist-info/METADATA,sha256=xEiyfYjPTCWpwhkWgfej3agUvitq_0X-NW0V3tQrhqY,17018
+progja-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+progja-0.1.0.dist-info/top_level.txt,sha256=6mjhZQNO0xPwCjoTrMLb6Z_Qn2Pwh02gP0O15mOpm0c,7
+progja-0.1.0.dist-info/RECORD,,
