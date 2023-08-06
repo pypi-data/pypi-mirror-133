@@ -1,0 +1,12 @@
+pickley/__init__.py,sha256=5-JF6LL2kv-6sb-cDMHMLT0h8i9GFT0XaUbirNJydo4,34306
+pickley/__main__.py,sha256=BXKzEkf5deKQq28RdrgxC_uKqz6CZ8zMXoRxHXrrnYs,239
+pickley/bstrap.py,sha256=tk9uv5eB-7uOWJHKQ9FR0BiAPMVRmVGtS9nQJ2rlMhc,8480
+pickley/cli.py,sha256=GeWQTXCiFNJ_64cjLIluliIZ29B3iEiqUhbGglMjolw,24821
+pickley/delivery.py,sha256=6A2oUUwwIbZTTVbI8wmdBYL95CMDEHzctA-a5_aHjVU,6611
+pickley/package.py,sha256=G1AzbjoH-jjP80A2WgO6dYIkgzxThEAMwBODvqE9Ga0,11997
+pickley-3.0.6.dist-info/LICENSE,sha256=D3rgeg_D_Mr05-eIjfUkc6vLwrKbR7fCz-jBJVKOFTY,1068
+pickley-3.0.6.dist-info/METADATA,sha256=dVQaP-rUBYM9JPiMlhtHJ6r6lDN53PGKfUoD19C8nd8,6417
+pickley-3.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pickley-3.0.6.dist-info/entry_points.txt,sha256=R9LGP78pqDpNbir1Db4AFOq9eiiTkjiKujXL-7OgO5Y,51
+pickley-3.0.6.dist-info/top_level.txt,sha256=WqF9O026KmjRFWMsE_TexOGwH55_tfkFf8KqpOak2LM,8
+pickley-3.0.6.dist-info/RECORD,,
