@@ -1,0 +1,3 @@
+[nbconvert.exporters]
+KULeuven = nbconvert_styles:KULeuvenExporter
+
