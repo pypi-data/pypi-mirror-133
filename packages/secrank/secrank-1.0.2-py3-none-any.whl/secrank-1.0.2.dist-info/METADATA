@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: secrank
+Version: 1.0.2
+Summary: Python library and command-line tool for SecRank (https://secrank.com)
+Home-page: https://github.com/SecRank/secrank-api
+Author: iliwoy
+Author-email: iliwoy@gmail.com
+License: UNKNOWN
+Keywords: security tool,secrank,command tool
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+Requires-Dist: argparse
+Requires-Dist: pandas
+Requires-Dist: requests
+
+secrank-api
+--------------
+
+Installation
+~~~~~~~~~~~~~~~~~
+
+::
+
+   pip3 install secrank
+
+
+API Token
+~~~~~~~~~~~~~~~~~~~
+
+::
+
+   ~/.secrank.lic
+
+
+Usage
+~~~~~~~~~~~~~~~~~~~
+
+::
+
+  secrank <api_type> [options]
+
+  Example: secrank pdns -d www.google.com
+
+
+pdns
+~~~~~~~~~~~~~~~~~~~
+
+::
+
+  $ secrank pdns -h
+  usage: secrank [-h] [-d DOMAIN] [-a ANSWER] [-s SORT] [-l LIMIT] [-st SORT_TYPE] [-rtype RTYPE] [-top TOP] [-tail TAIL]
+  secrank-pdns command line tool
+  optional arguments:
+    -h, --help            show this help message and exit
+    -d DOMAIN, --domain DOMAIN
+                          query domain
+    -a ANSWER, --answer ANSWER
+                          response rrdata
+    -s SORT, --sort SORT  sort by
+    -l LIMIT, --limit LIMIT
+                          limit
+    -st SORT_TYPE, --sort-type SORT_TYPE
+                          sort by
+    -rtype RTYPE, --rtype RTYPE
+                          request type
+    -top TOP, --top TOP   top rows
+    -tail TAIL, --tail TAIL
+                          last rows
+
+::
+
+   Examples:
+   secrank pdns -d www.baidu.com
+   secrank pdns -d www.baidu.com -top 10
+   secrank pdns -d www.baidu.com -l 100 -top 100 -s count
+
+
