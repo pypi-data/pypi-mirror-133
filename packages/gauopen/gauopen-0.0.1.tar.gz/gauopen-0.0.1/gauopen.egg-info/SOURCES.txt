@@ -1,0 +1,5 @@
+setup.py
+gauopen.egg-info/PKG-INFO
+gauopen.egg-info/SOURCES.txt
+gauopen.egg-info/dependency_links.txt
+gauopen.egg-info/top_level.txt
