@@ -1,0 +1,5 @@
+pop>=20.1.1
+pop-config>=8.0.1
+pop-tree
+starlette
+uvicorn
