@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-time_series_plotter = napari_time_series_plotter
+
