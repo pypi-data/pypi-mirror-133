@@ -1,0 +1,9 @@
+notion_cli_list_manager/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+notion_cli_list_manager/main.py,sha256=GfspG8IFPtuhFyHC9lzr4ofcI58OJpNECW4EJKjmmpM,4197
+notion_cli_list_manager/page.py,sha256=D_6F9_fIiLTQAWxag3U24zzpDrVktEsq_p_k5VSihfA,11727
+notion_cli_list_manager/utils.py,sha256=CeDLFAvgL7mu1M0jVGj0g-4sRIy4JvbAnn0g1sHCxZU,3363
+notion_cli_list_manager-0.1.6.dist-info/entry_points.txt,sha256=8JbNcqzhk_Djkd8wecZ96gDYzmyO8fpGverfW7OsnHM,57
+notion_cli_list_manager-0.1.6.dist-info/LICENSE,sha256=awBJD0-TYxdM7AlanemjHfw-YIZamdmvq9o4e9yDozI,1071
+notion_cli_list_manager-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+notion_cli_list_manager-0.1.6.dist-info/METADATA,sha256=wR2sH8JNwx_4Pplmxht6lOSyLL-XJdAX-1D7pslqqcg,4796
+notion_cli_list_manager-0.1.6.dist-info/RECORD,,
