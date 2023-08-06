@@ -1,0 +1,8 @@
+indexed_zstd.cpython-38-x86_64-linux-gnu.so,sha256=2wDexajI-t2dRrFxE9y-agqTFZe9QcIf3egEQTw4Xtc,982272
+indexed_zstd.pypy38-pp73-x86_64-linux-gnu.so,sha256=BIV3Z6e5Nt0agAFCi-5OByqPWGvBsO2v9H4KvhVVZDQ,302376
+indexed_zstd.libs/libzstd-87699e38.so.1.5.0,sha256=2LPf_OEWfnM2uTLDnWpIgjmXJndlGgf2JbUfqX0AfPY,1087592
+indexed_zstd-1.4.0.dist-info/METADATA,sha256=vdM-NgFm-CTpqHgtmmaheEHD9uD-pKxkmV3cyr0jR0g,2651
+indexed_zstd-1.4.0.dist-info/WHEEL,sha256=WDsEedEc-zuvFdAjpMPfD2PW4LQ4fAbKttt3-rX_BAw,162
+indexed_zstd-1.4.0.dist-info/RECORD,,
+indexed_zstd-1.4.0.dist-info/LICENSE,sha256=QUjPOoQuYP2bjG2DGVd6KdRlqXZZIEzoqcMrI5GlaBA,1073
+indexed_zstd-1.4.0.dist-info/top_level.txt,sha256=tkkGypvUTCsF8ay222j7gttRUTht3qmfqTsTGmJeriY,13
