@@ -1,0 +1,15 @@
+clack/__init__.py,sha256=vJBLLK5HNLAs1N8crsTdVh_9tD5FaNwTltpl6kpeZoA,822
+clack/_config.py,sha256=7uCQ4BBMiHHWvzNB6j-JhqwLbqC0u9XN_xgdAs_n5M4,8689
+clack/_config_file.py,sha256=QhE9yH-xh_Bo-DIqO_zmcZNcbvXUKDED9qNYNBmueeQ,4029
+clack/_dynvars.py,sha256=PDMb3nkyJdYwlzLlTOmp50Il7HkjM1GAB4ooYfphd54,3202
+clack/_helpers.py,sha256=JHHVnmhmvXxak1fl7UEq6HcoE4Fw-N9SZVIQ3bYY3Us,3817
+clack/_main.py,sha256=Pp4axSfdkMCFZSMUAADffD3BDljEtkIH5pUk-jZss9g,7382
+clack/_parser.py,sha256=kBaFr7_bX20qCLGzSsN2kJEj0EAS2KPI5M963n2ueLs,9096
+clack/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clack/pytest_plugin.py,sha256=pkWS2li5wTGwKw909K6QxMcmZReE9mLmiaWTbElmZ5Y,1473
+clack/types.py,sha256=H7JE_Iz80wBW-MQCOsCzpQ2wHOLbk7qV4ZaDKI00XPc,2439
+clack/xdg.py,sha256=W1QqG7VgRhKb4fzGthK5QrDWvb63ku9oIioQI6TWYEo,1573
+bolton_clack-0.3.1.dist-info/METADATA,sha256=FI-D9RmkinbNMr7pG16qizKiM1R92Q3ul2J5A2oapsw,3966
+bolton_clack-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bolton_clack-0.3.1.dist-info/top_level.txt,sha256=fcDro1HjPX_QvEG6RyKyQUWc9-M2-zzqFjwO7Vyhubg,6
+bolton_clack-0.3.1.dist-info/RECORD,,
