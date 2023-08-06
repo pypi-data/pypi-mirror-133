@@ -1,0 +1,12 @@
+biosimulators_opencor/__init__.py,sha256=poWtJibuvt67GQusAZaG8mi9AtWG6uZgbWq8HjX0BhQ,963
+biosimulators_opencor/__main__.py,sha256=jtiTHWrEDk7HqIQSQMCwbpgq24RQQtb-uHTyiiSnw_k,680
+biosimulators_opencor/_version.py,sha256=TGm5o7p3ShIWzOgAg0OFyfRSoAdGfgGCcpcBABWZEKk,23
+biosimulators_opencor/core.py,sha256=8nh9tEYNx0svyMKJtOPXFpT57834W9mNzuY00XLWbhA,9505
+biosimulators_opencor/data_model.py,sha256=WQKcN8B3u2cfXjCuW56ebcMgM0oWHaeXVNnX0OintZg,6907
+biosimulators_opencor/utils.py,sha256=vs-kmG9J7F9qAUHMzDWkzWGr3nzI8s3f9Va_0PWllpw,19578
+biosimulators_opencor-0.0.13.dist-info/LICENSE,sha256=TXS9OfZfmF1dUckyYqUnvGbeWNrUcrD4aSzR0v4Kp8o,1110
+biosimulators_opencor-0.0.13.dist-info/METADATA,sha256=NuljVOACyPoAPo6W9JCbcPQyV0zpknaa5X0mMHfSTLM,5814
+biosimulators_opencor-0.0.13.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+biosimulators_opencor-0.0.13.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+biosimulators_opencor-0.0.13.dist-info/top_level.txt,sha256=zjYqdTiEbcpVyuAqN5DmPjsCYQ3essA97735eiQ17oA,22
+biosimulators_opencor-0.0.13.dist-info/RECORD,,
