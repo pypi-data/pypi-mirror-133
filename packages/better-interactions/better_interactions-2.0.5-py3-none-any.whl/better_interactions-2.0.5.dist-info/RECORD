@@ -1,0 +1,11 @@
+interactions/ext/better_interactions/__init__.py,sha256=HH0ce4PB4AjVRB1zG-H0V2s5kTXoIgvrCDuU-SQZMzY,251
+interactions/ext/better_interactions/callback.py,sha256=vAhwdFGM6l_TnmsoqAYM1z7OCylVkSuNQ1ilwIb2E3M,1727
+interactions/ext/better_interactions/components.py,sha256=6sMfmFgNQfSNhFCJkAB2Kg6vAZ0B2WWhr1ADnZ9B6as,5052
+interactions/ext/better_interactions/context_menu.py,sha256=upRaqEySv7Dgn-KjO2aBfRdAGyZEgCfE-8ZHqVr0ufM,4568
+interactions/ext/better_interactions/setup.py,sha256=gaa1UraXWJ68pu1uFnqKYD2YHCYWg4tETFNfIKz2k3Q,3280
+interactions/ext/better_interactions/subcomand.py,sha256=Q6nGPGLxd9XaFrxjRm22lgJsPs9863Xz42bSkB36wiM,8264
+better_interactions-2.0.5.dist-info/LICENSE,sha256=zxQTuGZSdkFqU62hopPQDkisKoa3YviIyEtjWYN52wY,1065
+better_interactions-2.0.5.dist-info/METADATA,sha256=IiXTPuBcbnftgXVukpqMk8_bEY5l6E5qppHzyrgqIxw,8397
+better_interactions-2.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+better_interactions-2.0.5.dist-info/top_level.txt,sha256=6JGZJLyYYS31pX0unnc-w68SixoVQ_vd0-abkVS3_m0,13
+better_interactions-2.0.5.dist-info/RECORD,,
