@@ -1,0 +1,9 @@
+opia/__init__.py,sha256=hAqfTZA1AWlM_0OO9ihabukRVp8OGjUGH_kPBr0uPWY,67
+opia/docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opia/geography/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opia/geography/distance.py,sha256=zeVFWYSoV6V6DOt3p8c7OqdbknsTx17xAv0WGt-Gxhw,2426
+opia/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opia-1.0.1.dist-info/METADATA,sha256=KL8Ot4POfI2AEAy2_JSWMsEWfOoR8VxmwCgLSkn3YrQ,449
+opia-1.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+opia-1.0.1.dist-info/top_level.txt,sha256=m722owWJ2sQDo39G8w7tzUslTvDhr3Otf4gaiaFS4y4,5
+opia-1.0.1.dist-info/RECORD,,
