@@ -1,0 +1,7 @@
+README.md
+setup.py
+scrapzon/scrapzon.egg-info/PKG-INFO
+scrapzon/scrapzon.egg-info/SOURCES.txt
+scrapzon/scrapzon.egg-info/dependency_links.txt
+scrapzon/scrapzon.egg-info/requires.txt
+scrapzon/scrapzon.egg-info/top_level.txt
