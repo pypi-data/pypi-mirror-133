@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+uni_translate/__init__.py
+uni_translate/cli.py
+uni_translate.egg-info/PKG-INFO
+uni_translate.egg-info/SOURCES.txt
+uni_translate.egg-info/dependency_links.txt
+uni_translate.egg-info/entry_points.txt
+uni_translate.egg-info/top_level.txt
