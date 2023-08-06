@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/svgsprite/__init__.py
+src/svgsprite/svgsprite.py
+src/svgsprite.egg-info/PKG-INFO
+src/svgsprite.egg-info/SOURCES.txt
+src/svgsprite.egg-info/dependency_links.txt
+src/svgsprite.egg-info/entry_points.txt
+src/svgsprite.egg-info/top_level.txt
