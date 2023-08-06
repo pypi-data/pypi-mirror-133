@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zen-core"
+version = "0.2.4"
+description = "Github API zen core utilities"
+authors = ["dragosdumitrache <dragos@afterburner.dev>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"github3.py" = "^2.0.0"
+click = "^8.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
