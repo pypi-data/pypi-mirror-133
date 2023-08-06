@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: magoplotlib
+Version: 0.0.2
+Summary: Attentive External Library of matplotlib
+Home-page: https://github.com/15b3/magoplotlib
+Author: 15b3
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Matplotlib
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+
+# magoplotlib
+
+Attentive External Library of [matplotlib](https://matplotlib.org/stable/index.html)
+
+## Features
+
+- plotting timestamp on a Figure.
+
+![timestamp example](images/add_timestamp.png)
+
+- plotting message on an Axes.
+
+![message example](images/add_message.png)
+
+## Requirements
+
+- matplotlib
+
+## Installation
+
+```
+pip install magoplotlib
+```
+
+## Usage
+
+```python
+from magoplotlib import add_timestamp
+
+add_timestamp(fig)
+```
+
+
