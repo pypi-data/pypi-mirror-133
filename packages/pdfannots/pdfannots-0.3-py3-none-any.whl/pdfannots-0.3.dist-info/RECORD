@@ -1,0 +1,15 @@
+pdfannots/__init__.py,sha256=bZneXjs1i_yWiDirZAK03p1pYwIk544-FEVEmnHpu4E,19835
+pdfannots/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+pdfannots/cli.py,sha256=YKw5Q-T3Fzjqcb4gWbm3eLEtwOVzv_yyiIShJ0bRHWM,7254
+pdfannots/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdfannots/types.py,sha256=5gy2FwV4XbTRO23VwDsd4ore6ot9C9VR5yawvKQDvE0,16343
+pdfannots/utils.py,sha256=QuRBs63IgjQNyG5w65vLQZXWhVf7Qngyl56dRlRYAGg,3868
+pdfannots/printer/__init__.py,sha256=qfPa9mi4iEf0gfe67E9gzppmnKxniKZUuxOo0wyv5go,740
+pdfannots/printer/json.py,sha256=sTD55NRK8ZrILZz9CL594Who69SzY6W8nsN-Y-_cikk,1752
+pdfannots/printer/markdown.py,sha256=I2z46Mu8oynxLqp1r4AETnwiaaPdjo-BMcxxap32QME,11256
+pdfannots-0.3.dist-info/LICENSE.txt,sha256=4DdnkvlPYFW-1Lu3vplJ-R1U6x83Z6N1PB0yEHosncY,1096
+pdfannots-0.3.dist-info/METADATA,sha256=0uvoba27iFtlVZJKxhN0wiMd10gBx89cxJSbi--reF8,5335
+pdfannots-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pdfannots-0.3.dist-info/entry_points.txt,sha256=hps3HFPPYw7R_Lda514vFffu13gXCpnhUBC6GxNtRtE,50
+pdfannots-0.3.dist-info/top_level.txt,sha256=AVSucLmzvNqukVmuONm3AL8Zhxl8E07cPr48r1ulN0E,10
+pdfannots-0.3.dist-info/RECORD,,
