@@ -1,0 +1,15 @@
+mdforce/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdforce/terms.py,sha256=isV3y3uYQroFCoM2osunD9dE04OfGEjCtzNMHLNhT5g,7027
+mdforce/terms_iter.py,sha256=fxAUg7KVcRSXttmc39fC-uLW1L2YLTle8cov58XYSGo,5681
+mdforce/terms_vectorized.py,sha256=p80ynfRB0gLEF3GYOCB4Q6jSlLG1n9r1hKJdm9aaxb8,3978
+mdforce/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdforce/models/water/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdforce/models/water/flexible_3site_spc/__init__.py,sha256=acuueQ1HP_blw1dVtBBoBc9bwVu_lanQN_OjsiTb2t0,82
+mdforce/models/water/flexible_3site_spc/_create_force_field.py,sha256=pglIjSMbyBnuAWtabvhMohrZoocZH2HKG7z4EHI6FgQ,1384
+mdforce/models/water/flexible_3site_spc/_find_interacting_partners.py,sha256=NAIGYwnUuFSjnQBtRtt-yz4D_4B5FsJOyuscL4ycQQQ,15416
+mdforce/models/water/flexible_3site_spc/_read_params.py,sha256=usG0ZaBi-Riud-uWx1w_TflEnikI74zBb6ZaYew6Pis,1542
+mdforce-0.0.0.dist-info/LICENSE,sha256=ILBn-G3jdarm2w8oOrLmXeJNU3czuJvVhDLBASWdhM8,34522
+mdforce-0.0.0.dist-info/METADATA,sha256=L1FkAV4oF1iSrvfe5-KdvRZuV2x87leysAD9cEpUUco,1915
+mdforce-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mdforce-0.0.0.dist-info/top_level.txt,sha256=7ap2tDkZyQFcMf0oagtsufF65uCl6mVYeujyHDax9og,8
+mdforce-0.0.0.dist-info/RECORD,,
