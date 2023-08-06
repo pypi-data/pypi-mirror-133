@@ -1,0 +1,9 @@
+LICENSE.Apache-2.0
+LICENSE.MIT
+README.md
+pydocker.py
+setup.py
+pydocker.egg-info/PKG-INFO
+pydocker.egg-info/SOURCES.txt
+pydocker.egg-info/dependency_links.txt
+pydocker.egg-info/top_level.txt
