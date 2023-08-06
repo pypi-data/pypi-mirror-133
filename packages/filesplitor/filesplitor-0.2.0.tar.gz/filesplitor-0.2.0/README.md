@@ -1,0 +1,71 @@
+# file-split
+
+Split file into small ones.
+
+
+## Install
+
+```
+pip install filesplitor
+```
+
+## Usage
+
+```
+E:\workspace\filesplitor>filesplitor split test.txt -s 2
+Split file [test.txt] into 2B sized files...
+test.txt.1
+test.txt.2
+Done!
+
+E:\workspace\filesplitor>filesplitor merge b.txt test.txt.*
+Merge files ['test.txt.1', 'test.txt.2'] into one file [b.txt]...
+Done!
+```
+
+## Command Help
+
+```
+C:\workspace\filesplitor>filesplitor --help
+Usage: filesplitor [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  merge  Merge samll files into one large file.
+  split  Split a file into small ones.
+
+C:\workspace\filesplitor>filesplitor split --help
+Usage: filesplitor split [OPTIONS] SRC [DST]
+
+  Split a file into small ones.
+
+Options:
+  -s, --size INTEGER  File slice size, default to 1G. Accepted units are B, K,
+                      M, G, T.  [required]
+
+  --help              Show this message and exit.
+
+C:\workspace\filesplitor>filesplitor merge --help
+Usage: filesplitor merge [OPTIONS] DST FILENAMES...
+
+  Merge samll files into one large file.
+
+Options:
+  --help  Show this message and exit.
+
+C:\workspace\filesplitor>
+```
+
+
+## Releases
+
+### v0.1.0 2019/04/14
+
+- First release.
+
+### v0.2.0 2022/01/07
+
+- Repack to fix license file missing problem.
+- Add document.
