@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyGL.py
+src/pyGL_SukyLaplante.egg-info/PKG-INFO
+src/pyGL_SukyLaplante.egg-info/SOURCES.txt
+src/pyGL_SukyLaplante.egg-info/dependency_links.txt
+src/pyGL_SukyLaplante.egg-info/top_level.txt
