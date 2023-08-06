@@ -1,0 +1,4 @@
+[console_scripts]
+cryptnoxcard = cryptnoxcard.card:main
+cryptnoxtoken = cryptnoxcard.nft:main
+
