@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: drinkingbird
+Version: 0.1.2
+Summary: Program to keep your browser/computer active
+Home-page: https://github.com/Dih5/drinkingbird
+Author: Dih5
+Author-email: dihedralfive@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+Provides-Extra: test
+
+# drinkingbird
+
+Program to keep your browser/computer active.
+
+![Alt Text](img/drinkingbird.gif)
+
+## Installation
+
+Assuming you have a [Python3](https://www.python.org/) distribution
+with [pip](https://pip.pypa.io/en/stable/installing/), to install a development version, cd to the directory with this
+file and:
+
+```
+pip3 install -e .
+```
+
+As an alternative, a virtualenv might be used to install the package:
+
+```
+# Prepare a clean virtualenv and activate it
+virtualenv -p /usr/bin/python3.6 venv
+source venv/bin/activate
+# Install the package
+pip3 install -e .
+```
+
+To install also the dependencies to run the tests or to generate the documentation install some of the extras like
+
+```
+pip3 install -e '.[docs,test]'
+```
+
+Mind the quotes.
+
+## Usage
+
+To run, open a browser in the foreground and execute:
+
+```
+drinkingbird
+```
+
+This will cycle tabs each 10 s.
+
+To stop it, just press Esc.
+
+For more options see
+
+```
+drinkingbird --help
+```
+
+
