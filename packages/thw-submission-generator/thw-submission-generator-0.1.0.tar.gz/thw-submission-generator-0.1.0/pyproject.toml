@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "thw-submission-generator"
+version = "0.1.0"
+description = "Generate map descriptions for hiveworkshop.com"
+authors = ["Cokemonkey11 <Cokemonkey11@gmail.com>"]
+license = "mit"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+"ruamel.yaml" = "^0.17.20"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+thw-submission-generator = 'thw_submission_generator:main'
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
