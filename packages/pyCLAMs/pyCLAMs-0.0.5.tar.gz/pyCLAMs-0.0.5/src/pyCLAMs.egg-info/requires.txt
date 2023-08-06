@@ -1,0 +1,6 @@
+rpy2>=3.4.1
+scikit-learn
+uuid>=1.0
+pandas
+matplotlib
+numpy
