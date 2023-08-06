@@ -1,0 +1,89 @@
+defaults:
+  actions:
+    queue:
+      name: default
+      method: squash
+      update_method: rebase
+      commit_message_template: |
+        {{ title }} (#{{ number }})
+
+        {{ body }}
+    squash:
+      commit_message: first-commit
+
+queue_rules:
+  - name: default
+    conditions:
+      - check-success=tox (3.8.0, py38)
+      - check-success=tox (3.9.0, py39)
+      - check-success=tox (3.10.0, py310)
+      - check-success=tox (3.10.0, pep8)
+    speculative_checks: 5
+
+  - name: lowprio
+    conditions:
+      - check-success=tox (3.8.0, py38)
+      - check-success=tox (3.9.0, py39)
+      - check-success=tox (3.10.0, py310)
+      - check-success=tox (3.10.0, pep8)
+    speculative_checks: 3
+    batch_size: 5
+
+pull_request_rules:
+  - name: automatic merge
+    conditions:
+      - base=main
+      - check-success=semantic-pull-request
+      - check-success=tox (3.8.0, py38)
+      - check-success=tox (3.9.0, py39)
+      - check-success=tox (3.10.0, py310)
+      - check-success=tox (3.10.0, pep8)
+      - or:
+          - "#approved-reviews-by>=1"
+          - label=no-review-needed
+      - "#changes-requested-reviews-by=0"
+      - "#commits=1"
+      - label!=work-in-progress
+      - label!=manual merge
+    actions:
+      queue:
+
+  - name: automatic merge from dependabot
+    conditions:
+      - check-success=semantic-pull-request
+      - author=dependabot[bot]
+      - label!=work-in-progress
+      - label!=manual merge
+      - "#commits=1"
+    actions:
+      queue:
+        method: rebase
+        commit_message_template: null
+        name: lowprio
+
+  - name: dependabot conflict fixer
+    conditions:
+      - author=dependabot[bot]
+      - conflict
+    actions:
+      comment:
+        bot_account: mergify-ci-bot
+        message: "@dependabot recreate"
+
+  - name: warn on conflicts
+    conditions:
+      - conflict
+      - -closed
+    actions:
+      comment:
+        message: "@{{author}} this pull request is now in conflict 😩"
+      label:
+        add:
+          - conflict
+  - name: remove conflict label if not needed
+    conditions:
+      - -conflict
+    actions:
+      label:
+        remove:
+          - conflict
