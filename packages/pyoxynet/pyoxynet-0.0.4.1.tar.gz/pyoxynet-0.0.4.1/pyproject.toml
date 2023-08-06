@@ -1,0 +1,7 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel", 
+    '--extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime'
+]
+build-backend = "setuptools.build_meta"
