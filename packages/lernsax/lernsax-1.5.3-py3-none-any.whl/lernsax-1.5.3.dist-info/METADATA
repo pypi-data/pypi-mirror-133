@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: lernsax
+Version: 1.5.3
+Summary: A Python Async LernSax Client
+Home-page: https://github.com/okok7711/lernsax
+Author: okok7711
+Author-email: okok7711@etstun.de
+License: MIT License
+Keywords: lernsax,client,files,internet,download,upload,sachsen,deutschland,ostdeutschland
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-box
+Requires-Dist: aiohttp
+Requires-Dist: aiodav
+
+**This project is in no way associated with LernSax, WebWeaver, DigiOnline GmbH or Freistaat Sachsen**
+
+## What is this?
+
+This is an API Wrapper for the LernSax API using aiohttp. Please note that we do not encourage taking any harmful actions against anyone using this wrapper.
+
+## Installation
+LernSax is available on pip!
+`pip install lernsax`
+You can also install directly from the repo via
+`python -m pip install git+https://github.com/okok7711/lernsax.git`
+
+
+## Documentation?
+Basic Documentation, generated with pdoc, for this module is available [here](https://okok7711.github.io/lernsax/)
+For Documentation of the actual LernSax jsonrpc API you should probably still stick to  [this repo](https://github.com/TKFRvisionOfficial/lernsax-webweaver-api-research)
+
+## Example Usage
+```
+import lernsax
+import asyncio
+
+async def main():
+    client = await lernsax.Client(
+    email="",
+    password=""
+    )
+    await client.login(client.email, client.password)
+    print(await client.get_emails("494e424f58"))
+
+asyncio.get_event_loop().run_until_complete(main())
+```
+
+## Accessing Files via WebDav
+This module has built-in support for WebDav via aiodav \
+just use the lernsax.Client() class the same as if it was the aiodav.Client().\
+visit [this repo](https://github.com/jorgeajimenezl/aiodav) for more info and examples for aiodav\
+\
+Example (as in [the examples dir](https://github.com/okok7711/lernsax/tree/main/examples)):
+```
+import lernsax
+import asyncio
+
+async def main():
+    client = await lernsax.Client(
+        email="",
+        password=""
+    )
+    await client.login(client.email, client.password)
+    dirs = await client.list()
+    print(dirs)
+
+asyncio.get_event_loop().run_until_complete(main())
+```
+
+
