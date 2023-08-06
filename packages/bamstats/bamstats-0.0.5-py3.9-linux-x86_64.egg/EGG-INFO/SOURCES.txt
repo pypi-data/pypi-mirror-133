@@ -1,0 +1,17 @@
+README.en.md
+README.md
+basecount.pyx
+requirements.txt
+setup.py
+./bamstats/__init__.py
+bamstats/__init__.py
+bamstats/opt.c
+bamstats/opt.html
+bamstats/opt.pyx
+bamstats.egg-info/PKG-INFO
+bamstats.egg-info/SOURCES.txt
+bamstats.egg-info/dependency_links.txt
+bamstats.egg-info/requires.txt
+bamstats.egg-info/top_level.txt
+bamstats/__pycache__/__init__.cpython-39.pyc
+scripts/bamstats
