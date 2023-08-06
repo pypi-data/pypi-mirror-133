@@ -1,0 +1,2 @@
+include cccalculate/lang_build/*.so
+recursive-include cccalculate/vendor *
