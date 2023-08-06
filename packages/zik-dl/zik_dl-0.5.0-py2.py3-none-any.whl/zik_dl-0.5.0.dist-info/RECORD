@@ -1,0 +1,13 @@
+zik_dl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zik_dl/__main__.py,sha256=1k8Fl7L_F8OImoAZjxTWzpQQXboM-wR9iHcf3f8k3yw,733
+zik_dl/arguments.py,sha256=NhmRGaQ-y7Kp1ktjqIZZEhaiJEGQlvnhwXZEuFJETD0,1239
+zik_dl/downloader.py,sha256=aGmJpkx_vJfLginQKM7hWnsKR7zmju9vOL5X7XWUkgM,970
+zik_dl/files_manager.py,sha256=nalNhu2dpEEcdbcQY3oQLYXT9gAI6avjSerkaeiDaDk,1192
+zik_dl/settings.py,sha256=_XOLafmrK7-kqMpOEVdfzMw0Y69CMZTZSRRH25qjekE,45
+zik_dl/utils.py,sha256=CM9T3KTvrp7qwbFDwn764mjacJtcNfhhH-X4aLMJAu8,398
+zik_dl-0.5.0.dist-info/LICENSE,sha256=JedRSmmwKNH1K-TVuMEMlS1hoEwWbDoz2RGKWacNlMY,34449
+zik_dl-0.5.0.dist-info/METADATA,sha256=XhdE889Hc-gyHOaPOKVzCDoanZ97nDJE7aPVpPbn9Js,1377
+zik_dl-0.5.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+zik_dl-0.5.0.dist-info/entry_points.txt,sha256=ZbvtbCvh_OidjGt5doI0LXts6SSwd6M3bCBYEOwpiro,49
+zik_dl-0.5.0.dist-info/top_level.txt,sha256=8qd40VrSt7EoUKnG1t5OJVY8ZNZFBjSt0S2t8jc-66Q,7
+zik_dl-0.5.0.dist-info/RECORD,,
