@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+authtools.py
+setup.py
+authtools.egg-info/PKG-INFO
+authtools.egg-info/SOURCES.txt
+authtools.egg-info/dependency_links.txt
+authtools.egg-info/top_level.txt

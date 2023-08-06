@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: authtools
+Version: 0.0.3
+Summary: A Simple CLI Authentication System for Python
+Home-page: https://github.com/SavageDevelopment/Savage-AuthTools
+Author: SavageDevelopment
+Author-email: support@savagesmusic.com
+License: MIT
+Description: Here is a Simple Python Authentication System!
+        
+        Docs -- https://authtools-001.rtfd.io
+        
+        Savage Development 2022
+        
+        Version 0.0.1
+Keywords: authentication
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
