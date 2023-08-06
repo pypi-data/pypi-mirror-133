@@ -1,0 +1,3 @@
+[console_scripts]
+rts_package = rts_package.cli_pytorch:main
+
