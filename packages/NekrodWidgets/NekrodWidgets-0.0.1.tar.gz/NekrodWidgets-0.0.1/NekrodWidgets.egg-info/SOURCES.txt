@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+NekrodWidgets.egg-info/PKG-INFO
+NekrodWidgets.egg-info/SOURCES.txt
+NekrodWidgets.egg-info/dependency_links.txt
+NekrodWidgets.egg-info/requires.txt
+NekrodWidgets.egg-info/top_level.txt
+widgets/__init__.py
+widgets/color_select_button.py
