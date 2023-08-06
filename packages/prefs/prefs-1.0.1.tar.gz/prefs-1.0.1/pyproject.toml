@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "prefs"
+version = "1.0.1"
+description = "Store and manage preferences easily."
+license = "MIT"
+readme = "README.md"
+authors = ["Patitotective <cristobalriaga@gmail.com>"]
+homepage = "https://patitotective.github.io/PREFS/"
+repository = "https://github.com/Patitotective/PREFS/"
+documentation = "https://patitotective.github.io/PREFS/docs/"
+keywords = ["preferences", "settings", "prefs"]
+include = ["src/prefs/parser/grammar.lark"]
+classifiers = [
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+
+[tool.poetry.urls]
+"Changelog" = "https://patitotective.github.io/PREFS/about/changelog"
+"Bug Tracker" = "https://github.com/python-poetry/poetry/issues"
+"Discord Server" = "https://discord.gg/as85Q4GnR6"
+
+[tool.poetry.scripts]
+prefs = "prefs.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+lark = "^1.0.0"
+click = "^8.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
