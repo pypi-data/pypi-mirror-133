@@ -1,0 +1,5 @@
+[console_scripts]
+check-execution-order = madforhooks.check_execution_order:main
+conda-env-sorter = madforhooks.conda_env_sorter:main
+no-print-statements = madforhooks.no_print_statements:main
+
