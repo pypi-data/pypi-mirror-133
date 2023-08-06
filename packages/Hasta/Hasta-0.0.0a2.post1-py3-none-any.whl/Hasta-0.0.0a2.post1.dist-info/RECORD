@@ -1,0 +1,14 @@
+hasta/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hasta/hasta.py,sha256=uHjtYDNDG3Tu_FyZwg2sI_PSDFZd0fSC_lXC1ZK2fH8,299
+hasta/http/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hasta/http/app.py,sha256=k2H-IwENGVvqznYDhgb426Oim8r0jNvcnQvnXVe3kV8,1029
+hasta/http/environ.py,sha256=-qbIpCOgBX4MGvSE1tfw41WaAe-gY0NplyrEISQ7QPE,1510
+hasta/http/init.py,sha256=YvsC6P2Qzf6n3dShM3_Pk1JKJWQ2SEvcVr7kiGdlMM4,167
+hasta/http/main.py,sha256=jwXC2YGYeicm8GoX8kS170EQip75qxWMZXfnAjqueUc,3237
+hasta/http/request.py,sha256=FAMKbPcXk-Jnna1XqV4lkV92wYDfrAcpVgs9aHw3c54,2530
+hasta/http/response.py,sha256=7MtPcuIUn6coj3OEz2IZpbhz__N5v_7K9UvBO4LMwM8,1574
+Hasta-0.0.0a2.post1.dist-info/LICENSE.md,sha256=lCnoEuprJV4S4FEFuT7TmV9l2nNpBykS1Y6GvXI3gS8,1270
+Hasta-0.0.0a2.post1.dist-info/METADATA,sha256=9BsBmR3Rq2QlXYDAdTYMamcFhxqFBl_8rVr-52CCzrc,4510
+Hasta-0.0.0a2.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Hasta-0.0.0a2.post1.dist-info/top_level.txt,sha256=qhRB3CPdJ0jQ0s7rHRDxmoG2kjqplwtA6Qg8nWLjBCQ,6
+Hasta-0.0.0a2.post1.dist-info/RECORD,,
